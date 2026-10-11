@@ -1,0 +1,690 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-11T13:11:14.795627+00:00",
+  "ready_for_local_verifying_commit": true,
+  "findings": [],
+  "articles": [
+    {
+      "locale": "es",
+      "source": "_i18n/es/journeys/how-to-customize-a-playbook-safely.md",
+      "source_sha256": "fbcf73ac6ab8bbc90abc0e7ae643bfc9c2cb790d30085971622199bc3232dc7b",
+      "built_html": "_site/es/como-personalizar-una-mision.html",
+      "built_html_sha256": "dac1f461609e091eb45b39089798a50d4dcca6120445cf68fa7d2a6bc353fcb0",
+      "route": "/es/como-personalizar-una-mision.html",
+      "figure_sources": {
+        "prompt": {
+          "mobile": "/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+          "desktop": "/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png"
+        },
+        "tone": {
+          "mobile": "/images/captures/property-collector/tone-es-mobile.png",
+          "desktop": "/images/captures/property-collector/tone-es.png"
+        },
+        "intents": {
+          "mobile": "/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+          "desktop": "/images/team/ai-handoff-to-inbox/intents-es.png"
+        },
+        "knowledge": {
+          "mobile": "/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+          "desktop": "/images/journeys/how-to-customize-a-playbook-safely/upload-es.png"
+        },
+        "web-search": {
+          "mobile": "/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+          "desktop": "/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png"
+        },
+        "properties": {
+          "mobile": "/images/captures/property-collector/style-refresh/fields-es-mobile.png",
+          "desktop": "/images/captures/property-collector/style-refresh/fields-es.png"
+        },
+        "channels": {
+          "mobile": "/images/captures/property-collector/channels-es-mobile.png",
+          "desktop": "/images/captures/property-collector/channels-es.png"
+        },
+        "discount-percent": {
+          "mobile": "/images/captures/subscriber-booster/discount-mobile-es.png",
+          "desktop": "/images/captures/subscriber-booster/discount-mobile-es.png"
+        },
+        "store-promotions-entry": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/store-promotions-entry-es-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/store-promotions-entry-es-desktop.png"
+        },
+        "store-promotions": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/store-promotions-es-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/store-promotions-es-desktop.png"
+        },
+        "promotion-filter": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/promotion-filter-es-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/promotion-filter-es-desktop.png"
+        },
+        "followup-controls": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/followup-controls-es-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/followup-controls-es-desktop.png"
+        },
+        "followup-actions": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/followup-actions-es-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/followup-actions-es-desktop.png"
+        },
+        "followup-sequence": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/followup-sequence-es-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/followup-sequence-es-desktop.png"
+        },
+        "agent-wait-notice": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/agent-wait-notice-es-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/agent-wait-notice-es-desktop.png"
+        },
+        "escalation": {
+          "mobile": "/images/captures/property-collector/handoff-es-mobile.png",
+          "desktop": "/images/captures/property-collector/handoff-es.png"
+        },
+        "route-assignment": {
+          "mobile": "/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+          "desktop": "/images/team/ai-handoff-to-inbox/assignment-es.png"
+        }
+      },
+      "ordered_links": [
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/custom-agent-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_journeys/custom-agent-playbook.md",
+        "_captures/property-collector-playbook.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_captures/property-collector-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/review-builder-playbook.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_journeys/nps-pulse-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/what-are-signals.md",
+        "_journeys/getting-started-with-journeys.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_analytics-reporting-attribution/playbook-reporting.md"
+      ],
+      "heading_count": 25
+    },
+    {
+      "locale": "en",
+      "source": "_i18n/en/journeys/how-to-customize-a-playbook-safely.md",
+      "source_sha256": "39fc8f3d15c875e405a2ab7997026cf685f09ddfb1f88c33def4089167d6cd61",
+      "built_html": "_site/how-to-customize-a-playbook-safely.html",
+      "built_html_sha256": "8450efe78e5bbf42dc8dc232797e42fa9f987c5602c95c170f76fd96faf31a14",
+      "route": "/how-to-customize-a-playbook-safely.html",
+      "figure_sources": {
+        "prompt": {
+          "mobile": "/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+          "desktop": "/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png"
+        },
+        "tone": {
+          "mobile": "/images/captures/property-collector/tone-en-mobile.png",
+          "desktop": "/images/captures/property-collector/tone-en.png"
+        },
+        "intents": {
+          "mobile": "/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+          "desktop": "/images/team/ai-handoff-to-inbox/intents-en.png"
+        },
+        "knowledge": {
+          "mobile": "/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+          "desktop": "/images/journeys/how-to-customize-a-playbook-safely/upload-en.png"
+        },
+        "web-search": {
+          "mobile": "/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+          "desktop": "/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png"
+        },
+        "properties": {
+          "mobile": "/images/captures/property-collector/style-refresh/fields-en-mobile.png",
+          "desktop": "/images/captures/property-collector/style-refresh/fields-en.png"
+        },
+        "channels": {
+          "mobile": "/images/captures/property-collector/channels-en-mobile.png",
+          "desktop": "/images/captures/property-collector/channels-en.png"
+        },
+        "discount-percent": {
+          "mobile": "/images/captures/subscriber-booster/discount-mobile-en.png",
+          "desktop": "/images/captures/subscriber-booster/discount-mobile-en.png"
+        },
+        "store-promotions-entry": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/store-promotions-entry-en-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/store-promotions-entry-en-desktop.png"
+        },
+        "store-promotions": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/store-promotions-en-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/store-promotions-en-desktop.png"
+        },
+        "promotion-filter": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/promotion-filter-en-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/promotion-filter-en-desktop.png"
+        },
+        "followup-controls": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/followup-controls-en-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/followup-controls-en-desktop.png"
+        },
+        "followup-actions": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/followup-actions-en-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/followup-actions-en-desktop.png"
+        },
+        "followup-sequence": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/followup-sequence-en-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/followup-sequence-en-desktop.png"
+        },
+        "agent-wait-notice": {
+          "mobile": "/images/editorial/customize-safely-completion-20261011/agent-wait-notice-en-mobile.png",
+          "desktop": "/images/editorial/customize-safely-completion-20261011/agent-wait-notice-en-desktop.png"
+        },
+        "escalation": {
+          "mobile": "/images/captures/property-collector/handoff-en-mobile.png",
+          "desktop": "/images/captures/property-collector/handoff-en.png"
+        },
+        "route-assignment": {
+          "mobile": "/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+          "desktop": "/images/team/ai-handoff-to-inbox/assignment-en.png"
+        }
+      },
+      "ordered_links": [
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/custom-agent-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_journeys/custom-agent-playbook.md",
+        "_captures/property-collector-playbook.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_captures/property-collector-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/review-builder-playbook.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_journeys/nps-pulse-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/what-are-signals.md",
+        "_journeys/getting-started-with-journeys.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_analytics-reporting-attribution/playbook-reporting.md"
+      ],
+      "heading_count": 25
+    }
+  ],
+  "evidence": [
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/accepted-source-manifest.json",
+      "sha256": "d0c3414bd05a31029a5e8d963db0526643b8ff702396b65d469f91b2c93a101c"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/capture-closure.json",
+      "sha256": "0ff7da8b8cf76683e7815ee01531af124fbecbb7d603f21f7a4a978fd00d62e0"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/capture-provenance.json",
+      "sha256": "ed05706488c2833a4ddab4f2354422f20b75b7750fc5132226cfc4d580daa34f"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/evidence-index.json",
+      "sha256": "b46f085c780ecadc896fd0edc07a9766c400394e899e5dd3252c6816f9713496"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/integration-inputs.json",
+      "sha256": "5e079aefe42d7e145a2934888c18f213c94f81cdae9aae1b08afa975c4d4ed9f"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/integration-preservation-check.json",
+      "sha256": "1504d11b49a23ed1cb119f92508a5c34f440fb8180c4b5cea867277d238ddfbb"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/integration-record.json",
+      "sha256": "7926d7fa8faf21b45a8ceae55eab8dd9ca536ef0f23f82c427287ab2d2160153"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/integrator-independent-delta-review.json",
+      "sha256": "aeed7f7b09f17b6c7f8d7ff0b1d66c41c659d3b81341716c56699c1ecec01971"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/integrator-preparation.json",
+      "sha256": "0f4e3db58b275e2bcd72333b2e155c203138974910d988b7154f1cfa92a32a2b"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/integrator-review-fixes.json",
+      "sha256": "f7ed4ac0f2c33c3fcb0af6f62f2f942b0956387c8ea3053448ab7be63d1e62e8"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/network-summary.json",
+      "sha256": "2c7e82453910fe474ea81195cad8f0142774c27dccfcf470700350110f035c36"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/new-figure-plan.json",
+      "sha256": "ec42cd3aee2c28c0dc6edf9f892100c0765da1dc462239515e24d5a671f53214"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/preparation-independent-review.json",
+      "sha256": "bd1884a5cc71a54fc625722d239f83ad7cf1802161ea736d2d97f4c8484dd038"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/preparation-verification.json",
+      "sha256": "4da8fd25e3b723d240ecde2ee9a1c91b80c372635b3632d0d8237f93ec5f5f2a"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/preserved-inputs.json",
+      "sha256": "336359c77c3efd6ca20d05ed073fec4f5a4fbedc4c9b5c09d6502e2310d5b6b0"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/proposed-copy-plan.json",
+      "sha256": "8dbb2e23f3447f68ecf6eb3f5e736194ab020ebe2825ad81b02be33bd6241b18"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/proposed-figure-plan-v2.json",
+      "sha256": "7e232e803bf04ff20c5ee77bd3599490a451661209b3fd60163712383d566401"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/proposed-figure-plan.json",
+      "sha256": "89c1a7b141ce637d035286105109bdd088d027ba50cc780f763ab242d9d1a50a"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/raw-source-manifest.json",
+      "sha256": "f5634496a557aa09182f5fa86596d5571f45dbaf81d3470e4a0b9e1962b815ea"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/retained-figure-plan.json",
+      "sha256": "a0f2e8af6c405b31027a4be9443637d41b25fb12774038e739fbe645cf5da6ff"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/retained-source-register.json",
+      "sha256": "d22d7e6084792f1fd8371b178ef1f2ef19352392356ba13611060d51c8e3600f"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/retained-source-review/review.json",
+      "sha256": "1aae3e149de936ad9c06e91084a183cefbbf2565cd839510953e69b7031963e1"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/retained-source-review/source-continuity.json",
+      "sha256": "c25b341b2d2b7fc37094d874e7184c6b7adf2e9521c8c919a507ac91d14c8496"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/retained-source-review/source-manifest.json",
+      "sha256": "01f712b0715ac23325b6a0301980136624ba94cbcf732f83ebfc31cfd933ade5"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/runtime-completion-summary.json",
+      "sha256": "90a122a1fba9155eec72d79d78f0afed6a8aec66b996a6b8aff77774b3789729"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/source-admission-proposed.json",
+      "sha256": "3acab9f7a72f07e30a211180a38dde88e1d41f5e072d7ac8947e5ba45aae0f30"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/source-admission.json",
+      "sha256": "392c18df0d5e7dc7e32aacb989fa2f36c68b92b4568a9b461935aaf61b9717cd"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/source-currency.json",
+      "sha256": "1f9aee90a73f306e8983a0c214aa81f76a9dfc898d3772440ad45e942e7af5e5"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/source-pixels-en.json",
+      "sha256": "80fe07277ea016a69ebd0fa1871ed73bb9a0df05cfe777f2e555202bee1d65e7"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/source-pixels-es.json",
+      "sha256": "f6f9d3eeba1bdfa4b631da70c312fcad41b9ab0272e3d2ab9128c609cc660dee"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/source-register.json",
+      "sha256": "5c65bed637ba25db1a52391a146c57f7b57de8c44aace0bbdfa97b43b2a94282"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/static-bytes-final-review.json",
+      "sha256": "1bbf33f4a3e88c193f647505ccdbb97c86ace49a3c6b5af7481632973ad70ce3"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/build-execution.json",
+      "sha256": "e0cb9799d2a6058e1c4b0d867c1dd36fe847f88fc0068126dd5101ff7462609c"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/checkpoint.json",
+      "sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/help-process-closure.json",
+      "sha256": "75ac61c3ef2de983bf1d4af89f647dfb6948f46dd2410db634ad9c1c43e9e4d4"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/help-processes-stopped.json",
+      "sha256": "37534a3b0a47bd03ed871ab9d67d7bc3e5aefc4611c8f37eda544314eff8a3ea"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/http-checks.json",
+      "sha256": "7a3261ab85fdda0b87e154f8e238212538554c315407123e4a2f141fdb96aaf7"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/interception-independent-review.json",
+      "sha256": "335a996f1c56853066c7f3e1aa8866b2d1516179660ad2cbb414737fbbb0e68d"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-en-1440-independent-review.json",
+      "sha256": "e0c82ea76a9ae9fb0655c3def510d10e20c3cc86f8b1dd249333163d7c671355"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-en-390-independent-review.json",
+      "sha256": "ff6b3c54a9be8085d58bdab8d282328d95bab0a8be46fd1e89fcee1af8b4be29"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-en-390-initial-coverage-review.json",
+      "sha256": "704b44d0d20cf959368c215fe3c17e40f5e73f90b01785accaae3639905d6959"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-en-390-pixels-combined-review.json",
+      "sha256": "78572199b3eb38e340bfcc85a62bf3aa41ca51435c6ccf2900ce821e59a7eed7"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-en-580-independent-review.json",
+      "sha256": "b8ae943300819b6e15de10eb2f3bd82a9bea307a3f62d6a4d26039817ff23ed8"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-es-1440-independent-review.json",
+      "sha256": "ebac04dae2bc7d35967bbe6202e64b046abbe37f5a84ab02ab55725c51925734"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-es-390-independent-review.json",
+      "sha256": "e9f771db90d12faddcb2788ef78ca7bf89d0195bd73e6a98e272d024cc262cb7"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-es-390-initial-coverage-review.json",
+      "sha256": "42ac3822afd83bada5bdb64f71cbf05984793bf7dd84998d0bf0b67372ceda89"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-es-580-independent-review.json",
+      "sha256": "8190fb27b861cd6dbb51bcc4e30dfb69baa3eff50730c0c081176c326abe428c"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/capture-receipt.json",
+      "sha256": "509abb3c2384a4255cacec44d77195997a98095de2fab8c775c1efad25a415f0"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/en-1440.json",
+      "sha256": "d130ca2ec3176e507336dd69257e7ef2b4a3dfb9aa83189b56e09253cfbee36e"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/en-390.json",
+      "sha256": "e13aa7eb7ae0c54a897c9f153fa1bf95a9216dc5fa5e43f15df27e5dcc5ad051"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/en-580.json",
+      "sha256": "7bb8f2e23a079178888bea538f9983c429b1b24d32e43f57457c348f52ee8741"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/es-1440.json",
+      "sha256": "83d9f86592693d4cad88659496ef6bb16d278bb372fbf0e26339e8c4bd9b3972"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/es-390.json",
+      "sha256": "7bee40cd9414e26715001616cc5a44925ea07e9b2f1e4bfa9573908ebe20dd67"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/es-580.json",
+      "sha256": "a64fd5cf07cd4d3b026ad08784ffa463685155966fef27c34352dc4c3152e916"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/render-load-root-closure.json",
+      "sha256": "85e9fec4d169657e25aeaad186cc217c83d458617c801b75271988f76e2b18bf"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/render-load-validation.json",
+      "sha256": "7e9ee1b2c87f7f4d291153ff81ace008b2251e636f85f2f22b2cbbd9ce9d59b7"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-en-independent-review.json",
+      "sha256": "e96c88a1f71e1b5a4bfac20510cf6a8d707dc8eba757ffdbbfb991ddc4d4e884"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-es-independent-review.json",
+      "sha256": "2fcc63210f2d7af779e3bd7054345ffd57924aff232570960e89625cdb8e5e5b"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/capture-receipt.json",
+      "sha256": "a83f96a0ea9f2e318379b9d73cc3aa4e84289edf8826cfbcec64c5cdc07a280e"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/en-packet.json",
+      "sha256": "9909e8761874471f9d0d3368caa58e6d76b9b13ed139d9656bbdcb1fcc5c82a5"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/es-packet.json",
+      "sha256": "28ca2c6a821938a6f315bd0438b45ea87e5db8020f81b0447dcdf20e331b3fc7"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/customize-table-en-390-table1-x1-part1.png",
+      "sha256": "a7731091e4afe1e6d028a0df1533c3cc2e039ea7e5383ee5e91e6b5d4099118b"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/customize-table-en-390-table1-x1-part2.png",
+      "sha256": "d09086c6fdf59c4e5a0c968b1d27fb968fc792ee5d0934ab11dd81823ecd9c6b"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/customize-table-en-390-table1-x2-part1.png",
+      "sha256": "36d13dc8effea998eba5b6b32654a37c07f619e49d40167bd0cdc9d5bc8b09ac"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/customize-table-en-390-table1-x2-part2.png",
+      "sha256": "be50d444855731c1939db0a394198e0c280ce4405fcb963c6a9db10ff281a9f4"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/customize-table-en-390-table4-x1-part1.png",
+      "sha256": "dfb057d87f9969250fda281bb7e95a7ae0292d9c4b7417a37a56b70bef4b72f9"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/customize-table-en-390-table4-x2-part1.png",
+      "sha256": "068b5461cffaca50ed003f617d728d903c8b102edb947c1c23ded057bdf47950"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/customize-table-es-390-table1-x1-part1.png",
+      "sha256": "0d6385604f3df99e25dfb6a7e708a02ee4ca073acac4f18b42e570db1841c765"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/customize-table-es-390-table1-x1-part2.png",
+      "sha256": "c3162891062c30a484401d929ac9b0104abc33754afd7349d5b58393386bc835"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/customize-table-es-390-table1-x2-part1.png",
+      "sha256": "52f3b5c1280ec5c996c5017dc66d1ae626a6727845126b20043d10b51e235e88"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/customize-table-es-390-table1-x2-part2.png",
+      "sha256": "b099ce584176540f39d80ae543c21c12f426d643baac6afc3db1824103220a8b"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/customize-table-es-390-table4-x1-part1.png",
+      "sha256": "3f9685a8c5980c8d269a1664f32ec871eea16c897f3643708174bb0878254c4d"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/customize-table-es-390-table4-x2-part1.png",
+      "sha256": "318388e6223410c38ac6a65056491eb5e94c1cab8a5bf9ff1d4f31560d86643f"
+    }
+  ],
+  "page_review": {
+    "checkpoint_sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187",
+    "capture_receipt_sha256": "509abb3c2384a4255cacec44d77195997a98095de2fab8c775c1efad25a415f0",
+    "segments": 162,
+    "details": 102,
+    "views": [
+      {
+        "locale": "es",
+        "width": 1440,
+        "status": "passed",
+        "document_height_css": 26413,
+        "segments": 24,
+        "details": 17,
+        "packet": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/es-1440.json",
+          "sha256": "83d9f86592693d4cad88659496ef6bb16d278bb372fbf0e26339e8c4bd9b3972"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-es-1440-independent-review.json",
+          "sha256": "ebac04dae2bc7d35967bbe6202e64b046abbe37f5a84ab02ab55725c51925734"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-es-1440-independent-review.json",
+          "sha256": "ebac04dae2bc7d35967bbe6202e64b046abbe37f5a84ab02ab55725c51925734"
+        }
+      },
+      {
+        "locale": "es",
+        "width": 580,
+        "status": "passed",
+        "document_height_css": 29666,
+        "segments": 27,
+        "details": 17,
+        "packet": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/es-580.json",
+          "sha256": "a64fd5cf07cd4d3b026ad08784ffa463685155966fef27c34352dc4c3152e916"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-es-580-independent-review.json",
+          "sha256": "8190fb27b861cd6dbb51bcc4e30dfb69baa3eff50730c0c081176c326abe428c"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-es-580-independent-review.json",
+          "sha256": "8190fb27b861cd6dbb51bcc4e30dfb69baa3eff50730c0c081176c326abe428c"
+        }
+      },
+      {
+        "locale": "es",
+        "width": 390,
+        "status": "passed",
+        "document_height_css": 34151,
+        "segments": 31,
+        "details": 17,
+        "packet": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/es-390.json",
+          "sha256": "7bee40cd9414e26715001616cc5a44925ea07e9b2f1e4bfa9573908ebe20dd67"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-es-390-independent-review.json",
+          "sha256": "e9f771db90d12faddcb2788ef78ca7bf89d0195bd73e6a98e272d024cc262cb7"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-es-390-independent-review.json",
+          "sha256": "e9f771db90d12faddcb2788ef78ca7bf89d0195bd73e6a98e272d024cc262cb7"
+        }
+      },
+      {
+        "locale": "en",
+        "width": 1440,
+        "status": "passed",
+        "document_height_css": 25683,
+        "segments": 24,
+        "details": 17,
+        "packet": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/en-1440.json",
+          "sha256": "d130ca2ec3176e507336dd69257e7ef2b4a3dfb9aa83189b56e09253cfbee36e"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-en-1440-independent-review.json",
+          "sha256": "e0c82ea76a9ae9fb0655c3def510d10e20c3cc86f8b1dd249333163d7c671355"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-en-1440-independent-review.json",
+          "sha256": "e0c82ea76a9ae9fb0655c3def510d10e20c3cc86f8b1dd249333163d7c671355"
+        }
+      },
+      {
+        "locale": "en",
+        "width": 580,
+        "status": "passed",
+        "document_height_css": 28551,
+        "segments": 26,
+        "details": 17,
+        "packet": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/en-580.json",
+          "sha256": "7bb8f2e23a079178888bea538f9983c429b1b24d32e43f57457c348f52ee8741"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-en-580-independent-review.json",
+          "sha256": "b8ae943300819b6e15de10eb2f3bd82a9bea307a3f62d6a4d26039817ff23ed8"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-en-580-independent-review.json",
+          "sha256": "b8ae943300819b6e15de10eb2f3bd82a9bea307a3f62d6a4d26039817ff23ed8"
+        }
+      },
+      {
+        "locale": "en",
+        "width": 390,
+        "status": "passed",
+        "document_height_css": 32239,
+        "segments": 30,
+        "details": 17,
+        "packet": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/en-390.json",
+          "sha256": "e13aa7eb7ae0c54a897c9f153fa1bf95a9216dc5fa5e43f15df27e5dcc5ad051"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-en-390-independent-review.json",
+          "sha256": "ff6b3c54a9be8085d58bdab8d282328d95bab0a8be46fd1e89fcee1af8b4be29"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-en-390-independent-review.json",
+          "sha256": "ff6b3c54a9be8085d58bdab8d282328d95bab0a8be46fd1e89fcee1af8b4be29"
+        }
+      }
+    ]
+  },
+  "supplemental_table_review": {
+    "status": "passed",
+    "images": 12,
+    "capture": {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/capture-receipt.json",
+      "sha256": "a83f96a0ea9f2e318379b9d73cc3aa4e84289edf8826cfbcec64c5cdc07a280e"
+    },
+    "pixel_reviews": [
+      {
+        "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-es-independent-review.json",
+        "sha256": "2fcc63210f2d7af779e3bd7054345ffd57924aff232570960e89625cdb8e5e5b"
+      },
+      {
+        "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-en-independent-review.json",
+        "sha256": "e96c88a1f71e1b5a4bfac20510cf6a8d707dc8eba757ffdbbfb991ddc4d4e884"
+      }
+    ],
+    "scope": "Two horizontally overflowing tables per locale at390CSS; overlapping native scroll states jointly show all rows and columns. Separate from main162segments/102figure-details."
+  },
+  "load_control": {
+    "status": "passed_current_six_view_load_control",
+    "root_closure": {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/render-load-root-closure.json",
+      "sha256": "85e9fec4d169657e25aeaad186cc217c83d458617c801b75271988f76e2b18bf"
+    },
+    "historical_capture_status_preserved": "failed",
+    "historical_cause": "Unknown; not reproduced. No request identity or cancellation attribution is claimed.",
+    "scope": "The final main capture guard recorded nine CDP Invalid InterceptionId action errors after all six views. Two later six-view diagnostics and independent/root review closed the current load control without rewriting that history or recapturing the immutable PNGs."
+  },
+  "http": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/http-checks.json",
+    "sha256": "7a3261ab85fdda0b87e154f8e238212538554c315407123e4a2f141fdb96aaf7"
+  },
+  "owned_services": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/help-process-closure.json",
+    "sha256": "75ac61c3ef2de983bf1d4af89f647dfb6948f46dd2410db634ad9c1c43e9e4d4"
+  },
+  "inventory_changed_by_this_qa": false,
+  "commits_created_by_this_qa": false,
+  "publication": false
+}

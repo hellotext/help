@@ -1,0 +1,39 @@
+{
+  "status": "passed_current_six_view_load_control",
+  "reviewer": "root",
+  "reviewed_at": "2026-10-11T13:08:55.955429+00:00",
+  "checkpoint_sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187",
+  "historical_capture": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/capture-receipt.json",
+    "sha256": "509abb3c2384a4255cacec44d77195997a98095de2fab8c775c1efad25a415f0",
+    "status_preserved": "failed",
+    "views": 6,
+    "PNG_count": 264
+  },
+  "evidence": [
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/render-load-validation.json",
+      "sha256": "7e9ee1b2c87f7f4d291153ff81ace008b2251e636f85f2f22b2cbbd9ce9d59b7"
+    },
+    {
+      "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/interception-independent-review.json",
+      "sha256": "335a996f1c56853066c7f3e1aa8866b2d1516179660ad2cbb414737fbbb0e68d"
+    }
+  ],
+  "decision": "Accept the current six-view load/interception control after two complete diagnostic runs. Preserve the 264 immutable screenshots for their separate visual and geometry review; this historical protocol error alone does not require recapture.",
+  "observed": {
+    "diagnostic_runs": 2,
+    "views_per_run": 6,
+    "expected_decoded_images_per_view": 17,
+    "interception_action_errors": 0,
+    "Runtime_exceptionThrown": 0,
+    "intentional_GTM_blocks_per_run": 6,
+    "source_build_and_capture_bytes_preserved": true
+  },
+  "historical_cause": "Not reproduced and not determined. The nine historical error strings lack request identities; no attribution to a particular resource, cancellation or navigation is made.",
+  "limits": [
+    "The original capture run is not relabeled as successful.",
+    "This disposition closes only the current load/interception control. Six independent visual reviews, table-scroll supplements, local HTTP checks and owned-service closure must still be bound by the final QA record.",
+    "No article, CSS, source image or screenshot pixel was changed."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "customize-native-capture-closure-v1",
+  "status": "closed_and_verified",
+  "closed_at": "2026-10-11T12:21:11.018165+00:00",
+  "source_count": 28,
+  "source_pixel_reviews": {
+    "es": {
+      "status": "passed",
+      "count": 14,
+      "sha256": "f6f9d3eeba1bdfa4b631da70c312fcad41b9ab0272e3d2ab9128c609cc660dee"
+    },
+    "en": {
+      "status": "passed",
+      "count": 14,
+      "sha256": "80fe07277ea016a69ebd0fa1871ed73bb9a0df05cfe777f2e555202bee1d65e7"
+    }
+  },
+  "source_manifest_sha256": "f5634496a557aa09182f5fa86596d5571f45dbaf81d3470e4a0b9e1962b815ea",
+  "capture_provenance_sha256": "ed05706488c2833a4ddab4f2354422f20b75b7750fc5132226cfc4d580daa34f",
+  "network_summary_sha256": "2c7e82453910fe474ea81195cad8f0142774c27dccfcf470700350110f035c36",
+  "runtime_completion_summary_sha256": "90a122a1fba9155eec72d79d78f0afed6a8aec66b996a6b8aff77774b3789729",
+  "static_bytes_final_review_sha256": "1bbf33f4a3e88c193f647505ccdbb97c86ace49a3c6b5af7481632973ad70ce3",
+  "source_currency_sha256": "1f9aee90a73f306e8983a0c214aa81f76a9dfc898d3772440ad45e942e7af5e5",
+  "native_source_bytes_replaced_or_transformed": 0,
+  "public_clip_metadata": "named object copied exactly from private native crop array",
+  "final_state": {
+    "capture_controller_parked_and_closed": true,
+    "browser_and_proxy_closed_after_identity_checks": true,
+    "all_owned_runtime_services_closed": true,
+    "owned_listeners_remaining": 0,
+    "locale_restored": "es",
+    "prepared_tables_unchanged": 541,
+    "prepared_sequences_unchanged": 536,
+    "source_database_unchanged": true,
+    "source_tracked_files_unchanged": 17691,
+    "static_assets_unchanged": 2417,
+    "favicon_unchanged": true,
+    "application_http_mutations_forwarded": 0
+  },
+  "recovery_disposition": {
+    "runtime_uri_validation": "Corrected before fixture execution; failed boot zero delta and exact URI-only change are bound in runtime summary.",
+    "capture_input_escape": "Rejected before click; reviewed one-escape fix and original five sources preserved.",
+    "partial_search": "Blocked before forwarding; fresh native navigation recovered read state, without broadening the route contract.",
+    "entry_scene": "Reviewed enum-only addition for genuine entry control coverage; no new route or action.",
+    "transport_interruption": "Prior abrupt loss is distinguished from final shutdown. Runtime reconciled all prepared rows/sequences/schema before restarting services; no repeated fixture/locale/bootstrap. The surviving dedicated browser was verified at about:blank, then a new controller/proxy continued.",
+    "responsive_hit_target": "One open action rejected before click while layout settled; subsequent read-only geometry inspection verified the native target."
+  },
+  "private_evidence_bindings": {
+    "browser_proxy_shutdown_sha256": "006d2f3214736d650979cacd3824b2d60fe852ba3f0af387069171165c1d3500",
+    "final_capture_binding_sha256": "8e825e5624c2057cf0b8a6ceefbaa625ac096bf3fd110a3c00a56d6ba8b5a187",
+    "raw_artifacts_copied_to_public": false
+  },
+  "editorial_status": "Source capture and runtime closure complete. Final Help page QA, source admission, commit, and publication are separate gates; this receipt does not claim those outcomes."
+}

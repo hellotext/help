@@ -1,0 +1,790 @@
+{
+  "status": "passed",
+  "locale": "es",
+  "width": 580,
+  "reviewer": "conversation_article",
+  "packet": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/es-580.json",
+    "sha256": "a64fd5cf07cd4d3b026ad08784ffa463685155966fef27c34352dc4c3152e916"
+  },
+  "checkpoint_sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187",
+  "source": "_i18n/es/journeys/how-to-customize-a-playbook-safely.md",
+  "source_sha256": "fbcf73ac6ab8bbc90abc0e7ae643bfc9c2cb790d30085971622199bc3232dc7b",
+  "built_html": "_site/es/como-personalizar-una-mision.html",
+  "built_html_sha256": "dac1f461609e091eb45b39089798a50d4dcca6120445cf68fa7d2a6bc353fcb0",
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 27,
+    "coverage_start_css": 0,
+    "coverage_end_css": 29666,
+    "document_height_css": 29666,
+    "end_tolerance_css": 1,
+    "minimum_overlap_css": 100,
+    "notes": [
+      "All 27 native page segments were individually opened with view_image and visually inspected in order, including header, full guide, related guides and complete footer.",
+      "All tables wrap readably without missing columns, horizontal overflow or overlapping text; numbered instructions and future-test lists remain legible."
+    ]
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 17,
+    "notes": [
+      "All 17 native detail PNGs were individually opened with view_image; white frames, lavender stages and insets are complete.",
+      "Mobile source variants retain their native layout and cap: entry button and narrow text column are complete; the tall promotions panel includes four entries, schedules, distinct store/inclusion states and Restore.",
+      "The percentage selector remains centered at its native 245 CSS px cap. Followup quantity, minutes and action labels, three-action menu, full illustrative preview and agent wait notice are readable inline.",
+      "Filter menu overlap and disabled wait overlay are native source behavior already disclosed; they are not Help clipping. No new visual defect was found."
+    ]
+  },
+  "method": "Individual view_image calls with detail original, separate images rather than a contact sheet; the tool may scale display previews. No image, HTML or CSS transformation by reviewer. Metadata checks supplement rather than replace actual visual review.",
+  "files": [
+    {
+      "file": "customize-safely-es-580-full-part1.png",
+      "sha256": "63e1fd0ca3424c586f0ff041f613fd1b11c573b5b97e47fbac308a1cb5f33b07",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part2.png",
+      "sha256": "92c9786344c86d67c6d154c8a4786529fbfd91c6a13c3a7c8d1964cd1765ea49",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part3.png",
+      "sha256": "3ec0ac2f0c61fcc9d9965e995dbc3cf3ed291c28cd71858a664eb8f9b0dd0d59",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part4.png",
+      "sha256": "6d2ec7bc1182aacbffe439637820be01eff77ba3e4e332269149329b7cfc196a",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part5.png",
+      "sha256": "b476f43ee03f0c5ddfd308e4055bb0cf8c57ae7882acdbb12ead2eb23d476b67",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part6.png",
+      "sha256": "3b147463d58517d816e53cf8429ba7c6d62ddf63971b5f362392424d0dd51e39",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part7.png",
+      "sha256": "c3b5bde5fd1f3165558f9303066ba79d38c993b5fbc7d10ec0cbfe502af94625",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part8.png",
+      "sha256": "674980f7421ce2aff465b5b2d667b7aa95bebc3c86d4479eaccf91a8196e658e",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part9.png",
+      "sha256": "a246b4b8b31491d8d049f8131b51610caa57d450d2cc729e58be82eb5c35eb90",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 8800,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part10.png",
+      "sha256": "5b0cc4ad196bef39594c3bea1182e7d8fc1bda00bb589ccaec41881bfcd155cb",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 9900,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part11.png",
+      "sha256": "b8c86e77e516a5d2f514672a2a36d50f70dbdd6c40a2b50874756ad826645134",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 11000,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part12.png",
+      "sha256": "567a88daded2c1bb162ad23d621b895b572a826ae1e6affee22a3bfc3cceccdd",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 12100,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part13.png",
+      "sha256": "c63a191b67991dbd41502a591dbb558a7388d92867972a75613d2aece3d57b61",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 13200,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part14.png",
+      "sha256": "3463406acb699f404762d526a9b36683f7a449e8dabad5ab6c2180af78cb2b64",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 14300,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part15.png",
+      "sha256": "b07cb5c2917ef5b184cc2a17e732b4d16526a5c8b893b80c17ca3285958b539d",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 15400,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part16.png",
+      "sha256": "98cf212567c914c85addd597f1672203468c154b189c2da6e709c6f6b46175d9",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 16500,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part17.png",
+      "sha256": "3734e9ed36fab3baa1d089917db7e295de85a96a5476f7f0037276ae9dfb2a12",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 17600,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part18.png",
+      "sha256": "5be46dea383875db89e314011f9d593d2d80b13c3bd1abaa0b5f0e67a75bb120",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 18700,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part19.png",
+      "sha256": "65c4a66338c0634dd7d4fb79c5408c0b28fc2fb6bec8759594f7aaf7dd6d00a0",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 19800,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part20.png",
+      "sha256": "2c5530a50179ccca609c3edaaff6818136f6163c56f76036246cc559e24a8197",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 20900,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part21.png",
+      "sha256": "3ec12173d4e4368a45f58b5f4f9117b14a07a594339e0990f8279bfb2c0a7476",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 22000,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part22.png",
+      "sha256": "936d91873ad790a7976c6da460947ab949765c764179edff653c519b949ce86d",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 23100,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part23.png",
+      "sha256": "e4e5a2bb60f32172f8443668407b3f6d0decda790a4d813a3fefff9cf943047a",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 24200,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part24.png",
+      "sha256": "74f12ce9603f7ab562d1138225210bf6356de3060c501d27f83a037acf8a5b1c",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 25300,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part25.png",
+      "sha256": "b4810af2c3758a7cdcfbf7dfd06e0f53193163dc6ac4f4dc12971acf280f8db9",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 26400,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part26.png",
+      "sha256": "cbcdb12a841dd91a24f7e9bee8c7458cdc947e9596bb2859d72565e4a78c730a",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 27500,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-full-part27.png",
+      "sha256": "8937a3484cf8467c73b9e9f94dc46860d801f27de6d9829d0138656dfaff8d4e",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 28466,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-prompt.png",
+      "sha256": "1969da7963e0eac77c37a94341fcb6a25fa59aefc4fc4878b0998e60f2f84430",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 4563,
+        "width": 572,
+        "height": 578
+      },
+      "pixel_size": [
+        1144,
+        1156
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-tone.png",
+      "sha256": "8d109d2ed81470854a92ea5634333e7918d3df943f5744f1af37f0d4d41fa57f",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 5893,
+        "width": 572,
+        "height": 585
+      },
+      "pixel_size": [
+        1144,
+        1170
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-intents.png",
+      "sha256": "d8b3141379bb85a193cbddce82daeb40ad2ceb233535a8039b137c6a31a23744",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 7350,
+        "width": 572,
+        "height": 396
+      },
+      "pixel_size": [
+        1144,
+        792
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-knowledge.png",
+      "sha256": "23e992c7727faaa59f6710c06d07308eeed4c86573f92f54072ce2ecc2038705",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 8410,
+        "width": 572,
+        "height": 502
+      },
+      "pixel_size": [
+        1144,
+        1004
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-web-search.png",
+      "sha256": "8872da068a9e03fe43f0fa8d76b40fb4854d5e2557ab4895b59e058766d729b3",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 9488,
+        "width": 572,
+        "height": 304
+      },
+      "pixel_size": [
+        1144,
+        608
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-properties.png",
+      "sha256": "c8eafcf5549d8006d151cccbd2244a13ff449b0c27b03e8a0ed19b726f4c686d",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 10172,
+        "width": 572,
+        "height": 437
+      },
+      "pixel_size": [
+        1144,
+        874
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-channels.png",
+      "sha256": "5e99dee8f41581e9709ad521b5eac880f17d493ce78eb8dd9e7a4fda09a56172",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 11485,
+        "width": 572,
+        "height": 860
+      },
+      "pixel_size": [
+        1144,
+        1720
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-discount-percent.png",
+      "sha256": "73c7575a57f3308c16d2b322fa01aa13b5f0356df73239b73d2d64200da42365",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 13957,
+        "width": 572,
+        "height": 219
+      },
+      "pixel_size": [
+        1144,
+        438
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-store-promotions-entry.png",
+      "sha256": "a6c05aaed557a10778fe2c434e7c08f3b82830cb1e48a542b5ce9c617350a634",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 14681,
+        "width": 572,
+        "height": 475
+      },
+      "pixel_size": [
+        1144,
+        950
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-store-promotions.png",
+      "sha256": "cece22d3134640e248b38e1e265f701adff9baef5ee173f8fbb9de721fae5732",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 15375,
+        "width": 572,
+        "height": 1200
+      },
+      "pixel_size": [
+        1144,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-promotion-filter.png",
+      "sha256": "0edc4efc93e95b886aecd5a11480d7736e898d38163ff73486b0b9d8abfbe35c",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 16706,
+        "width": 572,
+        "height": 601
+      },
+      "pixel_size": [
+        1144,
+        1202
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-followup-controls.png",
+      "sha256": "565be9d2aaac1d272b296fb78e9a378ff86e8a97f0c2f23206de33b89465a50c",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 19449,
+        "width": 572,
+        "height": 641
+      },
+      "pixel_size": [
+        1144,
+        1282
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-followup-actions.png",
+      "sha256": "4e4c79dcc284adad298d295c769d6d246e293bf9122010f236f032d9e191abb4",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 20803,
+        "width": 572,
+        "height": 411
+      },
+      "pixel_size": [
+        1144,
+        822
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-followup-sequence.png",
+      "sha256": "90aff5cad15388c3a72eedfb5a2bfc062de9fa92f9e90aa1cd770efb3404145f",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 21445,
+        "width": 572,
+        "height": 574
+      },
+      "pixel_size": [
+        1144,
+        1148
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-agent-wait-notice.png",
+      "sha256": "3d7481c58ebadc2db1ebdb8abd219566fb4df55628f5da0549127778f0d8acc0",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 23647,
+        "width": 572,
+        "height": 709
+      },
+      "pixel_size": [
+        1144,
+        1418
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-escalation.png",
+      "sha256": "ccf3596407233c070928a751572b408e2848764b47f657b35de5e9adb0a44110",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 25151,
+        "width": 572,
+        "height": 441
+      },
+      "pixel_size": [
+        1144,
+        882
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-580-route-assignment.png",
+      "sha256": "16b2faa87de0eb67bc44c683df44d41ec1c2deaf224db609f771e9773bbdc0c9",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 26263,
+        "width": 572,
+        "height": 751
+      },
+      "pixel_size": [
+        1144,
+        1502
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    }
+  ],
+  "findings": []
+}

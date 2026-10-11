@@ -1,0 +1,41 @@
+{
+  "status": "integrated_locally_pending_build_and_page_qa",
+  "at": "2026-10-11T12:22:39.326743+00:00",
+  "base": "046e27c78f8431ad46f87a8e31048907b2d34d56",
+  "raw_manifest_sha256": "f5634496a557aa09182f5fa86596d5571f45dbaf81d3470e4a0b9e1962b815ea",
+  "acceptance_sha256": "392c18df0d5e7dc7e32aacb989fa2f36c68b92b4568a9b461935aaf61b9717cd",
+  "integration_inputs_sha256": "5e079aefe42d7e145a2934888c18f213c94f81cdae9aae1b08afa975c4d4ed9f",
+  "source_register_sha256": "5c65bed637ba25db1a52391a146c57f7b57de8c44aace0bbdfa97b43b2a94282",
+  "accepted_source_manifest_sha256": "d0c3414bd05a31029a5e8d963db0526643b8ff702396b65d469f91b2c93a101c",
+  "source_pixel_reviews": {
+    "es": {
+      "file": "source-pixels-es.json",
+      "sha256": "f6f9d3eeba1bdfa4b631da70c312fcad41b9ab0272e3d2ab9128c609cc660dee"
+    },
+    "en": {
+      "file": "source-pixels-en.json",
+      "sha256": "80fe07277ea016a69ebd0fa1871ed73bb9a0df05cfe777f2e555202bee1d65e7"
+    }
+  },
+  "articles": [
+    {
+      "path": "_i18n/es/journeys/how-to-customize-a-playbook-safely.md",
+      "before_sha256": "7d5796c9891dfa8cc7d97640008ee8d6ee4c0d63be2f85dcafcfd3c1c072e61f",
+      "after_sha256": "fbcf73ac6ab8bbc90abc0e7ae643bfc9c2cb790d30085971622199bc3232dc7b",
+      "figures": 17
+    },
+    {
+      "path": "_i18n/en/journeys/how-to-customize-a-playbook-safely.md",
+      "before_sha256": "ee7b300463af91fb17107ed2c6f1e62aff16c98f83bef8580fed5ad5d4bae974",
+      "after_sha256": "39fc8f3d15c875e405a2ab7997026cf685f09ddfb1f88c33def4089167d6cd61",
+      "figures": 17
+    }
+  ],
+  "sources": 68,
+  "selected": 66,
+  "new_sources": 28,
+  "figures_per_locale": 17,
+  "build_and_page_QA": "pending",
+  "inventory_changed": false,
+  "publication": false
+}

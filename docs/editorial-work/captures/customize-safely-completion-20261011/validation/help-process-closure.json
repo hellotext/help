@@ -1,0 +1,28 @@
+{
+  "status": "closed_and_verified",
+  "checkpoint_sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187",
+  "scope_sha256": "fb99273cf02b3e8c5dde361c012fee310679252eb4a6600d18cc0f22ae9c793e",
+  "process_receipt": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/help-processes-stopped.json",
+    "sha256": "37534a3b0a47bd03ed871ab9d67d7bc3e5aefc4611c8f37eda544314eff8a3ea"
+  },
+  "supervisor_exit_code": 0,
+  "server_pid": 71762,
+  "browser_pid": 71763,
+  "only_owned_process_groups_terminated": true,
+  "owned_processes_absent": true,
+  "listeners": [
+    {
+      "port": 3358,
+      "listener_present": false,
+      "connect_ex": 61
+    },
+    {
+      "port": 9538,
+      "listener_present": false,
+      "connect_ex": 61
+    }
+  ],
+  "external_writes": false,
+  "capture_source_bytes_changed": false
+}

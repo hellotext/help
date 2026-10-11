@@ -1,0 +1,88 @@
+{
+  "schema": "customize-integration-inputs-v1",
+  "status": "pending_exact_new_scene_plan_and_source_admission",
+  "base": "046e27c78f8431ad46f87a8e31048907b2d34d56",
+  "article_key": "journeys/how-to-customize-a-playbook-safely.md",
+  "target_asset_directory": "images/editorial/customize-safely-completion-20261011",
+  "markup_attribute": "data-customize-figure",
+  "preserved_inputs_sha256": "336359c77c3efd6ca20d05ed073fec4f5a4fbedc4c9b5c09d6502e2310d5b6b0",
+  "retained_source_register_sha256": "d22d7e6084792f1fd8371b178ef1f2ef19352392356ba13611060d51c8e3600f",
+  "retained_figure_plan_sha256": "a0f2e8af6c405b31027a4be9443637d41b25fb12774038e739fbe645cf5da6ff",
+  "articles": {
+    "es": {
+      "path": "_i18n/es/journeys/how-to-customize-a-playbook-safely.md",
+      "sha256": "7d5796c9891dfa8cc7d97640008ee8d6ee4c0d63be2f85dcafcfd3c1c072e61f",
+      "original": "originals/es.md"
+    },
+    "en": {
+      "path": "_i18n/en/journeys/how-to-customize-a-playbook-safely.md",
+      "sha256": "ee7b300463af91fb17107ed2c6f1e62aff16c98f83bef8580fed5ad5d4bae974",
+      "original": "originals/en.md"
+    }
+  },
+  "provisional_new_figure_ids": [
+    "followup-controls",
+    "followup-actions",
+    "followup-sequence",
+    "store-promotions-entry",
+    "store-promotions",
+    "promotion-filter",
+    "agent-wait-notice"
+  ],
+  "new_figure_plan": {
+    "file": "new-figure-plan.json",
+    "sha256": "7c101937fda571caa13608e2c8d609dde5ee6d9c0c506cf42b456803f3391fcf"
+  },
+  "exact_new_source_matrix": null,
+  "approved_copy_replacements": null,
+  "source_contract": {
+    "required_record_fields": [
+      "id",
+      "locale",
+      "layout",
+      "file",
+      "sha256",
+      "pixelSize",
+      "nativeDensity",
+      "icc",
+      "clip"
+    ],
+    "required_admission_bindings": [
+      "manifest_sha256",
+      "integration_inputs_sha256",
+      "pixel_reviews"
+    ],
+    "locale_pixel_review_fields": [
+      "status",
+      "locale",
+      "records"
+    ],
+    "required_pixel_record_fields": [
+      "id",
+      "locale",
+      "layout",
+      "file",
+      "sha256",
+      "status"
+    ],
+    "selected_sources_only_in_admitted_manifest": true,
+    "raw_sidecars_imported": false,
+    "fixed_new_source_count": null
+  },
+  "guards": [
+    "Do not apply while any exact plan, matrix, copy or admission field is pending.",
+    "Require one exact fully reviewed bilingual responsive matrix for the final concepts, derived from real source geometry.",
+    "Both locale pixel receipts must match admitted files by ID/layout/hash; no historical or fabricated receipt substitutes for new images.",
+    "All40 historical image hashes and every preserved non-target path remain unchanged."
+  ],
+  "proposed_copy_plan": {
+    "file": "proposed-copy-plan.json",
+    "sha256": "8dbb2e23f3447f68ecf6eb3f5e736194ab020ebe2825ad81b02be33bd6241b18"
+  },
+  "proposed_figure_plan": {
+    "file": "proposed-figure-plan-v2.json",
+    "sha256": "7e232e803bf04ff20c5ee77bd3599490a451661209b3fd60163712383d566401"
+  },
+  "integrator_sha256": "2f2c717e8dc53a9bb99b11cd820ab454cc20a58457fa16a5db3f02eac95fbca8",
+  "admission_binding_direction": "Root admission supplied at validation binds these frozen inputs and the ES/EN pixel receipts; inputs never hash the later admission."
+}

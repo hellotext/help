@@ -1,0 +1,46 @@
+{
+  "schema": "customize-integrator-preparation-v1",
+  "status": "prepared_pending_real_admission",
+  "helper": {
+    "file": "integrate-accepted-sources.py",
+    "sha256": "2f2c717e8dc53a9bb99b11cd820ab454cc20a58457fa16a5db3f02eac95fbca8"
+  },
+  "inputs": {
+    "file": "integration-inputs.json",
+    "sha256": "11b734b9fd815fe97bbf86f33d3f855aa21cab1325d0a3daee9d967a9b9febf4"
+  },
+  "checks": {
+    "syntax": "passed",
+    "plan_mode": "passed",
+    "pending_validation": "rejected_without_article_or_inventory_writes",
+    "png_admission_executed": false,
+    "apply_executed": false,
+    "new_sources_admitted": 0,
+    "delta_pending_validation": "passed after reviewed fixes; no article or inventory writes",
+    "proposed_figure_plan_v2": "passed plan-mode with seven concepts and distinct anchors; no sources admitted"
+  },
+  "source_check_correction": {
+    "reason": "Use the observed sips profile description and exact embedded ICC hash.",
+    "expected_reported_profile": "Display P3 Gamut with sRGB Transfer",
+    "expected_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+    "build_helper_changed": false
+  },
+  "native_manifest_contract": {
+    "clip": "object x/y/width/height agreed with capture owner; array form also validates without changing its values",
+    "density": 4,
+    "icc_family": "Display P3",
+    "records_count": "derived from exact final figure matrix; not a fixed concept quota"
+  },
+  "remaining": [
+    "Real final source geometry and matrix",
+    "Root approved copy and final figure plan",
+    "Individual ES and EN pixel acceptance",
+    "Curated capture/runtime closure and scoped source currency",
+    "Read-only accepted validation then authorized apply",
+    "Build and complete rendered Help QA"
+  ],
+  "review_fixes": {
+    "file": "integrator-review-fixes.json",
+    "sha256": "f7ed4ac0f2c33c3fcb0af6f62f2f942b0956387c8ea3053448ab7be63d1e62e8"
+  }
+}

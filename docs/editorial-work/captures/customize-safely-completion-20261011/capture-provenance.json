@@ -1,0 +1,144 @@
+{
+  "schema": "customize-native-capture-provenance-v1",
+  "status": "sources_captured_and_individually_reviewed",
+  "source_manifest_sha256": "f5634496a557aa09182f5fa86596d5571f45dbaf81d3470e4a0b9e1962b815ea",
+  "source_count": 28,
+  "locale_counts": {
+    "es": 14,
+    "en": 14
+  },
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "scoped_current_revision": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "source_currency_sha256": "1f9aee90a73f306e8983a0c214aa81f76a9dfc898d3772440ad45e942e7af5e5",
+  "read_contract_sha256": "16787a291b1a5cb6716feefecac45e0a14d9b7270dc09b0fefab167c457f0dff",
+  "runtime_contract_sha256": "da489e50b067feb54c99c1aeca163142d426bcea4059342faf3f3dabb80733c3",
+  "native_capture": {
+    "device_pixel_ratio": 2,
+    "capture_scale": 2,
+    "native_density": 4,
+    "icc": "Display P3",
+    "transformed_pixels": 0,
+    "dom_or_css_changes": 0,
+    "before_after_capture_state_equal": true,
+    "identity_locale_title_path_and_single_page_verified_per_capture": true,
+    "clip_normalization": "Exact four integer private array [x,y,width,height] becomes public object {x,y,width,height}; pixel data is unchanged.",
+    "normalization_evidence_sha256": "b7534965633b4faa910c53ad8991cd1393ef2bd8dd3a825e6c987cd8e9a48050"
+  },
+  "helper_stages": [
+    {
+      "capture_helper_sha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "launch_review_sha256": "808de436b3ff23ed3546c5714ff1f42f55197050b8ce01647d34a873c612b10f",
+      "source_count": 16,
+      "files": [
+        "agent-wait-notice-en-desktop.png",
+        "agent-wait-notice-en-mobile.png",
+        "followup-actions-en-desktop.png",
+        "followup-actions-en-mobile.png",
+        "followup-controls-en-desktop.png",
+        "followup-controls-en-mobile.png",
+        "followup-sequence-en-desktop.png",
+        "followup-sequence-en-mobile.png",
+        "promotion-filter-en-desktop.png",
+        "promotion-filter-en-mobile.png",
+        "store-promotions-en-desktop.png",
+        "store-promotions-en-mobile.png",
+        "store-promotions-entry-en-desktop.png",
+        "store-promotions-entry-en-mobile.png",
+        "store-promotions-entry-es-desktop.png",
+        "store-promotions-entry-es-mobile.png"
+      ]
+    },
+    {
+      "capture_helper_sha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "launch_review_sha256": "6e375cc40e26a57ddda85a0fb1fe937236657ec0b14be0de27535b57f554eda4",
+      "source_count": 7,
+      "files": [
+        "agent-wait-notice-es-desktop.png",
+        "agent-wait-notice-es-mobile.png",
+        "followup-sequence-es-mobile.png",
+        "promotion-filter-es-desktop.png",
+        "promotion-filter-es-mobile.png",
+        "store-promotions-es-desktop.png",
+        "store-promotions-es-mobile.png"
+      ]
+    },
+    {
+      "capture_helper_sha256": "4f677faac6d6eb70c1cac62e47ced0c531647cabc0bff3b1025c865950e06ff8",
+      "launch_review_sha256": "27f02064e0efe5348e8a500fe94701e1ca2af8770f278aef331744496a36ef97",
+      "source_count": 5,
+      "files": [
+        "followup-actions-es-desktop.png",
+        "followup-actions-es-mobile.png",
+        "followup-controls-es-desktop.png",
+        "followup-controls-es-mobile.png",
+        "followup-sequence-es-desktop.png"
+      ]
+    }
+  ],
+  "pixel_reviews": {
+    "es": {
+      "sha256": "f6f9d3eeba1bdfa4b631da70c312fcad41b9ab0272e3d2ab9128c609cc660dee",
+      "source_count": 14,
+      "status": "passed"
+    },
+    "en": {
+      "sha256": "80fe07277ea016a69ebd0fa1871ed73bb9a0df05cfe777f2e555202bee1d65e7",
+      "source_count": 14,
+      "status": "passed"
+    }
+  },
+  "capture_scope": {
+    "concepts": [
+      "agent-wait-notice",
+      "followup-actions",
+      "followup-controls",
+      "followup-sequence",
+      "promotion-filter",
+      "store-promotions",
+      "store-promotions-entry"
+    ],
+    "actions": "Native navigation, tab/disclosure/menu opening, viewport and scroll, and the exact GET search/type filters. Existing configuration is displayed.",
+    "configuration_values_changed_by_browser": 0,
+    "save_restore_promotion_toggle_preview_generation_send_actions": 0,
+    "http_mutations_allowed_or_forwarded": 0,
+    "agent_wait_notice": "The 6-hour controls remain disabled/inert under the native Followup notice; the image does not show an active independent wait."
+  },
+  "limitations": [
+    "Native isolated Rails UI and fictional prepared data. Production accounts, events and sends were not used.",
+    "The immutable asset build predates this batch and uses the reviewed ephemeral cssMinify=false workaround with Node 24.11.1. Skipping LightningCSS also skips target transforms, not only whitespace. Full production CSS or pixel parity is not asserted; no application source, build configuration or lockfile was changed for this batch.",
+    "Chrome internal sandbox is disabled due to macOS nested sandbox incompatibility. Inherited sandbox-exec egress restriction, exact GET/HEAD proxy, app request guard and dedicated profile remain. No double-sandbox claim.",
+    "The English interface retains existing fictional Spanish promotion and agent names.",
+    "A native type menu partially overlays the result beneath it; those figures explain the search/type controls. The full promotion figures show the rows separately.",
+    "Source pixel review does not substitute for final Help page QA or publication approval."
+  ],
+  "recoveries": [
+    {
+      "stage": "native_input_reader_escape",
+      "effect": "Native playground-tab input was rejected before click. Only one template-string regex escape was corrected; no UI or route scope change.",
+      "patch_sha256": "1f82e7cd189b0683eb57820fd624e3fb3bfe1fad7337f134981cb998edfc6aa5",
+      "retained_sources": 5
+    },
+    {
+      "stage": "partial_search_input",
+      "effect": "A partial search GET was blocked before forwarding. The interrupted controller was parked; a new native editor navigation restored empty search. Policy was not broadened and no configuration value changed.",
+      "rejected_url_digest": "94657900a9eb9ccc8c147bd38c638ccb3885632f8465048f2ce1c6c139d57e24"
+    },
+    {
+      "stage": "entry_scene_identifier",
+      "effect": "Only the additional store-promotions-entry capture identifier was added after review. Existing routes and native controls remained unchanged.",
+      "patch_sha256": "3cdd4b3de4db4e8845f38b668833ad1430868546dddc3bd0b10ccc26120b4011"
+    },
+    {
+      "stage": "executor_transport_loss",
+      "effect": "The executor lost a controller and proxy; isolated runtime services were recovered by their owner. Dedicated Chrome survived at verified about:blank. A new proxy and controller used unchanged policies, source data, cookie and helper ticket. No source PNG was replaced.",
+      "private_proxy_recovery_sha256": "b48dd71366494ffc726e589093181eb5b964cc26f8cc76587d00ee2816d20191"
+    },
+    {
+      "stage": "viewport_hit_target",
+      "effect": "One promotions-open input was rejected before click during responsive layout settling. Read-only native geometry inspection verified the settled target, and the permitted open action then succeeded without helper or policy changes."
+    }
+  ],
+  "static_bytes_final_review_sha256": "1bbf33f4a3e88c193f647505ccdbb97c86ace49a3c6b5af7481632973ad70ce3",
+  "network_summary_sha256": "2c7e82453910fe474ea81195cad8f0142774c27dccfcf470700350110f035c36",
+  "private_sidecars_or_session_material_exported": false
+}

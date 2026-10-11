@@ -1,0 +1,3639 @@
+{
+  "checkpoint_sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187",
+  "view": {
+    "source": "_i18n/en/journeys/how-to-customize-a-playbook-safely.md",
+    "source_sha256": "39fc8f3d15c875e405a2ab7997026cf685f09ddfb1f88c33def4089167d6cd61",
+    "built_html": "_site/how-to-customize-a-playbook-safely.html",
+    "built_html_sha256": "8450efe78e5bbf42dc8dc232797e42fa9f987c5602c95c170f76fd96faf31a14",
+    "geometry": {
+      "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+      "title": "How to customize a playbook safely | Hellotext",
+      "locale": "en",
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "documentWidth": 1440,
+      "documentHeight": 25683,
+      "article": {
+        "x": 375.9921875,
+        "y": 665.7421875,
+        "width": 774.4140625,
+        "height": 24580,
+        "right": 1150.40625,
+        "bottom": 25245.7421875
+      },
+      "headings": [
+        "Before you editLink copied",
+        "When to disableLink copied",
+        "What you can customizeLink copied",
+        "Customize the promptLink copied",
+        "Customize toneLink copied",
+        "Customize intentsLink copied",
+        "Customize knowledgeLink copied",
+        "Customize propertiesLink copied",
+        "Customize channelsLink copied",
+        "Customize discount strategyLink copied",
+        "Choose a strategyLink copied",
+        "Choose which store promotions the playbook may useLink copied",
+        "How switches and schedules workLink copied",
+        "Save or restore your selectionsLink copied",
+        "Customize follow-upLink copied",
+        "Choose the count and waitLink copied",
+        "Choose the final actionLink copied",
+        "Replies and later changesLink copied",
+        "Starting valuesLink copied",
+        "When using the agent in a routeLink copied",
+        "Customize handoff rulesLink copied",
+        "Customize journeys or routesLink copied",
+        "Test based on playbook typeLink copied",
+        "Review after the changeLink copied",
+        "Related guidesLink copied"
+      ],
+      "figures": [
+        {
+          "id": "prompt",
+          "figure": {
+            "x": 375.9921875,
+            "y": 3796.7421875,
+            "width": 774.4140625,
+            "height": 630,
+            "right": 1150.40625,
+            "bottom": 4426.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 3796.7421875,
+            "width": 774.4140625,
+            "height": 630,
+            "right": 1150.40625,
+            "bottom": 4426.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 440.1953125,
+            "y": 3825.7421875,
+            "width": 646,
+            "height": 572,
+            "right": 1086.1953125,
+            "bottom": 4397.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 449.1953125,
+            "y": 3834.7421875,
+            "width": 628,
+            "height": 554,
+            "right": 1077.1953125,
+            "bottom": 4388.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+          "naturalSize": [
+            628,
+            554
+          ],
+          "loaded": true,
+          "alt": "Empty prompt field in a fictitious draft",
+          "caption": "Complete field without editing or saving.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "tone",
+          "figure": {
+            "x": 375.9921875,
+            "y": 5124.7421875,
+            "width": 774.4140625,
+            "height": 591,
+            "right": 1150.40625,
+            "bottom": 5715.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 5124.7421875,
+            "width": 774.4140625,
+            "height": 591,
+            "right": 1150.40625,
+            "bottom": 5715.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 466.6953125,
+            "y": 5153.7421875,
+            "width": 593,
+            "height": 533,
+            "right": 1059.6953125,
+            "bottom": 5686.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 475.6953125,
+            "y": 5162.7421875,
+            "width": 575,
+            "height": 515,
+            "right": 1050.6953125,
+            "bottom": 5677.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/captures/property-collector/tone-en.png",
+          "naturalSize": [
+            575,
+            515
+          ],
+          "loaded": true,
+          "alt": "Three tones selected in a draft",
+          "caption": "Selected options without saving.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "intents",
+          "figure": {
+            "x": 375.9921875,
+            "y": 6437.7421875,
+            "width": 774.4140625,
+            "height": 336,
+            "right": 1150.40625,
+            "bottom": 6773.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 6437.7421875,
+            "width": 774.4140625,
+            "height": 336,
+            "right": 1150.40625,
+            "bottom": 6773.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 440.1953125,
+            "y": 6466.7421875,
+            "width": 646,
+            "height": 278,
+            "right": 1086.1953125,
+            "bottom": 6744.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 449.1953125,
+            "y": 6475.7421875,
+            "width": 628,
+            "height": 260,
+            "right": 1077.1953125,
+            "bottom": 6735.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-en.png",
+          "naturalSize": [
+            628,
+            260
+          ],
+          "loaded": true,
+          "alt": "Intent phrase without adding",
+          "caption": "Independent draft without classification.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "knowledge",
+          "figure": {
+            "x": 375.9921875,
+            "y": 7383.7421875,
+            "width": 774.4140625,
+            "height": 442,
+            "right": 1150.40625,
+            "bottom": 7825.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 7383.7421875,
+            "width": 774.4140625,
+            "height": 442,
+            "right": 1150.40625,
+            "bottom": 7825.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 440.1953125,
+            "y": 7412.7421875,
+            "width": 646,
+            "height": 384,
+            "right": 1086.1953125,
+            "bottom": 7796.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 449.1953125,
+            "y": 7421.7421875,
+            "width": 628,
+            "height": 366,
+            "right": 1077.1953125,
+            "bottom": 7787.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+          "naturalSize": [
+            628,
+            366
+          ],
+          "loaded": true,
+          "alt": "Knowledge upload area without files",
+          "caption": "Empty form without document uploads.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "web-search",
+          "figure": {
+            "x": 375.9921875,
+            "y": 8281.7421875,
+            "width": 774.4140625,
+            "height": 292,
+            "right": 1150.40625,
+            "bottom": 8573.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 8281.7421875,
+            "width": 774.4140625,
+            "height": 292,
+            "right": 1150.40625,
+            "bottom": 8573.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 440.1953125,
+            "y": 8310.7421875,
+            "width": 646,
+            "height": 234,
+            "right": 1086.1953125,
+            "bottom": 8544.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 449.1953125,
+            "y": 8319.7421875,
+            "width": 628,
+            "height": 216,
+            "right": 1077.1953125,
+            "bottom": 8535.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+          "naturalSize": [
+            628,
+            216
+          ],
+          "loaded": true,
+          "alt": "Empty web search field",
+          "caption": "Placeholder without an added URL or an executed search.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "properties",
+          "figure": {
+            "x": 375.9921875,
+            "y": 8923.7421875,
+            "width": 774.4140625,
+            "height": 425,
+            "right": 1150.40625,
+            "bottom": 9348.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 8923.7421875,
+            "width": 774.4140625,
+            "height": 425,
+            "right": 1150.40625,
+            "bottom": 9348.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 430.1953125,
+            "y": 8952.7421875,
+            "width": 666,
+            "height": 367,
+            "right": 1096.1953125,
+            "bottom": 9319.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 439.1953125,
+            "y": 8961.7421875,
+            "width": 648,
+            "height": 349,
+            "right": 1087.1953125,
+            "bottom": 9310.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-en.png",
+          "naturalSize": [
+            648,
+            349
+          ],
+          "loaded": true,
+          "alt": "Important name and optional email",
+          "caption": "Fictitious selection without collection.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "channels",
+          "figure": {
+            "x": 375.9921875,
+            "y": 10074.7421875,
+            "width": 774.4140625,
+            "height": 666,
+            "right": 1150.40625,
+            "bottom": 10740.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 10074.7421875,
+            "width": 774.4140625,
+            "height": 666,
+            "right": 1150.40625,
+            "bottom": 10740.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 466.6953125,
+            "y": 10103.7421875,
+            "width": 593,
+            "height": 608,
+            "right": 1059.6953125,
+            "bottom": 10711.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 475.6953125,
+            "y": 10112.7421875,
+            "width": 575,
+            "height": 590,
+            "right": 1050.6953125,
+            "bottom": 10702.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/captures/property-collector/channels-en.png",
+          "naturalSize": [
+            575,
+            590
+          ],
+          "loaded": true,
+          "alt": "Unsaved incoming channel selection",
+          "caption": "Automatic incoming selection and manual option; no sending result.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "discount-percent",
+          "figure": {
+            "x": 375.9921875,
+            "y": 12028.7421875,
+            "width": 774.4140625,
+            "height": 194,
+            "right": 1150.40625,
+            "bottom": 12222.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 12028.7421875,
+            "width": 774.4140625,
+            "height": 194,
+            "right": 1150.40625,
+            "bottom": 12222.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 589.1953125,
+            "y": 12057.7421875,
+            "width": 348,
+            "height": 136,
+            "right": 937.1953125,
+            "bottom": 12193.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 598.1953125,
+            "y": 12066.7421875,
+            "width": 330,
+            "height": 118,
+            "right": 928.1953125,
+            "bottom": 12184.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-en.png",
+          "naturalSize": [
+            330,
+            118
+          ],
+          "loaded": true,
+          "alt": "Percentage in the shared discount card",
+          "caption": "Subscriber Booster draft; fixed rate for that flow.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "store-promotions-entry",
+          "figure": {
+            "x": 375.9921875,
+            "y": 12666.7421875,
+            "width": 774.4140625,
+            "height": 322,
+            "right": 1150.40625,
+            "bottom": 12988.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 12666.7421875,
+            "width": 774.4140625,
+            "height": 322,
+            "right": 1150.40625,
+            "bottom": 12988.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 466.1953125,
+            "y": 12695.7421875,
+            "width": 594,
+            "height": 264,
+            "right": 1060.1953125,
+            "bottom": 12959.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 475.1953125,
+            "y": 12704.7421875,
+            "width": 576,
+            "height": 246,
+            "right": 1051.1953125,
+            "bottom": 12950.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-en-desktop.png",
+          "naturalSize": [
+            576,
+            246
+          ],
+          "loaded": true,
+          "alt": "Existing-store-offers strategy selected, with the View store promotions button.",
+          "caption": "Button for opening the fictional example’s promotions panel; the strategy was not changed or saved.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "store-promotions",
+          "figure": {
+            "x": 375.9921875,
+            "y": 13172.7421875,
+            "width": 774.4140625,
+            "height": 1099,
+            "right": 1150.40625,
+            "bottom": 14271.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 13172.7421875,
+            "width": 774.4140625,
+            "height": 1099,
+            "right": 1150.40625,
+            "bottom": 14271.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 485.6953125,
+            "y": 13201.7421875,
+            "width": 555,
+            "height": 1041,
+            "right": 1040.6953125,
+            "bottom": 14242.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 494.6953125,
+            "y": 13210.7421875,
+            "width": 537,
+            "height": 1023,
+            "right": 1031.6953125,
+            "bottom": 14233.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-en-desktop.png",
+          "naturalSize": [
+            537,
+            1023
+          ],
+          "loaded": true,
+          "alt": "Store promotions panel with fictional promotions, schedules, and inclusion controls for the playbook.",
+          "caption": "The panel was opened to show the prepared example; no promotions were changed and no settings were saved.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "promotion-filter",
+          "figure": {
+            "x": 375.9921875,
+            "y": 14391.7421875,
+            "width": 774.4140625,
+            "height": 518,
+            "right": 1150.40625,
+            "bottom": 14909.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 14391.7421875,
+            "width": 774.4140625,
+            "height": 518,
+            "right": 1150.40625,
+            "bottom": 14909.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 485.6953125,
+            "y": 14420.7421875,
+            "width": 555,
+            "height": 460,
+            "right": 1040.6953125,
+            "bottom": 14880.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 494.6953125,
+            "y": 14429.7421875,
+            "width": 537,
+            "height": 442,
+            "right": 1031.6953125,
+            "bottom": 14871.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-en-desktop.png",
+          "naturalSize": [
+            537,
+            442
+          ],
+          "loaded": true,
+          "alt": "Promotion search and kind menu with All kinds, Combos, Buy and get a gift, Buy more, pay for fewer, and Discounts.",
+          "caption": "The filter narrows visible results; it does not change which promotions are allowed for the playbook.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "followup-controls",
+          "figure": {
+            "x": 375.9921875,
+            "y": 16623.7421875,
+            "width": 774.4140625,
+            "height": 572,
+            "right": 1150.40625,
+            "bottom": 17195.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 16623.7421875,
+            "width": 774.4140625,
+            "height": 572,
+            "right": 1150.40625,
+            "bottom": 17195.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 466.1953125,
+            "y": 16652.7421875,
+            "width": 594,
+            "height": 514,
+            "right": 1060.1953125,
+            "bottom": 17166.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 475.1953125,
+            "y": 16661.7421875,
+            "width": 576,
+            "height": 496,
+            "right": 1051.1953125,
+            "bottom": 17157.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-en-desktop.png",
+          "naturalSize": [
+            576,
+            496
+          ],
+          "loaded": true,
+          "alt": "Follow-up controls with one nudge, a two-minute wait, and AI Analysis.",
+          "caption": "Existing settings of a disabled fictional playbook; no setting was changed or saved during capture.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "followup-actions",
+          "figure": {
+            "x": 375.9921875,
+            "y": 17819.7421875,
+            "width": 774.4140625,
+            "height": 376,
+            "right": 1150.40625,
+            "bottom": 18195.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 17819.7421875,
+            "width": 774.4140625,
+            "height": 376,
+            "right": 1150.40625,
+            "bottom": 18195.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 466.1953125,
+            "y": 17848.7421875,
+            "width": 594,
+            "height": 318,
+            "right": 1060.1953125,
+            "bottom": 18166.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 475.1953125,
+            "y": 17857.7421875,
+            "width": 576,
+            "height": 300,
+            "right": 1051.1953125,
+            "bottom": 18157.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-en-desktop.png",
+          "naturalSize": [
+            576,
+            300
+          ],
+          "loaded": true,
+          "alt": "Final-action menu with AI Analysis, Close the conversation, and Hand off to a person.",
+          "caption": "Final-action choices; the menu was opened without choosing another option or saving.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "followup-sequence",
+          "figure": {
+            "x": 375.9921875,
+            "y": 18403.7421875,
+            "width": 774.4140625,
+            "height": 497,
+            "right": 1150.40625,
+            "bottom": 18900.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 18403.7421875,
+            "width": 774.4140625,
+            "height": 497,
+            "right": 1150.40625,
+            "bottom": 18900.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 466.1953125,
+            "y": 18432.7421875,
+            "width": 594,
+            "height": 439,
+            "right": 1060.1953125,
+            "bottom": 18871.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 475.1953125,
+            "y": 18441.7421875,
+            "width": 576,
+            "height": 421,
+            "right": 1051.1953125,
+            "bottom": 18862.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-en-desktop.png",
+          "naturalSize": [
+            576,
+            421
+          ],
+          "loaded": true,
+          "alt": "Illustrative Follow-up preview with a wait, one nudge, another wait, and AI Analysis.",
+          "caption": "Native example for one nudge and two-minute waits; these are not sent messages or executed actions.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "agent-wait-notice",
+          "figure": {
+            "x": 375.9921875,
+            "y": 20139.7421875,
+            "width": 774.4140625,
+            "height": 636,
+            "right": 1150.40625,
+            "bottom": 20775.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 20139.7421875,
+            "width": 774.4140625,
+            "height": 636,
+            "right": 1150.40625,
+            "bottom": 20775.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 523.6953125,
+            "y": 20168.7421875,
+            "width": 479,
+            "height": 578,
+            "right": 1002.6953125,
+            "bottom": 20746.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 532.6953125,
+            "y": 20177.7421875,
+            "width": 461,
+            "height": 560,
+            "right": 993.6953125,
+            "bottom": 20737.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-en-desktop.png",
+          "naturalSize": [
+            461,
+            560
+          ],
+          "loaded": true,
+          "alt": "Disabled six-hour wait in the Agent step, with the Followup notice and Edit Followup link.",
+          "caption": "The step value is not the active wait: the playbook’s Follow-up applies. The route remains a draft.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "escalation",
+          "figure": {
+            "x": 375.9921875,
+            "y": 21493.7421875,
+            "width": 774.4140625,
+            "height": 406,
+            "right": 1150.40625,
+            "bottom": 21899.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 21493.7421875,
+            "width": 774.4140625,
+            "height": 406,
+            "right": 1150.40625,
+            "bottom": 21899.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 466.6953125,
+            "y": 21522.7421875,
+            "width": 593,
+            "height": 348,
+            "right": 1059.6953125,
+            "bottom": 21870.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 475.6953125,
+            "y": 21531.7421875,
+            "width": 575,
+            "height": 330,
+            "right": 1050.6953125,
+            "bottom": 21861.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/captures/property-collector/handoff-en.png",
+          "naturalSize": [
+            575,
+            330
+          ],
+          "loaded": true,
+          "alt": "Fictitious team in the escalation control",
+          "caption": "Destination without saving or assigning a conversation.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "route-assignment",
+          "figure": {
+            "x": 375.9921875,
+            "y": 22565.7421875,
+            "width": 774.4140625,
+            "height": 726,
+            "right": 1150.40625,
+            "bottom": 23291.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 22565.7421875,
+            "width": 774.4140625,
+            "height": 726,
+            "right": 1150.40625,
+            "bottom": 23291.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 502.6953125,
+            "y": 22594.7421875,
+            "width": 521,
+            "height": 668,
+            "right": 1023.6953125,
+            "bottom": 23262.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 511.6953125,
+            "y": 22603.7421875,
+            "width": 503,
+            "height": 650,
+            "right": 1014.6953125,
+            "bottom": 23253.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-en.png",
+          "naturalSize": [
+            503,
+            650
+          ],
+          "loaded": true,
+          "alt": "Five actions in the Assignment component",
+          "caption": "Independent component; no executed route.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        }
+      ]
+    },
+    "captures": [
+      {
+        "file": "customize-safely-en-1440-full-part1.png",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "6ed706e359e46a605b53a0a02e70127ff7c0e02e96bc380e45cb289484b13034",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 0
+      },
+      {
+        "file": "customize-safely-en-1440-full-part2.png",
+        "clip": {
+          "x": 0,
+          "y": 1100,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            1100
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "cea9543cefa7e726eab69caab51fce837ef21cd27981226ef4200f5f9e32e2df",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part3.png",
+        "clip": {
+          "x": 0,
+          "y": 2200,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            2200
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "0f42da1ae7dd9c02eae26a7ff33d034c118572a4ac31337a8aa1d419e7d11923",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part4.png",
+        "clip": {
+          "x": 0,
+          "y": 3300,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            3300
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "fb8b454fa0acb739137d49301958fba4681e40310e93a4331ffff7598ff28d56",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part5.png",
+        "clip": {
+          "x": 0,
+          "y": 4400,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4400
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "954ad965cfabc7174bcc9d79186fcf8f7cd4b4ed860928aa73b1825c4bda798f",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part6.png",
+        "clip": {
+          "x": 0,
+          "y": 5500,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5500
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "0c9f3bde1416a137ae8aefcf71d252cb9fd9250546e2c6bbeffc95f7ece15758",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part7.png",
+        "clip": {
+          "x": 0,
+          "y": 6600,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6600
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "ecce903a9a8d2531a22e9c1ae9caf928118c9f8ec28d64e7d38fa3079299650a",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part8.png",
+        "clip": {
+          "x": 0,
+          "y": 7700,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7700
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "cfdb1e2b8ec5aee5f6a13b3c6e5cafd622b70e2c4c193769ddf9ebfb91adb7e3",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part9.png",
+        "clip": {
+          "x": 0,
+          "y": 8800,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8800
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "63bb5e893ed816110f0619b778f0cdfa9d84311560248377fe1c2a4ab1250a8e",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part10.png",
+        "clip": {
+          "x": 0,
+          "y": 9900,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9900
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "0c6cfbef55481bd32f18be0ceafe32d9d97dde8dae49288d66e3e32e7bcfe97b",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part11.png",
+        "clip": {
+          "x": 0,
+          "y": 11000,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            11000
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "3f79696810c9ac34ad82bed785f1fbced93de665f2ecce8cc1fbc814ed3a9c24",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part12.png",
+        "clip": {
+          "x": 0,
+          "y": 12100,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            12100
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "3942dc17134908cabf977170790a79788e82169291ed052bf66bbd1082fd843d",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part13.png",
+        "clip": {
+          "x": 0,
+          "y": 13200,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            13200
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "f156daacc33c6b374be8d011154f24939ca737136b719686c207f6d060b58d1e",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part14.png",
+        "clip": {
+          "x": 0,
+          "y": 14300,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            14300
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "b5e06a381543ccd0c56f9e263e28cba1454dd823271969640bc14ee168dff5d0",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part15.png",
+        "clip": {
+          "x": 0,
+          "y": 15400,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            15400
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "798b8083e54fa021e0ee5e550a116f9bfc7dd545fbc91abf54e5719f1024bab5",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part16.png",
+        "clip": {
+          "x": 0,
+          "y": 16500,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            16500
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "fba1f94ea5643fe97b6ee370b255304e6bb01cb4e41616751cb6b82f9e78b659",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part17.png",
+        "clip": {
+          "x": 0,
+          "y": 17600,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            17600
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "068ad8ac4193873936c88c8b78c37fd3d284389ba49a356c28ff3a2b4591b91f",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part18.png",
+        "clip": {
+          "x": 0,
+          "y": 18700,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            18700
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "b47c9a7621e643a230678387ee998575887380db188e2d315b57b16291686ce7",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part19.png",
+        "clip": {
+          "x": 0,
+          "y": 19800,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            19800
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "a1d7b4500b4fa7d901a50df5b6de5b959b491f229885057dd536c8e0ec351021",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part20.png",
+        "clip": {
+          "x": 0,
+          "y": 20900,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            20900
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "aef2dddf25259cd85f4890e7867eddadab280f68466567f2e3095081ffd9a740",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part21.png",
+        "clip": {
+          "x": 0,
+          "y": 22000,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            22000
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "468b4afbca262a7add3cfc046a63b0bf1c69da7ca0d903a27eb803eee0b22a40",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part22.png",
+        "clip": {
+          "x": 0,
+          "y": 23100,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            23100
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "a480e5ac98d8502ce231ac14fb78d64bd1dc75c288bb5a00c0a3b8fc37ac0a03",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part23.png",
+        "clip": {
+          "x": 0,
+          "y": 24200,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            24200
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "f5724671efcff3ca0f10a5d711c4c42e5bf0f4021ef58f9954e0cfdcea34108d",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-en-1440-full-part24.png",
+        "clip": {
+          "x": 0,
+          "y": 24482.5,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            24482.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "492abfb44358e5ec655ec718c7c05f4810e2b3e5927a32b8e1781a7651b8772d",
+        "complete_page_segment": true,
+        "documentHeight": 25683,
+        "overlap_css": 917.5
+      },
+      {
+        "file": "customize-safely-en-1440-prompt.png",
+        "clip": {
+          "x": 363,
+          "y": 3784,
+          "width": 800,
+          "height": 655
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            3511.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1310
+        ],
+        "icc": "Display P3",
+        "sha256": "67e5a4bd3b8fb4ed12822af914770029c1fec6bceb2325e91a5619c7dae87dd6"
+      },
+      {
+        "file": "customize-safely-en-1440-tone.png",
+        "clip": {
+          "x": 363,
+          "y": 5112,
+          "width": 800,
+          "height": 616
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4820
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1232
+        ],
+        "icc": "Display P3",
+        "sha256": "3a0a7b464b54b2556ecd52a1eaf5612aeeb74ed5ed912bcf455998834870ef0d"
+      },
+      {
+        "file": "customize-safely-en-1440-intents.png",
+        "clip": {
+          "x": 363,
+          "y": 6425,
+          "width": 800,
+          "height": 361
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6005.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          722
+        ],
+        "icc": "Display P3",
+        "sha256": "413d62761b868aa33c387de9c3346b60ab0a39adee1ff69b69ed7aa3c5897177"
+      },
+      {
+        "file": "customize-safely-en-1440-knowledge.png",
+        "clip": {
+          "x": 363,
+          "y": 7371,
+          "width": 800,
+          "height": 467
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7004.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          934
+        ],
+        "icc": "Display P3",
+        "sha256": "ae8cf3d13f60645f03ff19dc2264449ef60bbbf517877a44c88627d59a9daf97"
+      },
+      {
+        "file": "customize-safely-en-1440-web-search.png",
+        "clip": {
+          "x": 363,
+          "y": 8269,
+          "width": 800,
+          "height": 317
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7827.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          634
+        ],
+        "icc": "Display P3",
+        "sha256": "25f1e7a9d6774c41a6534970cbbe02d1677bfa24bb47441f4bf6e37d87848338"
+      },
+      {
+        "file": "customize-safely-en-1440-properties.png",
+        "clip": {
+          "x": 363,
+          "y": 8911,
+          "width": 800,
+          "height": 450
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8536
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          900
+        ],
+        "icc": "Display P3",
+        "sha256": "2d3fe82aa098b5f501c77537f613003d93ab1cf35bca7254676aad7bea94a9fa"
+      },
+      {
+        "file": "customize-safely-en-1440-channels.png",
+        "clip": {
+          "x": 363,
+          "y": 10062,
+          "width": 800,
+          "height": 691
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9807.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1382
+        ],
+        "icc": "Display P3",
+        "sha256": "63115aea5c14417563a698a6b4b579aa6ee2e0d2bda9cac6d550468261366001"
+      },
+      {
+        "file": "customize-safely-en-1440-discount-percent.png",
+        "clip": {
+          "x": 363,
+          "y": 12016,
+          "width": 800,
+          "height": 219
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            11525.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          438
+        ],
+        "icc": "Display P3",
+        "sha256": "e931f4793693cd186fb50a98039206bbdcc9050dc8a0a90da80ca61a8fc1a240"
+      },
+      {
+        "file": "customize-safely-en-1440-store-promotions-entry.png",
+        "clip": {
+          "x": 363,
+          "y": 12654,
+          "width": 800,
+          "height": 347
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            12227.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          694
+        ],
+        "icc": "Display P3",
+        "sha256": "e1499e6ff3c15a75d20c14883a21b1ea11b9e09b6a8afb3b702a4c3ceff0b651"
+      },
+      {
+        "file": "customize-safely-en-1440-store-promotions.png",
+        "clip": {
+          "x": 363,
+          "y": 13160,
+          "width": 800,
+          "height": 1124
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            13122
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          2248
+        ],
+        "icc": "Display P3",
+        "sha256": "880981f5ac4f73b5e354a972aced5382f18f804c1957b0bbc1ff3e3d33aa2ab3"
+      },
+      {
+        "file": "customize-safely-en-1440-promotion-filter.png",
+        "clip": {
+          "x": 363,
+          "y": 14379,
+          "width": 800,
+          "height": 543
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            14050.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1086
+        ],
+        "icc": "Display P3",
+        "sha256": "59fdf30cb2647a2b55ffcdb9e99e298be7fa0034272bd909531909c57d9eb5df"
+      },
+      {
+        "file": "customize-safely-en-1440-followup-controls.png",
+        "clip": {
+          "x": 363,
+          "y": 16611,
+          "width": 800,
+          "height": 597
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            16309.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1194
+        ],
+        "icc": "Display P3",
+        "sha256": "196ca25872aafd8319e68110ab310365bb172de06c6fcc2c3e4df34cab028f8f"
+      },
+      {
+        "file": "customize-safely-en-1440-followup-actions.png",
+        "clip": {
+          "x": 363,
+          "y": 17807,
+          "width": 800,
+          "height": 401
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            17407.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          802
+        ],
+        "icc": "Display P3",
+        "sha256": "d53e46f613efac447ea39235b7e485f1a4cd99ce8a1839d62726b42d1467c246"
+      },
+      {
+        "file": "customize-safely-en-1440-followup-sequence.png",
+        "clip": {
+          "x": 363,
+          "y": 18391,
+          "width": 800,
+          "height": 522
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            18052
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1044
+        ],
+        "icc": "Display P3",
+        "sha256": "77279e0d77e2cdfa7888623173a3e15ddd26dbc203ce38de888455320170df3b"
+      },
+      {
+        "file": "customize-safely-en-1440-agent-wait-notice.png",
+        "clip": {
+          "x": 363,
+          "y": 20127,
+          "width": 800,
+          "height": 661
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            19857.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1322
+        ],
+        "icc": "Display P3",
+        "sha256": "894f4334dc3e992766761a75a4b8c5ce81c3347d8464ed65affab7e127540992"
+      },
+      {
+        "file": "customize-safely-en-1440-escalation.png",
+        "clip": {
+          "x": 363,
+          "y": 21481,
+          "width": 800,
+          "height": 431
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            21096.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          862
+        ],
+        "icc": "Display P3",
+        "sha256": "cddee6be4ba648cfc8ab14b7d3e5603537d5d974ffda91bcf4be371c42e81449"
+      },
+      {
+        "file": "customize-safely-en-1440-route-assignment.png",
+        "clip": {
+          "x": 363,
+          "y": 22553,
+          "width": 800,
+          "height": 751
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "title": "How to customize a playbook safely | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            22328.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1502
+        ],
+        "icc": "Display P3",
+        "sha256": "211bc237f24187837e0732851c68799d8021fe8eb5288bf0da22d50c2a6231de"
+      }
+    ]
+  }
+}

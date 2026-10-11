@@ -1,0 +1,3759 @@
+{
+  "checkpoint_sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187",
+  "view": {
+    "source": "_i18n/es/journeys/how-to-customize-a-playbook-safely.md",
+    "source_sha256": "fbcf73ac6ab8bbc90abc0e7ae643bfc9c2cb790d30085971622199bc3232dc7b",
+    "built_html": "_site/es/como-personalizar-una-mision.html",
+    "built_html_sha256": "dac1f461609e091eb45b39089798a50d4dcca6120445cf68fa7d2a6bc353fcb0",
+    "geometry": {
+      "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+      "title": "Cómo personalizar una misión de forma segura | Hellotext",
+      "locale": "es",
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "documentWidth": 580,
+      "documentHeight": 29666,
+      "article": {
+        "x": 16,
+        "y": 604,
+        "width": 548,
+        "height": 28489.828125,
+        "right": 564,
+        "bottom": 29093.828125
+      },
+      "headings": [
+        "Antes de editarEnlace copiado",
+        "Cuándo conviene deshabilitarEnlace copiado",
+        "Qué puedes personalizarEnlace copiado",
+        "Personaliza el promptEnlace copiado",
+        "Personaliza el tonoEnlace copiado",
+        "Personaliza intencionesEnlace copiado",
+        "Personaliza conocimientoEnlace copiado",
+        "Personaliza propiedadesEnlace copiado",
+        "Personaliza canalesEnlace copiado",
+        "Personaliza la estrategia de descuentoEnlace copiado",
+        "Elige una estrategiaEnlace copiado",
+        "Elige qué promociones de la tienda puede usar la misiónEnlace copiado",
+        "Cómo funcionan los interruptores y los horariosEnlace copiado",
+        "Guarda o restaura tus seleccionesEnlace copiado",
+        "Personaliza el seguimientoEnlace copiado",
+        "Elige la cantidad y la esperaEnlace copiado",
+        "Elige la acción finalEnlace copiado",
+        "Respuestas y cambios posterioresEnlace copiado",
+        "Valores inicialesEnlace copiado",
+        "Si usas el agente dentro de una rutaEnlace copiado",
+        "Personaliza derivaciónEnlace copiado",
+        "Personaliza journeys o rutasEnlace copiado",
+        "Prueba según el tipo de misiónEnlace copiado",
+        "Revisa después del cambioEnlace copiado",
+        "Guías relacionadasEnlace copiado"
+      ],
+      "figures": [
+        {
+          "id": "prompt",
+          "figure": {
+            "x": 16,
+            "y": 4575,
+            "width": 548,
+            "height": 554,
+            "right": 564,
+            "bottom": 5129
+          },
+          "stage": {
+            "x": 16,
+            "y": 4575,
+            "width": 548,
+            "height": 554,
+            "right": 564,
+            "bottom": 5129
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 70,
+            "y": 4604,
+            "width": 440,
+            "height": 496,
+            "right": 510,
+            "bottom": 5100
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 79,
+            "y": 4613,
+            "width": 422,
+            "height": 478,
+            "right": 501,
+            "bottom": 5091
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+          "naturalSize": [
+            422,
+            478
+          ],
+          "loaded": true,
+          "alt": "Campo de prompt vacío en un borrador ficticio",
+          "caption": "Campo completo sin editar ni guardar.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "tone",
+          "figure": {
+            "x": 16,
+            "y": 5905,
+            "width": 548,
+            "height": 561,
+            "right": 564,
+            "bottom": 6466
+          },
+          "stage": {
+            "x": 16,
+            "y": 5905,
+            "width": 548,
+            "height": 561,
+            "right": 564,
+            "bottom": 6466
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 86,
+            "y": 5934,
+            "width": 408,
+            "height": 503,
+            "right": 494,
+            "bottom": 6437
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 95,
+            "y": 5943,
+            "width": 390,
+            "height": 485,
+            "right": 485,
+            "bottom": 6428
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/captures/property-collector/tone-es-mobile.png",
+          "naturalSize": [
+            390,
+            485
+          ],
+          "loaded": true,
+          "alt": "Tres tonos seleccionados en un borrador",
+          "caption": "Opciones seleccionadas sin guardar.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "intents",
+          "figure": {
+            "x": 16,
+            "y": 7362,
+            "width": 548,
+            "height": 372,
+            "right": 564,
+            "bottom": 7734
+          },
+          "stage": {
+            "x": 16,
+            "y": 7362,
+            "width": 548,
+            "height": 372,
+            "right": 564,
+            "bottom": 7734
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 90,
+            "y": 7391,
+            "width": 400,
+            "height": 314,
+            "right": 490,
+            "bottom": 7705
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 99,
+            "y": 7400,
+            "width": 382,
+            "height": 296,
+            "right": 481,
+            "bottom": 7696
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+          "naturalSize": [
+            382,
+            296
+          ],
+          "loaded": true,
+          "alt": "Frase de intención sin agregar",
+          "caption": "Borrador independiente sin clasificación.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "knowledge",
+          "figure": {
+            "x": 16,
+            "y": 8422,
+            "width": 548,
+            "height": 478,
+            "right": 564,
+            "bottom": 8900
+          },
+          "stage": {
+            "x": 16,
+            "y": 8422,
+            "width": 548,
+            "height": 478,
+            "right": 564,
+            "bottom": 8900
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 70,
+            "y": 8451,
+            "width": 440,
+            "height": 420,
+            "right": 510,
+            "bottom": 8871
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 79,
+            "y": 8460,
+            "width": 422,
+            "height": 402,
+            "right": 501,
+            "bottom": 8862
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+          "naturalSize": [
+            422,
+            402
+          ],
+          "loaded": true,
+          "alt": "Área de conocimiento sin archivos",
+          "caption": "Formulario vacío sin subir documentos.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "web-search",
+          "figure": {
+            "x": 16,
+            "y": 9500,
+            "width": 548,
+            "height": 280,
+            "right": 564,
+            "bottom": 9780
+          },
+          "stage": {
+            "x": 16,
+            "y": 9500,
+            "width": 548,
+            "height": 280,
+            "right": 564,
+            "bottom": 9780
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 70,
+            "y": 9529,
+            "width": 440,
+            "height": 222,
+            "right": 510,
+            "bottom": 9751
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 79,
+            "y": 9538,
+            "width": 422,
+            "height": 204,
+            "right": 501,
+            "bottom": 9742
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+          "naturalSize": [
+            422,
+            204
+          ],
+          "loaded": true,
+          "alt": "Campo de búsqueda web vacío",
+          "caption": "Placeholder sin URL añadida ni búsqueda ejecutada.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "properties",
+          "figure": {
+            "x": 16,
+            "y": 10184,
+            "width": 548,
+            "height": 413,
+            "right": 564,
+            "bottom": 10597
+          },
+          "stage": {
+            "x": 16,
+            "y": 10184,
+            "width": 548,
+            "height": 413,
+            "right": 564,
+            "bottom": 10597
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 90,
+            "y": 10213,
+            "width": 400,
+            "height": 355,
+            "right": 490,
+            "bottom": 10568
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 99,
+            "y": 10222,
+            "width": 382,
+            "height": 337,
+            "right": 481,
+            "bottom": 10559
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-es-mobile.png",
+          "naturalSize": [
+            382,
+            337
+          ],
+          "loaded": true,
+          "alt": "Nombre importante y correo opcional",
+          "caption": "Selección ficticia sin recopilación.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "channels",
+          "figure": {
+            "x": 16,
+            "y": 11497,
+            "width": 548,
+            "height": 836,
+            "right": 564,
+            "bottom": 12333
+          },
+          "stage": {
+            "x": 16,
+            "y": 11497,
+            "width": 548,
+            "height": 836,
+            "right": 564,
+            "bottom": 12333
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 86,
+            "y": 11526,
+            "width": 408,
+            "height": 778,
+            "right": 494,
+            "bottom": 12304
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 95,
+            "y": 11535,
+            "width": 390,
+            "height": 760,
+            "right": 485,
+            "bottom": 12295
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/captures/property-collector/channels-es-mobile.png",
+          "naturalSize": [
+            390,
+            760
+          ],
+          "loaded": true,
+          "alt": "Selección de canales de entrada sin guardar",
+          "caption": "Entrada automática y opción manual; no resultado de envío.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "discount-percent",
+          "figure": {
+            "x": 16,
+            "y": 13969.203125,
+            "width": 548,
+            "height": 194,
+            "right": 564,
+            "bottom": 14163.203125
+          },
+          "stage": {
+            "x": 16,
+            "y": 13969.203125,
+            "width": 548,
+            "height": 194,
+            "right": 564,
+            "bottom": 14163.203125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 158.5,
+            "y": 13998.203125,
+            "width": 263,
+            "height": 136,
+            "right": 421.5,
+            "bottom": 14134.203125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 167.5,
+            "y": 14007.203125,
+            "width": 245,
+            "height": 118,
+            "right": 412.5,
+            "bottom": 14125.203125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-es.png",
+          "naturalSize": [
+            245,
+            118
+          ],
+          "loaded": true,
+          "alt": "Porcentaje en la tarjeta de descuento compartida",
+          "caption": "Borrador de Subscriber Booster; tasa fija por ese flujo.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "store-promotions-entry",
+          "figure": {
+            "x": 16,
+            "y": 14693.40625,
+            "width": 548,
+            "height": 450,
+            "right": 564,
+            "bottom": 15143.40625
+          },
+          "stage": {
+            "x": 16,
+            "y": 14693.40625,
+            "width": 548,
+            "height": 450,
+            "right": 564,
+            "bottom": 15143.40625
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 86,
+            "y": 14722.40625,
+            "width": 408,
+            "height": 392,
+            "right": 494,
+            "bottom": 15114.40625
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 95,
+            "y": 14731.40625,
+            "width": 390,
+            "height": 374,
+            "right": 485,
+            "bottom": 15105.40625
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-es-mobile.png",
+          "naturalSize": [
+            390,
+            374
+          ],
+          "loaded": true,
+          "alt": "Estrategia de ofertas existentes seleccionada, con el botón Ver promociones de la tienda.",
+          "caption": "Botón para abrir el panel de promociones del ejemplo ficticio; la estrategia no se cambió ni se guardó.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "store-promotions",
+          "figure": {
+            "x": 16,
+            "y": 15375.40625,
+            "width": 548,
+            "height": 1199,
+            "right": 564,
+            "bottom": 16574.40625
+          },
+          "stage": {
+            "x": 16,
+            "y": 15375.40625,
+            "width": 548,
+            "height": 1199,
+            "right": 564,
+            "bottom": 16574.40625
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 86,
+            "y": 15404.40625,
+            "width": 408,
+            "height": 1141,
+            "right": 494,
+            "bottom": 16545.40625
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 95,
+            "y": 15413.40625,
+            "width": 390,
+            "height": 1123,
+            "right": 485,
+            "bottom": 16536.40625
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-es-mobile.png",
+          "naturalSize": [
+            390,
+            1123
+          ],
+          "loaded": true,
+          "alt": "Panel de promociones de la tienda con promociones ficticias, horarios y controles de inclusión para la misión.",
+          "caption": "Sólo se abrió el panel para mostrar el ejemplo preparado; no se cambiaron promociones ni se guardaron ajustes.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "promotion-filter",
+          "figure": {
+            "x": 16,
+            "y": 16718.40625,
+            "width": 548,
+            "height": 576,
+            "right": 564,
+            "bottom": 17294.40625
+          },
+          "stage": {
+            "x": 16,
+            "y": 16718.40625,
+            "width": 548,
+            "height": 576,
+            "right": 564,
+            "bottom": 17294.40625
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 86,
+            "y": 16747.40625,
+            "width": 408,
+            "height": 518,
+            "right": 494,
+            "bottom": 17265.40625
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 95,
+            "y": 16756.40625,
+            "width": 390,
+            "height": 500,
+            "right": 485,
+            "bottom": 17256.40625
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-es-mobile.png",
+          "naturalSize": [
+            390,
+            500
+          ],
+          "loaded": true,
+          "alt": "Búsqueda de promociones y menú de tipos con Todos los tipos, Combos, Compra y recibe un regalo, Lleva más, paga menos y Descuentos.",
+          "caption": "El filtro delimita los resultados visibles; no cambia qué promociones están permitidas para la misión.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "followup-controls",
+          "figure": {
+            "x": 16,
+            "y": 19461.015625,
+            "width": 548,
+            "height": 616,
+            "right": 564,
+            "bottom": 20077.015625
+          },
+          "stage": {
+            "x": 16,
+            "y": 19461.015625,
+            "width": 548,
+            "height": 616,
+            "right": 564,
+            "bottom": 20077.015625
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 86,
+            "y": 19490.015625,
+            "width": 408,
+            "height": 558,
+            "right": 494,
+            "bottom": 20048.015625
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 95,
+            "y": 19499.015625,
+            "width": 390,
+            "height": 540,
+            "right": 485,
+            "bottom": 20039.015625
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-es-mobile.png",
+          "naturalSize": [
+            390,
+            540
+          ],
+          "loaded": true,
+          "alt": "Controles de Seguimiento con un recordatorio, espera de dos minutos y Análisis de IA.",
+          "caption": "Configuración existente de una misión ficticia deshabilitada; no se cambió ni guardó durante la captura.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "followup-actions",
+          "figure": {
+            "x": 16,
+            "y": 20815.21875,
+            "width": 548,
+            "height": 386,
+            "right": 564,
+            "bottom": 21201.21875
+          },
+          "stage": {
+            "x": 16,
+            "y": 20815.21875,
+            "width": 548,
+            "height": 386,
+            "right": 564,
+            "bottom": 21201.21875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 86,
+            "y": 20844.21875,
+            "width": 408,
+            "height": 328,
+            "right": 494,
+            "bottom": 21172.21875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 95,
+            "y": 20853.21875,
+            "width": 390,
+            "height": 310,
+            "right": 485,
+            "bottom": 21163.21875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-es-mobile.png",
+          "naturalSize": [
+            390,
+            310
+          ],
+          "loaded": true,
+          "alt": "Menú de acción final con Análisis de IA, Cerrar la conversación y Transferir a una persona.",
+          "caption": "Opciones de la acción final; el menú se abrió sin elegir otra opción ni guardar.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "followup-sequence",
+          "figure": {
+            "x": 16,
+            "y": 21457.21875,
+            "width": 548,
+            "height": 549,
+            "right": 564,
+            "bottom": 22006.21875
+          },
+          "stage": {
+            "x": 16,
+            "y": 21457.21875,
+            "width": 548,
+            "height": 549,
+            "right": 564,
+            "bottom": 22006.21875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 86,
+            "y": 21486.21875,
+            "width": 408,
+            "height": 491,
+            "right": 494,
+            "bottom": 21977.21875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 95,
+            "y": 21495.21875,
+            "width": 390,
+            "height": 473,
+            "right": 485,
+            "bottom": 21968.21875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-es-mobile.png",
+          "naturalSize": [
+            390,
+            473
+          ],
+          "loaded": true,
+          "alt": "Vista previa ilustrativa de Seguimiento con una espera, un recordatorio, otra espera y Análisis de IA.",
+          "caption": "Ejemplo nativo para un recordatorio y esperas de dos minutos; no son mensajes enviados ni acciones ejecutadas.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "agent-wait-notice",
+          "figure": {
+            "x": 16,
+            "y": 23659.828125,
+            "width": 548,
+            "height": 684,
+            "right": 564,
+            "bottom": 24343.828125
+          },
+          "stage": {
+            "x": 16,
+            "y": 23659.828125,
+            "width": 548,
+            "height": 684,
+            "right": 564,
+            "bottom": 24343.828125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 86,
+            "y": 23688.828125,
+            "width": 408,
+            "height": 626,
+            "right": 494,
+            "bottom": 24314.828125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 95,
+            "y": 23697.828125,
+            "width": 390,
+            "height": 608,
+            "right": 485,
+            "bottom": 24305.828125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-es-mobile.png",
+          "naturalSize": [
+            390,
+            608
+          ],
+          "loaded": true,
+          "alt": "Espera de seis horas deshabilitada en el paso de agente, con el aviso de Seguimiento y el enlace Editar Seguimiento.",
+          "caption": "El valor del paso no es la espera activa: se aplica el Seguimiento de la misión. La ruta permanece como borrador.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "escalation",
+          "figure": {
+            "x": 16,
+            "y": 25163.828125,
+            "width": 548,
+            "height": 416,
+            "right": 564,
+            "bottom": 25579.828125
+          },
+          "stage": {
+            "x": 16,
+            "y": 25163.828125,
+            "width": 548,
+            "height": 416,
+            "right": 564,
+            "bottom": 25579.828125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 86,
+            "y": 25192.828125,
+            "width": 408,
+            "height": 358,
+            "right": 494,
+            "bottom": 25550.828125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 95,
+            "y": 25201.828125,
+            "width": 390,
+            "height": 340,
+            "right": 485,
+            "bottom": 25541.828125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/captures/property-collector/handoff-es-mobile.png",
+          "naturalSize": [
+            390,
+            340
+          ],
+          "loaded": true,
+          "alt": "Equipo ficticio en el control de derivación",
+          "caption": "Destino sin guardar ni asignar una conversación.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "route-assignment",
+          "figure": {
+            "x": 16,
+            "y": 26275.828125,
+            "width": 548,
+            "height": 726,
+            "right": 564,
+            "bottom": 27001.828125
+          },
+          "stage": {
+            "x": 16,
+            "y": 26275.828125,
+            "width": 548,
+            "height": 726,
+            "right": 564,
+            "bottom": 27001.828125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 86.5,
+            "y": 26304.828125,
+            "width": 407,
+            "height": 668,
+            "right": 493.5,
+            "bottom": 26972.828125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 95.5,
+            "y": 26313.828125,
+            "width": 389,
+            "height": 650,
+            "right": 484.5,
+            "bottom": 26963.828125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+          "naturalSize": [
+            389,
+            650
+          ],
+          "loaded": true,
+          "alt": "Cinco acciones en el componente Asignación",
+          "caption": "Componente independiente; no ruta ejecutada.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        }
+      ]
+    },
+    "captures": [
+      {
+        "file": "customize-safely-es-580-full-part1.png",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "63e1fd0ca3424c586f0ff041f613fd1b11c573b5b97e47fbac308a1cb5f33b07",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 0
+      },
+      {
+        "file": "customize-safely-es-580-full-part2.png",
+        "clip": {
+          "x": 0,
+          "y": 1100,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            1100
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "92c9786344c86d67c6d154c8a4786529fbfd91c6a13c3a7c8d1964cd1765ea49",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part3.png",
+        "clip": {
+          "x": 0,
+          "y": 2200,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            2200
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "3ec0ac2f0c61fcc9d9965e995dbc3cf3ed291c28cd71858a664eb8f9b0dd0d59",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part4.png",
+        "clip": {
+          "x": 0,
+          "y": 3300,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            3300
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "6d2ec7bc1182aacbffe439637820be01eff77ba3e4e332269149329b7cfc196a",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part5.png",
+        "clip": {
+          "x": 0,
+          "y": 4400,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4400
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "b476f43ee03f0c5ddfd308e4055bb0cf8c57ae7882acdbb12ead2eb23d476b67",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part6.png",
+        "clip": {
+          "x": 0,
+          "y": 5500,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5500
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "3b147463d58517d816e53cf8429ba7c6d62ddf63971b5f362392424d0dd51e39",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part7.png",
+        "clip": {
+          "x": 0,
+          "y": 6600,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6600
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "c3b5bde5fd1f3165558f9303066ba79d38c993b5fbc7d10ec0cbfe502af94625",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part8.png",
+        "clip": {
+          "x": 0,
+          "y": 7700,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7700
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "674980f7421ce2aff465b5b2d667b7aa95bebc3c86d4479eaccf91a8196e658e",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part9.png",
+        "clip": {
+          "x": 0,
+          "y": 8800,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8800
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "a246b4b8b31491d8d049f8131b51610caa57d450d2cc729e58be82eb5c35eb90",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part10.png",
+        "clip": {
+          "x": 0,
+          "y": 9900,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9900
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "5b0cc4ad196bef39594c3bea1182e7d8fc1bda00bb589ccaec41881bfcd155cb",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part11.png",
+        "clip": {
+          "x": 0,
+          "y": 11000,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            11000
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "b8c86e77e516a5d2f514672a2a36d50f70dbdd6c40a2b50874756ad826645134",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part12.png",
+        "clip": {
+          "x": 0,
+          "y": 12100,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            12100
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "567a88daded2c1bb162ad23d621b895b572a826ae1e6affee22a3bfc3cceccdd",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part13.png",
+        "clip": {
+          "x": 0,
+          "y": 13200,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            13200
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "c63a191b67991dbd41502a591dbb558a7388d92867972a75613d2aece3d57b61",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part14.png",
+        "clip": {
+          "x": 0,
+          "y": 14300,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            14300
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "3463406acb699f404762d526a9b36683f7a449e8dabad5ab6c2180af78cb2b64",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part15.png",
+        "clip": {
+          "x": 0,
+          "y": 15400,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            15400
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "b07cb5c2917ef5b184cc2a17e732b4d16526a5c8b893b80c17ca3285958b539d",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part16.png",
+        "clip": {
+          "x": 0,
+          "y": 16500,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            16500
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "98cf212567c914c85addd597f1672203468c154b189c2da6e709c6f6b46175d9",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part17.png",
+        "clip": {
+          "x": 0,
+          "y": 17600,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            17600
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "3734e9ed36fab3baa1d089917db7e295de85a96a5476f7f0037276ae9dfb2a12",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part18.png",
+        "clip": {
+          "x": 0,
+          "y": 18700,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            18700
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "5be46dea383875db89e314011f9d593d2d80b13c3bd1abaa0b5f0e67a75bb120",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part19.png",
+        "clip": {
+          "x": 0,
+          "y": 19800,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            19800
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "65c4a66338c0634dd7d4fb79c5408c0b28fc2fb6bec8759594f7aaf7dd6d00a0",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part20.png",
+        "clip": {
+          "x": 0,
+          "y": 20900,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            20900
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "2c5530a50179ccca609c3edaaff6818136f6163c56f76036246cc559e24a8197",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part21.png",
+        "clip": {
+          "x": 0,
+          "y": 22000,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            22000
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "3ec12173d4e4368a45f58b5f4f9117b14a07a594339e0990f8279bfb2c0a7476",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part22.png",
+        "clip": {
+          "x": 0,
+          "y": 23100,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            23100
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "936d91873ad790a7976c6da460947ab949765c764179edff653c519b949ce86d",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part23.png",
+        "clip": {
+          "x": 0,
+          "y": 24200,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            24200
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "e4e5a2bb60f32172f8443668407b3f6d0decda790a4d813a3fefff9cf943047a",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part24.png",
+        "clip": {
+          "x": 0,
+          "y": 25300,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            25300
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "74f12ce9603f7ab562d1138225210bf6356de3060c501d27f83a037acf8a5b1c",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part25.png",
+        "clip": {
+          "x": 0,
+          "y": 26400,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            26400
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "b4810af2c3758a7cdcfbf7dfd06e0f53193163dc6ac4f4dc12971acf280f8db9",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part26.png",
+        "clip": {
+          "x": 0,
+          "y": 27500,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            27500
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "cbcdb12a841dd91a24f7e9bee8c7458cdc947e9596bb2859d72565e4a78c730a",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 100
+      },
+      {
+        "file": "customize-safely-es-580-full-part27.png",
+        "clip": {
+          "x": 0,
+          "y": 28466,
+          "width": 580,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            28466
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1160,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "8937a3484cf8467c73b9e9f94dc46860d801f27de6d9829d0138656dfaff8d4e",
+        "complete_page_segment": true,
+        "documentHeight": 29666,
+        "overlap_css": 234
+      },
+      {
+        "file": "customize-safely-es-580-prompt.png",
+        "clip": {
+          "x": 4,
+          "y": 4563,
+          "width": 572,
+          "height": 578
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4252
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          1156
+        ],
+        "icc": "Display P3",
+        "sha256": "1969da7963e0eac77c37a94341fcb6a25fa59aefc4fc4878b0998e60f2f84430"
+      },
+      {
+        "file": "customize-safely-es-580-tone.png",
+        "clip": {
+          "x": 4,
+          "y": 5893,
+          "width": 572,
+          "height": 585
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5585.5
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          1170
+        ],
+        "icc": "Display P3",
+        "sha256": "8d109d2ed81470854a92ea5634333e7918d3df943f5744f1af37f0d4d41fa57f"
+      },
+      {
+        "file": "customize-safely-es-580-intents.png",
+        "clip": {
+          "x": 4,
+          "y": 7350,
+          "width": 572,
+          "height": 396
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6948
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          792
+        ],
+        "icc": "Display P3",
+        "sha256": "d8b3141379bb85a193cbddce82daeb40ad2ceb233535a8039b137c6a31a23744"
+      },
+      {
+        "file": "customize-safely-es-580-knowledge.png",
+        "clip": {
+          "x": 4,
+          "y": 8410,
+          "width": 572,
+          "height": 502
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8061
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          1004
+        ],
+        "icc": "Display P3",
+        "sha256": "23e992c7727faaa59f6710c06d07308eeed4c86573f92f54072ce2ecc2038705"
+      },
+      {
+        "file": "customize-safely-es-580-web-search.png",
+        "clip": {
+          "x": 4,
+          "y": 9488,
+          "width": 572,
+          "height": 304
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9040
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          608
+        ],
+        "icc": "Display P3",
+        "sha256": "8872da068a9e03fe43f0fa8d76b40fb4854d5e2557ab4895b59e058766d729b3"
+      },
+      {
+        "file": "customize-safely-es-580-properties.png",
+        "clip": {
+          "x": 4,
+          "y": 10172,
+          "width": 572,
+          "height": 437
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9790.5
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          874
+        ],
+        "icc": "Display P3",
+        "sha256": "c8eafcf5549d8006d151cccbd2244a13ff449b0c27b03e8a0ed19b726f4c686d"
+      },
+      {
+        "file": "customize-safely-es-580-channels.png",
+        "clip": {
+          "x": 4,
+          "y": 11485,
+          "width": 572,
+          "height": 860
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            11315
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          1720
+        ],
+        "icc": "Display P3",
+        "sha256": "5e99dee8f41581e9709ad521b5eac880f17d493ce78eb8dd9e7a4fda09a56172"
+      },
+      {
+        "file": "customize-safely-es-580-discount-percent.png",
+        "clip": {
+          "x": 4,
+          "y": 13957,
+          "width": 572,
+          "height": 219
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            13466
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          438
+        ],
+        "icc": "Display P3",
+        "sha256": "73c7575a57f3308c16d2b322fa01aa13b5f0356df73239b73d2d64200da42365"
+      },
+      {
+        "file": "customize-safely-es-580-store-promotions-entry.png",
+        "clip": {
+          "x": 4,
+          "y": 14681,
+          "width": 572,
+          "height": 475
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            14318.5
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          950
+        ],
+        "icc": "Display P3",
+        "sha256": "a6c05aaed557a10778fe2c434e7c08f3b82830cb1e48a542b5ce9c617350a634"
+      },
+      {
+        "file": "customize-safely-es-580-store-promotions.png",
+        "clip": {
+          "x": 4,
+          "y": 15375,
+          "width": 572,
+          "height": 1200
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            15375
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "cece22d3134640e248b38e1e265f701adff9baef5ee173f8fbb9de721fae5732"
+      },
+      {
+        "file": "customize-safely-es-580-promotion-filter.png",
+        "clip": {
+          "x": 4,
+          "y": 16706,
+          "width": 572,
+          "height": 601
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            16406.5
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          1202
+        ],
+        "icc": "Display P3",
+        "sha256": "0edc4efc93e95b886aecd5a11480d7736e898d38163ff73486b0b9d8abfbe35c"
+      },
+      {
+        "file": "customize-safely-es-580-followup-controls.png",
+        "clip": {
+          "x": 4,
+          "y": 19449,
+          "width": 572,
+          "height": 641
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            19169
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          1282
+        ],
+        "icc": "Display P3",
+        "sha256": "565be9d2aaac1d272b296fb78e9a378ff86e8a97f0c2f23206de33b89465a50c"
+      },
+      {
+        "file": "customize-safely-es-580-followup-actions.png",
+        "clip": {
+          "x": 4,
+          "y": 20803,
+          "width": 572,
+          "height": 411
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            20408
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          822
+        ],
+        "icc": "Display P3",
+        "sha256": "4e4c79dcc284adad298d295c769d6d246e293bf9122010f236f032d9e191abb4"
+      },
+      {
+        "file": "customize-safely-es-580-followup-sequence.png",
+        "clip": {
+          "x": 4,
+          "y": 21445,
+          "width": 572,
+          "height": 574
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            21131.5
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          1148
+        ],
+        "icc": "Display P3",
+        "sha256": "90aff5cad15388c3a72eedfb5a2bfc062de9fa92f9e90aa1cd770efb3404145f"
+      },
+      {
+        "file": "customize-safely-es-580-agent-wait-notice.png",
+        "clip": {
+          "x": 4,
+          "y": 23647,
+          "width": 572,
+          "height": 709
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            23402
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          1418
+        ],
+        "icc": "Display P3",
+        "sha256": "3d7481c58ebadc2db1ebdb8abd219566fb4df55628f5da0549127778f0d8acc0"
+      },
+      {
+        "file": "customize-safely-es-580-escalation.png",
+        "clip": {
+          "x": 4,
+          "y": 25151,
+          "width": 572,
+          "height": 441
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            24772
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          882
+        ],
+        "icc": "Display P3",
+        "sha256": "ccf3596407233c070928a751572b408e2848764b47f657b35de5e9adb0a44110"
+      },
+      {
+        "file": "customize-safely-es-580-route-assignment.png",
+        "clip": {
+          "x": 4,
+          "y": 26263,
+          "width": 572,
+          "height": 751
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "title": "Cómo personalizar una misión de forma segura | Hellotext",
+          "locale": "es",
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            26039
+          ]
+        },
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1144,
+          1502
+        ],
+        "icc": "Display P3",
+        "sha256": "16b2faa87de0eb67bc44c683df44d41ec1c2deaf224db609f771e9773bbdc0c9"
+      }
+    ]
+  }
+}

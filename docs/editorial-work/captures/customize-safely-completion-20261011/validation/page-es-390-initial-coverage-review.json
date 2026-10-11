@@ -1,0 +1,880 @@
+{
+  "status": "pending_supplemental_table_coverage",
+  "locale": "es",
+  "width": 390,
+  "reviewer": "conversation_article",
+  "packet": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/es-390.json",
+    "sha256": "7bee40cd9414e26715001616cc5a44925ea07e9b2f1e4bfa9573908ebe20dd67"
+  },
+  "checkpoint_sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187",
+  "source": "_i18n/es/journeys/how-to-customize-a-playbook-safely.md",
+  "source_sha256": "fbcf73ac6ab8bbc90abc0e7ae643bfc9c2cb790d30085971622199bc3232dc7b",
+  "built_html": "_site/es/como-personalizar-una-mision.html",
+  "built_html_sha256": "dac1f461609e091eb45b39089798a50d4dcca6120445cf68fa7d2a6bc353fcb0",
+  "complete_page_review": {
+    "status": "pending_supplemental_table_coverage",
+    "segments": 31,
+    "coverage_start_css": 0,
+    "coverage_end_css": 34150.5,
+    "document_height_css": 34151,
+    "end_tolerance_css": 1,
+    "minimum_overlap_css": 100,
+    "notes": [
+      "Every full-page segment was individually viewed in document order, from header through legal links and footer.",
+      "The guide text, ordered steps, future testing lists and all figure contexts are readable.",
+      "Two multi-column tables have rightmost columns outside their initial mobile view. Their native horizontal accessibility and right-column pixels still need supplemental evidence; documentWidth alone does not close this review."
+    ]
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 17,
+    "notes": [
+      "Every figure detail was individually viewed. Lavender stage, white inset, rounded frame and complete native control bounds are preserved.",
+      "Prompt, tone, intentions, upload, web search, properties and channels remain readable at Help mobile width; narrow native card columns wrap without losing their text.",
+      "Discount options retain the native small cap. Store strategy and the complete promotions entry button are visible; all four promotions, source-enabled states, mission inclusion switches, dates, Friday schedule and Restore label remain readable.",
+      "Promotion filter shows search and five menu options. Native menu overlap is not interpreted as a missing result or a new selected state.",
+      "Follow-up controls show quantity 1, 2 Minutos and Análisis de IA; the three final actions and illustrative sequence are readable and framed completely.",
+      "The agent notice remains native over disabled wait controls, including its full warning and Editar Seguimiento link. Escalation and route assignment controls, including five action options and Guardar/Cancelar, are readable."
+    ]
+  },
+  "method": "Individual view_image calls with detail original, separate images rather than a contact sheet; the tool may scale display previews. No image, HTML or CSS transformation by reviewer. Metadata checks supplement rather than replace actual visual review.",
+  "files": [
+    {
+      "file": "customize-safely-es-390-full-part1.png",
+      "sha256": "ad78965829c2ec9fe27605db9ee7dd695a6dcba2afc28212e74618b5d9b10d5f",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part2.png",
+      "sha256": "65faeb0f97222fbfb095a693941a10bcc9917e9727b7630bc07df56e1b1549fb",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part3.png",
+      "sha256": "26f9fa202781a5359b6a59f99928484b9df70004724357ca0f7db5ad0088dc3e",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part4.png",
+      "sha256": "316ce5077a68ff39f72dc02c1a918a801e8a7c1dd9fb176f682db74f91ee2e5c",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part5.png",
+      "sha256": "61e902ae23b650635a5bf311879dc1ba81153404f16561fd72e3378185baf8e3",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part6.png",
+      "sha256": "91d64bdc5e38259fcd77ffbc468b086fc8524ed63a1376dfdcb7c75f2cc1f267",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part7.png",
+      "sha256": "d1f05cb70753c0e261fd5b472bddb09ac93bbfdfd7d52c3d16779c7ef440e607",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part8.png",
+      "sha256": "a5792063944fc7fad9e3d983931c73302a6e3958169d773080146d3040832c43",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part9.png",
+      "sha256": "e3a41f85d7f5fbd9e229be53bc7b1fa5353f5235ac84d21643e0f15a673a3e1a",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 8800,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part10.png",
+      "sha256": "f87a1e6e56ed8cc4bf87d9b7ed2bb7a677f43b4e601e3f00cd0dbaadb1f6d705",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 9900,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part11.png",
+      "sha256": "60e812029f0259dbdd265d74323973e1dc6ae9ef184dfe828487e01b170512e8",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 11000,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part12.png",
+      "sha256": "d04d67d66164c1b1c0495577d061bbc4447bd80618587936d37d4022e4e3ad0b",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 12100,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part13.png",
+      "sha256": "58d2c288d81dcbaf9fd323a514a4fd40b0e55c5c799d5615443396c2998668e5",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 13200,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part14.png",
+      "sha256": "efcbf69336749b1f3d37b1c3b5d1f17e198c8da2ea4d83c68c7b7877da48d073",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 14300,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part15.png",
+      "sha256": "4a830b178d45091eb208fd339495264216810b077357d1dc338351fc343e50bb",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 15400,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part16.png",
+      "sha256": "365bef4e882d5775ed9e76f0ee8379c595da1f1027d01f74a5060c8889c41668",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 16500,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part17.png",
+      "sha256": "5465c1093bbe783fa439b47e6cc1c44c0321130e3cb573c41074c50d03c55871",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 17600,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part18.png",
+      "sha256": "969ee82420ce4e8841569d0b5f29658843675802fdfba251f7fed9ba7cda27e1",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 18700,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part19.png",
+      "sha256": "32d53d36db26b342b732240e308440f638463f177e8ee303ce696276397053df",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 19800,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part20.png",
+      "sha256": "3cb344d6d6a9e9c9c9a84bd8ff7cfea3c7e51d017910b50762ed02216620843b",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 20900,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part21.png",
+      "sha256": "459392ff478b8f020a623181b960532a272a3c1dd120ed2eb1f26e4db89e018b",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 22000,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part22.png",
+      "sha256": "a8df2666b59a2023e70d0098509f508b3153ba47ddecc25e2a880c042c866c9b",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 23100,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part23.png",
+      "sha256": "af1a930132bccf12905582b096f82c0c5af213ee0380c38c4981808c95d593da",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 24200,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part24.png",
+      "sha256": "c77cf39482cd30ca2ef3b5a9757134d7263aeb76ea3eec524c449e141584a167",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 25300,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part25.png",
+      "sha256": "7adf5e5f8175fb3debc889f98fd7bed5e73455e8c314b57da2d106c5a4cdd686",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 26400,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part26.png",
+      "sha256": "7b4f8a269e0f2bccc107fb151c4f63f92560d48fb15aa2b7c778cc1ae92a6225",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 27500,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part27.png",
+      "sha256": "16ded8a73c1170f908c2064d2a63ec01b3f50fa573357c088a1011aba6d16e9e",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 28600,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part28.png",
+      "sha256": "b6a0803e98509aaeaf81a456e150e161d9f87866a1e1b89361d1cf303d2babc4",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 29700,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part29.png",
+      "sha256": "443ed61bf5fa0a6950069937e274fb6faed7e7ea96c2130760626892aa726289",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 30800,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part30.png",
+      "sha256": "d3d0d922eba52b0a664bc124fa48b78d92269b7ecac6396aa0b4295b3323c2cf",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 31900,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-full-part31.png",
+      "sha256": "23144b62e63c398ce1787b83940aa028f4488042566bf98504e4f08960b68fc2",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 32950.5,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-prompt.png",
+      "sha256": "09ee5df54c39c2a04fba8a015ba7969c532e600a49e1ff27e0a55d1e9dcb161a",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 6107,
+        "width": 382,
+        "height": 433
+      },
+      "pixel_size": [
+        764,
+        866
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-tone.png",
+      "sha256": "8ec872ecdea5764cb84a4045b006fe742bfb6c47a6e67f6486a40733ad6df5e9",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 7603,
+        "width": 382,
+        "height": 468
+      },
+      "pixel_size": [
+        764,
+        936
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-intents.png",
+      "sha256": "4f8e717f145838c5f3b221478088e2c17621edf0b04bf95d6496320d9cbbe0ba",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 9314,
+        "width": 382,
+        "height": 320
+      },
+      "pixel_size": [
+        764,
+        640
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-knowledge.png",
+      "sha256": "93e766e298872746d318f71017860b48254de8bbbd7b60779c6d39be1b3945b4",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 10477,
+        "width": 382,
+        "height": 376
+      },
+      "pixel_size": [
+        764,
+        752
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-web-search.png",
+      "sha256": "f70aeef189a144f318042ce0ade95965f378b74f9692edff5c0e3aa9bd901a08",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 11572,
+        "width": 382,
+        "height": 228
+      },
+      "pixel_size": [
+        764,
+        456
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-properties.png",
+      "sha256": "2744ec64a0dcb861e8dc78ef3263b8a3f02746919f2dfa39543a5cc07f8886d8",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 12359,
+        "width": 382,
+        "height": 353
+      },
+      "pixel_size": [
+        764,
+        706
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-channels.png",
+      "sha256": "dd4982c8eba200cac651bbb72c7e41bddb854f1f3545175ed4a1110e173733fb",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 13875,
+        "width": 382,
+        "height": 691
+      },
+      "pixel_size": [
+        764,
+        1382
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-discount-percent.png",
+      "sha256": "9603656d73928265da731ad8fa65d1b389603be3d5b314cac85b544bf0394d0a",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 16729,
+        "width": 382,
+        "height": 193
+      },
+      "pixel_size": [
+        764,
+        386
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-store-promotions-entry.png",
+      "sha256": "719ff21dbc5f3bd3dda4728aea9ab52a7d28e5a7965f1530ff7919cf3c5272b1",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 17556,
+        "width": 382,
+        "height": 378
+      },
+      "pixel_size": [
+        764,
+        756
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-store-promotions.png",
+      "sha256": "9781950011e38091d6c57137fbd0e04651b52016c6a902d5b7633980928cd3ee",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 18213,
+        "width": 382,
+        "height": 984
+      },
+      "pixel_size": [
+        764,
+        1968
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-promotion-filter.png",
+      "sha256": "cc646a41d03e4875be3725dc0033c4660eebaf6c7fce2fa8fba28f37aec9f5de",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 19364,
+        "width": 382,
+        "height": 481
+      },
+      "pixel_size": [
+        764,
+        962
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-followup-controls.png",
+      "sha256": "e12775d9b713ffb202f2f90aa72b293400c12ea42a49d996e1db81dc51290d1e",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 22958,
+        "width": 382,
+        "height": 513
+      },
+      "pixel_size": [
+        764,
+        1026
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-followup-actions.png",
+      "sha256": "cf69a8b5ab455d1f31ece6aa3dd7edb86dc73b3aed6c0bed0adefedcae727422",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 24328,
+        "width": 382,
+        "height": 326
+      },
+      "pixel_size": [
+        764,
+        652
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-followup-sequence.png",
+      "sha256": "3b3d67048f61fbbe2a454e5996f2e4dbd8e150a8e3609e5fa64ba38d170532c7",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 24981,
+        "width": 382,
+        "height": 458
+      },
+      "pixel_size": [
+        764,
+        916
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-agent-wait-notice.png",
+      "sha256": "564bc61230fbfa0b9eb393e2272576a846ca208cff4dd4a96121b2e05fa3d526",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 27396,
+        "width": 382,
+        "height": 568
+      },
+      "pixel_size": [
+        764,
+        1136
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-escalation.png",
+      "sha256": "a7deaefc223b0f50671da6b1a9e7579ed9f70aa6f2bd5078b10497656f30c363",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 29047,
+        "width": 382,
+        "height": 350
+      },
+      "pixel_size": [
+        764,
+        700
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-es-390-route-assignment.png",
+      "sha256": "5590d33640635280077e81cfb028ae1bebfe2b28f15e7cfcd26f34c2f7be9524",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 30248,
+        "width": 382,
+        "height": 603
+      },
+      "pixel_size": [
+        764,
+        1206
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "es390-overview-table-right-columns",
+      "status": "open",
+      "files": [
+        "customize-safely-es-390-full-part4.png",
+        "customize-safely-es-390-full-part5.png"
+      ],
+      "observation": "The Qué puedes personalizar table shows its rightmost Qué cambia column only partially at the initial horizontal position. Native horizontal scrolling and full right-column pixels require supplemental review."
+    },
+    {
+      "id": "es390-initial-values-table-right-columns",
+      "status": "open",
+      "files": [
+        "customize-safely-es-390-full-part24.png",
+        "customize-safely-es-390-full-part25.png"
+      ],
+      "observation": "The Valores iniciales table has wait and final-action columns outside the initial horizontal view. Native horizontal scrolling and full right-column pixels require supplemental review."
+    }
+  ]
+}

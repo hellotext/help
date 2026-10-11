@@ -1,0 +1,1084 @@
+{
+  "status": "passed",
+  "scope": "Two independent local six-view load diagnostics; no new screenshots and no changes to the historical capture receipt.",
+  "checkpoint_sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187",
+  "capture_receipt": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/capture-receipt.json",
+    "sha256": "509abb3c2384a4255cacec44d77195997a98095de2fab8c775c1efad25a415f0",
+    "status": "failed"
+  },
+  "diagnostics": [
+    {
+      "trace_private_path": "audit/customize-help-qa-20261011/interception-navigation-diagnostic.json",
+      "trace_sha256": "f5e64836ea1059bb612fdf04be58146bf3024846b3255035f201fc10a05dd5c7",
+      "helper_private_path": "audit/customize-help-qa-20261011/diagnose-interception-navigation.mjs",
+      "helper_sha256": "aab80a173c9c25a862e4b2342e7d1bdf5d63eb2f52eb919e8a020166c916d6ca",
+      "views": [
+        {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "locale": "es",
+          "width": 1440,
+          "images": [
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/tone-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/channels-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/handoff-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-es.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "locale": "es",
+          "width": 580,
+          "images": [
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/tone-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/channels-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/handoff-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "locale": "es",
+          "width": 390,
+          "images": [
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/tone-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/channels-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/handoff-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "locale": "en",
+          "width": 1440,
+          "images": [
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/tone-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/channels-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/handoff-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-en.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "locale": "en",
+          "width": 580,
+          "images": [
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/tone-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/channels-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/handoff-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "locale": "en",
+          "width": 390,
+          "images": [
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/tone-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/channels-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/handoff-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "application_exceptions": 0,
+      "interception_action_errors": 0,
+      "blocked_external_GETs": 6,
+      "loading_failed": 6,
+      "failure_correlations": [
+        {
+          "request_id": "interception-job-405.0",
+          "network_id": "84258.18",
+          "origin": "https://www.googletagmanager.com",
+          "method": "GET",
+          "resource_type": "Script",
+          "action": "Fetch.failRequest BlockedByClient",
+          "loading_failed_error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "canceled": false,
+          "blocked_reason": "inspector"
+        },
+        {
+          "request_id": "interception-job-470.0",
+          "network_id": "84258.117",
+          "origin": "https://www.googletagmanager.com",
+          "method": "GET",
+          "resource_type": "Script",
+          "action": "Fetch.failRequest BlockedByClient",
+          "loading_failed_error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "canceled": false,
+          "blocked_reason": "inspector"
+        },
+        {
+          "request_id": "interception-job-519.0",
+          "network_id": "84258.200",
+          "origin": "https://www.googletagmanager.com",
+          "method": "GET",
+          "resource_type": "Script",
+          "action": "Fetch.failRequest BlockedByClient",
+          "loading_failed_error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "canceled": false,
+          "blocked_reason": "inspector"
+        },
+        {
+          "request_id": "interception-job-584.0",
+          "network_id": "84258.299",
+          "origin": "https://www.googletagmanager.com",
+          "method": "GET",
+          "resource_type": "Script",
+          "action": "Fetch.failRequest BlockedByClient",
+          "loading_failed_error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "canceled": false,
+          "blocked_reason": "inspector"
+        },
+        {
+          "request_id": "interception-job-649.0",
+          "network_id": "84258.398",
+          "origin": "https://www.googletagmanager.com",
+          "method": "GET",
+          "resource_type": "Script",
+          "action": "Fetch.failRequest BlockedByClient",
+          "loading_failed_error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "canceled": false,
+          "blocked_reason": "inspector"
+        },
+        {
+          "request_id": "interception-job-698.0",
+          "network_id": "84258.481",
+          "origin": "https://www.googletagmanager.com",
+          "method": "GET",
+          "resource_type": "Script",
+          "action": "Fetch.failRequest BlockedByClient",
+          "loading_failed_error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "canceled": false,
+          "blocked_reason": "inspector"
+        }
+      ]
+    },
+    {
+      "trace_private_path": "audit/customize-help-qa-20261011/interception-navigation-end-figure-diagnostic.json",
+      "trace_sha256": "dd8b21859a44574e1548b5cc45f9146542f02ef9b7fca4118cbc6a9e1fac8959",
+      "helper_private_path": "audit/customize-help-qa-20261011/diagnose-interception-end-figure.mjs",
+      "helper_sha256": "6af216e926e9bfe6feb3056e58a6dbce891d91051a32968f5049ab6c868a0cd0",
+      "views": [
+        {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "locale": "es",
+          "width": 1440,
+          "images": [
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/tone-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/channels-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-es-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/handoff-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-es.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "locale": "es",
+          "width": 580,
+          "images": [
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/tone-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/channels-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/handoff-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:3358/es/como-personalizar-una-mision.html",
+          "locale": "es",
+          "width": 390,
+          "images": [
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/tone-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/channels-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-es.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/handoff-es-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "locale": "en",
+          "width": 1440,
+          "images": [
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/tone-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/channels-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-en-desktop.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/handoff-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-en.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "locale": "en",
+          "width": 580,
+          "images": [
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/tone-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/channels-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/handoff-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "url": "http://127.0.0.1:3358/how-to-customize-a-playbook-safely.html",
+          "locale": "en",
+          "width": 390,
+          "images": [
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/tone-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/style-refresh/fields-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/channels-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/subscriber-booster/discount-mobile-en.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-entry-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/store-promotions-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/promotion-filter-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-controls-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-actions-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/followup-sequence-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/editorial/customize-safely-completion-20261011/agent-wait-notice-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/captures/property-collector/handoff-en-mobile.png",
+              "loaded": true
+            },
+            {
+              "src": "http://127.0.0.1:3358/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "application_exceptions": 0,
+      "interception_action_errors": 0,
+      "blocked_external_GETs": 6,
+      "loading_failed": 6,
+      "failure_correlations": [
+        {
+          "request_id": "interception-job-747.0",
+          "network_id": "85095.18",
+          "origin": "https://www.googletagmanager.com",
+          "method": "GET",
+          "resource_type": "Script",
+          "action": "Fetch.failRequest BlockedByClient",
+          "loading_failed_error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "canceled": false,
+          "blocked_reason": "inspector"
+        },
+        {
+          "request_id": "interception-job-812.0",
+          "network_id": "85095.117",
+          "origin": "https://www.googletagmanager.com",
+          "method": "GET",
+          "resource_type": "Script",
+          "action": "Fetch.failRequest BlockedByClient",
+          "loading_failed_error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "canceled": false,
+          "blocked_reason": "inspector"
+        },
+        {
+          "request_id": "interception-job-861.0",
+          "network_id": "85095.200",
+          "origin": "https://www.googletagmanager.com",
+          "method": "GET",
+          "resource_type": "Script",
+          "action": "Fetch.failRequest BlockedByClient",
+          "loading_failed_error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "canceled": false,
+          "blocked_reason": "inspector"
+        },
+        {
+          "request_id": "interception-job-926.0",
+          "network_id": "85095.299",
+          "origin": "https://www.googletagmanager.com",
+          "method": "GET",
+          "resource_type": "Script",
+          "action": "Fetch.failRequest BlockedByClient",
+          "loading_failed_error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "canceled": false,
+          "blocked_reason": "inspector"
+        },
+        {
+          "request_id": "interception-job-991.0",
+          "network_id": "85095.398",
+          "origin": "https://www.googletagmanager.com",
+          "method": "GET",
+          "resource_type": "Script",
+          "action": "Fetch.failRequest BlockedByClient",
+          "loading_failed_error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "canceled": false,
+          "blocked_reason": "inspector"
+        },
+        {
+          "request_id": "interception-job-1040.0",
+          "network_id": "85095.481",
+          "origin": "https://www.googletagmanager.com",
+          "method": "GET",
+          "resource_type": "Script",
+          "action": "Fetch.failRequest BlockedByClient",
+          "loading_failed_error": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+          "canceled": false,
+          "blocked_reason": "inspector"
+        }
+      ]
+    }
+  ],
+  "validated_views_per_diagnostic": 6,
+  "validated_figure_sources_per_view": 17,
+  "application_exceptions": 0,
+  "interception_action_errors": 0,
+  "source_and_build_hashes_preserved": true,
+  "historical_issue": {
+    "error_count": 9,
+    "exact_error": "{\"code\":-32602,\"message\":\"Invalid InterceptionId.\"}",
+    "origin": "The original mixed error array contains CDP action responses; no Runtime.exceptionThrown text was recorded.",
+    "causal_attribution": "Not reproduced. The historical receipt did not retain requestIds, so no specific historical request or cancellation is attributed.",
+    "disposition": "Root review pending; historical failure remains unchanged. These diagnostics prove current exact local HTML loads and expected image decoding at all six viewports only."
+  }
+}

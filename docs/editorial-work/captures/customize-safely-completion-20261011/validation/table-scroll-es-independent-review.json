@@ -1,0 +1,244 @@
+{
+  "status": "passed",
+  "locale": "es",
+  "width": 390,
+  "reviewer": "conversation_article",
+  "scope": "Supplemental native horizontal-table coverage and pixels only; this is not approval of main capture transport, service closure or publication.",
+  "packet": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/es-packet.json",
+    "sha256": "28ca2c6a821938a6f315bd0438b45ea87e5db8020f81b0447dcdf20e331b3fc7"
+  },
+  "checkpoint_sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187",
+  "capture_receipt": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/capture-receipt.json",
+    "sha256": "a83f96a0ea9f2e318379b9d73cc3aa4e84289edf8826cfbcec64c5cdc07a280e"
+  },
+  "source": "_i18n/es/journeys/how-to-customize-a-playbook-safely.md",
+  "source_sha256": "fbcf73ac6ab8bbc90abc0e7ae643bfc9c2cb790d30085971622199bc3232dc7b",
+  "built_html": "_site/es/como-personalizar-una-mision.html",
+  "built_html_sha256": "dac1f461609e091eb45b39089798a50d4dcca6120445cf68fa7d2a6bc353fcb0",
+  "method": "All six PNGs opened individually with view_image detail original; tool display previews were resized from780x2400 to666x2048. Source PNGs were not edited. SHA256, all PNG chunk CRCs, native2x dimensions, actual embedded Display P3 profile, native scroll positions, horizontal overlap and vertical table coverage were independently verified. Metadata supplements actual pixel review.",
+  "tables": [
+    {
+      "index": 0,
+      "heading": "Qué puedes personalizar",
+      "headers": [
+        "Si la misión tiene…",
+        "Aplica normalmente a…",
+        "Qué cambia"
+      ],
+      "body_rows": 10,
+      "native_overflow_x": "auto",
+      "client_width_css": 358,
+      "scroll_width_css": 434,
+      "horizontal_overlap_css": 282,
+      "table_bounds_css": {
+        "x": 16,
+        "y": 3648.5,
+        "width": 358,
+        "height": 1811,
+        "right": 374,
+        "bottom": 5459.5
+      },
+      "coverage": [
+        {
+          "scroll_left_css": 0,
+          "coverage_start_css": 3624,
+          "coverage_end_css": 5924,
+          "segments": 2
+        },
+        {
+          "scroll_left_css": 76,
+          "coverage_start_css": 3624,
+          "coverage_end_css": 5924,
+          "segments": 2
+        }
+      ],
+      "markup_sha256": "7e6cd3251922a20dabafcc8162e78f5a163fdf72336ac96b734d1e2ca756899d",
+      "native_scroll_restored": true,
+      "status": "passed"
+    },
+    {
+      "index": 3,
+      "heading": "Valores iniciales",
+      "headers": [
+        "Misión",
+        "Recordatorios",
+        "Espera antes de cada recordatorio y de la acción final",
+        "Acción final"
+      ],
+      "body_rows": 6,
+      "native_overflow_x": "auto",
+      "client_width_css": 358,
+      "scroll_width_css": 554,
+      "horizontal_overlap_css": 162,
+      "table_bounds_css": {
+        "x": 16,
+        "y": 26343.2421875,
+        "width": 358,
+        "height": 655,
+        "right": 374,
+        "bottom": 26998.2421875
+      },
+      "coverage": [
+        {
+          "scroll_left_css": 0,
+          "coverage_start_css": 26319,
+          "coverage_end_css": 27519,
+          "segments": 1
+        },
+        {
+          "scroll_left_css": 196,
+          "coverage_start_css": 26319,
+          "coverage_end_css": 27519,
+          "segments": 1
+        }
+      ],
+      "markup_sha256": "b6bc3d01a66b8b2248509e58ae42baada06553df0d8e397d441289cb66107532",
+      "native_scroll_restored": true,
+      "status": "passed"
+    }
+  ],
+  "files": [
+    {
+      "file": "customize-table-es-390-table1-x1-part1.png",
+      "sha256": "0d6385604f3df99e25dfb6a7e708a02ee4ca073acac4f18b42e570db1841c765",
+      "table_index": 0,
+      "horizontal_part": 1,
+      "vertical_part": 1,
+      "clip": {
+        "x": 0,
+        "y": 3624,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "dpr": 2,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "status": "passed"
+    },
+    {
+      "file": "customize-table-es-390-table1-x1-part2.png",
+      "sha256": "c3162891062c30a484401d929ac9b0104abc33754afd7349d5b58393386bc835",
+      "table_index": 0,
+      "horizontal_part": 1,
+      "vertical_part": 2,
+      "clip": {
+        "x": 0,
+        "y": 4724,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "dpr": 2,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "status": "passed"
+    },
+    {
+      "file": "customize-table-es-390-table1-x2-part1.png",
+      "sha256": "52f3b5c1280ec5c996c5017dc66d1ae626a6727845126b20043d10b51e235e88",
+      "table_index": 0,
+      "horizontal_part": 2,
+      "vertical_part": 1,
+      "clip": {
+        "x": 0,
+        "y": 3624,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "dpr": 2,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "status": "passed"
+    },
+    {
+      "file": "customize-table-es-390-table1-x2-part2.png",
+      "sha256": "b099ce584176540f39d80ae543c21c12f426d643baac6afc3db1824103220a8b",
+      "table_index": 0,
+      "horizontal_part": 2,
+      "vertical_part": 2,
+      "clip": {
+        "x": 0,
+        "y": 4724,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "dpr": 2,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "status": "passed"
+    },
+    {
+      "file": "customize-table-es-390-table4-x1-part1.png",
+      "sha256": "3f9685a8c5980c8d269a1664f32ec871eea16c897f3643708174bb0878254c4d",
+      "table_index": 3,
+      "horizontal_part": 1,
+      "vertical_part": 1,
+      "clip": {
+        "x": 0,
+        "y": 26319,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "dpr": 2,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "status": "passed"
+    },
+    {
+      "file": "customize-table-es-390-table4-x2-part1.png",
+      "sha256": "318388e6223410c38ac6a65056491eb5e94c1cab8a5bf9ff1d4f31560d86643f",
+      "table_index": 3,
+      "horizontal_part": 2,
+      "vertical_part": 1,
+      "clip": {
+        "x": 0,
+        "y": 26319,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "dpr": 2,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "status": "passed"
+    }
+  ],
+  "notes": [
+    "Table Qué puedes personalizar: the left position preserves complete labels and applicability text; the right position displays the complete Qué cambia header and text for all ten body rows. Both vertical segments overlap by100CSS pixels at each horizontal position.",
+    "Table Valores iniciales: the left position preserves all six mission names and reminder counts. The right position displays complete wait durations and final actions for all six rows, including Seguimiento de Pedidos with10minutos and Cerrar la conversación.",
+    "At the right scroll position leftmost columns are naturally outside the table viewport; the overlapping native left and right states jointly cover all columns. No simultaneous-all-columns claim is made.",
+    "The other two tables have no horizontal overflow and were already visually reviewed in the standard ES390 segments.",
+    "Source, built HTML and checkpoint hashes remain unchanged. Standard captures and the initial pending finding receipt are preserved."
+  ],
+  "findings": []
+}

@@ -1,0 +1,232 @@
+{
+  "schema": "customize-scoped-source-currency-v1",
+  "status": "passed",
+  "recorded_at": "2026-10-11T12:14:52.336012+00:00",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "current_app_revision": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "remote_refresh": {
+    "path": "audit/next-batches-after-404-20261011/post-recovery-remote-refresh.json",
+    "sha256": "a2c4898de1d13033926becbc2fc9b44d125c16ae5463347319766c5a457cdd8e"
+  },
+  "compare": {
+    "path": "audit/journeys-workflow-local-20261010/scoped-currency-compare.json",
+    "sha256": "7c6e23bc24c5e0e6e03bbbf3bf18fedbdb865d4b9f8b288358c2cb5e5c19e81c",
+    "changed_paths": [
+      "app/assets/images/icons/ai-price-tag.svg",
+      "app/components/marketing/playbook_rail_component.html.erb",
+      "app/components/marketing/playbook_rail_component.rb",
+      "app/javascript/entrypoints/stylesheets/homepage/_top.scss",
+      "app/views/dev/design_system/_marketing.html.erb",
+      "app/views/static/homepage/_hero.html.erb",
+      "app/views/static/homepage/_inbox.html.erb",
+      "app/views/static/homepage/_inbox_playbooks.html.erb",
+      "app/views/static/homepage/_playbook_library.html.erb",
+      "app/views/static/homepage/_playbook_rails.html.erb",
+      "app/views/static/homepage/_system_story.html.erb",
+      "config/design_system_code/marketing.yml",
+      "docs/ui/design-system-changelog.md",
+      "docs/ui/design-system.md",
+      "docs/ui/marketing-components.md",
+      "spec/requests/static_spec.rb"
+    ]
+  },
+  "source_files_rehashed": 44,
+  "scope_bindings": [
+    {
+      "path": "app/controllers/automation/agents_controller.rb",
+      "sha256": "22179a1a23fb3ea44bb798c9f07f23d4499313bc2be0022b2f9d647d9110aa5a"
+    },
+    {
+      "path": "app/controllers/concerns/journey/editor_topology_repairable.rb",
+      "sha256": "31542c0e25fbeb7cdb75bae82a28c56648ba8f6f946ba28699e47f04dcc517fe"
+    },
+    {
+      "path": "app/controllers/journeys_controller.rb",
+      "sha256": "7cc88f2596b81f7755ef9ae49430e60fe8b6e007c91bdf7733ef0ab695216764"
+    },
+    {
+      "path": "app/controllers/playbook/bundles_controller.rb",
+      "sha256": "ee02d29134ac543d0853fb4599815fd8d9523e7dce63c476f8bf0218fe5f57d1"
+    },
+    {
+      "path": "app/controllers/playbook/components_controller.rb",
+      "sha256": "7e8172a984635abc1ca5ce0aa7ddd317dc8605ba5ec36cbe6b6499f0169155ac"
+    },
+    {
+      "path": "app/controllers/playbooks_controller.rb",
+      "sha256": "fd09a7c52e2f21180a6182d0214c006993beac200ae9a5e7c4eca31f6d855888"
+    },
+    {
+      "path": "app/controllers/steps_controller.rb",
+      "sha256": "d97b25f8755beb39d52876a40a295ab0e6a5e3808b20d631d71c39baea0e34eb"
+    },
+    {
+      "path": "app/javascript/controllers/automation/agent_controller.js",
+      "sha256": "e95666eabc9c9171079e1e976e04535d20f6b4d17bb88afe9d4c8f6360e17782"
+    },
+    {
+      "path": "app/javascript/controllers/automation/agent_pane_controller.js",
+      "sha256": "725ffc0c3e3761fcb7f38f050afb5176cdcb9a882a4a91d9489d3532820f3853"
+    },
+    {
+      "path": "app/javascript/controllers/playbook/component_controller.js",
+      "sha256": "6e8becb4b16eb37398c33841e13a746c01f09628d52339c3fbdffce8f4f77bf3"
+    },
+    {
+      "path": "app/javascript/controllers/playbook/followup_controller.js",
+      "sha256": "34d37475075fef9d0fd8b938985569c2f4a7f865e5a1d5b6a5dd12f9bf3ab623"
+    },
+    {
+      "path": "app/javascript/controllers/playbook/followup_preview_controller.js",
+      "sha256": "236e5ba5874fb37e9fa7b9a8454633c4ccca45781d8a2acabe7a7683c45c1979"
+    },
+    {
+      "path": "app/javascript/controllers/playbook/promotions_controller.js",
+      "sha256": "58db06c21ba3c11cef1d5453d93ce08cade16e7be5007d6fa362f10526dacd0f"
+    },
+    {
+      "path": "app/models/ai/agent.rb",
+      "sha256": "b44c5c4c9dc184d08e1897b6dbe3cb476f13cfa18d64a8d23f0e3335d2d0ec02"
+    },
+    {
+      "path": "app/models/application_record.rb",
+      "sha256": "2473975c506ad02c2aa77593304e5b542baa45d79d8fb423edea5f83aed2d326"
+    },
+    {
+      "path": "app/models/business/plan_access.rb",
+      "sha256": "b6d2a49457dbcbc032580ccbb11c4cc644b15141092cddb938a7fc9894ca2168"
+    },
+    {
+      "path": "app/models/commerce/bundle.rb",
+      "sha256": "378c7b3177f524972e8a13b73a889ed38e71d91d80443a2285a60e2fd404a687"
+    },
+    {
+      "path": "app/models/concerns/integratable.rb",
+      "sha256": "9f1c85055f8bc69c57284c7f534dadd6cc37f50569b23b18b3c34a3738d760b1"
+    },
+    {
+      "path": "app/models/concerns/onboarding/steppable.rb",
+      "sha256": "e83a519a4a28990a785d1665f67b3187f3d246575c76a4c026a872ad5c35dbbc"
+    },
+    {
+      "path": "app/models/concerns/steppable.rb",
+      "sha256": "717859cdd02ebfaee3faf2fa411336591ad322617598afa82dff05e09bc3f7b4"
+    },
+    {
+      "path": "app/models/journey/editor/topology_repair.rb",
+      "sha256": "4a9f3794dd2ccc1a8e2b8529c7e08c17c912fcb2adfb188296809c4ccb3b02d4"
+    },
+    {
+      "path": "app/models/playbook/bundle.rb",
+      "sha256": "5d4da4fd7dc8a035259a9980a0e38dfe05d1c4949a3b6254a5fbc2f6d28c5ac6"
+    },
+    {
+      "path": "app/models/playbook/component/discount.rb",
+      "sha256": "0d92144a588114ecda0a23c3b04a178db9e45018ab8ca54f3adf89b6282cfe79"
+    },
+    {
+      "path": "app/models/playbook/component/followup.rb",
+      "sha256": "d9825dcc147443d37eb2490a71ef4f18f214f6d641c3947e059b904fe5dc8b67"
+    },
+    {
+      "path": "app/models/playbook/preview.rb",
+      "sha256": "c23bca136cdaade6968eb20dd0483961f1de98b76c606b10fc28207cf10c8510"
+    },
+    {
+      "path": "app/models/playbook/saver/discount.rb",
+      "sha256": "4d96d47e983b1c56224c83501fa4eb46840f9d0d77d494c0eb7114c5c62871f7"
+    },
+    {
+      "path": "app/models/playbook_component.rb",
+      "sha256": "071ff539c14ea7543f65e974c93a364a423070dd7ff806bdcc15793d14236071"
+    },
+    {
+      "path": "app/models/step.rb",
+      "sha256": "5fc81aadd54a882403ec5aa1075bc2ba934a78122622c715e2e849717ae5efed"
+    },
+    {
+      "path": "app/models/vtex/account.rb",
+      "sha256": "7efecf32c7c4cb94c27785b9a2f1e82469635d32cca04dc070557e831ae96522"
+    },
+    {
+      "path": "app/models/vtex/promotion.rb",
+      "sha256": "cd8d69d78b98b436dfdf7f0e579835d0b72e9dfa601df8efdd3d4267fad8152b"
+    },
+    {
+      "path": "app/policies/journey_policy.rb",
+      "sha256": "7ad1d31cfe963331be3138b647d08bfac7e3471ca3db18a4850e94f597c34491"
+    },
+    {
+      "path": "app/policies/playbook_policy.rb",
+      "sha256": "142f231b5cedb9d8e63e035f647fbccb59ab424974cd8f31ff78cb9858a3a7cf"
+    },
+    {
+      "path": "app/views/automation/agents/_agent.html.erb",
+      "sha256": "ea6ef53625faae33e555c5c4d85242236cf25094a8540f51016beda4de908672"
+    },
+    {
+      "path": "app/views/automation/agents/_pane.html.erb",
+      "sha256": "2a208b2f701f6f122729367e0cb8655b57b515d110b5d49b4e68d78876a8118d"
+    },
+    {
+      "path": "app/views/automation/agents/_wait.html.erb",
+      "sha256": "f714bfd12595b20620606126999bddd2da6099a224bb10713a0c7a7e27543f32"
+    },
+    {
+      "path": "app/views/playbook/component/discounts/_form.html.erb",
+      "sha256": "68deb16d397f02805934ebfd9fc185cfcf52d21d3a02b7d0c32178ca031a81b1"
+    },
+    {
+      "path": "app/views/playbook/component/discounts/_promotion_rows.html.erb",
+      "sha256": "02d3b94130125cdca7687eccdf9bb13a66e27bd4deafa4bf0cd83022b4cd0412"
+    },
+    {
+      "path": "app/views/playbook/component/discounts/_promotions.html.erb",
+      "sha256": "2cad3a65719e15d667cb8f7e63f7962d70fa4af61d2167a7324e10bada959e92"
+    },
+    {
+      "path": "app/views/playbook/component/discounts/_strategy_avatar.html.erb",
+      "sha256": "3efb875d6b2748202186fd7a9b5c2c9e681c44253b69af61ef5a9ed9aaa03fe4"
+    },
+    {
+      "path": "app/views/playbook/component/followups/_form.html.erb",
+      "sha256": "98bfe650cab0ee890a88b0327a78ced447bd35505eea07ea781a3eb184e9f7a7"
+    },
+    {
+      "path": "app/views/playbook/previews/_followup.html.erb",
+      "sha256": "c3946a5c5cf1c5d0aaf13a8b3ed2b67608bd9ee0a5f6ea833d406c6f0e54996e"
+    },
+    {
+      "path": "app/views/steps/show.turbo_stream.erb",
+      "sha256": "5531133dd6c5dc79480a041f687c9abc21148c08682573591b0f8928bebfb0c2"
+    },
+    {
+      "path": "config/routes.rb",
+      "sha256": "26739a703c1f9323688a0895ee0335185a5e2325df305a43fe114dae31e9aac6"
+    },
+    {
+      "path": "docs/ui/playbook-followup/screenshots/README.md",
+      "sha256": "08962a9fee68debbd4894e9d00120ea4789ae47252bac11b96041a7003c63c74"
+    }
+  ],
+  "changed_path_intersection": [],
+  "source_assessments": [
+    {
+      "path": "audit/help-next-batches-20261011/customize-next-assessment.json",
+      "sha256": "526e6cc6dbd5af3a4f42af776cecd01f1a187f781c7445cb471692c5625e6aa7"
+    },
+    {
+      "path": "audit/help-next-batches-20261011/customize-capture-feasibility.json",
+      "sha256": "17e0cfc9a136c1c7a555816d24d497272a035a0e25e25240187a433c0b066331"
+    }
+  ],
+  "limits": [
+    "Scoped native source continuity only; not confirmation of a production deployment or exact compiled-pixel parity.",
+    "The retained native asset build uses its already reviewed ephemeral cssMinify=false workaround and Node24.11.1. Skipping LightningCSS includes target transforms, not only whitespace. No source/config/lock or pixel modification in this capture batch.",
+    "Actual saved native images require individual source review and complete rendered Help review. Historical source review remains separately bound."
+  ],
+  "asset_build_limitation_evidence": {
+    "path": "audit/journeys-workflow-local-20261010/css-minifier-independent-review.json",
+    "sha256": "8c96b262a7f01463c65ec904be50060e5ea816367834574eccdf22058ab77754"
+  }
+}

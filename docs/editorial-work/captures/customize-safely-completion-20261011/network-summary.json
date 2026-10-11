@@ -1,0 +1,44 @@
+{
+  "schema": "customize-capture-network-summary-v1",
+  "status": "closed_read_only_capture",
+  "capture_controller_sessions_with_final_ledgers": 5,
+  "aggregation": "Each final controller ledger is cumulative; only the highest sequence per session is counted. Each JSON proxy log line is one event; its cumulative count field is not summed. Browser and proxy totals describe separate observation layers and are not added.",
+  "browser": {
+    "observed_requests": 908,
+    "allowed_get_requests": 897,
+    "allowed_mutating_requests": 0,
+    "blocked_post_analytics_attempts": 10,
+    "blocked_partial_search_get_attempts": 1,
+    "observed_native_cable_attempts": 136,
+    "websocket_upgrades_allowed": 0,
+    "final_blank_verified_sessions": 5
+  },
+  "proxy": {
+    "successful_get_responses": 897,
+    "indexed_static_responses": 850,
+    "application_get_responses": 47,
+    "mutating_requests_forwarded": 0,
+    "blocked_connect_requests": 360,
+    "blocked_get_requests": 11,
+    "tunnels_or_upgrades_allowed": 0
+  },
+  "private_evidence_sha256": {
+    "final_ledgers": [
+      "00c0f0c43d81fa3e0e48f23cd88f88362f2764a88e7d724b58916422c4f345ed",
+      "e6f5d993b85bd8d45932bdaa09a2a6cbf8cb7b64909f5b04f600c4343f8f9aab",
+      "96243bac26198636e8f79134b6bb5f3b46fc146206f2df0a5d6730c72bed6a7c",
+      "24d4298d15bc2156e038b703be58cae5fde9d280c56ccfed5cf901b6a9e932c0",
+      "9be2e5c5b6cef3ef6ec774986ace8c42380f2943964d759dd91538827bae03a3"
+    ],
+    "proxy_logs": [
+      "84eb4a33916a979685fc9bb637e51ef2cb32ac9e2f6dce50dc105cfbf23c90dc",
+      "c517a15dcb230a38859d8fef62137b9e80124f1db2b9575ffc67591f020b89bb"
+    ],
+    "browser_proxy_shutdown": "006d2f3214736d650979cacd3824b2d60fe852ba3f0af387069171165c1d3500"
+  },
+  "limits": [
+    "Blocked analytics, socket, and browser background attempts are reported separately from successful read forwarding. No claim that zero attempts occurred.",
+    "One controller started before executor transport loss has no final ledger or captured images. The dedicated Chrome was independently observed at about:blank before recovery; all retained proxy logs and every successful source capture are covered. No exact request-attempt count is claimed for that interrupted controller."
+  ],
+  "private_content_exported": false
+}

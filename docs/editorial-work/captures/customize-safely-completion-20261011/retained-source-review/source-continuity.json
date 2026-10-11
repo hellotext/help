@@ -1,0 +1,233 @@
+{
+  "schema": "customize-source-continuity-v1",
+  "recorded_at_utc": "2026-10-11T09:17:44.162008+00:00",
+  "historical_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "immutable_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "comparison_revision": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "currency_evidence": {
+    "path": "audit/journeys-workflow-local-20261010/scoped-currency-compare.json",
+    "sha256": "7c6e23bc24c5e0e6e03bbbf3bf18fedbdb865d4b9f8b288358c2cb5e5c19e81c"
+  },
+  "fresh_network_check": false,
+  "production_revision_verified_here": false,
+  "bindings": [
+    {
+      "path": "app/views/playbook/component/prompts/_form.html.erb",
+      "current_sha256": "54acde051632f6ca6c3805e55c9aa2fcc304fb210d91d082f8616c391500a315",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "54acde051632f6ca6c3805e55c9aa2fcc304fb210d91d082f8616c391500a315",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/views/playbook/component/uploads/_form.html.erb",
+      "current_sha256": "509d60efd774bef6a3384c76fa6fe3866f44904e565484cfe8df7b516ed6239a",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "509d60efd774bef6a3384c76fa6fe3866f44904e565484cfe8df7b516ed6239a",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/views/playbook/component/web_searches/_form.html.erb",
+      "current_sha256": "8fa2da4217c8c6e59c5ca224e87c808e999e0ad408ae3229b07c53c7957ddf3e",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "8fa2da4217c8c6e59c5ca224e87c808e999e0ad408ae3229b07c53c7957ddf3e",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/views/playbook/component/intents/_form.html.erb",
+      "current_sha256": "6d713c8b925104c808492b3fcd5688300d07e5bf344d3f0b9818f71a913a4c2f",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "6d713c8b925104c808492b3fcd5688300d07e5bf344d3f0b9818f71a913a4c2f",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/views/playbook/component/tones/_form.html.erb",
+      "current_sha256": "41d3676610285f484a05f699538ed717af6c574ed15ad0e59dbeeba9791da182",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "41d3676610285f484a05f699538ed717af6c574ed15ad0e59dbeeba9791da182",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/views/playbook/component/channels/_form.html.erb",
+      "current_sha256": "77365e1727617c2fd93184dfb6ee089d53645648c494f4926a8e87d02f11bdc5",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "77365e1727617c2fd93184dfb6ee089d53645648c494f4926a8e87d02f11bdc5",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/views/playbook/component/assignments/_form.html.erb",
+      "current_sha256": "224787f7c3bca70025f94e7b0cfba5d0a0914e515986285de81c624bf1e5b01e",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "796035fd7888972b730be52c701b0e76b0ab13bf41d7267efe29d96cfc979992",
+      "unchanged_since_historical_revision": false,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/views/playbook/component/property_collections/_form.html.erb",
+      "current_sha256": "cc17e5fe8416e75c00ec668aa5a0abdcdfd7d59704ee5f1abf8ec2bc3fe8c593",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "56ac3e7da55fbc7ea290602e88504081e98385cf51287149f94eeb2cbcb33f16",
+      "unchanged_since_historical_revision": false,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/views/playbook/component/discounts/_form.html.erb",
+      "current_sha256": "68deb16d397f02805934ebfd9fc185cfcf52d21d3a02b7d0c32178ca031a81b1",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "9332e2cae12c802a03e6c6cee48f9184263afa847d6841c661759ae333be9d4d",
+      "unchanged_since_historical_revision": false,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/views/playbook/component/property_collections/_property.html.erb",
+      "current_sha256": "6d5fce49a212da586548358ff79a4fea475ee96b404912c3911315753628856d",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "505a7e07cc0ea67eda76eb8e8f9465cfee75d5fe847810c0a807bc0c6948fe82",
+      "unchanged_since_historical_revision": false,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/views/playbook/component/discounts/_promotions_button.html.erb",
+      "current_sha256": "cb8b5352a6e7322fc9b3e9d75a6dc82c5fc5eddf0fc3353e27c01cd1303b393c",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": null,
+      "unchanged_since_historical_revision": false,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/views/automation/assignments/_pane.html.erb",
+      "current_sha256": "2c24f40992cecfdc013a92ec4b0c44661e4e9b0ae53dea9bd6dc090e5e7b4aaa",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "2c24f40992cecfdc013a92ec4b0c44661e4e9b0ae53dea9bd6dc090e5e7b4aaa",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/views/automation/assignment_actions/_assignment_action.html.erb",
+      "current_sha256": "cbfc77edf5e4a9ab8566d53fae703cb2da732bb5ab0589156ae7feffc7895754",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "cbfc77edf5e4a9ab8566d53fae703cb2da732bb5ab0589156ae7feffc7895754",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/javascript/controllers/automation/assignment_pane_controller.js",
+      "current_sha256": "ad27fcd385c432aaf227a50c8820dc6c69e23d3c79ec8fbda4ca31eb89327f29",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "ad27fcd385c432aaf227a50c8820dc6c69e23d3c79ec8fbda4ca31eb89327f29",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/javascript/controllers/playbook/intent_controller.js",
+      "current_sha256": "ed6a557d2553ea8c75f7c87543c0e6c2ff007000d1614e5bc7548cb232f57141",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "ed6a557d2553ea8c75f7c87543c0e6c2ff007000d1614e5bc7548cb232f57141",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/javascript/controllers/playbook/prompt_controller.js",
+      "current_sha256": "73bcfeb374e91be65acc8bf4e2fc82a954ed0a1ee1675ce97b1c782b8e7ad24b",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "73bcfeb374e91be65acc8bf4e2fc82a954ed0a1ee1675ce97b1c782b8e7ad24b",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/javascript/controllers/playbook/upload_controller.js",
+      "current_sha256": "fa00dc42022bc40434b0594dbb3acc656168b3e10ee5b56b1681c708a3a9ced9",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "fa00dc42022bc40434b0594dbb3acc656168b3e10ee5b56b1681c708a3a9ced9",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/javascript/controllers/playbook/web_search_controller.js",
+      "current_sha256": "844336c98d13490a3767f95b2b420d9d734461ab913ba585c76f400f7d3d2f7e",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "844336c98d13490a3767f95b2b420d9d734461ab913ba585c76f400f7d3d2f7e",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/models/property.rb",
+      "current_sha256": "729aee86880703d7c040482f7ef773a2a1e7b1fdbdb4df32924c00653da58bc3",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "bc0d40e8acfaa338bbb060e7d8378f2956a07bb6d853117b3429ceb413145a5b",
+      "unchanged_since_historical_revision": false,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/models/playbook/subscriber_booster/discount_generation.rb",
+      "current_sha256": "8c3046ee53bf333c551b5314234fed03e07733982e9b475634405d1be1e36cab",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "8c3046ee53bf333c551b5314234fed03e07733982e9b475634405d1be1e36cab",
+      "unchanged_since_historical_revision": true,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/javascript/entrypoints/stylesheets/playbooks.scss",
+      "current_sha256": "1ee30cf5f054fe923650650cb159a974d87d0c68af4883f785b07617262ffe04",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "23eb4b9f8cb71a3cf3334bdec307695a672a31520c517de3dbf31763fefdde96",
+      "unchanged_since_historical_revision": false,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "app/javascript/entrypoints/stylesheets/_select_controls.scss",
+      "current_sha256": "d756f9c03b5fc9e08648c5f88bdaaa1f7498d934b222ab88ae7aced072be86d2",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": null,
+      "unchanged_since_historical_revision": false,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "config/locales/views/playbooks/es.yml",
+      "current_sha256": "2e76381965fdd69a0c5b939ac47bf99e4ad0c8a109e6171db69572fa697d5a6d",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "bd4b4e660d155e67adb09e937b3aaa821b41b4ca7f9f067d1f35af56c96b99fe",
+      "unchanged_since_historical_revision": false,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "config/locales/views/playbooks/en.yml",
+      "current_sha256": "0cd46ff6498f9b50d0cca7372e575bcaba911b3d8ddf54a4b0c4d7e84486fc02",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "9e96ab1a1bc517612ec0d3c1f8da22bbb095e5d4f9d4f4d7dcd6a85d986b877c",
+      "unchanged_since_historical_revision": false,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "config/locales/views/automation/es.yml",
+      "current_sha256": "514e517dc4b9840fd9ea71498880ce9bf0d222781c917ce5bed782c51627465a",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "667e52da8944966360cfa62aca2849cce84d595914313afaf0f428840cacb74e",
+      "unchanged_since_historical_revision": false,
+      "changed_in_preserved_8e_to_afac_compare": false
+    },
+    {
+      "path": "config/locales/views/automation/en.yml",
+      "current_sha256": "5513e9822f2e9b9dccb576b3e40a50a95941870fbfb062db1797cabbe80945e1",
+      "matches_pinned_git_blob": true,
+      "historical_sha256": "684a3f379d925316a92ff2ea40cc348847a8c30c68a8a92e6ea31ba2d2d7fa8f",
+      "unchanged_since_historical_revision": false,
+      "changed_in_preserved_8e_to_afac_compare": false
+    }
+  ],
+  "findings": [
+    "Prompt, upload, web search, intents, tone and channels cropped form templates are byte-identical to historical revision.",
+    "Route Assignment pane/action partial and controller are byte-identical. Five visible actions remain native controls; no route execution was reviewed.",
+    "Escalation form changes introduce supplied business/users locals and replace the excluded footer back handler; selected team chip, toggle, heading and cropped layout remain structurally unchanged.",
+    "Property forms switch other property icons to Property.icon_for. Name remains text and email falls through to email; both historical row icons remain applicable.",
+    "Discounts add a View store promotions button for the checked combined and store-only strategies. Reject both complete desktop combined-card screenshots as current UI; the focused percentage buttons are unchanged.",
+    "playbooks.scss adds drawer behavior and layout variables. The retained non-drawer crops do not show that new scene. The new _select_controls.scss extracts shared control rules; this review does not equate source inspection with global compositor parity.",
+    "ES/EN localized form subtrees for prompts/uploads/web_searches/intents/tones/channels/assignments/property_collections are unchanged. Discount form subtree adds only view_store_promotions (separate Ruby YAML read performed).",
+    "All 26 pinned source bindings are absent from the preserved 16-path 8e-to-afac change set. This is scoped currency, not a new remote/deployment lookup."
+  ]
+}
