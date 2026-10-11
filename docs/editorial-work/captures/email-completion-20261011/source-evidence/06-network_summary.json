@@ -1,0 +1,94 @@
+{
+  "schema": "email-capture-network-summary-v1",
+  "status": "closed_and_verified",
+  "at": "2026-10-11T16:54:37.754920+00:00",
+  "controller_sessions": 3,
+  "deduplication": "Final cumulative ledger per controller session; one event per proxy log line, never sum its count field.",
+  "browser": {
+    "allowed_reads": 863,
+    "blocked_external_map_reads": 5,
+    "blocked_external_analytics_posts": 5,
+    "native_cable_upgrade_attempts_denied": 145,
+    "allowed_mutating_requests": 0
+  },
+  "proxy": {
+    "read_successes_including_static": 863,
+    "denied_gets": 6,
+    "denied_connect_attempts": 337,
+    "mutating_requests_forwarded": 0,
+    "tunnels_or_upgrades_forwarded": 0
+  },
+  "native_app": {
+    "reads_forwarded": 55,
+    "http_200": 55,
+    "held_cursor_jobs": 5,
+    "jobs_performed": 0,
+    "mutating_requests_received": 0,
+    "read_only_guard_failures": 0
+  },
+  "external_requests_forwarded": 0,
+  "browser_database_writes": 0,
+  "distinction": "Blocked network attempts are recorded explicitly; zero forwarded mutations does not mean zero attempted POSTs, CONNECTs or cable connections.",
+  "bindings": [
+    {
+      "role": "final cumulative controller ledger",
+      "sha256": "86a19abee9fb494176820407a1fbe51497e4794fc7aa95ef3afb4479f921ffc8",
+      "retained_privately": true
+    },
+    {
+      "role": "final cumulative controller ledger",
+      "sha256": "7262622c047e29a89044148605d624b50fd77091450aaff6c3218ade7050482c",
+      "retained_privately": true
+    },
+    {
+      "role": "final cumulative controller ledger",
+      "sha256": "187aa12ffdf8557118b442ceec04526bfafbc22bffa4830b5593b90989147113",
+      "retained_privately": true
+    },
+    {
+      "role": "proxy final log",
+      "sha256": "b4142712d0bb3f9a60750807fa1a611305a5fc495b326bd3a8071e2ea394b618",
+      "retained_privately": true
+    },
+    {
+      "role": "native app read journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retained_privately": true
+    },
+    {
+      "role": "native app read journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retained_privately": true
+    },
+    {
+      "role": "native app read journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retained_privately": true
+    },
+    {
+      "role": "native app read journal",
+      "sha256": "2bc5127f5a5c15e0623353f3684456b41733d5f2fa8dbbb7fc0b494224876f56",
+      "retained_privately": true
+    },
+    {
+      "role": "native app read journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retained_privately": true
+    },
+    {
+      "role": "native app read journal",
+      "sha256": "bb4d648649dd4e01712b6fb4db4f618190b56c61cc53f7586242196270d2dfcb",
+      "retained_privately": true
+    },
+    {
+      "role": "native app read journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retained_privately": true
+    },
+    {
+      "role": "native app read journal",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retained_privately": true
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "passed_scoped_email_source_continuity",
+  "reviewer": "root",
+  "at": "2026-10-11T16:44:03.402486+00:00",
+  "capture_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "compared_current_master": "dfd68fd5019936dc1046dcd76cfa9be529a1eb38",
+  "previous_comparison": {
+    "path": "audit/journeys-workflow-local-20261010/scoped-currency-compare.json",
+    "sha256": "7c6e23bc24c5e0e6e03bbbf3bf18fedbdb865d4b9f8b288358c2cb5e5c19e81c"
+  },
+  "refresh": {
+    "path": "audit/email-publication-20261011/app-source-refresh.json",
+    "sha256": "81f562df6153393e164c8a84a1be5bd518509d521d5315b5a83c77c2d0a6e704"
+  },
+  "incremental_compare": {
+    "path": "audit/email-publication-20261011/app-source-compare-afac-dfd6.json",
+    "sha256": "6cb4a5cdd5b2b61687e2472dd51859ab08f3f4f316a712342c87bf3996bf240a"
+  },
+  "commits": 5,
+  "changed_paths": [
+    "app/integrations/shopify/client/product.rb",
+    "app/integrations/shopify/client/product_variant.rb",
+    "app/integrations/shopify/product/params.rb",
+    "app/integrations/shopify/product_variant/params.rb",
+    "app/jobs/artifact/entity/download_image_job.rb",
+    "app/models/ai/replenishment/runner.rb",
+    "app/models/artifact/entity/imageable.rb",
+    "app/models/supervisor/recommendation/engine/runner.rb",
+    "spec/integrations/ai/openai/webhook/response/completed_spec.rb",
+    "spec/integrations/shopify/product/params_spec.rb",
+    "spec/integrations/shopify/product_variant/params_spec.rb",
+    "spec/jobs/artifact/entity/download_image_job_spec.rb",
+    "spec/models/ai/replenishment/runner_spec.rb",
+    "spec/models/artifact/product_spec.rb",
+    "spec/models/supervisor/recommendation/engine/runner_spec.rb"
+  ],
+  "email_scope_intersection": [],
+  "assessment": "Increment changes Shopify product/media import and image reconciliation, an image-download job, replenishment queue/image count, recommendation timing and their tests. No Email controller, component, renderer, shared UI assets, locale, route or manual delivery contract changed. The Email capture fixture contains no product/import/AI execution or uploaded image; its body is text and an inert reserved URL. No changed code path participates in the three admitted Email scenes.",
+  "limits": [
+    "Scoped source continuity only; no deployed application revision attestation or global asset parity claim.",
+    "Birthday product/callback scope requires separate assessment and is not admitted here."
+  ]
+}

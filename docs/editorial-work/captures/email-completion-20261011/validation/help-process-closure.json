@@ -1,0 +1,31 @@
+{
+  "status": "closed_and_verified",
+  "at": "2026-10-11T17:15:15.613046+00:00",
+  "checkpoint_sha256": "e0d55dce8b3a72bb6eee08d854d8a99a221a89aed9e9230f87548c8d59f1963e",
+  "scope_sha256": "7c4eeb06ad0a1c5c28666ac0092a907588d89d0dcd88a89c48bc5c4129cae748",
+  "process_receipt": {
+    "path": "docs/editorial-work/captures/email-completion-20261011/validation/help-processes-stopped.json",
+    "sha256": "23807432110dfda2d3c950c308408610ed27df9e54a2a03f2ca3e2084abe9947"
+  },
+  "supervisor_exit_code": 0,
+  "supervisor_pid": 96893,
+  "server_pid": 96904,
+  "browser_pid": 96905,
+  "only_owned_process_groups_terminated": true,
+  "owned_processes_absent": true,
+  "profile_processes_absent": true,
+  "listeners": [
+    {
+      "port": 3368,
+      "listener_present": false,
+      "connect_ex": 61
+    },
+    {
+      "port": 9549,
+      "listener_present": false,
+      "connect_ex": 61
+    }
+  ],
+  "external_writes": false,
+  "capture_source_bytes_changed": false
+}

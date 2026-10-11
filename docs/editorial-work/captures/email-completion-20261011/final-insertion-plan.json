@@ -1,0 +1,397 @@
+{
+  "schema": "email-final-insertion-plan-v1",
+  "status": "approved_for_integration",
+  "at": "2026-10-11T16:41:26.504661+00:00",
+  "copy_review": {
+    "path": "audit/email-completion-preparation-20261011/preview-footer-copy-independent-review.json",
+    "sha256": "a867d459a33352a2fe32c2db501ff067db2bfe27921f83a887b89f50c552d1a6"
+  },
+  "copy_baseline_records": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/numbers/email-channel-fundamentals.md",
+      "after_sha256": "beb9cf44197a248bb49efce30f52e41ed4690294762507a9d2dc5cff0182e007"
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/numbers/email-channel-fundamentals.md",
+      "after_sha256": "29ed9c667abcc334e4e9618a8a9dc68f4d036731b166158ef6c899678ec3a0aa"
+    }
+  ],
+  "native_scene_plan": {
+    "path": "audit/email-completion-preparation-20261011/capture/scene-plan.json",
+    "sha256": "7608a44828b7eb0ac183fa4feda8a318f800d6e93371a96226d75cba1f2bd4b3"
+  },
+  "section_coverage": {
+    "path": "audit/email-help-preparation-20261011/section-coverage.json",
+    "sha256": "f0b2b05d54d0e36a02ef864077c520b48177703e1c9f3da15c6ce9eba4fb8ba3"
+  },
+  "insertions": [
+    {
+      "id": "email-recipient-menu",
+      "locale": "es",
+      "anchor": "El menú de destino muestra las direcciones de correo del cliente. No es una lista de los remitentes de tu negocio. Cuando eliges una dirección, Hellotext usa el remitente activo de la conversación de correo existente, si está disponible, o un canal de correo electrónico disponible para un destino nuevo.",
+      "position": "after",
+      "copy": {
+        "aria": "Elige la dirección del destinatario",
+        "alt": "Menú Email del Inbox con dos direcciones de correo del mismo cliente de ejemplo.",
+        "caption": "Interfaz real con datos ficticios: elige en Email la dirección del cliente que recibirá el mensaje."
+      },
+      "sources": {
+        "desktop": "email-recipient-menu-es-desktop.png",
+        "mobile": "email-recipient-menu-es-mobile.png"
+      },
+      "native_geometry": {
+        "desktop": {
+          "pixel_size": [
+            2672,
+            628
+          ],
+          "native_density": 4,
+          "native_logical_size": [
+            668,
+            157
+          ],
+          "maximum_css_width": 668,
+          "sha256": "b461acbaa46e2ba4c5377b5b3af6f1d440772f0470dee697de1a098931ec9dc0"
+        },
+        "mobile": {
+          "pixel_size": [
+            2000,
+            736
+          ],
+          "native_density": 4,
+          "native_logical_size": [
+            500,
+            184
+          ],
+          "maximum_css_width": 500,
+          "sha256": "dc2b15f06ed0fe8f1b81171e0844f47bf30669bc59d7bb90b8ebc34795bdf8d5"
+        },
+        "frame_maximum_css_width": 686
+      },
+      "status": "approved_for_integration",
+      "required_source_coverage": [
+        "Email group label and destination-menu context",
+        "Both fictional customer addresses fully readable",
+        "No business sender or delivery claim"
+      ]
+    },
+    {
+      "id": "email-compose",
+      "locale": "es",
+      "anchor": "8. Envía el mensaje y revisa su información de envío o entrega en la conversación.",
+      "position": "after",
+      "copy": {
+        "aria": "Prepara el asunto y el cuerpo del correo",
+        "alt": "Editor de correo del Inbox con el asunto y el cuerpo de un borrador sobre el retiro de un pedido de ejemplo.",
+        "caption": "Borrador con datos ficticios: revisa el asunto y el cuerpo del correo antes de enviarlo."
+      },
+      "sources": {
+        "desktop": "email-compose-es-desktop.png",
+        "mobile": "email-compose-es-mobile.png"
+      },
+      "native_geometry": {
+        "desktop": {
+          "pixel_size": [
+            2068,
+            980
+          ],
+          "native_density": 4,
+          "native_logical_size": [
+            517,
+            245
+          ],
+          "maximum_css_width": 517,
+          "sha256": "50ae22dbdeb28f4f30a96805fc9624700f49a1251c28914a9a234c2a200a68ad"
+        },
+        "mobile": {
+          "pixel_size": [
+            1560,
+            1108
+          ],
+          "native_density": 4,
+          "native_logical_size": [
+            390,
+            277
+          ],
+          "maximum_css_width": 390,
+          "sha256": "c412d9d24f985e746715e0d6f7f5244ce9221c311c57a56d88e6aec75c89ec09"
+        },
+        "frame_maximum_css_width": 535
+      },
+      "status": "approved_for_integration",
+      "required_source_coverage": [
+        "Subject label and complete localized subject",
+        "Complete authored body and Inbox Email editor context",
+        "Recipient control and relevant editor boundaries, as supported by actual geometry",
+        "Unsent draft; no sending or received-message claim"
+      ]
+    },
+    {
+      "id": "email-inline-preview",
+      "locale": "es",
+      "anchor": "El pie de la vista previa puede mostrar **Cancelar suscripción**. En un correo manual del Inbox ese enlace no se agrega automáticamente al envío.",
+      "position": "after",
+      "copy": {
+        "aria": "Revisa el diseño en Vista previa",
+        "alt": "Vista previa del borrador de Casa Lila, con el mensaje de ejemplo, el pie y el selector de escritorio y móvil.",
+        "caption": "Vista previa del borrador con datos ficticios. Alterna entre escritorio y móvil para revisar cómo se distribuye el contenido."
+      },
+      "sources": {
+        "desktop": "email-inline-preview-es-desktop.png",
+        "mobile": "email-inline-preview-es-mobile.png"
+      },
+      "native_geometry": {
+        "desktop": {
+          "pixel_size": [
+            2464,
+            2280
+          ],
+          "native_density": 4,
+          "native_logical_size": [
+            616,
+            570
+          ],
+          "maximum_css_width": 616,
+          "sha256": "ae9e9d3f21beddb2229904372173431a833acc8771fcceefa2779042dc78036e"
+        },
+        "mobile": {
+          "pixel_size": [
+            1464,
+            2280
+          ],
+          "native_density": 4,
+          "native_logical_size": [
+            366,
+            570
+          ],
+          "maximum_css_width": 366,
+          "sha256": "56b6093709e1f54f77b6118015826593ec17e297f0a2aa56f2a0c612809b0212"
+        },
+        "frame_maximum_css_width": 634
+      },
+      "status": "approved_for_integration",
+      "required_source_coverage": [
+        "Native Preview dialog boundaries and device-selector state",
+        "Example body, brand and footer, with the unsubscribe distinction in adjacent prose",
+        "No new-page preview action or received-message claim"
+      ]
+    },
+    {
+      "id": "email-recipient-menu",
+      "locale": "en",
+      "anchor": "The destination menu lists the customer's email addresses. It is not a list of your business's senders. When you choose an address, Hellotext uses the existing Email conversation's active sender when available, or an available Email channel for a new destination.",
+      "position": "after",
+      "copy": {
+        "aria": "Choose the recipient address",
+        "alt": "Inbox Email menu showing two email addresses for the same example customer.",
+        "caption": "Real interface with fictional data: choose the customer's intended recipient address under Email."
+      },
+      "sources": {
+        "desktop": "email-recipient-menu-en-desktop.png",
+        "mobile": "email-recipient-menu-en-mobile.png"
+      },
+      "native_geometry": {
+        "desktop": {
+          "pixel_size": [
+            2672,
+            632
+          ],
+          "native_density": 4,
+          "native_logical_size": [
+            668,
+            158
+          ],
+          "maximum_css_width": 668,
+          "sha256": "f074689a94aa3609ab02c70a080ae5031ffe6e309ada819d4fbd4e629b9b34f0"
+        },
+        "mobile": {
+          "pixel_size": [
+            2000,
+            736
+          ],
+          "native_density": 4,
+          "native_logical_size": [
+            500,
+            184
+          ],
+          "maximum_css_width": 500,
+          "sha256": "19a5fee49bed8e470ad9e95739a4f6142a8d424890f6d37251a39c09ffb41d48"
+        },
+        "frame_maximum_css_width": 686
+      },
+      "status": "approved_for_integration",
+      "required_source_coverage": [
+        "Email group label and destination-menu context",
+        "Both fictional customer addresses fully readable",
+        "No business sender or delivery claim"
+      ]
+    },
+    {
+      "id": "email-compose",
+      "locale": "en",
+      "anchor": "8. Send the message and review its sending or delivery information in the conversation.",
+      "position": "after",
+      "copy": {
+        "aria": "Prepare the email subject and body",
+        "alt": "Inbox Email editor showing the subject and body of an unsent draft about picking up an example order.",
+        "caption": "Draft with fictional data: review the email subject and body before sending."
+      },
+      "sources": {
+        "desktop": "email-compose-en-desktop.png",
+        "mobile": "email-compose-en-mobile.png"
+      },
+      "native_geometry": {
+        "desktop": {
+          "pixel_size": [
+            2068,
+            980
+          ],
+          "native_density": 4,
+          "native_logical_size": [
+            517,
+            245
+          ],
+          "maximum_css_width": 517,
+          "sha256": "dca9d83767687997ffedfdd68a5cce6987ee3769af13c854b0e87aa776533653"
+        },
+        "mobile": {
+          "pixel_size": [
+            1560,
+            1108
+          ],
+          "native_density": 4,
+          "native_logical_size": [
+            390,
+            277
+          ],
+          "maximum_css_width": 390,
+          "sha256": "1633bb19ace6e63796708337cea4c59dab9cb0b2ed5157e74103efa972349096"
+        },
+        "frame_maximum_css_width": 535
+      },
+      "status": "approved_for_integration",
+      "required_source_coverage": [
+        "Subject label and complete localized subject",
+        "Complete authored body and Inbox Email editor context",
+        "Recipient control and relevant editor boundaries, as supported by actual geometry",
+        "Unsent draft; no sending or received-message claim"
+      ]
+    },
+    {
+      "id": "email-inline-preview",
+      "locale": "en",
+      "anchor": "The preview footer may show **Unsubscribe**. That link is not automatically added when you send a manual email from the Inbox.",
+      "position": "after",
+      "copy": {
+        "aria": "Review the design in Preview",
+        "alt": "Preview of the Casa Lila draft with the example message, footer, and desktop and mobile selector.",
+        "caption": "Preview of the draft with fictional data. Switch between desktop and mobile to check how the content is arranged."
+      },
+      "sources": {
+        "desktop": "email-inline-preview-en-desktop.png",
+        "mobile": "email-inline-preview-en-mobile.png"
+      },
+      "native_geometry": {
+        "desktop": {
+          "pixel_size": [
+            2464,
+            2280
+          ],
+          "native_density": 4,
+          "native_logical_size": [
+            616,
+            570
+          ],
+          "maximum_css_width": 616,
+          "sha256": "084ba9845b9ea1cb0be692eda804d2ba21d60017d8a5dca6392159490728e9ca"
+        },
+        "mobile": {
+          "pixel_size": [
+            1464,
+            2280
+          ],
+          "native_density": 4,
+          "native_logical_size": [
+            366,
+            570
+          ],
+          "maximum_css_width": 366,
+          "sha256": "f6e2e1b7d5b30c20f88a8e19dc196937fcf36ec5dd91fce22f200d6cf7b8ec53"
+        },
+        "frame_maximum_css_width": 634
+      },
+      "status": "approved_for_integration",
+      "required_source_coverage": [
+        "Native Preview dialog boundaries and device-selector state",
+        "Example body, brand and footer, with the unsubscribe distinction in adjacent prose",
+        "No new-page preview action or received-message claim"
+      ]
+    }
+  ],
+  "figure_order": {
+    "es": [
+      "email-recipient-menu",
+      "email-compose",
+      "email-inline-preview"
+    ],
+    "en": [
+      "email-recipient-menu",
+      "email-compose",
+      "email-inline-preview"
+    ]
+  },
+  "source_count": 12,
+  "source_manifest": {
+    "path": "audit/email-completion-preparation-20261011/capture/source-manifest.json",
+    "sha256": "619e0dade81ea362bcd56ff327953e20288972ecefd16c9f46b37f99d788903b"
+  },
+  "source_root": "audit/email-completion-preparation-20261011/capture/sources",
+  "pending": [],
+  "limits": [
+    "All12 exact native sources are mapped; final source admission and rendered Help acceptance remain separate.",
+    "Figure prose describes the recipient menu, unsent composer and native preview only.",
+    "Native CSS caps derive from original crop dimensions; images remain unchanged."
+  ],
+  "preservation": {
+    "headings_per_locale": 22,
+    "ordered_liquid_links_per_locale": 20,
+    "stub_sha256": "6b73b939bcabee35bb67b996de6270cbad210ceaaf1128c80c00e315d06f292e",
+    "inventory_sha256": "28bb3c6450425e0c7a48c63e29eead7eed61d7a6c70e35e3e267510692024192"
+  },
+  "help_changes_in_this_plan": false,
+  "external_writes": false,
+  "historical_draft": {
+    "path": "audit/email-help-preparation-20261011/source-insertion-plan.json",
+    "sha256": "6f03d10bb607bee11fa217969423f99cb86f4603da378136ea242f8aa358f7f7"
+  },
+  "historical_pending_copy_baseline": {
+    "path": "audit/email-help-preparation-20261011/copy-baseline-preview-footer-pending.json",
+    "sha256": "9e539f663a44a78f9ff17a762567abe859a98644295e70880308cfb39839ad93"
+  },
+  "reviewed_copy_baseline": {
+    "path": "audit/email-help-preparation-20261011/copy-baseline-reviewed.json",
+    "sha256": "b50e3851ab2a2c340d6d95e20e631153509e619d1d9a770a8c0fa7a80f8470cf"
+  },
+  "root_copy_review": {
+    "path": "audit/email-help-preparation-20261011/root-preview-footer-copy-review.json",
+    "sha256": "98f0fc6471d9d2f0e8daece38d0f6f749c8f77adbed964d524d8cf7a1312b0fd"
+  },
+  "historical_copy_reviewed_draft": {
+    "path": "audit/email-help-preparation-20261011/source-insertion-plan-copy-reviewed.json",
+    "sha256": "39196ad102be266f6b8b7e242ec4bed0a6299d52c6a268637e2e814868b273d0"
+  },
+  "source_layout_limits": [
+    "Recipient-menu mobile captures use a native580CSS viewport and500CSS crop; Help390 readability requires complete rendered inspection.",
+    "Composer mobile uses390CSS crop; inline preview mobile uses366CSS crop and570CSS height.",
+    "The8CSS-pixel dimmed backdrop around preview panels is native capture context, not an image transformation."
+  ],
+  "root_review": {
+    "reviewer": "root",
+    "at": "2026-10-11T16:50:19.283648+00:00",
+    "all_12_native_pixels_individually_viewed": true,
+    "precise_mappings_caps_and_copy_approved": true,
+    "runtime_closure_required_by_separate_admission": true
+  }
+}

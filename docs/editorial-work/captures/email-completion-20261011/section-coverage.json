@@ -1,0 +1,164 @@
+{
+  "status": "planned_incomplete",
+  "article": "numbers/email-channel-fundamentals.md",
+  "sections": [
+    {
+      "heading_es": "## Para qué sirve mejor el correo electrónico",
+      "heading_en": "## What Email is best for",
+      "status": "prose_sufficient",
+      "rationale": "Purpose and appropriate uses need no additional interface image.",
+      "complete": null
+    },
+    {
+      "heading_es": "## Antes de enviar desde el Inbox",
+      "heading_en": "## Before sending from the Inbox",
+      "status": "prose_and_canonical_links",
+      "rationale": "Prerequisites and links cover sender setup; a fictional active sender cannot prove DNS/provider verification.",
+      "complete": null
+    },
+    {
+      "heading_es": "## Dónde puedes usar correo electrónico",
+      "heading_en": "## Where you can use Email",
+      "status": "native_destination_required",
+      "rationale": "Show current Email destination and two fictional recipient addresses; keep availability and actual sending prerequisites distinct.",
+      "complete": false
+    },
+    {
+      "heading_es": "## Entiende el remitente, el destinatario y la dirección de respuesta",
+      "heading_en": "## Understand the sender, recipient, and reply address",
+      "status": "native_destination_and_prose",
+      "rationale": "Recipient selection screenshot supports the identity table. Sender/reply-address routing is explained from source without invented received mail.",
+      "complete": false
+    },
+    {
+      "heading_es": "## Envía un correo desde el Inbox",
+      "heading_en": "## Send an email from the Inbox",
+      "status": "native_composer_required",
+      "rationale": "Capture actual recipient selection, Subject/body editor and Preview controls; send step remains a prospective reader instruction.",
+      "complete": false
+    },
+    {
+      "heading_es": "## Qué recibe el cliente",
+      "heading_en": "## What the customer receives",
+      "status": "native_preview_required",
+      "rationale": "Capture the actual unsent design preview with native desktop/mobile controls; no delivered email claim.",
+      "complete": false
+    },
+    {
+      "heading_es": "### Links y personalización",
+      "heading_en": "### Links and personalization",
+      "status": "prose_sufficient",
+      "rationale": "Useful reserved example URL in the prepared body illustrates an action. Tracking/personalization links retain their own canonical guides.",
+      "complete": null
+    },
+    {
+      "heading_es": "## Longitud del texto y archivos adjuntos",
+      "heading_en": "## Text length and attachments",
+      "status": "source_backed_table",
+      "rationale": "Correct limits use native code contracts. No fake validation-error screenshot or upload is required to explain the table.",
+      "complete": null
+    },
+    {
+      "heading_es": "## Cómo llegan las respuestas del cliente al Inbox",
+      "heading_en": "## How customer replies reach the Inbox",
+      "status": "source_backed_prose",
+      "rationale": "Reply routing explanation is preserved. No provider/inbound email event is manufactured for a screenshot.",
+      "complete": null
+    },
+    {
+      "heading_es": "### Respuestas desde otra dirección",
+      "heading_en": "### Replies from another address",
+      "status": "source_backed_prose",
+      "rationale": "Another-address behavior is explained without staging a misleading customer reply.",
+      "complete": null
+    },
+    {
+      "heading_es": "### Correos nuevos enviados a la casilla existente de tu negocio",
+      "heading_en": "### New emails sent to your existing business mailbox",
+      "status": "source_backed_prose",
+      "rationale": "Existing mailbox distinction and support link need no fabricated mailbox interface.",
+      "complete": null
+    },
+    {
+      "heading_es": "## Responsables de la conversación y ventanas de respuesta",
+      "heading_en": "## Conversation ownership and reply windows",
+      "status": "prose_and_canonical_links",
+      "rationale": "Ownership/window procedures belong to the linked native guides; this batch does not change ownership or simulate a provider reply.",
+      "complete": null
+    },
+    {
+      "heading_es": "## Estado de suscripción y solicitudes de baja",
+      "heading_en": "## Subscription status and unsubscribe requests",
+      "status": "prose_and_canonical_links",
+      "rationale": "Keep scope of contact/channel subscriptions explicit; no local consent toggle is needed for this screenshot batch.",
+      "complete": null
+    },
+    {
+      "heading_es": "## Entiende la información de envío, entrega y lectura",
+      "heading_en": "## Understand sending, delivery, and read information",
+      "status": "source_backed_prose",
+      "rationale": "Describe delivery/open signals and their limits; an unsent preview cannot supply genuine provider delivery or read receipts.",
+      "complete": null
+    },
+    {
+      "heading_es": "## Soluciona problemas de una conversación por correo",
+      "heading_en": "## Troubleshoot an Email conversation",
+      "status": "prose_sufficient",
+      "rationale": "Troubleshooting groups consolidate the concrete cases below.",
+      "complete": null
+    },
+    {
+      "heading_es": "### Correo electrónico no aparece en el menú de destino",
+      "heading_en": "### Email is missing from the destination menu",
+      "status": "native_destination_and_prose",
+      "rationale": "Native recipient selector plus prerequisite text supports this case; no guessed error state.",
+      "complete": false
+    },
+    {
+      "heading_es": "### El mensaje usó un remitente o un asunto inesperados",
+      "heading_en": "### The message used an unexpected sender or subject",
+      "status": "native_subject_and_prose",
+      "rationale": "Subject editor image resolves the obsolete fixed-business-name claim; sender configuration stays with its linked guide.",
+      "complete": false
+    },
+    {
+      "heading_es": "### El cliente no encuentra un correo enviado",
+      "heading_en": "### The customer cannot find a sent email",
+      "status": "prose_sufficient",
+      "rationale": "Delivery checks remain prospective and do not require a manufactured delivered/failure status.",
+      "complete": null
+    },
+    {
+      "heading_es": "### La respuesta del cliente no aparece",
+      "heading_en": "### The customer's reply does not appear",
+      "status": "prose_sufficient",
+      "rationale": "Reply checks do not require a forged incoming event.",
+      "complete": null
+    },
+    {
+      "heading_es": "### Un adjunto falla o se ve diferente",
+      "heading_en": "### An attachment fails or looks different",
+      "status": "source_backed_prose",
+      "rationale": "Current native image types/size and inline behavior are specified; optional image controls only if visible without upload.",
+      "complete": null
+    },
+    {
+      "heading_es": "## Checklist para la primera conversación por correo",
+      "heading_en": "## First Email conversation checklist",
+      "status": "prospective_checklist",
+      "rationale": "Retain useful end-to-end reader test checklist; local editorial capture executes no send or provider verification.",
+      "complete": null
+    },
+    {
+      "heading_es": "## Guías relacionadas",
+      "heading_en": "## Related guides",
+      "status": "prose_sufficient",
+      "rationale": "Preserve all20 ordered Liquid links and verify exact build targets later.",
+      "complete": null
+    }
+  ],
+  "source_count": null,
+  "figure_count_per_locale": null,
+  "native_source_admission": null,
+  "final_visual_review": null
+}

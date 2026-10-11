@@ -1,0 +1,174 @@
+{
+  "status": "copy_corrected_pending_independent_review_native_captures_and_build",
+  "at": "2026-10-11T15:41:07.494920+00:00",
+  "base": "83709b00e107739ba3679d7ce8a80388f804eecf",
+  "records": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/numbers/email-channel-fundamentals.md",
+      "before_sha256": "f845b81cbdac3308558c30321f17ca9fa7cf8ec3bbf0a7c52af8b2daacf2d953",
+      "after_sha256": "3ad1b1bfcccd4e822691afd89e3c94c3211f0cede8f4397e94bba5346e40b14d",
+      "headings": 22,
+      "liquid_links": 20,
+      "changes": [
+        {
+          "before": "Correo electrónico está disponible en Enterprise.",
+          "after": "Correo electrónico está disponible en Pro y Enterprise."
+        },
+        {
+          "before": "- Compartir documentos, imágenes y otros archivos compatibles.",
+          "after": "- Compartir imágenes e información, con links a documentos cuando haga falta."
+        },
+        {
+          "before": "El Inbox ofrece un destino de correo electrónico para los clientes que tienen una dirección de correo cuando el negocio cuenta con un remitente de correo activo.",
+          "after": "El menú de destino del Inbox puede mostrar **Email** antes de que el envío esté listo. Para enviar necesitas una dirección en el perfil del cliente, acceso al canal y un remitente activo; ver la opción no confirma esos requisitos."
+        },
+        {
+          "before": "4. Busca el grupo **Correo electrónico**.",
+          "after": "4. Busca la opción **Email**."
+        },
+        {
+          "before": "6. Escribe tu mensaje. Usa párrafos claros, agrega los links necesarios y adjunta archivos compatibles cuando haga falta.",
+          "after": "6. Escribe el **Asunto** y prepara el cuerpo en el editor de correo. Organiza el contenido en bloques de texto y agrega imágenes o acciones cuando ayuden al cliente."
+        },
+        {
+          "before": "7. Comprueba que Correo electrónico esté seleccionado antes de enviar, especialmente si antes estabas respondiendo por otro canal.",
+          "after": "7. Abre **Vista previa** para revisar el diseño en escritorio y móvil. Comprueba el destinatario, el asunto, el texto y los links antes de enviar, especialmente si antes estabas respondiendo por otro canal."
+        },
+        {
+          "before": "Seleccionar una dirección de correo envía el mensaje a ese destino. No envía copias a todas las direcciones del perfil.",
+          "after": "Al enviar, se usa únicamente la dirección seleccionada. No se envían copias a todas las direcciones del perfil."
+        },
+        {
+          "before": "Si falta el grupo Correo electrónico, revisa la dirección del perfil y la activación del remitente antes de intentar enviar. Un dominio pendiente de verificación no ofrece un canal de envío activo.",
+          "after": "Si no puedes enviar por Email, revisa la dirección del perfil, el acceso de tu plan y la activación del remitente. Un dominio pendiente de verificación no ofrece un canal de envío activo, aunque el menú permita explorar la opción Email."
+        },
+        {
+          "before": "Hellotext presenta el mensaje como un correo con el nombre del negocio, el cuerpo del mensaje y un pie que muestra el nombre y la dirección del remitente. También incluye una versión de texto sin formato para las aplicaciones de correo que la utilizan.",
+          "after": "Hellotext prepara el correo a partir del diseño que editaste. La apariencia elegida aporta la marca y el pie del mensaje; el nombre y la dirección del remitente provienen del canal de correo. También se incluye una versión de texto sin formato para las aplicaciones de correo que la utilizan."
+        },
+        {
+          "before": "El asunto actual del correo usa el nombre del negocio. El editor del Inbox no ofrece un campo de asunto separado para cada mensaje. El nombre del remitente proviene de su integración; no cambia automáticamente al nombre de la persona del equipo que hizo clic en enviar.",
+          "after": "Usa **Asunto** para escribir el título del correo. Es independiente del cuerpo y del nombre del remitente; este último no cambia automáticamente al nombre de la persona del equipo que hizo clic en enviar."
+        },
+        {
+          "before": "El cuerpo usa el texto y los saltos de párrafo de tu mensaje. No dependas de que los estilos copiados, el HTML personalizado o los controles interactivos de otro canal se vean exactamente igual en el correo. Los archivos se entregan como adjuntos y la aplicación de correo del cliente controla cómo se previsualizan o descargan.",
+          "after": "El cuerpo conserva los bloques del diseño, como texto, imágenes y botones. Las imágenes que agregas al diseño aparecen dentro del correo; no se ofrecen automáticamente como archivos adjuntos descargables. No dependas de que los estilos copiados o los controles de otro canal se vean exactamente igual."
+        },
+        {
+          "before": "El diseño se adapta a pantallas más pequeñas, pero distintas aplicaciones de correo pueden mostrar el mismo mensaje de manera diferente. Revisa un mensaje recibido real para evaluar la apariencia, los saltos de línea y los adjuntos.",
+          "after": "Usa **Vista previa** para revisar el borrador sin enviarlo y alterna entre escritorio y móvil. Distintas aplicaciones de correo pueden mostrar el mismo diseño de manera diferente; una prueba recibida te permite comprobar la apariencia final, los saltos de línea y los links."
+        },
+        {
+          "before": "El menú de destino elige el destinatario. El remitente proviene del canal de correo electrónico y el asunto actual proviene del nombre del negocio.",
+          "after": "El menú de destino elige el destinatario. El remitente proviene del canal de correo electrónico; el asunto se escribe en **Asunto**. Revisa ese campo antes de enviar, también cuando respondes a un correo anterior."
+        },
+        {
+          "before": "corrige el destino o el contenido cuando corresponda y comprueba el tamaño total de los adjuntos antes de volver a intentarlo.",
+          "after": "corrige el destino o el contenido cuando corresponda y reduce las imágenes o simplifica el diseño si el tamaño impide el envío."
+        },
+        {
+          "before": "Revisa el tipo y el tamaño de archivo aceptados, confirma que la carga haya terminado y prueba una exportación compatible más pequeña cuando sea necesario. La apariencia del archivo en la aplicación de correo del cliente puede diferir de su vista previa en Hellotext.",
+          "after": "En el editor de correo, agrega las imágenes mediante sus bloques de imagen. Comprueba que sean PNG, JPEG, GIF o WebP de hasta 5 MB y espera a que termine la carga. Una imagen del diseño se muestra dentro del correo; su apariencia puede variar entre aplicaciones."
+        },
+        {
+          "before": "3. Seleccionar esa dirección envíe a través de Correo electrónico.",
+          "after": "3. El destino seleccionado sea Email y muestre la dirección correcta."
+        },
+        {
+          "before": "4. El mensaje recibido muestre el remitente, el nombre del negocio, el texto y los adjuntos esperados.",
+          "after": "4. El mensaje de prueba recibido muestre el remitente, el asunto, el diseño, las imágenes y los links esperados."
+        },
+        {
+          "section": "## Longitud del texto y archivos adjuntos",
+          "before": "\nEl correo electrónico permite textos más largos que una respuesta breve de chat, pero el editor sigue aplicando límites:\n\n| Elemento | Límite o comportamiento |\n| --- | --- |\n| **Texto del mensaje** | Hasta 100.000 caracteres en el editor de correo electrónico. |\n| **Una imagen cargada** | Hasta 25 MB por archivo. |\n| **Un documento cargado** | Hasta 25 MB por archivo. |\n| **Un archivo de audio o video cargado** | Hasta 25 MB por archivo. |\n| **Varios adjuntos** | Cada archivo debe ser aceptado al cargarlo. El correo completo también debe respetar los límites de tamaño de mensaje de los servicios de envío y recepción. |\n\nQue la carga de un archivo se acepte no garantiza que el servicio de correo de cada destinatario acepte el mensaje completo. Varios archivos grandes pueden hacer que el correo sea demasiado pesado, aunque cada archivo esté permitido por separado. Usa archivos más pequeños o comparte un link de descarga adecuado cuando no sea necesario incluir el archivo completo en el mensaje.\n\nLos tipos de archivo compatibles incluyen:\n\n- **Imágenes:** JPEG, PNG, GIF, WebP, AVIF, HEIC, HEIF, BMP, TIFF y SVG.\n- **Documentos:** PDF, Word, Excel, PowerPoint, archivos OpenDocument, RTF, texto sin formato y CSV.\n- **Audio:** archivos compatibles AAC, audio MP4, MP3, AMR, Ogg, Opus, WAV, FLAC y audio WebM.\n- **Video:** archivos compatibles MP4, MPEG, 3GP, QuickTime, WebM y AVI.\n- **Otros archivos:** archivos compatibles ZIP, Gzip, EPUB, JSON, XML, HTML, de calendario y de contactos.\n\nElige un tipo de archivo compatible y mantén cada archivo dentro del límite de tamaño. Si se rechaza un archivo, usa una exportación compatible o comparte un link adecuado. Cambiar solo la extensión del nombre no convierte el archivo.\n\nUsa el control de adjuntos del editor, espera a que termine la carga y confirma que los archivos correctos estén adjuntos antes de enviar. Revisa sus nombres y contenidos para enviar la versión correcta al cliente correcto.\n\n",
+          "after": "\nEl editor de correo organiza el contenido en bloques. Usa sus controles de imagen; la lista de archivos de otros canales no describe lo que puedes agregar a este diseño.\n\n| Elemento | Límite o comportamiento |\n| --- | --- |\n| **Asunto** | Hasta 998 caracteres. |\n| **Texto con formato** | Se valida por bloque; el formato también ocupa espacio. Simplifica o divide un bloque si el editor rechaza su longitud. |\n| **Bloques principales** | Hasta 30 en el diseño. |\n| **Una imagen cargada** | PNG, JPEG, GIF o WebP de hasta 5 MB. Se incorpora al cuerpo del correo. |\n| **Documentos, audio o video** | Comparte un link adecuado; el editor de correo actual no ofrece la carga general de estos archivos como adjuntos. |\n\nEl límite del texto con formato no equivale a un número fijo de caracteres para todo el correo. También se valida el tamaño conjunto del diseño. Mantén el mensaje breve y divide la información en bloques útiles, sin repetir contenido.\n\nEspera a que termine la carga de cada imagen y revisa su contenido en **Vista previa**. Que una imagen se acepte no garantiza que todos los servicios de correo acepten el mensaje completo. Usa imágenes más pequeñas cuando sea posible.\n\nPara compartir un documento o un archivo grande, agrega un link de descarga y comprueba que el cliente tenga acceso. Cambiar solo la extensión de un archivo no lo convierte a un formato compatible.\n\n"
+        }
+      ],
+      "example_sender_replacement": "support@acme.com → support@example.com (reserved domain)"
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/numbers/email-channel-fundamentals.md",
+      "before_sha256": "d275f2a5a47e7ca89c08da4697ff9303d066382ab79dbedbb6e9f0d06939e444",
+      "after_sha256": "dc82c9c4cf627826b2681d51bf80526d73f76dfd91029e6fc48828826f24f3b2",
+      "headings": 22,
+      "liquid_links": 20,
+      "changes": [
+        {
+          "before": "Email is available on Enterprise.",
+          "after": "Email is available on Pro and Enterprise."
+        },
+        {
+          "before": "- Sharing documents, images, and other supported files.",
+          "after": "- Sharing images and information, with links to documents when needed."
+        },
+        {
+          "before": "The Inbox provides an Email destination for customers with an email address when the business has an active Email sender.",
+          "after": "The Inbox destination menu can show **Email** before sending is ready. To send, you need an address on the customer profile, channel access, and an active sender; seeing the option does not confirm those requirements."
+        },
+        {
+          "before": "6. Write your message. Use clear paragraphs, add any required links, and attach supported files when needed.",
+          "after": "6. Write the **Subject** and prepare the body in the Email editor. Organize the content into text blocks, adding images or actions when they help the customer."
+        },
+        {
+          "before": "7. Check that Email is selected before sending, especially if you were previously replying over another channel.",
+          "after": "7. Open **Preview** to review the desktop and mobile layouts. Check the recipient, subject, text, and links before sending, especially if you were previously replying over another channel."
+        },
+        {
+          "before": "Selecting one email address sends to that destination. It does not send copies to every email address on the profile.",
+          "after": "When you send, only the selected address is used. No copies are sent to the other addresses on the profile."
+        },
+        {
+          "before": "If the Email group is missing, check the profile's email address and the sender's activation before trying to send. A pending domain verification does not provide an active sending channel.",
+          "after": "If you cannot send through Email, check the profile's address, your plan access, and the sender's activation. A pending domain verification does not provide an active sending channel, even if the menu lets you explore the Email option."
+        },
+        {
+          "before": "Hellotext renders the message as an email with the business name, message body, and a footer showing the sender name and email address. It also includes a plain-text version for email applications that use it.",
+          "after": "Hellotext prepares the email from the design you edited. The selected appearance supplies its branding and footer; the sender name and address come from the Email channel. A plain-text version is also included for email applications that use it."
+        },
+        {
+          "before": "The current email subject uses the business name. The Inbox composer does not provide a separate subject field for each message. The sender name comes from the sender integration; it does not automatically change to the teammate who clicked Send.",
+          "after": "Use **Subject** to write the email title. It is separate from the body and sender name; the sender name does not automatically change to the teammate who clicked Send."
+        },
+        {
+          "before": "The message body uses the text and paragraph breaks from your message. Do not rely on copied styling, custom HTML, or another channel's interactive controls to appear identically in the email. Files are delivered as email attachments, and the customer's email application controls their preview or download experience.",
+          "after": "The body retains the design's blocks, such as text, images, and buttons. Images added to the design appear within the email; they are not automatically offered as downloadable file attachments. Do not rely on copied styling or another channel's controls to appear identically."
+        },
+        {
+          "before": "The layout adapts to smaller screens, but email applications can display the same message differently. Check an actual received message when evaluating appearance, line breaks, and attachments.",
+          "after": "Use **Preview** to review the unsent draft and switch between desktop and mobile layouts. Email applications can display the same design differently; a received test message lets you check the final appearance, line breaks, and links."
+        },
+        {
+          "before": "The destination menu chooses the recipient. The sender comes from the Email channel, and the current subject comes from the business name.",
+          "after": "The destination menu chooses the recipient. The sender comes from the Email channel; you write the subject in **Subject**. Check that field before sending, including when replying to an earlier email."
+        },
+        {
+          "before": "correct the destination or content when appropriate, and check the total attachment size before retrying.",
+          "after": "correct the destination or content when appropriate, and reduce images or simplify the design if its size prevents sending."
+        },
+        {
+          "before": "Check the accepted file type and size, confirm that the upload finished, and try a smaller supported export when necessary. A file's appearance in the customer's email application may differ from its preview in Hellotext.",
+          "after": "In the Email editor, add images through its image blocks. Check that they are PNG, JPEG, GIF, or WebP files up to 5 MB and wait for the upload to finish. A design image appears within the email; its appearance can vary between email applications."
+        },
+        {
+          "before": "3. Selecting that address sends through Email.",
+          "after": "3. The selected destination is Email and shows the correct address."
+        },
+        {
+          "before": "4. The received message shows the expected sender, business name, text, and attachments.",
+          "after": "4. The received test message shows the expected sender, subject, design, images, and links."
+        },
+        {
+          "section": "## Text length and attachments",
+          "before": "\nEmail allows longer text than a short chat reply, but the editor still applies limits:\n\n| Item | Limit or behavior |\n| --- | --- |\n| **Message text** | Up to 100,000 characters in the Email editor. |\n| **An uploaded image** | Up to 25 MB per file. |\n| **An uploaded document** | Up to 25 MB per file. |\n| **An uploaded audio or video file** | Up to 25 MB per file. |\n| **Several attachments** | Each file must be accepted by the uploader. The complete email must also fit the sending and receiving services' message-size limits. |\n\nAn accepted upload is not a guarantee that every recipient's email service will accept the complete message. Several large files can make an email too large even when each file is individually allowed. Use smaller files or share an appropriate download link when a message does not need to carry the full file itself.\n\nSupported file types include:\n\n- **Images:** JPEG, PNG, GIF, WebP, AVIF, HEIC, HEIF, BMP, TIFF, and SVG.\n- **Documents:** PDF, Word, Excel, PowerPoint, OpenDocument files, RTF, plain text, and CSV.\n- **Audio:** supported AAC, MP4 audio, MP3, AMR, Ogg, Opus, WAV, FLAC, and WebM audio files.\n- **Video:** supported MP4, MPEG, 3GP, QuickTime, WebM, and AVI files.\n- **Other files:** supported ZIP, Gzip, EPUB, JSON, XML, HTML, calendar, and contact files.\n\nChoose a supported file type and keep each file within the size limit. If a file is rejected, use a supported export or share a suitable link. Changing only the filename extension does not convert the file.\n\nUse the attachment control in the composer, wait for the upload to finish, and confirm that the intended files are attached before sending. Review filenames and contents so you send the correct version to the correct customer.\n\n",
+          "after": "\nThe Email editor organizes content into blocks. Use its image controls; the file list for other channels does not describe what you can add to this design.\n\n| Item | Limit or behavior |\n| --- | --- |\n| **Subject** | Up to 998 characters. |\n| **Formatted text** | Validated per block; formatting also uses space. Simplify or split a block if the editor rejects its length. |\n| **Top-level blocks** | Up to 30 in the design. |\n| **An uploaded image** | PNG, JPEG, GIF, or WebP up to 5 MB. It becomes part of the email body. |\n| **Documents, audio, or video** | Share an appropriate link; the current Email editor does not offer the general file uploader for these attachments. |\n\nThe formatted-text limit is not a fixed character count for the entire email. The combined design size is also validated. Keep the message concise and split information into useful blocks without repeating content.\n\nWait for each image to finish loading and check its content in **Preview**. An accepted image does not guarantee that every email service will accept the complete message. Use smaller images when possible.\n\nTo share a document or a large file, add a download link and check that the customer has access. Changing only a filename extension does not convert the file to a supported format.\n\n"
+        }
+      ],
+      "example_sender_replacement": "support@acme.com → support@example.com (reserved domain)"
+    }
+  ],
+  "runtime_operations": 0,
+  "publication_operations": 0,
+  "limits": "Retain original headings, links, slug, stub and inventory. New subject/design/image instructions require native pixel confirmation; source proofs are recorded separately. No claim of actual delivery or provider verification."
+}

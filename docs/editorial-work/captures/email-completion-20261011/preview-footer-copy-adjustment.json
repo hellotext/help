@@ -1,0 +1,208 @@
+{
+  "schema": "email-native-preview-footer-copy-adjustment-v1",
+  "status": "applied_source_verified_independent_review_pending",
+  "at": "2026-10-11T16:33:52.867438+00:00",
+  "reason": "Observed native inline preview includes an unsubscribe label, whereas ordinary manual Inbox delivery does not automatically receive an unsubscribe URL. Explain the distinction beside the preview.",
+  "records": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/numbers/email-channel-fundamentals.md",
+      "before_sha256": "468b1665404cdb4851958932d623539eb442c30837c74f6d50e76bca2295fa61",
+      "after_sha256": "beb9cf44197a248bb49efce30f52e41ed4690294762507a9d2dc5cff0182e007",
+      "anchor": "Usa **Vista previa** para revisar el borrador sin enviarlo y alterna entre escritorio y móvil. Distintas aplicaciones de correo pueden mostrar el mismo diseño de manera diferente; una prueba recibida te permite comprobar la apariencia final, los saltos de línea y los links.",
+      "added_paragraph": "El pie de la vista previa puede mostrar **Cancelar suscripción**. En un correo manual del Inbox ese enlace no se agrega automáticamente al envío.",
+      "headings_preserved": 22,
+      "ordered_links_preserved": 20,
+      "independent_review": "pending"
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/numbers/email-channel-fundamentals.md",
+      "before_sha256": "912f2218984e3f3f2fca7ab8d7873190655e2f5b70d82a7fa752324dcc0fb073",
+      "after_sha256": "29ed9c667abcc334e4e9618a8a9dc68f4d036731b166158ef6c899678ec3a0aa",
+      "anchor": "Use **Preview** to review the unsent draft and switch between desktop and mobile layouts. Email applications can display the same design differently; a received test message lets you check the final appearance, line breaks, and links.",
+      "added_paragraph": "The preview footer may show **Unsubscribe**. That link is not automatically added when you send a manual email from the Inbox.",
+      "headings_preserved": 22,
+      "ordered_links_preserved": 20,
+      "independent_review": "pending"
+    }
+  ],
+  "historical_independent_copy_review": {
+    "path": "audit/email-completion-preparation-20261011/copy-independent-review.json",
+    "sha256": "eb546f45864d8e4e12e0dcd0c3296a617926783c617ee764d537a726e3a25dc3"
+  },
+  "patch": {
+    "path": "audit/email-help-preparation-20261011/preview-footer-copy.patch",
+    "sha256": "083a1379d072bab367263075fb82b40bca5c7515ef2f6689b2a99b97043b5afc"
+  },
+  "native_pixel_evidence": {
+    "file": "audit/email-completion-preparation-20261011/capture/sources/email-inline-preview-es-desktop.png",
+    "sha256": "ae9e9d3f21beddb2229904372173431a833acc8771fcceefa2779042dc78036e",
+    "editor_individually_viewed": true,
+    "root_review_record": {
+      "file": "email-inline-preview-es-desktop.png",
+      "sha256": "ae9e9d3f21beddb2229904372173431a833acc8771fcceefa2779042dc78036e",
+      "individually_viewed": true,
+      "status": "passed",
+      "at": "2026-10-11T16:30:39.800987+00:00",
+      "notes": "Native complete Preview dialog, desktop/mobile switch, Casa Lila brand, useful example body, unsubscribe footer and Open email control visible. No action taken or received-email claim.8px native dim backdrop provides full panel edge; Help layout remains pending. Copy must explain preview footer differs from manual outbound unsubscribe behavior."
+    },
+    "scope": "One native ES desktop Preview source; not final source admission or rendered Help acceptance."
+  },
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "compared_revision": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "source_manifest": {
+    "path": "audit/journeys-workflow-local-20261010/source-files.json",
+    "sha256": "d28b8d6b6975cc08fa885adf7157af117863987f1e5ff427ca9671a68a8a576c"
+  },
+  "scoped_compare": {
+    "path": "audit/journeys-workflow-local-20261010/scoped-currency-compare.json",
+    "sha256": "7c6e23bc24c5e0e6e03bbbf3bf18fedbdb865d4b9f8b288358c2cb5e5c19e81c"
+  },
+  "changed_path_intersection": [],
+  "source_bindings": [
+    {
+      "path": "app/components/conversation/footer_component/footer_component.html.erb",
+      "sha256": "a049195c1463646f3c7b188ba9c3ca0f5b5ea19c613ebcc37ea704e4a43fd6cf",
+      "bytes": 6113,
+      "lines": [
+        [
+          119,
+          126
+        ]
+      ]
+    },
+    {
+      "path": "app/javascript/controllers/compose/inbox_email_controller.js",
+      "sha256": "a7cd122352d10ea8e1f658c9a99ed64bb6a8d393d1f77f456a1415ca73e4f5a7",
+      "bytes": 39968,
+      "lines": [
+        [
+          659,
+          671
+        ]
+      ]
+    },
+    {
+      "path": "app/views/campaign/broadcasts/_email_preview.html.erb",
+      "sha256": "a6fb99bd4762327811a2e1e63bc6e828f6c25c5e836dd6681cfbaf7128fc56c6",
+      "bytes": 3104,
+      "lines": [
+        [
+          34,
+          43
+        ]
+      ]
+    },
+    {
+      "path": "app/views/shared/_email_subscription_links.html.erb",
+      "sha256": "4463cdfda984a6899f51298fd530e29e5409dc9a58fa3ec6943fe2e6cc85ccf6",
+      "bytes": 477,
+      "lines": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "path": "app/javascript/controllers/campaign/email_preview_controller.js",
+      "sha256": "9e69a60236c6f8933d9f0473770fed56e1c13262b1ea9dd532a877f4085106f9",
+      "bytes": 114500,
+      "lines": [
+        [
+          2119,
+          2132
+        ]
+      ]
+    },
+    {
+      "path": "app/javascript/lib/email_subscription_preview.js",
+      "sha256": "c58c27e404488d4338a6e2c38592491db84c251b00155d95c8dd337408d2d0fb",
+      "bytes": 6001,
+      "lines": [
+        [
+          127,
+          148
+        ]
+      ]
+    },
+    {
+      "path": "app/integrations/ses/gateway.rb",
+      "sha256": "104a605a54ba8582dd37f5ad40b0250e91bd8b364a39e006e60b488c119c861b",
+      "bytes": 8040,
+      "lines": [
+        [
+          101,
+          118
+        ],
+        [
+          182,
+          192
+        ]
+      ]
+    },
+    {
+      "path": "app/models/mailing/rendering/source.rb",
+      "sha256": "be885326eeb89c871d78fe9d36aba063d880148b96a3f72afcbd3c5ee6e4be54",
+      "bytes": 22239,
+      "lines": [
+        [
+          32,
+          34
+        ],
+        [
+          85,
+          89
+        ]
+      ]
+    },
+    {
+      "path": "app/models/mailing/renderer/html.rb",
+      "sha256": "040f431815a214183bffccf6a9c6a3222bd3628198460e4011060b80af82221f",
+      "bytes": 27001,
+      "lines": [
+        [
+          160,
+          180
+        ]
+      ]
+    },
+    {
+      "path": "app/models/mailing/renderer/plain_text.rb",
+      "sha256": "9955468fa0f42fcb736aab85ff2b47daff33ae4099743513f91e925b923e1bec",
+      "bytes": 5781,
+      "lines": [
+        [
+          25,
+          35
+        ]
+      ]
+    },
+    {
+      "path": "app/mailers/ses/mailer.rb",
+      "sha256": "eda3bf5bddf5680a5fa80ebdc301b213eb5ccca5d5c6f85a6abec8aba1d6709a",
+      "bytes": 2822,
+      "lines": [
+        [
+          20,
+          40
+        ],
+        [
+          59,
+          67
+        ]
+      ]
+    }
+  ],
+  "findings": [],
+  "limits": [
+    "Delivery behavior is established from the current source contract; no email was sent or received.",
+    "The historical independent review remains unchanged; new copy hashes require independent review.",
+    "Native sources, exact source mappings, final root admission and all rendered Help QA remain pending."
+  ],
+  "stub_sha256": "6b73b939bcabee35bb67b996de6270cbad210ceaaf1128c80c00e315d06f292e",
+  "inventory_sha256": "28bb3c6450425e0c7a48c63e29eead7eed61d7a6c70e35e3e267510692024192",
+  "runtime_operations": 0,
+  "external_writes": false
+}

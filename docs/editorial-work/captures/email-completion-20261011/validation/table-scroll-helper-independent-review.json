@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "at": "2026-10-11T17:12:49.873124+00:00",
+  "reviewer": "runtime_isolation",
+  "scope": "Complete static read of supplemental helper and exact delta against Customize; syntax check only. No browser/HTTP/service execution.",
+  "helper": {
+    "path": "audit/email-help-qa-20261011/review-table-scroll.mjs",
+    "sha256": "885941434e87f57dc34694150d0f0329d6ad74f2a8d7c58d282ca34157d37825"
+  },
+  "delta": {
+    "path": "audit/email-help-qa-20261011/table-scroll-helper-delta.patch",
+    "sha256": "fc68ce3b1acb726c35d4eed74a1d37ad87a2f33134bb5abb0f4de0965e2993a8"
+  },
+  "checks": {
+    "exact_delta_verified": true,
+    "fetch_runtime_network_handler_equal_to_email_main": true,
+    "node_syntax_passed": true,
+    "scope_and_checkpoint_hash_pins": true,
+    "single_owned_chrome_profile_and_pid": true,
+    "only_loopback_get_head_browser_allowed": true,
+    "table_native_scroll_only_no_markup_css_or_pixel_changes": true,
+    "source_and_built_bytes_rechecked_before_after": true,
+    "png_outputs_exclusive_and_existing_outputs_preserved": true,
+    "unexplained_runtime_interception_load_failures_rejected": true
+  },
+  "findings": [],
+  "execution_scope": "Publisher may execute the bounded supplement under the root authorization already communicated; this review does not assert execution or pixel acceptance."
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "email-preview-footer-independent-copy-review-v1",
+  "status": "passed",
+  "at": "2026-10-11T16:37:07.941093+00:00",
+  "records": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/numbers/email-channel-fundamentals.md",
+      "after_sha256": "beb9cf44197a248bb49efce30f52e41ed4690294762507a9d2dc5cff0182e007",
+      "status": "passed"
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/numbers/email-channel-fundamentals.md",
+      "after_sha256": "29ed9c667abcc334e4e9618a8a9dc68f4d036731b166158ef6c899678ec3a0aa",
+      "status": "passed"
+    }
+  ],
+  "historical_full_copy_review": {
+    "path": "audit/email-completion-preparation-20261011/copy-independent-review.json",
+    "sha256": "eb546f45864d8e4e12e0dcd0c3296a617926783c617ee764d537a726e3a25dc3"
+  },
+  "adjustment": {
+    "path": "audit/email-help-preparation-20261011/preview-footer-copy-adjustment.json",
+    "sha256": "b3684ac03a5a55521c5a3d7b83ffc027c8563d8571c89b2c34de55a3f3e4a861"
+  },
+  "source_bindings": [
+    {
+      "path": "app/components/conversation/footer_component/footer_component.html.erb",
+      "sha256": "a049195c1463646f3c7b188ba9c3ca0f5b5ea19c613ebcc37ea704e4a43fd6cf",
+      "bytes": 6113,
+      "lines": [
+        [
+          119,
+          126
+        ]
+      ]
+    },
+    {
+      "path": "app/javascript/controllers/compose/inbox_email_controller.js",
+      "sha256": "a7cd122352d10ea8e1f658c9a99ed64bb6a8d393d1f77f456a1415ca73e4f5a7",
+      "bytes": 39968,
+      "lines": [
+        [
+          659,
+          671
+        ]
+      ]
+    },
+    {
+      "path": "app/views/campaign/broadcasts/_email_preview.html.erb",
+      "sha256": "a6fb99bd4762327811a2e1e63bc6e828f6c25c5e836dd6681cfbaf7128fc56c6",
+      "bytes": 3104,
+      "lines": [
+        [
+          34,
+          43
+        ]
+      ]
+    },
+    {
+      "path": "app/views/shared/_email_subscription_links.html.erb",
+      "sha256": "4463cdfda984a6899f51298fd530e29e5409dc9a58fa3ec6943fe2e6cc85ccf6",
+      "bytes": 477,
+      "lines": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "path": "app/javascript/controllers/campaign/email_preview_controller.js",
+      "sha256": "9e69a60236c6f8933d9f0473770fed56e1c13262b1ea9dd532a877f4085106f9",
+      "bytes": 114500,
+      "lines": [
+        [
+          2119,
+          2132
+        ]
+      ]
+    },
+    {
+      "path": "app/javascript/lib/email_subscription_preview.js",
+      "sha256": "c58c27e404488d4338a6e2c38592491db84c251b00155d95c8dd337408d2d0fb",
+      "bytes": 6001,
+      "lines": [
+        [
+          127,
+          148
+        ]
+      ]
+    },
+    {
+      "path": "app/integrations/ses/gateway.rb",
+      "sha256": "104a605a54ba8582dd37f5ad40b0250e91bd8b364a39e006e60b488c119c861b",
+      "bytes": 8040,
+      "lines": [
+        [
+          101,
+          118
+        ],
+        [
+          182,
+          192
+        ]
+      ]
+    },
+    {
+      "path": "app/models/mailing/rendering/source.rb",
+      "sha256": "be885326eeb89c871d78fe9d36aba063d880148b96a3f72afcbd3c5ee6e4be54",
+      "bytes": 22239,
+      "lines": [
+        [
+          32,
+          34
+        ],
+        [
+          85,
+          89
+        ]
+      ]
+    },
+    {
+      "path": "app/models/mailing/renderer/html.rb",
+      "sha256": "040f431815a214183bffccf6a9c6a3222bd3628198460e4011060b80af82221f",
+      "bytes": 27001,
+      "lines": [
+        [
+          160,
+          180
+        ]
+      ]
+    },
+    {
+      "path": "app/models/mailing/renderer/plain_text.rb",
+      "sha256": "9955468fa0f42fcb736aab85ff2b47daff33ae4099743513f91e925b923e1bec",
+      "bytes": 5781,
+      "lines": [
+        [
+          25,
+          35
+        ]
+      ]
+    },
+    {
+      "path": "app/mailers/ses/mailer.rb",
+      "sha256": "eda3bf5bddf5680a5fa80ebdc301b213eb5ccca5d5c6f85a6abec8aba1d6709a",
+      "bytes": 2822,
+      "lines": [
+        [
+          20,
+          40
+        ],
+        [
+          59,
+          67
+        ]
+      ]
+    }
+  ],
+  "native_pixel_evidence": "audit/email-completion-preparation-20261011/capture/sources/email-inline-preview-es-desktop.png",
+  "native_pixel_sha256": "ae9e9d3f21beddb2229904372173431a833acc8771fcceefa2779042dc78036e",
+  "checks": {
+    "exact_added_paragraph_only": true,
+    "prior_article_bytes_restored_by_reverse_delta": true,
+    "eleven_source_bytes_rehashed_against_immutable_manifest": true,
+    "source_ranges_read": true,
+    "preview_shared_footer_source_verified": true,
+    "gateway_manual_message_unsubscribe_url_nil": true,
+    "renderers_require_url_or_preview_for_unsubscribe": true,
+    "native_es_preview_individually_viewed": true
+  },
+  "findings": [],
+  "limits": [
+    "Copy/source review only; no delivery, provider or mailbox test.",
+    "Original full independent review remains immutable; this receipt binds only the precise new paragraph and current article hashes.",
+    "Rendered Help QA and root source admission remain separate."
+  ],
+  "help_edits": 0,
+  "external_writes": 0
+}

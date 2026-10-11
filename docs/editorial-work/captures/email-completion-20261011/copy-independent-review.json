@@ -1,0 +1,210 @@
+{
+  "schema": "email-copy-independent-review-v1",
+  "status": "passed",
+  "scope": "Complete bilingual Fundamentals prose and its current source corrections only; not source-pixel admission, runtime verification, Help QA or publication.",
+  "at": "2026-10-11T15:59:43.033029+00:00",
+  "reviewer": "assignment_capture",
+  "records": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/numbers/email-channel-fundamentals.md",
+      "after_sha256": "468b1665404cdb4851958932d623539eb442c30837c74f6d50e76bca2295fa61",
+      "status": "passed",
+      "complete_article_read": true,
+      "headings_preserved": 22,
+      "liquid_links_preserved": 20,
+      "native_pixel_confirmation_pending": true
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/numbers/email-channel-fundamentals.md",
+      "after_sha256": "912f2218984e3f3f2fca7ab8d7873190655e2f5b70d82a7fa752324dcc0fb073",
+      "status": "passed",
+      "complete_article_read": true,
+      "headings_preserved": 22,
+      "liquid_links_preserved": 20,
+      "native_pixel_confirmation_pending": true
+    }
+  ],
+  "bindings": {
+    "copy-adjustment.json": "9be905fbc24d623ffd431ce4101b8b10eaef012e548b3b76d13fa38a45849172",
+    "reply-copy-adjustment.json": "d453e0a08989ebc685963232832ab70c41a7c23e58c558defee1737f59d03c6b",
+    "copy-source-register.json": "792de8b4b23ee4b9c82a0f4cd121b2fbd448c4d3b72192facc786058922c58af"
+  },
+  "source_bindings_rehashed": [
+    {
+      "path": "app/components/compose/destination_component.html.erb",
+      "sha256": "596a8e4889cb85fe4acc0591a0c6ab150a9d1800803b54ca2c8346acb35eb3eb",
+      "bytes": 12267
+    },
+    {
+      "path": "app/components/compose/email_design_component.html.erb",
+      "sha256": "c8b80169649a191e7bae0f03d8a6e8a2b923883737c6bad1d4ecbaf6aca78064",
+      "bytes": 37084
+    },
+    {
+      "path": "app/components/compose/email_preview_devices_component.html.erb",
+      "sha256": "6a95d7fdd03f0f342314a068775bca8c4156dd9212561a35978e28dd3c6146f0",
+      "bytes": 530
+    },
+    {
+      "path": "app/components/compose/email_subject_component.html.erb",
+      "sha256": "421c2aa921f93e79a8f013883db0db5eb4d0dff5357c1013e2285756c9f4ddf1",
+      "bytes": 530
+    },
+    {
+      "path": "app/components/conversation/footer_component.rb",
+      "sha256": "43e80de4cb6c5b957b7c60654b943ca6ee22e4235163c27c27eeb4f919a7662c",
+      "bytes": 5021
+    },
+    {
+      "path": "app/controllers/conversation/email_designers_controller.rb",
+      "sha256": "8f335974cb20c0c110a820f9b2856709abc096d1c2c3447573b372642346d562",
+      "bytes": 517
+    },
+    {
+      "path": "app/helpers/email_compose_helper.rb",
+      "sha256": "8a5fdeedacc5c36a63b2f75429df574a5def8df54ff83230b2b5d4e00e246697",
+      "bytes": 356
+    },
+    {
+      "path": "app/javascript/controllers/compose/email_design_controller.js",
+      "sha256": "72bd388d9d041fbe95830ce6c78c30ccd5263eefa77857de474badbc14228aee",
+      "bytes": 266777
+    },
+    {
+      "path": "app/javascript/controllers/compose/inbox_email_controller.js",
+      "sha256": "a7cd122352d10ea8e1f658c9a99ed64bb6a8d393d1f77f456a1415ca73e4f5a7",
+      "bytes": 39968
+    },
+    {
+      "path": "app/mailers/ses/mailer.rb",
+      "sha256": "eda3bf5bddf5680a5fa80ebdc301b213eb5ccca5d5c6f85a6abec8aba1d6709a",
+      "bytes": 2822
+    },
+    {
+      "path": "app/models/mailing/blocks/text.rb",
+      "sha256": "223e3ffcf09aea8b81a47a9566ba8bd24721fb386e01525559c946e7108d5c2b",
+      "bytes": 3941
+    },
+    {
+      "path": "app/models/mailing/document.rb",
+      "sha256": "aafcb5c130bcf6d956166db173e2371a9bdf54a16ddf6124c79428a2e0ef5dd1",
+      "bytes": 12944
+    },
+    {
+      "path": "app/models/mailing/rendering/source.rb",
+      "sha256": "be885326eeb89c871d78fe9d36aba063d880148b96a3f72afcbd3c5ee6e4be54",
+      "bytes": 22239
+    },
+    {
+      "path": "app/models/message/email_content.rb",
+      "sha256": "a6541c28e23f3bf2bd3864318b90d9645fede8c910c18175ca979c838dcb59cf",
+      "bytes": 4808
+    },
+    {
+      "path": "config/locales/views/compose/email_design/es.yml",
+      "sha256": "375fd7ad42095569e3410dda8dca093be25eca0a46c17175c710da4179a4b331",
+      "bytes": 8092
+    },
+    {
+      "path": "config/locales/views/compose/es.yml",
+      "sha256": "17d6c64baa6442fc642fd1ee7323decf8ad4ca33088449c25b8224c7dfe4c845",
+      "bytes": 3743
+    },
+    {
+      "path": "db/seeds/packages.rb",
+      "sha256": "47ea3e4feb70a889ba3f89c51bf3261c42953e0dd0aec71550dde28858808e0d",
+      "bytes": 20782
+    },
+    {
+      "path": "app/components/message/email_content_component.rb",
+      "sha256": "5afe8c4df8931e7f14aced00407acb675f9323b5b323aab56616b1832b97fd68",
+      "bytes": 1481
+    },
+    {
+      "path": "app/controllers/landing/unsubscriptions_controller.rb",
+      "sha256": "71f0d076d2e62ef6cca7558cea3057fba28be94327ccbffa6416934f7bbbcab8",
+      "bytes": 1778
+    },
+    {
+      "path": "app/integrations/ses/gateway.rb",
+      "sha256": "104a605a54ba8582dd37f5ad40b0250e91bd8b364a39e006e60b488c119c861b",
+      "bytes": 8040
+    },
+    {
+      "path": "app/integrations/ses/mail/complained.rb",
+      "sha256": "560af53358f7fcddb6a8998e9b0a4180c58128ca2de6a862eaaf94230a8598b7",
+      "bytes": 349
+    },
+    {
+      "path": "app/integrations/ses/mail/content.rb",
+      "sha256": "4a23fc1407921e5fd9c7e1a21c3b60541d52e329e44fc944f67f3c9453f85bd1",
+      "bytes": 1856
+    },
+    {
+      "path": "app/integrations/ses/mail/delivered.rb",
+      "sha256": "272d2253343a2e2906f6bcd8811633d4abdda2500052057fde8b026731ca3409",
+      "bytes": 137
+    },
+    {
+      "path": "app/integrations/ses/mail/failed.rb",
+      "sha256": "f2f162a4b27d5c2a2693fdaa40bb3e86ff0e3e256b5f0e5b988d8e53b141f17a",
+      "bytes": 155
+    },
+    {
+      "path": "app/integrations/ses/mail/received.rb",
+      "sha256": "efef5b72a1757805a79a959f5471917b966fd2a770ec237828935abefeebef65",
+      "bytes": 5176
+    },
+    {
+      "path": "app/integrations/ses/mail/seen.rb",
+      "sha256": "a0b8cdd39933f005a69a21ff276e568724f1ca5b666f48293989c0ba98c4d1f0",
+      "bytes": 139
+    },
+    {
+      "path": "app/jobs/contact/unsubscribe_from_email_job.rb",
+      "sha256": "f117e0c0e83d49ccfdd6653945fad48197f14a858313667d72475b6725619d72",
+      "bytes": 264
+    },
+    {
+      "path": "app/views/landing/unsubscriptions/show.html.erb",
+      "sha256": "71264f9e0c55832f9dad76d53011e9462320012c58488a6768cfaa78c9a9ff82",
+      "bytes": 1871
+    },
+    {
+      "path": "app/views/messages/_email_content.html.erb",
+      "sha256": "4ec07d336ca71123bc1df1cd2904167a4ad5a758704c047f075099f2bce92ecf",
+      "bytes": 567
+    }
+  ],
+  "checks": {
+    "source_files_rehashed": 29,
+    "all_match_closed_source_manifest": true,
+    "headings_and_liquid_links_unchanged": true,
+    "stub_and_csv_byteexact_head": true,
+    "article_diff_check": "passed",
+    "source_current_scope": "Root source registers establish no overlap with 16 changed paths 8e→afac; no full app/assets parity asserted."
+  },
+  "reviewed_corrections": [
+    "Pro/Enterprise editor access and menu visibility separate from route readiness",
+    "Separate Subject and authored body/preview",
+    "998-character Subject; 30 root blocks; formatted-text bytes are not a global character limit",
+    "PNG/JPEG/GIF/WebP image blocks, native 5MB label for 5×1024×1024 bytes; generic file attachments excluded from this editor",
+    "Image placement in document, appearance branding/footer, MIME plain-text alternative",
+    "Supported sanitized incoming HTML tables/images/lists and conditional quoted-reply grouping",
+    "Original address/token reply matching, unsubscribe confirmation and separate delivery/open semantics retained",
+    "Reserved example.com sender; no local fixture presented as provider verification or actual delivery"
+  ],
+  "findings": [],
+  "pending": [
+    "Real native UI labels and every new source pixel review",
+    "Runtime fixture and source closure",
+    "Complete Help responsive QA/build/link checks and root publication gates"
+  ],
+  "writes": {
+    "help_files": 0,
+    "report_files": 1
+  },
+  "runtime_or_provider_operations": 0
+}

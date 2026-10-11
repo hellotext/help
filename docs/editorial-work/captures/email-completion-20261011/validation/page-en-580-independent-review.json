@@ -1,0 +1,168 @@
+{
+  "schema": "email-help-independent-pixel-review-v1",
+  "status": "passed",
+  "at": "2026-10-11T17:07:17.296521+00:00",
+  "reviewer": "assignment_capture",
+  "locale": "en",
+  "width": 580,
+  "packet": {
+    "path": "docs/editorial-work/captures/email-completion-20261011/validation/page-review/views/en-580.json",
+    "sha256": "8750931c25e7d61dfa5ac740abaf5cc12a161cc944aff4ccb4f9c0af4117e09c"
+  },
+  "checkpoint_sha256": "e0d55dce8b3a72bb6eee08d854d8a99a221a89aed9e9230f87548c8d59f1963e",
+  "source": "_i18n/en/numbers/email-channel-fundamentals.md",
+  "source_sha256": "19175d63f4cd706e2442f3081dda2455f1751a393aa5900261fb5d4d23490995",
+  "built_html": "_site/email-channel-fundamentals.html",
+  "built_html_sha256": "1d68672df4cf56cee93ba3bd6a16055a5eb7437bfeac6672f1091ee1654ab85f",
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 13,
+    "coverage": {
+      "from_css_y": 0,
+      "through_css_y": 13643.5,
+      "document_height_css": 13643,
+      "gap_free": true,
+      "header_and_footer_seen": true
+    },
+    "notes": "Every native segment inspected individually. All three tables, complete article, related guides and footer are visible at 580px with no horizontal loss."
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 3,
+    "notes": "All three actual mobile source variants inspected individually in their Help frames. Labels and required controls remain legible; no clipping of the target content."
+  },
+  "files": [
+    {
+      "file": "email-en-580-full-part1.png",
+      "sha256": "d557376b62c95718cc7cd1589192192224c8421df7163e250654b0ef3a578cef",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "Responsive header, breadcrumbs, wrapped title, introduction and Pro/Enterprise note readable."
+    },
+    {
+      "file": "email-en-580-full-part2.png",
+      "sha256": "ad4517811fb2a9d693c6253cf75d05560a72d15d39aace604f7d8b40d6eed316",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "Prerequisites and channel scope fit the responsive column."
+    },
+    {
+      "file": "email-en-580-full-part3.png",
+      "sha256": "66397a6d4a5fff03fc1839c6609da177becec2a69e01f02437bd3212a7f10654",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "Three identity table columns and all rows visible; mobile recipient source shows both full addresses."
+    },
+    {
+      "file": "email-en-580-full-part4.png",
+      "sha256": "c4fbbca4a96dd89ed79bf021f2b3e6bdaa2bba312ce5c0daaf2254dfedfe30e6",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "Eight sending steps and native composer subject/body remain legible."
+    },
+    {
+      "file": "email-en-580-full-part5.png",
+      "sha256": "497c4454c19ed3ab07c1806c95d4eba0bb15cfe0132d4d005a23958078e6e058",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "Recipient conditions and received-design explanation including preview unsubscribe caveat readable."
+    },
+    {
+      "file": "email-en-580-full-part6.png",
+      "sha256": "9c50658f7a5a3ec37d09d8125bb883d609ef3644ac0c0eec78746d6c7619e964",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "Entire mobile preview and links/personalization readable; text-limit section starts."
+    },
+    {
+      "file": "email-en-580-full-part7.png",
+      "sha256": "4881d8d14c245e9fdfaa7af884ecd1dccc05e4658a02a3c3a2304a42af5da486",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "Five-row limits table complete; reply instructions readable."
+    },
+    {
+      "file": "email-en-580-full-part8.png",
+      "sha256": "70d47d8975b4cc4a7a33b9266e5be2cd05ee2cedf90c8aa1da40384ab5f4f93a",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "Received HTML, alternate-address replies, mailbox distinction and ownership fit."
+    },
+    {
+      "file": "email-en-580-full-part9.png",
+      "sha256": "a68ed2177e3688c91ee64dbf3d350a9497ddd8ed8883265d08892e901bb621e2",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "Subscription and unsubscribe guidance, highlighted note and start of status table readable."
+    },
+    {
+      "file": "email-en-580-full-part10.png",
+      "sha256": "999da8e52ccdddc8c085a63695639000ffc1e602744400f92d034cc4d7aa839e",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "All six status rows complete; delivery interpretation and missing-email troubleshooting fit."
+    },
+    {
+      "file": "email-en-580-full-part11.png",
+      "sha256": "53a263a16986153f17ea8c685442f097bf8308ff60676d14ca72ee364d6865ca",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "Unexpected sender/subject, missing delivery/reply and attachment guidance readable."
+    },
+    {
+      "file": "email-en-580-full-part12.png",
+      "sha256": "ae5580d263c2f69dd8ce9fc7978870d7961d03c6cfb97a7f0056ebcdae7effd6",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "Checklist, eight related links and feedback section readable."
+    },
+    {
+      "file": "email-en-580-full-part13.png",
+      "sha256": "a5b0a86079e5d2942e586ed916371d5ae5aac6c898209c62586c580e98627a62",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "complete_page_segment",
+      "notes": "Overlapping checklist/related guides through feedback, Contact Us, policy links and language footer complete."
+    },
+    {
+      "file": "email-en-580-email-recipient-menu.png",
+      "sha256": "753213cf9436b7eabd4374286622c4416b21b05818e1d3359d98c4894de9c66d",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "figure_detail",
+      "notes": "Both complete fictional addresses and Email trigger readable at the actual 580px Help viewport. Native lower submenu overlays the background placeholder without hiding the target labels."
+    },
+    {
+      "file": "email-en-580-email-compose.png",
+      "sha256": "b3d1413b002e5f4b546f3c006989c2d9fb1bf15fa7d604c038517d18ee05c0e7",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "figure_detail",
+      "notes": "Subject, draft body and complete native composer bounds are readable. Original URL line wrap and native toolbar overflow are preserved; preview eye remains visible."
+    },
+    {
+      "file": "email-en-580-email-inline-preview.png",
+      "sha256": "50573416d71d5edc06738b8673995c473774ee2e3d4280de28cd5cdb483cca4f",
+      "status": "passed",
+      "visually_inspected": true,
+      "kind": "figure_detail",
+      "notes": "Mobile device active; dialog header, close control, two device icons, brand, draft text, Unsubscribe and Open email are complete and legible. Native backdrop margin retained."
+    }
+  ],
+  "findings": [],
+  "limits": [
+    "This is visual acceptance of frozen English Help at 580px only. The 390px view remains a separate review."
+  ]
+}

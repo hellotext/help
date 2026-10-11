@@ -1,0 +1,87 @@
+{
+  "schema": "email-capture-provenance-v1",
+  "status": "closed",
+  "at": "2026-10-11T16:54:37.754920+00:00",
+  "manifest": {
+    "file": "source-manifest.json",
+    "sha256": "619e0dade81ea362bcd56ff327953e20288972ecefd16c9f46b37f99d788903b"
+  },
+  "source_currency": {
+    "file": "source-currency-final.json",
+    "sha256": "60781a1cc38a1c00b3ff63059f7bd66940dedf557608d00dc3795c886b6ef1bb"
+  },
+  "native_ui_proof": {
+    "file": "native-ui-proof.json",
+    "sha256": "f0a778dfacaff42282947e6e819c8a1f3c5d03c2eed4d7e3d016e712ac9eb102"
+  },
+  "runtime_closure": {
+    "file": "runtime-completion-summary.json",
+    "sha256": "35d14eb16c31a338bb6df30599e433bfca9e86a2a70fb9d3bce8fc26e03f51e4"
+  },
+  "capture": "Original CDP PNG capture of real isolated Rails UI at DPR2 and capture scale2, native P3, no resampling or editing. Private clip arrays were copied exactly into public named geometry objects.",
+  "isolation": "Chrome internal sandbox disabled for the documented macOS nested-sandbox incompatibility. External sandbox-exec restrictions, exact read-only proxy and native app guard remained active. No double-sandbox claim.",
+  "css_limit": "Existing immutable local asset build uses the documented cssMinify=false/Node workaround. All 2,417 indexed assets and favicon were rehashed unchanged. Full production CSS or pixel parity is not asserted.",
+  "scope": "Fictional local addresses and synthetic sender only. Messageable reflects local reachability, not production consent, a verified external sender or actual delivery.",
+  "recovery_history": [
+    {
+      "event": "Python empty query parsing in offline route resolver",
+      "effect": "Stopped before HTTP; minimal conditional fix reviewed before policy resolution."
+    },
+    {
+      "event": "Initial controller stdin transport unavailable",
+      "effect": "Blank controller terminated after identity verification; same owned Chrome/proxy continued under a new TTY controller."
+    },
+    {
+      "event": "Native TRIX empty contenteditable attribute differed from literal selector",
+      "effect": "Selector guard rejected before body input; unsaved subject discarded on blank navigation. Minimal selector fix and root ticket rebind preserved."
+    },
+    {
+      "event": "Native desktop crop candidates improved",
+      "effect": "Two original candidate PNGs and sidecars retained privately; final menu uses wider native viewport and final compose excludes an unrelated next control. No pixel alteration."
+    },
+    {
+      "event": "Process-title and blank-state shape prechecks",
+      "effect": "Rejected before signals; actual native process title/open owned log and exact about:blank href/ready object verified before authorized shutdown."
+    },
+    {
+      "event": "Curated ICC and provenance shape",
+      "effect": "Serializer copies actual full ICC profile and literal sidecar DPR/scale/source/transform fields; no image changes."
+    }
+  ],
+  "helper_bindings": [
+    {
+      "role": "initial preparation freeze",
+      "sha256": "2a913eeb2d7f1723a11500932bb6139cfc3fba3a67725f785328774b7de6785f",
+      "retained_privately": true
+    },
+    {
+      "role": "final native input policy",
+      "sha256": "81317feeb42dd7291630afd2b927a43087256b815fe3ce04efe5a7c0b6d0eb88",
+      "retained_privately": true
+    },
+    {
+      "role": "selector correction",
+      "sha256": "4ed4bd1025769cd8423eabec4a8bf8c0cd69801f420a5d3f60f40f862dd06bf2",
+      "retained_privately": true
+    },
+    {
+      "role": "minimal selector delta",
+      "sha256": "af1a72f22c02e272bf38a23921e95a7cc4a90aae7c44581f83cc8e1f755ef7f5",
+      "retained_privately": true
+    },
+    {
+      "role": "manifest curator",
+      "sha256": "b442254bd81b00b41ff9a2ad7c94d005a975c146836983e3b5e9646f0f146793",
+      "retained_privately": true
+    }
+  ],
+  "launch_review_sha256": "8c5e28fc63689a9e560e2173192a5f61b1a62ef23597784a2ef1595c0ab411d6",
+  "private_evidence_not_exported": [
+    "session cookies",
+    "raw sidecars and body text",
+    "browser profile",
+    "native routes and query journals",
+    "environment values",
+    "database row snapshots"
+  ]
+}

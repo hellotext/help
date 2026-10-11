@@ -1,0 +1,115 @@
+{
+  "schema": "email-runtime-completion-summary-v1",
+  "status": "closed_and_verified",
+  "at": "2026-10-11T16:54:37.754920+00:00",
+  "isolation": "Fresh local clone from the closed fictional Journeys baseline; providers and delivery blocked.",
+  "fixture": {
+    "new_rows": {
+      "ses_senders": 1,
+      "integrations": 1,
+      "channels": 1,
+      "contacts": 1,
+      "emails": 2,
+      "identities": 2,
+      "properties": 2,
+      "conversations": 1
+    },
+    "total_new_rows": 11,
+    "existing_row_delta": {
+      "table": "counters",
+      "field": "data.active",
+      "before": 7,
+      "after": 8
+    },
+    "native_callbacks_preserved": true,
+    "held_jobs": {
+      "Elasticsearch::IndexJob": 6,
+      "Contact::Duplicable::AssociateDuplicatesJob": 1,
+      "Segment::ApplyOnContactJob": 2,
+      "Conversation::ImportEventsJob": 1
+    },
+    "jobs_enqueued": 10,
+    "jobs_performed": 0,
+    "all_other_original_rows_unchanged": true,
+    "messages_created": 0,
+    "existing_customer_consent_changes": 0,
+    "sender_registration_or_provider_verification": false,
+    "sender_active": "Synthetic local fixture only; no provider verification or authorized production audience is asserted."
+  },
+  "capture": {
+    "database_mode": "read_only",
+    "drafts_persisted": 0,
+    "messages_sent": 0,
+    "locale_transitions": [
+      "es_to_en",
+      "en_to_es"
+    ],
+    "locale_change_scope": "Only the isolated actor locale field."
+  },
+  "final": {
+    "locale": "es",
+    "tables_equal_prepared": 541,
+    "sequences_equal_prepared": 536,
+    "original_source_tables_unchanged": 541,
+    "original_source_sequences_unchanged": 536,
+    "original_source_schema_unchanged": true,
+    "all_four_owned_ports_closed": true,
+    "profiles_logs_and_failed_candidates_preserved": true
+  },
+  "web_counter_evidence": {
+    "file": "network-summary.json",
+    "sha256": "c042501e12a95bf5a6308aa07650a3f41a1a6f0adec4ef3b9a39cf097d45db39"
+  },
+  "bindings": [
+    {
+      "role": "clone equality",
+      "sha256": "ee8bc3a44d6d6d61877cb84d1204179b1e01f21f0f1bf663fddc530421c07615",
+      "retained_privately": true
+    },
+    {
+      "role": "native fixture",
+      "sha256": "23fe20f2b2981a5d2bfa604c06f5f2592710c03280c64bae9ec7391406063009",
+      "retained_privately": true
+    },
+    {
+      "role": "native preflight",
+      "sha256": "347920cc5a84c6d0a242f0ab41b70769359343a3ff959f7007b744059ec69e79",
+      "retained_privately": true
+    },
+    {
+      "role": "isolated native session",
+      "sha256": "aa1f1b8d1caec2b955e329ffdc3b8d4b432f52fb1581d345b013d566b09f521d",
+      "retained_privately": true
+    },
+    {
+      "role": "English locale transition",
+      "sha256": "2e271d0cd46c8ec3a741c5964b3320368c6a0a3878d58a4e2be829fbe3db18e7",
+      "retained_privately": true
+    },
+    {
+      "role": "Spanish locale restoration",
+      "sha256": "6bab78883b696fde5df709076c7812074ac9201af8c6e34b59a0f99d4bf02c40",
+      "retained_privately": true
+    },
+    {
+      "role": "final prepared-state equality",
+      "sha256": "a92a3ad9b0ac3d764ba9f365b83f730e12dc4f92be991cfa100b5dd380893807",
+      "retained_privately": true
+    },
+    {
+      "role": "closed original source equality",
+      "sha256": "2f3219fac51da91a72f5493b484c58717fd8806209b917a2e636b95ebaa49110",
+      "retained_privately": true
+    },
+    {
+      "role": "all service listeners closed",
+      "sha256": "8f43d2cf182ddab46767cca9704a669ce959a69f50995c2b2312541fe9b7b8aa",
+      "retained_privately": true
+    },
+    {
+      "role": "browser proxy and Puma shutdown",
+      "sha256": "d5c90dfca308b0e1a7ecc56af3894fdde4cf16f69d84bffdbdbc96b0faebdf98",
+      "retained_privately": true
+    }
+  ]
+}

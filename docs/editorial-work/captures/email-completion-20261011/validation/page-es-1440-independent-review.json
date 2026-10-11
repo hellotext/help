@@ -1,0 +1,314 @@
+{
+  "status": "passed",
+  "locale": "es",
+  "width": 1440,
+  "reviewer": "runtime_isolation",
+  "at": "2026-10-11T17:04:04.752725+00:00",
+  "packet": {
+    "path": "docs/editorial-work/captures/email-completion-20261011/validation/page-review/views/es-1440.json",
+    "sha256": "183a6c4e008ca0ef09ac21c756c0427950e74a4e4bd1db2a45af1cb840fa7ec1"
+  },
+  "checkpoint_sha256": "e0d55dce8b3a72bb6eee08d854d8a99a221a89aed9e9230f87548c8d59f1963e",
+  "source": "_i18n/es/numbers/email-channel-fundamentals.md",
+  "source_sha256": "3114208e2f27837e1d1a3b068f450fba23f086f351d2150ec96198e17d8ffb3a",
+  "built_html": "_site/es/fundamentos-canal-correo-electronico.html",
+  "built_html_sha256": "b08fd8f45f4366718ffb83f3639412506ce92f1e3e16a4dbf6cb8cafaf65c961",
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 12,
+    "coverage_start_css": 0,
+    "coverage_end_css": 12887.5,
+    "document_height_css": 12888,
+    "end_tolerance_css": 1,
+    "minimum_overlap_css": 100,
+    "notes": [
+      "Los doce segmentos se abrieron individualmente y se revisaron desde cabecera y navegación hasta guías relacionadas, valoración, contacto y pie completo.",
+      "Las 22 secciones, tablas, listas y texto del artículo son legibles y conservan su orden; no se observa desbordamiento horizontal ni recortes.",
+      "Las tres figuras ocupan un stage lavanda del ancho del artículo con borde y marco blanco interior independientes; el texto continúa debajo a ancho completo."
+    ]
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 3,
+    "notes": [
+      "Destinatarios: ambas direcciones ficticias y el menú Email son legibles y permanecen completos.",
+      "Composición: asunto, cuerpo y controles nativos son legibles; el icono de mano pertenece a la barra nativa y no es un cursor suelto.",
+      "Vista previa: título, selector de dispositivo, contenido, baja y Abrir correo están completos; el fondo atenuado corresponde al modal nativo.",
+      "Caps de imagen nativa comprobados: 668/517/616 CSS px. No enlaces envolviendo las figuras ni controles HTML añadidos. No se observan punteros sueltos, barras de desplazamiento o artefactos de depuración."
+    ]
+  },
+  "method": "Inspección visual de los 15 PNG por separado mediante view_image con detalle original solicitado; los segmentos de 2880×2400 se muestran reducidos automáticamente por el visor. Los tres detalles de figuras se inspeccionaron individualmente a 1600 px de ancho. No se usó un mosaico ni metadatos como sustituto de la lectura visual. Se revalidaron hashes, dimensiones, perfil ICC, CRC y cobertura contra el packet congelado, sin navegador ni servicios.",
+  "files": [
+    {
+      "file": "email-es-1440-full-part1.png",
+      "sha256": "127d1b89e4f1589f56e2ccbeb9408d19cb004d0bbc5d294b280cefc93e660543",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-full-part2.png",
+      "sha256": "85f650ab098098be85d8ae96d4856b4b7b8b354a0494a8df8e85b4ed2886b2d8",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-full-part3.png",
+      "sha256": "d42820ae0ab959412d67ff732f5d80f4e4d658cf87fbd9f871c63052db21f375",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-full-part4.png",
+      "sha256": "d8269546e071b529af791a4737f641661dcccfbe9cc95db0cb6423a213ba8ab9",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-full-part5.png",
+      "sha256": "e5b1bc7c4676b5a7bc23bcfa8ca750fbcfe25176d04980ff5593822a2581d459",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-full-part6.png",
+      "sha256": "c7917ec6a1158cd17281cd9ce41e19c5b57cb365e9cc7481df58076041bd9ffa",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-full-part7.png",
+      "sha256": "a415c783dabd2fd1aa7e0bc5207ffc780e9fc595e5e35b0e7f13be6e31450c85",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-full-part8.png",
+      "sha256": "d8643a7fb20aeec46cc99943be49205f0e51870325498c1b46c97451a8fb131a",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-full-part9.png",
+      "sha256": "f206430568488314bafa0f966edbdc445c0c09d84dcc514cf5f4905ac41adbe0",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 8800,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-full-part10.png",
+      "sha256": "b8b8dd10a45a4123f4522e8ae74f8922cb37d1de5ec78b8fae50a038d63e87e0",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 9900,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-full-part11.png",
+      "sha256": "b3c23bd7257863c4180244ff9765ef912794109183cd95f9e0f0ecb26457d41c",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 11000,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-full-part12.png",
+      "sha256": "1590df4e743a9488c7689d09207f0498a8d48072c62018ce94318cdaf86a87b6",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 11687.5,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-email-recipient-menu.png",
+      "sha256": "e085e4e939aae9f22575ecb3c1c0e20d616b3c81090061651a9fa778776749ea",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 3185,
+        "width": 800,
+        "height": 258
+      },
+      "pixel_size": [
+        1600,
+        516
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-email-compose.png",
+      "sha256": "bbd18b4a2c7e8cae20dcfc2b5f0dac667a800f29005f9a65a27f9bc1cf9ae868",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 4136,
+        "width": 800,
+        "height": 346
+      },
+      "pixel_size": [
+        1600,
+        692
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-1440-email-inline-preview.png",
+      "sha256": "12a30364329ff83e32771ae10941dd290bb2347423f2fd767e5ded6ab29d2e43",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 5307,
+        "width": 800,
+        "height": 671
+      },
+      "pixel_size": [
+        1600,
+        1342
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    }
+  ],
+  "findings": []
+}
