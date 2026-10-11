@@ -1,0 +1,17 @@
+{
+  "schema": "assigning-help-review-shutdown-v1",
+  "status": "passed",
+  "owned_services": [
+    "static Help server",
+    "Chrome Help review"
+  ],
+  "all_owned_services_closed": true,
+  "owned_ports_verified_free": true,
+  "only_owned_process_groups_terminated": true,
+  "shutdown_receipt_sha256": "5bd9c37d59fec3b104c02f6888d23902f33e6541cb61ffde86fe30fa4e124356",
+  "start_record_sha256": "19b16e7216256143a21005b49e4268676f7a25f39ef8f0c799213cd5aebdf25a",
+  "stop_record_sha256": "5d30502cae76f8364cc11d2bb928c29ffc04dc116133cdac10b98689e9da81ce",
+  "app_runtime_touched": false,
+  "source_build_or_assets_changed_by_cleanup": false,
+  "browser_profile_and_raw_logs_preserved_outside_help": true
+}

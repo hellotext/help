@@ -1,0 +1,70 @@
+{
+  "status": "local_preparation_ready_for_runtime_package_review",
+  "created_at": "2026-10-11T08:20:01.314292+00:00",
+  "help_base_commit": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+  "app_source_review_sha256": "3606c4adebb178380228c4dc1230b8606628466668e7a4f78c692ed34c256341",
+  "proposal_sha256": "5e2b79dcb1b0ac1ac510fd101fed932b9b02d4f62bdbe08f058fb0ab2967165a",
+  "baseline_sha256": "7d3af62b85c7214824581e69fbbafbb610e917577b09b1e84e9e5e1e3ac12cc9",
+  "coverage_plan_sha256": "91dc9cd7018e95ccd1bd006be4f132ee722a940a5513131b4a920ec119df2183",
+  "unresolved_inventory_pairs": 38,
+  "active_articles_edited": false,
+  "inventory_edited": false,
+  "runtime_started": false,
+  "database_connected": false,
+  "captures_created": 0,
+  "external_writes": 0,
+  "retained_pngs": 8,
+  "proposed_new_native_concepts": 4,
+  "proposed_new_png_matrix": 16,
+  "headings_per_locale": 8,
+  "links_per_locale": 9,
+  "preserved_paths": [
+    "_i18n/es/team/assigning-conversations.md",
+    "_i18n/en/team/assigning-conversations.md",
+    "_team/assigning-conversations.md",
+    "docs/editorial-work/assigning-conversations.md",
+    "/images/editorial/inbox-actions-20261010/assignment-menu-en-desktop.png",
+    "/images/editorial/inbox-actions-20261010/assignment-menu-en-mobile.png",
+    "/images/editorial/inbox-actions-20261010/assignment-menu-es-desktop.png",
+    "/images/editorial/inbox-actions-20261010/assignment-menu-es-mobile.png",
+    "/images/editorial/inbox-actions-continuation-20261010/assignment-result-en-desktop.png",
+    "/images/editorial/inbox-actions-continuation-20261010/assignment-result-en-mobile.png",
+    "/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-desktop.png",
+    "/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-mobile.png"
+  ],
+  "private_runtime_helpers": [
+    {
+      "basename": "prepare-assignment-fixture.rb",
+      "sha256": "cba2d7a0a220a3d8703554dda18e2285158d212e5fc8344670b6639daa22466b"
+    },
+    {
+      "basename": "verify-native-claim.rb",
+      "sha256": "0a4f0623b0572c6dc0447c2089ea20728f41cd2a3d6b7f903390e234b1bab738"
+    },
+    {
+      "basename": "read-contract.json",
+      "sha256": "a7feecb242dd35541e324a6a15ef3cad31aeac1bbbc95e61b3705eda81bcf630"
+    },
+    {
+      "basename": "mutation-contract.json",
+      "sha256": "1244ea905cda7d8e96cca548feb756109200e2e39f13e7b6b197bf20044b2a9b"
+    },
+    {
+      "basename": "fixture-entities.json",
+      "sha256": "e649afa1d3acdab78b1ac5de95c53d820368ee6d43f0e48f690d90d3a3801557"
+    }
+  ],
+  "independent_helper_review": {
+    "path": "audit/assigning-conversations-next-20261011/independent-helper-review.json",
+    "sha256": "ed04a1dcbce265439e05d51248804b3868f16d521cf2430220db56e170ad8dfe",
+    "status": "passed_scoped_no_execution_authorization"
+  },
+  "offline_validator_review_sha256": "935725b4255ed2d5489f53a6bbbb07ff5050e5d12a255a281d316a69cc432346",
+  "remaining_gates": [
+    "Freeze exact native routes/session/request with separate runtime and proxy owners.",
+    "Root review complete package before any clone/runtime/fixture execution.",
+    "Accept real native source pixels and unique claim action/table/queue/network proof.",
+    "Integrate approved sources, full bilingual Help build and1440/580/390 QA.",
+    "No inventory closure until actual verification commit and parent decision."
+  ]
+}

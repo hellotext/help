@@ -1,0 +1,86 @@
+{
+  "status": "insertion_plan_only_awaiting_native_sources_and_acceptance",
+  "expected_figures_per_locale": 6,
+  "retained_ids": [
+    "assignment-menu",
+    "assignment-result"
+  ],
+  "native_source_requirements": {
+    "locale": [
+      "es",
+      "en"
+    ],
+    "layout": [
+      "desktop",
+      "mobile"
+    ],
+    "density": 4,
+    "icc": "Display P3",
+    "accepted_raw_hashes_required": true,
+    "no_placeholders": true
+  },
+  "figures": [
+    {
+      "id": "claim-before",
+      "position": "After the three Assign to me steps; before claim-after.",
+      "es": {
+        "aria_label": "Ubica Asignarme en una conversación sin asignar",
+        "alt": "Encabezado de una conversación ficticia sin asignar con el botón Asignarme visible.",
+        "caption": "El botón Asignarme en una conversación ficticia sin asignar."
+      },
+      "en": {
+        "aria_label": "Find Assign to me in an unassigned conversation",
+        "alt": "Header of an unassigned fictional conversation with the Assign to me button visible.",
+        "caption": "The Assign to me button in an unassigned fictional conversation."
+      },
+      "proof_required": "Both locales before the unique native claim."
+    },
+    {
+      "id": "claim-after",
+      "position": "After claim-before; before the existing reply auto-claim paragraph.",
+      "es": {
+        "aria_label": "Comprueba tu asignación en el encabezado",
+        "alt": "Encabezado de la misma conversación ficticia después de usar Asignarme, con el avatar de la persona responsable.",
+        "caption": "Después de usar Asignarme, el encabezado muestra a la persona responsable de la conversación ficticia."
+      },
+      "en": {
+        "aria_label": "Check your assignment in the header",
+        "alt": "Header of the same fictional conversation after using Assign to me, showing the assignee’s avatar.",
+        "caption": "After using Assign to me, the header shows the fictional conversation’s assignee."
+      },
+      "proof_required": "One real native claim and approved table/queue/network proof; both locales after that same action. Do not repeat or rely on incidental timeline wording."
+    },
+    {
+      "id": "ai-chooser",
+      "position": "After the paragraph explaining that the Assign menu shows the AI agents group.",
+      "es": {
+        "aria_label": "Ubica los agentes de IA asociados",
+        "alt": "Menú Asignar de una conversación ficticia con el grupo Agentes de IA y su lista de agentes abiertos.",
+        "caption": "Grupo Agentes de IA del menú Asignar en una conversación ficticia."
+      },
+      "en": {
+        "aria_label": "Find associated AI agents",
+        "alt": "Assign menu for a fictional conversation with the AI agents group and its agent list open.",
+        "caption": "The AI agents group in a fictional conversation’s Assign menu."
+      },
+      "proof_required": "Both genuine association rows verified; disabled playbook unchanged. No target selected or AI action performed."
+    },
+    {
+      "id": "bulk-chooser",
+      "position": "After the three batch-selection steps; before the paragraph explaining background processing.",
+      "es": {
+        "aria_label": "Revisa una selección antes de asignarla",
+        "alt": "Controles para asignar dos conversaciones ficticias seleccionadas, con el menú Asignar y una persona del equipo visibles.",
+        "caption": "Dos conversaciones ficticias seleccionadas con el menú para asignarlas a una persona."
+      },
+      "en": {
+        "aria_label": "Review a selection before assigning it",
+        "alt": "Controls for assigning two selected fictional conversations, with the Assign menu and a teammate visible.",
+        "caption": "Two fictional conversations selected with the menu for assigning them to a teammate."
+      },
+      "proof_required": "Exactly two visible native selections; complete meaningful menu. No batch POST or destination click."
+    }
+  ],
+  "presentation": "Static responsive figures in existing lavender stage/white inset, within article column; native density caps. Caption/alt must be adjusted to actual accepted pixels if scene differs.",
+  "legacy_plan": "Preserve all eight files. Root inspected Spanish mobile candidates; use mobile sources at390 logical cap for both Help layouts only after final inline review confirms complete legibility."
+}

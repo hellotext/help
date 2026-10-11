@@ -1,0 +1,85 @@
+{
+  "status": "prepared_only_awaiting_real_raw_sources_and_acceptance",
+  "at": "2026-10-11T08:58:10.315747+00:00",
+  "current_help_base": "ab872f20847db302c6b06c7160680ec16583d685",
+  "files": [
+    {
+      "path": "docs/editorial-work/captures/assigning-completion-20261011/integration-inputs.json",
+      "sha256": "ef599481832a8a25c10aa7b44bb832e520e46c1d837cbcac81c5eedb8e510bbf"
+    },
+    {
+      "path": "docs/editorial-work/captures/assigning-completion-20261011/integrate-accepted-sources.py",
+      "sha256": "e055526a2a56ea47bbdd5dad34410632cd12b67bd3a13fe1aadb909ea5f54a63"
+    },
+    {
+      "path": "docs/editorial-work/captures/assigning-completion-20261011/integration-readiness.md",
+      "sha256": "d5e15b1152067d05a4fe0ca35bc2707ab32bef91b0f4f65e0c0fd19924e5dd88"
+    },
+    {
+      "path": "docs/editorial-work/captures/assigning-completion-20261011/retained-source-register.json",
+      "sha256": "64c88eff9d22806d65cecffafc34f8e6b2a7852835e4d11a13515dc8ea165f3d"
+    },
+    {
+      "path": "docs/editorial-work/captures/assigning-completion-20261011/retained-source-pixel-review.json",
+      "sha256": "80986cde9e2acbf54c429c039441969ddbbb92937b264c94d592159aa5b01b7c"
+    },
+    {
+      "path": "docs/editorial-work/captures/assigning-completion-20261011/source-register.json",
+      "sha256": "ab958aa8e8ed999c226bf07dd64747af6140630b74c141badf55c346ce198bbe"
+    }
+  ],
+  "checks": {
+    "helper_python_syntax": true,
+    "read_only_plan_command": "passed",
+    "article_hashes_unchanged_during_this_task": true,
+    "new_pngs_or_article_references_created": false,
+    "historical_sources_viewed_individually": 8,
+    "historical_sources_byte_exact": 8,
+    "historical_mobile_selected_for_both_viewports": 4,
+    "optimized_python_rejected": true,
+    "legacy_register_bound_to_pixel_review": true,
+    "legacy_matrix_exactly_eight": true
+  },
+  "remaining": [
+    "Sixteen genuine sources and exact raw-pixel acceptance",
+    "Single-claim semantic receipt and source/isolation closure",
+    "Integration then production build and complete ES/EN Help page QA"
+  ],
+  "inventory_or_commits_changed_by_this_task": false,
+  "independent_helper_review": {
+    "reviewer": "guide_review",
+    "initial_findings": [
+      "Reject optimized Python before assert-based validation.",
+      "Bind retained-source register to approved pixel-review SHA and exact eight-source matrix."
+    ],
+    "resolution": "Both corrected before applying; no article or image mutation.",
+    "updated_delta_review": "passed_no_open_findings",
+    "reviewed_helper_sha256": "bc638cacd8a404b8a0dcbe8e714d4e7c2a18f04e5bc0bc1830ff8d150d6bd2a6",
+    "method": "Read-only static review; reviewer did not execute helper or tests."
+  },
+  "source_pixel_review_contract": {
+    "status": "prepared_receipts_do_not_exist_yet",
+    "required_locales": [
+      "es",
+      "en"
+    ],
+    "sources_per_locale": 8,
+    "registry_fields": [
+      "pixel_review",
+      "transformations",
+      "pixel_review_record"
+    ],
+    "verifier": "audit/assigning-publication-20261011/verify-public.py#admitted_sources",
+    "schema_delta_static_review": "passed_no_open_findings",
+    "reserved_output_names_rejected": true,
+    "reviewed_helper_predecessor_sha256": "4464bd6fb401cf5ccd898a99462b24b700d96177bb85f7e1150461eee5e1d5f8",
+    "final_reviewed_helper_sha256": "e055526a2a56ea47bbdd5dad34410632cd12b67bd3a13fe1aadb909ea5f54a63"
+  },
+  "capture_batch": {
+    "required": "assigning-conversations-capture-v2-20261011",
+    "fresh_new_source_count": 16,
+    "v1_partial_sources_admitted": 0,
+    "v1_partial_reviews_reused": false,
+    "v1_history": "Closed without completed native assignment; immutable partial evidence remains outside final admission."
+  }
+}

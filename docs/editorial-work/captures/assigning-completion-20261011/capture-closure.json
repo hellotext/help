@@ -1,0 +1,66 @@
+{
+  "schema": "assigning-v2-capture-closure-v1",
+  "status": "closed_complete_native_capture_ready_for_help_integration",
+  "at": "2026-10-11T10:21:22.410637+00:00",
+  "manifest_sha256": "13e6786494ebe61c62ddbd7bbe7962a74d19ccb6cd4618d90bb8599f32ee2206",
+  "provenance_sha256": "f127d38b3b265af9ea68c311c33dd36f1d663f20ceddaed373ac7f47380fa852",
+  "native_sources": 16,
+  "source_pixel_reviews": {
+    "es": {
+      "file": "audit/assigning-conversations-v2-20261011/source-pixels-es-v2-review.json",
+      "sha256": "e261a3640ffcd9dd2f14cc97f0b5c351a7227e311d78f7794b07ea5efd0f0c1b",
+      "source_count": 8,
+      "status": "passed"
+    },
+    "en": {
+      "file": "audit/assignment-help-qa-20261011/source-pixels-en-v2-review.json",
+      "sha256": "1b66bcfbdd39e395b1b53ebf0a5bbcf9ebea279812d83566e74c61d3995535e0",
+      "source_count": 8,
+      "status": "passed"
+    }
+  },
+  "source_transformations": [],
+  "completed_native_claim_count": 1,
+  "native_claim_http_status": 200,
+  "before_after_order_verified": true,
+  "all_runtime_services_closed": true,
+  "services": [
+    "owned Chrome",
+    "owned exact proxy",
+    "owned Rails",
+    "owned Redis"
+  ],
+  "profiles_logs_journals_and_native_result_preserved": true,
+  "final_locale": "es",
+  "final_tables_compared": 541,
+  "final_equals_verified_native_claim_after_state": true,
+  "closed_v1_source_tables_unchanged": 541,
+  "closed_v1_source_sequences_unchanged": 536,
+  "closed_v1_schema_unchanged": true,
+  "claim_replays": 0,
+  "ai_target_selections": 0,
+  "batch_submissions": 0,
+  "private_evidence_sha256": {
+    "native-claim-result": "83f1027c26802240a433c2395f19e9083c3798ebe6a0c566c448a417e2d086e5",
+    "verify-final-result": "1ed1782a596dfc2bf1b173449abd91166096929f37d031699199e7a197831077",
+    "source-unchanged-final": "34003cf7ea9d0790eb6e453a3af6b11b1769642cfab0bafccade5614cc6f341c",
+    "locale-es-after-result": "cd0f25c9425fcb8b25b9f4677d8007301c1936d640ec5c353e83ea16317702cb",
+    "runtime-shutdown": "935dbd4c9d7963260b00ee34cff1f824115afebd5f066c75f6244d13d4c3e241",
+    "browser-proxy-shutdown": "43831433c56ca86fc6d28f7f92a7e45039c777acc389b25c49247a6768edfac6"
+  },
+  "css_build_workaround_source": {
+    "helper_basename": "build-vite-css-unminified.mjs",
+    "helper_sha256": "2a765994b47d82717a5db92a9d4c8dd67b43dc273ffb3d34aa12fe6b211371ab",
+    "line": 3,
+    "exact_option": "const options = { mode: 'production', build: { cssMinify: false } };",
+    "existing_build_receipt_sha256": "75b01511bdb80458a506354d6b7b19998491dcc02215470992f292857123cb71",
+    "existing_source_files_verified": 17691,
+    "transformations_during_this_capture": [],
+    "limitation": "The immutable pre-existing build disables CSS minification and omits LightningCSS target transforms. JS terser is retained and app source config is unchanged. No full production CSS or pixel parity claim."
+  },
+  "remaining_work": [
+    "Root source admission and sanitized semantic receipt binding",
+    "Help integration, production build and page review at 1440/580/390 CSS pixels",
+    "Publication only through root-controlled authorized workflow"
+  ]
+}

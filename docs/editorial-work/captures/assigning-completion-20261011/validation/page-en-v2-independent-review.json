@@ -1,0 +1,71 @@
+{
+  "schema": "assigning-help-independent-en-review-v2",
+  "status": "passed",
+  "reviewer": "conversation_article",
+  "recorded_at": "2026-10-11T10:45:34.317639+00:00",
+  "locale": "en",
+  "checkpoint_sha256": "1f35281e5f35af5c7928c65ebb2e11e44571ecce76ac9973ca9b3b07e395c927",
+  "capture_receipt": {
+    "path": "docs/editorial-work/captures/assigning-completion-20261011/validation/page-review/capture-receipt.json",
+    "sha256": "445ec700c1206723c6df9d38e0d8bfff761121b5a17bf2c3cd8c39982390ff8c"
+  },
+  "views": [
+    {
+      "locale": "en",
+      "width": 1440,
+      "status": "passed",
+      "segments": 8,
+      "details": 6,
+      "viewed_png_count": 14,
+      "path": "docs/editorial-work/captures/assigning-completion-20261011/validation/page-en-1440-v2-independent-review.json",
+      "sha256": "c44d9c6ba493aafa3b0f2b8bf63c6bf6eaea275c76f67889fdb6c6cd9b696fde",
+      "packet": {
+        "path": "docs/editorial-work/captures/assigning-completion-20261011/validation/page-review/views/en-1440.json",
+        "sha256": "504ab69c922658b9daebb7115738d883b86aa7f1aca2192e4c0a1a86e9110c34"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 580,
+      "status": "passed",
+      "segments": 8,
+      "details": 6,
+      "viewed_png_count": 14,
+      "path": "docs/editorial-work/captures/assigning-completion-20261011/validation/page-en-580-v2-independent-review.json",
+      "sha256": "852a5b039d636f0f2f52a7f997ecd02296ed87b741880e6b5ebce7333abebd32",
+      "packet": {
+        "path": "docs/editorial-work/captures/assigning-completion-20261011/validation/page-review/views/en-580.json",
+        "sha256": "5747827bf6c156c02b9fab5b36c27251aebd68254c4b3f97d858129d87ce51ab"
+      }
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "status": "passed",
+      "segments": 9,
+      "details": 6,
+      "viewed_png_count": 15,
+      "path": "docs/editorial-work/captures/assigning-completion-20261011/validation/page-en-390-v2-independent-review.json",
+      "sha256": "32f39923d0ad386a10915877b111096feb89a88535181186eab0473b45b38ec8",
+      "packet": {
+        "path": "docs/editorial-work/captures/assigning-completion-20261011/validation/page-review/views/en-390.json",
+        "sha256": "b701502a4be2148f08e2bf41f5d4d0885940762845de4c304332b4f9cd1e9231"
+      }
+    }
+  ],
+  "segments": 25,
+  "details": 18,
+  "viewed_standard_png_count": 43,
+  "auxiliary_diagnostic_png_count": 1,
+  "source": {
+    "path": "_i18n/en/team/assigning-conversations.md",
+    "sha256": "d720f3205fbb056699afc9994efb5e3016b69bbea4f131c3dcd1cf4d5c29f94b"
+  },
+  "built_html": {
+    "path": "_site/assigning-conversations.html",
+    "sha256": "8d74a0aed52bf19aab240cb9ab28853906710cc271613078a166a20170c1f2a2"
+  },
+  "scope": "All 43 standard EN PNGs were actually viewed individually across 1440, 580 and 390 CSS viewports; metadata and hashes were independently rechecked. Auxiliary native 1x bulk readability diagnostic excluded from standard 2x Display P3 count. No V1 receipt or source acceptance is reused.",
+  "findings": [],
+  "remaining_blockers": []
+}

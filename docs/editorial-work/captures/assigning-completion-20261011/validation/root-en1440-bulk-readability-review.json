@@ -1,0 +1,28 @@
+{
+  "reviewed_at": "2026-10-11T10:41:26.324323+00:00",
+  "reviewer": "root",
+  "status": "passed_readability_only_with_diagnostic_profile_limitation",
+  "diagnostic": {
+    "path": "audit/assignment-help-qa-20261011/bulk-en-dpr1-diagnostic/bulk-en-1440-native-dpr1.png",
+    "sha256": "9bef95c677bf073c9b48a313be7127627c1c900450ff4245f82f326d34704415",
+    "pixel_size": [
+      800,
+      303
+    ],
+    "native_density": 1,
+    "icc": "absent",
+    "viewed_at_original_size": true,
+    "source_pixel_edits": false
+  },
+  "standard_capture_sha256": "445ec700c1206723c6df9d38e0d8bfff761121b5a17bf2c3cd8c39982390ff8c",
+  "findings": [],
+  "observations": [
+    "At the native one-to-one diagnostic width, two checked rows, the selection count, Assign and the teammate labels are readable.",
+    "The native list preview snippets are truncated as in the source; no result of a batch action is inferred."
+  ],
+  "limits": [
+    "The diagnostic helper failed its Display P3 assertion after saving this native DPR1 PNG. This readability judgment does not claim that helper or the diagnostic color-profile check passed.",
+    "Diagnostic PNG is local audit only and is not a public screenshot asset or part of the 86 formal DPR2/P3 Help captures.",
+    "All six complete standard page reviews remain independently required."
+  ]
+}

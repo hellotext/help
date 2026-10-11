@@ -1,0 +1,76 @@
+{
+  "schema": "assigning-v2-runtime-closure-v1",
+  "status": "passed",
+  "attempt": "v2",
+  "scope": "Native action, localized source capture and owned-runtime closure; Help page validation remains separate.",
+  "evidence_sha256": {
+    "independent_closure_review": "a1666bed5cb94c9f411e705c22c09939f293e949e7943ba5ff5175703a9c29e7",
+    "native_action_review": "31a793c6fa195185089774f07e620e37d986544fa02f5b814e0434da6746959f",
+    "native_result": "83f1027c26802240a433c2395f19e9083c3798ebe6a0c566c448a417e2d086e5",
+    "final_state_verification": "1ed1782a596dfc2bf1b173449abd91166096929f37d031699199e7a197831077",
+    "locale_restoration": "cd0f25c9425fcb8b25b9f4677d8007301c1936d640ec5c353e83ea16317702cb",
+    "final_target_snapshot": "8fc075a6591afdfb4389cc27451f3c6ac66fe9f349a708a9f45b2177d3946085",
+    "closed_v1_database_preservation": "34003cf7ea9d0790eb6e453a3af6b11b1769642cfab0bafccade5614cc6f341c",
+    "runtime_shutdown": "935dbd4c9d7963260b00ee34cff1f824115afebd5f066c75f6244d13d4c3e241",
+    "browser_proxy_shutdown": "43831433c56ca86fc6d28f7f92a7e45039c777acc389b25c49247a6768edfac6",
+    "capture_closure": "32ef614c50fdfb357a95507d80209155828bcb27b09e17525ecbc99319bce8c0",
+    "capture_provenance": "f127d38b3b265af9ea68c311c33dd36f1d663f20ceddaed373ac7f47380fa852",
+    "static_assets_final": "32d6d7a3d6bdf4e026f5eac35a9c219e9d339212f2e51fd5f7277d4e1931383e",
+    "source_index": "d28b8d6b6975cc08fa885adf7157af117863987f1e5ff427ca9671a68a8a576c",
+    "final_runner_wrapper": "e3d5203c3e6cb3ca3f9afefff47449bda746e4b49da6fa6b9b868421481b1b9e",
+    "phase_network_ledgers": [
+      "35efac9ca5074f157a22d76e134a1bbd3d974227108ea3656a64f047f93f3f81",
+      "e8e327e78ad96df86074e42cf17cebad601fcd071047bbcff9134260a7882725",
+      "c0ec787afa3cf345f7dcc9e4ee6390741a11337d8740108ceb4958baaed1bfdc",
+      "a8cf5355aadc4b6ea23302332023f652f34f188620251b229694e46ac687de2e"
+    ]
+  },
+  "observed": {
+    "completed_native_claim_count": 1,
+    "native_http_status": 200,
+    "final_locale": "es",
+    "tables_compared": 541,
+    "final_rows_equal_verified_native_claim_after": true,
+    "held_index_jobs_during_native_action": 1,
+    "jobs_performed": 0,
+    "all_four_owned_services_closed": true,
+    "owned_ports_closed": true,
+    "shared_processes_changed": false,
+    "database_cleanup": false,
+    "closed_v1_database_tables_preserved": 541,
+    "closed_v1_sequences_preserved": 536,
+    "closed_v1_schema_preserved": true,
+    "app_source_files_checked_by_final_wrapper": 17691,
+    "static_files_verified_separately": 2417,
+    "static_bytes_compared": 110488998,
+    "favicon_verified_separately": true,
+    "fresh_source_pngs": 16,
+    "source_reviews": {
+      "es": 8,
+      "en": 8
+    },
+    "network": {
+      "allowed_get_head": 2041,
+      "native_claim_paused": 1,
+      "native_claim_forwarded": 1,
+      "denied_other_requests": 53,
+      "denied_websocket_attempts": 202,
+      "allowed_external_origin_requests": 0
+    }
+  },
+  "source_bindings": {
+    "manifest_sha256": "13e6786494ebe61c62ddbd7bbe7962a74d19ccb6cd4618d90bb8599f32ee2206",
+    "pixel_review_sha256": {
+      "es": "e261a3640ffcd9dd2f14cc97f0b5c351a7227e311d78f7794b07ea5efd0f0c1b",
+      "en": "1b66bcfbdd39e395b1b53ebf0a5bbcf9ebea279812d83566e74c61d3995535e0"
+    }
+  },
+  "limits": [
+    "The original database, app source files and compiled assets have distinct verification evidence; none is inferred from another.",
+    "The app IndexJob stayed in an isolated test queue and was not performed. The final runner used a separate process; its empty queue does not imply execution of that job.",
+    "Immutable local CSS build uses cssMinify:false and omits LightningCSS target transforms. JavaScript terser and application source/configuration were retained; full production CSS/pixel parity is not claimed.",
+    "Chromium used a child-only no-sandbox flag with inherited OS egress restrictions, exact proxy and application guards; double sandboxing is not claimed.",
+    "Chooser captures do not demonstrate AI execution or completed bulk assignment. Customer content is fictional and remains Spanish in both UI locales.",
+    "Final Help build, six-view page review and publication checks are separate."
+  ]
+}

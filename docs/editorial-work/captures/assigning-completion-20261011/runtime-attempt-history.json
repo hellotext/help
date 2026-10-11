@@ -1,0 +1,38 @@
+{
+  "schema": "assigning-runtime-attempt-history-v1",
+  "status": "closed_both_attempts",
+  "v1": {
+    "status": "failed_before_native_handler_or_writable_window",
+    "forwarded_native_request_count": 1,
+    "completed_native_claim_count": 0,
+    "tables_unchanged": 541,
+    "admitted_source_images_from_this_attempt": 0,
+    "evidence_sha256": {
+      "forward_ledger": "fdd3a9395ea23e479c98d139c5c39783dd35b9232fadfdc02c947f767e2eeb45",
+      "unchanged_state": "ea74156030b6745ccc231b18c8cc88ac78b10551222199ecb0399d4ef858f5c4",
+      "shutdown": "343706e2b58f010397eb9f05750fcdcd7f42c8ba812742cfb35d25dd268cf6a3"
+    }
+  },
+  "v2": {
+    "status": "completed_and_closed_in_distinct_copy",
+    "forwarded_native_request_count": 1,
+    "completed_native_claim_count": 1,
+    "fresh_native_source_images": 16,
+    "evidence_sha256": {
+      "native_result": "83f1027c26802240a433c2395f19e9083c3798ebe6a0c566c448a417e2d086e5",
+      "runtime_closure": "ee97f37bb8e322e8a6822bd906e54bccc9543755a5345a0b144efff6a51e6a27",
+      "capture_provenance": "f127d38b3b265af9ea68c311c33dd36f1d663f20ceddaed373ac7f47380fa852",
+      "manifest": "13e6786494ebe61c62ddbd7bbe7962a74d19ccb6cd4618d90bb8599f32ee2206"
+    }
+  },
+  "totals_across_distinct_attempts": {
+    "forwarded_native_requests": 2,
+    "completed_native_claims": 1
+  },
+  "limits": [
+    "V1 was preserved after failure and was not retried in place; V2 used a new isolated copy and fresh runtime/session/action evidence.",
+    "The input-position explanation is supported by offline reproduction; the original V1 exception trace was not recovered.",
+    "One freshly captured deterministic EN BEFORE image has the same PNG bytes as V1; its V2 sidecar/timing establishes the new capture. No partial V1 sources were imported as V2 captures.",
+    "Private body/session/cookie/token/row snapshots remain outside Help."
+  ]
+}

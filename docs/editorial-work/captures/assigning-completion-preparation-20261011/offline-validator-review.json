@@ -1,0 +1,25 @@
+{
+  "status": "passed_offline_synthetic_comparator_checks",
+  "verifier_sha256": "0a4f0623b0572c6dc0447c2089ea20728f41cd2a3d6b7f903390e234b1bab738",
+  "positive_cases": 1,
+  "rejected_cases": [
+    "message_change",
+    "another_conversation",
+    "deleted_conversation",
+    "wrong_owner",
+    "attention_change",
+    "wrong_old_state",
+    "extra_track_event",
+    "journey_dispatch",
+    "contact_context",
+    "template_context",
+    "unexpected_metadata",
+    "double_metric",
+    "wrong_metric_bucket",
+    "wrong_interval_time",
+    "AI_execution"
+  ],
+  "database_connections": 0,
+  "runtime_requests": 0,
+  "not_evidence_of_real_assignment": true
+}

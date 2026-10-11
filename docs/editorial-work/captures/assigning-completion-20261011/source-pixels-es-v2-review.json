@@ -1,0 +1,341 @@
+{
+  "schema": "assigning-source-pixel-review-v1",
+  "status": "passed",
+  "locale": "es",
+  "capture_batch": "assigning-conversations-capture-v2-20261011",
+  "reviewer": "inbox_article",
+  "reviewed_at": "2026-10-11T10:15:40.080686+00:00",
+  "scope": "All eight fresh V2 Spanish source PNGs, four concepts at desktop and mobile. This review accepts visible raw source content, not Help inline rendering, final runtime closure or publication.",
+  "method": "Each original was personally viewed individually; the four immutable per-pair receipts preserve the observations. At finalization all eight PNG and sidecar hashes were revalidated. No V1 pixel receipt or source was reused.",
+  "records": [
+    {
+      "id": "claim-before",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "claim-before-es-desktop.png",
+      "clip": [
+        376,
+        91,
+        710,
+        280
+      ],
+      "pixelSize": [
+        2840,
+        1120
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "readContractSha256": "a11df6a033e0c186129f5090a1f4acb939ff55e1e0ad9bd76ad45c14415a0f7a",
+      "sha256": "70fa655f7a5a0318e1cd7816b5bfc0bd4fa33fb64fa71c80377fc955904c8120",
+      "status": "passed",
+      "viewed_individually": true,
+      "source_sidecar_sha256": "a57e8874733d527c0f9d7678ce22e4aca09300c0e3fd9e4d2b91b5c3e14ebd9b",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_crc_passed": true,
+      "transformations": [],
+      "observations": [
+        "Asignarme is complete and legible alongside native complete/menu controls.",
+        "The entire fictional incoming backpack question is visible below the header.",
+        "No pointer, scrollbar, clipped essential control, debug/impersonation overlay or private contact endpoint is visible.",
+        "The crop shows the header and beginning-of-conversation context, not the full conversation pane.",
+        "Desktop header does not repeat the contact name; Asignarme and the contextual message are complete."
+      ]
+    },
+    {
+      "id": "claim-before",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "claim-before-es-mobile.png",
+      "clip": [
+        0,
+        68,
+        390,
+        310
+      ],
+      "pixelSize": [
+        1560,
+        1240
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "readContractSha256": "a11df6a033e0c186129f5090a1f4acb939ff55e1e0ad9bd76ad45c14415a0f7a",
+      "sha256": "c0f427f0fb9d7fc3134663adbf4174261a001ea0f0a8ca2a0915e0b0a388009c",
+      "status": "passed",
+      "viewed_individually": true,
+      "source_sidecar_sha256": "b88a944364e86debdf3c7c5475dd66a27e4a4a6fbea06364069a2846ecfc8528",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_crc_passed": true,
+      "transformations": [],
+      "observations": [
+        "Asignarme is complete and legible alongside native complete/menu controls.",
+        "The entire fictional incoming backpack question is visible below the header.",
+        "No pointer, scrollbar, clipped essential control, debug/impersonation overlay or private contact endpoint is visible.",
+        "The crop shows the header and beginning-of-conversation context, not the full conversation pane.",
+        "Mateo and the native green M contact avatar are complete in the mobile header."
+      ]
+    },
+    {
+      "id": "claim-after",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "claim-after-es-desktop.png",
+      "clip": [
+        376,
+        91,
+        710,
+        280
+      ],
+      "pixelSize": [
+        2840,
+        1120
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "readContractSha256": "a11df6a033e0c186129f5090a1f4acb939ff55e1e0ad9bd76ad45c14415a0f7a",
+      "sha256": "065488c0be824de7ce7cb520ada8f40acc014620bdf1826fe88cc4a8a576cd65",
+      "status": "passed",
+      "viewed_individually": true,
+      "source_sidecar_sha256": "5a3dc2526aeea9a88858b5c09c423b63a1311c24f24fa0b098439c52765182f5",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_crc_passed": true,
+      "transformations": [],
+      "observations": [
+        "The complete native S assignee avatar is now visible in the header where the BEFORE scene offered Asignarme.",
+        "The Completo button is legible; its availability is not evidence that the conversation was completed.",
+        "The same complete fictional backpack question remains visible, with no response added in this crop.",
+        "The native assignment-event wording is outside the crop and is not used to infer automatic assignment or AI execution.",
+        "No pointer, scrollbar, development/impersonation control, clipped essential header control or private contact endpoint is visible.",
+        "Desktop keeps the exact BEFORE crop and shows the header/context rather than the full conversation pane."
+      ]
+    },
+    {
+      "id": "claim-after",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "claim-after-es-mobile.png",
+      "clip": [
+        0,
+        68,
+        390,
+        310
+      ],
+      "pixelSize": [
+        1560,
+        1240
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "readContractSha256": "a11df6a033e0c186129f5090a1f4acb939ff55e1e0ad9bd76ad45c14415a0f7a",
+      "sha256": "f87c834cb89388fa41c2ed9c978edf1a8ee80eff049c6099451c471b90eaf204",
+      "status": "passed",
+      "viewed_individually": true,
+      "source_sidecar_sha256": "612c928aae9332282b49a80c90badc063b24edba23e74f7c6fb7c46c532c6e9d",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_crc_passed": true,
+      "transformations": [],
+      "observations": [
+        "The complete native S assignee avatar is now visible in the header where the BEFORE scene offered Asignarme.",
+        "The Completo button is legible; its availability is not evidence that the conversation was completed.",
+        "The same complete fictional backpack question remains visible, with no response added in this crop.",
+        "The native assignment-event wording is outside the crop and is not used to infer automatic assignment or AI execution.",
+        "No pointer, scrollbar, development/impersonation control, clipped essential header control or private contact endpoint is visible.",
+        "Mateo and the green M contact avatar remain complete; the pink S assignee avatar is distinct and legible."
+      ]
+    },
+    {
+      "id": "ai-chooser",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "ai-chooser-es-desktop.png",
+      "clip": [
+        750,
+        164,
+        555,
+        205
+      ],
+      "pixelSize": [
+        2220,
+        820
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "readContractSha256": "a11df6a033e0c186129f5090a1f4acb939ff55e1e0ad9bd76ad45c14415a0f7a",
+      "sha256": "5eafea8aa8328a4c99838b86e56a93d882a5682360642df5d7f4310e664b9a4a",
+      "status": "passed",
+      "viewed_individually": true,
+      "source_sidecar_sha256": "28ce5b07c1f542894b4f708e70b14767ea0f6dc17a5ed2db72d142d3dee2e890",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_crc_passed": true,
+      "transformations": [],
+      "observations": [
+        "No pointer, scrollbar, development/impersonation control or private contact endpoint is visible.",
+        "Agentes IA and the complete fictional candidate Asistente de atención · Demo are legible.",
+        "The candidate popup border and shadow are complete; native parent-menu and conversation context remain visible.",
+        "This focused crop shows the AI branch and candidate; it does not present the entire parent Actions menu.",
+        "Desktop parent-menu portions are naturally overlapped by the nested popup and extend beyond the crop.",
+        "Hover or keyboard highlight is not evidence that the candidate was selected or that AI executed."
+      ]
+    },
+    {
+      "id": "ai-chooser",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "ai-chooser-es-mobile.png",
+      "clip": [
+        0,
+        136,
+        390,
+        392
+      ],
+      "pixelSize": [
+        1560,
+        1568
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "readContractSha256": "a11df6a033e0c186129f5090a1f4acb939ff55e1e0ad9bd76ad45c14415a0f7a",
+      "sha256": "bdc04cd34104df2a4c17c9d2fb2c01ca9927615c34f793321266921ed1393c2e",
+      "status": "passed",
+      "viewed_individually": true,
+      "source_sidecar_sha256": "3b0381125cfdb2423869deac66f8d4b3b54b837392d12745c06a9ecd8726017d",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_crc_passed": true,
+      "transformations": [],
+      "observations": [
+        "No pointer, scrollbar, development/impersonation control or private contact endpoint is visible.",
+        "Agentes IA and the complete fictional candidate Asistente de atención · Demo are legible.",
+        "The candidate popup border and shadow are complete; native parent-menu and conversation context remain visible.",
+        "This focused crop shows the AI branch and candidate; it does not present the entire parent Actions menu.",
+        "Mobile ACCIONES, Mostrar perfil and Asignar labels are also readable; lower parent-member rows extend beyond the crop.",
+        "Hover or keyboard highlight is not evidence that the candidate was selected or that AI executed."
+      ]
+    },
+    {
+      "id": "bulk-chooser",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "bulk-chooser-es-desktop.png",
+      "clip": [
+        0,
+        91,
+        1040,
+        340
+      ],
+      "pixelSize": [
+        4160,
+        1360
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "readContractSha256": "a11df6a033e0c186129f5090a1f4acb939ff55e1e0ad9bd76ad45c14415a0f7a",
+      "sha256": "f104c2a1ffa4fe874b6e3295ecd117d543cbde426a9a7bf7d99476d24984fa8c",
+      "status": "passed",
+      "viewed_individually": true,
+      "source_sidecar_sha256": "57af4a48b36a2452aa0ae69698ac6ca7acff6032f04ce71ba8dfca271c9f46c9",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_crc_passed": true,
+      "transformations": [],
+      "observations": [
+        "No pointer, scrollbar, development/impersonation control or private contact endpoint is visible.",
+        "Asignar 2 conversaciones a mí, ACCIONES, Asignar and the complete fictional candidate Lucía Méndez are legible.",
+        "The chooser continues below the crop; this image does not claim to show the exhaustive member list.",
+        "The highlighted member is a candidate, not a completed batch assignment.",
+        "Desktop shows both checked fictional rows Diego Navarro and Nicolás Vega, the count of two selected conversations, and a separate offer to select all four. The unselected Isabella row is partial at the lower edge."
+      ]
+    },
+    {
+      "id": "bulk-chooser",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "bulk-chooser-es-mobile.png",
+      "clip": [
+        0,
+        76,
+        390,
+        314
+      ],
+      "pixelSize": [
+        1560,
+        1256
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "readContractSha256": "a11df6a033e0c186129f5090a1f4acb939ff55e1e0ad9bd76ad45c14415a0f7a",
+      "sha256": "15926d24ee07b202c0e01287e222f3cee9d22f042dc548d29c4d5dcda515001f",
+      "status": "passed",
+      "viewed_individually": true,
+      "source_sidecar_sha256": "160a5d4bcd2cb0692e7ea1a3a7f69c8ab8c4014150b0684e55bcaca8b9df27b2",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_crc_passed": true,
+      "transformations": [],
+      "observations": [
+        "No pointer, scrollbar, development/impersonation control or private contact endpoint is visible.",
+        "Asignar 2 conversaciones a mí, ACCIONES, Asignar and the complete fictional candidate Lucía Méndez are legible.",
+        "The chooser continues below the crop; this image does not claim to show the exhaustive member list.",
+        "The highlighted member is a candidate, not a completed batch assignment.",
+        "Mobile shows the count of two in the batch-action button; the conversation list and its checkboxes are outside the native mobile pane. Lucía Méndez, Valentina Rojas and Mateo Silva are complete."
+      ]
+    }
+  ],
+  "partial_review_records": [
+    {
+      "file": "source-pixels-es-before-v2-review.json",
+      "sha256": "0081344035f41e8b99fa36e7b921dc6b7042e2b47edea2022386c018c4684320"
+    },
+    {
+      "file": "source-pixels-es-after-v2-review.json",
+      "sha256": "1e67750aff1dc0bf3d6c5f27b11b45cbb6406463c0ecf90b874c5d06262f057b"
+    },
+    {
+      "file": "source-pixels-es-ai-v2-review.json",
+      "sha256": "76aca5c45af1efab2e027f490299bbc1ea2b10d4e28a122719b8bfad17f1b047"
+    },
+    {
+      "file": "source-pixels-es-bulk-v2-review.json",
+      "sha256": "762f72d587d9085ff52504d40941ac3a33742908ecdc0c58420daf2fcd227032"
+    }
+  ],
+  "labels_verified": {
+    "ai_group": "Agentes IA",
+    "ai_candidate": "Asistente de atención · Demo",
+    "bulk_candidate": "Lucía Méndez"
+  },
+  "findings": [],
+  "limitations": [
+    "Claim AFTER shows an assignee avatar and the available Completo action; native claim execution and unchanged unrelated rows are established separately by root semantic review.",
+    "The incidental assignment-event wording outside the AFTER crops is not used to infer automatic assignment or AI execution.",
+    "AI and batch choosers show candidates only. The association fixture remains disabled and no AI selection or batch submission is demonstrated.",
+    "Chooser crops do not present exhaustive member lists. Mobile bulk count is visible in the action button while list checkboxes are outside the mobile pane.",
+    "The desktop bulk source spans 1040 CSS pixels; Help inline legibility must pass after integration.",
+    "Source owner records an immutable CSS build workaround; this review does not assert production CSS or deployed pixel parity."
+  ],
+  "remaining": [
+    "Final bilingual source acceptance, native claim/provenance/runtime closure bindings and Help build/inline review."
+  ],
+  "images_modified": false,
+  "articles_modified": false
+}

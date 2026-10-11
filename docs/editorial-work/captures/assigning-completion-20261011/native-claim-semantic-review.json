@@ -1,0 +1,71 @@
+{
+  "schema": "assigning-native-claim-semantic-review-v1",
+  "status": "passed",
+  "scope": "Native V2 action result only; final runtime closure and image admission remain pending.",
+  "attempt": "v2",
+  "completed_native_claim_count": 1,
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "comparison_revision": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "evidence_sha256": {
+    "independent_review": "31a793c6fa195185089774f07e620e37d986544fa02f5b814e0434da6746959f",
+    "native_result": "83f1027c26802240a433c2395f19e9083c3798ebe6a0c566c448a417e2d086e5",
+    "runtime_verification": "2830fe266ac10e06e1d9baa1da30e4e8b091ddd9aa0f5c46f66ad1a56a529e0d",
+    "root_candidate_review": "ed0034a1c43f74dbbf4df068e2b3b032abc50cb0b65c565ac24cf79678b58af3",
+    "runtime_contract": "840fe7a551a30a168a879541a1d511517b4fb16d3826c047cde5a45a94ad439b",
+    "mutation_contract": "9919f5d4c440f0e2d5f81a7edf1c54710b06abafa74fe4e9e5ab4b2dcab6d6ea",
+    "pure_validator": "0a4f0623b0572c6dc0447c2089ea20728f41cd2a3d6b7f903390e234b1bab738",
+    "before_snapshot": "82d58d9b3adac1d7eeb2a63c5f97a4daf884bbb7c22641a1a9ddff56da0eb4eb",
+    "after_snapshot": "8fc075a6591afdfb4389cc27451f3c6ac66fe9f349a708a9f45b2177d3946085",
+    "derived_state": "f38afecdee72567fd98c609435995cd41b2db36506cd402eb7659a9165890f42",
+    "approval": "837ae5f4daaea964bec2c876c865f0a043f4dc3699e1f87d8a068c196b1a5419",
+    "reservations": {
+      "browser": "8d544c2f5fac5584f70da2f57b1263e59578c8fa2ff5f918fde07318960649f0",
+      "proxy": "2cabfb9f3a87812e2ffc89ab2b369aa4dc6c37ec0e3e495c39dce90375e64b45",
+      "app": "91513b8cc9c190a6ccbc0e52684153cf41709137812be8c47d6449cc607a3c9a"
+    }
+  },
+  "observed": {
+    "http_status": 200,
+    "tables_compared": 541,
+    "changed_tables": [
+      "conversations",
+      "dashboard_metrics",
+      "events",
+      "track_events",
+      "workload_user_intervals"
+    ],
+    "changed_conversation_columns": [
+      "assigned_user_id",
+      "state",
+      "state_changed_at",
+      "updated_at"
+    ],
+    "single_unassigned_conversation_became_assigned_to_actor": true,
+    "new_tracking_events": 1,
+    "new_timeline_events": 1,
+    "new_ownership_intervals": 1,
+    "hourly_metric_count_delta": 1,
+    "all_other_rows_unchanged": true,
+    "messages_changed": false,
+    "ai_conversations_changed": false,
+    "notification_rows_changed": false,
+    "attention_and_sla_unchanged": true,
+    "held_index_jobs": 1,
+    "jobs_performed": 0,
+    "default_read_only_restored": true,
+    "after_commit_observed_by_runtime": true,
+    "outer_transaction_added": false
+  },
+  "once_only_evidence": "The exact reviewed candidate is bound to browser, proxy and app reservations and the successful native result. This attempt allows one forward; final network-ledger closure is separate.",
+  "history": "V1 forwarded one request which failed before the native handler and writable window; it completed zero claims and left 541 tables unchanged. This V2 result records one completed native claim in a separate copy. Do not describe the combined history as only one forwarded request.",
+  "pending": [
+    "Four AFTER sources and full sixteen-source ES/EN pixel acceptance.",
+    "Final locale/state/queue, network, source and closed-V1 preservation proofs.",
+    "Owned process shutdown, then Help integration/build/six-view QA."
+  ],
+  "limits": [
+    "AI and bulk screenshots demonstrate chooser/selection state only, not executed assignments.",
+    "No private request bodies, credentials, raw sidecars, database rows or personal filesystem paths are included.",
+    "This result does not claim final capture completion or publication."
+  ]
+}
