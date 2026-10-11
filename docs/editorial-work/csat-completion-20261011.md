@@ -2,8 +2,8 @@
 
 Status: twenty new native sources accepted and integrated; production build
 and complete ES/EN article review at 1440/580/390 CSS pixels passed locally.
-Publication remains pending. The inventory row is unchanged until a real
-verifying commit exists.
+Publication remains pending. The inventory closure cites real verifying
+commit `f9b3231d1d4b68faadedec2c296d23180c6c678a`.
 
 The batch starts at Help `c8ecc56b0518c258f7e8511d6153ac9f685888eb`, with editorial
 rules pinned to `d5319b02e1c6a85f3a6294f11763b9be8dd58a43`. Both complete article
@@ -153,3 +153,12 @@ these local results.
 - [Final section coverage](captures/csat-completion-20261011/section-coverage-final.json)
 - [Final local review](captures/csat-completion-20261011/final-review.json)
 - [Frozen evidence index](captures/csat-completion-20261011/evidence-index.json)
+
+## Local inventory closure
+
+Verification commit `f9b3231d1d4b68faadedec2c296d23180c6c678a` contains the accepted articles, sources and
+local QA with the inventory still pending. The following closure changes only
+the CSAT inventory row and records that real reference. Local unresolved pairs
+move from 35 to 34; the main/public count remains 35 until publication.
+
+- [Local verification receipt](captures/csat-completion-20261011/local-verification-committed.json)
