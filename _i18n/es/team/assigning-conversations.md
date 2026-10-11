@@ -59,10 +59,10 @@ Si una regla de enrutamiento o Derivación ya mantiene la conversación para un 
 <!-- inbox-actions:assignment-menu:start -->
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="assignment-menu" aria-label="Elige a una persona desde Asignar">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 408px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1207px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-20261010/assignment-menu-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-20261010/assignment-menu-es-mobile.png" srcset="/images/editorial/inbox-actions-20261010/assignment-menu-es-mobile.png 4x" width="1560" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Acciones del Inbox con Asignar abierto y opciones de integrantes para elegir." />
+        <img class="ht-editorial-visual__image" src="/images/editorial/assigning-desktop-correction-20261011/assignment-menu-es-desktop.png" srcset="/images/editorial/assigning-desktop-correction-20261011/assignment-menu-es-desktop.png 4x" width="4756" height="2424" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Acciones del Inbox con Asignar abierto y opciones de integrantes para elegir." />
       </picture>
     </div>
   </div>
@@ -75,10 +75,10 @@ Usa los mismos pasos para reasignar una conversación que ya tiene responsable. 
 <!-- inbox-actions:assignment-result:start -->
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="assignment-result" aria-label="Comprueba el nuevo responsable">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 408px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 816px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-mobile.png" srcset="/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-mobile.png 4x" width="1560" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación del Inbox después de una asignación manual, con el responsable y el registro de asignación visibles." />
+        <img class="ht-editorial-visual__image" src="/images/editorial/assigning-desktop-correction-20261011/assignment-result-es-desktop.png" srcset="/images/editorial/assigning-desktop-correction-20261011/assignment-result-es-desktop.png 4x" width="3192" height="2128" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación del Inbox después de una asignación manual, con el responsable y el registro de asignación visibles." />
       </picture>
     </div>
   </div>
