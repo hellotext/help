@@ -1,0 +1,21 @@
+{
+  "schema": "customize-integrator-review-fixes-v1",
+  "status": "pending_rejection_passed_sources_not_admitted",
+  "prior_helper_sha256": "33dc566aa620f5f1f8735cb6975da495593a6e450af6f52ef9aab2aea0c0e75e",
+  "helper_sha256": "2f2c717e8dc53a9bb99b11cd820ab454cc20a58457fa16a5db3f02eac95fbca8",
+  "inputs_sha256": "1fecaa29d409febffabc19287cf010c3da87a28a91034b37e0b25692152704a7",
+  "prior_preparation": "audit/customize-source-review-20261011/preparation-before-integrator-fixes",
+  "prior_materialization": "Prior helper and inputs preserved byte-exact, verified against their previously recorded SHA256.",
+  "fixes": [
+    "Removed redundant null admission/pixel placeholders; external admission binds frozen inputs unidirectionally.",
+    "Reserved source-admission basename and prevalidated existing admission/pixel receipt copies before any PNG import."
+  ],
+  "delta_validation": {
+    "syntax": "passed",
+    "redundant_placeholders_absent": true,
+    "source_admission_name_reserved": true,
+    "pending_normal_mode_exit_code": 1,
+    "articles_and_csv_byte_unchanged": true,
+    "source_admission_or_apply_executed": false
+  }
+}

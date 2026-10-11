@@ -1,0 +1,839 @@
+{
+  "schema": "customize-help-preparation-independent-review-v1",
+  "recorded_at": "2026-10-11T11:19:14.742516+00:00",
+  "reviewer": "/root/inbox_article/guide_review",
+  "status": "pass_scoped_preparation",
+  "scope": "Hashes, byte preservation, PNG metadata, manifest/plan/path structure only; no pixels, source re-audit, Help integration/render/build or runtime execution.",
+  "base": "046e27c78f8431ad46f87a8e31048907b2d34d56",
+  "inputs": {
+    "help-customize-completion-20261011/docs/editorial-work/captures/customize-safely-completion-20261011/preserved-inputs.json": "336359c77c3efd6ca20d05ed073fec4f5a4fbedc4c9b5c09d6502e2310d5b6b0",
+    "help-customize-completion-20261011/docs/editorial-work/captures/customize-safely-completion-20261011/retained-source-register.json": "d22d7e6084792f1fd8371b178ef1f2ef19352392356ba13611060d51c8e3600f",
+    "help-customize-completion-20261011/docs/editorial-work/captures/customize-safely-completion-20261011/retained-figure-plan.json": "a0f2e8af6c405b31027a4be9443637d41b25fb12774038e739fbe645cf5da6ff",
+    "audit/customize-source-review-20261011/source-manifest.json": "01f712b0715ac23325b6a0301980136624ba94cbcf732f83ebfc31cfd933ade5",
+    "audit/customize-source-review-20261011/review.json": "1aae3e149de936ad9c06e91084a183cefbbf2565cd839510953e69b7031963e1",
+    "audit/customize-source-review-20261011/source-continuity.json": "c25b341b2d2b7fc37094d874e7184c6b7adf2e9521c8c919a507ac91d14c8496"
+  },
+  "counts": {
+    "preserved_sources": 40,
+    "selected_sources": 38,
+    "historical_only_sources": 2,
+    "figures_per_locale": 10,
+    "checks": 199,
+    "failed_checks": 0
+  },
+  "discount_caps": {
+    "es": 245,
+    "en": 330,
+    "help_viewports": [
+      "desktop",
+      "mobile"
+    ],
+    "actual_capture_layout": "desktop_detail"
+  },
+  "findings": [],
+  "checks": [
+    {
+      "check": "HEAD equals base046e",
+      "pass": true
+    },
+    {
+      "check": "Base metadata equality",
+      "pass": true
+    },
+    {
+      "check": "Plan binds preserved inputs and register hashes",
+      "pass": true
+    },
+    {
+      "check": "Retained review byteexact review.json",
+      "pass": true
+    },
+    {
+      "check": "Retained review byteexact source-manifest.json",
+      "pass": true
+    },
+    {
+      "check": "Retained review byteexact source-continuity.json",
+      "pass": true
+    },
+    {
+      "check": "Register review binding",
+      "pass": true
+    },
+    {
+      "check": "Register source_currency binding",
+      "pass": true
+    },
+    {
+      "check": "Article/original/base equality es",
+      "pass": true
+    },
+    {
+      "check": "Heading metadata es",
+      "pass": true
+    },
+    {
+      "check": "Liquid link metadata es",
+      "pass": true
+    },
+    {
+      "check": "Original figure count es",
+      "pass": true
+    },
+    {
+      "check": "Original figure block es/prompt",
+      "pass": true
+    },
+    {
+      "check": "Original figure block es/tone",
+      "pass": true
+    },
+    {
+      "check": "Original figure block es/intents",
+      "pass": true
+    },
+    {
+      "check": "Original figure block es/knowledge",
+      "pass": true
+    },
+    {
+      "check": "Original figure block es/web-search",
+      "pass": true
+    },
+    {
+      "check": "Original figure block es/properties",
+      "pass": true
+    },
+    {
+      "check": "Original figure block es/channels",
+      "pass": true
+    },
+    {
+      "check": "Original figure block es/discount-percent",
+      "pass": true
+    },
+    {
+      "check": "Original figure block es/escalation",
+      "pass": true
+    },
+    {
+      "check": "Original figure block es/route-assignment",
+      "pass": true
+    },
+    {
+      "check": "Article/original/base equality en",
+      "pass": true
+    },
+    {
+      "check": "Heading metadata en",
+      "pass": true
+    },
+    {
+      "check": "Liquid link metadata en",
+      "pass": true
+    },
+    {
+      "check": "Original figure count en",
+      "pass": true
+    },
+    {
+      "check": "Original figure block en/prompt",
+      "pass": true
+    },
+    {
+      "check": "Original figure block en/tone",
+      "pass": true
+    },
+    {
+      "check": "Original figure block en/intents",
+      "pass": true
+    },
+    {
+      "check": "Original figure block en/knowledge",
+      "pass": true
+    },
+    {
+      "check": "Original figure block en/web-search",
+      "pass": true
+    },
+    {
+      "check": "Original figure block en/properties",
+      "pass": true
+    },
+    {
+      "check": "Original figure block en/channels",
+      "pass": true
+    },
+    {
+      "check": "Original figure block en/discount-percent",
+      "pass": true
+    },
+    {
+      "check": "Original figure block en/escalation",
+      "pass": true
+    },
+    {
+      "check": "Original figure block en/route-assignment",
+      "pass": true
+    },
+    {
+      "check": "Preserved stub",
+      "pass": true
+    },
+    {
+      "check": "Preserved shared_work_record",
+      "pass": true
+    },
+    {
+      "check": "Full CSV unchanged",
+      "pass": true
+    },
+    {
+      "check": "Exact inventory header and row preserved; row hash excludes header and includes line ending",
+      "pass": true
+    },
+    {
+      "check": "CSV counts",
+      "pass": true
+    },
+    {
+      "check": "CSV row metadata",
+      "pass": true
+    },
+    {
+      "check": "Rule hash AGENTS.md",
+      "pass": true
+    },
+    {
+      "check": "Rule hash docs/editorial/skills/hellotext-editorial/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "Rule hash docs/editorial/guide.md",
+      "pass": true
+    },
+    {
+      "check": "Rule hash docs/editorial/screenshots.md",
+      "pass": true
+    },
+    {
+      "check": "Rule hash docs/editorial/workflow.md",
+      "pass": true
+    },
+    {
+      "check": "Rule hash docs/editorial-integration.md",
+      "pass": true
+    },
+    {
+      "check": "Exact unique 40-source matrix",
+      "pass": true
+    },
+    {
+      "check": "38 selected / 2 historical / 0 new",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/channels-es-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/channels-es.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/handoff-es-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/handoff-es.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/style-refresh/fields-es-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/style-refresh/fields-es.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/tone-es-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/tone-es.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/subscriber-booster/discount-es.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/subscriber-booster/discount-mobile-es.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/team/ai-handoff-to-inbox/assignment-es.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/team/ai-handoff-to-inbox/intents-es.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/channels-en-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/channels-en.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/handoff-en-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/handoff-en.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/style-refresh/fields-en-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/style-refresh/fields-en.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/tone-en-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/property-collector/tone-en.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/subscriber-booster/discount-en.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/captures/subscriber-booster/discount-mobile-en.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/team/ai-handoff-to-inbox/assignment-en.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+      "pass": true
+    },
+    {
+      "check": "Asset hash/metadata/base/manifest binding images/team/ai-handoff-to-inbox/intents-en.png",
+      "pass": true
+    },
+    {
+      "check": "Ten ordered IDs per locale",
+      "pass": true
+    },
+    {
+      "check": "Plan order es",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata es/prompt",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute es/prompt",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/prompt/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/prompt/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width es/prompt",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata es/tone",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute es/tone",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/tone/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/tone/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width es/tone",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata es/intents",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute es/intents",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/intents/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/intents/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width es/intents",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata es/knowledge",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute es/knowledge",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/knowledge/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/knowledge/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width es/knowledge",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata es/web-search",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute es/web-search",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/web-search/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/web-search/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width es/web-search",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata es/properties",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute es/properties",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/properties/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/properties/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width es/properties",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata es/channels",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute es/channels",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/channels/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/channels/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width es/channels",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata es/discount-percent",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute es/discount-percent",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/discount-percent/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/discount-percent/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width es/discount-percent",
+      "pass": true
+    },
+    {
+      "check": "Discount desktop detail truthful / both views / cap es",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata es/escalation",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute es/escalation",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/escalation/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/escalation/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width es/escalation",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata es/route-assignment",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute es/route-assignment",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/route-assignment/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap es/route-assignment/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width es/route-assignment",
+      "pass": true
+    },
+    {
+      "check": "Plan order en",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata en/prompt",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute en/prompt",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/prompt/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/prompt/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width en/prompt",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata en/tone",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute en/tone",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/tone/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/tone/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width en/tone",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata en/intents",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute en/intents",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/intents/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/intents/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width en/intents",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata en/knowledge",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute en/knowledge",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/knowledge/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/knowledge/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width en/knowledge",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata en/web-search",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute en/web-search",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/web-search/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/web-search/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width en/web-search",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata en/properties",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute en/properties",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/properties/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/properties/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width en/properties",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata en/channels",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute en/channels",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/channels/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/channels/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width en/channels",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata en/discount-percent",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute en/discount-percent",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/discount-percent/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/discount-percent/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width en/discount-percent",
+      "pass": true
+    },
+    {
+      "check": "Discount desktop detail truthful / both views / cap en",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata en/escalation",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute en/escalation",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/escalation/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/escalation/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width en/escalation",
+      "pass": true
+    },
+    {
+      "check": "Plan retains original metadata en/route-assignment",
+      "pass": true
+    },
+    {
+      "check": "Stable attribute en/route-assignment",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/route-assignment/mobile",
+      "pass": true
+    },
+    {
+      "check": "Selected view/cap en/route-assignment/desktop",
+      "pass": true
+    },
+    {
+      "check": "Frame width en/route-assignment",
+      "pass": true
+    },
+    {
+      "check": "Plan selects exactly 38 registered sources",
+      "pass": true
+    },
+    {
+      "check": "Exactly two historical full desktop Discount cards excluded",
+      "pass": true
+    },
+    {
+      "check": "No tracked differences from base",
+      "pass": true
+    },
+    {
+      "check": "Only preparation CAP untracked",
+      "pass": true
+    }
+  ],
+  "git_status_observed": "?? docs/editorial-work/captures/customize-safely-completion-20261011/\n",
+  "limits": [
+    "Inherited source pixel review remains attributable to its original reviewer; no new pixel PASS issued here.",
+    "Prepared plan has not been applied; new captures and complete rendered Help QA remain pending."
+  ],
+  "writes": "Only this independent audit receipt; no Help, assets, CSV or external writes.",
+  "reviewer_method_note": "Inventory-row artifact intentionally contains CSV header plus unchanged row. Its declared row hash correctly hashes only the row including its newline."
+}

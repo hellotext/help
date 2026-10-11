@@ -1,0 +1,582 @@
+{
+  "schema": "customize-source-pixels-en-v1",
+  "status": "passed",
+  "locale": "en",
+  "reviewer": "guide_review",
+  "recorded_at_utc": "2026-10-11T12:16:21.519219+00:00",
+  "scope": "Individual visual inspection and native PNG metadata of all 14 new English source captures only. Does not approve runtime closure, final Help rendering, inventory completion or publication.",
+  "source_root": "audit/next-batches-after-404-20261011/customize-capture/sources",
+  "figure_plan": {
+    "path": "audit/next-batches-after-404-20261011/customize-editorial/figure-plan-v2.json",
+    "sha256": "7e232e803bf04ff20c5ee77bd3599490a451661209b3fd60163712383d566401"
+  },
+  "records": [
+    {
+      "id": "followup-controls",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "followup-controls-en-desktop.png",
+      "sha256": "f480f31519739c4810a4ea2304a3753b8fbe5773bb678ee030999b87e9c9e2f6",
+      "clip": [
+        48,
+        120,
+        576,
+        496
+      ],
+      "pixelSize": [
+        2304,
+        1984
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:08:05.610Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "status": "passed",
+      "notes": [
+        "Individually viewed: complete Follow-up heading, description and three controls; count1, wait2 Minutes and current AI Analysis are readable.",
+        "Zero-nudge and uniform-wait help lines fit; complete control borders, no pointer, debug overlay or clipped content.",
+        "Visible prepared configuration only; no saved setting or reminder-send outcome is inferred."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "2395e2af82bca9092acf8845d3fbf8c89f4918b8afa6fec0ec10b8b1fa9dc6f0",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original-detail request; original source bytes unchanged. Platform may resize the delivered display."
+    },
+    {
+      "id": "followup-controls",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        120,
+        390,
+        516
+      ],
+      "pixelSize": [
+        1560,
+        2064
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:08:58.802Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "followup-controls-en-mobile.png",
+      "sha256": "c2e465aedea99cc4c04e8d3525f7635f962c0e2bd22467d29f43c27577d82b38",
+      "status": "passed",
+      "notes": [
+        "Complete mobile Follow-up heading, description, Learn more, count of one, two-minute wait and AI Analysis selection; explanatory text wraps within the native width.",
+        "No clipped labels, control borders, cursor or development chrome; source configuration is illustrative."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "62de37720b1520a3494e30005561738222102fe17689174d8095bb615d0f2781",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    },
+    {
+      "id": "followup-actions",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        48,
+        496,
+        576,
+        300
+      ],
+      "pixelSize": [
+        2304,
+        1200
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:08:34.438Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "followup-actions-en-desktop.png",
+      "sha256": "d5053e4529e182ddb933065fd66cf52cc6396084dd85496f4eb3fff21e4a2b82",
+      "status": "passed",
+      "notes": [
+        "Complete final-action menu: AI Analysis with recommended label and explanation, close conversation and hand off to a person. All option boundaries and descriptions visible.",
+        "No visible clipping, cursor or development chrome; opening the menu does not evidence executing any action."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "ffe9c0bd54c4ccfbf53a044a31ae91ff5f46f2a3109f3d56e943556cea90c4f1",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    },
+    {
+      "id": "followup-actions",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        531,
+        390,
+        333
+      ],
+      "pixelSize": [
+        1560,
+        1332
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:09:30.484Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "followup-actions-en-mobile.png",
+      "sha256": "3dae7f60dce49073ad9d3c3d4d4e09d11849a9a4828e4300d9d6e919a5a4065d",
+      "status": "passed",
+      "notes": [
+        "Complete mobile final-action menu with recommended AI Analysis explanation, close and human handoff options; native wrapping fits the captured width.",
+        "No clipped option, cursor or development chrome. Menu visibility does not evidence executing a final action."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "8fba04c9b78eb86427694c70d75a1e3217eef1d07850d8a644f42e6066620f38",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    },
+    {
+      "id": "followup-sequence",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        688,
+        113,
+        576,
+        421
+      ],
+      "pixelSize": [
+        2304,
+        1684
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:08:49.321Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "followup-sequence-en-desktop.png",
+      "sha256": "d581a35b70f0b61691a03011c8577f653054be40a075e9567cd004ebee43d6ab",
+      "status": "passed",
+      "notes": [
+        "Complete native illustrative sequence: initial exchange, two wait indicators, one follow-up nudge and final AI-analysis action. Example-conversation disclaimer is fully visible.",
+        "No visible clipping, cursor or development chrome. Illustration does not evidence a sent message or actual final action."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "9ee90e7cd3b227e4858ade6756463c2f486f6c835bd82346c07aef0b58b79421",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    },
+    {
+      "id": "followup-sequence",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        117,
+        390,
+        473
+      ],
+      "pixelSize": [
+        1560,
+        1892
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:09:44.714Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "followup-sequence-en-mobile.png",
+      "sha256": "9e1f9edf10980b6f1925b1290ea4844ec23b209160932844673906505c23f207",
+      "status": "passed",
+      "notes": [
+        "Complete mobile native illustrative sequence with initial exchange, both two-minute waits, one nudge, final action explanation and full example-conversation disclaimer.",
+        "No clipped text or bubbles, cursor or development chrome; this is a native illustration, not a sent conversation."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "50eb0b439469095cee005170c0c429eecf67db752030d104993251ccc3405d0b",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    },
+    {
+      "id": "store-promotions-entry",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        48,
+        571,
+        576,
+        246
+      ],
+      "pixelSize": [
+        2304,
+        984
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:10:22.499Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "store-promotions-entry-en-desktop.png",
+      "sha256": "4fcec78406799ef89380c06327a1aa44ecaee64e6b4bf3d6690d99c40ef69117",
+      "status": "passed",
+      "notes": [
+        "Entire selected store-offers-only card and its native description are visible, including the complete View store promotions button and card boundary.",
+        "No clipping, cursor or development chrome. Existing selection is shown; this does not evidence selecting or saving it."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "92b46f14a6b1bb5b49394d54ce4f10705b09b708440d325a906319b61cfac1b4",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    },
+    {
+      "id": "store-promotions-entry",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        655,
+        390,
+        342
+      ],
+      "pixelSize": [
+        1560,
+        1368
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:10:48.546Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "store-promotions-entry-en-mobile.png",
+      "sha256": "0bbb81393b14d91a56f6ad03f34e14886ead93ccc102f427ae624a3144fcf8ad",
+      "status": "passed",
+      "notes": [
+        "Entire selected store-offers-only mobile card is visible; heading, description and View store promotions button wrap completely inside the native card.",
+        "No clipping, cursor or development chrome. Entry point is separate from the promotions drawer; no selection or save is claimed."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "57d2884d400037cef23b9965d0ab36b2e00ffd8ec6a951e4a5f2147d092fb06b",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    },
+    {
+      "id": "store-promotions",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        0,
+        97,
+        537,
+        1023
+      ],
+      "pixelSize": [
+        2148,
+        4092
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:11:42.019Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "store-promotions-en-desktop.png",
+      "sha256": "afd54fd3bf23213ea4f65d8bbd7de1326c3fc321690308db33e7fcc9eddd1289",
+      "status": "passed",
+      "notes": [
+        "Complete native promotions drawer: heading, explanation, search/filter, four fictional rows with types, source status, schedule and date interval, and Restore defaults.",
+        "The third row is disabled in the store while its playbook inclusion switch is on; the discount is enabled in the store while its inclusion switch is off. These distinct states are visually clear.",
+        "Spanish fictional promotion names are stored data within English native UI. No clipping, cursor or development chrome; no provider activation, checkout or toggle operation is evidenced."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "7f448a4d981380166cd86ef2b2b91e98d6fb0d1815d5110afef78bb4c1ec8308",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    },
+    {
+      "id": "store-promotions",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        117,
+        390,
+        1023
+      ],
+      "pixelSize": [
+        1560,
+        4092
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:13:05.682Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "store-promotions-en-mobile.png",
+      "sha256": "18c90739be4dad1156e8680b2a8adb84dd0fd0a9d0f97975ce2a065a3027086e",
+      "status": "passed",
+      "notes": [
+        "Complete native mobile drawer with four fictional rows, source statuses, schedules, date intervals, inclusion switches and Restore defaults; all content fits the native 390-CSS-pixel crop without clipping.",
+        "The disabled-in-store third row remains included, and the enabled-in-store discount is excluded; source status and playbook inclusion are distinct. Spanish promotion names are fictional stored data in English UI.",
+        "No cursor or development chrome; no activation, checkout, toggle or save is evidenced."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "e6f08d82f7533a4bb3319a0c505c196b3632df560a897f4604d1b1a192f10758",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    },
+    {
+      "id": "promotion-filter",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        0,
+        97,
+        537,
+        442
+      ],
+      "pixelSize": [
+        2148,
+        1768
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:12:21.411Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "promotion-filter-en-desktop.png",
+      "sha256": "b47a580465fbc2157e64ae02307d959bfd8f79a7f5be6c51df87038f9ba7cc8f",
+      "status": "passed",
+      "notes": [
+        "Complete five-option native kind menu, existing Discounts checkmark and search query for the fictional discount. Gray hover on Buy and get a gift is distinct from the selected Discounts row.",
+        "The native menu overlaps part of the result schedule and switch; this capture explains filtering only and does not claim visibility of the obscured state. No clipped menu labels, cursor or development chrome."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "fb9941c53c68b29822a9f7045ce688982309fb3c77844727f4036ed33c9b35a2",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    },
+    {
+      "id": "promotion-filter",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        117,
+        390,
+        454
+      ],
+      "pixelSize": [
+        1560,
+        1816
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:13:35.313Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "promotion-filter-en-mobile.png",
+      "sha256": "cf7921b307020dda6d7f983c47305f1f87b3b7b9c8ebad9358c0662fa3800c87",
+      "status": "passed",
+      "notes": [
+        "Complete five-option mobile native kind menu; Discounts remains checked and the gray Buy and get a gift row is a hover state. Search query and drawer explanation are visible.",
+        "Menu naturally overlaps parts of the result title, status, schedule and switch. Only filtering is evidenced; no claim is made about obscured result fields. All menu labels and boundaries fit without clipping; no cursor or development chrome."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "787fc80eacbab74306f15f780b98156da8c1141cbbef93f95b9ed8c15e35a70c",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    },
+    {
+      "id": "agent-wait-notice",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        819,
+        0,
+        461,
+        560
+      ],
+      "pixelSize": [
+        1844,
+        2240
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:14:40.411Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "agent-wait-notice-en-desktop.png",
+      "sha256": "85604360c2dfb412415e0739088806d7736db3528ecc8b5b24d4e3da453d8301",
+      "status": "passed",
+      "notes": [
+        "Stored six-hour wait and Hours unit remain visible in disabled controls under the native Followup notice; the full notice and Edit Followup link are legible.",
+        "The existing fictional step/playbook names remain Spanish stored data within English native UI. Full context and notice boundaries are visible without clipping, cursor or development chrome.",
+        "The native notice overlaps the lower control boundary; this is authentic disabled UI. Six hours is not claimed as the active wait, and no route execution or edit-link activation is evidenced."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "1afd6d87c50bd115597539c4c1a2b96119618492d7b61718d6a4c5019cdc5706",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    },
+    {
+      "id": "agent-wait-notice",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        584
+      ],
+      "pixelSize": [
+        1560,
+        2336
+      ],
+      "nativeDensity": 4,
+      "capturedAt": "2026-10-11T12:15:03.859Z",
+      "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+      "file": "agent-wait-notice-en-mobile.png",
+      "sha256": "692d58a98936254c8b90df9baa0d4647268952da7bdc6b5617188eb29929b506",
+      "status": "passed",
+      "notes": [
+        "Complete mobile Agent context, stored six-hour wait with disabled controls, full native Followup notice and Edit Followup link. Native wrapping fits within the crop without clipped text.",
+        "Spanish fictional names are stored data, while instructions and notice are English. The authentic overlay partly covers the disabled control boundary; no cursor or development chrome.",
+        "The step value is not the active wait policy. The screenshot does not evidence executing the route or activating the edit link."
+      ],
+      "metadata": {
+        "all_chunk_crcs_valid": true,
+        "complete_png": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "dimensions_match_native_4x_clip": true,
+        "sidecar_sha256": "cd788b605f37ec10c2dc5f8eb431a6c064fa6ffae229819a27352ba6e8e5be54",
+        "prepost_state_equal": true,
+        "all_visible_proofs_passed": true
+      },
+      "inspection_method": "Individual view_image original requested; platform may resize display; source unchanged."
+    }
+  ],
+  "count": 14,
+  "findings": [],
+  "evidence": [
+    {
+      "path": "audit/next-batches-after-404-20261011/customize-editorial/source-pixels-en-followup-controls-desktop-partial.json",
+      "sha256": "c1846ba6be6199a005ac794e470d2327f09acfa2258671bcb2656059dcd820d7"
+    },
+    {
+      "path": "audit/next-batches-after-404-20261011/customize-editorial/source-pixels-en-followup-actions-sequence-desktop-controls-mobile-partial.json",
+      "sha256": "96e34933fb0586bb0be93f6d57f49b9330bfacb4f2d7d50fd76d1f777f91225f"
+    },
+    {
+      "path": "audit/next-batches-after-404-20261011/customize-editorial/source-pixels-en-followup-mobile-promotions-entry-partial.json",
+      "sha256": "aa8cca77fd86889c248b675c0aaae2c948c91b52d62a85daaa1cdeea1a07be4b"
+    },
+    {
+      "path": "audit/next-batches-after-404-20261011/customize-editorial/source-pixels-en-promotions-desktop-partial.json",
+      "sha256": "7e003598ab988cc6269cf7906b405b021a11084524e104870c4bdf5c1788795a"
+    },
+    {
+      "path": "audit/next-batches-after-404-20261011/customize-editorial/source-pixels-en-promotions-mobile-partial.json",
+      "sha256": "aba9fc6e75816507abc0de479cc10baaf1a58263fc174adf2b645e79017867e0"
+    }
+  ],
+  "source_bindings_observed": {
+    "captureHelperSha256": "dd88a7f98fcd1e192ae52b73bbc791f76bf5506bf04108ebd6cbac4d997902d4",
+    "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+    "readContractSha256": "16787a291b1a5cb6716feefecac45e0a14d9b7270dc09b0fefab167c457f0dff",
+    "runtimeContractSha256": "da489e50b067feb54c99c1aeca163142d426bcea4059342faf3f3dabb80733c3",
+    "launchReviewSha256": "808de436b3ff23ed3546c5714ff1f42f55197050b8ce01647d34a873c612b10f"
+  },
+  "checks": {
+    "individually_viewed_with_view_image": 14,
+    "source_sha_revalidated_at_close": 14,
+    "sidecar_sha_revalidated_at_close": 14,
+    "all_chunk_crcs_valid": 14,
+    "native_density4_clip_dimensions": 14,
+    "embedded_display_p3": 14,
+    "prepost_state_equal": 14,
+    "concepts": 7,
+    "layouts_per_concept": [
+      "desktop",
+      "mobile"
+    ],
+    "no_source_modifications": true
+  },
+  "limitations": [
+    "Native illustration and existing fictional local state only; no sent message, provider activation, checkout, save or executed route is inferred.",
+    "The filter menu naturally overlays result fields. The Agent notice naturally overlays part of disabled controls; six hours is not the active wait policy.",
+    "Spanish fictional promotion, step and playbook names are stored data within native English interface text.",
+    "Source review is not rendered Help readability acceptance. Individual original image inspection was requested; the platform resized some displayed previews without changing source bytes.",
+    "Private body text, control values and network records were not copied into this receipt."
+  ],
+  "remaining_for_article": [
+    "Root admission and final source manifest/runtime closure evidence",
+    "Local Help integration and build/security validation",
+    "Complete rendered ES/EN Help review at 1440, 580 and 390 including each full-page segment and each figure detail"
+  ]
+}

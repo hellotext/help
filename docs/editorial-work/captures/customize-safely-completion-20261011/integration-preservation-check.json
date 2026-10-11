@@ -1,0 +1,40 @@
+{
+  "schema": "customize-integration-preservation-v1",
+  "status": "passed",
+  "at": "2026-10-11T12:24:06.442720+00:00",
+  "integration_record": {
+    "file": "integration-record.json",
+    "sha256": "7926d7fa8faf21b45a8ceae55eab8dd9ca536ef0f23f82c427287ab2d2160153"
+  },
+  "articles": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/journeys/how-to-customize-a-playbook-safely.md",
+      "sha256": "fbcf73ac6ab8bbc90abc0e7ae643bfc9c2cb790d30085971622199bc3232dc7b",
+      "headings": 25,
+      "h2": 16,
+      "liquid_links": 29,
+      "figures": 17,
+      "prose_delta": "exactly bound copy replacements and figure lead-ins"
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/journeys/how-to-customize-a-playbook-safely.md",
+      "sha256": "39fc8f3d15c875e405a2ab7997026cf685f09ddfb1f88c33def4089167d6cd61",
+      "headings": 25,
+      "h2": 16,
+      "liquid_links": 29,
+      "figures": 17,
+      "prose_delta": "exactly bound copy replacements and figure lead-ins"
+    }
+  ],
+  "retained_source_bytes_preserved": 40,
+  "new_sources_copied_byte_exact": 28,
+  "selected_sources": 66,
+  "historical_reference_only": 2,
+  "stub_inventory_shared_work_record_and_rules_unchanged": true,
+  "global_css_js_config_edits": false,
+  "build_and_rendered_help_qa": "pending",
+  "inventory_closure": false,
+  "external_writes": 0
+}

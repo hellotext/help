@@ -1,0 +1,119 @@
+{
+  "schema": "customize-integration-figure-plan-v1",
+  "status": "ready_for_source_admission",
+  "figures": [
+    {
+      "id": "followup-controls",
+      "concept_id": "followup-controls",
+      "es": {
+        "anchor": "3. En **Si todavía no hay respuesta**, elige la acción final.",
+        "lead": "Este ejemplo ficticio tiene un recordatorio, una espera de dos minutos y Análisis de IA como acción final.",
+        "alt": "Controles de Seguimiento con un recordatorio, espera de dos minutos y Análisis de IA.",
+        "caption": "Configuración existente de una misión ficticia deshabilitada; no se cambió ni guardó durante la captura."
+      },
+      "en": {
+        "anchor": "3. Under **If there’s still no reply**, choose the final action.",
+        "lead": "This fictional example has one nudge, a two-minute wait, and AI Analysis as the final action.",
+        "alt": "Follow-up controls with one nudge, a two-minute wait, and AI Analysis.",
+        "caption": "Existing settings of a disabled fictional playbook; no setting was changed or saved during capture."
+      }
+    },
+    {
+      "id": "followup-actions",
+      "concept_id": "followup-actions",
+      "es": {
+        "anchor": "En **Si todavía no hay respuesta**, elige qué ocurre después de la última espera: **Análisis de IA**, **Cerrar la conversación** o **Transferir a una persona**.",
+        "lead": null,
+        "alt": "Menú de acción final con Análisis de IA, Cerrar la conversación y Transferir a una persona.",
+        "caption": "Opciones de la acción final; el menú se abrió sin elegir otra opción ni guardar."
+      },
+      "en": {
+        "anchor": "Under **If there’s still no reply**, choose what happens after the final wait: **AI Analysis**, **Close the conversation**, or **Hand off to a person**.",
+        "lead": null,
+        "alt": "Final-action menu with AI Analysis, Close the conversation, and Hand off to a person.",
+        "caption": "Final-action choices; the menu was opened without choosing another option or saving."
+      }
+    },
+    {
+      "id": "followup-sequence",
+      "concept_id": "followup-sequence",
+      "es": {
+        "anchor": "La vista previa muestra una conversación de ejemplo con las esperas, los recordatorios y la acción elegida. Sus mensajes son ilustrativos; el agente redacta los mensajes reales según cada conversación.",
+        "lead": null,
+        "alt": "Vista previa ilustrativa de Seguimiento con una espera, un recordatorio, otra espera y Análisis de IA.",
+        "caption": "Ejemplo nativo para un recordatorio y esperas de dos minutos; no son mensajes enviados ni acciones ejecutadas."
+      },
+      "en": {
+        "anchor": "The preview shows an example conversation with the waits, nudges, and selected action. Its messages are illustrative; the agent writes real messages based on each conversation.",
+        "lead": null,
+        "alt": "Illustrative Follow-up preview with a wait, one nudge, another wait, and AI Analysis.",
+        "caption": "Native example for one nudge and two-minute waits; these are not sent messages or executed actions."
+      }
+    },
+    {
+      "id": "store-promotions-entry",
+      "concept_id": "store-promotions-entry",
+      "es": {
+        "anchor": "5. Cierra el panel con su botón de cerrar o con Escape cuando termines.",
+        "lead": null,
+        "alt": "Estrategia de ofertas existentes seleccionada, con el botón Ver promociones de la tienda.",
+        "caption": "Botón para abrir el panel de promociones del ejemplo ficticio; la estrategia no se cambió ni se guardó."
+      },
+      "en": {
+        "anchor": "5. Close the panel with its close button or Escape when you finish.",
+        "lead": null,
+        "alt": "Existing-store-offers strategy selected, with the View store promotions button.",
+        "caption": "Button for opening the fictional example’s promotions panel; the strategy was not changed or saved."
+      }
+    },
+    {
+      "id": "store-promotions",
+      "concept_id": "store-promotions",
+      "es": {
+        "anchor": "Elegir una estrategia mantiene el panel cerrado hasta que pulses **Ver promociones de la tienda**. En escritorio, aparece a la izquierda y desplaza la configuración a la derecha; en pantallas más estrechas, ocupa el área del editor. Al cerrarlo, vuelves al editor.",
+        "lead": "El panel de este ejemplo contiene promociones ficticias y una selección por misión preparada previamente.",
+        "alt": "Panel de promociones de la tienda con promociones ficticias, horarios y controles de inclusión para la misión.",
+        "caption": "Sólo se abrió el panel para mostrar el ejemplo preparado; no se cambiaron promociones ni se guardaron ajustes."
+      },
+      "en": {
+        "anchor": "Selecting a strategy keeps the panel closed until you click **View store promotions**. On desktop, it opens on the left and moves configuration to the right; on narrower screens, it fills the editor area. Close it to return to the editor.",
+        "lead": "This example panel contains fictional promotions and a per-playbook selection prepared beforehand.",
+        "alt": "Store promotions panel with fictional promotions, schedules, and inclusion controls for the playbook.",
+        "caption": "The panel was opened to show the prepared example; no promotions were changed and no settings were saved."
+      }
+    },
+    {
+      "id": "promotion-filter",
+      "concept_id": "promotion-filter",
+      "es": {
+        "anchor": "El filtro ofrece **Todos los tipos**, **Combos**, **Compra y recibe un regalo**, **Lleva más, paga menos** y **Descuentos**. La búsqueda y el tipo se combinan; **Mostrar más** amplía los resultados de esa selección.",
+        "lead": null,
+        "alt": "Búsqueda de promociones y menú de tipos con Todos los tipos, Combos, Compra y recibe un regalo, Lleva más, paga menos y Descuentos.",
+        "caption": "El filtro delimita los resultados visibles; no cambia qué promociones están permitidas para la misión."
+      },
+      "en": {
+        "anchor": "The filter offers **All kinds**, **Combos**, **Buy and get a gift**, **Buy more, pay for fewer**, and **Discounts**. Search and kind work together; **Show more** extends the results for that selection.",
+        "lead": null,
+        "alt": "Promotion search and kind menu with All kinds, Combos, Buy and get a gift, Buy more, pay for fewer, and Discounts.",
+        "caption": "The filter narrows visible results; it does not change which promotions are allowed for the playbook."
+      }
+    },
+    {
+      "id": "agent-wait-notice",
+      "concept_id": "agent-wait-notice",
+      "es": {
+        "anchor": "Cuando la misión elegida incluye Seguimiento, este componente controla la espera del paso de agente, incluso con **Ninguno**. Puedes abrir la sección de espera para consultar su valor, pero sus controles están deshabilitados. Usa **Editar Seguimiento** en el aviso para cambiar la configuración de la misión.",
+        "lead": "En este ejemplo, la espera de seis horas del paso está deshabilitada porque la controla Seguimiento.",
+        "alt": "Espera de seis horas deshabilitada en el paso de agente, con el aviso de Seguimiento y el enlace Editar Seguimiento.",
+        "caption": "El valor del paso no es la espera activa: se aplica el Seguimiento de la misión. La ruta permanece como borrador."
+      },
+      "en": {
+        "anchor": "When the selected playbook includes Follow-up, this component controls the Agent step's wait, including with **None**. You can expand the Wait section to review its value, but its controls are disabled. Use **Edit Followup** in the notice to change the playbook's settings.",
+        "lead": "In this example, the step’s six-hour wait is disabled because Follow-up controls it.",
+        "alt": "Disabled six-hour wait in the Agent step, with the Followup notice and Edit Followup link.",
+        "caption": "The step value is not the active wait: the playbook’s Follow-up applies. The route remains a draft."
+      }
+    }
+  ],
+  "limitation": "Seven concepts match 28 individually reviewed real sources. Pixel acceptance is limited to source images; root admission, local integration, build and complete rendered Help review remain separate gates."
+}

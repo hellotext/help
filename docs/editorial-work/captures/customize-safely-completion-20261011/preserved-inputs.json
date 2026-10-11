@@ -1,0 +1,429 @@
+{
+  "schema": "customize-preserved-inputs-v1",
+  "status": "preparation_only",
+  "base": "046e27c78f8431ad46f87a8e31048907b2d34d56",
+  "article_key": "journeys/how-to-customize-a-playbook-safely.md",
+  "articles": {
+    "es": {
+      "path": "_i18n/es/journeys/how-to-customize-a-playbook-safely.md",
+      "sha256": "7d5796c9891dfa8cc7d97640008ee8d6ee4c0d63be2f85dcafcfd3c1c072e61f",
+      "original": "originals/es.md",
+      "headings": [
+        "## Antes de editar",
+        "## Cuándo conviene deshabilitar",
+        "## Qué puedes personalizar",
+        "## Personaliza el prompt",
+        "## Personaliza el tono",
+        "## Personaliza intenciones",
+        "## Personaliza conocimiento",
+        "## Personaliza propiedades",
+        "## Personaliza canales",
+        "## Personaliza la estrategia de descuento",
+        "### Elige una estrategia",
+        "### Elige qué promociones de la tienda puede usar la misión",
+        "### Cómo funcionan los interruptores y los horarios",
+        "### Guarda o restaura tus selecciones",
+        "## Personaliza el seguimiento",
+        "### Elige la cantidad y la espera",
+        "### Elige la acción final",
+        "### Respuestas y cambios posteriores",
+        "### Valores iniciales",
+        "### Si usas el agente dentro de una ruta",
+        "## Personaliza derivación",
+        "## Personaliza journeys o rutas",
+        "## Prueba según el tipo de misión",
+        "## Revisa después del cambio",
+        "## Guías relacionadas"
+      ],
+      "liquid_links": [
+        "{% link _journeys/how-to-enable-a-playbook.md %}",
+        "{% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}",
+        "{% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}",
+        "{% link _journeys/custom-agent-playbook.md %}",
+        "{% link _captures/webchat-widget-playbook.md %}",
+        "{% link _journeys/how-to-write-a-great-prompt.md %}",
+        "{% link _journeys/custom-agent-playbook.md %}",
+        "{% link _captures/property-collector-playbook.md %}",
+        "{% link _journeys/smart-recommender-playbook.md %}",
+        "{% link _captures/webchat-widget-playbook.md %}",
+        "{% link _team/ai-handoff-to-inbox.md %}",
+        "{% link _journeys/how-to-enable-a-playbook.md %}",
+        "{% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}",
+        "{% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}",
+        "{% link _journeys/how-to-write-a-great-prompt.md %}",
+        "{% link _captures/property-collector-playbook.md %}",
+        "{% link _captures/webchat-widget-playbook.md %}",
+        "{% link _journeys/instant-answers-playbook.md %}",
+        "{% link _journeys/review-builder-playbook.md %}",
+        "{% link _journeys/csat-pulse-playbook.md %}",
+        "{% link _journeys/nps-pulse-playbook.md %}",
+        "{% link _journeys/return-and-exchange-helper-playbook.md %}",
+        "{% link _journeys/order-cancellation-assistant-playbook.md %}",
+        "{% link _journeys/custom-agent-playbook.md %}",
+        "{% link _team/ai-handoff-to-inbox.md %}",
+        "{% link _journeys/what-are-signals.md %}",
+        "{% link _journeys/getting-started-with-journeys.md %}",
+        "{% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}",
+        "{% link _analytics-reporting-attribution/playbook-reporting.md %}"
+      ],
+      "figure_count": 10,
+      "read_complete": true
+    },
+    "en": {
+      "path": "_i18n/en/journeys/how-to-customize-a-playbook-safely.md",
+      "sha256": "ee7b300463af91fb17107ed2c6f1e62aff16c98f83bef8580fed5ad5d4bae974",
+      "original": "originals/en.md",
+      "headings": [
+        "## Before you edit",
+        "## When to disable",
+        "## What you can customize",
+        "## Customize the prompt",
+        "## Customize tone",
+        "## Customize intents",
+        "## Customize knowledge",
+        "## Customize properties",
+        "## Customize channels",
+        "## Customize discount strategy",
+        "### Choose a strategy",
+        "### Choose which store promotions the playbook may use",
+        "### How switches and schedules work",
+        "### Save or restore your selections",
+        "## Customize follow-up",
+        "### Choose the count and wait",
+        "### Choose the final action",
+        "### Replies and later changes",
+        "### Starting values",
+        "### When using the agent in a route",
+        "## Customize handoff rules",
+        "## Customize journeys or routes",
+        "## Test based on playbook type",
+        "## Review after the change",
+        "## Related guides"
+      ],
+      "liquid_links": [
+        "{% link _journeys/how-to-enable-a-playbook.md %}",
+        "{% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}",
+        "{% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}",
+        "{% link _journeys/custom-agent-playbook.md %}",
+        "{% link _captures/webchat-widget-playbook.md %}",
+        "{% link _journeys/how-to-write-a-great-prompt.md %}",
+        "{% link _journeys/custom-agent-playbook.md %}",
+        "{% link _captures/property-collector-playbook.md %}",
+        "{% link _journeys/smart-recommender-playbook.md %}",
+        "{% link _captures/webchat-widget-playbook.md %}",
+        "{% link _team/ai-handoff-to-inbox.md %}",
+        "{% link _journeys/how-to-enable-a-playbook.md %}",
+        "{% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}",
+        "{% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}",
+        "{% link _journeys/how-to-write-a-great-prompt.md %}",
+        "{% link _captures/property-collector-playbook.md %}",
+        "{% link _captures/webchat-widget-playbook.md %}",
+        "{% link _journeys/instant-answers-playbook.md %}",
+        "{% link _journeys/review-builder-playbook.md %}",
+        "{% link _journeys/csat-pulse-playbook.md %}",
+        "{% link _journeys/nps-pulse-playbook.md %}",
+        "{% link _journeys/return-and-exchange-helper-playbook.md %}",
+        "{% link _journeys/order-cancellation-assistant-playbook.md %}",
+        "{% link _journeys/custom-agent-playbook.md %}",
+        "{% link _team/ai-handoff-to-inbox.md %}",
+        "{% link _journeys/what-are-signals.md %}",
+        "{% link _journeys/getting-started-with-journeys.md %}",
+        "{% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}",
+        "{% link _analytics-reporting-attribution/playbook-reporting.md %}"
+      ],
+      "figure_count": 10,
+      "read_complete": true
+    }
+  },
+  "figures": {
+    "es": [
+      {
+        "id": "prompt",
+        "locale": "es",
+        "original_block_sha256": "ee100d27b843152167233187077082acd713a92af1036fd201214cc01c721063",
+        "original_frame_max_width_css": 646,
+        "original_sources": {
+          "mobile": "images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+          "desktop": "images/journeys/how-to-customize-a-playbook-safely/prompt-es.png"
+        },
+        "alt": "Campo de prompt vacío en un borrador ficticio",
+        "caption": "Campo completo sin editar ni guardar."
+      },
+      {
+        "id": "tone",
+        "locale": "es",
+        "original_block_sha256": "eefadee36c3e482d190c60b69568a80839fd491c85a4da1bcfb09b938ad8c73f",
+        "original_frame_max_width_css": 593,
+        "original_sources": {
+          "mobile": "images/captures/property-collector/tone-es-mobile.png",
+          "desktop": "images/captures/property-collector/tone-es.png"
+        },
+        "alt": "Tres tonos seleccionados en un borrador",
+        "caption": "Opciones seleccionadas sin guardar."
+      },
+      {
+        "id": "intents",
+        "locale": "es",
+        "original_block_sha256": "019281a132e8a1824defbf21847beb8a0b0d84220fbed2af2c7381a9cfa4927c",
+        "original_frame_max_width_css": 646,
+        "original_sources": {
+          "mobile": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+          "desktop": "images/team/ai-handoff-to-inbox/intents-es.png"
+        },
+        "alt": "Frase de intención sin agregar",
+        "caption": "Borrador independiente sin clasificación."
+      },
+      {
+        "id": "knowledge",
+        "locale": "es",
+        "original_block_sha256": "8aa20a58aacd1facec9f33c5fff32c959aafedbd1659db4aac06a9112077b539",
+        "original_frame_max_width_css": 646,
+        "original_sources": {
+          "mobile": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+          "desktop": "images/journeys/how-to-customize-a-playbook-safely/upload-es.png"
+        },
+        "alt": "Área de conocimiento sin archivos",
+        "caption": "Formulario vacío sin subir documentos."
+      },
+      {
+        "id": "web-search",
+        "locale": "es",
+        "original_block_sha256": "83f606c64a55c4b31d3c2407fd27b8e5d5e293ad09f9be4c49dcb79d7a2560d9",
+        "original_frame_max_width_css": 646,
+        "original_sources": {
+          "mobile": "images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+          "desktop": "images/journeys/how-to-customize-a-playbook-safely/web_search-es.png"
+        },
+        "alt": "Campo de búsqueda web vacío",
+        "caption": "Placeholder sin URL añadida ni búsqueda ejecutada."
+      },
+      {
+        "id": "properties",
+        "locale": "es",
+        "original_block_sha256": "4f629accb7b5a5e9a8020a2e4e99291b31c24b2a2242f67c31ed51df8e2214f3",
+        "original_frame_max_width_css": 666,
+        "original_sources": {
+          "mobile": "images/captures/property-collector/style-refresh/fields-es-mobile.png",
+          "desktop": "images/captures/property-collector/style-refresh/fields-es.png"
+        },
+        "alt": "Nombre importante y correo opcional",
+        "caption": "Selección ficticia sin recopilación."
+      },
+      {
+        "id": "channels",
+        "locale": "es",
+        "original_block_sha256": "fd22db7cc20ea7c1a9bd6b42859bf1fa82ed13a9a6b1481a70b69b2f20c2b95a",
+        "original_frame_max_width_css": 593,
+        "original_sources": {
+          "mobile": "images/captures/property-collector/channels-es-mobile.png",
+          "desktop": "images/captures/property-collector/channels-es.png"
+        },
+        "alt": "Selección de canales de entrada sin guardar",
+        "caption": "Entrada automática y opción manual; no resultado de envío."
+      },
+      {
+        "id": "discount-percent",
+        "locale": "es",
+        "original_block_sha256": "a1749e4503a1d901d03aa085fc54c40cfe35a54e499d94be401e8e877651d07e",
+        "original_frame_max_width_css": 548,
+        "original_sources": {
+          "mobile": "images/captures/subscriber-booster/discount-mobile-es.png",
+          "desktop": "images/captures/subscriber-booster/discount-es.png"
+        },
+        "alt": "Porcentaje en la tarjeta de descuento compartida",
+        "caption": "Borrador de Subscriber Booster; tasa fija por ese flujo."
+      },
+      {
+        "id": "escalation",
+        "locale": "es",
+        "original_block_sha256": "e8c780424091915746e02a0a14c3d6775cb79eed6d7cbd0ef068c77b81220e99",
+        "original_frame_max_width_css": 593,
+        "original_sources": {
+          "mobile": "images/captures/property-collector/handoff-es-mobile.png",
+          "desktop": "images/captures/property-collector/handoff-es.png"
+        },
+        "alt": "Equipo ficticio en el control de derivación",
+        "caption": "Destino sin guardar ni asignar una conversación."
+      },
+      {
+        "id": "route-assignment",
+        "locale": "es",
+        "original_block_sha256": "5b9ec17c20a651d55a0244b8157692aab4434e4d5f3fac81b410f9b2e32fcd47",
+        "original_frame_max_width_css": 521,
+        "original_sources": {
+          "mobile": "images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+          "desktop": "images/team/ai-handoff-to-inbox/assignment-es.png"
+        },
+        "alt": "Cinco acciones en el componente Asignación",
+        "caption": "Componente independiente; no ruta ejecutada."
+      }
+    ],
+    "en": [
+      {
+        "id": "prompt",
+        "locale": "en",
+        "original_block_sha256": "a46611518dc81e761f78d46e4becc7cd5eb39c350c72029ccc0f9f27a52b8f3f",
+        "original_frame_max_width_css": 646,
+        "original_sources": {
+          "mobile": "images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+          "desktop": "images/journeys/how-to-customize-a-playbook-safely/prompt-en.png"
+        },
+        "alt": "Empty prompt field in a fictitious draft",
+        "caption": "Complete field without editing or saving."
+      },
+      {
+        "id": "tone",
+        "locale": "en",
+        "original_block_sha256": "3716cefe06011baac79c3548ca889a379b91099aad8e76151a04f5faff907a42",
+        "original_frame_max_width_css": 593,
+        "original_sources": {
+          "mobile": "images/captures/property-collector/tone-en-mobile.png",
+          "desktop": "images/captures/property-collector/tone-en.png"
+        },
+        "alt": "Three tones selected in a draft",
+        "caption": "Selected options without saving."
+      },
+      {
+        "id": "intents",
+        "locale": "en",
+        "original_block_sha256": "829b7a3854929b6d6724fec2585cc03ab4ad64ead8eddb0fb90a548dc1f12c60",
+        "original_frame_max_width_css": 646,
+        "original_sources": {
+          "mobile": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+          "desktop": "images/team/ai-handoff-to-inbox/intents-en.png"
+        },
+        "alt": "Intent phrase without adding",
+        "caption": "Independent draft without classification."
+      },
+      {
+        "id": "knowledge",
+        "locale": "en",
+        "original_block_sha256": "3f49fa0aa5aa5afefd1d0072b795f552ca14e3b98991be14b461e297ec3f4d97",
+        "original_frame_max_width_css": 646,
+        "original_sources": {
+          "mobile": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+          "desktop": "images/journeys/how-to-customize-a-playbook-safely/upload-en.png"
+        },
+        "alt": "Knowledge upload area without files",
+        "caption": "Empty form without document uploads."
+      },
+      {
+        "id": "web-search",
+        "locale": "en",
+        "original_block_sha256": "0bd491ad87745d9e13a0ad60330c5bab5ca6df52e785647de4aba1b80c3dfedb",
+        "original_frame_max_width_css": 646,
+        "original_sources": {
+          "mobile": "images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+          "desktop": "images/journeys/how-to-customize-a-playbook-safely/web_search-en.png"
+        },
+        "alt": "Empty web search field",
+        "caption": "Placeholder without an added URL or an executed search."
+      },
+      {
+        "id": "properties",
+        "locale": "en",
+        "original_block_sha256": "f41ff210cc4c11445bd4c388b4a6603a29143a9a83cc3457724c1bd13f23f644",
+        "original_frame_max_width_css": 666,
+        "original_sources": {
+          "mobile": "images/captures/property-collector/style-refresh/fields-en-mobile.png",
+          "desktop": "images/captures/property-collector/style-refresh/fields-en.png"
+        },
+        "alt": "Important name and optional email",
+        "caption": "Fictitious selection without collection."
+      },
+      {
+        "id": "channels",
+        "locale": "en",
+        "original_block_sha256": "16e1dc7cdae15cb4afdf7daf4ebf24cab15e2ab4f30cb028a69d617e0b9cf244",
+        "original_frame_max_width_css": 593,
+        "original_sources": {
+          "mobile": "images/captures/property-collector/channels-en-mobile.png",
+          "desktop": "images/captures/property-collector/channels-en.png"
+        },
+        "alt": "Unsaved incoming channel selection",
+        "caption": "Automatic incoming selection and manual option; no sending result."
+      },
+      {
+        "id": "discount-percent",
+        "locale": "en",
+        "original_block_sha256": "01e040de0745980c4da06f2fc02c0b115d60c29a2aa9bad3157ed1b64dd76748",
+        "original_frame_max_width_css": 548,
+        "original_sources": {
+          "mobile": "images/captures/subscriber-booster/discount-mobile-en.png",
+          "desktop": "images/captures/subscriber-booster/discount-en.png"
+        },
+        "alt": "Percentage in the shared discount card",
+        "caption": "Subscriber Booster draft; fixed rate for that flow."
+      },
+      {
+        "id": "escalation",
+        "locale": "en",
+        "original_block_sha256": "19f09297bde58351d5810aa04af3ce5a5e0296eb09a38799e6531b20df32d4bf",
+        "original_frame_max_width_css": 593,
+        "original_sources": {
+          "mobile": "images/captures/property-collector/handoff-en-mobile.png",
+          "desktop": "images/captures/property-collector/handoff-en.png"
+        },
+        "alt": "Fictitious team in the escalation control",
+        "caption": "Destination without saving or assigning a conversation."
+      },
+      {
+        "id": "route-assignment",
+        "locale": "en",
+        "original_block_sha256": "f1cc097ae33f002d04aaee3e97aeaa4890c14d2f6df532b89e0b408b3a99a980",
+        "original_frame_max_width_css": 521,
+        "original_sources": {
+          "mobile": "images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+          "desktop": "images/team/ai-handoff-to-inbox/assignment-en.png"
+        },
+        "alt": "Five actions in the Assignment component",
+        "caption": "Independent component; no executed route."
+      }
+    ]
+  },
+  "rules": {
+    "AGENTS.md": "493d8d3826b4e018014194b84be8410746415ffe8d2a99d06b3db7ecc6965239",
+    "docs/editorial/skills/hellotext-editorial/SKILL.md": "86124895b3087e4fbdc821f5dd9799de75268445d270fe9a6ee3e2ec99b6ecce",
+    "docs/editorial/guide.md": "a9e3c7e787fa77986e9170d7d00ab6a466824429852baddfb2603cf85dfe0419",
+    "docs/editorial/screenshots.md": "b2acb0e02a0335f8abcee233580630eb7746d45b6bc9df28b18976fdfb93ae02",
+    "docs/editorial/workflow.md": "0363ba36846fb227ead1b1f912f8f13dfa23099b8a68d9b85c82d0ab65e1cd28",
+    "docs/editorial-integration.md": "23e2c22a499f16778a1995b844b8dbe3e3067f70847379561f40d9e53b4e9f8e"
+  },
+  "no_article_or_image_edits": true,
+  "stub": {
+    "path": "_journeys/how-to-customize-a-playbook-safely.md",
+    "sha256": "52025d641e39c7d58430afe24bb7609668459aa6e46cca1a6c018dbacd013514",
+    "original": "originals/stub.md",
+    "routes": {
+      "es": "/es/como-personalizar-una-mision.html",
+      "en": "/how-to-customize-a-playbook-safely.html"
+    }
+  },
+  "inventory": {
+    "path": "docs/editorial-work/progress.csv",
+    "sha256": "a7fbdb265a30990d3083eda5f47963014842921b38c0576875c5acd2d45fad57",
+    "row": {
+      "article_key": "journeys/how-to-customize-a-playbook-safely.md",
+      "editorial_status": "in_progress",
+      "local_verified_commit": "1586f106f91e3e3b62f24ced8181d53c28e9a292",
+      "work_record": "docs/editorial-work/playbook-followup.md"
+    },
+    "row_sha256": "37e6c3c7ddf44a6b450173e9c8136b314567e233ae02892a7918a6f275076010",
+    "row_hash_includes_line_ending": true,
+    "counts": {
+      "local_verified": 117,
+      "pending": 32,
+      "out_of_scope": 1,
+      "in_progress": 3,
+      "visual_pending": 1
+    },
+    "modified": false
+  },
+  "shared_work_record": {
+    "path": "docs/editorial-work/playbook-followup.md",
+    "sha256": "d154d0575b284e56119db5fa17b8ff4631ea181afeda80c9085a47a77a4a2faf",
+    "modified": false,
+    "future_independent_record": "docs/editorial-work/customize-safely-completion.md"
+  },
+  "editorial_gitlink": "d5319b02e1c6a85f3a6294f11763b9be8dd58a43"
+}

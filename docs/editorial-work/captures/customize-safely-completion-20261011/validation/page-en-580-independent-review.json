@@ -1,0 +1,773 @@
+{
+  "status": "passed",
+  "locale": "en",
+  "width": 580,
+  "reviewer": "runtime_isolation",
+  "packet": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/en-580.json",
+    "sha256": "7bb8f2e23a079178888bea538f9983c429b1b24d32e43f57457c348f52ee8741"
+  },
+  "checkpoint_sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187",
+  "source": "_i18n/en/journeys/how-to-customize-a-playbook-safely.md",
+  "source_sha256": "39fc8f3d15c875e405a2ab7997026cf685f09ddfb1f88c33def4089167d6cd61",
+  "built_html": "_site/how-to-customize-a-playbook-safely.html",
+  "built_html_sha256": "8450efe78e5bbf42dc8dc232797e42fa9f987c5602c95c170f76fd96faf31a14",
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 26,
+    "coverage_start_css": 0,
+    "coverage_end_css": 28551,
+    "document_height_css": 28551,
+    "end_tolerance_css": 1,
+    "minimum_overlap_css": 100,
+    "notes": [
+      "All 26 page segments were individually opened with view_image at original detail and visually inspected in order, from header and complete title through every section, related guides, feedback/contact cards and the complete footer.",
+      "Prose, lists and all tables remain readable at this width. Wrapping stays inside the article column; no horizontal overflow, blank render or unintended clipping was observed. Segment boundaries are covered by overlaps, and the final segment reaches the document bottom exactly."
+    ]
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 17,
+    "notes": [
+      "All 17 detail PNGs were individually opened with view_image at original detail. Each lavender stage, white frame and inset is complete; native UI text and target controls remain readable at their displayed Help sizes.",
+      "The historical percentage selector remains a centered 330 CSS px detail, with all four choices visible. Store promotions includes its separate entry button, all four fictional promotions, dates, weekday and store-status versus playbook-switch distinction, and Restore defaults.",
+      "The search filter shows all five choices. Its native menu intentionally covers part of the result; the wait notice intentionally overlays disabled six-hour controls while keeping its explanation and Edit Followup link readable.",
+      "Follow-up controls, all three final actions and the complete illustrative sequence are legible. Escalation and the five-action route menu retain their full controls. No unintended crop, overflow or missing frame was found."
+    ]
+  },
+  "method": "Individual view_image calls with detail original, separate images rather than a contact sheet; the tool may scale display previews. No image, HTML or CSS transformation by reviewer. Metadata checks supplement rather than replace actual visual review. Independently validated all 43 file hashes, complete PNG structure and chunk CRCs, dimensions and embedded Display P3 profile hashes, plus frozen packet, checkpoint, source and built HTML hashes.",
+  "files": [
+    {
+      "file": "customize-safely-en-580-full-part1.png",
+      "sha256": "a744de265bc301361d5b89c0c2c7009cd0d5c7f753656c6af4c81142852589de",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part2.png",
+      "sha256": "40bcff83794aff60f824649868b06681ce34c62efa76b8caed0e24cc5961e073",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part3.png",
+      "sha256": "6e8537b6c34852420dcfc42dbe50d49fa61bf90b8c3d90c01472375289656a82",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part4.png",
+      "sha256": "4b23afb56af4305c475dc2f31697a6343fdfb15314471c243f9c3af18cd4eaa7",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part5.png",
+      "sha256": "f1b56fa9f6da036fd1546705698e2211dedcfb7d0e4d333208ed91ee7ab08f1f",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part6.png",
+      "sha256": "1ecedb1f1c1ae8954408f94523720ff971c276cefe79448696c11cf13eb10665",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part7.png",
+      "sha256": "96ac1fb5667387927ba5323c761e18806b7463fa7fb13860fe0118b309e625d3",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part8.png",
+      "sha256": "c27072202bee9ce54a1885765ca91e47ff43826dc1fc4d3306c787972492bd22",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part9.png",
+      "sha256": "d88f1bded69aa003eaf681f463559405cf9d7e80069969aef8e261351be3cfcf",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 8800,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part10.png",
+      "sha256": "c0971d8da9bb642dcc0cf6a091859c223e77610ef0bcdc8c510fc84fa4eb31e0",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 9900,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part11.png",
+      "sha256": "803a3282468fa4f580a3b23568bd8d1ab71671b0ebc5b325c4f976dd63c7c873",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 11000,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part12.png",
+      "sha256": "35c46576ecf9a74721ffb31a35b8ba71b110a4c9511cab353fa092f29e571b4e",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 12100,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part13.png",
+      "sha256": "8bf60687c94538f4626ba9a4e21823e05e29164cc3c0c1b1e6b7e1698b976d3c",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 13200,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part14.png",
+      "sha256": "d363dc84cf0029766f505748a6ce9d88219a2c4dd0cb154be202b953bfc1c10a",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 14300,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part15.png",
+      "sha256": "7d18995f05cff846f6023dafc56673ddb31611779cfb85dcab38f91c273c7544",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 15400,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part16.png",
+      "sha256": "36320f3f2e85d90e579ea545ccda8fe389d1c3e7ef555705a59ef35f519ab631",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 16500,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part17.png",
+      "sha256": "f1218c2a8705b36bd62dba3110c3be94f57d5fbcf03d716900f6854e7cb38099",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 17600,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part18.png",
+      "sha256": "c0265adf2417fde1a24e49ee3fe068b4b576b86d332e7917261e1a163e8dcbcb",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 18700,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part19.png",
+      "sha256": "5b227cfe821d23f4af794dd04150cc9a66b9885f1e80cdfc8d499f087dc38a32",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 19800,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part20.png",
+      "sha256": "e4fc595d80582916aa35482a0861e4e4682b6bf940906eb3d1ea2243e7b8e8e0",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 20900,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part21.png",
+      "sha256": "33cf34780ab8073743d1471cde396eaff1ff27b15698214a3a8c49fc8b231648",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 22000,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part22.png",
+      "sha256": "182cef287fc41b92191264de4587e310360cba770445e963c97a2e81d283e571",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 23100,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part23.png",
+      "sha256": "3a879d938628b36f35d8ab2b55271e40a6675fed99798d3856ec218424b90647",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 24200,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part24.png",
+      "sha256": "26909c415ddd183fab422be53903877c2c49d7e5210538d1c7aae3e3d396a504",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 25300,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part25.png",
+      "sha256": "9b959f036b1410cdf71b30d950b9ae5c4425f9bb84507b83958a5dfadd87acc9",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 26400,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-full-part26.png",
+      "sha256": "b2311cec9384402c5c812e4b3419fbeaeda2689729ad8be312f1a422927e94cc",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 27351,
+        "width": 580,
+        "height": 1200
+      },
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-prompt.png",
+      "sha256": "4a7ee1bc12b7e80d4b1c47672be74ca5c7b81e7e3de2ada325d73204d145fc38",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 4367,
+        "width": 572,
+        "height": 578
+      },
+      "pixel_size": [
+        1144,
+        1156
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-tone.png",
+      "sha256": "292b459275eb2462bacfa4c45645141232004791432cc3bceabcfa1dc84b21e6",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 5673,
+        "width": 572,
+        "height": 585
+      },
+      "pixel_size": [
+        1144,
+        1170
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-intents.png",
+      "sha256": "05cfb2784e0737f2c3caa402c52c10fce53cfcb19158af43050f8995bdd49ebb",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 7154,
+        "width": 572,
+        "height": 372
+      },
+      "pixel_size": [
+        1144,
+        744
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-knowledge.png",
+      "sha256": "16f2b69697df265a885374133fa4073cc2a2afff0111fca5aa51452e403a0a31",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 8190,
+        "width": 572,
+        "height": 502
+      },
+      "pixel_size": [
+        1144,
+        1004
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-web-search.png",
+      "sha256": "3df22157a81b6fb4e7542f4346ccba5818349f03f89a874144e5b54c60efcf11",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 9220,
+        "width": 572,
+        "height": 304
+      },
+      "pixel_size": [
+        1144,
+        608
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-properties.png",
+      "sha256": "c3299d62cc3f4a6d83a6f5f73a733c9536f6d6eeadacff035b09e8e6a0e79936",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 9904,
+        "width": 572,
+        "height": 461
+      },
+      "pixel_size": [
+        1144,
+        922
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-channels.png",
+      "sha256": "a4b4e88df5fa86c239968900038284cc12c852f399a41ebe943d7cbd98632a8b",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 11169,
+        "width": 572,
+        "height": 860
+      },
+      "pixel_size": [
+        1144,
+        1720
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-discount-percent.png",
+      "sha256": "0aae08747f4651cc2046410a854073535bd7c975f268ea734dcac7fe6db23ff2",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 13557,
+        "width": 572,
+        "height": 219
+      },
+      "pixel_size": [
+        1144,
+        438
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-store-promotions-entry.png",
+      "sha256": "12ddaeb9405b43aef284c79cf798845fabeebedfeda36c7315359f4c0ade3898",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 14233,
+        "width": 572,
+        "height": 443
+      },
+      "pixel_size": [
+        1144,
+        886
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-store-promotions.png",
+      "sha256": "d1cc3a763f390a5447b9367f2b6633a085de61d19363c895fa2d8816ed6ce197",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 14883,
+        "width": 572,
+        "height": 1124
+      },
+      "pixel_size": [
+        1144,
+        2248
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-promotion-filter.png",
+      "sha256": "a090c06827534b73c68a39fa0876d9391881d964e611cf4fc77ed8a2d58014c6",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 16126,
+        "width": 572,
+        "height": 555
+      },
+      "pixel_size": [
+        1144,
+        1110
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-followup-controls.png",
+      "sha256": "32f287ccc38bfacf9c0aa749fd46352222ba4afc4eb229c10da1048a429fc2fa",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 18695,
+        "width": 572,
+        "height": 617
+      },
+      "pixel_size": [
+        1144,
+        1234
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-followup-actions.png",
+      "sha256": "0d4304e76c0b7454e3d6bac260035dfda823cd128df842370ae00c8ea2b56e24",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 19953,
+        "width": 572,
+        "height": 434
+      },
+      "pixel_size": [
+        1144,
+        868
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-followup-sequence.png",
+      "sha256": "5fa1b9295d406f666eb8b5a7721ce88705b84781ee2cbbe921a5f9d18f924398",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 20618,
+        "width": 572,
+        "height": 574
+      },
+      "pixel_size": [
+        1144,
+        1148
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-agent-wait-notice.png",
+      "sha256": "a08e514c9049f5f973085c2eba6d480c39db30329d6d8398166136818a6b3e5f",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 22652,
+        "width": 572,
+        "height": 685
+      },
+      "pixel_size": [
+        1144,
+        1370
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-escalation.png",
+      "sha256": "8b4466130a732018527e740fc52560ffe72b98f7a3371dc57f5a000bbc05ee8c",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 24108,
+        "width": 572,
+        "height": 441
+      },
+      "pixel_size": [
+        1144,
+        882
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "customize-safely-en-580-route-assignment.png",
+      "sha256": "50e7c4bae3b3c276445e6ac086a099e26e114f0a5ef2912e25863a5cc02bf8ea",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 25220,
+        "width": 572,
+        "height": 751
+      },
+      "pixel_size": [
+        1144,
+        1502
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    }
+  ],
+  "findings": []
+}

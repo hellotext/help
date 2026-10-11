@@ -1,0 +1,184 @@
+{
+  "schema": "customize-local-runtime-public-completion-v1",
+  "status": "closed_and_verified",
+  "at": "2026-10-11T12:20:01.792821+00:00",
+  "scope": "Fictional local capture environment; no production account or external publication performed by this runtime.",
+  "fixture": {
+    "original_tables_preserved": 541,
+    "new_local_rows": 1,
+    "new_local_row_model": "Playbook::Bundle",
+    "new_override_enabled": true,
+    "configuration_integrations_changed": false,
+    "playbooks_enabled": false,
+    "native_fixture_jobs_enqueued": 0,
+    "native_fixture_jobs_performed": 0,
+    "native_fixture_provider_calls": 0
+  },
+  "final_state": {
+    "locale": "es",
+    "locale_transitions": [
+      "es\u2192en",
+      "en\u2192es"
+    ],
+    "locale_only_field": "users.locale of the single fixture actor",
+    "tables_equal_prepared": 541,
+    "sequence_values_equal_prepared": 536,
+    "persistent_capture_changes_beyond_prepared_fixture": 0,
+    "topology_repair_changed": false
+  },
+  "original_source": {
+    "row_types_values_and_hashes_equal": true,
+    "tables": 541,
+    "sequences": 536,
+    "schema_equal": true,
+    "writes": 0
+  },
+  "source_code": {
+    "revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+    "tracked_files_verified": 17691,
+    "manifest_sha256": "d28b8d6b6975cc08fa885adf7157af117863987f1e5ff427ca9671a68a8a576c",
+    "all_tracked_bytes_equal_after_capture": true,
+    "immutable_source_used": true,
+    "currency_scope": "Exact local source pin; external currency assessment is bound separately by the editorial owner."
+  },
+  "read_scope": {
+    "methods": [
+      "GET",
+      "HEAD"
+    ],
+    "exact_native_routes": 14,
+    "http_mutation_actions_authorized": 0,
+    "save_toggle_restore_provider_send_authorized": false,
+    "web_request_counters": "Owned by separate capture network summary; not inferred here."
+  },
+  "recovery": {
+    "initial_uri_error_before_fixture": true,
+    "initial_failed_boot_database_delta": 0,
+    "local_uri_format_only_corrected": true,
+    "transport_interruption": true,
+    "prior_process_shutdown_was_not_observed": true,
+    "recovery_reconciled_tables": 541,
+    "recovery_reconciled_sequences": 536,
+    "recovery_schema_equal": true,
+    "fixture_locale_bootstrap_repeated_during_recovery": false,
+    "cookie_and_keys_preserved": true
+  },
+  "closure": {
+    "roles_closed": [
+      "rails",
+      "redis",
+      "browser",
+      "proxy"
+    ],
+    "owned_listeners_remaining": 0,
+    "last_owned_processes_stopped_after_identity_verification": true,
+    "original_abrupt_termination_distinguished_from_final_shutdown": true,
+    "database_logs_and_artifacts_preserved": true,
+    "shared_configuration_or_services_changed": false
+  },
+  "bindings": [
+    {
+      "role": "clone",
+      "sha256": "9e9b502875a1715c86f0364635b5dc8e4980f95a8462747f4e929bf5407e0692",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "one_row_fixture",
+      "sha256": "edd56c208e5717b4fa185c23c01c010416bf2c7216f8f963e5fc9bf034975072",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "native_preflight",
+      "sha256": "c08d1cd19e99397efaa3f9346d6fac3840852a7645c3157d347f925eb1b35a29",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "native_routes",
+      "sha256": "f23076efac23907f62dd4ad130715d7f18ea67cdb05f5dbb4747b7d715367a9a",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "native_session",
+      "sha256": "0f413c65afc6b48bdb7ea4bab90514be4e930a8fb174d2b70f6b926971d42f78",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "locale_en",
+      "sha256": "6b94c1607a0b162c7e1e19534c9e00c7d9d949dad0f764b54c06cd9a5f9b1098",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "locale_es",
+      "sha256": "16f56b7f447ae78c272e18662d0bf9cd507de35c2522126d3d6914da0dfde103",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "final_state",
+      "sha256": "a92a3ad9b0ac3d764ba9f365b83f730e12dc4f92be991cfa100b5dd380893807",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "original_source_unchanged",
+      "sha256": "738c313cf0971feae3a3e9c184a9d3f302e92df23148a16d6caf70f2c2d22847",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "shutdown",
+      "sha256": "60bffe691df8ac62ce6bbe12e395ee001cc58a67cec91570c0197c6855d1666c",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "transport_reconciliation",
+      "sha256": "02a386c414d94a7d88c24a5ae147215b174bc3da056e2461be8983f101c32ef8",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "uri_failed_boot_zero_delta",
+      "sha256": "7338d86f87c9201c118fa2e8f7675862ce1dd4dd03781e3dca949d6bc4d8be08",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "uri_correction",
+      "sha256": "0782cbcb5fcb5d730b4b93f5773e5fe57b9115c734232d91b7d29b2f329c8934",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "runtime_contract",
+      "sha256": "da489e50b067feb54c99c1aeca163142d426bcea4059342faf3f3dabb80733c3",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "read_contract",
+      "sha256": "16787a291b1a5cb6716feefecac45e0a14d9b7270dc09b0fefab167c457f0dff",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "final_boot_ticket",
+      "sha256": "093297af01ca3e8ebadf507c3ac3188cba5e0707469ac385ececb7b65c70de58",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "launcher",
+      "sha256": "bf677c21a9ac089494aac7f201db3df5c6e9dcfff4de18a274a5b0fa97c21550",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "final_runner_log",
+      "sha256": "9e45b5557a842746da21ebbdd3c9f70ae0c6c0d8231ac822bbfad68239fd0670",
+      "private_artifact_copied": false
+    },
+    {
+      "role": "browser_proxy_shutdown",
+      "sha256": "006d2f3214736d650979cacd3824b2d60fe852ba3f0af387069171165c1d3500",
+      "private_artifact_copied": false
+    }
+  ],
+  "omitted": [
+    "database names and row snapshots",
+    "actor and record IDs",
+    "cookies and tokens",
+    "environment values and credentials",
+    "request bodies",
+    "private filesystem paths and process IDs"
+  ]
+}

@@ -1,0 +1,2387 @@
+{
+  "schema": "customize-retained-sources-review-v1",
+  "recorded_at_utc": "2026-10-11T09:17:44.162008+00:00",
+  "reviewer": "/root/customize_source_review",
+  "article_key": "journeys/how-to-customize-a-playbook-safely.md",
+  "status": "source_review_complete_article_not_complete",
+  "count": 40,
+  "pixel_reviewed": 40,
+  "candidate_reuse": 38,
+  "historical_only_replace": 2,
+  "assessment": {
+    "path": "audit/help-next-batches-20261011/customize-next-assessment.json",
+    "sha256": "526e6cc6dbd5af3a4f42af776cecd01f1a187f781c7445cb471692c5625e6aa7"
+  },
+  "sources": [
+    {
+      "review_order": 1,
+      "file": "images/captures/property-collector/channels-es-mobile.png",
+      "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+      "concept": "channels",
+      "locale": "es",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        390,
+        1000
+      ],
+      "historical_css_clip": [
+        0,
+        120,
+        390,
+        760
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        390,
+        760
+      ],
+      "maximum_image_width_css": 390,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          780,
+          1520
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/channels-es-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/channels-es-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/channels-es-mobile.png",
+        "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "sha256": "e7a9bfcd77e73a2b2be3018962dd450f66f23ce86e0dcaab6af91b458e8d25ec"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Incoming channels heading and complete automatic/manual cards. Automatic is selected; manual is available. No connected-channel or delivery result is shown.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 2,
+      "file": "images/captures/property-collector/channels-es.png",
+      "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+      "concept": "channels",
+      "locale": "es",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1200,
+        1000
+      ],
+      "historical_css_clip": [
+        50,
+        100,
+        575,
+        590
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        575,
+        590
+      ],
+      "maximum_image_width_css": 575,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1150,
+          1180
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/channels-es.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/channels-es.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/channels-es.png",
+        "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "sha256": "e7a9bfcd77e73a2b2be3018962dd450f66f23ce86e0dcaab6af91b458e8d25ec"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Incoming channels heading and complete automatic/manual cards. Automatic is selected; manual is available. No connected-channel or delivery result is shown.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 3,
+      "file": "images/captures/property-collector/handoff-es-mobile.png",
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "concept": "handoff",
+      "locale": "es",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        390,
+        1000
+      ],
+      "historical_css_clip": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        390,
+        340
+      ],
+      "maximum_image_width_css": 390,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          780,
+          680
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/handoff-es-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/handoff-es-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/handoff-es-mobile.png",
+        "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "sha256": "e7a9bfcd77e73a2b2be3018962dd450f66f23ce86e0dcaab6af91b458e8d25ec"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Escalation heading, enabled switch and fictional Atención demo team chip with remove control are complete. This is an unsaved destination example, not an assigned conversation.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 4,
+      "file": "images/captures/property-collector/handoff-es.png",
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "concept": "handoff",
+      "locale": "es",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1200,
+        1000
+      ],
+      "historical_css_clip": [
+        50,
+        100,
+        575,
+        330
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        575,
+        330
+      ],
+      "maximum_image_width_css": 575,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1150,
+          660
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/handoff-es.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/handoff-es.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/handoff-es.png",
+        "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "sha256": "e7a9bfcd77e73a2b2be3018962dd450f66f23ce86e0dcaab6af91b458e8d25ec"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Escalation heading, enabled switch and fictional Atención demo team chip with remove control are complete. This is an unsaved destination example, not an assigned conversation.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 5,
+      "file": "images/captures/property-collector/style-refresh/fields-es-mobile.png",
+      "sha256": "6e431ef02b114b2aafcdfd27f5bbb76c0d52147595af89ff6450c9957ad9cd87",
+      "concept": "fields",
+      "locale": "es",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        390,
+        1100
+      ],
+      "historical_css_clip": [
+        4,
+        117,
+        382,
+        337
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        382,
+        337
+      ],
+      "maximum_image_width_css": 382,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          764,
+          674
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/style-refresh/fields-es-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/style-refresh/fields-es-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/style-refresh/fields-es-mobile.png",
+        "sha256": "6e431ef02b114b2aafcdfd27f5bbb76c0d52147595af89ff6450c9957ad9cd87"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/style-refresh/capture-provenance.json",
+        "sha256": "5afaabbc249c51b8926eb17a223914a99a253faeb93294cfa137b98001ed2e50"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Properties heading and selector are complete. Name/Nombre is Important/on; Email/E Mail is optional/off. Both row icons, toggles and removal controls are readable.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 6,
+      "file": "images/captures/property-collector/style-refresh/fields-es.png",
+      "sha256": "8157b63ff509e328f393e8fc43f4e7f45c8dcbc3c0354c2900a32e5704c852a2",
+      "concept": "fields",
+      "locale": "es",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1440,
+        1200
+      ],
+      "historical_css_clip": [
+        52,
+        121,
+        648,
+        349
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        648,
+        349
+      ],
+      "maximum_image_width_css": 648,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1296,
+          698
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/style-refresh/fields-es.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/style-refresh/fields-es.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/style-refresh/fields-es.png",
+        "sha256": "8157b63ff509e328f393e8fc43f4e7f45c8dcbc3c0354c2900a32e5704c852a2"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/style-refresh/capture-provenance.json",
+        "sha256": "5afaabbc249c51b8926eb17a223914a99a253faeb93294cfa137b98001ed2e50"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Properties heading and selector are complete. Name/Nombre is Important/on; Email/E Mail is optional/off. Both row icons, toggles and removal controls are readable.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 7,
+      "file": "images/captures/property-collector/tone-es-mobile.png",
+      "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+      "concept": "tone",
+      "locale": "es",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        390,
+        1000
+      ],
+      "historical_css_clip": [
+        0,
+        120,
+        390,
+        485
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        390,
+        485
+      ],
+      "maximum_image_width_css": 390,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          780,
+          970
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/tone-es-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/tone-es-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/tone-es-mobile.png",
+        "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "sha256": "e7a9bfcd77e73a2b2be3018962dd450f66f23ce86e0dcaab6af91b458e8d25ec"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Three complete selected cards: Friendly/Amigable, Playful/Juguetón and Exclusive/Exclusivo. This focused crop demonstrates the chosen combination, not every available tone.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 8,
+      "file": "images/captures/property-collector/tone-es.png",
+      "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+      "concept": "tone",
+      "locale": "es",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1200,
+        1000
+      ],
+      "historical_css_clip": [
+        50,
+        100,
+        575,
+        515
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        575,
+        515
+      ],
+      "maximum_image_width_css": 575,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1150,
+          1030
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/tone-es.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/tone-es.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/tone-es.png",
+        "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "sha256": "e7a9bfcd77e73a2b2be3018962dd450f66f23ce86e0dcaab6af91b458e8d25ec"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Three complete selected cards: Friendly/Amigable, Playful/Juguetón and Exclusive/Exclusivo. This focused crop demonstrates the chosen combination, not every available tone.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 9,
+      "file": "images/captures/subscriber-booster/discount-es.png",
+      "sha256": "b16e9fae47f891feb37c964fd3639d6835dbcdbdc45baaadff667bf3636620ef",
+      "concept": "discount",
+      "locale": "es",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1200,
+        1000
+      ],
+      "historical_css_clip": [
+        50,
+        350,
+        530,
+        410
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        530,
+        410
+      ],
+      "maximum_image_width_css": 530,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1060,
+          820
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/subscriber-booster/discount-es.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/subscriber-booster/discount-es.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/subscriber-booster/discount-es.png",
+        "sha256": "b16e9fae47f891feb37c964fd3639d6835dbcdbdc45baaadff667bf3636620ef"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/subscriber-booster/capture-provenance.json",
+        "sha256": "38aa909945cb63fce60ff526cbc823c370f5642b0b7dd6bd27d66827d433c8d3"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "5%, 10%, 15%, 20% are complete and 10% is selected. It is a fixed-rate Subscriber Booster draft example; no generated incentive or applied promotion is established. The complete combined-strategy card omits the current View store promotions button. Retain only as historical evidence; replace before current-UI integration.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "historical_only_replace",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 10,
+      "file": "images/captures/subscriber-booster/discount-mobile-es.png",
+      "sha256": "cd5fcbea434337a3801f63e4e55567971f4fe2c8e6523ea7ed088be345f33244",
+      "concept": "discount",
+      "locale": "es",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "desktop_detail",
+      "historical_css_viewport": [
+        1200,
+        1000
+      ],
+      "historical_css_clip": [
+        160,
+        610,
+        245,
+        118
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        245,
+        118
+      ],
+      "maximum_image_width_css": 245,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          490,
+          236
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/subscriber-booster/discount-mobile-es.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/subscriber-booster/discount-mobile-es.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/subscriber-booster/discount-mobile-es.png",
+        "sha256": "cd5fcbea434337a3801f63e4e55567971f4fe2c8e6523ea7ed088be345f33244"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/subscriber-booster/capture-provenance.json",
+        "sha256": "38aa909945cb63fce60ff526cbc823c370f5642b0b7dd6bd27d66827d433c8d3"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "5%, 10%, 15%, 20% are complete and 10% is selected. It is a fixed-rate Subscriber Booster draft example; no generated incentive or applied promotion is established. Although its filename says mobile, this is a native focused crop of the 1200px desktop viewport, not a mobile-layout capture. Reuse only for the percentage detail.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 11,
+      "file": "images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+      "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+      "concept": "prompt",
+      "locale": "es",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        430,
+        900
+      ],
+      "historical_css_clip": [
+        4,
+        117,
+        422,
+        478
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        422,
+        478
+      ],
+      "maximum_image_width_css": 422,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          844,
+          956
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/prompt-es-mobile-original.png",
+        "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": null,
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Localized Agent prompt heading, explanation and entire empty textarea are visible. Gray placeholder is intact; no saved instructions or generated response is claimed.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 12,
+      "file": "images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+      "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19",
+      "concept": "prompt",
+      "locale": "es",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1400,
+        900
+      ],
+      "historical_css_clip": [
+        52,
+        121,
+        628,
+        554
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        628,
+        554
+      ],
+      "maximum_image_width_css": 628,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1256,
+          1108
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/prompt-es-original.png",
+        "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": null,
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Localized Agent prompt heading, explanation and entire empty textarea are visible. Gray placeholder is intact; no saved instructions or generated response is claimed.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 13,
+      "file": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+      "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+      "concept": "upload",
+      "locale": "es",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        430,
+        900
+      ],
+      "historical_css_clip": [
+        4,
+        117,
+        422,
+        402
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        422,
+        402
+      ],
+      "maximum_image_width_css": 422,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          844,
+          804
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-es-mobile-original.png",
+        "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": null,
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Knowledge/Upload documents heading and entire upload area are visible, including native choose-files button. No selected file, upload, processing or retrieval result is shown.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 14,
+      "file": "images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+      "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+      "concept": "upload",
+      "locale": "es",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1400,
+        900
+      ],
+      "historical_css_clip": [
+        52,
+        121,
+        628,
+        366
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        628,
+        366
+      ],
+      "maximum_image_width_css": 628,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1256,
+          732
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-es-original.png",
+        "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": null,
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Knowledge/Upload documents heading and entire upload area are visible, including native choose-files button. No selected file, upload, processing or retrieval result is shown.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 15,
+      "file": "images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+      "sha256": "364ff829a380fb4a643dbcd9f7027781b0aac3aa5ce56bc073d4cf44f88395d2",
+      "concept": "web_search",
+      "locale": "es",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        430,
+        900
+      ],
+      "historical_css_clip": [
+        4,
+        121,
+        422,
+        204
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        422,
+        204
+      ],
+      "maximum_image_width_css": 422,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          844,
+          408
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/web_search-es-mobile-original.png",
+        "sha256": "364ff829a380fb4a643dbcd9f7027781b0aac3aa5ce56bc073d4cf44f88395d2"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": null,
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Localized Web search heading and complete empty URL input are visible. https://www.example.com is the native placeholder; no website is configured or searched.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 16,
+      "file": "images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+      "sha256": "88c9fed5e13991d0f77cfd6acf51bc618a671f0dae2c90fb1754ecc01c54937f",
+      "concept": "web_search",
+      "locale": "es",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1400,
+        900
+      ],
+      "historical_css_clip": [
+        52,
+        125,
+        628,
+        192
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        628,
+        192
+      ],
+      "maximum_image_width_css": 628,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1256,
+          384
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/web_search-es-original.png",
+        "sha256": "88c9fed5e13991d0f77cfd6acf51bc618a671f0dae2c90fb1754ecc01c54937f"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": null,
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Localized Web search heading and complete empty URL input are visible. https://www.example.com is the native placeholder; no website is configured or searched.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 17,
+      "file": "images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+      "sha256": "76be7e894a13a02c072086a6084ab1e38ceb5520a0f4518026ec9ab805797dcf",
+      "concept": "assignment",
+      "locale": "es",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        390,
+        650
+      ],
+      "historical_css_clip": [
+        1,
+        0,
+        389,
+        650
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        389,
+        650
+      ],
+      "maximum_image_width_css": 389,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          778,
+          1300
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/native/assignment-es-mobile-original.png",
+        "sha256": "76be7e894a13a02c072086a6084ab1e38ceb5520a0f4518026ec9ab805797dcf"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "sha256": "f32fb642a03a3b20adc5d7bccb7f9e4d36568d7cb13f942e0ef829c90c04ebcd"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Assignment pane with five complete menu actions: open, close, assign, add tag, remove tag. Save is visibly disabled in the unsaved route form; all actions and pane footer fit.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 18,
+      "file": "images/team/ai-handoff-to-inbox/assignment-es.png",
+      "sha256": "db457b25763dd6a25ab63f08d9458bad3dda3f8b94742fcea626cb0b7773d91b",
+      "concept": "assignment",
+      "locale": "es",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1400,
+        650
+      ],
+      "historical_css_clip": [
+        897,
+        0,
+        503,
+        650
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        503,
+        650
+      ],
+      "maximum_image_width_css": 503,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1006,
+          1300
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/team/ai-handoff-to-inbox/assignment-es.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/team/ai-handoff-to-inbox/assignment-es.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/native/assignment-es-original.png",
+        "sha256": "db457b25763dd6a25ab63f08d9458bad3dda3f8b94742fcea626cb0b7773d91b"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "sha256": "f32fb642a03a3b20adc5d7bccb7f9e4d36568d7cb13f942e0ef829c90c04ebcd"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Assignment pane with five complete menu actions: open, close, assign, add tag, remove tag. Save is visibly disabled in the unsaved route form; all actions and pane footer fit.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 19,
+      "file": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+      "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+      "concept": "intents",
+      "locale": "es",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        390,
+        1000
+      ],
+      "historical_css_clip": [
+        4,
+        121,
+        382,
+        296
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        382,
+        296
+      ],
+      "maximum_image_width_css": 382,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          764,
+          592
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-mobile-original.png",
+        "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "sha256": "f32fb642a03a3b20adc5d7bccb7f9e4d36568d7cb13f942e0ef829c90c04ebcd"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Localized Intents heading, fictional return phrase input and New intent button are complete. Phrase remains unadded; no classification or save is shown.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 20,
+      "file": "images/team/ai-handoff-to-inbox/intents-es.png",
+      "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+      "concept": "intents",
+      "locale": "es",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1400,
+        1000
+      ],
+      "historical_css_clip": [
+        52,
+        125,
+        628,
+        260
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        628,
+        260
+      ],
+      "maximum_image_width_css": 628,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1256,
+          520
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/team/ai-handoff-to-inbox/intents-es.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/team/ai-handoff-to-inbox/intents-es.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-original.png",
+        "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "sha256": "f32fb642a03a3b20adc5d7bccb7f9e4d36568d7cb13f942e0ef829c90c04ebcd"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Localized Intents heading, fictional return phrase input and New intent button are complete. Phrase remains unadded; no classification or save is shown.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 21,
+      "file": "images/captures/property-collector/channels-en-mobile.png",
+      "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+      "concept": "channels",
+      "locale": "en",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        390,
+        1000
+      ],
+      "historical_css_clip": [
+        0,
+        120,
+        390,
+        760
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        390,
+        760
+      ],
+      "maximum_image_width_css": 390,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          780,
+          1520
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/channels-en-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/channels-en-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/channels-en-mobile.png",
+        "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "sha256": "e7a9bfcd77e73a2b2be3018962dd450f66f23ce86e0dcaab6af91b458e8d25ec"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Incoming channels heading and complete automatic/manual cards. Automatic is selected; manual is available. No connected-channel or delivery result is shown.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 22,
+      "file": "images/captures/property-collector/channels-en.png",
+      "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+      "concept": "channels",
+      "locale": "en",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1200,
+        1000
+      ],
+      "historical_css_clip": [
+        50,
+        100,
+        575,
+        590
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        575,
+        590
+      ],
+      "maximum_image_width_css": 575,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1150,
+          1180
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/channels-en.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/channels-en.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/channels-en.png",
+        "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "sha256": "e7a9bfcd77e73a2b2be3018962dd450f66f23ce86e0dcaab6af91b458e8d25ec"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Incoming channels heading and complete automatic/manual cards. Automatic is selected; manual is available. No connected-channel or delivery result is shown.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 23,
+      "file": "images/captures/property-collector/handoff-en-mobile.png",
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "concept": "handoff",
+      "locale": "en",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        390,
+        1000
+      ],
+      "historical_css_clip": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        390,
+        340
+      ],
+      "maximum_image_width_css": 390,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          780,
+          680
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/handoff-en-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/handoff-en-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/handoff-en-mobile.png",
+        "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "sha256": "e7a9bfcd77e73a2b2be3018962dd450f66f23ce86e0dcaab6af91b458e8d25ec"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Escalation heading, enabled switch and fictional Atención demo team chip with remove control are complete. This is an unsaved destination example, not an assigned conversation.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 24,
+      "file": "images/captures/property-collector/handoff-en.png",
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "concept": "handoff",
+      "locale": "en",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1200,
+        1000
+      ],
+      "historical_css_clip": [
+        50,
+        100,
+        575,
+        330
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        575,
+        330
+      ],
+      "maximum_image_width_css": 575,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1150,
+          660
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/handoff-en.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/handoff-en.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/handoff-en.png",
+        "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "sha256": "e7a9bfcd77e73a2b2be3018962dd450f66f23ce86e0dcaab6af91b458e8d25ec"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Escalation heading, enabled switch and fictional Atención demo team chip with remove control are complete. This is an unsaved destination example, not an assigned conversation.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 25,
+      "file": "images/captures/property-collector/style-refresh/fields-en-mobile.png",
+      "sha256": "4be584eb90d9e7f2b14b7f8bd2dad78954b3f611562d507853f74d7622e1d6a7",
+      "concept": "fields",
+      "locale": "en",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        390,
+        1100
+      ],
+      "historical_css_clip": [
+        4,
+        117,
+        382,
+        361
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        382,
+        361
+      ],
+      "maximum_image_width_css": 382,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          764,
+          722
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/style-refresh/fields-en-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/style-refresh/fields-en-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/style-refresh/fields-en-mobile.png",
+        "sha256": "4be584eb90d9e7f2b14b7f8bd2dad78954b3f611562d507853f74d7622e1d6a7"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/style-refresh/capture-provenance.json",
+        "sha256": "5afaabbc249c51b8926eb17a223914a99a253faeb93294cfa137b98001ed2e50"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Properties heading and selector are complete. Name/Nombre is Important/on; Email/E Mail is optional/off. Both row icons, toggles and removal controls are readable.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 26,
+      "file": "images/captures/property-collector/style-refresh/fields-en.png",
+      "sha256": "e7bd719c54c7c1e5de9a18225dd24df91ed0cb7eeaf551c1927ebfca88d0bc3a",
+      "concept": "fields",
+      "locale": "en",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1440,
+        1200
+      ],
+      "historical_css_clip": [
+        52,
+        121,
+        648,
+        349
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        648,
+        349
+      ],
+      "maximum_image_width_css": 648,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1296,
+          698
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/style-refresh/fields-en.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/style-refresh/fields-en.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/style-refresh/fields-en.png",
+        "sha256": "e7bd719c54c7c1e5de9a18225dd24df91ed0cb7eeaf551c1927ebfca88d0bc3a"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/style-refresh/capture-provenance.json",
+        "sha256": "5afaabbc249c51b8926eb17a223914a99a253faeb93294cfa137b98001ed2e50"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Properties heading and selector are complete. Name/Nombre is Important/on; Email/E Mail is optional/off. Both row icons, toggles and removal controls are readable.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 27,
+      "file": "images/captures/property-collector/tone-en-mobile.png",
+      "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+      "concept": "tone",
+      "locale": "en",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        390,
+        1000
+      ],
+      "historical_css_clip": [
+        0,
+        120,
+        390,
+        485
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        390,
+        485
+      ],
+      "maximum_image_width_css": 390,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          780,
+          970
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/tone-en-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/tone-en-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/tone-en-mobile.png",
+        "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "sha256": "e7a9bfcd77e73a2b2be3018962dd450f66f23ce86e0dcaab6af91b458e8d25ec"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Three complete selected cards: Friendly/Amigable, Playful/Juguetón and Exclusive/Exclusivo. This focused crop demonstrates the chosen combination, not every available tone.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 28,
+      "file": "images/captures/property-collector/tone-en.png",
+      "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+      "concept": "tone",
+      "locale": "en",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1200,
+        1000
+      ],
+      "historical_css_clip": [
+        50,
+        100,
+        575,
+        515
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        575,
+        515
+      ],
+      "maximum_image_width_css": 575,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1150,
+          1030
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/property-collector/tone-en.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/property-collector/tone-en.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/tone-en.png",
+        "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "sha256": "e7a9bfcd77e73a2b2be3018962dd450f66f23ce86e0dcaab6af91b458e8d25ec"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Three complete selected cards: Friendly/Amigable, Playful/Juguetón and Exclusive/Exclusivo. This focused crop demonstrates the chosen combination, not every available tone.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 29,
+      "file": "images/captures/subscriber-booster/discount-en.png",
+      "sha256": "c440f5593cfd8b908d1370b983d12ac715999948a59f6b483574f77187ccf970",
+      "concept": "discount",
+      "locale": "en",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1200,
+        1000
+      ],
+      "historical_css_clip": [
+        50,
+        285,
+        530,
+        386
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        530,
+        386
+      ],
+      "maximum_image_width_css": 530,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1060,
+          772
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/subscriber-booster/discount-en.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/subscriber-booster/discount-en.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/subscriber-booster/discount-en.png",
+        "sha256": "c440f5593cfd8b908d1370b983d12ac715999948a59f6b483574f77187ccf970"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/subscriber-booster/capture-provenance.json",
+        "sha256": "38aa909945cb63fce60ff526cbc823c370f5642b0b7dd6bd27d66827d433c8d3"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "5%, 10%, 15%, 20% are complete and 10% is selected. It is a fixed-rate Subscriber Booster draft example; no generated incentive or applied promotion is established. The complete combined-strategy card omits the current View store promotions button. Retain only as historical evidence; replace before current-UI integration.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "historical_only_replace",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 30,
+      "file": "images/captures/subscriber-booster/discount-mobile-en.png",
+      "sha256": "31bba2b28a7d595ecec1a26541e58681d137e919b5289ffeabaa0b4b3cbbf315",
+      "concept": "discount",
+      "locale": "en",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "desktop_detail",
+      "historical_css_viewport": [
+        1200,
+        1000
+      ],
+      "historical_css_clip": [
+        160,
+        522,
+        330,
+        118
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        330,
+        118
+      ],
+      "maximum_image_width_css": 330,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          660,
+          236
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/captures/subscriber-booster/discount-mobile-en.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/captures/subscriber-booster/discount-mobile-en.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/subscriber-booster/discount-mobile-en.png",
+        "sha256": "31bba2b28a7d595ecec1a26541e58681d137e919b5289ffeabaa0b4b3cbbf315"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/subscriber-booster/capture-provenance.json",
+        "sha256": "38aa909945cb63fce60ff526cbc823c370f5642b0b7dd6bd27d66827d433c8d3"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "5%, 10%, 15%, 20% are complete and 10% is selected. It is a fixed-rate Subscriber Booster draft example; no generated incentive or applied promotion is established. Although its filename says mobile, this is a native focused crop of the 1200px desktop viewport, not a mobile-layout capture. Reuse only for the percentage detail.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 31,
+      "file": "images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+      "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+      "concept": "prompt",
+      "locale": "en",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        430,
+        900
+      ],
+      "historical_css_clip": [
+        4,
+        117,
+        422,
+        478
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        422,
+        478
+      ],
+      "maximum_image_width_css": 422,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          844,
+          956
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/prompt-en-mobile-original.png",
+        "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": null,
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Localized Agent prompt heading, explanation and entire empty textarea are visible. Gray placeholder is intact; no saved instructions or generated response is claimed.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 32,
+      "file": "images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+      "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e",
+      "concept": "prompt",
+      "locale": "en",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1400,
+        900
+      ],
+      "historical_css_clip": [
+        52,
+        121,
+        628,
+        554
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        628,
+        554
+      ],
+      "maximum_image_width_css": 628,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1256,
+          1108
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/prompt-en-original.png",
+        "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": null,
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Localized Agent prompt heading, explanation and entire empty textarea are visible. Gray placeholder is intact; no saved instructions or generated response is claimed.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 33,
+      "file": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+      "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+      "concept": "upload",
+      "locale": "en",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        430,
+        900
+      ],
+      "historical_css_clip": [
+        4,
+        117,
+        422,
+        402
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        422,
+        402
+      ],
+      "maximum_image_width_css": 422,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          844,
+          804
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-en-mobile-original.png",
+        "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": null,
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Knowledge/Upload documents heading and entire upload area are visible, including native choose-files button. No selected file, upload, processing or retrieval result is shown.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 34,
+      "file": "images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+      "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+      "concept": "upload",
+      "locale": "en",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1400,
+        900
+      ],
+      "historical_css_clip": [
+        52,
+        121,
+        628,
+        366
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        628,
+        366
+      ],
+      "maximum_image_width_css": 628,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1256,
+          732
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-en-original.png",
+        "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": null,
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Knowledge/Upload documents heading and entire upload area are visible, including native choose-files button. No selected file, upload, processing or retrieval result is shown.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 35,
+      "file": "images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+      "sha256": "61a0d21c1723fc520232f1245b1a95fe4eb24e95866609f7b95de15d1e1fd4ca",
+      "concept": "web_search",
+      "locale": "en",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        430,
+        900
+      ],
+      "historical_css_clip": [
+        4,
+        121,
+        422,
+        204
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        422,
+        204
+      ],
+      "maximum_image_width_css": 422,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          844,
+          408
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/web_search-en-mobile-original.png",
+        "sha256": "61a0d21c1723fc520232f1245b1a95fe4eb24e95866609f7b95de15d1e1fd4ca"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": null,
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Localized Web search heading and complete empty URL input are visible. https://www.example.com is the native placeholder; no website is configured or searched.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 36,
+      "file": "images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+      "sha256": "4336ad08637c31a36fcf67e92368c567e618fe96d135feabff8d2737764e04c7",
+      "concept": "web_search",
+      "locale": "en",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1400,
+        900
+      ],
+      "historical_css_clip": [
+        52,
+        125,
+        628,
+        216
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        628,
+        216
+      ],
+      "maximum_image_width_css": 628,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1256,
+          432
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/web_search-en-original.png",
+        "sha256": "4336ad08637c31a36fcf67e92368c567e618fe96d135feabff8d2737764e04c7"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": null,
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Localized Web search heading and complete empty URL input are visible. https://www.example.com is the native placeholder; no website is configured or searched.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 37,
+      "file": "images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+      "sha256": "859f3b87ad11fea2952c91df5a0d57e3d833b3b7acfa033094283d223a7573ef",
+      "concept": "assignment",
+      "locale": "en",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        390,
+        650
+      ],
+      "historical_css_clip": [
+        1,
+        0,
+        389,
+        650
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        389,
+        650
+      ],
+      "maximum_image_width_css": 389,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          778,
+          1300
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/native/assignment-en-mobile-original.png",
+        "sha256": "859f3b87ad11fea2952c91df5a0d57e3d833b3b7acfa033094283d223a7573ef"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "sha256": "f32fb642a03a3b20adc5d7bccb7f9e4d36568d7cb13f942e0ef829c90c04ebcd"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Assignment pane with five complete menu actions: open, close, assign, add tag, remove tag. Save is visibly disabled in the unsaved route form; all actions and pane footer fit.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 38,
+      "file": "images/team/ai-handoff-to-inbox/assignment-en.png",
+      "sha256": "8dbe38274d6b7b6754262c448dd149be8174cd1922b7a81e6420299a62d5673a",
+      "concept": "assignment",
+      "locale": "en",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1400,
+        650
+      ],
+      "historical_css_clip": [
+        897,
+        0,
+        503,
+        650
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        503,
+        650
+      ],
+      "maximum_image_width_css": 503,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1006,
+          1300
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/team/ai-handoff-to-inbox/assignment-en.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/team/ai-handoff-to-inbox/assignment-en.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/native/assignment-en-original.png",
+        "sha256": "8dbe38274d6b7b6754262c448dd149be8174cd1922b7a81e6420299a62d5673a"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "sha256": "f32fb642a03a3b20adc5d7bccb7f9e4d36568d7cb13f942e0ef829c90c04ebcd"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Assignment pane with five complete menu actions: open, close, assign, add tag, remove tag. Save is visibly disabled in the unsaved route form; all actions and pane footer fit.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 39,
+      "file": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+      "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+      "concept": "intents",
+      "locale": "en",
+      "historical_responsive_role": "mobile_source",
+      "actual_capture_layout": "mobile",
+      "historical_css_viewport": [
+        390,
+        1000
+      ],
+      "historical_css_clip": [
+        4,
+        121,
+        382,
+        272
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        382,
+        272
+      ],
+      "maximum_image_width_css": 382,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          764,
+          544
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-mobile-original.png",
+        "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "sha256": "f32fb642a03a3b20adc5d7bccb7f9e4d36568d7cb13f942e0ef829c90c04ebcd"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Localized Intents heading, fictional return phrase input and New intent button are complete. Phrase remains unadded; no classification or save is shown.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    },
+    {
+      "review_order": 40,
+      "file": "images/team/ai-handoff-to-inbox/intents-en.png",
+      "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+      "concept": "intents",
+      "locale": "en",
+      "historical_responsive_role": "desktop_source",
+      "actual_capture_layout": "desktop",
+      "historical_css_viewport": [
+        1400,
+        1000
+      ],
+      "historical_css_clip": [
+        52,
+        125,
+        628,
+        260
+      ],
+      "historical_browser_dpr": 2,
+      "historical_additional_capture_scale": 1,
+      "native_logical_size_css": [
+        628,
+        260
+      ],
+      "maximum_image_width_css": 628,
+      "metadata": {
+        "format": "PNG",
+        "pixels": [
+          1256,
+          520
+        ],
+        "all_chunk_crcs_valid": true,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "icc_bytes": 520
+      },
+      "sips_profile": "Display P3 Gamut with sRGB Transfer",
+      "protected_source": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/team/ai-handoff-to-inbox/intents-en.png",
+      "current_help_copy": "help-assignment-completion-20261011/images/team/ai-handoff-to-inbox/intents-en.png",
+      "original_source": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-original.png",
+        "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1"
+      },
+      "historical_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json",
+        "sha256": "8f462043f1433166908551a8c5b0d30ed322698d35b18f89a81e7cbb0b048dde"
+      },
+      "historical_original_provenance": {
+        "path": "help-assignment-completion-20261011/docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "sha256": "f32fb642a03a3b20adc5d7bccb7f9e4d36568d7cb13f942e0ef829c90c04ebcd"
+      },
+      "bytes_equal_protected_current_original": true,
+      "pixel_review": "pass",
+      "pixel_review_method": "Individual view_image tool inspection of this original PNG at original detail; no contact sheet or metadata-only acceptance.",
+      "pixel_observations": "Localized Intents heading, fictional return phrase input and New intent button are complete. Phrase remains unadded; no classification or save is shown.",
+      "pointer_private_data_debug_overlay_scrollbar_observed": false,
+      "transformations_this_review": [],
+      "new_capture_this_review": false,
+      "reuse_decision": "candidate_for_scoped_reuse_pending_complete_help_qa",
+      "current_application_compositor_recreated": false
+    }
+  ],
+  "limits": [
+    "Original files inspected individually; no new screenshot was captured.",
+    "A source pixel pass is not current Help-page acceptance or publication.",
+    "Historical account/process/DB guards are retained by reference, not reexecuted or retroactively strengthened.",
+    "No global production CSS or current application pixel equivalence claim."
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "schema": "customize-retained-figure-plan-v1",
+  "status": "prepared_not_applied",
+  "preserved_inputs_sha256": "336359c77c3efd6ca20d05ed073fec4f5a4fbedc4c9b5c09d6502e2310d5b6b0",
+  "retained_register_sha256": "d22d7e6084792f1fd8371b178ef1f2ef19352392356ba13611060d51c8e3600f",
+  "figure_count_per_locale": 10,
+  "ids_in_article_order": [
+    "prompt",
+    "tone",
+    "intents",
+    "knowledge",
+    "web-search",
+    "properties",
+    "channels",
+    "discount-percent",
+    "escalation",
+    "route-assignment"
+  ],
+  "figures": [
+    {
+      "id": "prompt",
+      "locale": "es",
+      "original_block_sha256": "ee100d27b843152167233187077082acd713a92af1036fd201214cc01c721063",
+      "original_frame_max_width_css": 646,
+      "original_sources": {
+        "mobile": "images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+        "desktop": "images/journeys/how-to-customize-a-playbook-safely/prompt-es.png"
+      },
+      "alt": "Campo de prompt vacío en un borrador ficticio",
+      "caption": "Campo completo sin editar ni guardar.",
+      "planned_sources": {
+        "mobile": "images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+        "desktop": "images/journeys/how-to-customize-a-playbook-safely/prompt-es.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 422,
+        "desktop": 628
+      },
+      "planned_frame_max_width_css": 646,
+      "required_markup_attribute": {
+        "data-customize-figure": "prompt"
+      }
+    },
+    {
+      "id": "tone",
+      "locale": "es",
+      "original_block_sha256": "eefadee36c3e482d190c60b69568a80839fd491c85a4da1bcfb09b938ad8c73f",
+      "original_frame_max_width_css": 593,
+      "original_sources": {
+        "mobile": "images/captures/property-collector/tone-es-mobile.png",
+        "desktop": "images/captures/property-collector/tone-es.png"
+      },
+      "alt": "Tres tonos seleccionados en un borrador",
+      "caption": "Opciones seleccionadas sin guardar.",
+      "planned_sources": {
+        "mobile": "images/captures/property-collector/tone-es-mobile.png",
+        "desktop": "images/captures/property-collector/tone-es.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 390,
+        "desktop": 575
+      },
+      "planned_frame_max_width_css": 593,
+      "required_markup_attribute": {
+        "data-customize-figure": "tone"
+      }
+    },
+    {
+      "id": "intents",
+      "locale": "es",
+      "original_block_sha256": "019281a132e8a1824defbf21847beb8a0b0d84220fbed2af2c7381a9cfa4927c",
+      "original_frame_max_width_css": 646,
+      "original_sources": {
+        "mobile": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+        "desktop": "images/team/ai-handoff-to-inbox/intents-es.png"
+      },
+      "alt": "Frase de intención sin agregar",
+      "caption": "Borrador independiente sin clasificación.",
+      "planned_sources": {
+        "mobile": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+        "desktop": "images/team/ai-handoff-to-inbox/intents-es.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 382,
+        "desktop": 628
+      },
+      "planned_frame_max_width_css": 646,
+      "required_markup_attribute": {
+        "data-customize-figure": "intents"
+      }
+    },
+    {
+      "id": "knowledge",
+      "locale": "es",
+      "original_block_sha256": "8aa20a58aacd1facec9f33c5fff32c959aafedbd1659db4aac06a9112077b539",
+      "original_frame_max_width_css": 646,
+      "original_sources": {
+        "mobile": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+        "desktop": "images/journeys/how-to-customize-a-playbook-safely/upload-es.png"
+      },
+      "alt": "Área de conocimiento sin archivos",
+      "caption": "Formulario vacío sin subir documentos.",
+      "planned_sources": {
+        "mobile": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+        "desktop": "images/journeys/how-to-customize-a-playbook-safely/upload-es.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 422,
+        "desktop": 628
+      },
+      "planned_frame_max_width_css": 646,
+      "required_markup_attribute": {
+        "data-customize-figure": "knowledge"
+      }
+    },
+    {
+      "id": "web-search",
+      "locale": "es",
+      "original_block_sha256": "83f606c64a55c4b31d3c2407fd27b8e5d5e293ad09f9be4c49dcb79d7a2560d9",
+      "original_frame_max_width_css": 646,
+      "original_sources": {
+        "mobile": "images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+        "desktop": "images/journeys/how-to-customize-a-playbook-safely/web_search-es.png"
+      },
+      "alt": "Campo de búsqueda web vacío",
+      "caption": "Placeholder sin URL añadida ni búsqueda ejecutada.",
+      "planned_sources": {
+        "mobile": "images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+        "desktop": "images/journeys/how-to-customize-a-playbook-safely/web_search-es.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 422,
+        "desktop": 628
+      },
+      "planned_frame_max_width_css": 646,
+      "required_markup_attribute": {
+        "data-customize-figure": "web-search"
+      }
+    },
+    {
+      "id": "properties",
+      "locale": "es",
+      "original_block_sha256": "4f629accb7b5a5e9a8020a2e4e99291b31c24b2a2242f67c31ed51df8e2214f3",
+      "original_frame_max_width_css": 666,
+      "original_sources": {
+        "mobile": "images/captures/property-collector/style-refresh/fields-es-mobile.png",
+        "desktop": "images/captures/property-collector/style-refresh/fields-es.png"
+      },
+      "alt": "Nombre importante y correo opcional",
+      "caption": "Selección ficticia sin recopilación.",
+      "planned_sources": {
+        "mobile": "images/captures/property-collector/style-refresh/fields-es-mobile.png",
+        "desktop": "images/captures/property-collector/style-refresh/fields-es.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 382,
+        "desktop": 648
+      },
+      "planned_frame_max_width_css": 666,
+      "required_markup_attribute": {
+        "data-customize-figure": "properties"
+      }
+    },
+    {
+      "id": "channels",
+      "locale": "es",
+      "original_block_sha256": "fd22db7cc20ea7c1a9bd6b42859bf1fa82ed13a9a6b1481a70b69b2f20c2b95a",
+      "original_frame_max_width_css": 593,
+      "original_sources": {
+        "mobile": "images/captures/property-collector/channels-es-mobile.png",
+        "desktop": "images/captures/property-collector/channels-es.png"
+      },
+      "alt": "Selección de canales de entrada sin guardar",
+      "caption": "Entrada automática y opción manual; no resultado de envío.",
+      "planned_sources": {
+        "mobile": "images/captures/property-collector/channels-es-mobile.png",
+        "desktop": "images/captures/property-collector/channels-es.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 390,
+        "desktop": 575
+      },
+      "planned_frame_max_width_css": 593,
+      "required_markup_attribute": {
+        "data-customize-figure": "channels"
+      }
+    },
+    {
+      "id": "discount-percent",
+      "locale": "es",
+      "original_block_sha256": "a1749e4503a1d901d03aa085fc54c40cfe35a54e499d94be401e8e877651d07e",
+      "original_frame_max_width_css": 548,
+      "original_sources": {
+        "mobile": "images/captures/subscriber-booster/discount-mobile-es.png",
+        "desktop": "images/captures/subscriber-booster/discount-es.png"
+      },
+      "alt": "Porcentaje en la tarjeta de descuento compartida",
+      "caption": "Borrador de Subscriber Booster; tasa fija por ese flujo.",
+      "planned_sources": {
+        "mobile": "images/captures/subscriber-booster/discount-mobile-es.png",
+        "desktop": "images/captures/subscriber-booster/discount-mobile-es.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 245,
+        "desktop": 245
+      },
+      "planned_frame_max_width_css": 263,
+      "required_markup_attribute": {
+        "data-customize-figure": "discount-percent"
+      }
+    },
+    {
+      "id": "escalation",
+      "locale": "es",
+      "original_block_sha256": "e8c780424091915746e02a0a14c3d6775cb79eed6d7cbd0ef068c77b81220e99",
+      "original_frame_max_width_css": 593,
+      "original_sources": {
+        "mobile": "images/captures/property-collector/handoff-es-mobile.png",
+        "desktop": "images/captures/property-collector/handoff-es.png"
+      },
+      "alt": "Equipo ficticio en el control de derivación",
+      "caption": "Destino sin guardar ni asignar una conversación.",
+      "planned_sources": {
+        "mobile": "images/captures/property-collector/handoff-es-mobile.png",
+        "desktop": "images/captures/property-collector/handoff-es.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 390,
+        "desktop": 575
+      },
+      "planned_frame_max_width_css": 593,
+      "required_markup_attribute": {
+        "data-customize-figure": "escalation"
+      }
+    },
+    {
+      "id": "route-assignment",
+      "locale": "es",
+      "original_block_sha256": "5b9ec17c20a651d55a0244b8157692aab4434e4d5f3fac81b410f9b2e32fcd47",
+      "original_frame_max_width_css": 521,
+      "original_sources": {
+        "mobile": "images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+        "desktop": "images/team/ai-handoff-to-inbox/assignment-es.png"
+      },
+      "alt": "Cinco acciones en el componente Asignación",
+      "caption": "Componente independiente; no ruta ejecutada.",
+      "planned_sources": {
+        "mobile": "images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+        "desktop": "images/team/ai-handoff-to-inbox/assignment-es.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 389,
+        "desktop": 503
+      },
+      "planned_frame_max_width_css": 521,
+      "required_markup_attribute": {
+        "data-customize-figure": "route-assignment"
+      }
+    },
+    {
+      "id": "prompt",
+      "locale": "en",
+      "original_block_sha256": "a46611518dc81e761f78d46e4becc7cd5eb39c350c72029ccc0f9f27a52b8f3f",
+      "original_frame_max_width_css": 646,
+      "original_sources": {
+        "mobile": "images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+        "desktop": "images/journeys/how-to-customize-a-playbook-safely/prompt-en.png"
+      },
+      "alt": "Empty prompt field in a fictitious draft",
+      "caption": "Complete field without editing or saving.",
+      "planned_sources": {
+        "mobile": "images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+        "desktop": "images/journeys/how-to-customize-a-playbook-safely/prompt-en.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 422,
+        "desktop": 628
+      },
+      "planned_frame_max_width_css": 646,
+      "required_markup_attribute": {
+        "data-customize-figure": "prompt"
+      }
+    },
+    {
+      "id": "tone",
+      "locale": "en",
+      "original_block_sha256": "3716cefe06011baac79c3548ca889a379b91099aad8e76151a04f5faff907a42",
+      "original_frame_max_width_css": 593,
+      "original_sources": {
+        "mobile": "images/captures/property-collector/tone-en-mobile.png",
+        "desktop": "images/captures/property-collector/tone-en.png"
+      },
+      "alt": "Three tones selected in a draft",
+      "caption": "Selected options without saving.",
+      "planned_sources": {
+        "mobile": "images/captures/property-collector/tone-en-mobile.png",
+        "desktop": "images/captures/property-collector/tone-en.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 390,
+        "desktop": 575
+      },
+      "planned_frame_max_width_css": 593,
+      "required_markup_attribute": {
+        "data-customize-figure": "tone"
+      }
+    },
+    {
+      "id": "intents",
+      "locale": "en",
+      "original_block_sha256": "829b7a3854929b6d6724fec2585cc03ab4ad64ead8eddb0fb90a548dc1f12c60",
+      "original_frame_max_width_css": 646,
+      "original_sources": {
+        "mobile": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+        "desktop": "images/team/ai-handoff-to-inbox/intents-en.png"
+      },
+      "alt": "Intent phrase without adding",
+      "caption": "Independent draft without classification.",
+      "planned_sources": {
+        "mobile": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+        "desktop": "images/team/ai-handoff-to-inbox/intents-en.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 382,
+        "desktop": 628
+      },
+      "planned_frame_max_width_css": 646,
+      "required_markup_attribute": {
+        "data-customize-figure": "intents"
+      }
+    },
+    {
+      "id": "knowledge",
+      "locale": "en",
+      "original_block_sha256": "3f49fa0aa5aa5afefd1d0072b795f552ca14e3b98991be14b461e297ec3f4d97",
+      "original_frame_max_width_css": 646,
+      "original_sources": {
+        "mobile": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+        "desktop": "images/journeys/how-to-customize-a-playbook-safely/upload-en.png"
+      },
+      "alt": "Knowledge upload area without files",
+      "caption": "Empty form without document uploads.",
+      "planned_sources": {
+        "mobile": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+        "desktop": "images/journeys/how-to-customize-a-playbook-safely/upload-en.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 422,
+        "desktop": 628
+      },
+      "planned_frame_max_width_css": 646,
+      "required_markup_attribute": {
+        "data-customize-figure": "knowledge"
+      }
+    },
+    {
+      "id": "web-search",
+      "locale": "en",
+      "original_block_sha256": "0bd491ad87745d9e13a0ad60330c5bab5ca6df52e785647de4aba1b80c3dfedb",
+      "original_frame_max_width_css": 646,
+      "original_sources": {
+        "mobile": "images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+        "desktop": "images/journeys/how-to-customize-a-playbook-safely/web_search-en.png"
+      },
+      "alt": "Empty web search field",
+      "caption": "Placeholder without an added URL or an executed search.",
+      "planned_sources": {
+        "mobile": "images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+        "desktop": "images/journeys/how-to-customize-a-playbook-safely/web_search-en.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 422,
+        "desktop": 628
+      },
+      "planned_frame_max_width_css": 646,
+      "required_markup_attribute": {
+        "data-customize-figure": "web-search"
+      }
+    },
+    {
+      "id": "properties",
+      "locale": "en",
+      "original_block_sha256": "f41ff210cc4c11445bd4c388b4a6603a29143a9a83cc3457724c1bd13f23f644",
+      "original_frame_max_width_css": 666,
+      "original_sources": {
+        "mobile": "images/captures/property-collector/style-refresh/fields-en-mobile.png",
+        "desktop": "images/captures/property-collector/style-refresh/fields-en.png"
+      },
+      "alt": "Important name and optional email",
+      "caption": "Fictitious selection without collection.",
+      "planned_sources": {
+        "mobile": "images/captures/property-collector/style-refresh/fields-en-mobile.png",
+        "desktop": "images/captures/property-collector/style-refresh/fields-en.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 382,
+        "desktop": 648
+      },
+      "planned_frame_max_width_css": 666,
+      "required_markup_attribute": {
+        "data-customize-figure": "properties"
+      }
+    },
+    {
+      "id": "channels",
+      "locale": "en",
+      "original_block_sha256": "16e1dc7cdae15cb4afdf7daf4ebf24cab15e2ab4f30cb028a69d617e0b9cf244",
+      "original_frame_max_width_css": 593,
+      "original_sources": {
+        "mobile": "images/captures/property-collector/channels-en-mobile.png",
+        "desktop": "images/captures/property-collector/channels-en.png"
+      },
+      "alt": "Unsaved incoming channel selection",
+      "caption": "Automatic incoming selection and manual option; no sending result.",
+      "planned_sources": {
+        "mobile": "images/captures/property-collector/channels-en-mobile.png",
+        "desktop": "images/captures/property-collector/channels-en.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 390,
+        "desktop": 575
+      },
+      "planned_frame_max_width_css": 593,
+      "required_markup_attribute": {
+        "data-customize-figure": "channels"
+      }
+    },
+    {
+      "id": "discount-percent",
+      "locale": "en",
+      "original_block_sha256": "01e040de0745980c4da06f2fc02c0b115d60c29a2aa9bad3157ed1b64dd76748",
+      "original_frame_max_width_css": 548,
+      "original_sources": {
+        "mobile": "images/captures/subscriber-booster/discount-mobile-en.png",
+        "desktop": "images/captures/subscriber-booster/discount-en.png"
+      },
+      "alt": "Percentage in the shared discount card",
+      "caption": "Subscriber Booster draft; fixed rate for that flow.",
+      "planned_sources": {
+        "mobile": "images/captures/subscriber-booster/discount-mobile-en.png",
+        "desktop": "images/captures/subscriber-booster/discount-mobile-en.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 330,
+        "desktop": 330
+      },
+      "planned_frame_max_width_css": 348,
+      "required_markup_attribute": {
+        "data-customize-figure": "discount-percent"
+      }
+    },
+    {
+      "id": "escalation",
+      "locale": "en",
+      "original_block_sha256": "19f09297bde58351d5810aa04af3ce5a5e0296eb09a38799e6531b20df32d4bf",
+      "original_frame_max_width_css": 593,
+      "original_sources": {
+        "mobile": "images/captures/property-collector/handoff-en-mobile.png",
+        "desktop": "images/captures/property-collector/handoff-en.png"
+      },
+      "alt": "Fictitious team in the escalation control",
+      "caption": "Destination without saving or assigning a conversation.",
+      "planned_sources": {
+        "mobile": "images/captures/property-collector/handoff-en-mobile.png",
+        "desktop": "images/captures/property-collector/handoff-en.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 390,
+        "desktop": 575
+      },
+      "planned_frame_max_width_css": 593,
+      "required_markup_attribute": {
+        "data-customize-figure": "escalation"
+      }
+    },
+    {
+      "id": "route-assignment",
+      "locale": "en",
+      "original_block_sha256": "f1cc097ae33f002d04aaee3e97aeaa4890c14d2f6df532b89e0b408b3a99a980",
+      "original_frame_max_width_css": 521,
+      "original_sources": {
+        "mobile": "images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+        "desktop": "images/team/ai-handoff-to-inbox/assignment-en.png"
+      },
+      "alt": "Five actions in the Assignment component",
+      "caption": "Independent component; no executed route.",
+      "planned_sources": {
+        "mobile": "images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+        "desktop": "images/team/ai-handoff-to-inbox/assignment-en.png"
+      },
+      "planned_maximum_image_width_css": {
+        "mobile": 389,
+        "desktop": 503
+      },
+      "planned_frame_max_width_css": 521,
+      "required_markup_attribute": {
+        "data-customize-figure": "route-assignment"
+      }
+    }
+  ],
+  "allowed_changes_when_integrating": [
+    "Add stable data-customize-figure attributes to existing figures.",
+    "Use the accepted percentage-selector crop for both responsive variants of discount-percent; keep its native cap and valid existing alt/caption.",
+    "Insert only separately accepted new sources at approved anchors; retain headings, links, stub, global styling and all40 original image bytes."
+  ]
+}

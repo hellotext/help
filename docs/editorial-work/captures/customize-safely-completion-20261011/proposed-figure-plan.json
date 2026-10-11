@@ -1,0 +1,469 @@
+{
+  "schema": "customize-editorial-figure-plan-v1",
+  "status": "source_backed_plan_pending_capture_acceptance",
+  "article_key": "journeys/how-to-customize-a-playbook-safely.md",
+  "copy_plan": {
+    "path": "audit/next-batches-after-404-20261011/customize-editorial/copy-plan.json",
+    "sha256": "8dbb2e23f3447f68ecf6eb3f5e736194ab020ebe2825ad81b02be33bd6241b18"
+  },
+  "cap": "docs/editorial-work/captures/customize-safely-completion-20261011",
+  "figure_attribute": "data-customize-figure",
+  "routes": {
+    "en": "/how-to-customize-a-playbook-safely.html",
+    "es": "/es/como-personalizar-una-mision.html"
+  },
+  "new_concepts": [
+    {
+      "id": "followup-controls",
+      "insert_after_exact_paragraph": {
+        "es": "3. En **Si todavía no hay respuesta**, elige la acción final.",
+        "en": "3. Under **If there’s still no reply**, choose the final action."
+      },
+      "purpose": "Recognize count, uniform wait and current final action.",
+      "prepared_state": "Existing disabled Playbook33/Followup7:1nudge,120seconds,ai_analyze; no new fixture row.",
+      "lead": {
+        "es": "Este ejemplo ficticio tiene un recordatorio, una espera de dos minutos y Análisis de IA como acción final.",
+        "en": "This fictional example has one nudge, a two-minute wait, and AI Analysis as the final action."
+      },
+      "alt": {
+        "es": "Controles de Seguimiento con un recordatorio, espera de dos minutos y Análisis de IA.",
+        "en": "Follow-up controls with one nudge, a two-minute wait, and AI Analysis."
+      },
+      "caption": {
+        "es": "Configuración existente de una misión ficticia deshabilitada; no se cambió ni guardó durante la captura.",
+        "en": "Existing settings of a disabled fictional playbook; no setting was changed or saved during capture."
+      },
+      "required_visible": [
+        "Count label and stored1",
+        "Wait value2 and minutes unit",
+        "Selected AI analysis action"
+      ],
+      "limits": [
+        "Opening the count menu is permitted; selecting a value is excluded. If it occludes another required control, capture an additional native view.",
+        "Do not alter the separate conceptual two-nudge/ten-minute table."
+      ],
+      "locales": [
+        "es",
+        "en"
+      ],
+      "variants": "Desktop/mobile as pertinent; actual native accepted sources only.",
+      "source_pixel_acceptance": "pending",
+      "final_assets": []
+    },
+    {
+      "id": "followup-actions",
+      "insert_after_exact_paragraph": {
+        "es": "En **Si todavía no hay respuesta**, elige qué ocurre después de la última espera: **Análisis de IA**, **Cerrar la conversación** o **Transferir a una persona**.",
+        "en": "Under **If there’s still no reply**, choose what happens after the final wait: **AI Analysis**, **Close the conversation**, or **Hand off to a person**."
+      },
+      "purpose": "Locate the three final choices beside their explanation.",
+      "prepared_state": "Same Followup7; native menu opened without choosing a value.",
+      "lead": {
+        "es": null,
+        "en": null
+      },
+      "alt": {
+        "es": "Menú de acción final con Análisis de IA, Cerrar la conversación y Transferir a una persona.",
+        "en": "Final-action menu with AI Analysis, Close the conversation, and Hand off to a person."
+      },
+      "caption": {
+        "es": "Opciones de la acción final; el menú se abrió sin elegir otra opción ni guardar.",
+        "en": "Final-action choices; the menu was opened without choosing another option or saving."
+      },
+      "required_visible": [
+        "All three native action labels"
+      ],
+      "limits": [
+        "Do not claim an Assignment link is visible under stored AI analysis; it is shown for handoff."
+      ],
+      "locales": [
+        "es",
+        "en"
+      ],
+      "variants": "Desktop/mobile as pertinent; actual native accepted sources only.",
+      "source_pixel_acceptance": "pending",
+      "final_assets": []
+    },
+    {
+      "id": "followup-sequence",
+      "insert_after_exact_paragraph": {
+        "es": "La vista previa muestra una conversación de ejemplo con las esperas, los recordatorios y la acción elegida. Sus mensajes son ilustrativos; el agente redacta los mensajes reales según cada conversación.",
+        "en": "The preview shows an example conversation with the waits, nudges, and selected action. Its messages are illustrative; the agent writes real messages based on each conversation."
+      },
+      "purpose": "Explain the native illustrative wait/nudge/final-wait/action sequence.",
+      "prepared_state": "Same Followup7; static native preview, no Composer/provider/generation/send.",
+      "lead": {
+        "es": null,
+        "en": null
+      },
+      "alt": {
+        "es": "Vista previa ilustrativa de Seguimiento con una espera, un recordatorio, otra espera y Análisis de IA.",
+        "en": "Illustrative Follow-up preview with a wait, one nudge, another wait, and AI Analysis."
+      },
+      "caption": {
+        "es": "Ejemplo nativo para un recordatorio y esperas de dos minutos; no son mensajes enviados ni acciones ejecutadas.",
+        "en": "Native example for one nudge and two-minute waits; these are not sent messages or executed actions."
+      },
+      "required_visible": [
+        "Native example label",
+        "Wait before nudge",
+        "Nudge",
+        "Final wait",
+        "AI analysis example"
+      ],
+      "limits": [
+        "Mobile may need the native Playground tab and multiple overlapping crops. Never stitch or claim a complete sequence from one incomplete crop."
+      ],
+      "locales": [
+        "es",
+        "en"
+      ],
+      "variants": "Desktop/mobile as pertinent; actual native accepted sources only.",
+      "source_pixel_acceptance": "pending",
+      "final_assets": []
+    },
+    {
+      "id": "store-promotions",
+      "insert_after_exact_paragraph": {
+        "es": "Elegir una estrategia mantiene el panel cerrado hasta que pulses **Ver promociones de la tienda**. En escritorio, aparece a la izquierda y desplaza la configuración a la derecha; en pantallas más estrechas, ocupa el área del editor. Al cerrarlo, vuelves al editor.",
+        "en": "Selecting a strategy keeps the panel closed until you click **View store promotions**. On desktop, it opens on the left and moves configuration to the right; on narrower screens, it fills the editor area. Close it to return to the editor."
+      },
+      "purpose": "Show the current panel, source status, schedules and per-playbook inclusion after the opening instructions.",
+      "prepared_state": "Existing disabled Playbook40/Discount14 store_only and4existing promotions/bundles; one owner-prepared Playbook::Bundle override for Bundle3 enabledtrue before browser use.",
+      "lead": {
+        "es": "El panel de este ejemplo contiene promociones ficticias y una selección por misión preparada previamente.",
+        "en": "This example panel contains fictional promotions and a per-playbook selection prepared beforehand."
+      },
+      "alt": {
+        "es": "Panel de promociones de la tienda con promociones ficticias, horarios y controles de inclusión para la misión.",
+        "en": "Store promotions panel with fictional promotions, schedules, and inclusion controls for the playbook."
+      },
+      "caption": {
+        "es": "Sólo se abrió el panel para mostrar el ejemplo preparado; no se cambiaron promociones ni se guardaron ajustes.",
+        "en": "The panel was opened to show the prepared example; no promotions were changed and no settings were saved."
+      },
+      "required_visible": [
+        "Panel title",
+        "Promotion name",
+        "Source state",
+        "Schedule",
+        "Inclusion switch",
+        "Current View store promotions opener in this or an additional native view"
+      ],
+      "limits": [
+        "Source-disabled/mission-on contrast is the prepared override, not VTEX activation or checkout success.",
+        "Do not claim all4rows or Restore are visible if a crop excludes them. Confirm actual names, dates and state from admitted pixels.",
+        "Use separate native mobile crops if needed, including Restore context if otherwise absent; no fixed PNG quota."
+      ],
+      "locales": [
+        "es",
+        "en"
+      ],
+      "variants": "Desktop/mobile as pertinent; actual native accepted sources only.",
+      "source_pixel_acceptance": "pending",
+      "final_assets": []
+    },
+    {
+      "id": "promotion-filter",
+      "insert_after_exact_paragraph": {
+        "es": "El filtro ofrece **Todos los tipos**, **Combos**, **Compra y recibe un regalo**, **Lleva más, paga menos** y **Descuentos**. La búsqueda y el tipo se combinan; **Mostrar más** amplía los resultados de esa selección.",
+        "en": "The filter offers **All kinds**, **Combos**, **Buy and get a gift**, **Buy more, pay for fewer**, and **Discounts**. Search and kind work together; **Show more** extends the results for that selection."
+      },
+      "purpose": "Locate search and the kind menu beside the existing explanation.",
+      "prepared_state": "Same promotions; native menu and local GET only; no switches/Restore/Save.",
+      "lead": {
+        "es": null,
+        "en": null
+      },
+      "alt": {
+        "es": "Búsqueda de promociones y menú de tipos con Todos los tipos, Combos, Compra y recibe un regalo, Lleva más, paga menos y Descuentos.",
+        "en": "Promotion search and kind menu with All kinds, Combos, Buy and get a gift, Buy more, pay for fewer, and Discounts."
+      },
+      "caption": {
+        "es": "El filtro delimita los resultados visibles; no cambia qué promociones están permitidas para la misión.",
+        "en": "The filter narrows visible results; it does not change which promotions are allowed for the playbook."
+      },
+      "required_visible": [
+        "Search field",
+        "All5kind labels"
+      ],
+      "limits": [
+        "If a query/result is captured, describe only the actual query/subset after validation. No selection-change claim from filtering."
+      ],
+      "locales": [
+        "es",
+        "en"
+      ],
+      "variants": "Desktop/mobile as pertinent; actual native accepted sources only.",
+      "source_pixel_acceptance": "pending",
+      "final_assets": []
+    },
+    {
+      "id": "agent-wait-notice",
+      "insert_after_exact_paragraph": {
+        "es": "Cuando la misión elegida incluye Seguimiento, este componente controla la espera del paso de agente, incluso con **Ninguno**. Puedes abrir la sección de espera para consultar su valor, pero sus controles están deshabilitados. Usa **Editar Seguimiento** en el aviso para cambiar la configuración de la misión.",
+        "en": "When the selected playbook includes Follow-up, this component controls the Agent step's wait, including with **None**. You can expand the Wait section to review its value, but its controls are disabled. Use **Edit Followup** in the notice to change the playbook's settings."
+      },
+      "purpose": "Explain disabled Agent wait and locate the native edit link.",
+      "prepared_state": "Existing draft Journey9/Step47/Agent10/Playbook33/Followup7; stored Wait9 value6hours disabled by Followup.",
+      "lead": {
+        "es": "En este ejemplo, la espera de seis horas del paso está deshabilitada porque la controla Seguimiento.",
+        "en": "In this example, the step’s six-hour wait is disabled because Follow-up controls it."
+      },
+      "alt": {
+        "es": "Espera de seis horas deshabilitada en el paso de agente, con el aviso de Seguimiento y el enlace Editar Seguimiento.",
+        "en": "Disabled six-hour wait in the Agent step, with the Followup notice and Edit Followup link."
+      },
+      "caption": {
+        "es": "El valor del paso no es la espera activa: se aplica el Seguimiento de la misión. La ruta permanece como borrador.",
+        "en": "The step value is not the active wait: the playbook’s Follow-up applies. The route remains a draft."
+      },
+      "required_visible": [
+        "Stored6hours",
+        "Disabled wait controls",
+        "Whole notice",
+        "Edit Followup / Editar Seguimiento link"
+      ],
+      "limits": [
+        "Do not infer6hours as the active policy, invoke the route or change the playbook. Capturing the visible link suffices."
+      ],
+      "locales": [
+        "es",
+        "en"
+      ],
+      "variants": "Desktop/mobile as pertinent; actual native accepted sources only.",
+      "source_pixel_acceptance": "pending",
+      "final_assets": []
+    }
+  ],
+  "retained_figure_plan": {
+    "path": "help-customize-completion-20261011/docs/editorial-work/captures/customize-safely-completion-20261011/retained-figure-plan.json",
+    "sha256": "a0f2e8af6c405b31027a4be9443637d41b25fb12774038e739fbe645cf5da6ff"
+  },
+  "retained_source_register": {
+    "path": "help-customize-completion-20261011/docs/editorial-work/captures/customize-safely-completion-20261011/retained-source-register.json",
+    "sha256": "d22d7e6084792f1fd8371b178ef1f2ef19352392356ba13611060d51c8e3600f"
+  },
+  "retained_counts": {
+    "preserved": 40,
+    "selected_candidates": 38,
+    "obsolete_full_discount_desktop_unselected": 2,
+    "existing_concepts_per_locale": 10
+  },
+  "final_new_asset_count": null,
+  "final_figure_count_per_locale": null,
+  "provisional_concept_count_per_locale": 16,
+  "final_count_rule": "Six concepts is not a PNG quota. Derive final selection from accepted native frames and complete coverage, including separate mobile crops if required.",
+  "layout": {
+    "stage": "Static full-column lavender stage and centered white frame. Keep contextual lead-ins and accessible captions.",
+    "cap": "Max image width is its native clip width, or pixels/native density; frame adds actual insets/border. Capture viewport is provenance, never a substitute for clip width.",
+    "discount_detail": "Keep2 obsolete full desktop originals unselected; use accepted desktop-native details named discount-mobile-es at245CSS and discount-mobile-en at330CSS in both Help layouts. Preserve accurate original alt/caption and native-layout provenance.",
+    "no_pixel_edits": true,
+    "readability": "Native source>=2x P3; Help1440/580/390 ES/EN complete pages plus every figure detail. Individual pixel inspection and inline readability, not metadata alone. Separate1x diagnostic if necessary is not a public source."
+  },
+  "section_coverage": [
+    {
+      "ordinal": 1,
+      "h2_es": "Antes de editar",
+      "h2_en": "Before you edit",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [],
+      "new_concepts": [],
+      "prose_only": true,
+      "coverage_reason": "Preparation checklist and navigation links; an additional generic screenshot would not explain a distinct control."
+    },
+    {
+      "ordinal": 2,
+      "h2_es": "Cuándo conviene deshabilitar",
+      "h2_en": "When to disable",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [],
+      "new_concepts": [],
+      "prose_only": true,
+      "coverage_reason": "Decision criteria and consequences of editing; preserve complete guidance without implying a disable action occurred."
+    },
+    {
+      "ordinal": 3,
+      "h2_es": "Qué puedes personalizar",
+      "h2_en": "What you can customize",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [],
+      "new_concepts": [],
+      "prose_only": true,
+      "coverage_reason": "Overview table maps components to choices; detailed controls are illustrated in their own sections."
+    },
+    {
+      "ordinal": 4,
+      "h2_es": "Personaliza el prompt",
+      "h2_en": "Customize the prompt",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [
+        "prompt"
+      ],
+      "new_concepts": [],
+      "prose_only": false,
+      "coverage_reason": "Controls remain adjacent to their explanation. Existing source-specific limits and all further guidance are preserved."
+    },
+    {
+      "ordinal": 5,
+      "h2_es": "Personaliza el tono",
+      "h2_en": "Customize tone",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [
+        "tone"
+      ],
+      "new_concepts": [],
+      "prose_only": false,
+      "coverage_reason": "Controls remain adjacent to their explanation. Existing source-specific limits and all further guidance are preserved."
+    },
+    {
+      "ordinal": 6,
+      "h2_es": "Personaliza intenciones",
+      "h2_en": "Customize intents",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [
+        "intents"
+      ],
+      "new_concepts": [],
+      "prose_only": false,
+      "coverage_reason": "Controls remain adjacent to their explanation. Existing source-specific limits and all further guidance are preserved."
+    },
+    {
+      "ordinal": 7,
+      "h2_es": "Personaliza conocimiento",
+      "h2_en": "Customize knowledge",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [
+        "knowledge",
+        "web-search"
+      ],
+      "new_concepts": [],
+      "prose_only": false,
+      "coverage_reason": "Controls remain adjacent to their explanation. Existing source-specific limits and all further guidance are preserved."
+    },
+    {
+      "ordinal": 8,
+      "h2_es": "Personaliza propiedades",
+      "h2_en": "Customize properties",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [
+        "properties"
+      ],
+      "new_concepts": [],
+      "prose_only": false,
+      "coverage_reason": "Controls remain adjacent to their explanation. Existing source-specific limits and all further guidance are preserved."
+    },
+    {
+      "ordinal": 9,
+      "h2_es": "Personaliza canales",
+      "h2_en": "Customize channels",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [
+        "channels"
+      ],
+      "new_concepts": [],
+      "prose_only": false,
+      "coverage_reason": "Controls remain adjacent to their explanation. Existing source-specific limits and all further guidance are preserved."
+    },
+    {
+      "ordinal": 10,
+      "h2_es": "Personaliza la estrategia de descuento",
+      "h2_en": "Customize discount strategy",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [
+        "discount-percent"
+      ],
+      "new_concepts": [
+        "store-promotions",
+        "promotion-filter"
+      ],
+      "prose_only": false,
+      "coverage_reason": "Controls remain adjacent to their explanation. Existing source-specific limits and all further guidance are preserved."
+    },
+    {
+      "ordinal": 11,
+      "h2_es": "Personaliza el seguimiento",
+      "h2_en": "Customize follow-up",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [],
+      "new_concepts": [
+        "followup-controls",
+        "followup-actions",
+        "followup-sequence",
+        "agent-wait-notice"
+      ],
+      "prose_only": false,
+      "coverage_reason": "Controls remain adjacent to their explanation. Existing source-specific limits and all further guidance are preserved."
+    },
+    {
+      "ordinal": 12,
+      "h2_es": "Personaliza derivación",
+      "h2_en": "Customize handoff rules",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [
+        "escalation"
+      ],
+      "new_concepts": [],
+      "prose_only": false,
+      "coverage_reason": "Controls remain adjacent to their explanation. Existing source-specific limits and all further guidance are preserved."
+    },
+    {
+      "ordinal": 13,
+      "h2_es": "Personaliza journeys o rutas",
+      "h2_en": "Customize journeys or routes",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [
+        "route-assignment"
+      ],
+      "new_concepts": [],
+      "prose_only": false,
+      "coverage_reason": "Controls remain adjacent to their explanation. Existing source-specific limits and all further guidance are preserved."
+    },
+    {
+      "ordinal": 14,
+      "h2_es": "Prueba según el tipo de misión",
+      "h2_en": "Test based on playbook type",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [],
+      "new_concepts": [],
+      "prose_only": true,
+      "coverage_reason": "Prospective user test instructions by mission type. Captures do not execute sends, providers, journeys or Playgrounds; no section is removed."
+    },
+    {
+      "ordinal": 15,
+      "h2_es": "Revisa después del cambio",
+      "h2_en": "Review after the change",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [],
+      "new_concepts": [],
+      "prose_only": true,
+      "coverage_reason": "Prospective post-change checks and monitoring criteria; no fabricated results or empty reports are added."
+    },
+    {
+      "ordinal": 16,
+      "h2_es": "Guías relacionadas",
+      "h2_en": "Related guides",
+      "preserve_complete_prose": true,
+      "retained_figure_ids": [],
+      "new_concepts": [],
+      "prose_only": true,
+      "coverage_reason": "Navigation to related guides; all ordered links are retained."
+    }
+  ],
+  "remaining_gates": [
+    "Root review of exact proposed copy and anchors.",
+    "Fresh owner GET-only preflight, allowed one-row fixture, locale handling and truthful runtime closure.",
+    "Each current source individually accepted with exact labels, complete required controls, native dimensions/P3/hash.",
+    "Reconcile proposed alts/captions to actual crops; admit final selection and caps before Help integration.",
+    "Complete bilingual build/security, source/copy checks and6full-page/detail QA views; no fabricated coverage."
+  ],
+  "operations": {
+    "article_edits": 0,
+    "runtime_starts": 0,
+    "db_connections": 0,
+    "browser_operations": 0,
+    "external_writes": 0,
+    "protected_writes": 0,
+    "csv_changes": 0
+  }
+}

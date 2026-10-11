@@ -1,0 +1,318 @@
+{
+  "schema": "customize-editorial-copy-plan-v1",
+  "status": "source_review_complete_proposed_not_applied",
+  "created_at_utc": "2026-10-11T11:19:32.850342+00:00",
+  "reviewer": "conversation_article",
+  "help_worktree": "help-customize-completion-20261011",
+  "base": "046e27c78f8431ad46f87a8e31048907b2d34d56",
+  "article_key": "journeys/how-to-customize-a-playbook-safely.md",
+  "articles": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/journeys/how-to-customize-a-playbook-safely.md",
+      "sha256": "7d5796c9891dfa8cc7d97640008ee8d6ee4c0d63be2f85dcafcfd3c1c072e61f",
+      "byte_equal_base": true,
+      "h2": [
+        "Antes de editar",
+        "Cuándo conviene deshabilitar",
+        "Qué puedes personalizar",
+        "Personaliza el prompt",
+        "Personaliza el tono",
+        "Personaliza intenciones",
+        "Personaliza conocimiento",
+        "Personaliza propiedades",
+        "Personaliza canales",
+        "Personaliza la estrategia de descuento",
+        "Personaliza el seguimiento",
+        "Personaliza derivación",
+        "Personaliza journeys o rutas",
+        "Prueba según el tipo de misión",
+        "Revisa después del cambio",
+        "Guías relacionadas"
+      ],
+      "ordered_liquid_links": [
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/custom-agent-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_journeys/custom-agent-playbook.md",
+        "_captures/property-collector-playbook.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_captures/property-collector-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/review-builder-playbook.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_journeys/nps-pulse-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/what-are-signals.md",
+        "_journeys/getting-started-with-journeys.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_analytics-reporting-attribution/playbook-reporting.md"
+      ],
+      "existing_figures": 10
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/journeys/how-to-customize-a-playbook-safely.md",
+      "sha256": "ee7b300463af91fb17107ed2c6f1e62aff16c98f83bef8580fed5ad5d4bae974",
+      "byte_equal_base": true,
+      "h2": [
+        "Before you edit",
+        "When to disable",
+        "What you can customize",
+        "Customize the prompt",
+        "Customize tone",
+        "Customize intents",
+        "Customize knowledge",
+        "Customize properties",
+        "Customize channels",
+        "Customize discount strategy",
+        "Customize follow-up",
+        "Customize handoff rules",
+        "Customize journeys or routes",
+        "Test based on playbook type",
+        "Review after the change",
+        "Related guides"
+      ],
+      "ordered_liquid_links": [
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/custom-agent-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_journeys/custom-agent-playbook.md",
+        "_captures/property-collector-playbook.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_captures/property-collector-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/review-builder-playbook.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_journeys/nps-pulse-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/what-are-signals.md",
+        "_journeys/getting-started-with-journeys.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_analytics-reporting-attribution/playbook-reporting.md"
+      ],
+      "existing_figures": 10
+    }
+  ],
+  "corrections": [
+    {
+      "id": "promotions-responsive-description",
+      "locale": "es",
+      "before": "Elegir una estrategia mantiene el panel cerrado hasta que pulses **Ver promociones de la tienda**. Al abrirlo, aparece a la izquierda y desplaza la configuración a la derecha. Al cerrarlo, recuperas la configuración y la vista previa de la conversación.",
+      "after": "Elegir una estrategia mantiene el panel cerrado hasta que pulses **Ver promociones de la tienda**. En escritorio, aparece a la izquierda y desplaza la configuración a la derecha; en pantallas más estrechas, ocupa el área del editor. Al cerrarlo, vuelves al editor.",
+      "source_refs": [
+        "app/javascript/entrypoints/stylesheets/playbooks.scss:207-301",
+        "app/javascript/controllers/playbook/promotions_drawer_controller.js:3,83-92"
+      ],
+      "reason": "Left drawer shares configuration only at min-width1024; narrower layout hides configuration and preview while the panel fills the workspace."
+    },
+    {
+      "id": "promotions-responsive-description",
+      "locale": "en",
+      "before": "Selecting a strategy keeps the panel closed until you click **View store promotions**. It opens on the left and moves configuration to the right. Closing it restores configuration and the conversation preview.",
+      "after": "Selecting a strategy keeps the panel closed until you click **View store promotions**. On desktop, it opens on the left and moves configuration to the right; on narrower screens, it fills the editor area. Close it to return to the editor.",
+      "source_refs": [
+        "app/javascript/entrypoints/stylesheets/playbooks.scss:207-301",
+        "app/javascript/controllers/playbook/promotions_drawer_controller.js:3,83-92"
+      ],
+      "reason": "Left drawer shares configuration only at min-width1024; narrower layout hides configuration and preview while the panel fills the workspace."
+    },
+    {
+      "id": "agent-link-literal",
+      "locale": "en",
+      "before": "Use **Edit Follow-up** in the notice to change the playbook's settings.",
+      "after": "Use **Edit Followup** in the notice to change the playbook's settings.",
+      "source_refs": [
+        "config/locales/views/automation/en.yml:62-64",
+        "app/views/automation/agents/_wait.html.erb:16-23"
+      ],
+      "reason": "Match the native link literal; retain conceptual Follow-up spelling elsewhere."
+    }
+  ],
+  "source_commit": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "source_bindings": [
+    {
+      "path": "app/javascript/entrypoints/stylesheets/playbooks.scss",
+      "sha256": "1ee30cf5f054fe923650650cb159a974d87d0c68af4883f785b07617262ffe04",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "app/javascript/controllers/playbook/promotions_drawer_controller.js",
+      "sha256": "ea2be6512d37736bd5985b386cbf3167cba5f7a4374fe639861ffb99d31ccae5",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "app/views/playbooks/_form.html.erb",
+      "sha256": "46c3249f7dc8477d51e06fb1f3a064e0dd1b6fca571d42b899975facf7d5ac54",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "app/views/automation/agents/_wait.html.erb",
+      "sha256": "f714bfd12595b20620606126999bddd2da6099a224bb10713a0c7a7e27543f32",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "config/locales/views/automation/en.yml",
+      "sha256": "5513e9822f2e9b9dccb576b3e40a50a95941870fbfb062db1797cabbe80945e1",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "config/locales/views/automation/es.yml",
+      "sha256": "514e517dc4b9840fd9ea71498880ce9bf0d222781c917ce5bed782c51627465a",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "app/views/playbook/component/followups/_form.html.erb",
+      "sha256": "98bfe650cab0ee890a88b0327a78ced447bd35505eea07ea781a3eb184e9f7a7",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "config/locales/views/playbook/component/followups/en.yml",
+      "sha256": "f71ed28086d53e3250bfa9d101e9197d1a4c885dcb86ab419b108762e29a0507",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "config/locales/views/playbook/component/followups/es.yml",
+      "sha256": "a54eca79cc97ecfd24a13441f9d7e004714e486e992435dcd064ba5d78eb40c8",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "app/views/playbook/previews/_followup.html.erb",
+      "sha256": "c3946a5c5cf1c5d0aaf13a8b3ed2b67608bd9ee0a5f6ea833d406c6f0e54996e",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "app/javascript/controllers/playbook/followup_preview_controller.js",
+      "sha256": "236e5ba5874fb37e9fa7b9a8454633c4ccca45781d8a2acabe7a7683c45c1979",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "app/views/playbook/component/discounts/_promotions.html.erb",
+      "sha256": "2cad3a65719e15d667cb8f7e63f7962d70fa4af61d2167a7324e10bada959e92",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "app/views/playbook/component/discounts/_promotion_rows.html.erb",
+      "sha256": "02d3b94130125cdca7687eccdf9bb13a66e27bd4deafa4bf0cd83022b4cd0412",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "app/views/playbook/component/discounts/_promotion_filters.html.erb",
+      "sha256": "7f8f3df5cdc7a9335100cd3542c12371bb6ef678c6862c2e9b6b35eae296d68d",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "app/controllers/playbook/bundles_controller.rb",
+      "sha256": "ee02d29134ac543d0853fb4599815fd8d9523e7dce63c476f8bf0218fe5f57d1",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    },
+    {
+      "path": "app/models/playbook/bundle.rb",
+      "sha256": "5d4da4fd7dc8a035259a9980a0e38dfe05d1c4949a3b6254a5fbc2f6d28c5ac6",
+      "matches_immutable_8e_manifest": true,
+      "intersects_scoped_afac_delta": false
+    }
+  ],
+  "evidence": [
+    {
+      "path": "audit/help-next-batches-20261011/customize-next-assessment.json",
+      "sha256": "526e6cc6dbd5af3a4f42af776cecd01f1a187f781c7445cb471692c5625e6aa7"
+    },
+    {
+      "path": "audit/help-next-batches-20261011/customize-capture-feasibility.json",
+      "sha256": "17e0cfc9a136c1c7a555816d24d497272a035a0e25e25240187a433c0b066331"
+    },
+    {
+      "path": "audit/help-next-batches-20261011/customize-followup-source-readiness.json",
+      "sha256": "6f8a11956fd8829336d77537e426593f3462c9749b484f759c1b323e275c7ad4"
+    },
+    {
+      "path": "audit/help-next-batches-20261011/customize-existing-fixture-extract.json",
+      "sha256": "7109099fa14867658aca6f1c90eff275d20be29d1669bbd7b314649d15f31b8d"
+    },
+    {
+      "path": "audit/customize-source-review-20261011/review.json",
+      "sha256": "1aae3e149de936ad9c06e91084a183cefbbf2565cd839510953e69b7031963e1"
+    },
+    {
+      "path": "audit/customize-source-review-20261011/source-manifest.json",
+      "sha256": "01f712b0715ac23325b6a0301980136624ba94cbcf732f83ebfc31cfd933ade5"
+    },
+    {
+      "path": "audit/customize-source-review-20261011/source-continuity.json",
+      "sha256": "c25b341b2d2b7fc37094d874e7184c6b7adf2e9521c8c919a507ac91d14c8496"
+    },
+    {
+      "path": "audit/next-batches-after-404-20261011/customize-runtime-plan.json",
+      "sha256": "4afc081aa07bdd6eade568389d898c5392d04c25f0cef6e43d7dcb20ffc29024"
+    },
+    {
+      "path": "audit/journeys-workflow-local-20261010/scoped-currency-compare.json",
+      "sha256": "7c6e23bc24c5e0e6e03bbbf3bf18fedbdb865d4b9f8b288358c2cb5e5c19e81c"
+    },
+    {
+      "path": "audit/journeys-workflow-local-20261010/source-files.json",
+      "sha256": "d28b8d6b6975cc08fa885adf7157af117863987f1e5ff427ca9671a68a8a576c"
+    }
+  ],
+  "preserve": [
+    "All16 H2, all29 ordered links and full future testing/review instructions per locale. No removed sections.",
+    "The conceptual two-nudge/ten-minute table is separate from the existing one-nudge/two-minute fixture.",
+    "None retains final wait/action; interruption and used-nudge semantics remain.",
+    "Subscriber Booster10percent is a fixed-rate example, not a universal AI ceiling.",
+    "Promotion source status differs from per-playbook inclusion; inclusion does not activate a store offer or guarantee checkout eligibility.",
+    "Historical descriptions of unsaved forms/placeholders stay truthful. No test execution, Save, send, provider call, Restore or switch interaction is claimed."
+  ],
+  "new_figure_copy_status": "Proposed alts/captions must match every admitted PNG and actual runtime closure before integration.",
+  "currency_limit": "Known16-path8e-to-afac comparison, not current deployed pixel equivalence.",
+  "operations": {
+    "article_edits": 0,
+    "runtime_starts": 0,
+    "db_connections": 0,
+    "browser_operations": 0,
+    "external_writes": 0,
+    "protected_writes": 0,
+    "csv_changes": 0
+  }
+}

@@ -66,7 +66,7 @@ The prompt should tell the agent what job it owns, how it should speak, what inf
 
 The example shows the **Agent prompt** field of a new fictitious Custom Agent. It is empty: the gray text is a placeholder, not saved instructions. The playbook was not enabled and the Playground was not run.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Empty prompt field in a fictitious draft">
+<figure data-customize-figure="prompt" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Empty prompt field in a fictitious draft">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -98,7 +98,7 @@ Tone controls the voice and style of AI-generated replies or messages. It does n
 
 The card allows one to three tones. The independent Property Collector draft shows **Friendly**, **Playful**, and **Exclusive** selected without saving. This is an example combination, not a universal recommendation or a generated reply.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Three tones selected in a draft">
+<figure data-customize-figure="tone" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Three tones selected in a draft">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -130,7 +130,7 @@ Use customer language, not internal labels. For example, "I want to change my or
 
 Selection considers conversation context and active playbooks; it is not an exact keyword match. In this draft, **I want to ask about a return.** remains in the input without being added: **New intent**, Enter, and Save were not used. It is not a received message or a completed classification.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Intent phrase without adding">
+<figure data-customize-figure="intents" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Intent phrase without adding">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -160,7 +160,7 @@ Knowledge should make the agent more accurate. It does not change the playbook t
 
 The figure shows **Upload documents** in the fictitious Custom Agent: the complete upload area and **Choose files to upload**, with no files selected or uploaded. Choosing a file, saving it, and making it available for retrieval are separate states; later processing may be asynchronous.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Knowledge upload area without files">
+<figure data-customize-figure="knowledge" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Knowledge upload area without files">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -184,7 +184,7 @@ After updating knowledge, use the Playground to ask questions that depend on the
 
 If **Web search** is available, configure official sites relevant to the playbook and review the information it finds. A URL restricts search domains; it is not an integration, installation, or guarantee that one exact page will be read. This draft field is empty: **https://www.example.com** is the native placeholder, not an added or searched site.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Empty web search field">
+<figure data-customize-figure="web-search" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Empty web search field">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -204,7 +204,7 @@ Select only the profile data that the playbook actually needs. When it is time t
 
 The Property Collector draft shows **Name** marked **Important** and **Email** optional. Nothing was saved or collected. The option expresses a collection priority; it does not establish a verified value, messaging consent, or sending permission.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Important name and optional email">
+<figure data-customize-figure="properties" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Important name and optional email">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 666px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -231,7 +231,7 @@ In general, keep automatic channel selection if the playbook already works well.
 
 In the independent Property Collector example, **Incoming channels** shows **All incoming channels** selected and **Manual selection** available, without saving. It limits where that playbook may respond; it does not prove connected channels, a reachable profile, or delivered outbound messages. Check whether your card controls incoming or outgoing channels before changing it.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Unsaved incoming channel selection">
+<figure data-customize-figure="channels" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Unsaved incoming channel selection">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -272,12 +272,12 @@ The AI options show **Up to 5%**, **Up to 10%**, **Up to 15%**, and **Up to 20%*
 
 The figure shows **Up to 10%** selected in an unsaved **Subscriber Booster** draft. In that playbook, the generated incentive uses the configured percentage as a fixed rate; do not treat it as a variable AI ceiling for every playbook. The image illustrates the percentage selector and does not show the imported promotions panel. No discount was generated or store promotion changed.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Percentage in the shared discount card">
+<figure data-customize-figure="discount-percent" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Percentage in the shared discount card">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 548px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 348px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/subscriber-booster/discount-mobile-en.png 2x" width="660" height="236" />
-        <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/discount-en.png" srcset="/images/captures/subscriber-booster/discount-en.png 2x" width="1060" height="772" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Percentage in the shared discount card" />
+        <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/discount-mobile-en.png" srcset="/images/captures/subscriber-booster/discount-mobile-en.png 2x" width="660" height="236" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Percentage in the shared discount card" />
       </picture>
     </div>
   </div>
@@ -294,9 +294,53 @@ The **Store promotions** panel lists promotions imported from VTEX. To open it:
 4. Use **Search promotions** to find it by name. The filter icon beside search lets you narrow the list by kind.
 5. Close the panel with its close button or Escape when you finish.
 
-Selecting a strategy keeps the panel closed until you click **View store promotions**. It opens on the left and moves configuration to the right. Closing it restores configuration and the conversation preview.
+<!-- customize:store-promotions-entry:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="store-promotions-entry" aria-label="Existing-store-offers strategy selected, with the View store promotions button.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 594px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/store-promotions-entry-en-mobile.png 4x" width="1560" height="1368" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/store-promotions-entry-en-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/store-promotions-entry-en-desktop.png 4x" width="2304" height="984" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Existing-store-offers strategy selected, with the View store promotions button." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Button for opening the fictional example’s promotions panel; the strategy was not changed or saved.</figcaption>
+</figure>
+<!-- customize:store-promotions-entry:end -->
+
+Selecting a strategy keeps the panel closed until you click **View store promotions**. On desktop, it opens on the left and moves configuration to the right; on narrower screens, it fills the editor area. Close it to return to the editor.
+
+This example panel contains fictional promotions and a per-playbook selection prepared beforehand.
+
+<!-- customize:store-promotions:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="store-promotions" aria-label="Store promotions panel with fictional promotions, schedules, and inclusion controls for the playbook.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 555px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/store-promotions-en-mobile.png 4x" width="1560" height="4092" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/store-promotions-en-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/store-promotions-en-desktop.png 4x" width="2148" height="4092" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Store promotions panel with fictional promotions, schedules, and inclusion controls for the playbook." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The panel was opened to show the prepared example; no promotions were changed and no settings were saved.</figcaption>
+</figure>
+<!-- customize:store-promotions:end -->
 
 The filter offers **All kinds**, **Combos**, **Buy and get a gift**, **Buy more, pay for fewer**, and **Discounts**. Search and kind work together; **Show more** extends the results for that selection.
+
+<!-- customize:promotion-filter:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="promotion-filter" aria-label="Promotion search and kind menu with All kinds, Combos, Buy and get a gift, Buy more, pay for fewer, and Discounts.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 555px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/promotion-filter-en-mobile.png 4x" width="1560" height="1816" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/promotion-filter-en-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/promotion-filter-en-desktop.png 4x" width="2148" height="1768" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Promotion search and kind menu with All kinds, Combos, Buy and get a gift, Buy more, pay for fewer, and Discounts." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The filter narrows visible results; it does not change which promotions are allowed for the playbook.</figcaption>
+</figure>
+<!-- customize:promotion-filter:end -->
 
 Searching or changing the filter keeps your selections, including promotions you can no longer see. Changing the kind returns to the start of the list and keeps the search text. Filtering a promotion out of view does not exclude it from the agent: turn its switch off to exclude it. Closing and reopening the panel also keeps the search, filter, and selections while you remain in the editor.
 
@@ -339,6 +383,22 @@ The agent writes each nudge based on the conversation. You configure the count, 
 2. Under **Wait for a reply**, enter a whole number of at least **1** and choose minutes or hours.
 3. Under **If there’s still no reply**, choose the final action.
 
+This fictional example has one nudge, a two-minute wait, and AI Analysis as the final action.
+
+<!-- customize:followup-controls:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="followup-controls" aria-label="Follow-up controls with one nudge, a two-minute wait, and AI Analysis.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 594px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/followup-controls-en-mobile.png 4x" width="1560" height="2064" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/followup-controls-en-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/followup-controls-en-desktop.png 4x" width="2304" height="1984" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Follow-up controls with one nudge, a two-minute wait, and AI Analysis." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Existing settings of a disabled fictional playbook; no setting was changed or saved during capture.</figcaption>
+</figure>
+<!-- customize:followup-controls:end -->
+
 The same wait applies before each nudge and once more before the final action. There is no separate duration for each nudge.
 
 For example, with two nudges available and a ten-minute wait, if the customer does not reply after the agent's response:
@@ -355,9 +415,37 @@ For example, with two nudges available and a ten-minute wait, if the customer do
 
 Under **If there’s still no reply**, choose what happens after the final wait: **AI Analysis**, **Close the conversation**, or **Hand off to a person**.
 
+<!-- customize:followup-actions:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="followup-actions" aria-label="Final-action menu with AI Analysis, Close the conversation, and Hand off to a person.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 594px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/followup-actions-en-mobile.png 4x" width="1560" height="1332" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/followup-actions-en-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/followup-actions-en-desktop.png 4x" width="2304" height="1200" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Final-action menu with AI Analysis, Close the conversation, and Hand off to a person." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Final-action choices; the menu was opened without choosing another option or saving.</figcaption>
+</figure>
+<!-- customize:followup-actions:end -->
+
 With **Hand off to a person**, click **Assignment** to review the destination in the same editor. The back arrow or **Go back** returns you to Follow-up. Also review the destination when choosing **AI Analysis**, because analysis may decide to hand off the conversation.
 
 The preview shows an example conversation with the waits, nudges, and selected action. Its messages are illustrative; the agent writes real messages based on each conversation.
+
+<!-- customize:followup-sequence:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="followup-sequence" aria-label="Illustrative Follow-up preview with a wait, one nudge, another wait, and AI Analysis.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 594px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/followup-sequence-en-mobile.png 4x" width="1560" height="1892" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/followup-sequence-en-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/followup-sequence-en-desktop.png 4x" width="2304" height="1684" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Illustrative Follow-up preview with a wait, one nudge, another wait, and AI Analysis." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Native example for one nudge and two-minute waits; these are not sent messages or executed actions.</figcaption>
+</figure>
+<!-- customize:followup-sequence:end -->
 
 ### Replies and later changes
 
@@ -386,7 +474,23 @@ New playbooks start with these values:
 
 ### When using the agent in a route
 
-When the selected playbook includes Follow-up, this component controls the Agent step's wait, including with **None**. You can expand the Wait section to review its value, but its controls are disabled. Use **Edit Follow-up** in the notice to change the playbook's settings.
+When the selected playbook includes Follow-up, this component controls the Agent step's wait, including with **None**. You can expand the Wait section to review its value, but its controls are disabled. Use **Edit Followup** in the notice to change the playbook's settings.
+
+In this example, the step’s six-hour wait is disabled because Follow-up controls it.
+
+<!-- customize:agent-wait-notice:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="agent-wait-notice" aria-label="Disabled six-hour wait in the Agent step, with the Followup notice and Edit Followup link.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 479px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/agent-wait-notice-en-mobile.png 4x" width="1560" height="2336" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/agent-wait-notice-en-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/agent-wait-notice-en-desktop.png 4x" width="1844" height="2240" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Disabled six-hour wait in the Agent step, with the Followup notice and Edit Followup link." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The step value is not the active wait: the playbook’s Follow-up applies. The route remains a draft.</figcaption>
+</figure>
+<!-- customize:agent-wait-notice:end -->
 
 If the step has **Resolved** and **Unresolved** branches, closing continues through Resolved and a completed handoff continues through Unresolved. AI Analysis decides which action to take. Other Wait steps in the route keep their own settings.
 
@@ -405,7 +509,7 @@ Review:
 
 **Atención demo** is the fictitious team selected in this Property Collector **Escalation** draft. It is not a playbook or an assigned conversation. Destination, assignable members, capacity, conversation state, and a human reply are separate stages. The protocol may retain AI collaboration or pause according to the flow; do not assume a universal, permanent pause.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictitious team in the escalation control">
+<figure data-customize-figure="escalation" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictitious team in the escalation control">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -435,7 +539,7 @@ Routes have visible steps and are sensitive to sequence changes. When editing a 
 
 The figure identifies the **Assignment** component in a fictitious new route form, without saving. Its five complete actions are step controls; they do not represent a constructed route or a processed conversation. Review their order and targets: closing, assigning, and changing AI attention are different actions. A step edit does not establish that existing work was canceled.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Five actions in the Assignment component">
+<figure data-customize-figure="route-assignment" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Five actions in the Assignment component">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 521px; width: fit-content; margin: 0 auto;">
       <picture>

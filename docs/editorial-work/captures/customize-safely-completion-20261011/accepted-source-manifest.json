@@ -1,0 +1,549 @@
+{
+  "status": "accepted_raw_sources_pending_rendered_help_qa",
+  "raw_manifest_sha256": "f5634496a557aa09182f5fa86596d5571f45dbaf81d3470e4a0b9e1962b815ea",
+  "source_admission_sha256": "392c18df0d5e7dc7e32aacb989fa2f36c68b92b4568a9b461935aaf61b9717cd",
+  "source_pixel_reviews": {
+    "es": {
+      "file": "source-pixels-es.json",
+      "sha256": "f6f9d3eeba1bdfa4b631da70c312fcad41b9ab0272e3d2ab9128c609cc660dee"
+    },
+    "en": {
+      "file": "source-pixels-en.json",
+      "sha256": "80fe07277ea016a69ebd0fa1871ed73bb9a0df05cfe777f2e555202bee1d65e7"
+    }
+  },
+  "records": [
+    {
+      "id": "agent-wait-notice",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "agent-wait-notice-en-desktop.png",
+      "sha256": "85604360c2dfb412415e0739088806d7736db3528ecc8b5b24d4e3da453d8301",
+      "pixelSize": [
+        1844,
+        2240
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 819,
+        "y": 0,
+        "width": 461,
+        "height": 560
+      }
+    },
+    {
+      "id": "agent-wait-notice",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "agent-wait-notice-en-mobile.png",
+      "sha256": "692d58a98936254c8b90df9baa0d4647268952da7bdc6b5617188eb29929b506",
+      "pixelSize": [
+        1560,
+        2336
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 584
+      }
+    },
+    {
+      "id": "agent-wait-notice",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "agent-wait-notice-es-desktop.png",
+      "sha256": "6b450786bf96a6c8008f396f8e1e9c4d14a16dfe15559ee0e39698f9e6294fdb",
+      "pixelSize": [
+        1844,
+        2336
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 819,
+        "y": 0,
+        "width": 461,
+        "height": 584
+      }
+    },
+    {
+      "id": "agent-wait-notice",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "agent-wait-notice-es-mobile.png",
+      "sha256": "a8208dd124c5d1df2fd8186e96461749268e7da2efb00ea29ef0c141a9646d32",
+      "pixelSize": [
+        1560,
+        2432
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 608
+      }
+    },
+    {
+      "id": "followup-actions",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "followup-actions-en-desktop.png",
+      "sha256": "d5053e4529e182ddb933065fd66cf52cc6396084dd85496f4eb3fff21e4a2b82",
+      "pixelSize": [
+        2304,
+        1200
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 48,
+        "y": 496,
+        "width": 576,
+        "height": 300
+      }
+    },
+    {
+      "id": "followup-actions",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "followup-actions-en-mobile.png",
+      "sha256": "3dae7f60dce49073ad9d3c3d4d4e09d11849a9a4828e4300d9d6e919a5a4065d",
+      "pixelSize": [
+        1560,
+        1332
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 531,
+        "width": 390,
+        "height": 333
+      }
+    },
+    {
+      "id": "followup-actions",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "followup-actions-es-desktop.png",
+      "sha256": "01febd33cd1b8979bb59a72f200811027cfca7ace80b4f8523dc9d722de902a0",
+      "pixelSize": [
+        2304,
+        1200
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 48,
+        "y": 520,
+        "width": 576,
+        "height": 300
+      }
+    },
+    {
+      "id": "followup-actions",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "followup-actions-es-mobile.png",
+      "sha256": "33b1498dc7f5411f389d31793775b0e468385cd2322b6f24bd4e762604e41ca7",
+      "pixelSize": [
+        1560,
+        1240
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 555,
+        "width": 390,
+        "height": 310
+      }
+    },
+    {
+      "id": "followup-controls",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "followup-controls-en-desktop.png",
+      "sha256": "f480f31519739c4810a4ea2304a3753b8fbe5773bb678ee030999b87e9c9e2f6",
+      "pixelSize": [
+        2304,
+        1984
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 48,
+        "y": 120,
+        "width": 576,
+        "height": 496
+      }
+    },
+    {
+      "id": "followup-controls",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "followup-controls-en-mobile.png",
+      "sha256": "c2e465aedea99cc4c04e8d3525f7635f962c0e2bd22467d29f43c27577d82b38",
+      "pixelSize": [
+        1560,
+        2064
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 120,
+        "width": 390,
+        "height": 516
+      }
+    },
+    {
+      "id": "followup-controls",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "followup-controls-es-desktop.png",
+      "sha256": "5ea38ad47f7f828eee4d3d52530b2b5efbaa7c6c92035c43e30b7fbf082c2fe5",
+      "pixelSize": [
+        2304,
+        1984
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 48,
+        "y": 120,
+        "width": 576,
+        "height": 496
+      }
+    },
+    {
+      "id": "followup-controls",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "followup-controls-es-mobile.png",
+      "sha256": "62c49f59638c1706588a0279751cfcb56426e4fc8270dab877474048c826fddb",
+      "pixelSize": [
+        1560,
+        2160
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 120,
+        "width": 390,
+        "height": 540
+      }
+    },
+    {
+      "id": "followup-sequence",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "followup-sequence-en-desktop.png",
+      "sha256": "d581a35b70f0b61691a03011c8577f653054be40a075e9567cd004ebee43d6ab",
+      "pixelSize": [
+        2304,
+        1684
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 688,
+        "y": 113,
+        "width": 576,
+        "height": 421
+      }
+    },
+    {
+      "id": "followup-sequence",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "followup-sequence-en-mobile.png",
+      "sha256": "9e1f9edf10980b6f1925b1290ea4844ec23b209160932844673906505c23f207",
+      "pixelSize": [
+        1560,
+        1892
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 117,
+        "width": 390,
+        "height": 473
+      }
+    },
+    {
+      "id": "followup-sequence",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "followup-sequence-es-desktop.png",
+      "sha256": "dec61f56b6b38d8edf21834228c29c7c6a53d6d90294dca9e1576f93ccd8dfff",
+      "pixelSize": [
+        2304,
+        1684
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 688,
+        "y": 113,
+        "width": 576,
+        "height": 421
+      }
+    },
+    {
+      "id": "followup-sequence",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "followup-sequence-es-mobile.png",
+      "sha256": "86d7a73b1f8ae44d9ae36423de2c14ee4a3a08703d831d70701a378495befc06",
+      "pixelSize": [
+        1560,
+        1892
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 117,
+        "width": 390,
+        "height": 473
+      }
+    },
+    {
+      "id": "promotion-filter",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "promotion-filter-en-desktop.png",
+      "sha256": "b47a580465fbc2157e64ae02307d959bfd8f79a7f5be6c51df87038f9ba7cc8f",
+      "pixelSize": [
+        2148,
+        1768
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 97,
+        "width": 537,
+        "height": 442
+      }
+    },
+    {
+      "id": "promotion-filter",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "promotion-filter-en-mobile.png",
+      "sha256": "cf7921b307020dda6d7f983c47305f1f87b3b7b9c8ebad9358c0662fa3800c87",
+      "pixelSize": [
+        1560,
+        1816
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 117,
+        "width": 390,
+        "height": 454
+      }
+    },
+    {
+      "id": "promotion-filter",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "promotion-filter-es-desktop.png",
+      "sha256": "5d04542cbd3654faa0c6f2a7f6de3a90c84533dc39132af58764957758f7efdd",
+      "pixelSize": [
+        2148,
+        1864
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 97,
+        "width": 537,
+        "height": 466
+      }
+    },
+    {
+      "id": "promotion-filter",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "promotion-filter-es-mobile.png",
+      "sha256": "d64acf58ea93c0429fbfeefb6864fcf2e317b1e76361dfcc29ff46e2e202abb8",
+      "pixelSize": [
+        1560,
+        2000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 117,
+        "width": 390,
+        "height": 500
+      }
+    },
+    {
+      "id": "store-promotions",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "store-promotions-en-desktop.png",
+      "sha256": "afd54fd3bf23213ea4f65d8bbd7de1326c3fc321690308db33e7fcc9eddd1289",
+      "pixelSize": [
+        2148,
+        4092
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 97,
+        "width": 537,
+        "height": 1023
+      }
+    },
+    {
+      "id": "store-promotions",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "store-promotions-en-mobile.png",
+      "sha256": "18c90739be4dad1156e8680b2a8adb84dd0fd0a9d0f97975ce2a065a3027086e",
+      "pixelSize": [
+        1560,
+        4092
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 117,
+        "width": 390,
+        "height": 1023
+      }
+    },
+    {
+      "id": "store-promotions-entry",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "store-promotions-entry-en-desktop.png",
+      "sha256": "4fcec78406799ef89380c06327a1aa44ecaee64e6b4bf3d6690d99c40ef69117",
+      "pixelSize": [
+        2304,
+        984
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 48,
+        "y": 571,
+        "width": 576,
+        "height": 246
+      }
+    },
+    {
+      "id": "store-promotions-entry",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "store-promotions-entry-en-mobile.png",
+      "sha256": "0bbb81393b14d91a56f6ad03f34e14886ead93ccc102f427ae624a3144fcf8ad",
+      "pixelSize": [
+        1560,
+        1368
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 655,
+        "width": 390,
+        "height": 342
+      }
+    },
+    {
+      "id": "store-promotions-entry",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "store-promotions-entry-es-desktop.png",
+      "sha256": "4bbd473ab008020136b6e49679ef61f5ba67369ee393d66e49d1601ac883c38e",
+      "pixelSize": [
+        2304,
+        1096
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 48,
+        "y": 571,
+        "width": 576,
+        "height": 274
+      }
+    },
+    {
+      "id": "store-promotions-entry",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "store-promotions-entry-es-mobile.png",
+      "sha256": "6af9d33488fbb4f0d6441fc6540e5e82243e9ce4766329391322ede14349226f",
+      "pixelSize": [
+        1560,
+        1496
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 679,
+        "width": 390,
+        "height": 374
+      }
+    },
+    {
+      "id": "store-promotions",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "store-promotions-es-desktop.png",
+      "sha256": "ade07fb0f453f45e5bd2cc4d2f7f66f031de2a20c60a9f18d28658b4ae5aa882",
+      "pixelSize": [
+        2148,
+        4092
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 97,
+        "width": 537,
+        "height": 1023
+      }
+    },
+    {
+      "id": "store-promotions",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "store-promotions-es-mobile.png",
+      "sha256": "520d3a95ad2e32aa447d91003560ebafa5451a61f17354dea95a07347a94609f",
+      "pixelSize": [
+        1560,
+        4492
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "clip": {
+        "x": 0,
+        "y": 117,
+        "width": 390,
+        "height": 1123
+      }
+    }
+  ]
+}

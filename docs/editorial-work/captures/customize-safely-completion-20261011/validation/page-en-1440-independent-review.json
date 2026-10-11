@@ -1,0 +1,908 @@
+{
+  "status": "passed",
+  "locale": "en",
+  "width": 1440,
+  "reviewer": "guide_review",
+  "recorded_at_utc": "2026-10-11T12:55:03.882964+00:00",
+  "packet": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/en-1440.json",
+    "sha256": "d130ca2ec3176e507336dd69257e7ef2b4a3dfb9aa83189b56e09253cfbee36e"
+  },
+  "checkpoint_sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187",
+  "source": "_i18n/en/journeys/how-to-customize-a-playbook-safely.md",
+  "source_sha256": "39fc8f3d15c875e405a2ab7997026cf685f09ddfb1f88c33def4089167d6cd61",
+  "built_html": "_site/how-to-customize-a-playbook-safely.html",
+  "built_html_sha256": "8450efe78e5bbf42dc8dc232797e42fa9f987c5602c95c170f76fd96faf31a14",
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 24,
+    "coverage_start_css": 0,
+    "coverage_end_css": 25682.5,
+    "document_height_css": 25683,
+    "end_tolerance_css": 1,
+    "minimum_overlap_css": 100,
+    "notes": [
+      "All24 native page segments were individually opened with view_image and inspected in order from title and navigation through all article sections, related guides, feedback/contact block and complete footer.",
+      "All desktop table columns and rows are visible and legible. Article text and figures fit the column without unintended clipping or overlap.",
+      "Final native bottom is0.5 CSS px below ceil(documentHeight), within1 CSS px tolerance; actual footer content is visible."
+    ]
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 17,
+    "notes": [
+      "All17 native figure detail PNGs were individually opened and inspected; complete white frames, lavender stages and insets remain visible.",
+      "English discount detail remains centered at330 CSS px (frame348). Controls are readable at their inline size, supported by full-page inspection.",
+      "Promotions preserves four rows, schedules, source-state/inclusion distinction and Restore defaults. Filter-menu overlap and Agent disabled-control overlay are authentic native states, not clipping introduced by Help.",
+      "Follow-up count/wait/action controls, full action menu and illustrative sequence/disclaimer are legible."
+    ]
+  },
+  "method": "Individual view_image calls with detail original, separate images rather than a contact sheet; tool may scale display previews. No image, HTML or CSS transformation by reviewer. Hash/PNG/geometry checks supplement actual visual review.",
+  "files": [
+    {
+      "file": "customize-safely-en-1440-full-part1.png",
+      "sha256": "6ed706e359e46a605b53a0a02e70127ff7c0e02e96bc380e45cb289484b13034",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Title, navigation, introduction and first heading visible."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part2.png",
+      "sha256": "cea9543cefa7e726eab69caab51fce837ef21cd27981226ef4200f5f9e32e2df",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Before edit and disable guidance readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part3.png",
+      "sha256": "0f42da1ae7dd9c02eae26a7ff33d034c118572a4ac31337a8aa1d419e7d11923",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Overview table columns and all rows readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part4.png",
+      "sha256": "fb8b454fa0acb739137d49301958fba4681e40310e93a4331ffff7598ff28d56",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Overview conclusion and prompt figure visible."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part5.png",
+      "sha256": "954ad965cfabc7174bcc9d79186fcf8f7cd4b4ed860928aa73b1825c4bda798f",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Prompt guidance and tone section readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part6.png",
+      "sha256": "0c9f3bde1416a137ae8aefcf71d252cb9fd9250546e2c6bbeffc95f7ece15758",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Tone continuation and intents section readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part7.png",
+      "sha256": "ecce903a9a8d2531a22e9c1ae9caf928118c9f8ec28d64e7d38fa3079299650a",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Intents continuation and upload section readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part8.png",
+      "sha256": "cfdb1e2b8ec5aee5f6a13b3c6e5cafd622b70e2c4c193769ddf9ebfb91adb7e3",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Knowledge guidance, web search and properties introduction readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part9.png",
+      "sha256": "63bb5e893ed816110f0619b778f0cdfa9d84311560248377fe1c2a4ab1250a8e",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 8800,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Properties and channels guidance readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part10.png",
+      "sha256": "0c6cfbef55481bd32f18be0ceafe32d9d97dde8dae49288d66e3e32e7bcfe97b",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 9900,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Complete channels figure and surrounding guidance readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part11.png",
+      "sha256": "3f79696810c9ac34ad82bed785f1fbced93de665f2ecce8cc1fbc814ed3a9c24",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 11000,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Discount strategy table and percentage detail readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part12.png",
+      "sha256": "3942dc17134908cabf977170790a79788e82169291ed052bf66bbd1082fd843d",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 12100,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Store entry steps and full entry card readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part13.png",
+      "sha256": "f156daacc33c6b374be8d011154f24939ca737136b719686c207f6d060b58d1e",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 13200,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Complete promotions panel through Restore defaults readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part14.png",
+      "sha256": "b5e06a381543ccd0c56f9e263e28cba1454dd823271969640bc14ee168dff5d0",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 14300,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Complete filter menu and schedule explanation readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part15.png",
+      "sha256": "798b8083e54fa021e0ee5e550a116f9bfc7dd545fbc91abf54e5719f1024bab5",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 15400,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Save/restore guidance and Follow-up introduction readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part16.png",
+      "sha256": "fba1f94ea5643fe97b6ee370b255304e6bb01cb4e41616751cb6b82f9e78b659",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 16500,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Complete Follow-up controls and conceptual wait table readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part17.png",
+      "sha256": "068ad8ac4193873936c88c8b78c37fd3d284389ba49a356c28ff3a2b4591b91f",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 17600,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Complete final-action menu and preview begins."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part18.png",
+      "sha256": "b47c9a7621e643a230678387ee998575887380db188e2d315b57b16291686ce7",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 18700,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Preview disclaimer and defaults table columns readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part19.png",
+      "sha256": "a1d7b4500b4fa7d901a50df5b6de5b959b491f229885057dd536c8e0ec351021",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 19800,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Whole disabled Agent wait notice and explanation readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part20.png",
+      "sha256": "aef2dddf25259cd85f4890e7867eddadab280f68466567f2e3095081ffd9a740",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 20900,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Escalation detail and routes introduction readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part21.png",
+      "sha256": "468b4afbca262a7add3cfc046a63b0bf1c69da7ca0d903a27eb803eee0b22a40",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 22000,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Route assignment menu and context readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part22.png",
+      "sha256": "a480e5ac98d8502ce231ac14fb78d64bd1dc75c288bb5a00c0a3b8fc37ac0a03",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 23100,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Route footer and test/review guidance readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part23.png",
+      "sha256": "f5724671efcff3ca0f10a5d711c4c42e5bf0f4021ef58f9954e0cfdcea34108d",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 24200,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Final review guidance and related guides readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-full-part24.png",
+      "sha256": "492abfb44358e5ec655ec718c7c05f4810e2b3e5927a32b8e1781a7651b8772d",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 24482.5,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Remaining related guides, feedback/contact controls and whole footer visible."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-prompt.png",
+      "sha256": "67e5a4bd3b8fb4ed12822af914770029c1fec6bceb2325e91a5619c7dae87dd6",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 3784,
+        "width": 800,
+        "height": 655
+      },
+      "pixel_size": [
+        1600,
+        1310
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Complete empty field, placeholder and Learn more are legible; native blank input is intentional."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-tone.png",
+      "sha256": "3a0a7b464b54b2556ecd52a1eaf5612aeeb74ed5ed912bcf455998834870ef0d",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 5112,
+        "width": 800,
+        "height": 616
+      },
+      "pixel_size": [
+        1600,
+        1232
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All three selected tone cards, checks and description fit within complete frame."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-intents.png",
+      "sha256": "413d62761b868aa33c387de9c3346b60ab0a39adee1ff69b69ed7aa3c5897177",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 6425,
+        "width": 800,
+        "height": 361
+      },
+      "pixel_size": [
+        1600,
+        722
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Full input phrase and New intent button legible with complete native border."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-knowledge.png",
+      "sha256": "ae8cf3d13f60645f03ff19dc2264449ef60bbbf517877a44c88627d59a9daf97",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 7371,
+        "width": 800,
+        "height": 467
+      },
+      "pixel_size": [
+        1600,
+        934
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Whole empty upload area and Choose files to upload control visible."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-web-search.png",
+      "sha256": "25f1e7a9d6774c41a6534970cbbe02d1677bfa24bb47441f4bf6e37d87848338",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 8269,
+        "width": 800,
+        "height": 317
+      },
+      "pixel_size": [
+        1600,
+        634
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Complete native empty URL field, placeholder and explanation."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-properties.png",
+      "sha256": "2d3fe82aa098b5f501c77537f613003d93ab1cf35bca7254676aad7bea94a9fa",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 8911,
+        "width": 800,
+        "height": 450
+      },
+      "pixel_size": [
+        1600,
+        900
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Name important-on and Email important-off rows, switches and icons legible."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-channels.png",
+      "sha256": "63115aea5c14417563a698a6b4b579aa6ee2e0d2bda9cac6d550468261366001",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 10062,
+        "width": 800,
+        "height": 691
+      },
+      "pixel_size": [
+        1600,
+        1382
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Both complete channel choices with current selection, recommendation and descriptions visible."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-discount-percent.png",
+      "sha256": "e931f4793693cd186fb50a98039206bbdcc9050dc8a0a90da80ca61a8fc1a240",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 12016,
+        "width": 800,
+        "height": 219
+      },
+      "pixel_size": [
+        1600,
+        438
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All four percentage choices fit centered at330 CSS px;10% selection is legible."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-store-promotions-entry.png",
+      "sha256": "e1499e6ff3c15a75d20c14883a21b1ea11b9e09b6a8afb3b702a4c3ceff0b651",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 12654,
+        "width": 800,
+        "height": 347
+      },
+      "pixel_size": [
+        1600,
+        694
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Complete selected store-only card, description and View store promotions button."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-store-promotions.png",
+      "sha256": "880981f5ac4f73b5e354a972aced5382f18f804c1957b0bbc1ff3e3d33aa2ab3",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 13160,
+        "width": 800,
+        "height": 1124
+      },
+      "pixel_size": [
+        1600,
+        2248
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Whole four-row panel through Restore defaults; dates, Friday and store-status/inclusion contrast remain readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-promotion-filter.png",
+      "sha256": "59fdf30cb2647a2b55ffcdb9e99e298be7fa0034272bd909531909c57d9eb5df",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 14379,
+        "width": 800,
+        "height": 543
+      },
+      "pixel_size": [
+        1600,
+        1086
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Five menu labels and Discounts check visible; native overlap of result fields is retained without clipping the menu."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-followup-controls.png",
+      "sha256": "196ca25872aafd8319e68110ab310365bb172de06c6fcc2c3e4df34cab028f8f",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 16611,
+        "width": 800,
+        "height": 597
+      },
+      "pixel_size": [
+        1600,
+        1194
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Count1, wait2 Minutes, AI Analysis and both helper texts legible and complete."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-followup-actions.png",
+      "sha256": "d53e46f613efac447ea39235b7e485f1a4cd99ce8a1839d62726b42d1467c246",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 17807,
+        "width": 800,
+        "height": 401
+      },
+      "pixel_size": [
+        1600,
+        802
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All three choices and recommended AI Analysis explanation fully visible."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-followup-sequence.png",
+      "sha256": "77279e0d77e2cdfa7888623173a3e15ddd26dbc203ce38de888455320170df3b",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 18391,
+        "width": 800,
+        "height": 522
+      },
+      "pixel_size": [
+        1600,
+        1044
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Full illustrative exchange, two waits, nudge, final action and example disclaimer readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-agent-wait-notice.png",
+      "sha256": "894f4334dc3e992766761a75a4b8c5ce81c3347d8464ed65affab7e127540992",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 20127,
+        "width": 800,
+        "height": 661
+      },
+      "pixel_size": [
+        1600,
+        1322
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Disabled6 Hours and whole native Followup notice/Edit Followup visible; authentic overlay preserved."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-escalation.png",
+      "sha256": "cddee6be4ba648cfc8ab14b7d3e5603537d5d974ffda91bcf4be371c42e81449",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 21481,
+        "width": 800,
+        "height": 431
+      },
+      "pixel_size": [
+        1600,
+        862
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Whole handoff setting, enabled switch and fictional team target visible."
+      ]
+    },
+    {
+      "file": "customize-safely-en-1440-route-assignment.png",
+      "sha256": "211bc237f24187837e0732851c68799d8021fe8eb5288bf0da22d50c2a6231de",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 22553,
+        "width": 800,
+        "height": 751
+      },
+      "pixel_size": [
+        1600,
+        1502
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All five native actions, dropdown, Save changes and Cancel visible within complete frame."
+      ]
+    }
+  ],
+  "findings": [],
+  "limits": [
+    "This receipt covers EN1440 only. EN580 belongs to runtime_isolation. EN390 remains separately pending, including required native horizontal-table supplement."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "status": "passed",
+  "reviewer": "runtime_isolation",
+  "scope": "Independent read-only assessment of the historical CDP interception failure and subsequent frozen load diagnostics. No browser, network, service, database or capture execution by this reviewer.",
+  "checkpoint": {
+    "path": "help-customize-completion-20261011/docs/editorial-work/captures/customize-safely-completion-20261011/validation/checkpoint.json",
+    "sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187"
+  },
+  "historical_capture": {
+    "path": "help-customize-completion-20261011/docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/capture-receipt.json",
+    "sha256": "509abb3c2384a4255cacec44d77195997a98095de2fab8c775c1efad25a415f0",
+    "status_preserved": "failed",
+    "views": 6,
+    "capture_PNGs": 264,
+    "recorded_error_count": 9,
+    "recorded_error": {
+      "code": -32602,
+      "message": "Invalid InterceptionId."
+    },
+    "failure_stage": "Final errors.length assertion after all six views and their captures were recorded."
+  },
+  "handler_analysis": {
+    "original": {
+      "path": "audit/customize-help-qa-20261011/review-pages.mjs",
+      "sha256": "1c5a6187fbefbd02d5c421c36255a115878f0f0f16cb083af8e1d49acd6d533e"
+    },
+    "diagnostic_helpers": [
+      {
+        "path": "audit/customize-help-qa-20261011/diagnose-interception-navigation.mjs",
+        "sha256": "aab80a173c9c25a862e4b2342e7d1bdf5d63eb2f52eb919e8a020166c916d6ca"
+      },
+      {
+        "path": "audit/customize-help-qa-20261011/diagnose-interception-end-figure.mjs",
+        "sha256": "6af216e926e9bfe6feb3056e58a6dbce891d91051a32968f5049ab6c868a0cd0"
+      }
+    ],
+    "observed_code": [
+      "The original Fetch.requestPaused handler sends Fetch.continueRequest for same-origin GET/HEAD and Fetch.failRequest BlockedByClient for other requests. Its promise rejection appends the serialized CDP error message to runtime_errors.",
+      "Runtime.exceptionThrown is a different event path that appends exceptionDetails.text to the same array. The array name alone does not classify an entry as an application exception.",
+      "All nine historical entries match the serialized CDP protocol error shape. No separate application exception text is recorded. The original receipt does not bind these nine entries to request identity, method, URL, phase, action or timestamp.",
+      "The diagnostic handlers record Fetch.requestPaused, Fetch.actionError, Network.loadingFailed and Runtime.exceptionThrown separately, permitting correlation for those new runs."
+    ]
+  },
+  "diagnostics": [
+    {
+      "path": "audit/customize-help-qa-20261011/interception-navigation-diagnostic.json",
+      "sha256": "f5e64836ea1059bb612fdf04be58146bf3024846b3255035f201fc10a05dd5c7",
+      "status": "diagnostic_completed",
+      "views": 6,
+      "decoded_selected_images_per_view": 17,
+      "selected_sources_equal_historical_geometry": true,
+      "observed_GETs": 342,
+      "same_origin_GETs": 336,
+      "blocked_GTM_script_GETs": 6,
+      "loading_failed_events": 6,
+      "loading_failed_correlated_by_network_id_to_blocked_GTM": 6,
+      "Fetch_actionError_events": 0,
+      "Runtime_exceptionThrown_events": 0
+    },
+    {
+      "path": "audit/customize-help-qa-20261011/interception-navigation-end-figure-diagnostic.json",
+      "sha256": "dd8b21859a44574e1548b5cc45f9146542f02ef9b7fca4118cbc6a9e1fac8959",
+      "status": "diagnostic_completed",
+      "views": 6,
+      "decoded_selected_images_per_view": 17,
+      "selected_sources_equal_historical_geometry": true,
+      "observed_GETs": 342,
+      "same_origin_GETs": 336,
+      "blocked_GTM_script_GETs": 6,
+      "loading_failed_events": 6,
+      "loading_failed_correlated_by_network_id_to_blocked_GTM": 6,
+      "Fetch_actionError_events": 0,
+      "Runtime_exceptionThrown_events": 0
+    }
+  ],
+  "curated_render_load_receipt": {
+    "path": "help-customize-completion-20261011/docs/editorial-work/captures/customize-safely-completion-20261011/validation/render-load-validation.json",
+    "sha256": "7e9ee1b2c87f7f4d291153ff81ace008b2251e636f85f2f22b2cbbd9ce9d59b7"
+  },
+  "preservation": {
+    "historical_failure_bytes_unchanged": true,
+    "main_PNGs_rehashed_unchanged": 264,
+    "main_PNG_manifest_sha256": "54d6bd0a61a8e185460004e5e51f8627b105424d8d46b5361327ce421228549b",
+    "article_source_files_rehashed": 2,
+    "built_HTML_files_rehashed": 2,
+    "source_images_rehashed": 68,
+    "built_image_copies_rehashed": 136,
+    "all_match_frozen_checkpoint": true
+  },
+  "separate_table_scroll_supplement": {
+    "path": "help-customize-completion-20261011/docs/editorial-work/captures/customize-safely-completion-20261011/validation/table-scroll-review/capture-receipt.json",
+    "sha256": "a83f96a0ea9f2e318379b9d73cc3aa4e84289edf8826cfbcec64c5cdc07a280e",
+    "helper": {
+      "path": "audit/customize-help-qa-20261011/review-table-scroll.mjs",
+      "sha256": "6bb6ea9da040bc707027b674a1afd08d3c1851b59d46075f62f266c875093274"
+    },
+    "status": "native_table_scroll_capture_passed_pixel_review_pending",
+    "tables_observed": 8,
+    "separate_PNGs": 12,
+    "runtime_errors": [],
+    "source_and_build_hashes_preserved": true,
+    "pixel_review_performed_by_this_interception_review": false
+  },
+  "conclusion": {
+    "current_six_view_load_and_interception_check": "passed in two separate diagnostic runs; same selected figure sources, all decoded, with zero action errors and zero Runtime.exceptionThrown events. The only recorded loading failures correlate exactly to intentionally blocked GTM requests.",
+    "need_to_recapture_264_main_PNGs_for_this_historical_error_alone": false,
+    "disposition": "Accept the new load/interception evidence alongside the immutable main captures and their separate visual/geometry reviews. Retain the historical receipt as failed and explicitly bind the diagnostic supplement; do not rewrite or relabel the original run as successful.",
+    "historical_cause": "unknown; not reproduced",
+    "historical_request_attribution": "unknown; no claim is made that any of the nine errors belonged to GTM, local resources, canceled requests or a particular navigation.",
+    "overall_visual_QA": "Separate from this disposition. The diagnostics verify current HTML loading and image decoding; they do not replace full-page/detail visual reviews or the pending pixel acceptance of the separate horizontally scrolled table captures."
+  },
+  "limitations": [
+    "The original request identities and cause cannot be reconstructed from the nine error strings; successful later runs do not prove an error-free historical transport run.",
+    "Diagnostic traces do not record a complete HTTP response/body ledger for every resource. Current exact local HTML bytes are checked by their helper, selected images are decoded, and the explicit Network.loadingFailed records are correlated.",
+    "This reviewer did not repeat browser execution or visual review of the other five viewports; their existing review ownership remains unchanged."
+  ],
+  "findings": []
+}

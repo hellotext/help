@@ -1,0 +1,1058 @@
+{
+  "status": "pending_supplemental_table_coverage_and_transport_closure",
+  "locale": "en",
+  "width": 390,
+  "reviewer": "/root/inbox_article/guide_review",
+  "recorded_at_utc": "2026-10-11T13:07:34.036705+00:00",
+  "packet": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/views/en-390.json",
+    "sha256": "e13aa7eb7ae0c54a897c9f153fa1bf95a9216dc5fa5e43f15df27e5dcc5ad051"
+  },
+  "checkpoint_sha256": "bea91b8aa60909d46545767c9425e23cda5c0fe39720d65378de90ef7c872187",
+  "source": "_i18n/en/journeys/how-to-customize-a-playbook-safely.md",
+  "source_sha256": "39fc8f3d15c875e405a2ab7997026cf685f09ddfb1f88c33def4089167d6cd61",
+  "built_html": "_site/how-to-customize-a-playbook-safely.html",
+  "built_html_sha256": "8450efe78e5bbf42dc8dc232797e42fa9f987c5602c95c170f76fd96faf31a14",
+  "complete_page_review": {
+    "status": "pending_supplemental_table_coverage",
+    "segments": 30,
+    "coverage_start_css": 0,
+    "coverage_end_css": 32238.5,
+    "document_height_css": 32239,
+    "end_tolerance_css": 1,
+    "minimum_overlap_css": 100,
+    "notes": [
+      "All 30 page segments individually opened with view_image and inspected from header through footer.",
+      "Quick map and Starting values require native horizontal-scroll evidence for their rightmost columns. documentWidth does not establish those columns were seen.",
+      "No further clipping, missing figure, broken wrapping or legibility issue observed."
+    ]
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 17,
+    "notes": [
+      "All 17 separate figure-detail PNGs individually opened with view_image and inspected.",
+      "Complete frames, lavender stages and inset spacing preserved; controls readable inline and in individual details.",
+      "Full five-option filter and three-option final-action menu visible. Native dropdown and disabled-control overlays remain truthful."
+    ]
+  },
+  "method": "Individual view_image inspection of all 47 preserved original PNGs; read-only independent SHA256, PNG chunk CRC, embedded ICC and clip-to-pixel checks. No image transformations, browser, HTTP, helper execution or Help edits.",
+  "files": [
+    {
+      "file": "customize-safely-en-390-full-part1.png",
+      "sha256": "fbb5e1881f71b137ca24b7e1d87b36deebc618f3ddc5339bcc9fcd980a73758d",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Title, navigation and introduction readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part2.png",
+      "sha256": "b0b28ecc7277b4189a6f8e4552607cb2123d4acf8bc07cab0680ee77bd74ade9",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Before-edit guidance readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part3.png",
+      "sha256": "ec717ba982cf6b39ad87638db228510708e045833431b1a8d4890c376d6a561c",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Disable guidance and overview introduction readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part4.png",
+      "sha256": "efbbb572cd6bc362ad2c8994dbe6292e667d7b45c239ace9a907f62f8fa72e51",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "pending_supplemental_table_coverage",
+      "notes": [
+        "Quick map rightmost column requires horizontal supplement."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part5.png",
+      "sha256": "735fd2d5bd2a251a9a2d5bc7e550ec162812b6e5e3c16383c1e392cc86bdc7bb",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "pending_supplemental_table_coverage",
+      "notes": [
+        "Quick map rightmost column requires horizontal supplement; prompt introduction readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part6.png",
+      "sha256": "da4e3e4f2737a32229e39e54d505cd3bd3fb3107546dc18c5ee002e6fda5e713",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Complete prompt field and surrounding guidance readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part7.png",
+      "sha256": "17ce49e2a800f6a7c89bf80680e43d97f3f54d68a9d6c066802003899f29a4db",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Tone selections and explanatory copy readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part8.png",
+      "sha256": "b3b6d6aa093f0ec7b9faf11f536542666ae130a68a3ccf03912217482d3a40a6",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Tone guidance and intents introduction readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part9.png",
+      "sha256": "1fa2f5759016bb4093ad38d35b3a80158c9eb9c2dbc1d1103876d235e10d1842",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 8800,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Intent field and knowledge introduction readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part10.png",
+      "sha256": "221670690892ee26b00c50fa2797f423a4709b4f6efd37479301783dc1e8dbba",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 9900,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Upload controls, web-search guidance and placeholder readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part11.png",
+      "sha256": "e1ed104f123b097c6a499fc5798f5c066b756d0b8208c484114e926ee044241a",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 11000,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Properties controls and explanatory copy readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part12.png",
+      "sha256": "9e2ef4b7b9c6484e7c1e5a14da71dbdd7a7a58810ebe64803372dd113c45c11e",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 12100,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Channel guidance and card introduction readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part13.png",
+      "sha256": "656d4ec0486e47698f5353ac8c8daef7422cbc8863e82cb8d84fc40a673c8ab3",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 13200,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Both channel choices and discount introduction readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part14.png",
+      "sha256": "9966e85dbe91e75c59e49d69826d4adf5f7900ad0e8a2c342c616fef70ba6a62",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 14300,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All strategy-table rows and both columns readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part15.png",
+      "sha256": "285012a37b82982f3b0d528e094077cc2c4e92e519461fc5dbbafe3c6fd74906",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 15400,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Percentage selector and store-panel steps readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part16.png",
+      "sha256": "916816dde631bd367bc6bfa2773d9d24528c760fedd67dd5b9a3a6b80c828403",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 16500,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Selected store-offers card and upper panel rows readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part17.png",
+      "sha256": "1403fa78ac9ca9fde6b7121df2d255d93d683f0260354a9dff1b9f79ea1250b7",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 17600,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Lower panel rows, Restore defaults and complete filter menu readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part18.png",
+      "sha256": "424aff7b33d1f4550992f5bc53f8d95a74a4eb7c89ee8ee8be24197300cab494",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 18700,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Store-state, selection and schedule explanation readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part19.png",
+      "sha256": "cc7d8aae8b99359cd8deeee4b8d0937de7cf4bb3e012bedf02800688ba68b0fc",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 19800,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Save/restore guidance and follow-up introduction readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part20.png",
+      "sha256": "f9c63fa1ddd9830060644f32c3584ed56124c747c08abc3fcfb27fbace3ffcb1",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 20900,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Count, wait and final-action controls match the fictional example."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part21.png",
+      "sha256": "1e6669e4e62c450279a538ddfa8606a727490f489134d076eed150ff630c1698",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 22000,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Timing table and full final-action menu readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part22.png",
+      "sha256": "8e3b6dcc8a904e9f30b30a02841f62ac712057cffd89d7f916486c3201f878c4",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 23100,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Illustrative sequence includes both waits, final action and disclaimer."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part23.png",
+      "sha256": "299d88eee3d50d76bb7d7c1bb39b9403485d4103e1c6b8325b5820f98e924965",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 24200,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "pending_supplemental_table_coverage",
+      "notes": [
+        "Starting values rightmost Final action column requires horizontal supplement."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part24.png",
+      "sha256": "733681cd044a927e83da7b3ec2380692d0c2e67e816becabbefc931c684c63cb",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 25300,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "pending_supplemental_table_coverage",
+      "notes": [
+        "Starting values lower row requires horizontal supplement; Agent notice complete."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part25.png",
+      "sha256": "0a691f947724d18e1bf8bb0298b42ba62ab505ba16f72194efc8020169c5fa6d",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 26400,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Handoff guidance and escalation card readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part26.png",
+      "sha256": "ea2460112b4d9e54b91b9c82c6cf2d7b1ead23b9b0f5f288e6121dcd4f9fe616",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 27500,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Escalation selection and route guidance readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part27.png",
+      "sha256": "289d14175b93b511078adddcb955a6a33795db62f890152213105cbbc7e48fbc",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 28600,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All five assignment choices and unsaved controls readable; testing introduction complete."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part28.png",
+      "sha256": "637152371057d896cdb43e7ca960037cd75a0a681ae5bec6ddbd8e971e87d4da",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 29700,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Testing and post-change review guidance readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part29.png",
+      "sha256": "2f3148b1de2e4f42a47b7caedae42f11d33baac35b31d0c8254bbc56817c1c36",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 30800,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Related links and feedback/contact panels readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-full-part30.png",
+      "sha256": "5025b8f5098063e996e30e5acd832ce0fd87982fcb16735c452e5496814bca6a",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 31038.5,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Final related links, feedback/contact, footer and locale selector complete."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-prompt.png",
+      "sha256": "8295e2937b9c0fab5f88bd882fe2c7f8fd0d579fabdbd3ac0e3d7b47265c3a86",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 5689,
+        "width": 382,
+        "height": 432
+      },
+      "pixel_size": [
+        764,
+        864
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Complete empty prompt field with native placeholder."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-tone.png",
+      "sha256": "e6fcc54f334cd471ebcb526bc51841ae0fbf1f2dd850b4b28f61518f91a4b300",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 7136,
+        "width": 382,
+        "height": 468
+      },
+      "pixel_size": [
+        764,
+        936
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All three selected tones and checks readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-intents.png",
+      "sha256": "2a6ca78f65e5793e31535480d7badee923898e279f6433dca9ded0120d72bb40",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 8715,
+        "width": 382,
+        "height": 300
+      },
+      "pixel_size": [
+        764,
+        600
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Unadded draft intent and New intent control readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-knowledge.png",
+      "sha256": "1ed80527e290644d263f2898b901e42907e468474e82dc141eb60aefe71957d7",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 9822,
+        "width": 382,
+        "height": 376
+      },
+      "pixel_size": [
+        764,
+        752
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Full empty upload area and Choose files control visible."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-web-search.png",
+      "sha256": "b50f79fd79f4e6c6b2a0b8b3533b8b33b7052ea161bd4cca1d86c70c1d1a78bc",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 10893,
+        "width": 382,
+        "height": 228
+      },
+      "pixel_size": [
+        764,
+        456
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Empty URL field retains native placeholder."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-properties.png",
+      "sha256": "05e2aac1331265d44f7f2a46cf16194589ad73e3805f03584c0a847ba311dd4f",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 11620,
+        "width": 382,
+        "height": 374
+      },
+      "pixel_size": [
+        764,
+        748
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Name Important on and Email off both legible."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-channels.png",
+      "sha256": "820338ae834883cf32a21135b5555fea00d8a103c8af35742bff33fd0b981e7a",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 13085,
+        "width": 382,
+        "height": 691
+      },
+      "pixel_size": [
+        764,
+        1382
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All incoming selected and Manual selection both complete."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-discount-percent.png",
+      "sha256": "0967793df18478e46c8aab89fc5b418f3a6951d9919adda46b6584a8a89f2e19",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 15771,
+        "width": 382,
+        "height": 188
+      },
+      "pixel_size": [
+        764,
+        376
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All four percentage options complete; Up to 10% selected."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-store-promotions-entry.png",
+      "sha256": "066eb4b7e939da3c3b8eb21fb3e2224a04dab09cad8fba0f9b5b929eb2c2a39e",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 16568,
+        "width": 382,
+        "height": 352
+      },
+      "pixel_size": [
+        764,
+        704
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Selected store-offers card and View store promotions button complete."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-store-promotions.png",
+      "sha256": "a0e9d2b122fb5dccc95f97b7ceb12063fae6ef384611c0cc134d1d5023089328",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 17199,
+        "width": 382,
+        "height": 904
+      },
+      "pixel_size": [
+        764,
+        1808
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All four fictional rows, schedules, independent store status/switch states and Restore defaults readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-promotion-filter.png",
+      "sha256": "df9fa1cac8daa425a87d10e3d43ff7517fe28fea0806d12d95f97660953d9e52",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 18246,
+        "width": 382,
+        "height": 443
+      },
+      "pixel_size": [
+        764,
+        886
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All five menu choices and selected Discounts check readable; native hover and overlay preserved."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-followup-controls.png",
+      "sha256": "d64ae835674a9d48d3b4de81fc0dff5e69752beed801e5454a82f0b58b2b6fd8",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 21494,
+        "width": 382,
+        "height": 494
+      },
+      "pixel_size": [
+        764,
+        988
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "One nudge, two minutes, AI Analysis and both helper notes readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-followup-actions.png",
+      "sha256": "db0d2ad8a9940c8f90aecb7aa4fb669378077671a25d1e77044bf693a4a06a48",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 22773,
+        "width": 382,
+        "height": 345
+      },
+      "pixel_size": [
+        764,
+        690
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All three final-action choices and full AI Analysis description readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-followup-sequence.png",
+      "sha256": "543533799e55785a5527c9268a4002f272a319589b28f7df7e24d73fa2d7ecc5",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 23421,
+        "width": 382,
+        "height": 458
+      },
+      "pixel_size": [
+        764,
+        916
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Complete illustrative sequence, both waits, final action and disclaimer readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-agent-wait-notice.png",
+      "sha256": "39cdb5a3ceac91daa35c422db0d9683d2c680cff2b00779315c8d1d26a10cbca",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 25755,
+        "width": 382,
+        "height": 549
+      },
+      "pixel_size": [
+        764,
+        1098
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Full Edit Followup notice overlays disabled six-hour controls; fictional stored names preserved."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-escalation.png",
+      "sha256": "c765cb28aa2ae9dfb7cfbb869b0774ff07fba03452ca4bac89e5d1c605b4df48",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 27351,
+        "width": 382,
+        "height": 350
+      },
+      "pixel_size": [
+        764,
+        700
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "Enabled escalation switch and fictional team destination readable."
+      ]
+    },
+    {
+      "file": "customize-safely-en-390-route-assignment.png",
+      "sha256": "f3c387336e995f96ca7bacd64071baad60f5f806ac1280e68d351bd43d19f98a",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 28528,
+        "width": 382,
+        "height": 603
+      },
+      "pixel_size": [
+        764,
+        1206
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visual_status": "passed",
+      "notes": [
+        "All five native choices, disabled Save changes and Cancel visible."
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "en390-overview-table-right-columns",
+      "status": "open",
+      "files": [
+        "customize-safely-en-390-full-part4.png",
+        "customize-safely-en-390-full-part5.png"
+      ],
+      "observation": "Rightmost What it changes column is partially outside the initial horizontal table viewport. Native horizontal-scroll supplement required."
+    },
+    {
+      "id": "en390-starting-values-table-right-columns",
+      "status": "open",
+      "files": [
+        "customize-safely-en-390-full-part23.png",
+        "customize-safely-en-390-full-part24.png"
+      ],
+      "observation": "Final action column is partially outside the initial horizontal table viewport. Native horizontal-scroll supplement required."
+    },
+    {
+      "id": "capture-transport-closure",
+      "status": "pending_owner_root_diagnosis",
+      "observation": "Publisher reports nine CDP Invalid InterceptionId errors in the primary capture receipt. Root authorized review of preserved PNGs; no global PASS is inferred before separate transport closure."
+    }
+  ],
+  "limits": [
+    "Pixel findings only for the pinned EN390 packet; no runtime, production or publication acceptance.",
+    "Table supplement received separately and will be reviewed in an additional receipt."
+  ]
+}

@@ -66,7 +66,7 @@ El prompt debería decirle al agente qué trabajo tiene, cómo debe hablar, qué
 
 El ejemplo muestra el campo **Prompt del agente** de un Agente Personalizado ficticio nuevo. Está vacío: el texto gris es un placeholder, no instrucciones guardadas. No se habilitó la misión ni se ejecutó el Playground.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campo de prompt vacío en un borrador ficticio">
+<figure data-customize-figure="prompt" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campo de prompt vacío en un borrador ficticio">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -98,7 +98,7 @@ El tono controla la voz y el estilo de las respuestas o mensajes generados por I
 
 La tarjeta permite seleccionar de uno a tres tonos. El borrador independiente del Recolector de Propiedades muestra **Amigable**, **Juguetón** y **Exclusivo** seleccionados sin guardar. Es una combinación de ejemplo, no una recomendación universal ni una respuesta generada.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tres tonos seleccionados en un borrador">
+<figure data-customize-figure="tone" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tres tonos seleccionados en un borrador">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -130,7 +130,7 @@ Usa lenguaje del cliente, no etiquetas internas. Por ejemplo, "quiero cambiar mi
 
 La selección considera el contexto de la conversación y las misiones activas; no es una coincidencia exacta de palabras. En este borrador, **Quiero consultar una devolución.** sigue en el campo sin agregar: no se pulsó **Nueva intención**, Enter ni guardar. No es un mensaje recibido ni una clasificación realizada.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Frase de intención sin agregar">
+<figure data-customize-figure="intents" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Frase de intención sin agregar">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -160,7 +160,7 @@ El conocimiento debería hacer que el agente responda con más precisión. No si
 
 La figura muestra **Conocimiento** en el Agente Personalizado ficticio: área de carga y **Elige archivos para subir** completos, sin archivos elegidos o subidos. Elegir un archivo, guardarlo y que esté disponible para consulta son estados distintos; el procesamiento posterior puede ser asíncrono.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Área de conocimiento sin archivos">
+<figure data-customize-figure="knowledge" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Área de conocimiento sin archivos">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -184,7 +184,7 @@ Después de actualizar conocimiento, usa el Playground para hacer preguntas que 
 
 Si aparece **Búsqueda web**, configura sitios oficiales pertinentes a la misión y revisa la información que encuentra. Una URL limita dominios de búsqueda; no es una integración, instalación ni garantía de que una página exacta será leída. El campo de este borrador está vacío: **https://www.example.com** es el placeholder nativo, no un sitio agregado o consultado.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campo de búsqueda web vacío">
+<figure data-customize-figure="web-search" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campo de búsqueda web vacío">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -204,7 +204,7 @@ Selecciona solamente los datos del perfil que esa misión realmente necesita. Cu
 
 El borrador del Recolector de Propiedades muestra **Nombre** marcado **Importante** y **E Mail** opcional. No se guardó ni se recopiló ningún dato. La opción expresa una prioridad de recopilación; no demuestra un valor verificado, consentimiento para mensajes o permiso de envío.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Nombre importante y correo opcional">
+<figure data-customize-figure="properties" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Nombre importante y correo opcional">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 666px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -231,7 +231,7 @@ En general, deja la selección automática de canales si la misión ya funciona 
 
 En el ejemplo independiente del Recolector de Propiedades, **Canales de entrada** muestra **Todos los canales de entrada** seleccionado y **Selección manual** disponible, sin guardar. Delimita dónde puede atender esa misión; no prueba que los canales estén conectados, que el perfil pueda recibir mensajes ni que una salida haya sido entregada. Comprueba si tu tarjeta controla entrada o salida antes de cambiarla.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selección de canales de entrada sin guardar">
+<figure data-customize-figure="channels" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selección de canales de entrada sin guardar">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -272,12 +272,12 @@ Las opciones con IA muestran **Hasta 5%**, **Hasta 10%**, **Hasta 15%** y **Hast
 
 La figura muestra **Hasta 10%** seleccionado en un borrador del **Impulsor de Suscriptores** sin guardar. En esa misión, el incentivo generado usa el porcentaje configurado como tasa fija; no lo interpretes como un máximo variable de IA para todas las misiones. La imagen ilustra el selector de porcentaje y no muestra el panel de promociones importadas. No se generó un descuento ni se cambió una promoción de tienda.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Porcentaje en la tarjeta de descuento compartida">
+<figure data-customize-figure="discount-percent" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Porcentaje en la tarjeta de descuento compartida">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 548px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 263px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/subscriber-booster/discount-mobile-es.png 2x" width="490" height="236" />
-        <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/discount-es.png" srcset="/images/captures/subscriber-booster/discount-es.png 2x" width="1060" height="820" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Porcentaje en la tarjeta de descuento compartida" />
+        <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/discount-mobile-es.png" srcset="/images/captures/subscriber-booster/discount-mobile-es.png 2x" width="490" height="236" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Porcentaje en la tarjeta de descuento compartida" />
       </picture>
     </div>
   </div>
@@ -294,9 +294,53 @@ El panel **Promociones de la tienda** muestra las promociones importadas de VTEX
 4. Usa **Buscar promociones** para encontrarla por nombre. El icono de filtro junto a la búsqueda permite limitar la lista por tipo.
 5. Cierra el panel con su botón de cerrar o con Escape cuando termines.
 
-Elegir una estrategia mantiene el panel cerrado hasta que pulses **Ver promociones de la tienda**. Al abrirlo, aparece a la izquierda y desplaza la configuración a la derecha. Al cerrarlo, recuperas la configuración y la vista previa de la conversación.
+<!-- customize:store-promotions-entry:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="store-promotions-entry" aria-label="Estrategia de ofertas existentes seleccionada, con el botón Ver promociones de la tienda.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 594px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/store-promotions-entry-es-mobile.png 4x" width="1560" height="1496" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/store-promotions-entry-es-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/store-promotions-entry-es-desktop.png 4x" width="2304" height="1096" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Estrategia de ofertas existentes seleccionada, con el botón Ver promociones de la tienda." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Botón para abrir el panel de promociones del ejemplo ficticio; la estrategia no se cambió ni se guardó.</figcaption>
+</figure>
+<!-- customize:store-promotions-entry:end -->
+
+Elegir una estrategia mantiene el panel cerrado hasta que pulses **Ver promociones de la tienda**. En escritorio, aparece a la izquierda y desplaza la configuración a la derecha; en pantallas más estrechas, ocupa el área del editor. Al cerrarlo, vuelves al editor.
+
+El panel de este ejemplo contiene promociones ficticias y una selección por misión preparada previamente.
+
+<!-- customize:store-promotions:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="store-promotions" aria-label="Panel de promociones de la tienda con promociones ficticias, horarios y controles de inclusión para la misión.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 555px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/store-promotions-es-mobile.png 4x" width="1560" height="4492" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/store-promotions-es-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/store-promotions-es-desktop.png 4x" width="2148" height="4092" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Panel de promociones de la tienda con promociones ficticias, horarios y controles de inclusión para la misión." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Sólo se abrió el panel para mostrar el ejemplo preparado; no se cambiaron promociones ni se guardaron ajustes.</figcaption>
+</figure>
+<!-- customize:store-promotions:end -->
 
 El filtro ofrece **Todos los tipos**, **Combos**, **Compra y recibe un regalo**, **Lleva más, paga menos** y **Descuentos**. La búsqueda y el tipo se combinan; **Mostrar más** amplía los resultados de esa selección.
+
+<!-- customize:promotion-filter:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="promotion-filter" aria-label="Búsqueda de promociones y menú de tipos con Todos los tipos, Combos, Compra y recibe un regalo, Lleva más, paga menos y Descuentos.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 555px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/promotion-filter-es-mobile.png 4x" width="1560" height="2000" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/promotion-filter-es-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/promotion-filter-es-desktop.png 4x" width="2148" height="1864" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Búsqueda de promociones y menú de tipos con Todos los tipos, Combos, Compra y recibe un regalo, Lleva más, paga menos y Descuentos." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">El filtro delimita los resultados visibles; no cambia qué promociones están permitidas para la misión.</figcaption>
+</figure>
+<!-- customize:promotion-filter:end -->
 
 Buscar o cambiar el filtro conserva tus selecciones, incluso las de promociones que ya no ves. Cambiar el tipo vuelve al inicio de la lista y mantiene el texto de búsqueda. Filtrar una promoción fuera de la vista no la excluye del agente: para excluirla, desactiva su interruptor. Cerrar y volver a abrir el panel también conserva la búsqueda, el filtro y las selecciones mientras sigas en el editor.
 
@@ -339,6 +383,22 @@ El agente redacta cada recordatorio según la conversación. Configuras la canti
 2. En **Esperar una respuesta**, introduce un número entero de al menos **1** y elige minutos u horas.
 3. En **Si todavía no hay respuesta**, elige la acción final.
 
+Este ejemplo ficticio tiene un recordatorio, una espera de dos minutos y Análisis de IA como acción final.
+
+<!-- customize:followup-controls:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="followup-controls" aria-label="Controles de Seguimiento con un recordatorio, espera de dos minutos y Análisis de IA.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 594px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/followup-controls-es-mobile.png 4x" width="1560" height="2160" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/followup-controls-es-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/followup-controls-es-desktop.png 4x" width="2304" height="1984" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Controles de Seguimiento con un recordatorio, espera de dos minutos y Análisis de IA." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Configuración existente de una misión ficticia deshabilitada; no se cambió ni guardó durante la captura.</figcaption>
+</figure>
+<!-- customize:followup-controls:end -->
+
 La misma espera se aplica antes de cada recordatorio y una vez más antes de la acción final. No se configura una duración distinta para cada recordatorio.
 
 Por ejemplo, con dos recordatorios disponibles y una espera de diez minutos, si el cliente no responde después de la respuesta del agente:
@@ -355,9 +415,37 @@ Por ejemplo, con dos recordatorios disponibles y una espera de diez minutos, si 
 
 En **Si todavía no hay respuesta**, elige qué ocurre después de la última espera: **Análisis de IA**, **Cerrar la conversación** o **Transferir a una persona**.
 
+<!-- customize:followup-actions:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="followup-actions" aria-label="Menú de acción final con Análisis de IA, Cerrar la conversación y Transferir a una persona.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 594px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/followup-actions-es-mobile.png 4x" width="1560" height="1240" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/followup-actions-es-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/followup-actions-es-desktop.png 4x" width="2304" height="1200" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú de acción final con Análisis de IA, Cerrar la conversación y Transferir a una persona." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Opciones de la acción final; el menú se abrió sin elegir otra opción ni guardar.</figcaption>
+</figure>
+<!-- customize:followup-actions:end -->
+
 Con **Transferir a una persona**, pulsa **Asignación** para revisar el destino en el mismo editor. La flecha de volver o **Volver** te lleva de nuevo a Seguimiento. Revisa también el destino si eliges **Análisis de IA**, porque el análisis puede decidir transferir la conversación.
 
 La vista previa muestra una conversación de ejemplo con las esperas, los recordatorios y la acción elegida. Sus mensajes son ilustrativos; el agente redacta los mensajes reales según cada conversación.
+
+<!-- customize:followup-sequence:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="followup-sequence" aria-label="Vista previa ilustrativa de Seguimiento con una espera, un recordatorio, otra espera y Análisis de IA.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 594px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/followup-sequence-es-mobile.png 4x" width="1560" height="1892" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/followup-sequence-es-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/followup-sequence-es-desktop.png 4x" width="2304" height="1684" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Vista previa ilustrativa de Seguimiento con una espera, un recordatorio, otra espera y Análisis de IA." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Ejemplo nativo para un recordatorio y esperas de dos minutos; no son mensajes enviados ni acciones ejecutadas.</figcaption>
+</figure>
+<!-- customize:followup-sequence:end -->
 
 ### Respuestas y cambios posteriores
 
@@ -388,6 +476,22 @@ Las misiones nuevas parten de estos valores:
 
 Cuando la misión elegida incluye Seguimiento, este componente controla la espera del paso de agente, incluso con **Ninguno**. Puedes abrir la sección de espera para consultar su valor, pero sus controles están deshabilitados. Usa **Editar Seguimiento** en el aviso para cambiar la configuración de la misión.
 
+En este ejemplo, la espera de seis horas del paso está deshabilitada porque la controla Seguimiento.
+
+<!-- customize:agent-wait-notice:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-customize-figure="agent-wait-notice" aria-label="Espera de seis horas deshabilitada en el paso de agente, con el aviso de Seguimiento y el enlace Editar Seguimiento.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 479px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/customize-safely-completion-20261011/agent-wait-notice-es-mobile.png 4x" width="1560" height="2432" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/customize-safely-completion-20261011/agent-wait-notice-es-desktop.png" srcset="/images/editorial/customize-safely-completion-20261011/agent-wait-notice-es-desktop.png 4x" width="1844" height="2336" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Espera de seis horas deshabilitada en el paso de agente, con el aviso de Seguimiento y el enlace Editar Seguimiento." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">El valor del paso no es la espera activa: se aplica el Seguimiento de la misión. La ruta permanece como borrador.</figcaption>
+</figure>
+<!-- customize:agent-wait-notice:end -->
+
 Si el paso tiene ramas **Resuelto** y **No resuelto**, cerrar continúa por Resuelto y una transferencia completada continúa por No resuelto. Análisis de IA decide cuál de esas acciones realizar. Los demás pasos de espera de la ruta conservan su propia configuración.
 
 ## Personaliza derivación
@@ -405,7 +509,7 @@ Revisa:
 
 **Atención demo** es el equipo ficticio elegido en este borrador de **Derivación** del Recolector de Propiedades. No es una misión ni una conversación asignada. Destino, miembros asignables, capacidad, estado de la conversación y respuesta humana son etapas distintas. El protocolo puede conservar la colaboración de IA o pausar según el flujo; no asumas una pausa universal y permanente.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Equipo ficticio en el control de derivación">
+<figure data-customize-figure="escalation" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Equipo ficticio en el control de derivación">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
       <picture>
@@ -435,7 +539,7 @@ Las rutas sí tienen pasos visibles y son sensibles a cambios de secuencia. Cuan
 
 La figura identifica el componente **Asignación** en un formulario ficticio de ruta nueva, sin guardar. Sus cinco acciones completas son controles del paso; no representan una ruta ya construida ni una conversación procesada. Revisa el orden y los destinos: cerrar, asignar y cambiar la atención de IA no son acciones equivalentes. Un cambio de pasos tampoco demuestra que el trabajo existente se canceló.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Cinco acciones en el componente Asignación">
+<figure data-customize-figure="route-assignment" class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Cinco acciones en el componente Asignación">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 521px; width: fit-content; margin: 0 auto;">
       <picture>
