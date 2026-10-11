@@ -1,5 +1,23 @@
 # Conversation lifecycle — visual work
 
+## Commit closure — 2026-10-11
+
+The real local verifying commit is `10cc0ce7ab004ad4f3ee3a008b9259e389f2e1f6`. The inventory now marks this bilingual
+pair `local_verified`; its other 153 rows are unchanged and 38 pairs remain
+unresolved. The [committed verification closure](captures/conversation-lifecycle-20261011/local-verification-committed.json)
+binds the immutable evidence below. Both application capture and Help review
+processes are closed. No local blockers remain. Root owns the separately
+authorized push, PR, merge and public deployment verification.
+
+The original build log is preserved byte exact, including the trailing space on
+its native `Generating...` line. That is the sole full-diff whitespace report;
+all other candidate paths pass. The closure distinguishes this report from the
+earlier tracked-file check. It does not affect the build, source or pixel results.
+
+## Preparation record before the verifier commit
+
+The following section preserves the state recorded before the commit closure.
+
 Status: `in_progress`, with all local controls passed and the actual verifying
 commit still pending. This complete bilingual continuation was prepared in
 an isolated Help worktree, initially based on `438e30b531e539fca07ad5c62686b0e97201d6d4`.

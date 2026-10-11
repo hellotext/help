@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-10-11T07:39:48.193191+00:00",
+  "status": "bilingual_article_local_verified",
+  "article_key": "team/conversation-lifecycle.md",
+  "verifying_commit": "10cc0ce7ab004ad4f3ee3a008b9259e389f2e1f6",
+  "verifying_commit_parent": "3738f78b4d0ffaf7022c1948004da70becec4566",
+  "final_review": {
+    "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/final-review.json",
+    "sha256": "b6833ce81043e6c56668c2cd2e30b3dccc3a09d428ea51e7bfb511f5d91671e0"
+  },
+  "local_verification_before_commit": {
+    "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/local-verification.json",
+    "sha256": "10d56c52e4376e1498e67b282605ecafcb36d2bd060e28923cfa0ea6cb437b36"
+  },
+  "evidence_index_at_verifying_commit": {
+    "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/evidence-index.json",
+    "sha256": "c31cbc4106664aa7d63af249ec2992e4c6d380e3fa274885faf82742183244f5"
+  },
+  "remaining_blockers": [],
+  "inventory": {
+    "before_row": "team/conversation-lifecycle.md,in_progress,,docs/editorial-work/conversation-lifecycle.md",
+    "after_row": "team/conversation-lifecycle.md,local_verified,10cc0ce7ab004ad4f3ee3a008b9259e389f2e1f6,docs/editorial-work/conversation-lifecycle.md",
+    "rows": 154,
+    "unrelated_rows_preserved": 153,
+    "before_counts": {
+      "local_verified": 114,
+      "pending": 33,
+      "out_of_scope": 1,
+      "in_progress": 5,
+      "visual_pending": 1
+    },
+    "after_counts": {
+      "local_verified": 115,
+      "pending": 33,
+      "out_of_scope": 1,
+      "in_progress": 4,
+      "visual_pending": 1
+    },
+    "unresolved_before": 39,
+    "unresolved_after": 38,
+    "before_sha256": "06c6e460702d6a92eb70d330ebac58b786af13a7bf49d46aea5959df82e9ef82",
+    "after_sha256": "5636c9a89ea4f13a2cf766003e0e273524c5ff73d63651784013763f2c8c1406"
+  },
+  "immutable_receipts_preserved": true,
+  "publication_verified": false,
+  "whitespace_check": {
+    "all_candidate_paths_exit_code": 2,
+    "only_reported_path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/build.log:10",
+    "all_other_paths_exit_code": 0,
+    "explanation": "The native build output has a trailing space on its Generating line. The immutable log and its original SHA were preserved, rather than editing captured evidence. The earlier local-scope check covered tracked working-tree edits before staging new evidence, so did not inspect this newly added log. The staged command reported this one issue; the sequential orchestration proceeded to the commit, and this later closure records the exact exception."
+  },
+  "limits": [
+    "This receipt records a real existing local verifier commit and completed local controls, not a remote merge or deployment.",
+    "The verifier commit preserves the pre-commit work record, pending historical receipts, final review and evidence index. The later closure changes only the current work record, this receipt and the one inventory row."
+  ]
+}
