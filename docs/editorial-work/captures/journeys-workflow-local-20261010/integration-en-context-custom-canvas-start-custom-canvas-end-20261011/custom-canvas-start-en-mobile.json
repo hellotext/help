@@ -1,0 +1,41 @@
+{
+  "file": "custom-canvas-start-en-mobile.png",
+  "id": "custom-canvas-start",
+  "locale": "en",
+  "layout": "mobile",
+  "clip": [
+    0,
+    80,
+    390,
+    820
+  ],
+  "pixelSize": [
+    1560,
+    3280
+  ],
+  "nativeDensity": 4,
+  "devicePixelRatio": 2,
+  "captureScale": 2,
+  "icc": "Display P3",
+  "sha256": "c1797d51edd6036834f813960ba83d7ef482e3824695984d00e4330186937378",
+  "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "capturedAt": "2026-10-11T00:40:34.651Z",
+  "viewport": [
+    390,
+    1200
+  ],
+  "zoom": 1,
+  "asset": "images/editorial/journeys-workflow-20261010/custom-canvas-start-en-mobile.png",
+  "raw_metadata_sha256": "f1046e96b4b789b1663674e6972bda3a03af30a6131bab33630224229c208ff6",
+  "transformations": "none; byte-exact copy",
+  "pixel_review": "passed",
+  "observed": [
+    "Viewed a product connects to Wait / 2 Hours, then Condition.",
+    "Both branches are visible: BRANCH 1 / Age is greater than 18 and else.",
+    "Target text, icons and branch split are complete at native canvas scale."
+  ],
+  "limits": [
+    "Lower outgoing branch connectors intentionally continue outside this start fragment.",
+    "This is configuration topology, not evidence of a triggered event, elapsed wait or evaluated condition."
+  ]
+}

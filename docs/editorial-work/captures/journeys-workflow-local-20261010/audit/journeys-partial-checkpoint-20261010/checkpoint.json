@@ -1,0 +1,199 @@
+{
+  "verified_at": "2026-10-10T22:17:45.339798+00:00",
+  "status": "partial_production_build_checkpoint_passed",
+  "scope": "Two bilingual guides with approved prose corrections and twelve preserved historical entry/catalog/trigger-menu PNGs.",
+  "complete_visual_coverage": false,
+  "production_build": {
+    "command": [
+      "yarn",
+      "build"
+    ],
+    "ruby": "3.3.6",
+    "exit_code": 0,
+    "log_sha256": "9e6e93e6f86979905b19642d00f98d4dc4d9dbd23893014274ffacbb4559ef17",
+    "execution_record_sha256": "c307e436299323d947c97063085db907ef47cac716f8d2c20e589aaeb95f1637",
+    "security_header_check": "passed by the unmodified standard build",
+    "nonblocking_output": "Existing Browserslist/caniuse-lite age notice; no dependency update performed."
+  },
+  "input_snapshot_sha256": "94210f693f7c413665260991e48c3ea78ddafe149c4e05ed3db35b16a5fc92d0",
+  "copy_correction_receipt_sha256": "f4d5bc265c7d6c23c2f9f773ca1b602f699fd4851ea0cb2df43bd55210070398",
+  "articles": [
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "064969ac16cde65ececa424c5f21e381ec86a1b45654012362aaac864be69d3c",
+      "built_html": "_site/es/primeros-pasos-con-rutas.html",
+      "built_html_sha256": "6b87548ce745da0f8dfd03d3f4f8f245f039ad9a7c232c44b172d9e62f86852d",
+      "preserved_figure_structures_exported": 2,
+      "approved_corrections_rendered": 2
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "source_sha256": "86af4c39dadb0e9e31d1bac56ccedb7bec00dd64a172a29cf08ad86c3248f51b",
+      "built_html": "_site/getting-started-with-journeys.html",
+      "built_html_sha256": "f45dd9209adaf90a05692fdec2afe369ff3a4a13693a51df33e01a7777a12f57",
+      "preserved_figure_structures_exported": 2,
+      "approved_corrections_rendered": 2
+    },
+    {
+      "source": "_i18n/es/journeys/custom-journey.md",
+      "source_sha256": "2fb404d6c5ff4eba66e68c54999fedb85cbc4e657ab927c7e19680dfa1f83b12",
+      "built_html": "_site/es/ruta-personalizada.html",
+      "built_html_sha256": "34fa0b92ea21370b89a4bc3df0fe4ca2ba7a4e26707e8c5c16b63e843e868fa6",
+      "preserved_figure_structures_exported": 1,
+      "approved_corrections_rendered": 3
+    },
+    {
+      "source": "_i18n/en/journeys/custom-journey.md",
+      "source_sha256": "bc7c2a5bedd05dc4a38041f5ba71333477531b3ebbdc66f55593c37dc3da3e95",
+      "built_html": "_site/custom-journey.html",
+      "built_html_sha256": "2bab80629181214f320ed7d7042652581ff29ff26fc0427792035400b03e4667",
+      "preserved_figure_structures_exported": 1,
+      "approved_corrections_rendered": 3
+    }
+  ],
+  "source_png_count": 12,
+  "source_to_built_png_comparisons": 24,
+  "images": [
+    {
+      "source": "images/editorial/journeys-entry-20261010/catalog-builder-choice-en-desktop.png",
+      "sha256": "564cbc065809555bb9a2b4f500e8700407dd1417ddf743e1e768a6743e02502e",
+      "built_copies_equal": [
+        "_site/images/editorial/journeys-entry-20261010/catalog-builder-choice-en-desktop.png",
+        "_site/es/images/editorial/journeys-entry-20261010/catalog-builder-choice-en-desktop.png"
+      ]
+    },
+    {
+      "source": "images/editorial/journeys-entry-20261010/catalog-builder-choice-en-mobile.png",
+      "sha256": "67075cd9e52b089412ca184675f123e37b7d617f7de16c8b7fdfc106e032e9e2",
+      "built_copies_equal": [
+        "_site/images/editorial/journeys-entry-20261010/catalog-builder-choice-en-mobile.png",
+        "_site/es/images/editorial/journeys-entry-20261010/catalog-builder-choice-en-mobile.png"
+      ]
+    },
+    {
+      "source": "images/editorial/journeys-entry-20261010/catalog-builder-choice-es-desktop.png",
+      "sha256": "345bda0516550574d36aad75f73032c6737b324ebefabcb4853eeb2451b179ac",
+      "built_copies_equal": [
+        "_site/images/editorial/journeys-entry-20261010/catalog-builder-choice-es-desktop.png",
+        "_site/es/images/editorial/journeys-entry-20261010/catalog-builder-choice-es-desktop.png"
+      ]
+    },
+    {
+      "source": "images/editorial/journeys-entry-20261010/catalog-builder-choice-es-mobile.png",
+      "sha256": "16fe9d232203a852a42b511ef93109616cb2fb3e5a1f1a0695c34d754afd6984",
+      "built_copies_equal": [
+        "_site/images/editorial/journeys-entry-20261010/catalog-builder-choice-es-mobile.png",
+        "_site/es/images/editorial/journeys-entry-20261010/catalog-builder-choice-es-mobile.png"
+      ]
+    },
+    {
+      "source": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-desktop.png",
+      "sha256": "e6914c42a864e9e04ed9032a3b1ebd0dac964b75b8dfeaabe7ca77cf2a150294",
+      "built_copies_equal": [
+        "_site/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-desktop.png",
+        "_site/es/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-desktop.png"
+      ]
+    },
+    {
+      "source": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-mobile.png",
+      "sha256": "58df8a2f574017be737a899f3f01a48e9a239b05b9266db6ae41ff110694823c",
+      "built_copies_equal": [
+        "_site/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-mobile.png",
+        "_site/es/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-mobile.png"
+      ]
+    },
+    {
+      "source": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-desktop.png",
+      "sha256": "94c81e4ca9401ecb4d3e766bd2bbe81f69331dcfa46b58f786e9315a0df7d89e",
+      "built_copies_equal": [
+        "_site/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-desktop.png",
+        "_site/es/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-desktop.png"
+      ]
+    },
+    {
+      "source": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-mobile.png",
+      "sha256": "d6d2170a478446e2f999fbca07000deb9e0a9c7df61df4449c441567dff4bd6b",
+      "built_copies_equal": [
+        "_site/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-mobile.png",
+        "_site/es/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-mobile.png"
+      ]
+    },
+    {
+      "source": "images/editorial/journeys-entry-20261010/journey-trigger-menu-en-desktop.png",
+      "sha256": "2d59cf1d794f3411d4c745523532f39b102362279127f6dda79cb66adaf6b668",
+      "built_copies_equal": [
+        "_site/images/editorial/journeys-entry-20261010/journey-trigger-menu-en-desktop.png",
+        "_site/es/images/editorial/journeys-entry-20261010/journey-trigger-menu-en-desktop.png"
+      ]
+    },
+    {
+      "source": "images/editorial/journeys-entry-20261010/journey-trigger-menu-en-mobile.png",
+      "sha256": "eaf738a3ac917d891e90001d84e2e9cea68919199fa3097cff7577436b466e18",
+      "built_copies_equal": [
+        "_site/images/editorial/journeys-entry-20261010/journey-trigger-menu-en-mobile.png",
+        "_site/es/images/editorial/journeys-entry-20261010/journey-trigger-menu-en-mobile.png"
+      ]
+    },
+    {
+      "source": "images/editorial/journeys-entry-20261010/journey-trigger-menu-es-desktop.png",
+      "sha256": "dfe9bc526dfa1a6b454c6252c86f3abab0be7ba8417a22b15438a1a1690c1e1d",
+      "built_copies_equal": [
+        "_site/images/editorial/journeys-entry-20261010/journey-trigger-menu-es-desktop.png",
+        "_site/es/images/editorial/journeys-entry-20261010/journey-trigger-menu-es-desktop.png"
+      ]
+    },
+    {
+      "source": "images/editorial/journeys-entry-20261010/journey-trigger-menu-es-mobile.png",
+      "sha256": "e6a798310618be12b423f4b498e1380c791b3d3d51744977b9aa4c5ed303fc79",
+      "built_copies_equal": [
+        "_site/images/editorial/journeys-entry-20261010/journey-trigger-menu-es-mobile.png",
+        "_site/es/images/editorial/journeys-entry-20261010/journey-trigger-menu-es-mobile.png"
+      ]
+    }
+  ],
+  "exported_js_byte_comparisons": 4,
+  "exported_js_copies": [
+    "_site/assets/editorial/editorial_visuals.js",
+    "_site/es/assets/editorial/editorial_visuals.js",
+    "_site/assets/editorial/editorial_tabs.js",
+    "_site/es/assets/editorial/editorial_tabs.js"
+  ],
+  "figure_comparison": "HTML parser confirms identical tags, attributes, order and caption text; expected build whitespace minification is normalized.",
+  "docs_AGENTS_audit_security_checker_excluded_from_both_locales": true,
+  "article_image_stub_ledger_configuration_hashes_unchanged_during_build": true,
+  "inventory": {
+    "rows": [
+      {
+        "article_key": "journeys/custom-journey.md",
+        "editorial_status": "in_progress",
+        "local_verified_commit": "",
+        "work_record": "docs/editorial-work/custom-journey.md"
+      },
+      {
+        "article_key": "journeys/getting-started-with-journeys.md",
+        "editorial_status": "in_progress",
+        "local_verified_commit": "",
+        "work_record": "docs/editorial-work/getting-started-with-journeys.md"
+      }
+    ],
+    "unresolved_pairs": 42,
+    "modified_by_checkpoint": false,
+    "closed_by_checkpoint": false
+  },
+  "remaining_coverage": [
+    "A genuine template opened with its trigger and connected steps.",
+    "Actual trigger selection and connected step insertion.",
+    "Message, condition, wait, human assignment and separate end-policy configuration.",
+    "Actual Save/reload persistence; saved draft, Publish/active and Make inactive states of the same owned journey.",
+    "Accepted new ES/EN desktop/mobile native screenshots and complete rendered-page review after integration."
+  ],
+  "runtime_or_journey_save_publish_actions": 0,
+  "new_source_captures": 0,
+  "server_started": false,
+  "browser_used": false,
+  "configuration_changed": false,
+  "dependencies_installed": false,
+  "commit": "not_performed",
+  "external_publication": "not_performed",
+  "next_build_condition": "Build again after newly accepted workflow blocks or other article changes are integrated; this checkpoint does not close visual coverage."
+}

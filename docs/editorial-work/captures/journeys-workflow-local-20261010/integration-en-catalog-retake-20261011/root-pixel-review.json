@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "reviewer": "root",
+  "reviewed_at": "2026-10-11T01:23:30.844505+00:00",
+  "scope": "Replacement source pixels and native PNG metadata for Getting started EN mobile catalog only. Not page integration, database execution or publication.",
+  "source_path": "journeys-catalog-retake-20261011/captures/catalog-route-vs-agent-en-mobile-compact-retake.png",
+  "sha256": "f90b5221f3387a81690ea3e2d16606b104bc6de8960eaedec949ec601e1f16e4",
+  "sidecar_sha256": "aa48505c293108679e1390c5f20a265d2a984149ea6b011059125710234eb66b",
+  "pixel_size": [
+    1560,
+    1632
+  ],
+  "clip_css": [
+    0,
+    94,
+    390,
+    408
+  ],
+  "density": 4,
+  "icc": "Display P3",
+  "png_text_metadata_absent": true,
+  "viewed_original_pixels": true,
+  "checks": {
+    "no_visible_scrollbar": true,
+    "convert_heading_complete": true,
+    "both_card_borders_complete": true,
+    "card_names_and_descriptions_legible_complete": true,
+    "native_on_request_ribbon_preserved": true,
+    "balanced_real_background_margins": true,
+    "no_cursor_or_tooltip": true
+  },
+  "findings": [],
+  "decision": "Accepted to replace the defective EN mobile compact source with a v2 file. Preserve rejected original as excluded local evidence. Repeat only affected Getting EN page QA.",
+  "transformations": "none; native scrolling and cursor parking followed by native fade before screenshot",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "read_contract_sha256": "11aac20b845ce7b023e58cddbcc88397ebd47a2f356e07ef607fe4566e9190bb",
+  "runtime_closure": "Authorized now; owner restores only new fixture locale, verifies source/new copy and stops owned retake processes."
+}

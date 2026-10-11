@@ -1,0 +1,156 @@
+{
+  "reviewer": "/root/draft_audit/next_candidate",
+  "updated_at": "2026-10-11T00:35:04.099357+00:00",
+  "status": "selected_pngs_independently_pixel_passed",
+  "review_sha256": "fa537fd50ea9e94830d42a73e61efc00e3b6dd10c8accb2bf465c101655ec81f",
+  "scope": "Saved original EN PNG pixel review and read-only sidecar/hash/dimensions/ICC corroboration only. No browser, app, DB, publication or source-image changes.",
+  "records": [
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-assignment-sofia-en-desktop.png",
+      "sha256": "5a15952eab8f8644be1cd8223bad07a6eb6590afa4673c53afd9bb2742a8f48f",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-assignment-sofia-en-desktop.json",
+      "metadata_sha256": "c78688629f1d45e6b38c58f9db7392a05588f9d34a5645cef2212cf1d9605009",
+      "id": "custom-assignment-sofia",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        1024,
+        0,
+        576,
+        300
+      ],
+      "pixelSize": [
+        2304,
+        1200
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Assignment panel names Assign conversation to Sofía with native initial avatar.",
+        "The additional Select an action to perform row remains unconfigured.",
+        "Entire target text and controls remain visible in desktop and mobile."
+      ],
+      "limits": [
+        "Save is outside the compact clip. This shows assignment-step configuration, not an executed conversation assignment.",
+        "User1 mapping is owner-provided context; pixels independently show the fictional name Sofía only."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-assignment-sofia-en-mobile.png",
+      "sha256": "3d4a29b7627f9f8262f803f23714df99b2caf57d5e4057d8b11ebf6c5ceed51e",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-assignment-sofia-en-mobile.json",
+      "metadata_sha256": "d96e5dbec752ab7fa7bd93ed87d3c425f7c5084c163a83945bbc54520002b96e",
+      "id": "custom-assignment-sofia",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        340
+      ],
+      "pixelSize": [
+        1560,
+        1360
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Assignment panel names Assign conversation to Sofía with native initial avatar.",
+        "The additional Select an action to perform row remains unconfigured.",
+        "Entire target text and controls remain visible in desktop and mobile."
+      ],
+      "limits": [
+        "Save is outside the compact clip. This shows assignment-step configuration, not an executed conversation assignment.",
+        "User1 mapping is owner-provided context; pixels independently show the fictional name Sofía only."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-end-policy-en-desktop.png",
+      "sha256": "5d954e393a59c70d5e1c770631307338a04eb76c50f94fe4d26f874ca3934d39",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-end-policy-en-desktop.json",
+      "metadata_sha256": "9423b72bfb91e60ebc6cab5212bcb5f9fd830a77742ce34d2ba6d3a13c90c926",
+      "id": "custom-end-policy",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        1024,
+        0,
+        576,
+        215
+      ],
+      "pixelSize": [
+        2304,
+        860
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Journey Ends panel shows Return to AI routing with switch off (thumb left).",
+        "Help text is complete in both layouts."
+      ],
+      "limits": [
+        "Visible helper text describes the option; it does not demonstrate AI routing or a completed journey.",
+        "Save is outside the compact clip."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-end-policy-en-mobile.png",
+      "sha256": "82bab21295ddda4278254bdbe86064313dc6997c14b2b5f5b8616e1ff61dcf8c",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-end-policy-en-mobile.json",
+      "metadata_sha256": "0a1a9e802c81169759db457326afe21da982cc157e24abeae11b3d025e16b733",
+      "id": "custom-end-policy",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        220
+      ],
+      "pixelSize": [
+        1560,
+        880
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Journey Ends panel shows Return to AI routing with switch off (thumb left).",
+        "Help text is complete in both layouts."
+      ],
+      "limits": [
+        "Visible helper text describes the option; it does not demonstrate AI routing or a completed journey.",
+        "Save is outside the compact clip."
+      ]
+    }
+  ],
+  "authorization": "Root authorized incremental local Help integration after independent per-PNG pixel PASS; no publication."
+}

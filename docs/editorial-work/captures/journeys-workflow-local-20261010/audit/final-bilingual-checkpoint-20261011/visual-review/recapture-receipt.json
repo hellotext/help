@@ -1,0 +1,180 @@
+{
+  "started_at": "2026-10-11T01:04:43.957Z",
+  "status": "native_viewport_detail_recapture_passed_pixel_review_pending",
+  "checkpoint_sha256": "bb8f46e6994b21c904350f8d41a0bd08ed7fb6090e4dc45df15d91a17ed64616",
+  "capture_route": "Native Chrome Page.captureScreenshot PNG, Display P3 D65, DPR 2; no post-processing",
+  "origin": "http://127.0.0.1:4306",
+  "browser_pid": 11168,
+  "server_pid": 11167,
+  "views": [
+    {
+      "target": {
+        "slug": "getting-started-with-journeys",
+        "id": "template-cart-selected"
+      },
+      "geometry": {
+        "id": "template-cart-selected",
+        "figure": {
+          "x": 375.9921875,
+          "y": 2651.4765625,
+          "width": 774.4140625,
+          "height": 608.5390625,
+          "right": 1150.40625,
+          "bottom": 3260.015625
+        },
+        "stage": {
+          "x": 375.9921875,
+          "y": 2651.4765625,
+          "width": 774.4140625,
+          "height": 608.5390625,
+          "right": 1150.40625,
+          "bottom": 3260.015625
+        },
+        "stageStyle": {
+          "padding": [
+            "28px",
+            "28px",
+            "28px",
+            "28px"
+          ],
+          "border": [
+            "1px",
+            "solid",
+            "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+          ],
+          "radius": "24px",
+          "background": "color(display-p3 0.9333 0.898 1)",
+          "display": "block",
+          "position": "static",
+          "visibility": "visible"
+        },
+        "frame": {
+          "x": 404.9921875,
+          "y": 2680.4765625,
+          "width": 716.4140625,
+          "height": 550.5390625,
+          "right": 1121.40625,
+          "bottom": 3231.015625
+        },
+        "frameStyle": {
+          "padding": [
+            "8px",
+            "8px",
+            "8px",
+            "8px"
+          ],
+          "border": [
+            "1px",
+            "solid",
+            "color(display-p3 0.9059 0.898 0.9176)"
+          ],
+          "radius": "16px",
+          "background": "rgb(255, 255, 255)",
+          "display": "block",
+          "position": "static",
+          "visibility": "visible"
+        },
+        "image": {
+          "x": 413.9921875,
+          "y": 2689.4765625,
+          "width": 698.40625,
+          "height": 532.5390625,
+          "right": 1112.3984375,
+          "bottom": 3222.015625
+        },
+        "imageStyle": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "border": [
+            "0px",
+            "none",
+            "color(display-p3 0.0784 0.0157 0.2039)"
+          ],
+          "radius": "8px",
+          "background": "rgba(0, 0, 0, 0)",
+          "display": "block",
+          "position": "static",
+          "visibility": "visible"
+        },
+        "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/template-cart-selected-en-desktop.png",
+        "naturalSize": [
+          800,
+          610
+        ],
+        "loaded": true,
+        "alt": "Initial fragment of a template in the journey editor, with the beginning connected to a 2-hour wait step.",
+        "caption": "Beginning of the Cart Saver #1 template, with a two-hour wait connected to the start of the journey.",
+        "captionStyle": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "border": [
+            "0px",
+            "none",
+            "color(display-p3 0.0784 0.0157 0.2039)"
+          ],
+          "radius": "0px",
+          "background": "rgba(0, 0, 0, 0)",
+          "display": "block",
+          "position": "absolute",
+          "visibility": "visible"
+        },
+        "interactiveCount": 0,
+        "ancestorsLinked": false
+      },
+      "capture": {
+        "file": "getting-started-with-journeys-en-1440-template-cart-selected-viewport.png",
+        "clip": {
+          "x": 363,
+          "y": 2639,
+          "width": 800,
+          "height": 634
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1268
+        ],
+        "icc": "Display P3",
+        "sha256": "66e0c4eed0a50b3051f39a7eb08f8171f0afa8ba527dee237d1b4f812605506b",
+        "page_state": {
+          "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+          "title": "Getting started with journeys | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            2355.5
+          ]
+        },
+        "replaces_capture": "getting-started-with-journeys-en-1440-template-cart-selected.png",
+        "replaces_sha256": "66e0c4eed0a50b3051f39a7eb08f8171f0afa8ba527dee237d1b4f812605506b"
+      }
+    }
+  ],
+  "blocked_requests": [
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    }
+  ],
+  "runtime_errors": [],
+  "finished_at": "2026-10-11T01:04:45.251Z"
+}

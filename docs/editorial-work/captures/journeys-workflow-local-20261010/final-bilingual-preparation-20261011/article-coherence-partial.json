@@ -1,0 +1,572 @@
+{
+  "checked_at": "2026-10-11T00:55:15.644130+00:00",
+  "status": "core_prose_headings_links_assets_passed",
+  "phase": "partial",
+  "articles": [
+    {
+      "source": "_i18n/es/journeys/custom-journey.md",
+      "source_sha256": "243566f6c3c6e099f0e33a50fdd9ca5e13d5b131740adf3b7dd05334b65e2dad",
+      "baseline": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-trigger-wait-20261010/original-custom-journey-es.md",
+      "baseline_sha256": "2fb404d6c5ff4eba66e68c54999fedb85cbc4e657ab927c7e19680dfa1f83b12",
+      "core_prose_preserved": true,
+      "authorized_publish_inactive_paragraph_split_ignored_for_comparison": true,
+      "authorized_leadins": [
+        "El siguiente ejemplo usa la edad como condición para una rama.",
+        "El final se configura por separado en **Fin de ruta**."
+      ],
+      "headings_preserved": 7,
+      "liquid_links_preserved": 0,
+      "figures": [
+        {
+          "id": "custom-trigger-selected",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-mobile.png",
+              "sha256": "408da8bff8d16a0caa25787a592598b8767682ad817ee92ccab1faba35c4ee5c"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-desktop.png",
+              "sha256": "b2416dd0e393cff02ba41e31fab2d080af09a09045f803230f61ba7b9419634a"
+            }
+          ],
+          "alt": "Panel Inicio de ruta con Visitó un producto elegido y los botones Confirmar y Cancelar.",
+          "caption": "El panel muestra Visitó un producto elegido antes de pulsar Confirmar."
+        },
+        {
+          "id": "custom-canvas-start",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-canvas-start-es-mobile-v3.png",
+              "sha256": "d6eb8629e7323c62532d19557d034caed157eef51238b6da667ff73ff2f20597"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-canvas-start-es-desktop-v2.png",
+              "sha256": "2d9a53ba77d6f3e3b1257bbed02a5281562070d8e270b72f89881321a5d56b6a"
+            }
+          ],
+          "alt": "Fragmento guardado de la ruta ficticia: Visitó un producto, espera de 2 horas y condición con las ramas Edad más que 18 y Demás.",
+          "caption": "Ejemplo ficticio guardado: Visitó un producto conecta con una espera de dos horas y una condición con las ramas Edad más que 18 y Demás."
+        },
+        {
+          "id": "custom-message-sms",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-message-sms-es-mobile.png",
+              "sha256": "d9cac0b5cc16141be9287db3fe68aad4be45f861dd5a546cf465259671e6de87"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-message-sms-es-desktop.png",
+              "sha256": "4b3479b775a5f50f073beee26c83d15d5af62e68e9ce92273ffc2d949be7a348"
+            }
+          ],
+          "alt": "Editor de Enviar un mensaje con un saludo ficticio de Vista Studio y SMS seleccionado entre las opciones de canal.",
+          "caption": "Ejemplo ficticio de un mensaje de Vista Studio con SMS seleccionado."
+        },
+        {
+          "id": "custom-condition-age",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-condition-age-es-mobile.png",
+              "sha256": "e6443caf946cb59832b804ccf2673712b4815bdf2f2d403ddbf8c5e8fd3a04cb"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-condition-age-es-desktop.png",
+              "sha256": "3101b29b647c02c65f521a75771bca87cd3a9b5516ebbcaec374c3029d027769"
+            }
+          ],
+          "alt": "Panel Condición con una regla de Edad, Más que, 18 y la opción de no esperar hasta que se cumpla una condición.",
+          "caption": "Ejemplo de una rama con Edad, Más que y 18, sin espera adicional en la condición."
+        },
+        {
+          "id": "custom-wait-two-hours",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-mobile-compact.png",
+              "sha256": "13ae161069052d447ce7e27695be93e456e06efeef3f4cac4fe2b5844d443fd7"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-desktop-compact.png",
+              "sha256": "89521c8608b3537506884f7d41520dcc7ac7dc89e3b6e467ddf80713368e16c3"
+            }
+          ],
+          "alt": "Panel Esperar con el valor 2 y la unidad Horas.",
+          "caption": "Ejemplo de configuración de Esperar con un intervalo de 2 horas."
+        },
+        {
+          "id": "custom-assignment-sofia",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-mobile.png",
+              "sha256": "2ae18d338eb1d60f8b15e6a72a8647edae861a22a21b711f5c8ac179c92faa18"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-desktop.png",
+              "sha256": "7e6c6b4db5b37319696f24fcedeffb7c6295f391409a0a4326ed372a6a43c972"
+            }
+          ],
+          "alt": "Panel Asignación con la opción Asignar conversación a Sofía, una integrante ficticia del equipo.",
+          "caption": "Ejemplo de asignación de la conversación a Sofía, una integrante ficticia del equipo."
+        },
+        {
+          "id": "custom-canvas-end",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-canvas-end-es-mobile-v3.png",
+              "sha256": "3a95c450aae3b5ceac5fabcc51d54049500e00fe343688ce00e9129994a252f5"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-canvas-end-es-desktop-v2.png",
+              "sha256": "96216710b1987a5ea87583983833a3fda1281b7b7b56fb7b34186882674fc13b"
+            }
+          ],
+          "alt": "Fragmento del ejemplo ficticio con el mensaje conectado a Asignación a Sofía y después a Fin de ruta; la rama Demás también llega al final.",
+          "caption": "El mensaje se conecta con la asignación a Sofía y después con Fin de ruta; la rama Demás también llega al final."
+        },
+        {
+          "id": "custom-end-policy",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-end-policy-es-mobile.png",
+              "sha256": "ee424c870bd87a9cec418b82d7540707fd110ba0cf2e2af58b4efc9428bf6ddc"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-end-policy-es-desktop-v2.png",
+              "sha256": "1ebb6c8ed489940e1c103a160f16d35c8a4cca27ecacb34af54b6bdcd89db511"
+            }
+          ],
+          "alt": "Panel Fin de ruta con el interruptor Regresar a la ruta de IA desactivado.",
+          "caption": "En este ejemplo, Regresar a la ruta de IA está desactivado en Fin de ruta."
+        },
+        {
+          "id": "custom-saved-draft",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png",
+              "sha256": "3529b6f44033019d7fbf3606fdad64a45f5373f3f6c086a0c1a39f00bc7e80b6"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-desktop-v2.png",
+              "sha256": "05338eda075acef734e13d539ddaabeab013c85a3e58a83c528eb17061441646"
+            }
+          ],
+          "alt": "Listado de rutas con Borradores seleccionado y la ruta ficticia guardada con el disparador Visitó un producto.",
+          "caption": "La ruta ficticia guardada aparece en Borradores."
+        },
+        {
+          "id": "custom-active",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-active-es-mobile.png",
+              "sha256": "6474c629d09a8bb5686ca23d78c3b7d31b9396c5580efe4404fc3e9caad62d17"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-active-es-desktop.png",
+              "sha256": "c0032858a5693a3fdf4b54dd06887cdbdd60f43fc76ec009cbb9f4b700754666"
+            }
+          ],
+          "alt": "Listado de rutas con Activas seleccionado y la ruta ficticia con su disparador Visitó un producto.",
+          "caption": "La ruta ficticia aparece en Activas después de publicarla."
+        }
+      ]
+    },
+    {
+      "source": "_i18n/en/journeys/custom-journey.md",
+      "source_sha256": "a240738827796e95511a97866a9e467dfa6c39329ec38516baf596c6a60ce99c",
+      "baseline": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/original-custom-journey-en.md",
+      "baseline_sha256": "bc7c2a5bedd05dc4a38041f5ba71333477531b3ebbdc66f55593c37dc3da3e95",
+      "core_prose_preserved": true,
+      "authorized_publish_inactive_paragraph_split_ignored_for_comparison": true,
+      "authorized_leadins": [
+        "The following example uses age as the condition for a branch.",
+        "The end is configured separately in **Journey Ends**."
+      ],
+      "headings_preserved": 7,
+      "liquid_links_preserved": 0,
+      "figures": [
+        {
+          "id": "custom-trigger-selected",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-trigger-selected-en-mobile.png",
+              "sha256": "cd270caa11a9193787e198a5843240697fb31680511f70f2c33c123cec2f00c7"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-trigger-selected-en-desktop.png",
+              "sha256": "5e20b6b79465457274449daef048de4e7a866e3d515b9200bac89c6162a119a7"
+            }
+          ],
+          "alt": "Journey Begins panel with Viewed a product selected and the Confirm and Cancel buttons.",
+          "caption": "The panel shows Viewed a product selected before clicking Confirm."
+        },
+        {
+          "id": "custom-canvas-start",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-canvas-start-en-mobile.png",
+              "sha256": "c1797d51edd6036834f813960ba83d7ef482e3824695984d00e4330186937378"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-canvas-start-en-desktop.png",
+              "sha256": "e5325efc3ebec13b7136df9e1dc5f9cc7690846f9a121716e79cad2e74d01f26"
+            }
+          ],
+          "alt": "Saved fictional journey fragment: Viewed a product, a 2-hour wait and a condition with Age above 18 and else branches.",
+          "caption": "Saved fictional example: Viewed a product connects to a two-hour wait and a condition with Age above 18 and else branches."
+        },
+        {
+          "id": "custom-message-sms",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-message-sms-en-mobile.png",
+              "sha256": "403eb0922683d0173d151a3df860286cfd786f3a6d5b0069f9823401d6689a60"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-message-sms-en-desktop.png",
+              "sha256": "efc08a36673731a509a3a328379d97241037b1c0e644c8fb76fc02037701c34e"
+            }
+          ],
+          "alt": "Send a message editor with a fictitious Vista Studio greeting and SMS selected among the channel options.",
+          "caption": "Fictitious Vista Studio message with SMS selected."
+        },
+        {
+          "id": "custom-condition-age",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-condition-age-en-mobile.png",
+              "sha256": "d5e8bf2842384166477fa509cf185c3dc6f2af537cd5eb1a97f44aa201557963"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-condition-age-en-desktop.png",
+              "sha256": "cfe6be1313ee676700092abde0f66c60f0ad9243481a2e5dd2cbca637f605c46"
+            }
+          ],
+          "alt": "Condition panel with Age, Above and 18, and no additional wait until the condition is met.",
+          "caption": "Example branch with Age, Above and 18, with no additional wait in the condition."
+        },
+        {
+          "id": "custom-wait-two-hours",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-wait-two-hours-en-mobile-compact.png",
+              "sha256": "c6c95c01d7d032ee61f0eae9719dd35dd5b0f77ee619d17ef009e75ed6c51e46"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-wait-two-hours-en-desktop-compact.png",
+              "sha256": "0e8540e7ddbd8d3fb7e49a44179a04e6cb30b1e3aa00310b426bc1e914786717"
+            }
+          ],
+          "alt": "Wait panel with the value 2 and the Hours unit.",
+          "caption": "Example Wait configuration with an interval of 2 hours."
+        },
+        {
+          "id": "custom-assignment-sofia",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-assignment-sofia-en-mobile.png",
+              "sha256": "3d4a29b7627f9f8262f803f23714df99b2caf57d5e4057d8b11ebf6c5ceed51e"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-assignment-sofia-en-desktop.png",
+              "sha256": "5a15952eab8f8644be1cd8223bad07a6eb6590afa4673c53afd9bb2742a8f48f"
+            }
+          ],
+          "alt": "Assignment panel configured to assign the conversation to Sofía, a fictional team member.",
+          "caption": "Example conversation assignment to Sofía, a fictional team member."
+        },
+        {
+          "id": "custom-canvas-end",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-canvas-end-en-mobile.png",
+              "sha256": "962f31eca2054ed7935d074b867809189d0f15e93d1597ef7e3577b026045ff9"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-canvas-end-en-desktop.png",
+              "sha256": "ae321079c6af283e9441c4aa4bc430c35a57da72695be30329cc3d93570467e9"
+            }
+          ],
+          "alt": "Fictional example fragment with the message connected to assignment to Sofía and then to Journey Ends; the else branch also reaches the end.",
+          "caption": "The message connects to the assignment to Sofía and then to Journey Ends; the else branch also reaches the end."
+        },
+        {
+          "id": "custom-end-policy",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-end-policy-en-mobile.png",
+              "sha256": "82bab21295ddda4278254bdbe86064313dc6997c14b2b5f5b8616e1ff61dcf8c"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-end-policy-en-desktop.png",
+              "sha256": "5d954e393a59c70d5e1c770631307338a04eb76c50f94fe4d26f874ca3934d39"
+            }
+          ],
+          "alt": "Journey Ends panel with Return to AI routing turned off.",
+          "caption": "In this example, Return to AI routing is turned off in Journey Ends."
+        },
+        {
+          "id": "custom-saved-draft",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-mobile.png",
+              "sha256": "dcfe4883d72fd9f02421ebd7fea27f619915080a6d39db5f4fa51d903a3b8e7f"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png",
+              "sha256": "5084c16b5c374e4275b1c954f3ebbe1595ee86b2dba83480ccafe9b3fd745e8d"
+            }
+          ],
+          "alt": "Journey list with Draft selected and the saved fictional journey with the Viewed a product trigger.",
+          "caption": "The saved fictional journey appears under Draft."
+        },
+        {
+          "id": "custom-active",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-active-en-mobile.png",
+              "sha256": "e4f482a59c0639415df68dbddb3c33693bdbf3d8ef647d28e77a4271746d591b"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-active-en-desktop.png",
+              "sha256": "1782de5bff08c5e19b47a4706454e86d67445ba5744e3acc3f70b22d0ffd84d2"
+            }
+          ],
+          "alt": "Journey list with Active selected and the fictional journey with its Viewed a product trigger.",
+          "caption": "The fictional journey appears under Active after publishing."
+        },
+        {
+          "id": "custom-inactive",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-inactive-en-mobile.png",
+              "sha256": "d8c930026245e2854f78dc3deff5d55e9edadb5e13f5e22195e9c23c450056ba"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png",
+              "sha256": "23f239716dc20dae6fe8ca0737c8b4b6f98d838677c18c2dc011efaf99fd2700"
+            }
+          ],
+          "alt": "Journey list with Inactive selected and the fictional journey with its Viewed a product trigger.",
+          "caption": "The same fictional journey appears under Inactive after choosing Make inactive."
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "fc803253d5659421c43d45594cad4bce2647218fa93f9b047c0eb6adfbd0c63c",
+      "baseline": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-saved-draft-20261010/original-getting-started-with-journeys.md",
+      "baseline_sha256": "064969ac16cde65ececa424c5f21e381ec86a1b45654012362aaac864be69d3c",
+      "core_prose_preserved": true,
+      "authorized_publish_inactive_paragraph_split_ignored_for_comparison": true,
+      "authorized_leadins": [],
+      "headings_preserved": 6,
+      "liquid_links_preserved": 12,
+      "figures": [
+        {
+          "id": "catalog-route-vs-agent",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-mobile-compact.png",
+              "sha256": "586ac88d21871db6df4cb2d25c38467d003d9836f3da859d39dbdc541d27ddb8"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-desktop-compact-v2.png",
+              "sha256": "222ce8939e512686e30da7c8efc01caa175c649e03cb19216b80cb784cdfd210"
+            }
+          ],
+          "alt": "Catálogo de Hellotext con las tarjetas Recuperador de Carritos y Recuperador de Carritos con IA.",
+          "caption": "Las dos tarjetas del catálogo permiten distinguir una ruta de carrito de la misión con IA."
+        },
+        {
+          "id": "template-cart-selected",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/template-cart-selected-es-mobile.png",
+              "sha256": "f2ebb99b499a6286572202edf4f54ff364bf1f427900a6bde8458472bb17890d"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/template-cart-selected-es-desktop.png",
+              "sha256": "da86b6d52f5d3798210eca8ac3b69bfb75f3c5f70a1529b4b3ec118a9f183109"
+            }
+          ],
+          "alt": "Fragmento inicial de una plantilla en el editor de rutas, con el comienzo conectado a un paso de espera de 2 horas.",
+          "caption": "Inicio de la plantilla Salvador de Carrito #1, con una espera de dos horas conectada al comienzo de la ruta."
+        },
+        {
+          "id": "catalog-builder-choice",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-mobile-compact.png",
+              "sha256": "3cc12360eca02e970d1df91988b4fc089f10413ed3cd79beef697285d35062e4"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-desktop-compact.png",
+              "sha256": "74c43ec93e6098c5903f9e5ade6d3f6215d4125da855c24decf54509721710f6"
+            }
+          ],
+          "alt": "Catálogo de Hellotext con las opciones Creador de Rutas y Agente personalizado.",
+          "caption": "Creador de Rutas es la entrada para diseñar una ruta personalizada."
+        },
+        {
+          "id": "custom-saved-draft",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png",
+              "sha256": "3529b6f44033019d7fbf3606fdad64a45f5373f3f6c086a0c1a39f00bc7e80b6"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-desktop-v2.png",
+              "sha256": "05338eda075acef734e13d539ddaabeab013c85a3e58a83c528eb17061441646"
+            }
+          ],
+          "alt": "Listado de rutas con Borradores seleccionado y la ruta ficticia guardada con el disparador Visitó un producto.",
+          "caption": "La ruta ficticia guardada aparece en Borradores."
+        },
+        {
+          "id": "custom-active",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-active-es-mobile.png",
+              "sha256": "6474c629d09a8bb5686ca23d78c3b7d31b9396c5580efe4404fc3e9caad62d17"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-active-es-desktop.png",
+              "sha256": "c0032858a5693a3fdf4b54dd06887cdbdd60f43fc76ec009cbb9f4b700754666"
+            }
+          ],
+          "alt": "Listado de rutas con Activas seleccionado y la ruta ficticia con su disparador Visitó un producto.",
+          "caption": "La ruta ficticia aparece en Activas después de publicarla."
+        }
+      ]
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "source_sha256": "b3519281575ccd7ea7e71b0260263c42406fa5a36ba9721e460db9c9917db7fe",
+      "baseline": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-saved-draft-template-cart-selected-20261011/original-getting-started-with-journeys-en.md",
+      "baseline_sha256": "86af4c39dadb0e9e31d1bac56ccedb7bec00dd64a172a29cf08ad86c3248f51b",
+      "core_prose_preserved": true,
+      "authorized_publish_inactive_paragraph_split_ignored_for_comparison": true,
+      "authorized_leadins": [],
+      "headings_preserved": 6,
+      "liquid_links_preserved": 12,
+      "figures": [
+        {
+          "id": "catalog-route-vs-agent",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-mobile-compact.png",
+              "sha256": "8c2ba8428329e7e2e98adfceb3ceeccd4e1a7dc32f88388f034f55be145b8e37"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-desktop-compact.png",
+              "sha256": "d12ee04566193f2b6a63eb056c45c862691934ec81ffaf2799d506f10f6d79b4"
+            }
+          ],
+          "alt": "Hellotext catalog showing the Cart Saver and AI Cart Saver cards.",
+          "caption": "The two catalog cards distinguish the cart journey from the AI playbook."
+        },
+        {
+          "id": "template-cart-selected",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/template-cart-selected-en-mobile.png",
+              "sha256": "1bfc749bd561c36e9febc96a974776cae3a6b2b5c9ac064598a6a7a9385008a4"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/template-cart-selected-en-desktop.png",
+              "sha256": "20927f6314f117eb6e80f7d7cee9143221871526b91ab25f30f5925d4c60e395"
+            }
+          ],
+          "alt": "Initial fragment of a template in the journey editor, with the beginning connected to a 2-hour wait step.",
+          "caption": "Beginning of the Cart Saver #1 template, with a two-hour wait connected to the start of the journey."
+        },
+        {
+          "id": "catalog-builder-choice",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-mobile-compact.png",
+              "sha256": "026c43c6058a5c82f9a483f117ed281c36039290be6ce0b177ba7d182d9aa8f9"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-desktop-compact.png",
+              "sha256": "4311e0a61ce56f510ddb10b04030642759738932b9f68b2dc3a529cb8b71878c"
+            }
+          ],
+          "alt": "Hellotext catalog showing the Journey Builder and Custom Agent options.",
+          "caption": "Journey Builder is the entry point for designing a custom journey."
+        },
+        {
+          "id": "custom-saved-draft",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-mobile.png",
+              "sha256": "dcfe4883d72fd9f02421ebd7fea27f619915080a6d39db5f4fa51d903a3b8e7f"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png",
+              "sha256": "5084c16b5c374e4275b1c954f3ebbe1595ee86b2dba83480ccafe9b3fd745e8d"
+            }
+          ],
+          "alt": "Journey list with Draft selected and the saved fictional journey with the Viewed a product trigger.",
+          "caption": "The saved fictional journey appears under Draft."
+        },
+        {
+          "id": "custom-active",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-active-en-mobile.png",
+              "sha256": "e4f482a59c0639415df68dbddb3c33693bdbf3d8ef647d28e77a4271746d591b"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-active-en-desktop.png",
+              "sha256": "1782de5bff08c5e19b47a4706454e86d67445ba5744e3acc3f70b22d0ffd84d2"
+            }
+          ],
+          "alt": "Journey list with Active selected and the fictional journey with its Viewed a product trigger.",
+          "caption": "The fictional journey appears under Active after publishing."
+        },
+        {
+          "id": "custom-inactive",
+          "images": [
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-inactive-en-mobile.png",
+              "sha256": "d8c930026245e2854f78dc3deff5d55e9edadb5e13f5e22195e9c23c450056ba"
+            },
+            {
+              "path": "/images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png",
+              "sha256": "23f239716dc20dae6fe8ca0737c8b4b6f98d838677c18c2dc011efaf99fd2700"
+            }
+          ],
+          "alt": "Journey list with Inactive selected and the fictional journey with its Viewed a product trigger.",
+          "caption": "The same fictional journey appears under Inactive after choosing Make inactive."
+        }
+      ]
+    }
+  ],
+  "figure_parity": {
+    "custom-journey": {
+      "identical_ordered_ids": false,
+      "missing_in_en": [],
+      "missing_in_es": [
+        "custom-inactive"
+      ]
+    },
+    "getting-started-with-journeys": {
+      "identical_ordered_ids": false,
+      "missing_in_en": [],
+      "missing_in_es": [
+        "custom-inactive"
+      ]
+    }
+  },
+  "protected_hashes": {
+    "_journeys/custom-journey.md": "210cbc505b58d858800902f033264d0ed7bab82cff3bf742133c66826a17982e",
+    "_journeys/getting-started-with-journeys.md": "1d4913a819a0fe14b2f6c80f935af2c4ccc431d05a2ee08f37310a1a6a8ec09e",
+    "assets/editorial/editorial_visuals.css": "8266a7e11c516f7b747668f8fa5757124db4f94a5312cb975faae931b38fc860",
+    "docs/editorial-work/progress.csv": "afedaf9372c09806d76483b325304b9284aeca138bba3e10954b073ba077e18c"
+  },
+  "approved_claim_scope": "Captions describe accepted fictional configuration, saved draft or visible graph fragment; no SMS-count calculation, delivery, elapsed wait or runtime assignment claimed.",
+  "build_or_browser_run": false,
+  "coverage_closed": false,
+  "inventory_modified": false,
+  "commit_or_publication": false
+}

@@ -1,0 +1,121 @@
+{
+  "reviewed_at": "2026-10-10T23:21:48.756348+00:00",
+  "status": "partial_es_build_and_visual_checkpoint_passed",
+  "complete_visual_coverage": false,
+  "inventory_status": "in_progress",
+  "unresolved_pairs": 42,
+  "pairs_closed": 0,
+  "article": "_i18n/es/journeys/custom-journey.md",
+  "article_sha256": "1a02ae40373371fddbb4bae60a1564098558fcff5002fc72b87151d0c6fc63a0",
+  "build_checkpoint_sha256": "59ffaaf3e2cd137d65e02964152b40a567d1582535f4b1e490e1b366506740ae",
+  "capture_receipt_sha256": "32a9d3abdd530c294ebb9d469989e8a4c5bf6ac83b5ca5e1f269da2238bf46fb",
+  "post_review_integrity_sha256": "ffc72e46efaf1624205481555ebe86721c18d53536597f12bfa279d06693809d",
+  "cleanup_sha256": "82b552da694e9c30f098f02aec6de56ab448c47db60393864a4f7ea8a6e308c2",
+  "build": "standard production build passed with existing Ruby3.3.6 dependencies and unchanged security verifier",
+  "source_png_byte_comparisons": 32,
+  "served_byte_comparisons": 40,
+  "historical_pngs_preserved": 12,
+  "source_pngs_new": 4,
+  "full_article_views": 3,
+  "review_pngs": 9,
+  "native_review_density": 2,
+  "native_review_profile": "Display P3",
+  "inspected_files": [
+    "custom-journey-es-1440-full.png",
+    "custom-journey-es-1440-custom-trigger-selected.png",
+    "custom-journey-es-1440-custom-wait-two-hours.png",
+    "custom-journey-es-580-full.png",
+    "custom-journey-es-580-custom-trigger-selected.png",
+    "custom-journey-es-580-custom-wait-two-hours.png",
+    "custom-journey-es-390-full.png",
+    "custom-journey-es-390-custom-trigger-selected.png",
+    "custom-journey-es-390-custom-wait-two-hours.png"
+  ],
+  "figure_geometry": [
+    {
+      "viewport": 1440,
+      "id": "custom-trigger-selected",
+      "image_width": 576,
+      "image_height": 760,
+      "native_width": 576,
+      "frame_width": 594,
+      "stage_width": 774.4140625,
+      "page_horizontal_overflow": false,
+      "static": true
+    },
+    {
+      "viewport": 1440,
+      "id": "custom-wait-two-hours",
+      "image_width": 576,
+      "image_height": 230,
+      "native_width": 576,
+      "frame_width": 594,
+      "stage_width": 774.4140625,
+      "page_horizontal_overflow": false,
+      "static": true
+    },
+    {
+      "viewport": 580,
+      "id": "custom-trigger-selected",
+      "image_width": 390,
+      "image_height": 844,
+      "native_width": 390,
+      "frame_width": 408,
+      "stage_width": 548,
+      "page_horizontal_overflow": false,
+      "static": true
+    },
+    {
+      "viewport": 580,
+      "id": "custom-wait-two-hours",
+      "image_width": 390,
+      "image_height": 260,
+      "native_width": 390,
+      "frame_width": 408,
+      "stage_width": 548,
+      "page_horizontal_overflow": false,
+      "static": true
+    },
+    {
+      "viewport": 390,
+      "id": "custom-trigger-selected",
+      "image_width": 315.9921875,
+      "image_height": 683.8515625,
+      "native_width": 390,
+      "frame_width": 328,
+      "stage_width": 358,
+      "page_horizontal_overflow": false,
+      "static": true
+    },
+    {
+      "viewport": 390,
+      "id": "custom-wait-two-hours",
+      "image_width": 315.9921875,
+      "image_height": 210.6640625,
+      "native_width": 390,
+      "frame_width": 328,
+      "stage_width": 358,
+      "page_horizontal_overflow": false,
+      "static": true
+    }
+  ],
+  "pixel_findings": [
+    "Selected trigger label, panel headings and Confirmar/Cancelar controls remain readable and complete at1440/580/390.",
+    "The compact wait view clearly presents2 and Horas at all three widths; native caret in mobile input is preserved.",
+    "Full-width lavender stages retain border, corner radius and separate white-frame inset. Images are centered and respect576/390 native logical limits.",
+    "Complete article compositions preserve text flow and placement. No horizontal overflow, image-opening link, pointer overlay, visible caption or unwanted interactive control was found.",
+    "Earlier desktop trigger-menu legibility issue is resolved for this replacement Spanish figure only. Unchanged catalog and English trigger figures were not visually re-reviewed."
+  ],
+  "scope_limits": [
+    "A selected trigger before Confirmar does not establish confirmed/saved configuration.",
+    "The two-hour wait view establishes the visible value only, not persistence or execution.",
+    "English equivalents and remaining configuration/save/reload/active/inactive evidence are pending.",
+    "Full-page previews establish composition; typography was assessed using native figure detail PNGs and recorded CSS geometry."
+  ],
+  "inputs_preserved_during_build_and_qa": 33,
+  "app_or_database_calls": 0,
+  "configuration_changes": 0,
+  "external_publication": false,
+  "commit": false,
+  "services_stopped": true
+}

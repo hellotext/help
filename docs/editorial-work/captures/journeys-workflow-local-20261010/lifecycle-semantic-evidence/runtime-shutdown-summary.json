@@ -1,0 +1,29 @@
+{
+  "curated_at": "2026-10-11T01:07:54.778477+00:00",
+  "status": "original_owned_capture_runtime_stopped_preserving_artifacts",
+  "source_runtime_shutdown_sha256": "65b6ed09f000e7c3ce14e2184e47471ee40036c8f18083abdc090d4387846045",
+  "source_browser_proxy_shutdown_sha256": "18f94ac906afd35d1e05efe101dfede836419f7d02ac127424d2dea49c887708",
+  "roles_stopped": [
+    "Puma",
+    "Redis",
+    "capture browser",
+    "capture proxy",
+    "capture controller"
+  ],
+  "ownership_verified_before_shutdown": true,
+  "owned_listeners_absent_after": true,
+  "database_and_capture_artifacts_preserved": true,
+  "final_locale": "es",
+  "final_journey_state": "disabled",
+  "final_journey_version": 5,
+  "final_state_verification_sha256": "4cb1b54a5fb536aa9cebbdbd3d26e55ebcb4e4567aaea245a989b2710f2bffe1",
+  "locale_verify_sha256": "a41569ed292397b28c4f3eda941aee6e4b11a31c33586b224e202e1389f6df34",
+  "source_manifest_sha256": "bdd47a8786511a0007903f0d11a6abdf461715d83f75417dabda9796fa82d96c",
+  "no_other_process_signals": true,
+  "no_database_drop_or_reset": true,
+  "no_artifact_deletion": true,
+  "no_queue_execution": true,
+  "app_requests_during_browser_shutdown": 0,
+  "external_writes": false,
+  "curation": "No database name, local paths, profile, process IDs or action nonces copied. A later isolated catalog recapture, if needed, is separate from this closed runtime."
+}

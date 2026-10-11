@@ -1,0 +1,128 @@
+{
+  "status": "accepted_for_local_integration",
+  "recorded_at": "2026-10-10T20:14:41.586874+00:00",
+  "publication_authorized": false,
+  "selected_figure_ids": [
+    "catalog-route-vs-agent",
+    "catalog-builder-choice",
+    "journey-trigger-menu"
+  ],
+  "manifest_sha256": "81e60c35968b0806b8758e0920f4dad6fba1bf93ac4db38c41fa27fe0c11b903",
+  "insertion_plan_sha256": "c26700399e6ab3debd913cd7ff44de334f5e5d6fa40bd141371053ba4b71fc26",
+  "originals_sha256": "9d6b2590d34674cfc3f71ba142fb80bb4b157e751f0967123edc78782a0e5c55",
+  "records": [
+    {
+      "id": "catalog-route-vs-agent",
+      "locale": "es",
+      "layout": "desktop",
+      "sha256": "94c81e4ca9401ecb4d3e766bd2bbe81f69331dcfa46b58f786e9315a0df7d89e"
+    },
+    {
+      "id": "catalog-route-vs-agent",
+      "locale": "es",
+      "layout": "mobile",
+      "sha256": "d6d2170a478446e2f999fbca07000deb9e0a9c7df61df4449c441567dff4bd6b"
+    },
+    {
+      "id": "catalog-route-vs-agent",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "e6914c42a864e9e04ed9032a3b1ebd0dac964b75b8dfeaabe7ca77cf2a150294"
+    },
+    {
+      "id": "catalog-route-vs-agent",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "58df8a2f574017be737a899f3f01a48e9a239b05b9266db6ae41ff110694823c"
+    },
+    {
+      "id": "catalog-builder-choice",
+      "locale": "es",
+      "layout": "desktop",
+      "sha256": "345bda0516550574d36aad75f73032c6737b324ebefabcb4853eeb2451b179ac"
+    },
+    {
+      "id": "catalog-builder-choice",
+      "locale": "es",
+      "layout": "mobile",
+      "sha256": "16fe9d232203a852a42b511ef93109616cb2fb3e5a1f1a0695c34d754afd6984"
+    },
+    {
+      "id": "catalog-builder-choice",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "564cbc065809555bb9a2b4f500e8700407dd1417ddf743e1e768a6743e02502e"
+    },
+    {
+      "id": "catalog-builder-choice",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "67075cd9e52b089412ca184675f123e37b7d617f7de16c8b7fdfc106e032e9e2"
+    },
+    {
+      "id": "journey-trigger-menu",
+      "locale": "es",
+      "layout": "desktop",
+      "sha256": "dfe9bc526dfa1a6b454c6252c86f3abab0be7ba8417a22b15438a1a1690c1e1d"
+    },
+    {
+      "id": "journey-trigger-menu",
+      "locale": "es",
+      "layout": "mobile",
+      "sha256": "e6a798310618be12b423f4b498e1380c791b3d3d51744977b9aa4c5ed303fc79"
+    },
+    {
+      "id": "journey-trigger-menu",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "2d59cf1d794f3411d4c745523532f39b102362279127f6dda79cb66adaf6b668"
+    },
+    {
+      "id": "journey-trigger-menu",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "eaf738a3ac917d891e90001d84e2e9cea68919199fa3097cff7577436b466e18"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "audit/inbox-next-batch-20261010/raw-pixel-review-all.json",
+      "sha256": "51c13e9427a41d119a177b9ae01746ae791af83624effdd054f54fc43e6a9ab6"
+    },
+    {
+      "path": "audit/inbox-next-batch-20261010/root-source-review.json",
+      "sha256": "f5f8caa0c0b5b9998ae7e89f144b7d6bda1071a0cfa44101fe17fe3ffa8d5db7"
+    },
+    {
+      "path": "audit/inbox-next-batch-20261010/independent-source-guards-review.json",
+      "sha256": "d19c86d2ad1ceccec0f8b8e64c52515d8d2704cc9bbc5f79523cc5fde7b6b52d"
+    },
+    {
+      "path": "journeys-capture-20261010/captures/database-final.json",
+      "sha256": "d3f9d1ef27ad79368461ac5a99ed44b8b464fa07f9590390c6b9dd9f0dfe9b25"
+    },
+    {
+      "path": "journeys-capture-20261010/captures/source-final.json",
+      "sha256": "a300da3e27c8a57d5fb8a0c0b70b3144757a84230b0523e463f135f4394fc875"
+    },
+    {
+      "path": "journeys-capture-20261010/captures/capture-completion.json",
+      "sha256": "a951deca326a0e8f82683217abdfa44a48e2439eb6e4eb52985e762e61026bfd"
+    },
+    {
+      "path": "journeys-capture-20261010/captures/shutdown-result.json",
+      "sha256": "8740f077a2fca39462bb76cbfdfe37730b519b0a945c5a53b5061cbd3096ba50"
+    },
+    {
+      "path": "audit/inbox-next-batch-20261010/root-rejected-first-capture.json",
+      "sha256": "b7f720b77d5d4aa20c33addf8b08f264ac4f198c80f11496d34f5884f1f29c09"
+    }
+  ],
+  "limits": [
+    "Spanish mobile AI card title partly obscured by native ribbon; visible AI description supports recognizing the option.",
+    "Trigger menu captures show opening and initial options, not the complete scrollable list or a selected/confirmed trigger.",
+    "Catalog comparison and DIY builder scenes are separate useful native sections.",
+    "No journey created, configured, saved or published; no automation or delivery result asserted.",
+    "This acceptance permits local insertion and QA only. Complete guide coverage and publication are not claimed."
+  ]
+}

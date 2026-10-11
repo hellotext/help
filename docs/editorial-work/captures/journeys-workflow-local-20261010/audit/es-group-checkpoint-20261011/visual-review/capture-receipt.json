@@ -1,0 +1,4924 @@
+{
+  "started_at": "2026-10-11T00:21:14.600Z",
+  "status": "native_capture_and_geometry_passed_pixel_review_pending",
+  "checkpoint_sha256": "b8ae5ca59d8a037a4f93563979ffaa9c054c292314b93cfbc4ba3c513a355692",
+  "capture_route": "Native Chrome Page.captureScreenshot PNG, Display P3 D65, DPR 2; no post-processing",
+  "origin": "http://127.0.0.1:4306",
+  "browser_pid": 93582,
+  "server_pid": 93581,
+  "views": [
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "391d503cee8745da726610ab76ed87974e1bdc5516360be58fe0818c21d07546",
+      "built_html": "_site/es/primeros-pasos-con-rutas.html",
+      "built_html_sha256": "f2dc230edd3278ccf73b0ac196fb3c6d744c67392a3839a0192c4397a2b0cc3b",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+        "title": "Primeros pasos con rutas | Hellotext",
+        "locale": "es",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 1440,
+        "documentHeight": 5196,
+        "article": {
+          "x": 375.9921875,
+          "y": 563.828125,
+          "width": 774.4140625,
+          "height": 4195.640625,
+          "right": 1150.40625,
+          "bottom": 4759.46875
+        },
+        "headings": [
+          "Cuándo usar una rutaEnlace copiado",
+          "Cuándo usar otro tipo de misiónEnlace copiado",
+          "Cómo funcionan las rutasEnlace copiado",
+          "Empieza desde una plantilla de rutaEnlace copiado",
+          "Revisa antes de publicarEnlace copiado",
+          "Próximos pasosEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 375.9921875,
+              "y": 1285.828125,
+              "width": 774.4140625,
+              "height": 315.6484375,
+              "right": 1150.40625,
+              "bottom": 1601.4765625
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 1285.828125,
+              "width": 774.4140625,
+              "height": 315.6484375,
+              "right": 1150.40625,
+              "bottom": 1601.4765625
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 1314.828125,
+              "width": 716.4140625,
+              "height": 257.6484375,
+              "right": 1121.40625,
+              "bottom": 1572.4765625
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 414,
+              "y": 1323.828125,
+              "width": 698.3984375,
+              "height": 239.6484375,
+              "right": 1112.3984375,
+              "bottom": 1563.4765625
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-desktop-compact-v2.png",
+            "naturalSize": [
+              816,
+              280
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las tarjetas Recuperador de Carritos y Recuperador de Carritos con IA.",
+            "caption": "Las dos tarjetas del catálogo permiten distinguir una ruta de carrito de la misión con IA.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "template-cart-selected",
+            "figure": {
+              "x": 375.9921875,
+              "y": 2699.4765625,
+              "width": 774.4140625,
+              "height": 582.34375,
+              "right": 1150.40625,
+              "bottom": 3281.8203125
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 2699.4765625,
+              "width": 774.4140625,
+              "height": 582.34375,
+              "right": 1150.40625,
+              "bottom": 3281.8203125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 2728.4765625,
+              "width": 716.4140625,
+              "height": 524.34375,
+              "right": 1121.40625,
+              "bottom": 3252.8203125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 414,
+              "y": 2737.4765625,
+              "width": 698.3984375,
+              "height": 506.34375,
+              "right": 1112.3984375,
+              "bottom": 3243.8203125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/template-cart-selected-es-desktop.png",
+            "naturalSize": [
+              800,
+              580
+            ],
+            "loaded": true,
+            "alt": "Fragmento inicial de una plantilla en el editor de rutas, con el comienzo conectado a un paso de espera de 2 horas.",
+            "caption": "Inicio de la plantilla Salvador de Carrito #1, con una espera de dos horas conectada al comienzo de la ruta.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 375.9921875,
+              "y": 3377.8203125,
+              "width": 774.4140625,
+              "height": 315.6484375,
+              "right": 1150.40625,
+              "bottom": 3693.46875
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 3377.8203125,
+              "width": 774.4140625,
+              "height": 315.6484375,
+              "right": 1150.40625,
+              "bottom": 3693.46875
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 3406.8203125,
+              "width": 716.4140625,
+              "height": 257.6484375,
+              "right": 1121.40625,
+              "bottom": 3664.46875
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 414,
+              "y": 3415.8203125,
+              "width": 698.3984375,
+              "height": 239.6484375,
+              "right": 1112.3984375,
+              "bottom": 3655.46875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-desktop-compact.png",
+            "naturalSize": [
+              816,
+              280
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las opciones Creador de Rutas y Agente personalizado.",
+            "caption": "Creador de Rutas es la entrada para diseñar una ruta personalizada.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-saved-draft",
+            "figure": {
+              "x": 375.9921875,
+              "y": 4223.46875,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 4537.46875
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 4223.46875,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 4537.46875
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 547.1953125,
+              "y": 4252.46875,
+              "width": 432,
+              "height": 256,
+              "right": 979.1953125,
+              "bottom": 4508.46875
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 556.1953125,
+              "y": 4261.46875,
+              "width": 414,
+              "height": 238,
+              "right": 970.1953125,
+              "bottom": 4499.46875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-desktop-v2.png",
+            "naturalSize": [
+              414,
+              238
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Borradores seleccionado y la ruta ficticia guardada con el disparador Visitó un producto.",
+            "caption": "La ruta ficticia guardada aparece en Borradores.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-es-1440-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 5196
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            2880,
+            10392
+          ],
+          "icc": "Display P3",
+          "sha256": "f63feb51216e3888fddd451fc82b4ec2563e86b29b058e26ff13d522ef3976b9"
+        },
+        {
+          "file": "getting-started-with-journeys-es-1440-catalog-route-vs-agent.png",
+          "clip": {
+            "x": 363,
+            "y": 1273,
+            "width": 800,
+            "height": 341
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            682
+          ],
+          "icc": "Display P3",
+          "sha256": "36dc03ef61c28fb324620878907f4d7af223590b620ce48e756377500186a141"
+        },
+        {
+          "file": "getting-started-with-journeys-es-1440-template-cart-selected.png",
+          "clip": {
+            "x": 363,
+            "y": 2687,
+            "width": 800,
+            "height": 607
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            1214
+          ],
+          "icc": "Display P3",
+          "sha256": "5a755e337c73c47c350071ad887ffff15a131c0d566479424f6da1504f88a3b2"
+        },
+        {
+          "file": "getting-started-with-journeys-es-1440-catalog-builder-choice.png",
+          "clip": {
+            "x": 363,
+            "y": 3365,
+            "width": 800,
+            "height": 341
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            682
+          ],
+          "icc": "Display P3",
+          "sha256": "92f722b847fa69406d876591481f331c3f4e3bd7773e2c9234e23d4e1e663b39"
+        },
+        {
+          "file": "getting-started-with-journeys-es-1440-custom-saved-draft.png",
+          "clip": {
+            "x": 363,
+            "y": 4211,
+            "width": 800,
+            "height": 339
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            678
+          ],
+          "icc": "Display P3",
+          "sha256": "ce4f646cec08365d653e06d78f78e78ccbe5948335283ce22a57591fee9ef2f5"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "391d503cee8745da726610ab76ed87974e1bdc5516360be58fe0818c21d07546",
+      "built_html": "_site/es/primeros-pasos-con-rutas.html",
+      "built_html_sha256": "f2dc230edd3278ccf73b0ac196fb3c6d744c67392a3839a0192c4397a2b0cc3b",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+        "title": "Primeros pasos con rutas | Hellotext",
+        "locale": "es",
+        "viewport": [
+          580,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 580,
+        "documentHeight": 5911,
+        "article": {
+          "x": 16,
+          "y": 468,
+          "width": 548,
+          "height": 4871,
+          "right": 564,
+          "bottom": 5339
+        },
+        "headings": [
+          "Cuándo usar una rutaEnlace copiado",
+          "Cuándo usar otro tipo de misiónEnlace copiado",
+          "Cómo funcionan las rutasEnlace copiado",
+          "Empieza desde una plantilla de rutaEnlace copiado",
+          "Revisa antes de publicarEnlace copiado",
+          "Próximos pasosEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 16,
+              "y": 1292,
+              "width": 548,
+              "height": 484,
+              "right": 564,
+              "bottom": 1776
+            },
+            "stage": {
+              "x": 16,
+              "y": 1292,
+              "width": 548,
+              "height": 484,
+              "right": 564,
+              "bottom": 1776
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 1321,
+              "width": 408,
+              "height": 426,
+              "right": 494,
+              "bottom": 1747
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 1330,
+              "width": 390,
+              "height": 408,
+              "right": 485,
+              "bottom": 1738
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-mobile-compact.png",
+            "naturalSize": [
+              390,
+              408
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las tarjetas Recuperador de Carritos y Recuperador de Carritos con IA.",
+            "caption": "Las dos tarjetas del catálogo permiten distinguir una ruta de carrito de la misión con IA.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "template-cart-selected",
+            "figure": {
+              "x": 16,
+              "y": 2988,
+              "width": 548,
+              "height": 626,
+              "right": 564,
+              "bottom": 3614
+            },
+            "stage": {
+              "x": 16,
+              "y": 2988,
+              "width": 548,
+              "height": 626,
+              "right": 564,
+              "bottom": 3614
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 3017,
+              "width": 408,
+              "height": 568,
+              "right": 494,
+              "bottom": 3585
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 3026,
+              "width": 390,
+              "height": 550,
+              "right": 485,
+              "bottom": 3576
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/template-cart-selected-es-mobile.png",
+            "naturalSize": [
+              390,
+              550
+            ],
+            "loaded": true,
+            "alt": "Fragmento inicial de una plantilla en el editor de rutas, con el comienzo conectado a un paso de espera de 2 horas.",
+            "caption": "Inicio de la plantilla Salvador de Carrito #1, con una espera de dos horas conectada al comienzo de la ruta.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 16,
+              "y": 3734,
+              "width": 548,
+              "height": 484,
+              "right": 564,
+              "bottom": 4218
+            },
+            "stage": {
+              "x": 16,
+              "y": 3734,
+              "width": 548,
+              "height": 484,
+              "right": 564,
+              "bottom": 4218
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 3763,
+              "width": 408,
+              "height": 426,
+              "right": 494,
+              "bottom": 4189
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 3772,
+              "width": 390,
+              "height": 408,
+              "right": 485,
+              "bottom": 4180
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-mobile-compact.png",
+            "naturalSize": [
+              390,
+              408
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las opciones Creador de Rutas y Agente personalizado.",
+            "caption": "Creador de Rutas es la entrada para diseñar una ruta personalizada.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-saved-draft",
+            "figure": {
+              "x": 16,
+              "y": 4778,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5111
+            },
+            "stage": {
+              "x": 16,
+              "y": 4778,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5111
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 4807,
+              "width": 408,
+              "height": 275,
+              "right": 494,
+              "bottom": 5082
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 4816,
+              "width": 390,
+              "height": 257,
+              "right": 485,
+              "bottom": 5073
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Borradores seleccionado y la ruta ficticia guardada con el disparador Visitó un producto.",
+            "caption": "La ruta ficticia guardada aparece en Borradores.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-es-580-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 580,
+            "height": 5911
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1160,
+            11822
+          ],
+          "icc": "Display P3",
+          "sha256": "f29ac7562bdfe1cbde280c2e6c0380aabfd628c8c9cb628a2d53d65b78d55244"
+        },
+        {
+          "file": "getting-started-with-journeys-es-580-catalog-route-vs-agent.png",
+          "clip": {
+            "x": 4,
+            "y": 1280,
+            "width": 572,
+            "height": 508
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            1016
+          ],
+          "icc": "Display P3",
+          "sha256": "6095736743293690fe8708d4a7128ca791282f8d50166cfaa1b375a9ced187c2"
+        },
+        {
+          "file": "getting-started-with-journeys-es-580-template-cart-selected.png",
+          "clip": {
+            "x": 4,
+            "y": 2976,
+            "width": 572,
+            "height": 650
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            1300
+          ],
+          "icc": "Display P3",
+          "sha256": "ce43b62054277e6e5208b2516476fa9aeb8e1b0f81a1099512e229344bc9548a"
+        },
+        {
+          "file": "getting-started-with-journeys-es-580-catalog-builder-choice.png",
+          "clip": {
+            "x": 4,
+            "y": 3722,
+            "width": 572,
+            "height": 508
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            1016
+          ],
+          "icc": "Display P3",
+          "sha256": "a2b90e1ed6396b9de0cf89e52eb4398a8d2c6539837fde0f9ec7c1705b4adbf1"
+        },
+        {
+          "file": "getting-started-with-journeys-es-580-custom-saved-draft.png",
+          "clip": {
+            "x": 4,
+            "y": 4766,
+            "width": 572,
+            "height": 357
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            714
+          ],
+          "icc": "Display P3",
+          "sha256": "cc803b4a6ede9b886d88390a46cbda926ddf53890c55a4aa96ba8ef24531c7db"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "391d503cee8745da726610ab76ed87974e1bdc5516360be58fe0818c21d07546",
+      "built_html": "_site/es/primeros-pasos-con-rutas.html",
+      "built_html_sha256": "f2dc230edd3278ccf73b0ac196fb3c6d744c67392a3839a0192c4397a2b0cc3b",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+        "title": "Primeros pasos con rutas | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 390,
+        "documentHeight": 6535,
+        "article": {
+          "x": 16,
+          "y": 543.5,
+          "width": 358,
+          "height": 5419.03125,
+          "right": 374,
+          "bottom": 5962.53125
+        },
+        "headings": [
+          "Cuándo usar una rutaEnlace copiado",
+          "Cuándo usar otro tipo de misiónEnlace copiado",
+          "Cómo funcionan las rutasEnlace copiado",
+          "Empieza desde una plantilla de rutaEnlace copiado",
+          "Revisa antes de publicarEnlace copiado",
+          "Próximos pasosEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 16,
+              "y": 1679.5,
+              "width": 358,
+              "height": 380.578125,
+              "right": 374,
+              "bottom": 2060.078125
+            },
+            "stage": {
+              "x": 16,
+              "y": 1679.5,
+              "width": 358,
+              "height": 380.578125,
+              "right": 374,
+              "bottom": 2060.078125
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 1698.5,
+              "width": 328,
+              "height": 342.578125,
+              "right": 359,
+              "bottom": 2041.078125
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 1704.5,
+              "width": 315.9921875,
+              "height": 330.578125,
+              "right": 352.9921875,
+              "bottom": 2035.078125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-mobile-compact.png",
+            "naturalSize": [
+              390,
+              408
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las tarjetas Recuperador de Carritos y Recuperador de Carritos con IA.",
+            "caption": "Las dos tarjetas del catálogo permiten distinguir una ruta de carrito de la misión con IA.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "template-cart-selected",
+            "figure": {
+              "x": 16,
+              "y": 3716.078125,
+              "width": 358,
+              "height": 495.640625,
+              "right": 374,
+              "bottom": 4211.71875
+            },
+            "stage": {
+              "x": 16,
+              "y": 3716.078125,
+              "width": 358,
+              "height": 495.640625,
+              "right": 374,
+              "bottom": 4211.71875
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 3735.078125,
+              "width": 328,
+              "height": 457.640625,
+              "right": 359,
+              "bottom": 4192.71875
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 3741.078125,
+              "width": 315.9921875,
+              "height": 445.640625,
+              "right": 352.9921875,
+              "bottom": 4186.71875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/template-cart-selected-es-mobile.png",
+            "naturalSize": [
+              390,
+              550
+            ],
+            "loaded": true,
+            "alt": "Fragmento inicial de una plantilla en el editor de rutas, con el comienzo conectado a un paso de espera de 2 horas.",
+            "caption": "Inicio de la plantilla Salvador de Carrito #1, con una espera de dos horas conectada al comienzo de la ruta.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 16,
+              "y": 4331.71875,
+              "width": 358,
+              "height": 380.578125,
+              "right": 374,
+              "bottom": 4712.296875
+            },
+            "stage": {
+              "x": 16,
+              "y": 4331.71875,
+              "width": 358,
+              "height": 380.578125,
+              "right": 374,
+              "bottom": 4712.296875
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 4350.71875,
+              "width": 328,
+              "height": 342.578125,
+              "right": 359,
+              "bottom": 4693.296875
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 4356.71875,
+              "width": 315.9921875,
+              "height": 330.578125,
+              "right": 352.9921875,
+              "bottom": 4687.296875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-mobile-compact.png",
+            "naturalSize": [
+              390,
+              408
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las opciones Creador de Rutas y Agente personalizado.",
+            "caption": "Creador de Rutas es la entrada para diseñar una ruta personalizada.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-saved-draft",
+            "figure": {
+              "x": 16,
+              "y": 5452.296875,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 5710.53125
+            },
+            "stage": {
+              "x": 16,
+              "y": 5452.296875,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 5710.53125
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 5471.296875,
+              "width": 328,
+              "height": 220.234375,
+              "right": 359,
+              "bottom": 5691.53125
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 5477.296875,
+              "width": 315.9921875,
+              "height": 208.234375,
+              "right": 352.9921875,
+              "bottom": 5685.53125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Borradores seleccionado y la ruta ficticia guardada con el disparador Visitó un producto.",
+            "caption": "La ruta ficticia guardada aparece en Borradores.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-es-390-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 6535
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            780,
+            13070
+          ],
+          "icc": "Display P3",
+          "sha256": "14c789097488bd9377f50eff79f3dd09bdcd0e383d1fb56c064beb32ea35671a"
+        },
+        {
+          "file": "getting-started-with-journeys-es-390-catalog-route-vs-agent.png",
+          "clip": {
+            "x": 4,
+            "y": 1667,
+            "width": 382,
+            "height": 406
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            812
+          ],
+          "icc": "Display P3",
+          "sha256": "d021a46e52e6ddc34d8703b6736e12fe74eb23ff9bf5fe2139c8ce21447b3abf"
+        },
+        {
+          "file": "getting-started-with-journeys-es-390-template-cart-selected.png",
+          "clip": {
+            "x": 4,
+            "y": 3704,
+            "width": 382,
+            "height": 520
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            1040
+          ],
+          "icc": "Display P3",
+          "sha256": "2a1700afa2c1bf0f59ac0deb07ee4c8ba276db4fd9c4504ce279218df9acfc60"
+        },
+        {
+          "file": "getting-started-with-journeys-es-390-catalog-builder-choice.png",
+          "clip": {
+            "x": 4,
+            "y": 4319,
+            "width": 382,
+            "height": 406
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            812
+          ],
+          "icc": "Display P3",
+          "sha256": "21e83cb2f117aac3c4826cb8f2a94e86749e56c7a980df78712a0a753c155df1"
+        },
+        {
+          "file": "getting-started-with-journeys-es-390-custom-saved-draft.png",
+          "clip": {
+            "x": 4,
+            "y": 5440,
+            "width": 382,
+            "height": 283
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            566
+          ],
+          "icc": "Display P3",
+          "sha256": "006d8b7923b3f8b3475daddcba0822d7549f20cce19f3b26c8a21c13340afa05"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/custom-journey.md",
+      "source_sha256": "ea6a9eb0ecf87862a70dcb22768b9e87527a7ca75725047a64065e82dfc91293",
+      "built_html": "_site/es/ruta-personalizada.html",
+      "built_html_sha256": "3cf6f7ba1a91a68742ee7cea15afd3e90d6f7f2574e48d23e3e6951617fcfd2e",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/ruta-personalizada.html",
+        "title": "Ruta personalizada | Hellotext",
+        "locale": "es",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 1440,
+        "documentHeight": 6546,
+        "article": {
+          "x": 375.9921875,
+          "y": 563.828125,
+          "width": 774.4140625,
+          "height": 5545,
+          "right": 1150.40625,
+          "bottom": 6108.828125
+        },
+        "headings": [
+          "Selecciona un disparadorEnlace copiado",
+          "Agrega pasosEnlace copiado",
+          "Enviar un mensajeEnlace copiado",
+          "CondiciónEnlace copiado",
+          "EsperarEnlace copiado",
+          "Derivación humanaEnlace copiado",
+          "Guarda y publicaEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "custom-trigger-selected",
+            "figure": {
+              "x": 375.9921875,
+              "y": 1065.828125,
+              "width": 774.4140625,
+              "height": 836,
+              "right": 1150.40625,
+              "bottom": 1901.828125
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 1065.828125,
+              "width": 774.4140625,
+              "height": 836,
+              "right": 1150.40625,
+              "bottom": 1901.828125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 466.1953125,
+              "y": 1094.828125,
+              "width": 594,
+              "height": 778,
+              "right": 1060.1953125,
+              "bottom": 1872.828125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 475.1953125,
+              "y": 1103.828125,
+              "width": 576,
+              "height": 760,
+              "right": 1051.1953125,
+              "bottom": 1863.828125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-desktop.png",
+            "naturalSize": [
+              576,
+              760
+            ],
+            "loaded": true,
+            "alt": "Panel Inicio de ruta con Visitó un producto elegido y los botones Confirmar y Cancelar.",
+            "caption": "El panel muestra Visitó un producto elegido antes de pulsar Confirmar.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-message-sms",
+            "figure": {
+              "x": 375.9921875,
+              "y": 2335.828125,
+              "width": 774.4140625,
+              "height": 716,
+              "right": 1150.40625,
+              "bottom": 3051.828125
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 2335.828125,
+              "width": 774.4140625,
+              "height": 716,
+              "right": 1150.40625,
+              "bottom": 3051.828125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 466.1953125,
+              "y": 2364.828125,
+              "width": 594,
+              "height": 658,
+              "right": 1060.1953125,
+              "bottom": 3022.828125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 475.1953125,
+              "y": 2373.828125,
+              "width": 576,
+              "height": 640,
+              "right": 1051.1953125,
+              "bottom": 3013.828125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-message-sms-es-desktop.png",
+            "naturalSize": [
+              576,
+              640
+            ],
+            "loaded": true,
+            "alt": "Editor de Enviar un mensaje con un saludo ficticio de Vista Studio y SMS seleccionado entre las opciones de canal.",
+            "caption": "Ejemplo ficticio de un mensaje de Vista Studio con SMS seleccionado.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-condition-age",
+            "figure": {
+              "x": 375.9921875,
+              "y": 3307.828125,
+              "width": 774.4140625,
+              "height": 656,
+              "right": 1150.40625,
+              "bottom": 3963.828125
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 3307.828125,
+              "width": 774.4140625,
+              "height": 656,
+              "right": 1150.40625,
+              "bottom": 3963.828125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 466.1953125,
+              "y": 3336.828125,
+              "width": 594,
+              "height": 598,
+              "right": 1060.1953125,
+              "bottom": 3934.828125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 475.1953125,
+              "y": 3345.828125,
+              "width": 576,
+              "height": 580,
+              "right": 1051.1953125,
+              "bottom": 3925.828125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-condition-age-es-desktop.png",
+            "naturalSize": [
+              576,
+              580
+            ],
+            "loaded": true,
+            "alt": "Panel Condición con una regla de Edad, Más que, 18 y la opción de no esperar hasta que se cumpla una condición.",
+            "caption": "Ejemplo de una rama con Edad, Más que y 18, sin espera adicional en la condición.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-wait-two-hours",
+            "figure": {
+              "x": 375.9921875,
+              "y": 4155.828125,
+              "width": 774.4140625,
+              "height": 306,
+              "right": 1150.40625,
+              "bottom": 4461.828125
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 4155.828125,
+              "width": 774.4140625,
+              "height": 306,
+              "right": 1150.40625,
+              "bottom": 4461.828125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 466.1953125,
+              "y": 4184.828125,
+              "width": 594,
+              "height": 248,
+              "right": 1060.1953125,
+              "bottom": 4432.828125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 475.1953125,
+              "y": 4193.828125,
+              "width": 576,
+              "height": 230,
+              "right": 1051.1953125,
+              "bottom": 4423.828125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-desktop-compact.png",
+            "naturalSize": [
+              576,
+              230
+            ],
+            "loaded": true,
+            "alt": "Panel Esperar con el valor 2 y la unidad Horas.",
+            "caption": "Ejemplo de configuración de Esperar con un intervalo de 2 horas.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-assignment-sofia",
+            "figure": {
+              "x": 375.9921875,
+              "y": 4749.828125,
+              "width": 774.4140625,
+              "height": 376,
+              "right": 1150.40625,
+              "bottom": 5125.828125
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 4749.828125,
+              "width": 774.4140625,
+              "height": 376,
+              "right": 1150.40625,
+              "bottom": 5125.828125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 466.1953125,
+              "y": 4778.828125,
+              "width": 594,
+              "height": 318,
+              "right": 1060.1953125,
+              "bottom": 5096.828125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 475.1953125,
+              "y": 4787.828125,
+              "width": 576,
+              "height": 300,
+              "right": 1051.1953125,
+              "bottom": 5087.828125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-desktop.png",
+            "naturalSize": [
+              576,
+              300
+            ],
+            "loaded": true,
+            "alt": "Panel Asignación con la opción Asignar conversación a Sofía, una integrante ficticia del equipo.",
+            "caption": "Ejemplo de asignación de la conversación a Sofía, una integrante ficticia del equipo.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-end-policy",
+            "figure": {
+              "x": 375.9921875,
+              "y": 5221.828125,
+              "width": 774.4140625,
+              "height": 291,
+              "right": 1150.40625,
+              "bottom": 5512.828125
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 5221.828125,
+              "width": 774.4140625,
+              "height": 291,
+              "right": 1150.40625,
+              "bottom": 5512.828125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 466.1953125,
+              "y": 5250.828125,
+              "width": 594,
+              "height": 233,
+              "right": 1060.1953125,
+              "bottom": 5483.828125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 475.1953125,
+              "y": 5259.828125,
+              "width": 576,
+              "height": 215,
+              "right": 1051.1953125,
+              "bottom": 5474.828125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-end-policy-es-desktop-v2.png",
+            "naturalSize": [
+              576,
+              215
+            ],
+            "loaded": true,
+            "alt": "Panel Fin de ruta con el interruptor Regresar a la ruta de IA desactivado.",
+            "caption": "En este ejemplo, Regresar a la ruta de IA está desactivado en Fin de ruta.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-saved-draft",
+            "figure": {
+              "x": 375.9921875,
+              "y": 5710.828125,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 6024.828125
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 5710.828125,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 6024.828125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 547.1953125,
+              "y": 5739.828125,
+              "width": 432,
+              "height": 256,
+              "right": 979.1953125,
+              "bottom": 5995.828125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 556.1953125,
+              "y": 5748.828125,
+              "width": 414,
+              "height": 238,
+              "right": 970.1953125,
+              "bottom": 5986.828125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-desktop-v2.png",
+            "naturalSize": [
+              414,
+              238
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Borradores seleccionado y la ruta ficticia guardada con el disparador Visitó un producto.",
+            "caption": "La ruta ficticia guardada aparece en Borradores.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "custom-journey-es-1440-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 6546
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            2880,
+            13092
+          ],
+          "icc": "Display P3",
+          "sha256": "a90d12557418abfc089ad3af4982b638a7ae54268db7e7f26d01d6c13b3a4e16"
+        },
+        {
+          "file": "custom-journey-es-1440-custom-trigger-selected.png",
+          "clip": {
+            "x": 363,
+            "y": 1053,
+            "width": 800,
+            "height": 861
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            1722
+          ],
+          "icc": "Display P3",
+          "sha256": "d1af27934d4203d2ef03d80b5056f080952da78595c62830755fd9d508c83400"
+        },
+        {
+          "file": "custom-journey-es-1440-custom-message-sms.png",
+          "clip": {
+            "x": 363,
+            "y": 2323,
+            "width": 800,
+            "height": 741
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            1482
+          ],
+          "icc": "Display P3",
+          "sha256": "d01c2d4ba0f6d3fcb86219e3b2683b29623344cd43603e012ad641a03bf7e5ba"
+        },
+        {
+          "file": "custom-journey-es-1440-custom-condition-age.png",
+          "clip": {
+            "x": 363,
+            "y": 3295,
+            "width": 800,
+            "height": 681
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            1362
+          ],
+          "icc": "Display P3",
+          "sha256": "343fbfca380bc72ca9313580b75dc3d1fb120adefa120e04fb65aa3c5eeab006"
+        },
+        {
+          "file": "custom-journey-es-1440-custom-wait-two-hours.png",
+          "clip": {
+            "x": 363,
+            "y": 4143,
+            "width": 800,
+            "height": 331
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            662
+          ],
+          "icc": "Display P3",
+          "sha256": "607f2628ff152e32d3078c8e9ddcba9a1f803923c4fbbb0099b3c6ad0fed50c5"
+        },
+        {
+          "file": "custom-journey-es-1440-custom-assignment-sofia.png",
+          "clip": {
+            "x": 363,
+            "y": 4737,
+            "width": 800,
+            "height": 401
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            802
+          ],
+          "icc": "Display P3",
+          "sha256": "8ff2d7d29aafb6b92d6adcb5fcdf97650cf9d1eef865516ed68b26493800f32f"
+        },
+        {
+          "file": "custom-journey-es-1440-custom-end-policy.png",
+          "clip": {
+            "x": 363,
+            "y": 5209,
+            "width": 800,
+            "height": 316
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            632
+          ],
+          "icc": "Display P3",
+          "sha256": "b9e257eff27a4acffcc568e9d6a1304bdfe03dfe73f12c6ce748fdde81ae65ac"
+        },
+        {
+          "file": "custom-journey-es-1440-custom-saved-draft.png",
+          "clip": {
+            "x": 363,
+            "y": 5698,
+            "width": 800,
+            "height": 339
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            678
+          ],
+          "icc": "Display P3",
+          "sha256": "4e63f282ed6c37e455173fc54d4a9dd00f4d655d081a7067e2ca97b24c0a83b6"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/custom-journey.md",
+      "source_sha256": "ea6a9eb0ecf87862a70dcb22768b9e87527a7ca75725047a64065e82dfc91293",
+      "built_html": "_site/es/ruta-personalizada.html",
+      "built_html_sha256": "3cf6f7ba1a91a68742ee7cea15afd3e90d6f7f2574e48d23e3e6951617fcfd2e",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/ruta-personalizada.html",
+        "title": "Ruta personalizada | Hellotext",
+        "locale": "es",
+        "viewport": [
+          580,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 580,
+        "documentHeight": 6918,
+        "article": {
+          "x": 16,
+          "y": 468,
+          "width": 548,
+          "height": 5877.8125,
+          "right": 564,
+          "bottom": 6345.8125
+        },
+        "headings": [
+          "Selecciona un disparadorEnlace copiado",
+          "Agrega pasosEnlace copiado",
+          "Enviar un mensajeEnlace copiado",
+          "CondiciónEnlace copiado",
+          "EsperarEnlace copiado",
+          "Derivación humanaEnlace copiado",
+          "Guarda y publicaEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "custom-trigger-selected",
+            "figure": {
+              "x": 16,
+              "y": 1000,
+              "width": 548,
+              "height": 920,
+              "right": 564,
+              "bottom": 1920
+            },
+            "stage": {
+              "x": 16,
+              "y": 1000,
+              "width": 548,
+              "height": 920,
+              "right": 564,
+              "bottom": 1920
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 1029,
+              "width": 408,
+              "height": 862,
+              "right": 494,
+              "bottom": 1891
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 1038,
+              "width": 390,
+              "height": 844,
+              "right": 485,
+              "bottom": 1882
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-mobile.png",
+            "naturalSize": [
+              390,
+              844
+            ],
+            "loaded": true,
+            "alt": "Panel Inicio de ruta con Visitó un producto elegido y los botones Confirmar y Cancelar.",
+            "caption": "El panel muestra Visitó un producto elegido antes de pulsar Confirmar.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-message-sms",
+            "figure": {
+              "x": 16,
+              "y": 2354.203125,
+              "width": 548,
+              "height": 726,
+              "right": 564,
+              "bottom": 3080.203125
+            },
+            "stage": {
+              "x": 16,
+              "y": 2354.203125,
+              "width": 548,
+              "height": 726,
+              "right": 564,
+              "bottom": 3080.203125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 2383.203125,
+              "width": 408,
+              "height": 668,
+              "right": 494,
+              "bottom": 3051.203125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 2392.203125,
+              "width": 390,
+              "height": 650,
+              "right": 485,
+              "bottom": 3042.203125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-message-sms-es-mobile.png",
+            "naturalSize": [
+              390,
+              650
+            ],
+            "loaded": true,
+            "alt": "Editor de Enviar un mensaje con un saludo ficticio de Vista Studio y SMS seleccionado entre las opciones de canal.",
+            "caption": "Ejemplo ficticio de un mensaje de Vista Studio con SMS seleccionado.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-condition-age",
+            "figure": {
+              "x": 16,
+              "y": 3354.40625,
+              "width": 548,
+              "height": 686,
+              "right": 564,
+              "bottom": 4040.40625
+            },
+            "stage": {
+              "x": 16,
+              "y": 3354.40625,
+              "width": 548,
+              "height": 686,
+              "right": 564,
+              "bottom": 4040.40625
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 3383.40625,
+              "width": 408,
+              "height": 628,
+              "right": 494,
+              "bottom": 4011.40625
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 3392.40625,
+              "width": 390,
+              "height": 610,
+              "right": 485,
+              "bottom": 4002.40625
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-condition-age-es-mobile.png",
+            "naturalSize": [
+              390,
+              610
+            ],
+            "loaded": true,
+            "alt": "Panel Condición con una regla de Edad, Más que, 18 y la opción de no esperar hasta que se cumpla una condición.",
+            "caption": "Ejemplo de una rama con Edad, Más que y 18, sin espera adicional en la condición.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-wait-two-hours",
+            "figure": {
+              "x": 16,
+              "y": 4250.609375,
+              "width": 548,
+              "height": 336,
+              "right": 564,
+              "bottom": 4586.609375
+            },
+            "stage": {
+              "x": 16,
+              "y": 4250.609375,
+              "width": 548,
+              "height": 336,
+              "right": 564,
+              "bottom": 4586.609375
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 4279.609375,
+              "width": 408,
+              "height": 278,
+              "right": 494,
+              "bottom": 4557.609375
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 4288.609375,
+              "width": 390,
+              "height": 260,
+              "right": 485,
+              "bottom": 4548.609375
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-mobile-compact.png",
+            "naturalSize": [
+              390,
+              260
+            ],
+            "loaded": true,
+            "alt": "Panel Esperar con el valor 2 y la unidad Horas.",
+            "caption": "Ejemplo de configuración de Esperar con un intervalo de 2 horas.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-assignment-sofia",
+            "figure": {
+              "x": 16,
+              "y": 4916.8125,
+              "width": 548,
+              "height": 416,
+              "right": 564,
+              "bottom": 5332.8125
+            },
+            "stage": {
+              "x": 16,
+              "y": 4916.8125,
+              "width": 548,
+              "height": 416,
+              "right": 564,
+              "bottom": 5332.8125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 4945.8125,
+              "width": 408,
+              "height": 358,
+              "right": 494,
+              "bottom": 5303.8125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 4954.8125,
+              "width": 390,
+              "height": 340,
+              "right": 485,
+              "bottom": 5294.8125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-mobile.png",
+            "naturalSize": [
+              390,
+              340
+            ],
+            "loaded": true,
+            "alt": "Panel Asignación con la opción Asignar conversación a Sofía, una integrante ficticia del equipo.",
+            "caption": "Ejemplo de asignación de la conversación a Sofía, una integrante ficticia del equipo.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-end-policy",
+            "figure": {
+              "x": 16,
+              "y": 5428.8125,
+              "width": 548,
+              "height": 296,
+              "right": 564,
+              "bottom": 5724.8125
+            },
+            "stage": {
+              "x": 16,
+              "y": 5428.8125,
+              "width": 548,
+              "height": 296,
+              "right": 564,
+              "bottom": 5724.8125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 5457.8125,
+              "width": 408,
+              "height": 238,
+              "right": 494,
+              "bottom": 5695.8125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 5466.8125,
+              "width": 390,
+              "height": 220,
+              "right": 485,
+              "bottom": 5686.8125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-end-policy-es-mobile.png",
+            "naturalSize": [
+              390,
+              220
+            ],
+            "loaded": true,
+            "alt": "Panel Fin de ruta con el interruptor Regresar a la ruta de IA desactivado.",
+            "caption": "En este ejemplo, Regresar a la ruta de IA está desactivado en Fin de ruta.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-saved-draft",
+            "figure": {
+              "x": 16,
+              "y": 5928.8125,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 6261.8125
+            },
+            "stage": {
+              "x": 16,
+              "y": 5928.8125,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 6261.8125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 5957.8125,
+              "width": 408,
+              "height": 275,
+              "right": 494,
+              "bottom": 6232.8125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 5966.8125,
+              "width": 390,
+              "height": 257,
+              "right": 485,
+              "bottom": 6223.8125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Borradores seleccionado y la ruta ficticia guardada con el disparador Visitó un producto.",
+            "caption": "La ruta ficticia guardada aparece en Borradores.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "custom-journey-es-580-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 580,
+            "height": 6918
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1160,
+            13836
+          ],
+          "icc": "Display P3",
+          "sha256": "ccbf216ae81d6334c6ff41de56d28e6bd69863946171db8ceaed4d62b91ea984"
+        },
+        {
+          "file": "custom-journey-es-580-custom-trigger-selected.png",
+          "clip": {
+            "x": 4,
+            "y": 988,
+            "width": 572,
+            "height": 944
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            1888
+          ],
+          "icc": "Display P3",
+          "sha256": "1ca55f8c5a50c939e4b624b15b56fb89dab13091f103c30653021b48d88d2c43"
+        },
+        {
+          "file": "custom-journey-es-580-custom-message-sms.png",
+          "clip": {
+            "x": 4,
+            "y": 2342,
+            "width": 572,
+            "height": 751
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            1502
+          ],
+          "icc": "Display P3",
+          "sha256": "85e8195f25213aac64de99b4ccbca36e44f405baa125c9fe91525b241ed60932"
+        },
+        {
+          "file": "custom-journey-es-580-custom-condition-age.png",
+          "clip": {
+            "x": 4,
+            "y": 3342,
+            "width": 572,
+            "height": 711
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            1422
+          ],
+          "icc": "Display P3",
+          "sha256": "0d684212bb9a071d76615402c22dcf213dc543a4d55792b78d0382402ee9af81"
+        },
+        {
+          "file": "custom-journey-es-580-custom-wait-two-hours.png",
+          "clip": {
+            "x": 4,
+            "y": 4238,
+            "width": 572,
+            "height": 361
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            722
+          ],
+          "icc": "Display P3",
+          "sha256": "e235a64ee952a152c6b572e2934702e1c7b6167bea4b3c82c62f48b8224252c4"
+        },
+        {
+          "file": "custom-journey-es-580-custom-assignment-sofia.png",
+          "clip": {
+            "x": 4,
+            "y": 4904,
+            "width": 572,
+            "height": 441
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            882
+          ],
+          "icc": "Display P3",
+          "sha256": "95278eb05aa905495e2f3d42e7cc3db5e7ef0c896718b89065edbe1a3e0b5bb5"
+        },
+        {
+          "file": "custom-journey-es-580-custom-end-policy.png",
+          "clip": {
+            "x": 4,
+            "y": 5416,
+            "width": 572,
+            "height": 321
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            642
+          ],
+          "icc": "Display P3",
+          "sha256": "3c78486b9db477130e2ee3a09bc96b6416d983bcf82c070a35be3225eaeefb84"
+        },
+        {
+          "file": "custom-journey-es-580-custom-saved-draft.png",
+          "clip": {
+            "x": 4,
+            "y": 5916,
+            "width": 572,
+            "height": 358
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            716
+          ],
+          "icc": "Display P3",
+          "sha256": "6d85b0fccb5206deb56d83405e5b3c119b5b8bcc5d2efb7dab1b7cdd13a72780"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/custom-journey.md",
+      "source_sha256": "ea6a9eb0ecf87862a70dcb22768b9e87527a7ca75725047a64065e82dfc91293",
+      "built_html": "_site/es/ruta-personalizada.html",
+      "built_html_sha256": "3cf6f7ba1a91a68742ee7cea15afd3e90d6f7f2574e48d23e3e6951617fcfd2e",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/ruta-personalizada.html",
+        "title": "Ruta personalizada | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 390,
+        "documentHeight": 6677,
+        "article": {
+          "x": 16,
+          "y": 472.65625,
+          "width": 358,
+          "height": 5632.2109375,
+          "right": 374,
+          "bottom": 6104.8671875
+        },
+        "headings": [
+          "Selecciona un disparadorEnlace copiado",
+          "Agrega pasosEnlace copiado",
+          "Enviar un mensajeEnlace copiado",
+          "CondiciónEnlace copiado",
+          "EsperarEnlace copiado",
+          "Derivación humanaEnlace copiado",
+          "Guarda y publicaEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "custom-trigger-selected",
+            "figure": {
+              "x": 16,
+              "y": 1184.65625,
+              "width": 358,
+              "height": 733.8515625,
+              "right": 374,
+              "bottom": 1918.5078125
+            },
+            "stage": {
+              "x": 16,
+              "y": 1184.65625,
+              "width": 358,
+              "height": 733.8515625,
+              "right": 374,
+              "bottom": 1918.5078125
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 1203.65625,
+              "width": 328,
+              "height": 695.8515625,
+              "right": 359,
+              "bottom": 1899.5078125
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 1209.65625,
+              "width": 315.9921875,
+              "height": 683.8515625,
+              "right": 352.9921875,
+              "bottom": 1893.5078125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-mobile.png",
+            "naturalSize": [
+              390,
+              844
+            ],
+            "loaded": true,
+            "alt": "Panel Inicio de ruta con Visitó un producto elegido y los botones Confirmar y Cancelar.",
+            "caption": "El panel muestra Visitó un producto elegido antes de pulsar Confirmar.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-message-sms",
+            "figure": {
+              "x": 16,
+              "y": 2424.7109375,
+              "width": 358,
+              "height": 576.6640625,
+              "right": 374,
+              "bottom": 3001.375
+            },
+            "stage": {
+              "x": 16,
+              "y": 2424.7109375,
+              "width": 358,
+              "height": 576.6640625,
+              "right": 374,
+              "bottom": 3001.375
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 2443.7109375,
+              "width": 328,
+              "height": 538.6640625,
+              "right": 359,
+              "bottom": 2982.375
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 2449.7109375,
+              "width": 315.9921875,
+              "height": 526.6640625,
+              "right": 352.9921875,
+              "bottom": 2976.375
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-message-sms-es-mobile.png",
+            "naturalSize": [
+              390,
+              650
+            ],
+            "loaded": true,
+            "alt": "Editor de Enviar un mensaje con un saludo ficticio de Vista Studio y SMS seleccionado entre las opciones de canal.",
+            "caption": "Ejemplo ficticio de un mensaje de Vista Studio con SMS seleccionado.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-condition-age",
+            "figure": {
+              "x": 16,
+              "y": 3347.578125,
+              "width": 358,
+              "height": 544.25,
+              "right": 374,
+              "bottom": 3891.828125
+            },
+            "stage": {
+              "x": 16,
+              "y": 3347.578125,
+              "width": 358,
+              "height": 544.25,
+              "right": 374,
+              "bottom": 3891.828125
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 3366.578125,
+              "width": 328,
+              "height": 506.25,
+              "right": 359,
+              "bottom": 3872.828125
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 3372.578125,
+              "width": 315.9921875,
+              "height": 494.25,
+              "right": 352.9921875,
+              "bottom": 3866.828125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-condition-age-es-mobile.png",
+            "naturalSize": [
+              390,
+              610
+            ],
+            "loaded": true,
+            "alt": "Panel Condición con una regla de Edad, Más que, 18 y la opción de no esperar hasta que se cumpla una condición.",
+            "caption": "Ejemplo de una rama con Edad, Más que y 18, sin espera adicional en la condición.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-wait-two-hours",
+            "figure": {
+              "x": 16,
+              "y": 4150.03125,
+              "width": 358,
+              "height": 260.6640625,
+              "right": 374,
+              "bottom": 4410.6953125
+            },
+            "stage": {
+              "x": 16,
+              "y": 4150.03125,
+              "width": 358,
+              "height": 260.6640625,
+              "right": 374,
+              "bottom": 4410.6953125
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 4169.03125,
+              "width": 328,
+              "height": 222.6640625,
+              "right": 359,
+              "bottom": 4391.6953125
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 4175.03125,
+              "width": 315.9921875,
+              "height": 210.6640625,
+              "right": 352.9921875,
+              "bottom": 4385.6953125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-mobile-compact.png",
+            "naturalSize": [
+              390,
+              260
+            ],
+            "loaded": true,
+            "alt": "Panel Esperar con el valor 2 y la unidad Horas.",
+            "caption": "Ejemplo de configuración de Esperar con un intervalo de 2 horas.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-assignment-sofia",
+            "figure": {
+              "x": 16,
+              "y": 4836.8984375,
+              "width": 358,
+              "height": 325.484375,
+              "right": 374,
+              "bottom": 5162.3828125
+            },
+            "stage": {
+              "x": 16,
+              "y": 4836.8984375,
+              "width": 358,
+              "height": 325.484375,
+              "right": 374,
+              "bottom": 5162.3828125
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 4855.8984375,
+              "width": 328,
+              "height": 287.484375,
+              "right": 359,
+              "bottom": 5143.3828125
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 4861.8984375,
+              "width": 315.9921875,
+              "height": 275.484375,
+              "right": 352.9921875,
+              "bottom": 5137.3828125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-mobile.png",
+            "naturalSize": [
+              390,
+              340
+            ],
+            "loaded": true,
+            "alt": "Panel Asignación con la opción Asignar conversación a Sofía, una integrante ficticia del equipo.",
+            "caption": "Ejemplo de asignación de la conversación a Sofía, una integrante ficticia del equipo.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-end-policy",
+            "figure": {
+              "x": 16,
+              "y": 5282.3828125,
+              "width": 358,
+              "height": 228.25,
+              "right": 374,
+              "bottom": 5510.6328125
+            },
+            "stage": {
+              "x": 16,
+              "y": 5282.3828125,
+              "width": 358,
+              "height": 228.25,
+              "right": 374,
+              "bottom": 5510.6328125
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 5301.3828125,
+              "width": 328,
+              "height": 190.25,
+              "right": 359,
+              "bottom": 5491.6328125
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37.0078125,
+              "y": 5307.3828125,
+              "width": 315.984375,
+              "height": 178.25,
+              "right": 352.9921875,
+              "bottom": 5485.6328125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-end-policy-es-mobile.png",
+            "naturalSize": [
+              390,
+              220
+            ],
+            "loaded": true,
+            "alt": "Panel Fin de ruta con el interruptor Regresar a la ruta de IA desactivado.",
+            "caption": "En este ejemplo, Regresar a la ruta de IA está desactivado en Fin de ruta.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-saved-draft",
+            "figure": {
+              "x": 16,
+              "y": 5738.6328125,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 5996.8671875
+            },
+            "stage": {
+              "x": 16,
+              "y": 5738.6328125,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 5996.8671875
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 5757.6328125,
+              "width": 328,
+              "height": 220.234375,
+              "right": 359,
+              "bottom": 5977.8671875
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 5763.6328125,
+              "width": 315.9921875,
+              "height": 208.234375,
+              "right": 352.9921875,
+              "bottom": 5971.8671875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Borradores seleccionado y la ruta ficticia guardada con el disparador Visitó un producto.",
+            "caption": "La ruta ficticia guardada aparece en Borradores.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "custom-journey-es-390-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 6677
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            780,
+            13354
+          ],
+          "icc": "Display P3",
+          "sha256": "ef86b6864e37f3378d4923bca7e83cc6786f789575ad174b57bb01f06f0f3b0c"
+        },
+        {
+          "file": "custom-journey-es-390-custom-trigger-selected.png",
+          "clip": {
+            "x": 4,
+            "y": 1172,
+            "width": 382,
+            "height": 759
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            1518
+          ],
+          "icc": "Display P3",
+          "sha256": "3756a09f6cff05c119bdbfa54ecbeaa58c628729ba6308b1854e60abb5fd60be"
+        },
+        {
+          "file": "custom-journey-es-390-custom-message-sms.png",
+          "clip": {
+            "x": 4,
+            "y": 2412,
+            "width": 382,
+            "height": 602
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            1204
+          ],
+          "icc": "Display P3",
+          "sha256": "165f7ae9be346b480c85c431ea70c76e8416aeeacba008d102e94d6a377782bd"
+        },
+        {
+          "file": "custom-journey-es-390-custom-condition-age.png",
+          "clip": {
+            "x": 4,
+            "y": 3335,
+            "width": 382,
+            "height": 569
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            1138
+          ],
+          "icc": "Display P3",
+          "sha256": "b048dda5824e3c315943c6465a18e21683ec9baec9d069fa00890289b36671cf"
+        },
+        {
+          "file": "custom-journey-es-390-custom-wait-two-hours.png",
+          "clip": {
+            "x": 4,
+            "y": 4138,
+            "width": 382,
+            "height": 285
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            570
+          ],
+          "icc": "Display P3",
+          "sha256": "0a8dadb394d585e8739dbac03c275da162e26b54852fde72623bbf9bd32d2cf3"
+        },
+        {
+          "file": "custom-journey-es-390-custom-assignment-sofia.png",
+          "clip": {
+            "x": 4,
+            "y": 4824,
+            "width": 382,
+            "height": 351
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            702
+          ],
+          "icc": "Display P3",
+          "sha256": "33f574b9e0cd883cd49fd8accac62fb98ac385c3b78172f2c30883a4eeaa9b7e"
+        },
+        {
+          "file": "custom-journey-es-390-custom-end-policy.png",
+          "clip": {
+            "x": 4,
+            "y": 5270,
+            "width": 382,
+            "height": 253
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            506
+          ],
+          "icc": "Display P3",
+          "sha256": "1a2b705c4591af6410d18353ccfdae1bb71301cc4cd8d86c92418ae95f5d7300"
+        },
+        {
+          "file": "custom-journey-es-390-custom-saved-draft.png",
+          "clip": {
+            "x": 4,
+            "y": 5726,
+            "width": 382,
+            "height": 283
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            566
+          ],
+          "icc": "Display P3",
+          "sha256": "f17d79e4b35359f78e4e1811d74b9edad949b6251b90131ccfa41d7e7192f64c"
+        }
+      ]
+    }
+  ],
+  "blocked_requests": [
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    }
+  ],
+  "runtime_errors": [],
+  "finished_at": "2026-10-11T00:21:27.530Z",
+  "source_and_build_hashes_preserved": true
+}

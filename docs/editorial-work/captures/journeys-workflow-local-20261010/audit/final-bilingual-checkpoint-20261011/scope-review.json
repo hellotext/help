@@ -1,0 +1,2695 @@
+{
+  "status": "pass_for_current_local_artifact_scope_and_sensitive_data_structure",
+  "reviewed_at": "2026-10-11T01:08:34.954226+00:00",
+  "reviewer": "runtime_isolation",
+  "worktree": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-journeys-workflow-local-20261010",
+  "base_revision": "74114920f243f447db9757b7955deae53c71ebb5",
+  "branch": "codex/journeys-workflow-local-20261010",
+  "scope": "Prospective local commit files from git diff HEAD plus nonignored untracked files. No app, database, network, process-control, pixel or publication check performed in this review.",
+  "candidate_files": 516,
+  "categories": {
+    "articles_inventory_workrecords": 7,
+    "docs/editorial-work/captures/journeys-entry-20261010": 16,
+    "docs/editorial-work/captures/journeys-workflow-local-20261010": 425,
+    "images/editorial/journeys-entry-20261010": 12,
+    "images/editorial/journeys-workflow-20261010": 56
+  },
+  "extensions": {
+    ".md": 63,
+    ".json": 179,
+    ".log": 13,
+    ".png": 223,
+    ".py": 4,
+    ".mjs": 7,
+    ".patch": 20,
+    ".html": 6,
+    ".csv": 1
+  },
+  "png_files_including_local_page_qa": 223,
+  "article_pngs": {
+    "new": 56,
+    "historical_preserved": 12
+  },
+  "valid_json_files": 179,
+  "articles": [
+    {
+      "path": "_i18n/en/journeys/custom-journey.md",
+      "sha256": "a240738827796e95511a97866a9e467dfa6c39329ec38516baf596c6a60ce99c",
+      "frontmatter_preserved": true,
+      "script_and_style_tags": 0
+    },
+    {
+      "path": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "sha256": "b3519281575ccd7ea7e71b0260263c42406fa5a36ba9721e460db9c9917db7fe",
+      "frontmatter_preserved": true,
+      "script_and_style_tags": 0
+    },
+    {
+      "path": "_i18n/es/journeys/custom-journey.md",
+      "sha256": "2a5d2400a98e507093fac4a12ff123d58f83875d4183ef45632e2e0d361b8287",
+      "frontmatter_preserved": true,
+      "script_and_style_tags": 0
+    },
+    {
+      "path": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "sha256": "6a51a31b11d6fb37b66c49d69dce14855d8f27ea096bb34dd43d636e2018ed99",
+      "frontmatter_preserved": true,
+      "script_and_style_tags": 0
+    }
+  ],
+  "inventory": {
+    "rows_before": 154,
+    "rows_after": 154,
+    "changed_rows": [
+      {
+        "article_key": "journeys/custom-journey.md",
+        "previous_status": "pending",
+        "current_status": "in_progress"
+      },
+      {
+        "article_key": "journeys/getting-started-with-journeys.md",
+        "previous_status": "pending",
+        "current_status": "in_progress"
+      }
+    ],
+    "other_rows_unchanged": true
+  },
+  "checks": {
+    "all_files_regular_no_symlinks": true,
+    "all_files_within_four_articles_two_records_two_capture_folders_two_image_folders_and_inventory": true,
+    "collection_stubs_unchanged": true,
+    "css_javascript_shared_assets_config_layouts_and_security_policy_unchanged": true,
+    "database_snapshots_or_private_directory_files_absent": true,
+    "native_held_job_payloads_absent": true,
+    "cookie_token_session_and_credential_files_or_values_absent_in_structural_review": true,
+    "private_runtime_or_secret_artifact_paths_absent": true,
+    "png_text_metadata_absent": true,
+    "git_diff_check_passed": true,
+    "no_source_edits_or_commits_by_reviewer": true
+  },
+  "triaged_benign_matches": [
+    "authorization fields in five acceptance records contain English authorization prose, not token material.",
+    "records/rows arrays inspected are capture-manifest descriptors or the two inventory rows, not database row snapshots.",
+    "processes.json contains owned temporary static-page QA profile paths under /private/tmp or /private/var/folders; no profile contents, Cookies, storage, or session artifacts are packaged.",
+    "The fictional SMS example appears as editorial text; message_body_exact is a boolean, and retained_jobs contains job-class counts without serialized arguments."
+  ],
+  "lifecycle_evidence": {
+    "summary_path": "docs/editorial-work/captures/journeys-workflow-local-20261010/lifecycle-semantic-evidence/native-lifecycle-final-summary.json",
+    "summary_sha256": "5d49f900e01bbb9cc08985b6b142ce0e2a944a13e1667828d6f7fdfd14bb16e0",
+    "detailed_runtime_state_file_in_help": false,
+    "private_evidence_references": "SHA256 and copied:false only; no private path or payload",
+    "runtime_shutdown_external_sha256": "65b6ed09f000e7c3ce14e2184e47471ee40036c8f18083abdc090d4387846045",
+    "browser_proxy_shutdown_external_sha256": "18f94ac906afd35d1e05efe101dfede836419f7d02ac127424d2dea49c887708",
+    "shutdown_status": "Original owned app, Redis, browser and proxy closed, per exact root receipts; reviewer did not operate services.",
+    "shutdown_summary_path": "docs/editorial-work/captures/journeys-workflow-local-20261010/lifecycle-semantic-evidence/runtime-shutdown-summary.json",
+    "shutdown_summary_sha256": "a0d5a9ba8d60f0de56541396bd0b09a64a4f9974a64955bea484e39a7980d500",
+    "shutdown_summary_sanitized_structure_passed": true
+  },
+  "known_followup_outside_this_verdict": [
+    "Root identified one EN mobile catalog PNG scrollbar defect. A replacement PNG and associated provenance/affected page QA must receive a narrow delta review. This structural PASS is not final pixel acceptance or permission to publish.",
+    "Additional sanitized shutdown-copy or page-QA metadata may be appended by its owner; review those added artifacts as a delta, without replacing this frozen manifest."
+  ],
+  "findings": [],
+  "reviewed_files": [
+    {
+      "path": "_i18n/en/journeys/custom-journey.md",
+      "bytes": 15546,
+      "sha256": "a240738827796e95511a97866a9e467dfa6c39329ec38516baf596c6a60ce99c"
+    },
+    {
+      "path": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "bytes": 11500,
+      "sha256": "b3519281575ccd7ea7e71b0260263c42406fa5a36ba9721e460db9c9917db7fe"
+    },
+    {
+      "path": "_i18n/es/journeys/custom-journey.md",
+      "bytes": 16006,
+      "sha256": "2a5d2400a98e507093fac4a12ff123d58f83875d4183ef45632e2e0d361b8287"
+    },
+    {
+      "path": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "bytes": 12007,
+      "sha256": "6a51a31b11d6fb37b66c49d69dce14855d8f27ea096bb34dd43d636e2018ed99"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/README.md",
+      "bytes": 5259,
+      "sha256": "a5640943ae35d859d025967eb8d08d26a08079650740e9d6fcb97f0f1425deb2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/acceptance.json",
+      "bytes": 4705,
+      "sha256": "15e8004b18726726efc604cab7f018ce107df7ce3c0ec9f58681575ae8a235d3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/capture-provenance.json",
+      "bytes": 2320,
+      "sha256": "45c7a54c2d05bad04d111abac752f7f5ed7bce08657fc73717063a1ea43b64e7"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/insertion-plan.json",
+      "bytes": 19836,
+      "sha256": "c26700399e6ab3debd913cd7ff44de334f5e5d6fa40bd141371053ba4b71fc26"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/integration-record.json",
+      "bytes": 8450,
+      "sha256": "d76819aa90a61540f45bb15e6e8e1c014f15448f605f68f45758353315477581"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/local-qa.json",
+      "bytes": 10218,
+      "sha256": "b6d29cb46e61d30e31c5bc976f3f1017686803847026a5d8e02512e179d0dbba"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/manifest.json",
+      "bytes": 17136,
+      "sha256": "81e60c35968b0806b8758e0920f4dad6fba1bf93ac4db38c41fa27fe0c11b903"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/originals.json",
+      "bytes": 4905,
+      "sha256": "9d6b2590d34674cfc3f71ba142fb80bb4b157e751f0967123edc78782a0e5c55"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/originals/_i18n/en/journeys/custom-journey.md",
+      "bytes": 1782,
+      "sha256": "72c01bbec890ab367f88f6f369cd82f0b93ebb0d91d51d0f835ffdb608f8f436"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/originals/_i18n/es/journeys/custom-journey.md",
+      "bytes": 2031,
+      "sha256": "a6a4fc285453ebba937703adf02168e58937c6447c0f60bac0cf4cd3fdf96f2a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/originals/_journeys/custom-journey.md",
+      "bytes": 423,
+      "sha256": "210cbc505b58d858800902f033264d0ed7bab82cff3bf742133c66826a17982e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/preparation-checks.json",
+      "bytes": 1937,
+      "sha256": "8b25b9dc6543a5c44f01dfffaa9a4e8f482382973f22654a76717794fbc3de46"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/raw-pixel-review-all.json",
+      "bytes": 19677,
+      "sha256": "51c13e9427a41d119a177b9ae01746ae791af83624effdd054f54fc43e6a9ab6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/section-coverage.json",
+      "bytes": 6459,
+      "sha256": "23bf964c58d95871ad0894d770af08547eded94cf36e537bf1d4926bda1314f3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/source-preparation.json",
+      "bytes": 3533,
+      "sha256": "d8206883357fe96fe16294495e42a3d87b492ee1e91c667c837aab231435b46e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-entry-20261010/sources-verification.json",
+      "bytes": 7084,
+      "sha256": "431787c8c4c8ee61eed61d77efeaa84f32a950f99e2cc7aa505ab1db78b3627b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/README.md",
+      "bytes": 1658,
+      "sha256": "d65795d86f6646885ec36b8946e86fa07af43a033e3107526302698a1765ccda"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/build-execution.json",
+      "bytes": 476,
+      "sha256": "3c4e1cea2104a4a62d6905aa5e538b336379c310b702ac28fcfabd26973a7c5a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/build.log",
+      "bytes": 1626,
+      "sha256": "18e7fa383f7b2021d02c626201d3f36cd1275f6102336e1eaba9bbcf74ca463b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/checkpoint.json",
+      "bytes": 24816,
+      "sha256": "b8ae5ca59d8a037a4f93563979ffaa9c054c292314b93cfbc4ba3c513a355692"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/cleanup.json",
+      "bytes": 452,
+      "sha256": "47c74acd272066e00e6b84d83db22a89f2d1cfff6c4cf1797df3b177cf0dc2c6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/final-review.json",
+      "bytes": 9803,
+      "sha256": "4875d5748c5d5c2afb0b94511b99ccb3fc808af6ed28f02725e0a81ef8843357"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/http-verification.json",
+      "bytes": 16099,
+      "sha256": "6c015c4b96a753c800f9da164a542dbe0d9ce8a8b7c0e35833dd8073b7bf112e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/independent-review.json",
+      "bytes": 17069,
+      "sha256": "7ae6d02ff7f16b6af4c47de91fbd8b1237b7d34da0e4d163b786b60d5d96070b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/input-snapshot.json",
+      "bytes": 7063,
+      "sha256": "209891f144f8944c271126d4d46fbf2275e2324c9f140cde9aad9c036de4af92"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/post-review-integrity.json",
+      "bytes": 338,
+      "sha256": "cc1661b4bdc9f39372c0cb3f8f181be9711d3b8e43f94487398c49b2d651dddf"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/root-pixel-review.json",
+      "bytes": 2569,
+      "sha256": "60a4ade9e761f29275288b38e5fad9a351f494c36bb28a003e60af11911af7f6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/capture-receipt-final.json",
+      "bytes": 149154,
+      "sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/capture-receipt.json",
+      "bytes": 146500,
+      "sha256": "152ee568f7102fe88c948da6fa90cbd2e6d813cdd0802cba610b0a95f3eb37fa"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/chrome.log",
+      "bytes": 13192,
+      "sha256": "f530e61142b72d69ddb922218804d0a3c900fe1c25e166e4345be9427c716a76"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-1440-custom-assignment-sofia.png",
+      "bytes": 64077,
+      "sha256": "8ff2d7d29aafb6b92d6adcb5fcdf97650cf9d1eef865516ed68b26493800f32f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-1440-custom-condition-age.png",
+      "bytes": 83139,
+      "sha256": "343fbfca380bc72ca9313580b75dc3d1fb120adefa120e04fb65aa3c5eeab006"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-1440-custom-end-policy-viewport.png",
+      "bytes": 51221,
+      "sha256": "d8a4a672f72344cba3e82dd0d9cacb293749b14936ff6add195758008f0417ed"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-1440-custom-end-policy.png",
+      "bytes": 11830,
+      "sha256": "b9e257eff27a4acffcc568e9d6a1304bdfe03dfe73f12c6ce748fdde81ae65ac"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-1440-custom-message-sms.png",
+      "bytes": 125445,
+      "sha256": "d01c2d4ba0f6d3fcb86219e3b2683b29623344cd43603e012ad641a03bf7e5ba"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-1440-custom-saved-draft.png",
+      "bytes": 51747,
+      "sha256": "4e63f282ed6c37e455173fc54d4a9dd00f4d655d081a7067e2ca97b24c0a83b6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-1440-custom-trigger-selected.png",
+      "bytes": 99020,
+      "sha256": "d1af27934d4203d2ef03d80b5056f080952da78595c62830755fd9d508c83400"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-1440-custom-wait-two-hours.png",
+      "bytes": 41400,
+      "sha256": "607f2628ff152e32d3078c8e9ddcba9a1f803923c4fbbb0099b3c6ad0fed50c5"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-1440-full.png",
+      "bytes": 1536219,
+      "sha256": "a90d12557418abfc089ad3af4982b638a7ae54268db7e7f26d01d6c13b3a4e16"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-390-custom-assignment-sofia.png",
+      "bytes": 59907,
+      "sha256": "33f574b9e0cd883cd49fd8accac62fb98ac385c3b78172f2c30883a4eeaa9b7e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-390-custom-condition-age.png",
+      "bytes": 75782,
+      "sha256": "b048dda5824e3c315943c6465a18e21683ec9baec9d069fa00890289b36671cf"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-390-custom-end-policy.png",
+      "bytes": 46709,
+      "sha256": "1a2b705c4591af6410d18353ccfdae1bb71301cc4cd8d86c92418ae95f5d7300"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-390-custom-message-sms.png",
+      "bytes": 115352,
+      "sha256": "165f7ae9be346b480c85c431ea70c76e8416aeeacba008d102e94d6a377782bd"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-390-custom-saved-draft.png",
+      "bytes": 48716,
+      "sha256": "f17d79e4b35359f78e4e1811d74b9edad949b6251b90131ccfa41d7e7192f64c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-390-custom-trigger-selected.png",
+      "bytes": 91833,
+      "sha256": "3756a09f6cff05c119bdbfa54ecbeaa58c628729ba6308b1854e60abb5fd60be"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-390-custom-wait-two-hours.png",
+      "bytes": 39193,
+      "sha256": "0a8dadb394d585e8739dbac03c275da162e26b54852fde72623bbf9bd32d2cf3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-390-full.png",
+      "bytes": 1205683,
+      "sha256": "ef86b6864e37f3378d4923bca7e83cc6786f789575ad174b57bb01f06f0f3b0c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-580-custom-assignment-sofia.png",
+      "bytes": 62390,
+      "sha256": "95278eb05aa905495e2f3d42e7cc3db5e7ef0c896718b89065edbe1a3e0b5bb5"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-580-custom-condition-age.png",
+      "bytes": 79296,
+      "sha256": "0d684212bb9a071d76615402c22dcf213dc543a4d55792b78d0382402ee9af81"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-580-custom-end-policy.png",
+      "bytes": 48755,
+      "sha256": "3c78486b9db477130e2ee3a09bc96b6416d983bcf82c070a35be3225eaeefb84"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-580-custom-message-sms.png",
+      "bytes": 118709,
+      "sha256": "85e8195f25213aac64de99b4ccbca36e44f405baa125c9fe91525b241ed60932"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-580-custom-saved-draft.png",
+      "bytes": 51350,
+      "sha256": "6d85b0fccb5206deb56d83405e5b3c119b5b8bcc5d2efb7dab1b7cdd13a72780"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-580-custom-trigger-selected.png",
+      "bytes": 94246,
+      "sha256": "1ca55f8c5a50c939e4b624b15b56fb89dab13091f103c30653021b48d88d2c43"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-580-custom-wait-two-hours.png",
+      "bytes": 41401,
+      "sha256": "e235a64ee952a152c6b572e2934702e1c7b6167bea4b3c82c62f48b8224252c4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/custom-journey-es-580-full.png",
+      "bytes": 1196015,
+      "sha256": "ccbf216ae81d6334c6ff41de56d28e6bd69863946171db8ceaed4d62b91ea984"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-catalog-builder-choice.png",
+      "bytes": 99249,
+      "sha256": "92f722b847fa69406d876591481f331c3f4e3bd7773e2c9234e23d4e1e663b39"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-catalog-route-vs-agent.png",
+      "bytes": 103730,
+      "sha256": "36dc03ef61c28fb324620878907f4d7af223590b620ce48e756377500186a141"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-custom-saved-draft.png",
+      "bytes": 51747,
+      "sha256": "ce4f646cec08365d653e06d78f78e78ccbe5948335283ce22a57591fee9ef2f5"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-full.png",
+      "bytes": 1799945,
+      "sha256": "f63feb51216e3888fddd451fc82b4ec2563e86b29b058e26ff13d522ef3976b9"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-template-cart-selected-viewport.png",
+      "bytes": 134537,
+      "sha256": "6a1171de5b7b3563e6a7167e00abf473eda488d315827cede5bdea61085e4b3f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-template-cart-selected.png",
+      "bytes": 16022,
+      "sha256": "5a755e337c73c47c350071ad887ffff15a131c0d566479424f6da1504f88a3b2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-390-catalog-builder-choice.png",
+      "bytes": 86553,
+      "sha256": "21e83cb2f117aac3c4826cb8f2a94e86749e56c7a980df78712a0a753c155df1"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-390-catalog-route-vs-agent.png",
+      "bytes": 86382,
+      "sha256": "d021a46e52e6ddc34d8703b6736e12fe74eb23ff9bf5fe2139c8ce21447b3abf"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-390-custom-saved-draft.png",
+      "bytes": 48877,
+      "sha256": "006d8b7923b3f8b3475daddcba0822d7549f20cce19f3b26c8a21c13340afa05"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-390-full.png",
+      "bytes": 1402565,
+      "sha256": "14c789097488bd9377f50eff79f3dd09bdcd0e383d1fb56c064beb32ea35671a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-390-template-cart-selected.png",
+      "bytes": 39857,
+      "sha256": "2a1700afa2c1bf0f59ac0deb07ee4c8ba276db4fd9c4504ce279218df9acfc60"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-580-catalog-builder-choice.png",
+      "bytes": 88516,
+      "sha256": "a2b90e1ed6396b9de0cf89e52eb4398a8d2c6539837fde0f9ec7c1705b4adbf1"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-580-catalog-route-vs-agent.png",
+      "bytes": 90508,
+      "sha256": "6095736743293690fe8708d4a7128ca791282f8d50166cfaa1b375a9ced187c2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-580-custom-saved-draft.png",
+      "bytes": 51328,
+      "sha256": "cc803b4a6ede9b886d88390a46cbda926ddf53890c55a4aa96ba8ef24531c7db"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-580-full.png",
+      "bytes": 1348607,
+      "sha256": "f29ac7562bdfe1cbde280c2e6c0380aabfd628c8c9cb628a2d53d65b78d55244"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-580-template-cart-selected.png",
+      "bytes": 43552,
+      "sha256": "ce43b62054277e6e5208b2516476fa9aeb8e1b0f81a1099512e229344bc9548a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/owned-processes.py",
+      "bytes": 3550,
+      "sha256": "16606947cf7469bfe5f2f63dad8779c845f7e8577c1ccceb1e47fc2915ede7d3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/processes.json",
+      "bytes": 538,
+      "sha256": "ef3455ba06d1eecd3008c10f0710b7bd36dbcd1332f17451ffc90c002166d9aa"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/recapture-details.mjs",
+      "bytes": 10439,
+      "sha256": "5db09cebae0aa74d5caaf911972ab9d359a9db11aff6e2b074d02b212964ca7a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/recapture-receipt.json",
+      "bytes": 9482,
+      "sha256": "036622bf99a5dca03369ae8b69e7b1effd7e9d65594705637520220a72cf1d14"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/review-pages.mjs",
+      "bytes": 10868,
+      "sha256": "28ebf135f73ffe4935aae3dc7a93ef3e302b9494dcccc36fbdcfd66cc334b23e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-group-checkpoint-20261011/visual-review/server.log",
+      "bytes": 48334,
+      "sha256": "a26113c838025297b24bc6379255950694f0dfcc70089d2375bb0aeddb7139a3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/README.md",
+      "bytes": 1621,
+      "sha256": "e3f783b80715576cea08b994da762888920fc14d78cbf45c52a048c9448544be"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/build-execution.json",
+      "bytes": 476,
+      "sha256": "e595abf84207f5981bf2e2e71f0042805cd30bb50e0716f3aeb1bda25bceb853"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/build.log",
+      "bytes": 1626,
+      "sha256": "dd44bf6d2889fc249abe39800355a0c91ff1bbb1d9a3c79a25ae237c754776e6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/checkpoint.json",
+      "bytes": 9988,
+      "sha256": "59ffaaf3e2cd137d65e02964152b40a567d1582535f4b1e490e1b366506740ae"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/cleanup.json",
+      "bytes": 330,
+      "sha256": "82b552da694e9c30f098f02aec6de56ab448c47db60393864a4f7ea8a6e308c2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/final-review.json",
+      "bytes": 4727,
+      "sha256": "10f7cb69ea2e15a0696263f0a95156e769cf81a1663bb0c180e5da201623f9bd"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/input-snapshot.json",
+      "bytes": 4418,
+      "sha256": "6c183d975cd6d99e41e52c527355ec472f36f3d46b80a4cbf60641d1756ec32e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/post-review-integrity.json",
+      "bytes": 8830,
+      "sha256": "ffc72e46efaf1624205481555ebe86721c18d53536597f12bfa279d06693809d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/capture-receipt.json",
+      "bytes": 30341,
+      "sha256": "32a9d3abdd530c294ebb9d469989e8a4c5bf6ac83b5ca5e1f269da2238bf46fb"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/chrome.log",
+      "bytes": 11606,
+      "sha256": "6740814e5729d4b16b959572970d45d220951b4abc0f0a4ed0a4233ef3347b1a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/custom-journey-es-1440-custom-trigger-selected.png",
+      "bytes": 99020,
+      "sha256": "d1af27934d4203d2ef03d80b5056f080952da78595c62830755fd9d508c83400"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/custom-journey-es-1440-custom-wait-two-hours.png",
+      "bytes": 41400,
+      "sha256": "607f2628ff152e32d3078c8e9ddcba9a1f803923c4fbbb0099b3c6ad0fed50c5"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/custom-journey-es-1440-full.png",
+      "bytes": 1093190,
+      "sha256": "67dacd4bf962f768642b787391e7efe8da935e85a02c9919e0db95c41de077b4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/custom-journey-es-390-custom-trigger-selected.png",
+      "bytes": 91833,
+      "sha256": "3756a09f6cff05c119bdbfa54ecbeaa58c628729ba6308b1854e60abb5fd60be"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/custom-journey-es-390-custom-wait-two-hours.png",
+      "bytes": 38376,
+      "sha256": "1253af2de1a38cbff9b6c7f54455c1d43d7304b19a1772b66b6555b0933ec680"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/custom-journey-es-390-full.png",
+      "bytes": 828250,
+      "sha256": "f73fbc6a88f0acef9c7c287e542ab70746d2475e27659fb00aa5632d581f4813"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/custom-journey-es-580-custom-trigger-selected.png",
+      "bytes": 94246,
+      "sha256": "1ca55f8c5a50c939e4b624b15b56fb89dab13091f103c30653021b48d88d2c43"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/custom-journey-es-580-custom-wait-two-hours.png",
+      "bytes": 41401,
+      "sha256": "e235a64ee952a152c6b572e2934702e1c7b6167bea4b3c82c62f48b8224252c4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/custom-journey-es-580-full.png",
+      "bytes": 806802,
+      "sha256": "59c5b4c1b03c1efb93108461ef0e09f5abae3ea1733e2d4cb51241525698bc8b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/owned-processes.py",
+      "bytes": 3549,
+      "sha256": "af796e0a01fa6a50d20b91b3428d0b8e538489899931aeea9888aee24316189d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/processes.json",
+      "bytes": 537,
+      "sha256": "b5512e3a6ebbe9784563aaaedf1c732bf3447cfaa5510bd18df1c670d3f64a9c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/review-pages.mjs",
+      "bytes": 10719,
+      "sha256": "1d6d347be0bdcc8dcad5080fc2bb9e9298fd58ab8f4e67aad5d0edb20d4b2164"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/es-panels-checkpoint-20261010/visual-review/server.log",
+      "bytes": 16428,
+      "sha256": "2c9e77eafd119fe147c515a47571ac5a171bf4c8a3644d2853d1ea260c1b6b54"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/build-execution.json",
+      "bytes": 476,
+      "sha256": "243c4052064ba25d0606224c5f07c60dd8dbecb65d7a7fe1f61608c6a2b55c5a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/build.log",
+      "bytes": 1626,
+      "sha256": "9aa825adc50055fa93651fc8f460e302ea95502ed661ffc8babdc509b8935839"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/checkpoint.json",
+      "bytes": 49651,
+      "sha256": "bb8f46e6994b21c904350f8d41a0bd08ed7fb6090e4dc45df15d91a17ed64616"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/http-verification.json",
+      "bytes": 31788,
+      "sha256": "d26021217618ed469ff2366e103c9dc90ed049d57d950323429ab5b118e04108"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/input-snapshot.json",
+      "bytes": 12625,
+      "sha256": "09c488f27b256127cdf9ab1e29ada6cd02abab8e790d98d45c32dd3073b5cd1c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/capture-receipt-after-template.json",
+      "bytes": 477737,
+      "sha256": "ad440c8d7ebccfb7ce24ff666876a2eae7ad19cad3e0e9584b600d4b628263f5"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/capture-receipt-final.json",
+      "bytes": 478864,
+      "sha256": "75f7ce9629f1bd20df8e760012c88ca89c160189b6e93d6aaffde37c83ad6ba0"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/capture-receipt-first-attempt.json",
+      "bytes": 174200,
+      "sha256": "752d41d96800d02772c3bc1e7544f56001c6058d30c8fec4dbe70cef5097392c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/capture-receipt.json",
+      "bytes": 476331,
+      "sha256": "03aa6de2b09b1eabda6386c14e2a6d9d7165b9e3b9101c4689034f9b35146ef8"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/chrome.log",
+      "bytes": 12972,
+      "sha256": "86b54746c499a88757d115471256b216e03b2063888ca9ad9005d5f6ba053d5b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-1440-custom-assignment-sofia.png",
+      "bytes": 61938,
+      "sha256": "5f6c6ce23b986a6e114f2839351321903ef6ed261618ce039501c15148126343"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-1440-custom-canvas-end.png",
+      "bytes": 75704,
+      "sha256": "aa9e2051d88a6f08aacbb862bcd17326c9c1dd3190374e7333aaea2acc036b39"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-1440-custom-canvas-start-viewport.png",
+      "bytes": 60466,
+      "sha256": "f7a08cdd8d8b661cf197343360304fab87658532a922106d2d524a02a5237221"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-1440-custom-canvas-start.png",
+      "bytes": 20302,
+      "sha256": "509e029203e41d995953a1ed51d08e23dc7f40badc62c9b107f27c3559f0b036"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-1440-custom-condition-age.png",
+      "bytes": 78850,
+      "sha256": "5ea6ce149925e8cf9edf521011ec54018efbdfb8f8f30e6b5c2335595b5ffab3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-1440-custom-end-policy.png",
+      "bytes": 51940,
+      "sha256": "6287eb6ed4ae6363b27abed2c22754107271f51691a398575f9e1a76f42d05bf"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-1440-custom-message-sms.png",
+      "bytes": 126808,
+      "sha256": "27d8850190ba1f50e252b60f8bb8811bbd371eb4dfc3e257a597975869bead32"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-1440-custom-trigger-selected.png",
+      "bytes": 96911,
+      "sha256": "a08692101444a09f5ba2e35078eee6e6f44ead0e76f4612dbd99ca22c4dbd15d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-1440-custom-wait-two-hours.png",
+      "bytes": 36107,
+      "sha256": "ebdc6ef9f12bc8b1332e50a942e0df0aed699f9cf9b7bf32147b63aa5ebec109"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-1440-full-part1.png",
+      "bytes": 1048841,
+      "sha256": "35660abea0a822252d69c114111979b358fbedf528912a32d6da462b93e51ce0"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-1440-full-part2.png",
+      "bytes": 718666,
+      "sha256": "8d9e7516055aed8364be43b6b19db045d83d8f413d6247f2eb0895f7f1caa7c3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-390-custom-assignment-sofia.png",
+      "bytes": 58556,
+      "sha256": "3c082ae7e7d294f7ab80ef2e85d34d8531586eb12005248c9f56a712fd8e1bb5"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-390-custom-canvas-end.png",
+      "bytes": 66194,
+      "sha256": "559cb87a0f62d2079fbf7ce653b57621bf265098622bb832860ce57922c57b0c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-390-custom-canvas-start.png",
+      "bytes": 55635,
+      "sha256": "0bfe4f165bc72b2de228e16c712f6669cd464a8878b7e4d6c3a87b7af3b23b50"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-390-custom-condition-age.png",
+      "bytes": 69727,
+      "sha256": "aeb74503b1082c87bf068a5bd88ee500bdf5d5d8d52dba578d8bddec5c5493de"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-390-custom-end-policy.png",
+      "bytes": 46618,
+      "sha256": "3405bcc7238d4ca4ff97f80ebfa01c26e10700952b1fd6678f60d9ff0704f574"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-390-custom-message-sms.png",
+      "bytes": 111174,
+      "sha256": "db963d87d286eea407f724e1cb94f2fd833db9dea84594283a89b12ff1928ee6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-390-custom-trigger-selected.png",
+      "bytes": 87861,
+      "sha256": "d4c242dcd99e7ab131c5c80e9f46c83fc9b46d21537cf06cefba7389dd08d29d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-390-custom-wait-two-hours.png",
+      "bytes": 32919,
+      "sha256": "b1d50c13abe120c26c9370a6521e4980760321e27f9057eeae5d3c1c0f8b5fc2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-390-full-part1.png",
+      "bytes": 777083,
+      "sha256": "b2000d05567399e2f485b8dda78feb4fe7e30cc4fe2ff44a2679c5bdfeb4ca01"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-390-full-part2.png",
+      "bytes": 592545,
+      "sha256": "07e52541767eb17353eda99660030b867aed1529ac6a189d30dc127f0902ee5f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-580-custom-assignment-sofia.png",
+      "bytes": 59524,
+      "sha256": "510030d40708943ed5922984d646816d42a9d2892c1934709617390c458ccc9a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-580-custom-canvas-end.png",
+      "bytes": 71231,
+      "sha256": "2cdf261f258770f3a039b11e5162f1ff02fd4b3b919337846d1c7a7b03fb8201"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-580-custom-canvas-start.png",
+      "bytes": 59320,
+      "sha256": "dc36582c6125a222e674111d0b4fb7938780a890f36f1d58d36ab9dba6bac5a2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-580-custom-condition-age.png",
+      "bytes": 72926,
+      "sha256": "9af8ac4336a2122744d18e33c8e0d31b36eda6a1d44d88b323196544f12a0463"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-580-custom-end-policy.png",
+      "bytes": 49466,
+      "sha256": "5401a45658bd9ce83cd4941d6d1cc53b6b2fee716153fe924bf4622db1bada45"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-580-custom-message-sms.png",
+      "bytes": 117844,
+      "sha256": "82fa454da151ab539b03ec16c7c2b04003d265447c246067e05ca9162fd6e986"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-580-custom-trigger-selected.png",
+      "bytes": 93079,
+      "sha256": "ea1f9c18c7176b8b95d9783191e06b773f1891ddc669ddd1870c1b946c9f7d86"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-580-custom-wait-two-hours.png",
+      "bytes": 33975,
+      "sha256": "34aeb8fc63df6fc613b2690f2371bda51d6f1f533f49743546f9b5811bfacf8f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-580-full-part1.png",
+      "bytes": 726629,
+      "sha256": "694b5035d432fa0853aff7b80f293fc7b76742bac1871173df247ba7692f7d2a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-en-580-full-part2.png",
+      "bytes": 648478,
+      "sha256": "742c448be52ba49c41bfce5b224dff24eac88c42c9cee12e83e737f5dd5f0f0c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-1440-custom-canvas-end.png",
+      "bytes": 72266,
+      "sha256": "ffa5f00b4514031b9e2c78a2dde8b9847e08951e0f5979bd70be01c2338f0e94"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-1440-custom-canvas-start.png",
+      "bytes": 60453,
+      "sha256": "0f4d8eddca6c1b6fa156e06a8041c5ae425a4e9b39d39dd32cc905804d44a83b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-1440-full-part1.png",
+      "bytes": 1099097,
+      "sha256": "c70291f4b7c9d840f45808b08a70efb5c25883cca5b4aec4a41e729dae213b09"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-1440-full-part2.png",
+      "bytes": 742528,
+      "sha256": "43725d0cb9c7144a75e57160e6e284f7123b00ed524b0243fe436c29549d148c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-1440-full-rejected-no-icc.png",
+      "bytes": 2127155,
+      "sha256": "b97c28e48cd3d408acb17f92c205a687579b4a002299a73f94d7bcd66c7f7eb4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-390-custom-canvas-end.png",
+      "bytes": 65443,
+      "sha256": "711ec11455d92c934c9d8e98ad353d683ca16298797cd8ce80173dff7384422a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-390-custom-canvas-start.png",
+      "bytes": 58326,
+      "sha256": "66704507606a2531a58b1f7ab913aaadd39f5935e493f61cfec856cd326db591"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-390-full-part1.png",
+      "bytes": 807852,
+      "sha256": "6247ba92dadf8e370494237f2a3a76f2959549ad13910711aaf073506da661c4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-390-full-part2.png",
+      "bytes": 631130,
+      "sha256": "c455035286f0746cc059e170fd57669f5c5da3f67210eeedf25d07f914fe9129"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-580-custom-canvas-end.png",
+      "bytes": 70862,
+      "sha256": "0d528848a22425453cd714cfa0bd62edbf45d682594afbee6e891430ee681ae2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-580-custom-canvas-start.png",
+      "bytes": 61926,
+      "sha256": "f52db42afb00381cd2577a23de776b5819d48d49565f38417c4d0181e239ca37"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-580-full-part1.png",
+      "bytes": 752133,
+      "sha256": "98642f4e15ad3eb0f5c60b9b18b32f3c1d51f3a19ba51c5913a6492c221eb34d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-580-full-part2.png",
+      "bytes": 691998,
+      "sha256": "0f25e9587d8abcb8dff78d6574408f4d2b74237e9d4a787829b8b135097a521c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-1440-catalog-builder-choice.png",
+      "bytes": 87773,
+      "sha256": "27c524fa483d70b85e940b8307ee1607700d42eeb8b7e34fcfdc1041eec2dce3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-1440-catalog-route-vs-agent.png",
+      "bytes": 85973,
+      "sha256": "4fa8d1b599aeb4c1675391cc553e4865eb7b03e6ebf3a2c5693d18d097b56b78"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-1440-custom-active.png",
+      "bytes": 48477,
+      "sha256": "a815ea04533c283db4af4daf709f2ca3972d64649a1ef2b2e2f36c175aa0c5c6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-1440-custom-inactive.png",
+      "bytes": 48918,
+      "sha256": "c8a2ca3889ec75d6ad16b5989fa225da29a5e69eb84edf543033f8b0f9fe0f7b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-1440-custom-saved-draft.png",
+      "bytes": 47272,
+      "sha256": "c05bcb67cc26daaacb1269740841c258360a53a2a3b6a6157d43041ffd3070e3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-1440-full.png",
+      "bytes": 1863273,
+      "sha256": "adeb1fd89ca2fb2ee77a27138e149c6a28b0468c74212eb34dd4b1bc4e6936c8"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-1440-template-cart-selected-viewport.png",
+      "bytes": 134768,
+      "sha256": "66e0c4eed0a50b3051f39a7eb08f8171f0afa8ba527dee237d1b4f812605506b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-1440-template-cart-selected.png",
+      "bytes": 134768,
+      "sha256": "66e0c4eed0a50b3051f39a7eb08f8171f0afa8ba527dee237d1b4f812605506b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-390-catalog-builder-choice.png",
+      "bytes": 77332,
+      "sha256": "928941cfb080699aa954feb8810491a39c1d231caf1227fabde5f5e3e2d5d00a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-390-catalog-route-vs-agent.png",
+      "bytes": 73972,
+      "sha256": "0fa27ea743c394d6efe13e2d4115a8bd70b0f649efbe1b034dd24d74ed3e2afb"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-390-custom-active.png",
+      "bytes": 46098,
+      "sha256": "41e0a28170074fecfe2025ba46322ea8d37dd431287d4008c26a7fafca4e7486"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-390-custom-inactive.png",
+      "bytes": 46288,
+      "sha256": "a49b5a71fb1279da47a42b184885d6915bd57e2d3f68c7eec9d99637b89d89fd"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-390-custom-saved-draft.png",
+      "bytes": 46324,
+      "sha256": "6ccc494c20b59f594b22deaa15a899c953e8df07450c6b65e833dd20589f19ec"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-390-full.png",
+      "bytes": 1400857,
+      "sha256": "f57f8d9f40ef5388e9a064b44f300bc1749f23a680a3b578cea38936457a3a89"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-390-template-cart-selected.png",
+      "bytes": 39636,
+      "sha256": "1dd2cc56868522af9d69bbce82b751a5140083578b9fa2a338ab6d57dc0e08b7"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-580-catalog-builder-choice.png",
+      "bytes": 80195,
+      "sha256": "6a61f4ed679d00a92b44211facabe41203240ee03a270b748afbddd5084861bb"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-580-catalog-route-vs-agent.png",
+      "bytes": 79032,
+      "sha256": "3bb0894f45ab8e10a4727c342ce0d01bdc6f786473e073507f4dc3d69b7ee0e3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-580-custom-active.png",
+      "bytes": 47201,
+      "sha256": "0465fb62f8e5e9cbed7136c98be22b4d2e2f7dda6db1eea302a0bba20d3e35e8"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-580-custom-inactive.png",
+      "bytes": 47695,
+      "sha256": "fb3e50928f5b50874ad453ad495451d19a3d4fb69fd78a58bef398e248e06cf8"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-580-custom-saved-draft.png",
+      "bytes": 46074,
+      "sha256": "b3dc2bc6c47039ea6a8be445be9c94bc9111a6161e31243dd1530102633768bd"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-580-full.png",
+      "bytes": 1373648,
+      "sha256": "573ca00b21528fe73617f7ca6845f78065924fc01a29373aa721332ab281fc26"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-en-580-template-cart-selected.png",
+      "bytes": 43130,
+      "sha256": "c59f582db204229488ccefae0c9ea25877b358324ea5c1d549d2a29c389695e9"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-custom-active.png",
+      "bytes": 51808,
+      "sha256": "a8c9a2ffd3aa2e64c54fa31d73a9b1685fb19537b01a3492e6404b950fd0f2a4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-custom-inactive.png",
+      "bytes": 51896,
+      "sha256": "77141a172877826fa0e22f6d4c9ba79f9096bbb4f275386a57e3b0dfde5a11c6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-full.png",
+      "bytes": 1940452,
+      "sha256": "50f1ef4b11945b6cd6856f3618eb57d74562017dfdfb9caa57364c31f6d6350a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-es-390-custom-active.png",
+      "bytes": 48684,
+      "sha256": "e1c5e3678fc286d995957e98e23cb1013583cc7e2f17b49ed364a277c55bd056"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-es-390-custom-inactive.png",
+      "bytes": 48882,
+      "sha256": "b42124b557f1f05e5bd8a53ce33a83160564ff196b7f27ae130ef2d1e4ae0de2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-es-390-full.png",
+      "bytes": 1501469,
+      "sha256": "01f81c692f8e56037dc378babb7b0e1b5a62c8864f87ce590cab4e961dd0b064"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-es-580-custom-active.png",
+      "bytes": 51296,
+      "sha256": "6cb1a7c337e9cf66c9e80f4e5ad5c23dbf6d23c918ac27bfa88f0ddc5c9b8bc4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-es-580-custom-inactive.png",
+      "bytes": 51414,
+      "sha256": "0af5db92728319dc9055d135421ecedc8c064311eae9f7ef52fd26d185691c86"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/getting-started-with-journeys-es-580-full.png",
+      "bytes": 1451829,
+      "sha256": "01c2cb11e9cf7dff705d6ee4a63419f9e4c257079df6c083d00e685ba4f38e1a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/owned-processes.py",
+      "bytes": 3547,
+      "sha256": "54bdddc62ceef705297b9d166c301220ec14ee35c7954cfa5375354f733be733"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/processes.json",
+      "bytes": 395,
+      "sha256": "bda121e4bf52aceb4d741444a2b13da697ffeecad2367446ccde6775d9fc0851"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/recapture-canvas-receipt.json",
+      "bytes": 4988,
+      "sha256": "03c147ebda812fcda59d744d058e44cc3884fb74125b49004613d6460fbb5885"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/recapture-canvas.mjs",
+      "bytes": 10468,
+      "sha256": "4c601aff6c428844ed7861933a56847db28925ab341955e1ea72b3787dcd5815"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/recapture-details.mjs",
+      "bytes": 10392,
+      "sha256": "8a5eaf6784ebeb922c187955abe3af1c805283df9f87083245dea0fc18cc1958"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/recapture-receipt.json",
+      "bytes": 5095,
+      "sha256": "91c80448fda325e1d4aa3f9cb4653f434839ec5431d1dd8a942636cb6ea865ea"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/rejected-full-capture.json",
+      "bytes": 455,
+      "sha256": "2526f3d9390317511cb472cba092e7292e0bb7c3972486ab6b4490791a7a3b40"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/review-pages.mjs",
+      "bytes": 15184,
+      "sha256": "e563e7c06d9475de0e321b50da91adb341d914e87eaf37323aa729414b1046e1"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/server.log",
+      "bytes": 144719,
+      "sha256": "84d5e611dd14ecb16f7fd725e72a5cd9f6498c10477fdd7ea677180fd74d7a3b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/README.md",
+      "bytes": 2063,
+      "sha256": "ce52d80aa1eb923c8b0762c6c4ff13dafa73e23e6eaca34dbfc457e6051ce126"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/audit-placement-correction.json",
+      "bytes": 543,
+      "sha256": "3bb200b305274da68e1ba2ad9023cc3610ba74183acebad1e940e06e03f168ae"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/build-execution.json",
+      "bytes": 494,
+      "sha256": "c307e436299323d947c97063085db907ef47cac716f8d2c20e589aaeb95f1637"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/build.log",
+      "bytes": 1626,
+      "sha256": "9e6e93e6f86979905b19642d00f98d4dc4d9dbd23893014274ffacbb4559ef17"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/checkpoint.json",
+      "bytes": 9887,
+      "sha256": "0c3bd040cb1fa16b8d89a31e9bc6457b9bd928590c6d79c8afda302f25f05e13"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/initial-build-execution.json",
+      "bytes": 375,
+      "sha256": "3d68a17be0658db2a73f30d9549447ab7e7c38c9aa054afa1cdd58a0b8c73be0"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/initial-build.log",
+      "bytes": 1626,
+      "sha256": "f3f699c974d8efd2d0a1a5774e2e4d43ecea8a868fc2559420cf0b80e46f6c34"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/input-snapshot.json",
+      "bytes": 5615,
+      "sha256": "94210f693f7c413665260991e48c3ea78ddafe149c4e05ed3db35b16a5fc92d0"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/README.md",
+      "bytes": 1833,
+      "sha256": "ca30605337ae0ceec07c5229a7fd719e8fb6cd0d0b68fef99580ebbdb3ba790a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/capture-receipt.json",
+      "bytes": 95689,
+      "sha256": "c315b3c6c3890fcf44e7a8d722fc159dc663a498a486f42668b3e3f6ba15a0b3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/chrome.log",
+      "bytes": 13474,
+      "sha256": "0072dd9f5b448bbd5a1777e2cdb5f11aa3010f5542e331a958caf16fc3121c79"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/cleanup.json",
+      "bytes": 406,
+      "sha256": "fb54be957ddd65a980c3fe34dfad11a74d4ef190da8cf13eac4a11e2d2ca74f5"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/custom-journey-en-1440-full.png",
+      "bytes": 1005342,
+      "sha256": "197b7270b35d66876e2dc8c8b12300336a8c1098ea3b91a870b53e07ccb1957b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/custom-journey-en-1440-journey-trigger-menu.png",
+      "bytes": 115084,
+      "sha256": "c6614bcc3c7e99f39d5b8904c9b14148c896dc13069ea5fc1bd6563aff12cb28"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/custom-journey-en-390-full.png",
+      "bytes": 771081,
+      "sha256": "f366b46823b403985a6f60b1f30f9c183553868afb7122f641e0b7f0ed213362"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/custom-journey-en-390-journey-trigger-menu.png",
+      "bytes": 117611,
+      "sha256": "00b1b8b161e2ed2d6b68c453e4d71c1a37cac7e1e052fc02ff530a1366b61423"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/custom-journey-en-580-full.png",
+      "bytes": 750303,
+      "sha256": "c86785b3d03b65a947cd28454527674e39887b95146e747841732d64c070f26a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/custom-journey-en-580-journey-trigger-menu.png",
+      "bytes": 125220,
+      "sha256": "71dcc98cb87e7a6567bf317527805990e0dc31d7b33f516e56303bfb6e43453c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/custom-journey-es-1440-full.png",
+      "bytes": 1062092,
+      "sha256": "67fcb8064ffffb072b53ecdfdc72148539a76f6b1d6b4dcf5df5d8f18616bb3e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/custom-journey-es-1440-journey-trigger-menu.png",
+      "bytes": 116075,
+      "sha256": "e482f125ed9a05c1f2650e0980cef292ece68ed24fc6f89f6be5d4ee6cd27a17"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/custom-journey-es-390-full.png",
+      "bytes": 823656,
+      "sha256": "33f5fc9dec7af680998588e36ce8a4ebd249e969b9f79a3ac87120043a823c9e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/custom-journey-es-390-journey-trigger-menu.png",
+      "bytes": 125527,
+      "sha256": "857a8e8242346dc32553635dd54d34f96f7945de23a6950995b90b5d8eb1e9b3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/custom-journey-es-580-full.png",
+      "bytes": 802482,
+      "sha256": "c50b81e832d789e4c8497c1f9c1b407d841bebcf52137bfe5ab8779efdfec321"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/custom-journey-es-580-journey-trigger-menu.png",
+      "bytes": 132307,
+      "sha256": "14550b7c2238be8d9ab37910162a7693c449594d05610e51149187e5f702be6a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-en-1440-catalog-builder-choice.png",
+      "bytes": 144731,
+      "sha256": "ce51888b0ba2fabf825cbe3b3d8780d2c0b6c052f61a77bb13d8010476965936"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-en-1440-catalog-route-vs-agent.png",
+      "bytes": 178254,
+      "sha256": "9695c83719977bea254da1b43272ee99308d83c921b5ba5c90df2b39bba379fe"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-en-1440-full.png",
+      "bytes": 1694353,
+      "sha256": "50467101a457eadab74c07e0f3191db1f31c43d8338ab70cde5f7312dfcf6b9e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-en-390-catalog-builder-choice.png",
+      "bytes": 175034,
+      "sha256": "068d66ffc0db219c9603e30e8f4532664b484298813a54682fd5127be041f9f6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-en-390-catalog-route-vs-agent.png",
+      "bytes": 189761,
+      "sha256": "f5a2a5f44253f844e1e3fd455f0113201c3474ff7dce64bb691c6b2d4dbb92dd"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-en-390-full.png",
+      "bytes": 1433322,
+      "sha256": "baf2e6579ea155a01af992a6abb24adbf9f86b67ccfb57c22818167274f2aef1"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-en-580-catalog-builder-choice.png",
+      "bytes": 176705,
+      "sha256": "739231ba532865ece4535feea79a737080395af9152c9e171d153a1d04adf01a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-en-580-catalog-route-vs-agent.png",
+      "bytes": 194099,
+      "sha256": "afa10d600196d7386e26809dc103a29412f43b1af04e55dbaa98f2a644074364"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-en-580-full.png",
+      "bytes": 1397295,
+      "sha256": "0a692c2b9aeb02464d0a258a95ef714c5e1ca0f13e42491b19d15550c23d72ef"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-es-1440-catalog-builder-choice.png",
+      "bytes": 15060,
+      "sha256": "7d505ee432667e011d3f2d601d4707227bc698361c1f41407649dbbd50fb5614"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-es-1440-catalog-route-vs-agent.png",
+      "bytes": 186903,
+      "sha256": "0fa179048df40d44f01b5e9e0e86767e5d1e8bc3c3e25abb3514375dbbb358f0"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-es-1440-full.png",
+      "bytes": 1750782,
+      "sha256": "7d9dbf9d2da3708c04d4be65827f176b33e28f5c5af238dae8b887ac03863e82"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-es-390-catalog-builder-choice.png",
+      "bytes": 196709,
+      "sha256": "a6d860865ef78577333f88a506783733399892969397a15ff69fd6ca939640b1"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-es-390-catalog-route-vs-agent.png",
+      "bytes": 205744,
+      "sha256": "38deff9bf3bbc59d085ae1cf8686cb2b169d4a647940a88660acf48eb9c245bd"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-es-390-full.png",
+      "bytes": 1541301,
+      "sha256": "742fb2847324c666d73f3a98d70ae534c8ac6b2a575cce216f6ab19c8abaacd5"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-es-580-catalog-builder-choice.png",
+      "bytes": 196765,
+      "sha256": "65e5d0804e3f9c42ef15b5557d7f27a06030b0accc63b49e01bec0813e618692"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-es-580-catalog-route-vs-agent.png",
+      "bytes": 207122,
+      "sha256": "4bbcf45867d8499858f3935d386c51acdede3464101e65763b59b9fcc35c8a8c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/getting-started-with-journeys-es-580-full.png",
+      "bytes": 1478316,
+      "sha256": "67243234671f345e5e333587497d81747c29d9a13f71435478f7fa72d4020916"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/independent-review.json",
+      "bytes": 14791,
+      "sha256": "1e9456cc736ef92129b59b6832a3d8c6f86fe3e81c6cbbb634fe10e832fe023d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/owned-processes.py",
+      "bytes": 3549,
+      "sha256": "af796e0a01fa6a50d20b91b3428d0b8e538489899931aeea9888aee24316189d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/pixel-review.json",
+      "bytes": 4900,
+      "sha256": "30132833ffa6a8bff10c818bb3d8e3453dd51302c8f960ed986bd8bfda7d0cf4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/post-review-integrity.json",
+      "bytes": 7414,
+      "sha256": "6eb81084d645a71febabefc98c438fd3a43a4a9db332f84989fac41a97059191"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/processes.json",
+      "bytes": 537,
+      "sha256": "5fac86412bc36bf3a6c39cb30590c4bc59d101a663a5c47364367d5a04a5b7b4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/review-pages.mjs",
+      "bytes": 10578,
+      "sha256": "25fabf758432a96bdcb6c464b4571268805e5f3d8650faaf087dc51764b7af03"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/audit/journeys-partial-checkpoint-20261010/visual-review/server.log",
+      "bytes": 83252,
+      "sha256": "69b731c266e0407dbd8e4c51d15376cca666aabae1f0f0d3ab7e8d5e3e1dc01f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/copy-corrections/approved-copy.patch",
+      "bytes": 3930,
+      "sha256": "3a5a193b089d6536fc66e268ca502749f84522daed1060a0a40712061f3bd3b2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/copy-corrections/originals/_i18n/en/journeys/custom-journey.md",
+      "bytes": 2957,
+      "sha256": "e00e7027b85c3e33868900e147f0e5362663a5b84b674979cefb338fb51c3e72"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/copy-corrections/originals/_i18n/en/journeys/getting-started-with-journeys.md",
+      "bytes": 6512,
+      "sha256": "3d5d455ae501e509f5896e1dab0fa5f793469980267e31289f874ed08ed33f2a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/copy-corrections/originals/_i18n/es/journeys/custom-journey.md",
+      "bytes": 3229,
+      "sha256": "ab821897f05127f0c127a56c0b3c1ecf8b12eba8e9d68d0b32a1fbeab6b29e39"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/copy-corrections/originals/_i18n/es/journeys/getting-started-with-journeys.md",
+      "bytes": 6998,
+      "sha256": "847acddf30092da26322a14acdaa1c372b7f9e1f248a1be2c4de51310a4988e3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/copy-corrections/receipt.json",
+      "bytes": 16918,
+      "sha256": "f4d5bc265c7d6c23c2f9f773ca1b602f699fd4851ea0cb2df43bd55210070398"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/final-bilingual-preparation-20261011/article-coherence-final.json",
+      "bytes": 30156,
+      "sha256": "745f6c8794ee767565e535c9d27d6f6b346372ce722329167980a73606496f67"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/final-bilingual-preparation-20261011/article-coherence-partial.json",
+      "bytes": 28724,
+      "sha256": "57e1de7ff7a54f2f94441d86a3983afcfc2f275a40a3f93199cc85e10b764c65"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/final-bilingual-preparation-20261011/evidence-index.json",
+      "bytes": 17572,
+      "sha256": "8ad4afb03df68254fae8916036c071644ac6ec661290d44d016ecd53a3c233fd"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/final-bilingual-preparation-20261011/qa-plan.json",
+      "bytes": 6120,
+      "sha256": "f6fe0a64f81b0a539a311f6c3ad3ca31c0b6dd6356a40f76fdfb210db98949ea"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/final-bilingual-preparation-20261011/workrecord-consolidation.json",
+      "bytes": 1217,
+      "sha256": "6265f63d42395a335978c00fe70c6573b1aeea3b43eaa869dbdd5a8791e29926"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/final-bilingual-preparation-20261011/workrecord-history/custom-journey-before-consolidation.md",
+      "bytes": 11375,
+      "sha256": "41af52e51040c0b4ad7f417b47f1d4a11decf6e264c359cf536fdaa916352e4f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/final-bilingual-preparation-20261011/workrecord-history/getting-started-with-journeys-before-consolidation.md",
+      "bytes": 7791,
+      "sha256": "3cd6e2a7b43c6426735ed422dc31825380a7f6d12b2cac9829350f86710f3f67"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-active-20261011/README.md",
+      "bytes": 1074,
+      "sha256": "703c8c73130db43d0788b75bf50184f42d38d2313a567c5f7f0acb43f0bc09af"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-active-20261011/custom-active-en-desktop.json",
+      "bytes": 1067,
+      "sha256": "07ba2057eda32908e8c185ec72a9c8df79594eac58b5c38d1ee117f5aaacddf2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-active-20261011/custom-active-en-mobile.json",
+      "bytes": 1062,
+      "sha256": "0a452813706071d3d5f143b806685ec831d663bf370fbb1d360939bc057e33d8"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-active-20261011/integration.patch",
+      "bytes": 3153,
+      "sha256": "702e9a12c468c5c2b597a0e35638fcfa42cf7ad4c5568d223844a153711225e3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-active-20261011/manifest.json",
+      "bytes": 3176,
+      "sha256": "4036406cf0f6a07fd025c0ef212e2d2c2779ad1665c0a2e004c0cf944ae7b9f9"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-active-20261011/original-custom-journey-en.md",
+      "bytes": 13192,
+      "sha256": "4f0e50f21d58c1ae659db381fa08c0ab543c6afb534d4b502c1156cc2a34bb8f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-active-20261011/original-getting-started-with-journeys-en.md",
+      "bytes": 9146,
+      "sha256": "f5c3bc58ff3792d42ed90a47112b9f179b89cf6351d07ca10ef2c293cc807e09"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-active-20261011/receipt.json",
+      "bytes": 11962,
+      "sha256": "37da8aff1f929c8b4e5636858cb55146c87532c8badb648f49b9e8605991c2d4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-active-20261011/root-acceptance.json",
+      "bytes": 1324,
+      "sha256": "5882a44ed2f96d0ed721e0b42c36ad6794701ac9799a0c091a915037318ed1d4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-assignment-sofia-end-policy-20261011/README.md",
+      "bytes": 1000,
+      "sha256": "d20c9a411396d97565ca7036b9756f22050d7790689aa870dd6877d53ab1f456"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-assignment-sofia-end-policy-20261011/custom-assignment-sofia-en-desktop.json",
+      "bytes": 1327,
+      "sha256": "57bc1597ee3ab05be9c2754a451dd06fc1f826280f31849a20de4358e47a17d0"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-assignment-sofia-end-policy-20261011/custom-assignment-sofia-en-mobile.json",
+      "bytes": 1320,
+      "sha256": "3a944315176479b405962611f0ebfe639b15e0b4f54535ca173bea8a948c31bf"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-assignment-sofia-end-policy-20261011/custom-end-policy-en-desktop.json",
+      "bytes": 1115,
+      "sha256": "a644ef127f81e92f663746a72eda1a99a232807af61758019975c82e9230b25f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-assignment-sofia-end-policy-20261011/custom-end-policy-en-mobile.json",
+      "bytes": 1108,
+      "sha256": "cfff11470e6bbc10e470f08f295e30c41078002b9053cfa5493f13bb1e482c21"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-assignment-sofia-end-policy-20261011/independent-acceptance.json",
+      "bytes": 6567,
+      "sha256": "66d92a1065b1f8c25145924afa5f97cf1cf2d1ed8feb9368c2262e57a3f57aac"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-assignment-sofia-end-policy-20261011/integration.patch",
+      "bytes": 2873,
+      "sha256": "de0a1c3389375879dcbb9a3a79bb1093a25d097766aef42ecf2d5fd87261e7c5"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-assignment-sofia-end-policy-20261011/manifest.json",
+      "bytes": 6135,
+      "sha256": "dc82e11927c1f9a67a2c4b14a189aff4c652d4a6cb0cd5ac67f375d2ef5664ce"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-assignment-sofia-end-policy-20261011/original-custom-journey-en.md",
+      "bytes": 6993,
+      "sha256": "a586bc733554db838a91e779dc779f802acc4b69d38f1e7eee5260b35cd89d06"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-assignment-sofia-end-policy-20261011/receipt.json",
+      "bytes": 9202,
+      "sha256": "89207128a166991136e040fedd56ee93dc08a37a341be159a708ae924248a4cb"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-catalog-route-vs-agent-catalog-builder-choice-20261011/README.md",
+      "bytes": 774,
+      "sha256": "0882fcb89a3c1b6dd3a34fa98730295bc305a86806dafe49b6e75cc75a977918"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-catalog-route-vs-agent-catalog-builder-choice-20261011/catalog-builder-choice-en-desktop-compact.json",
+      "bytes": 1133,
+      "sha256": "e8b5f77a73372d35f760045f1146e810f30330b0582390151ed56441ed96a072"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-catalog-route-vs-agent-catalog-builder-choice-20261011/catalog-builder-choice-en-mobile-compact.json",
+      "bytes": 1127,
+      "sha256": "edbaeb6f3ca08db24ed55ee5edc8136b33235c697282a997c7fd641abeda5149"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-catalog-route-vs-agent-catalog-builder-choice-20261011/catalog-builder-choice-original-block.html",
+      "bytes": 1172,
+      "sha256": "c90b8a043a5f80cdb0b357bfbbffc5a438adbf69388fbb7f7ee98ac09b6d1304"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-catalog-route-vs-agent-catalog-builder-choice-20261011/catalog-route-vs-agent-en-desktop-compact.json",
+      "bytes": 1225,
+      "sha256": "85c278d673bda198723b03e92739e715da1de242734e43c13639b40310d6cfb9"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-catalog-route-vs-agent-catalog-builder-choice-20261011/catalog-route-vs-agent-en-mobile-compact.json",
+      "bytes": 1218,
+      "sha256": "0628c9b2b640e81c4ae54cb03c78d58252ff90d9ac0094f920a816d7ee555dab"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-catalog-route-vs-agent-catalog-builder-choice-20261011/catalog-route-vs-agent-original-block.html",
+      "bytes": 1182,
+      "sha256": "4ee0fb2c6fbadb315f6bbba5022832d73cb76650da488ff5b8cbc05661399307"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-catalog-route-vs-agent-catalog-builder-choice-20261011/independent-acceptance.json",
+      "bytes": 6208,
+      "sha256": "08bdc292e5fec366152c4d7b5afe0bff443c8c0a17543f434bf2a5c45188c22d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-catalog-route-vs-agent-catalog-builder-choice-20261011/integration.patch",
+      "bytes": 3564,
+      "sha256": "66a28599b3fab805861e15a841cf70e022bf8d91371530cd75398062013eeacc"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-catalog-route-vs-agent-catalog-builder-choice-20261011/manifest.json",
+      "bytes": 5795,
+      "sha256": "39feb12329c8c3ca599908a53266ef62b24248b108159c1c68f56725c08e0e59"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-catalog-route-vs-agent-catalog-builder-choice-20261011/original-getting-started-with-journeys-en.md",
+      "bytes": 9082,
+      "sha256": "2ab7cde7457f4374b06423ffef78584c7593fa3c5ea55d90f2f7b3372b987699"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-catalog-route-vs-agent-catalog-builder-choice-20261011/receipt.json",
+      "bytes": 10445,
+      "sha256": "75f11286e0e23575df4c623282462c864f097c082cf6d9cdb6a553d5f0b9e57e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-canvas-start-custom-canvas-end-20261011/README.md",
+      "bytes": 774,
+      "sha256": "0882fcb89a3c1b6dd3a34fa98730295bc305a86806dafe49b6e75cc75a977918"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-canvas-start-custom-canvas-end-20261011/custom-canvas-end-en-desktop.json",
+      "bytes": 1312,
+      "sha256": "7732df8c40f550d314eb9e83dc5a18f90459f4aac8a4926f3457acbf4ef536b7"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-canvas-start-custom-canvas-end-20261011/custom-canvas-end-en-mobile.json",
+      "bytes": 1307,
+      "sha256": "f072477eb9c235ac11ccc0874d893c5b1cada072e72aa9e4ed66b7fd6dbb6632"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-canvas-start-custom-canvas-end-20261011/custom-canvas-start-en-desktop.json",
+      "bytes": 1275,
+      "sha256": "2b1b4dd02cef325be8221b288ba18677e279a94f5dffb4b38db63d5d54ed6c2e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-canvas-start-custom-canvas-end-20261011/custom-canvas-start-en-mobile.json",
+      "bytes": 1268,
+      "sha256": "64b2165ad53fe3ed9252f5115d32bdf8652739037cd8f5b3a5a3e2d883bbcd03"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-canvas-start-custom-canvas-end-20261011/independent-acceptance.json",
+      "bytes": 6687,
+      "sha256": "a9502410cb2027f3a7a55d48e3fc85d0c08e7a505737ab8f28b4717c06eb6b43"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-canvas-start-custom-canvas-end-20261011/integration.patch",
+      "bytes": 3076,
+      "sha256": "dc60d4fca0c0bfb33b24d6c442cd50b63800bb3bc67d80f568b144a7e8a000f9"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-canvas-start-custom-canvas-end-20261011/manifest.json",
+      "bytes": 6430,
+      "sha256": "74a4eab1a3bcc7a24a080a93fce4c664461d077381d6881f84ac731ea9dab1b6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-canvas-start-custom-canvas-end-20261011/original-custom-journey-en.md",
+      "bytes": 10596,
+      "sha256": "d55d08d44aa6bc5162030b7dd9d63e832a457c91606fe0c045e2bfb255f22eb5"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-canvas-start-custom-canvas-end-20261011/receipt.json",
+      "bytes": 11046,
+      "sha256": "154aed0ff4a9d753f8177571a22d76247c645074599cd33845e0d0c5eb46199b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-saved-draft-template-cart-selected-20261011/README.md",
+      "bytes": 774,
+      "sha256": "0882fcb89a3c1b6dd3a34fa98730295bc305a86806dafe49b6e75cc75a977918"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-saved-draft-template-cart-selected-20261011/custom-saved-draft-en-desktop.json",
+      "bytes": 1325,
+      "sha256": "7bcd97a85f57fea7636882a6e567004e9ab29dc6cff2a7b7da51d938170cb8f4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-saved-draft-template-cart-selected-20261011/custom-saved-draft-en-mobile.json",
+      "bytes": 1320,
+      "sha256": "b8ed2c8893ba1cf28fa7de4d985df144ec30ce007e895f1adc9dbadcbeed2414"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-saved-draft-template-cart-selected-20261011/independent-acceptance.json",
+      "bytes": 6808,
+      "sha256": "d0d7217e3214900ba8ecc2240d34cfc50e4ec43dc488df036df7a4ebf4e982b0"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-saved-draft-template-cart-selected-20261011/integration.patch",
+      "bytes": 4891,
+      "sha256": "2dce65e79299bfb00bd000a03cc8b9cf77565634aec71fbbf5761df8f4b62610"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-saved-draft-template-cart-selected-20261011/manifest.json",
+      "bytes": 6463,
+      "sha256": "8a52b706326b3e9712d30e96fe3c1b5dfbbc3015e2ed8603314a3295f97b467e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-saved-draft-template-cart-selected-20261011/original-custom-journey-en.md",
+      "bytes": 9412,
+      "sha256": "37e035c66e98ea9ee75e220155346cce744329294a99df7ea5582a180552cca2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-saved-draft-template-cart-selected-20261011/original-getting-started-with-journeys-en.md",
+      "bytes": 6627,
+      "sha256": "86af4c39dadb0e9e31d1bac56ccedb7bec00dd64a172a29cf08ad86c3248f51b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-saved-draft-template-cart-selected-20261011/receipt.json",
+      "bytes": 10012,
+      "sha256": "8223c41aa9e3741aeec3f64a7b4a208d3c99fab22f56c3bf764b5b9b739473c4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-saved-draft-template-cart-selected-20261011/template-cart-selected-en-desktop.json",
+      "bytes": 1314,
+      "sha256": "b0ef204f4580f4bd13c25263daf006d112dc481ae19545b4012cd6a4a0275675"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-context-custom-saved-draft-template-cart-selected-20261011/template-cart-selected-en-mobile.json",
+      "bytes": 1311,
+      "sha256": "2d0eddc26df8c69749bdb2cf65d07aaec992a16199d42b32d18aea024a7d268d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-inactive-20261011/README.md",
+      "bytes": 1074,
+      "sha256": "703c8c73130db43d0788b75bf50184f42d38d2313a567c5f7f0acb43f0bc09af"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-inactive-20261011/custom-inactive-en-desktop.json",
+      "bytes": 1073,
+      "sha256": "2de2245d1eaad5ff17ac7a2a25086486eb904bdf5d403d8d2f3663a7ed82b691"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-inactive-20261011/custom-inactive-en-mobile.json",
+      "bytes": 1068,
+      "sha256": "8afae72631b128a11e4786573c1ef179802a73880711aa5b6c375c3a98c4fe7d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-inactive-20261011/integration.patch",
+      "bytes": 2969,
+      "sha256": "4dbf5afd94113e8a691207180188cb8affcadfbfe915dbdce6ed04bca070edba"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-inactive-20261011/manifest.json",
+      "bytes": 3243,
+      "sha256": "97c615a06643695794cd513621bf4029d1cd8dad39bec255baf82cb3e6bd2ba9"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-inactive-20261011/original-custom-journey-en.md",
+      "bytes": 14357,
+      "sha256": "29d66de7bcde09c109d76cc3a10c79c4469d22a7e75e08a66799d6122079ad64"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-inactive-20261011/original-getting-started-with-journeys-en.md",
+      "bytes": 10311,
+      "sha256": "bf842ac5fd8b8792abfcc665c4288a186cf36b7fcaf50045c8afe5d3965aab9c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-inactive-20261011/receipt.json",
+      "bytes": 12263,
+      "sha256": "caafd18b553feed94035fc1928c4e0e6f4636c2cc5740d7bdd8b7ce1420fe8c6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-inactive-20261011/root-acceptance.json",
+      "bytes": 1358,
+      "sha256": "9074446a39a7a2cdabba7c0d930b7c95d1190142acaba855a15825443e91e32a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/README.md",
+      "bytes": 1000,
+      "sha256": "d20c9a411396d97565ca7036b9756f22050d7790689aa870dd6877d53ab1f456"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/custom-condition-age-en-desktop.json",
+      "bytes": 1150,
+      "sha256": "294fcd5262f2cf0056b8fb118fa8695cfdc511c892e25d0b30d1da11bb10ff5e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/custom-condition-age-en-mobile.json",
+      "bytes": 1143,
+      "sha256": "78954e24d0ce8f8986c439b14ded26589092c56f083c89c66c207a4ab6fe9e6a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/custom-message-sms-en-desktop.json",
+      "bytes": 1439,
+      "sha256": "b6c3c4cb1004d4f3b64eab11daa0db50bd816edfc061f22adf104fb398103dc2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/custom-message-sms-en-mobile.json",
+      "bytes": 1432,
+      "sha256": "2e92e529164c94fe35fec2a96c617fdfcc41841aa8676bdba2e65677617abb85"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/custom-trigger-selected-en-desktop.json",
+      "bytes": 1213,
+      "sha256": "5a71d6db40e2443e1b235a6cbe162439cb616e719365ba2538d8eda70697da8b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/custom-trigger-selected-en-mobile.json",
+      "bytes": 1206,
+      "sha256": "f18096fecd5b2b2682ccac5e3e85eddc400682f9070b73c793529dd556bfe802"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/custom-trigger-selected-original-block.html",
+      "bytes": 1174,
+      "sha256": "b3191d161a276718e0958244ab5e585281f681561be42a3761b1f2b80b90f67b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/custom-wait-two-hours-en-desktop-compact.json",
+      "bytes": 1109,
+      "sha256": "90fd69db1c6cfa5f5532642d1bc0cf6e52d4fa3e6d801b52fb33ed97cb4413e3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/custom-wait-two-hours-en-mobile-compact.json",
+      "bytes": 1103,
+      "sha256": "9b54933286f62f9699d243203bd491ef892d447a46181aac67664f484c1bc3ba"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/independent-acceptance.json",
+      "bytes": 12618,
+      "sha256": "769122b32e024eeaae62b7e6c07d5fed159fc7cb5f7634bbdf04b63816c86d4f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/integration.patch",
+      "bytes": 6783,
+      "sha256": "cfcb747313a9977900fa2191cc73e3eebac08b2d1f5784a747f8d0574b6d491f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/manifest.json",
+      "bytes": 11886,
+      "sha256": "0f9f00c767984cb34724f3f0f15f40d77b4d71a82ba2aeeadb261e76e6db6c55"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/original-custom-journey-en.md",
+      "bytes": 3335,
+      "sha256": "bc7c2a5bedd05dc4a38041f5ba71333477531b3ebbdc66f55593c37dc3da3e95"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-trigger-selected-wait-two-hours-condition-age-message-sms-20261011/receipt.json",
+      "bytes": 8474,
+      "sha256": "c42c2fb25f266bb333f2b55db33559588fd619358ed86047d9d24784d8c3188d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-active-20261011/README.md",
+      "bytes": 1074,
+      "sha256": "703c8c73130db43d0788b75bf50184f42d38d2313a567c5f7f0acb43f0bc09af"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-active-20261011/custom-active-es-desktop.json",
+      "bytes": 1068,
+      "sha256": "e40f8d009947755681b81e81ecbc0dd7c712af419760a7e81371d7dd92ca4c00"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-active-20261011/custom-active-es-mobile.json",
+      "bytes": 1063,
+      "sha256": "67defaf26358c12d5c1cc485db4ab210e5ca70137f76bf1725e90a5bdbdfc33e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-active-20261011/integration.patch",
+      "bytes": 3244,
+      "sha256": "8d9f6f4c8890068b70062ff713f5c0815cc3e94e799701b4f4da2abc118a3bf4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-active-20261011/manifest.json",
+      "bytes": 3208,
+      "sha256": "4698fca755e3882c9db74ef216a5ffab1163a8652ae43c0285666524b0710238"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-active-20261011/original-custom-journey-es.md",
+      "bytes": 13654,
+      "sha256": "cd7682875a7572e3bef7f22c8ca38f314273f20173e15c3bb1cd8121077eb00c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-active-20261011/original-getting-started-with-journeys-es.md",
+      "bytes": 9655,
+      "sha256": "391d503cee8745da726610ab76ed87974e1bdc5516360be58fe0818c21d07546"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-active-20261011/receipt.json",
+      "bytes": 12556,
+      "sha256": "bb5d4756c55eb4081fbf84f7447c7976a27cc7892e89b1729e59b4ba8bac1a22"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-active-20261011/root-acceptance.json",
+      "bytes": 1357,
+      "sha256": "707f660a7675588404d235ec2b535801374a5f7da40f12154971510046132ec3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-assignment-20261010/README.md",
+      "bytes": 821,
+      "sha256": "36b0ed8d339a3242764892368afad36f67f72aff148036dc09cb51438369b72d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-assignment-20261010/custom-assignment-sofia-es-desktop.json",
+      "bytes": 961,
+      "sha256": "a325f743eb25662eb57701119a46708f3127ebd23be301f56bbeb434a0e47110"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-assignment-20261010/custom-assignment-sofia-es-mobile.json",
+      "bytes": 954,
+      "sha256": "3d5181da0339b234f68d8a64766296b078942bec0e9b0809ee2f41ba2baaefd2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-assignment-20261010/integration.patch",
+      "bytes": 1701,
+      "sha256": "1c0e5be5018cbbd3a67cab7d311cfe694769646e5a99d3322640b7771dbb028b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-assignment-20261010/manifest.json",
+      "bytes": 2775,
+      "sha256": "3981c9b64c977f2df7d3b011a97852d034b292ad29d8ed8c85acb6dd9f4d93cd"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-assignment-20261010/original-custom-journey-es.md",
+      "bytes": 7300,
+      "sha256": "a5e26e946b9a0a0ed0dc7a1778bf7d529fc1a24ab77912ede92f2b8f1bea17f1"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-assignment-20261010/receipt.json",
+      "bytes": 5103,
+      "sha256": "7737838b995cf7a4bd241bcfbdef979f8ba2500b27d28e1723238f825417d0b1"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-assignment-20261010/root-source-review.json",
+      "bytes": 1710,
+      "sha256": "215f1cb959c8ef518d00b89800fe00fab6c0cda7824cd88ceb1b7290c3a3fa13"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-canvas-20261011/README.md",
+      "bytes": 1065,
+      "sha256": "033a7549fe82fc157113bb30834c738da78253c5e17a303db0d0cac3eac7fcc1"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-canvas-20261011/custom-canvas-end-es-desktop-v2.json",
+      "bytes": 1040,
+      "sha256": "0af4b4ee47fb8df9fee1775fc3262f67536114c01970971d2877c33709e1b517"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-canvas-20261011/custom-canvas-end-es-mobile-v3.json",
+      "bytes": 1035,
+      "sha256": "7fad72c93ee42b960fdaaa6bb67e42b77e88beb2dff5161ed9e5924807474bd6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-canvas-20261011/custom-canvas-start-es-desktop-v2.json",
+      "bytes": 1047,
+      "sha256": "01d023907468db7ee0152530440f7e597713f8b66d6adece02f2b6918f922845"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-canvas-20261011/custom-canvas-start-es-mobile-v3.json",
+      "bytes": 1040,
+      "sha256": "31e9433d1f65f474380a021a360babe12923fe92a6afab18a605028b71ccdd3b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-canvas-20261011/integration.patch",
+      "bytes": 3152,
+      "sha256": "b7aa592e8414ab771ca1f502abf8f025586840bca9ef5efa672ef77ef7e390b7"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-canvas-20261011/manifest.json",
+      "bytes": 5712,
+      "sha256": "7d901777ab878e227f757e8bf35be9ff848445b3520cbf609f2f390f1fcae4e0"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-canvas-20261011/original-custom-journey-es.md",
+      "bytes": 10999,
+      "sha256": "ea6a9eb0ecf87862a70dcb22768b9e87527a7ca75725047a64065e82dfc91293"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-canvas-20261011/receipt.json",
+      "bytes": 7591,
+      "sha256": "8504f5f35ed9ddfed5efd6524da3dce629e3db7908e8b8710c5e61eff78846f7"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-canvas-20261011/root-acceptance.json",
+      "bytes": 2124,
+      "sha256": "d5c893ce453d0067c1a863b8b1538e9301f0fd6a6cb06ba00300091f5e1d9868"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-catalog-compact-20261010/README.md",
+      "bytes": 1243,
+      "sha256": "01ee83b06bdb26e93015637a49e242f1b4acff6bcd3626b1e0ad927da4c1d689"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-catalog-compact-20261010/catalog-builder-choice-es-desktop-compact.json",
+      "bytes": 954,
+      "sha256": "ac85dfb888e00cbc3847643b7bc90f63bb05e32d395b940864667d908d9c8d20"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-catalog-compact-20261010/catalog-builder-choice-es-mobile-compact.json",
+      "bytes": 948,
+      "sha256": "a1fde87594a24b08a61f327fb9e9439bcabc022181d0029dd30f8635401f200e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-catalog-compact-20261010/catalog-builder-choice-original-block.html",
+      "bytes": 1193,
+      "sha256": "df45cb922a33f0250cf2989249790d53f8d5dd76d255d5d7581f87abc874ad93"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-catalog-compact-20261010/catalog-route-vs-agent-es-desktop-compact-v2.json",
+      "bytes": 960,
+      "sha256": "0cf2db00d6a6c20f1fcde785cebc4654fdda5933af58fe2d55e9c6b2afd27c44"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-catalog-compact-20261010/catalog-route-vs-agent-es-mobile-compact.json",
+      "bytes": 947,
+      "sha256": "06d9ca7963cf0f2691dc8a486b5cb0b36df6161ccbfc29bb6a57c53729a4a47f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-catalog-compact-20261010/catalog-route-vs-agent-original-block.html",
+      "bytes": 1239,
+      "sha256": "e3e162443f1a4f8739abdad1a0e044920d6372dc3835677e16c76c6635a29aba"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-catalog-compact-20261010/integration.patch",
+      "bytes": 3667,
+      "sha256": "455aba13cb5a0e41b2427e31d15860ec642ee38b227c7b2dfbcb52b495ca449e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-catalog-compact-20261010/manifest.json",
+      "bytes": 5146,
+      "sha256": "864a39dd601f8670f716cc25cfe821d02c9ada37aa0bcae99045bcaa4ef7f7aa"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-catalog-compact-20261010/original-getting-started-with-journeys-es.md",
+      "bytes": 9585,
+      "sha256": "d5bf40f1b93dc59c41bc6a7c237781008b71dbac6d2c06d95a20d4e983a25c01"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-catalog-compact-20261010/receipt.json",
+      "bytes": 6865,
+      "sha256": "39a8bf9f996c72549a0e222bc814860b4446ad19f45d63996e11d066241c111f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-catalog-compact-20261010/root-acceptance.json",
+      "bytes": 1775,
+      "sha256": "33dadc13b1b482343c3dfcf8c2f37efc3a64317b4148ed34db8b9eb4ed20f0dc"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-condition-20261010/README.md",
+      "bytes": 783,
+      "sha256": "6752cd470e38afb02c3248abaa605c518b92e0de46c64a84a9477ceb6a413be9"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-condition-20261010/custom-condition-age-es-desktop.json",
+      "bytes": 923,
+      "sha256": "95a95d7117e5ee26fbb4765b67ac2dca54d469cde304fea3daced041d3a24d2e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-condition-20261010/custom-condition-age-es-mobile.json",
+      "bytes": 916,
+      "sha256": "26055ac2a53c22578d1c01955ebe057d49396b375cc56f5cc9673e830e2a48c9"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-condition-20261010/integration.patch",
+      "bytes": 1571,
+      "sha256": "d247c32e3816d68c1a2df6398366a6d664fe3dfe3b2c3b281c157fa61b2d46bd"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-condition-20261010/manifest.json",
+      "bytes": 2648,
+      "sha256": "2092757e693bab7e7364f68ead202cba9113c4232ffcd4fc75afde360075c45e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-condition-20261010/original-custom-journey-es.md",
+      "bytes": 4766,
+      "sha256": "1a02ae40373371fddbb4bae60a1564098558fcff5002fc72b87151d0c6fc63a0"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-condition-20261010/receipt.json",
+      "bytes": 5185,
+      "sha256": "4241ebe0e6e38ccf47a0174d8ba1661b77e146d1e8c677f52a7655aa82860d22"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-condition-20261010/root-source-review.json",
+      "bytes": 1596,
+      "sha256": "17bec37f51cc8aa68a0b43a5b3502f0475ce14647303b81f6b751390a60707e4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-condition-context-20261010/integration.patch",
+      "bytes": 545,
+      "sha256": "27444ad2d45e053df2f70fc37843dba0fd8d0b80a96dd47049793ed7e92ec5c3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-condition-context-20261010/original-custom-journey-es.md",
+      "bytes": 7235,
+      "sha256": "9349d0f3981333190944addb33153df0e05d76e02d89aec1f967e4e156635adc"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-condition-context-20261010/receipt.json",
+      "bytes": 975,
+      "sha256": "b98a9c994eee3423772c8043eac3490ab08f3a509547766e34ee0af3b4738e29"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-end-policy-20261010/README.md",
+      "bytes": 876,
+      "sha256": "1c2297de92e048e13a005230c7bdd4e78eb84799827eb76e9b11bb5d204da2fc"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-end-policy-20261010/custom-end-policy-es-desktop-v2.json",
+      "bytes": 953,
+      "sha256": "f436f5c5a6efa32db6584926136900e9657ab3c0b92b2d69f9096b9d1691159b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-end-policy-20261010/custom-end-policy-es-mobile.json",
+      "bytes": 940,
+      "sha256": "b7106a4a1610aa02438ca1983e48607c11f2a589de0055a42e3890cf40afe87a"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-end-policy-20261010/integration.patch",
+      "bytes": 1626,
+      "sha256": "9b65a568c1c14b4e2d7b5e0a93873f71876fbd60b217f256e893a7f916d2a3aa"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-end-policy-20261010/manifest.json",
+      "bytes": 2795,
+      "sha256": "c74200d3290182474f7ae35100fce5c20d15cbc320b55973820e6168b88c09c5"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-end-policy-20261010/original-custom-journey-es.md",
+      "bytes": 8553,
+      "sha256": "a713bb9202359ef3eadb581d995505e58dba3f0e370a6131b254e2d7423e1ff8"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-end-policy-20261010/receipt.json",
+      "bytes": 5494,
+      "sha256": "5736d501e0f5a117e48ce356559483a100b750586b909ffd82764e0823305ac5"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-end-policy-20261010/root-source-review.json",
+      "bytes": 1488,
+      "sha256": "a4063283e0039a16217cf695afee79a1bebe8b6aa17b1c2efc3be1c52e68d5d6"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-inactive-20261011/README.md",
+      "bytes": 1074,
+      "sha256": "703c8c73130db43d0788b75bf50184f42d38d2313a567c5f7f0acb43f0bc09af"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-inactive-20261011/custom-inactive-es-desktop.json",
+      "bytes": 1074,
+      "sha256": "e4e75cfe85fbbccb8726ac458b8aa28f3cadd9cd40f3a1de0560fd5ea6082420"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-inactive-20261011/custom-inactive-es-mobile.json",
+      "bytes": 1069,
+      "sha256": "3208462eb0d1cc61d96fd402bbea6ef6480fcc757eaac9cf6d4ed7284f53d205"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-inactive-20261011/integration.patch",
+      "bytes": 3013,
+      "sha256": "55cd09faee07279e6c40e5f686634cc7314f6ae85da805212880bf2661dc3086"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-inactive-20261011/manifest.json",
+      "bytes": 3240,
+      "sha256": "d64f066894ea83d46d7db7a4e3ae51fa8ccca7b195143bb4244e02ea8b56418b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-inactive-20261011/original-custom-journey-es.md",
+      "bytes": 14820,
+      "sha256": "243566f6c3c6e099f0e33a50fdd9ca5e13d5b131740adf3b7dd05334b65e2dad"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-inactive-20261011/original-getting-started-with-journeys-es.md",
+      "bytes": 10821,
+      "sha256": "fc803253d5659421c43d45594cad4bce2647218fa93f9b047c0eb6adfbd0c63c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-inactive-20261011/receipt.json",
+      "bytes": 12857,
+      "sha256": "36f78373d1eee1fe343c3781b8d2ab1155e0f9ff615d8fa0e3baebaef4c50d71"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-inactive-20261011/root-acceptance.json",
+      "bytes": 1389,
+      "sha256": "0427fa053ae0902bc000e26faa5a2a7f454c5f263a8259ee5442479360215e8d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-message-20261010/README.md",
+      "bytes": 923,
+      "sha256": "86b66426d937a1f8d4fb4d4ec04e75fc4de75c5e67c2142df4e4634997b2acd2"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-message-20261010/custom-message-sms-es-desktop.json",
+      "bytes": 974,
+      "sha256": "e54c33797899d908e16df04b2f685f6088e740f0e3d5c39eb308752510cd8d2d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-message-20261010/custom-message-sms-es-mobile.json",
+      "bytes": 1110,
+      "sha256": "4c68bf5a79b4305f8037bc50120d614777a9c7503e80d137cb1486f45d6e81ab"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-message-20261010/integration.patch",
+      "bytes": 1563,
+      "sha256": "1905c234dd5142c26a62bef463862a2a564df5f53c20b0b75fc6d4aa3914eb3f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-message-20261010/manifest.json",
+      "bytes": 2910,
+      "sha256": "5736cdd55af555ad11e9d48c50ba4dd1b48f53e3ac5526431cccebad6a941319"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-message-20261010/original-custom-journey-es.md",
+      "bytes": 6010,
+      "sha256": "b5dbfaaa677c96383c20da32f9ddcae2659457485052757f46f47694afe6be26"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-message-20261010/receipt.json",
+      "bytes": 4818,
+      "sha256": "66771ff41d197e83f2d1b8214c0e3c5f830b09a78ebd988b963c48b758220633"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-message-20261010/root-source-review.json",
+      "bytes": 1748,
+      "sha256": "07dcdc13ff67b9e5c786dd7a55a2f579db5c22755e65feeef46c77e2f225955c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-saved-draft-20261010/README.md",
+      "bytes": 1045,
+      "sha256": "e78f9b70c39c47de5488e7fb1dd0e1cd807a74b50094903af0e6c068745351a3"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-saved-draft-20261010/custom-saved-draft-es-desktop-v2.json",
+      "bytes": 924,
+      "sha256": "622256d610f8d791d979ec93c4616230714f310e846abd0ff7c1fc279948b5f4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-saved-draft-20261010/custom-saved-draft-es-mobile.json",
+      "bytes": 913,
+      "sha256": "7e426b69f066d7f614d4cfeff886bdf439f7cf8dc0bcb6c87a3bf221e687e232"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-saved-draft-20261010/integration.patch",
+      "bytes": 3272,
+      "sha256": "38be14e1e55310808371a0cb6e4f003a37be33863be57619542bbd02afe2ceb0"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-saved-draft-20261010/manifest.json",
+      "bytes": 2881,
+      "sha256": "903a2ae85d2320447a1e567c96fbbd2209989746a312665cde617121800e4b98"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-saved-draft-20261010/original-custom-journey.md",
+      "bytes": 9795,
+      "sha256": "288437f94f86749d2fcd2d1f2e32ecf70eb35e2757e84281d2d8a9fceb890435"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-saved-draft-20261010/original-getting-started-with-journeys.md",
+      "bytes": 7088,
+      "sha256": "064969ac16cde65ececa424c5f21e381ec86a1b45654012362aaac864be69d3c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-saved-draft-20261010/receipt.json",
+      "bytes": 6252,
+      "sha256": "546144e68dac9dc0bd5e2319e72ac6a342a6b93e8c37453064e7337485d7f666"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-saved-draft-20261010/root-acceptance.json",
+      "bytes": 1190,
+      "sha256": "a8393020a1cf5bea19a089311db735124ae36e2fd0191c3137faa4ae5ef343be"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-template-20261010/README.md",
+      "bytes": 1012,
+      "sha256": "4bdc9a2fdf114fd11ed75db953f627a53d2caefd58aa2f49beecc19bd2998724"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-template-20261010/integration.patch",
+      "bytes": 1838,
+      "sha256": "f02948e54b08313f2a1ef11a276c88444ae92027b4a1b6f4b3f593fed32df31d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-template-20261010/manifest.json",
+      "bytes": 2930,
+      "sha256": "14a4be8028bdafad73d433c1839e1744bc98f765465ee12830a1c56e13bfb54c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-template-20261010/original-getting-started-with-journeys-es.md",
+      "bytes": 8292,
+      "sha256": "e1a9585019e377e35446ecb114c1a46388407a21e314a80f7195079b9a41a92f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-template-20261010/receipt.json",
+      "bytes": 6182,
+      "sha256": "b9fd14c3a94f7929829a1d71a7af612adf5801f8fce37dcf832c5f0294ef993d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-template-20261010/root-acceptance.json",
+      "bytes": 1344,
+      "sha256": "92213e3000a10343901d48e249734d9d564036442cfd4daab33c9fe7b4a9ae8d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-template-20261010/template-cart-selected-es-desktop.json",
+      "bytes": 935,
+      "sha256": "ded030dc816c6eb6536c77e82f219e3dcc26bd75f0c13afa3db5639c09c2e483"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-template-20261010/template-cart-selected-es-mobile.json",
+      "bytes": 932,
+      "sha256": "1edbc06556be310d817af6cab37edf01c494d3c51622ee899eaff176fe6e893f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-trigger-wait-20261010/README.md",
+      "bytes": 1376,
+      "sha256": "c27c6127053ba3472b71ff62395d0bb6a84417cd8f7f6b4b39b4f4d5d001557d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-trigger-wait-20261010/custom-trigger-selected-es-desktop.json",
+      "bytes": 1158,
+      "sha256": "1420e557b52b53a56981efbe6214fea318e94324b11132254f1b2069e6483ccc"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-trigger-wait-20261010/custom-trigger-selected-es-mobile.json",
+      "bytes": 1151,
+      "sha256": "6972b0268ca2b5460ac3fd06afb1b3f43b968ecb2a47e222283a7ddfffabe20b"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-trigger-wait-20261010/custom-wait-two-hours-es-desktop-compact.json",
+      "bytes": 1146,
+      "sha256": "1d0eff398a636e25fea15727489e04d8161a8906cfda86c2649132c5949f976c"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-trigger-wait-20261010/custom-wait-two-hours-es-mobile-compact.json",
+      "bytes": 1140,
+      "sha256": "85726cce522f430650881d926674924e93ee49252541820c5e6ca3beb69413c0"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-trigger-wait-20261010/integration.patch",
+      "bytes": 4385,
+      "sha256": "67c4e53b640e898f1eb9fcf0f7fb3ae4f1c195ff964aa18000749d7d9aa2a15f"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-trigger-wait-20261010/manifest.json",
+      "bytes": 5471,
+      "sha256": "dcf4f69196feb38b73f7b68dd0e942bbf944042bf5c4a4153aa15b27750bf51e"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-trigger-wait-20261010/original-custom-journey-es.md",
+      "bytes": 3565,
+      "sha256": "2fb404d6c5ff4eba66e68c54999fedb85cbc4e657ab927c7e19680dfa1f83b12"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-trigger-wait-20261010/previous-journey-trigger-menu-es.html",
+      "bytes": 1197,
+      "sha256": "08fc9b2eaace7f541078fb235cc8794a3e4131d67f79213641df54ce69399d00"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/integration-es-trigger-wait-20261010/receipt.json",
+      "bytes": 4715,
+      "sha256": "dbba61bdd85e942448710fdf9afff351a5cf84b1af18cf8b9029b09eacd462e1"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/lifecycle-semantic-evidence/action-routes_inactive_en_edf2e252850e37a0427a67af-semantic-review.json",
+      "bytes": 1966,
+      "sha256": "e541e623c237632baa9fad1b5e349dad5e123b51819cbd48e0f1088d300007e4"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/lifecycle-semantic-evidence/action-routes_inactive_es_24ef51d8fd052e2ef5f5425b-semantic-review.json",
+      "bytes": 1966,
+      "sha256": "c5f363e158d335f5651fbefa55cc2b575a9a983a32cfc98ebc44832785361294"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/lifecycle-semantic-evidence/action-routes_publish_en_de355bda1f7480e66d835855-semantic-review.json",
+      "bytes": 1964,
+      "sha256": "15b84f67af31f18e3cf6c0855b6609dffc664f39ed51e7d0d24a4116fe7d9036"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/lifecycle-semantic-evidence/action-routes_publish_es_28acafc83e98301e11f8fc72-semantic-review.json",
+      "bytes": 1964,
+      "sha256": "5e844a3477b5ff7dee12219f9612c1ea90d82dafa77e750b68b5fdf8f052061d"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/lifecycle-semantic-evidence/action-routes_save_es_add9b8e8da7b4e78db2a80ea-semantic-review.json",
+      "bytes": 2046,
+      "sha256": "a056fbf21b52c37ef07c56c4acc2ad96f32d3618b430dd0b804fcd4bc6103e25"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/lifecycle-semantic-evidence/native-lifecycle-final-summary.json",
+      "bytes": 6010,
+      "sha256": "5d49f900e01bbb9cc08985b6b142ce0e2a944a13e1667828d6f7fdfd14bb16e0"
+    },
+    {
+      "path": "docs/editorial-work/captures/journeys-workflow-local-20261010/lifecycle-semantic-evidence/runtime-shutdown-summary.json",
+      "bytes": 1375,
+      "sha256": "a0d5a9ba8d60f0de56541396bd0b09a64a4f9974a64955bea484e39a7980d500"
+    },
+    {
+      "path": "docs/editorial-work/custom-journey.md",
+      "bytes": 4295,
+      "sha256": "a79162e1c43f156abf84423444791ba00a92768fb80146e3f862373ae3e3a136"
+    },
+    {
+      "path": "docs/editorial-work/getting-started-with-journeys.md",
+      "bytes": 4083,
+      "sha256": "5d48017f8ed546f69769e598a8184ffb9dbe92240ce0a9cf77e4fd470e6fb852"
+    },
+    {
+      "path": "docs/editorial-work/progress.csv",
+      "bytes": 18016,
+      "sha256": "afedaf9372c09806d76483b325304b9284aeca138bba3e10954b073ba077e18c"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-builder-choice-en-desktop.png",
+      "bytes": 519951,
+      "sha256": "564cbc065809555bb9a2b4f500e8700407dd1417ddf743e1e768a6743e02502e"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-builder-choice-en-mobile.png",
+      "bytes": 313437,
+      "sha256": "67075cd9e52b089412ca184675f123e37b7d617f7de16c8b7fdfc106e032e9e2"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-builder-choice-es-desktop.png",
+      "bytes": 556237,
+      "sha256": "345bda0516550574d36aad75f73032c6737b324ebefabcb4853eeb2451b179ac"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-builder-choice-es-mobile.png",
+      "bytes": 347161,
+      "sha256": "16fe9d232203a852a42b511ef93109616cb2fb3e5a1f1a0695c34d754afd6984"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-desktop.png",
+      "bytes": 628147,
+      "sha256": "e6914c42a864e9e04ed9032a3b1ebd0dac964b75b8dfeaabe7ca77cf2a150294"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-mobile.png",
+      "bytes": 345521,
+      "sha256": "58df8a2f574017be737a899f3f01a48e9a239b05b9266db6ae41ff110694823c"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-desktop.png",
+      "bytes": 676849,
+      "sha256": "94c81e4ca9401ecb4d3e766bd2bbe81f69331dcfa46b58f786e9315a0df7d89e"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-mobile.png",
+      "bytes": 368548,
+      "sha256": "d6d2170a478446e2f999fbca07000deb9e0a9c7df61df4449c441567dff4bd6b"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/journey-trigger-menu-en-desktop.png",
+      "bytes": 475907,
+      "sha256": "2d59cf1d794f3411d4c745523532f39b102362279127f6dda79cb66adaf6b668"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/journey-trigger-menu-en-mobile.png",
+      "bytes": 218235,
+      "sha256": "eaf738a3ac917d891e90001d84e2e9cea68919199fa3097cff7577436b466e18"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/journey-trigger-menu-es-desktop.png",
+      "bytes": 472709,
+      "sha256": "dfe9bc526dfa1a6b454c6252c86f3abab0be7ba8417a22b15438a1a1690c1e1d"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/journey-trigger-menu-es-mobile.png",
+      "bytes": 231923,
+      "sha256": "e6a798310618be12b423f4b498e1380c791b3d3d51744977b9aa4c5ed303fc79"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-desktop-compact.png",
+      "bytes": 127900,
+      "sha256": "4311e0a61ce56f510ddb10b04030642759738932b9f68b2dc3a529cb8b71878c"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-mobile-compact.png",
+      "bytes": 132946,
+      "sha256": "026c43c6058a5c82f9a483f117ed281c36039290be6ce0b177ba7d182d9aa8f9"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-desktop-compact.png",
+      "bytes": 138635,
+      "sha256": "74c43ec93e6098c5903f9e5ade6d3f6215d4125da855c24decf54509721710f6"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-mobile-compact.png",
+      "bytes": 144783,
+      "sha256": "3cc12360eca02e970d1df91988b4fc089f10413ed3cd79beef697285d35062e4"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-desktop-compact.png",
+      "bytes": 142749,
+      "sha256": "d12ee04566193f2b6a63eb056c45c862691934ec81ffaf2799d506f10f6d79b4"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-mobile-compact.png",
+      "bytes": 131897,
+      "sha256": "8c2ba8428329e7e2e98adfceb3ceeccd4e1a7dc32f88388f034f55be145b8e37"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-desktop-compact-v2.png",
+      "bytes": 175765,
+      "sha256": "222ce8939e512686e30da7c8efc01caa175c649e03cb19216b80cb784cdfd210"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-mobile-compact.png",
+      "bytes": 152273,
+      "sha256": "586ac88d21871db6df4cb2d25c38467d003d9836f3da859d39dbdc541d27ddb8"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-active-en-desktop.png",
+      "bytes": 70028,
+      "sha256": "1782de5bff08c5e19b47a4706454e86d67445ba5744e3acc3f70b22d0ffd84d2"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-active-en-mobile.png",
+      "bytes": 70290,
+      "sha256": "e4f482a59c0639415df68dbddb3c33693bdbf3d8ef647d28e77a4271746d591b"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-active-es-desktop.png",
+      "bytes": 75622,
+      "sha256": "c0032858a5693a3fdf4b54dd06887cdbdd60f43fc76ec009cbb9f4b700754666"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-active-es-mobile.png",
+      "bytes": 76973,
+      "sha256": "6474c629d09a8bb5686ca23d78c3b7d31b9396c5580efe4404fc3e9caad62d17"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-assignment-sofia-en-desktop.png",
+      "bytes": 97909,
+      "sha256": "5a15952eab8f8644be1cd8223bad07a6eb6590afa4673c53afd9bb2742a8f48f"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-assignment-sofia-en-mobile.png",
+      "bytes": 94465,
+      "sha256": "3d4a29b7627f9f8262f803f23714df99b2caf57d5e4057d8b11ebf6c5ceed51e"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-desktop.png",
+      "bytes": 99018,
+      "sha256": "7e6c6b4db5b37319696f24fcedeffb7c6295f391409a0a4326ed372a6a43c972"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-mobile.png",
+      "bytes": 96546,
+      "sha256": "2ae18d338eb1d60f8b15e6a72a8647edae861a22a21b711f5c8ac179c92faa18"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-canvas-end-en-desktop.png",
+      "bytes": 119370,
+      "sha256": "ae321079c6af283e9441c4aa4bc430c35a57da72695be30329cc3d93570467e9"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-canvas-end-en-mobile.png",
+      "bytes": 114900,
+      "sha256": "962f31eca2054ed7935d074b867809189d0f15e93d1597ef7e3577b026045ff9"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-canvas-end-es-desktop-v2.png",
+      "bytes": 114003,
+      "sha256": "96216710b1987a5ea87583983833a3fda1281b7b7b56fb7b34186882674fc13b"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-canvas-end-es-mobile-v3.png",
+      "bytes": 115502,
+      "sha256": "3a95c450aae3b5ceac5fabcc51d54049500e00fe343688ce00e9129994a252f5"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-canvas-start-en-desktop.png",
+      "bytes": 89902,
+      "sha256": "e5325efc3ebec13b7136df9e1dc5f9cc7690846f9a121716e79cad2e74d01f26"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-canvas-start-en-mobile.png",
+      "bytes": 91783,
+      "sha256": "c1797d51edd6036834f813960ba83d7ef482e3824695984d00e4330186937378"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-canvas-start-es-desktop-v2.png",
+      "bytes": 90027,
+      "sha256": "2d9a53ba77d6f3e3b1257bbed02a5281562070d8e270b72f89881321a5d56b6a"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-canvas-start-es-mobile-v3.png",
+      "bytes": 95231,
+      "sha256": "d6eb8629e7323c62532d19557d034caed157eef51238b6da667ff73ff2f20597"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-condition-age-en-desktop.png",
+      "bytes": 130640,
+      "sha256": "cfe6be1313ee676700092abde0f66c60f0ad9243481a2e5dd2cbca637f605c46"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-condition-age-en-mobile.png",
+      "bytes": 120242,
+      "sha256": "d5e8bf2842384166477fa509cf185c3dc6f2af537cd5eb1a97f44aa201557963"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-condition-age-es-desktop.png",
+      "bytes": 140106,
+      "sha256": "3101b29b647c02c65f521a75771bca87cd3a9b5516ebbcaec374c3029d027769"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-condition-age-es-mobile.png",
+      "bytes": 132851,
+      "sha256": "e6443caf946cb59832b804ccf2673712b4815bdf2f2d403ddbf8c5e8fd3a04cb"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-end-policy-en-desktop.png",
+      "bytes": 79690,
+      "sha256": "5d954e393a59c70d5e1c770631307338a04eb76c50f94fe4d26f874ca3934d39"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-end-policy-en-mobile.png",
+      "bytes": 77872,
+      "sha256": "82bab21295ddda4278254bdbe86064313dc6997c14b2b5f5b8616e1ff61dcf8c"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-end-policy-es-desktop-v2.png",
+      "bytes": 75484,
+      "sha256": "1ebb6c8ed489940e1c103a160f16d35c8a4cca27ecacb34af54b6bdcd89db511"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-end-policy-es-mobile.png",
+      "bytes": 73488,
+      "sha256": "ee424c870bd87a9cec418b82d7540707fd110ba0cf2e2af58b4efc9428bf6ddc"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png",
+      "bytes": 71343,
+      "sha256": "23f239716dc20dae6fe8ca0737c8b4b6f98d838677c18c2dc011efaf99fd2700"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-inactive-en-mobile.png",
+      "bytes": 71659,
+      "sha256": "d8c930026245e2854f78dc3deff5d55e9edadb5e13f5e22195e9c23c450056ba"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-inactive-es-desktop.png",
+      "bytes": 76634,
+      "sha256": "2cc1ce44f02a075115815e64485cafa544a71af10f3021679e559a681895e7d5"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-inactive-es-mobile.png",
+      "bytes": 77918,
+      "sha256": "a06860117181baeba8e11ca80f000852577761b7618851ecf0d4050635075bf0"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-message-sms-en-desktop.png",
+      "bytes": 212895,
+      "sha256": "efc08a36673731a509a3a328379d97241037b1c0e644c8fb76fc02037701c34e"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-message-sms-en-mobile.png",
+      "bytes": 199566,
+      "sha256": "403eb0922683d0173d151a3df860286cfd786f3a6d5b0069f9823401d6689a60"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-message-sms-es-desktop.png",
+      "bytes": 208913,
+      "sha256": "4b3479b775a5f50f073beee26c83d15d5af62e68e9ce92273ffc2d949be7a348"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-message-sms-es-mobile.png",
+      "bytes": 199679,
+      "sha256": "d9cac0b5cc16141be9287db3fe68aad4be45f861dd5a546cf465259671e6de87"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png",
+      "bytes": 67852,
+      "sha256": "5084c16b5c374e4275b1c954f3ebbe1595ee86b2dba83480ccafe9b3fd745e8d"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-saved-draft-en-mobile.png",
+      "bytes": 68233,
+      "sha256": "dcfe4883d72fd9f02421ebd7fea27f619915080a6d39db5f4fa51d903a3b8e7f"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-saved-draft-es-desktop-v2.png",
+      "bytes": 76367,
+      "sha256": "05338eda075acef734e13d539ddaabeab013c85a3e58a83c528eb17061441646"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png",
+      "bytes": 77683,
+      "sha256": "3529b6f44033019d7fbf3606fdad64a45f5373f3f6c086a0c1a39f00bc7e80b6"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-trigger-selected-en-desktop.png",
+      "bytes": 166348,
+      "sha256": "5e20b6b79465457274449daef048de4e7a866e3d515b9200bac89c6162a119a7"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-trigger-selected-en-mobile.png",
+      "bytes": 159578,
+      "sha256": "cd270caa11a9193787e198a5843240697fb31680511f70f2c33c123cec2f00c7"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-desktop.png",
+      "bytes": 170771,
+      "sha256": "b2416dd0e393cff02ba41e31fab2d080af09a09045f803230f61ba7b9419634a"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-mobile.png",
+      "bytes": 162832,
+      "sha256": "408da8bff8d16a0caa25787a592598b8767682ad817ee92ccab1faba35c4ee5c"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-wait-two-hours-en-desktop-compact.png",
+      "bytes": 49550,
+      "sha256": "0e8540e7ddbd8d3fb7e49a44179a04e6cb30b1e3aa00310b426bc1e914786717"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-wait-two-hours-en-mobile-compact.png",
+      "bytes": 45817,
+      "sha256": "c6c95c01d7d032ee61f0eae9719dd35dd5b0f77ee619d17ef009e75ed6c51e46"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-desktop-compact.png",
+      "bytes": 59767,
+      "sha256": "89521c8608b3537506884f7d41520dcc7ac7dc89e3b6e467ddf80713368e16c3"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-mobile-compact.png",
+      "bytes": 60603,
+      "sha256": "13ae161069052d447ce7e27695be93e456e06efeef3f4cac4fe2b5844d443fd7"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/template-cart-selected-en-desktop.png",
+      "bytes": 221013,
+      "sha256": "20927f6314f117eb6e80f7d7cee9143221871526b91ab25f30f5925d4c60e395"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/template-cart-selected-en-mobile.png",
+      "bytes": 63824,
+      "sha256": "1bfc749bd561c36e9febc96a974776cae3a6b2b5c9ac064598a6a7a9385008a4"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/template-cart-selected-es-desktop.png",
+      "bytes": 214440,
+      "sha256": "da86b6d52f5d3798210eca8ac3b69bfb75f3c5f70a1529b4b3ec118a9f183109"
+    },
+    {
+      "path": "images/editorial/journeys-workflow-20261010/template-cart-selected-es-mobile.png",
+      "bytes": 64419,
+      "sha256": "f2ebb99b499a6286572202edf4f54ff364bf1f427900a6bde8458472bb17890d"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "status": "static_source_preparation_at_recorded_time; not a runtime or pixel acceptance",
+  "origin_record": "capture-readiness.json (independent local audit)",
+  "origin_sha256": "72840b2fbb4d0ebbd8ac24ddd2e8745b9649160bccb674ad9ee8270feeb3454a",
+  "recorded_at": "2026-10-10T19:49:03.429479+00:00",
+  "runtime_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "comparison_revision": "4eece183a68b1bf3d480ff403e0f39eca4be507d",
+  "scoped_paths_checked": 81,
+  "identical_paths": 79,
+  "changed_paths": [
+    "app/controllers/application_controller.rb",
+    "config/routes.rb"
+  ],
+  "assessment": "All81 inspected local files match current master except ApplicationController and routes. Routes changes are unrelated. Added InstallationRegistration methods are not called by these actions; Hotjar excludes authenticated loopback Journeys. New public-site UTM consent branch does not apply. Scope is these static screens, not global deploy parity.",
+  "sources": {
+    "catalog_controller": {
+      "path": "app/controllers/journeys_controller.rb",
+      "line": 39,
+      "sha256": "7cc88f2596b81f7755ef9ae49430e60fe8b6e007c91bdf7733ef0ab695216764"
+    },
+    "in_memory_factory": {
+      "path": "app/models/journey_template/factory.rb",
+      "line": 7,
+      "sha256": "4e70059d4b58beed5d3a789bf049a817aec780b8132da9cba0a5c4dff3081f30"
+    },
+    "catalog_sections": {
+      "path": "app/helpers/journeys_helper.rb",
+      "line": 282,
+      "sha256": "10ba9413a4d048e857771608c3e145b69a75971d7b11c833a680f688050def03"
+    },
+    "new_canvas": {
+      "path": "app/views/journeys/new.html.erb",
+      "line": 8,
+      "sha256": "899b1f979b9511acd0ac5243c21628e0b9cc7e370d827fbab5cc89243b2cd5f5"
+    },
+    "trigger_pane": {
+      "path": "app/views/journeys/partials/editor/_select_trigger_pane.html.erb",
+      "line": 1,
+      "sha256": "01f1ba995d4aeeb9b1233cfe29c710f06b21b949554bfa2d58849d7c66caf0ba"
+    },
+    "trigger_options": {
+      "path": "app/views/automation/triggers/_trigger.html.erb",
+      "line": 38,
+      "sha256": "826bf458175733573a330c0f551bf03a39c70ad9dde4d472c6553461e609bddc"
+    },
+    "trigger_change_request": {
+      "path": "app/javascript/controllers/automation/trigger_controller.js",
+      "line": 68,
+      "sha256": "48d05e81ec2759605aadc5634239c3bc7b1c9d1faae8f45682c35bc6874294ee"
+    },
+    "persisted_edit_repair": {
+      "path": "app/controllers/journeys_controller.rb",
+      "line": 68,
+      "sha256": "7cc88f2596b81f7755ef9ae49430e60fe8b6e007c91bdf7733ef0ab695216764"
+    },
+    "steps_get_repair": {
+      "path": "app/controllers/steps_controller.rb",
+      "line": 13,
+      "sha256": "d97b25f8755beb39d52876a40a295ab0e6a5e3808b20d631d71c39baea0e34eb"
+    },
+    "topology_update": {
+      "path": "app/models/journey/editor/topology_repair.rb",
+      "line": 48,
+      "sha256": "4a9f3794dd2ccc1a8e2b8529c7e08c17c912fcb2adfb188296809c4ccb3b02d4"
+    },
+    "locale_source": {
+      "path": "app/controllers/application_controller/switches_locale.rb",
+      "line": 10,
+      "sha256": "beea4c25c03ffeffa661d64cad25d0a8c813a2de3f6ea338d5de3f33ed6c4d58"
+    }
+  },
+  "limits": [
+    "Catalog and an unsaved in-memory new editor only.",
+    "No trigger option selection/confirmation, step editing, Save, Publish or activation.",
+    "Persisted edit/steps routes are excluded because topology repair can write.",
+    "No claim of deployed revision or global runtime/frontend equivalence.",
+    "No new runtime results or screenshot acceptance are recorded here."
+  ]
+}

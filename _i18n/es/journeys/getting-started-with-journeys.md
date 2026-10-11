@@ -19,6 +19,20 @@ Buenos casos para una ruta:
 
 Un carrito abandonado puede existir de más de una forma: como [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) con pasos fijos, o como una misión con IA que decide de forma más dinámica usando señales y contexto del cliente.
 
+<!-- journeys-entry:catalog-route-vs-agent:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="catalog-route-vs-agent" aria-label="Distingue las dos opciones de carrito">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 834px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-mobile-compact.png 4x" width="1560" height="1632" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-desktop-compact-v2.png" srcset="/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-desktop-compact-v2.png 4x" width="3264" height="1120" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Catálogo de Hellotext con las tarjetas Recuperador de Carritos y Recuperador de Carritos con IA." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Las dos tarjetas del catálogo permiten distinguir una ruta de carrito de la misión con IA.</figcaption>
+</figure>
+<!-- journeys-entry:catalog-route-vs-agent:end -->
+
 Sigue leyendo: [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) y [Carrito abandonado: plantilla de ruta vs misión con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## Cuándo usar otro tipo de misión
@@ -50,7 +64,35 @@ Usa una plantilla de ruta cuando quieres lanzar rápidamente un flujo paso a pas
 
 Para crear una, ve al área de automatización en Hellotext, elige una plantilla de ruta, revisa el disparador y los pasos, y ajusta el texto, tiempos, canal, condiciones y reglas de derivación antes de publicar.
 
+<!-- journeys-workflow:template-cart-selected:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="template-cart-selected" aria-label="Fragmento inicial de una plantilla de ruta">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 818px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/template-cart-selected-es-mobile.png 4x" width="1560" height="2200" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/template-cart-selected-es-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/template-cart-selected-es-desktop.png 4x" width="3200" height="2320" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fragmento inicial de una plantilla en el editor de rutas, con el comienzo conectado a un paso de espera de 2 horas." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Inicio de la plantilla Salvador de Carrito #1, con una espera de dos horas conectada al comienzo de la ruta.</figcaption>
+</figure>
+<!-- journeys-workflow:template-cart-selected:end -->
+
 Si ninguna plantilla se ajusta a lo que necesitas, crea una [ruta personalizada]({% link _journeys/custom-journey.md %}).
+
+<!-- journeys-entry:catalog-builder-choice:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="catalog-builder-choice" aria-label="Localiza el constructor de rutas">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 834px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-mobile-compact.png 4x" width="1560" height="1632" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-desktop-compact.png" srcset="/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-desktop-compact.png 4x" width="3264" height="1120" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Catálogo de Hellotext con las opciones Creador de Rutas y Agente personalizado." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Creador de Rutas es la entrada para diseñar una ruta personalizada.</figcaption>
+</figure>
+<!-- journeys-entry:catalog-builder-choice:end -->
 
 ## Revisa antes de publicar
 
@@ -65,9 +107,53 @@ Antes de publicar, verifica que:
 - Los links, cupones y etiquetas de personalización funcionen.
 - Cualquier derivación a un equipo humano sea clara.
 
-Haz clic en **Guardar cambios** mientras trabajas. La ruta permanece inactiva hasta que la publiques.
+Haz clic en **Guardar** mientras trabajas. Al guardar una ruta nueva sin publicarla, queda como borrador. Guardar cambios en una ruta ya activa no la desactiva.
 
-Cuando esté lista, haz clic en **Publicar**. Para detenerla más adelante, desactívala.
+<!-- journeys-workflow:custom-saved-draft:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-saved-draft" aria-label="Ruta ficticia guardada como borrador">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 432px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png 4x" width="1560" height="1028" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-desktop-v2.png" srcset="/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-desktop-v2.png 4x" width="1656" height="952" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Listado de rutas con Borradores seleccionado y la ruta ficticia guardada con el disparador Visitó un producto." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">La ruta ficticia guardada aparece en Borradores.</figcaption>
+</figure>
+<!-- journeys-workflow:custom-saved-draft:end -->
+
+Cuando esté lista, haz clic en **Publicar**.
+
+<!-- journeys-workflow:custom-active:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-active" aria-label="Ruta ficticia publicada en Activas">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 432px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-active-es-mobile.png 4x" width="1560" height="1028" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-active-es-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/custom-active-es-desktop.png 4x" width="1656" height="952" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Listado de rutas con Activas seleccionado y la ruta ficticia con su disparador Visitó un producto." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">La ruta ficticia aparece en Activas después de publicarla.</figcaption>
+</figure>
+<!-- journeys-workflow:custom-active:end -->
+
+Para dejar una ruta activa en estado inactivo, haz clic en **Desactivar**.
+
+<!-- journeys-workflow:custom-inactive:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-inactive" aria-label="Ruta ficticia en Inactivas">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 432px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-inactive-es-mobile.png 4x" width="1560" height="1028" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-inactive-es-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/custom-inactive-es-desktop.png 4x" width="1656" height="952" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Listado de rutas con Inactivas seleccionado y la ruta ficticia con su disparador Visitó un producto." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">La misma ruta ficticia aparece en Inactivas después de elegir Desactivar.</figcaption>
+</figure>
+<!-- journeys-workflow:custom-inactive:end -->
 
 ## Próximos pasos
 

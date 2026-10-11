@@ -1,0 +1,3256 @@
+{
+  "started_at": "2026-10-10T22:38:59.554Z",
+  "status": "native_capture_and_geometry_passed_pixel_review_pending",
+  "checkpoint_sha256": "0c3bd040cb1fa16b8d89a31e9bc6457b9bd928590c6d79c8afda302f25f05e13",
+  "capture_route": "Native Chrome Page.captureScreenshot PNG, Display P3 D65, DPR 2; no post-processing",
+  "origin": "http://127.0.0.1:4306",
+  "browser_pid": 49926,
+  "server_pid": 49925,
+  "views": [
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "064969ac16cde65ececa424c5f21e381ec86a1b45654012362aaac864be69d3c",
+      "built_html": "_site/es/primeros-pasos-con-rutas.html",
+      "built_html_sha256": "6b87548ce745da0f8dfd03d3f4f8f245f039ad9a7c232c44b172d9e62f86852d",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+        "title": "Primeros pasos con rutas | Hellotext",
+        "locale": "es",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 1440,
+        "documentHeight": 4582,
+        "article": {
+          "x": 375.9921875,
+          "y": 563.828125,
+          "width": 774.4140625,
+          "height": 3581.015625,
+          "right": 1150.40625,
+          "bottom": 4144.84375
+        },
+        "headings": [
+          "Cuándo usar una rutaEnlace copiado",
+          "Cuándo usar otro tipo de misiónEnlace copiado",
+          "Cómo funcionan las rutasEnlace copiado",
+          "Empieza desde una plantilla de rutaEnlace copiado",
+          "Revisa antes de publicarEnlace copiado",
+          "Próximos pasosEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 375.9921875,
+              "y": 1285.828125,
+              "width": 774.4140625,
+              "height": 512.5078125,
+              "right": 1150.40625,
+              "bottom": 1798.3359375
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 1285.828125,
+              "width": 774.4140625,
+              "height": 512.5078125,
+              "right": 1150.40625,
+              "bottom": 1798.3359375
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 1314.828125,
+              "width": 716.4140625,
+              "height": 454.5078125,
+              "right": 1121.40625,
+              "bottom": 1769.3359375
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 413.9921875,
+              "y": 1323.828125,
+              "width": 698.40625,
+              "height": 436.5078125,
+              "right": 1112.3984375,
+              "bottom": 1760.3359375
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-desktop.png",
+            "naturalSize": [
+              1600,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las tarjetas Recuperador de Carritos y Recuperador de Carritos con IA.",
+            "caption": "Las dos tarjetas del catálogo permiten distinguir una ruta de carrito de la misión con IA.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 375.9921875,
+              "y": 2936.3359375,
+              "width": 774.4140625,
+              "height": 512.5078125,
+              "right": 1150.40625,
+              "bottom": 3448.84375
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 2936.3359375,
+              "width": 774.4140625,
+              "height": 512.5078125,
+              "right": 1150.40625,
+              "bottom": 3448.84375
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 2965.3359375,
+              "width": 716.4140625,
+              "height": 454.5078125,
+              "right": 1121.40625,
+              "bottom": 3419.84375
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 413.9921875,
+              "y": 2974.3359375,
+              "width": 698.40625,
+              "height": 436.5078125,
+              "right": 1112.3984375,
+              "bottom": 3410.84375
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/catalog-builder-choice-es-desktop.png",
+            "naturalSize": [
+              1600,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las opciones Creador de Rutas y Agente personalizado.",
+            "caption": "Creador de Rutas es la entrada para diseñar una ruta personalizada.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-es-1440-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 4582
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            2880,
+            9164
+          ],
+          "icc": "Display P3",
+          "sha256": "7d9dbf9d2da3708c04d4be65827f176b33e28f5c5af238dae8b887ac03863e82"
+        },
+        {
+          "file": "getting-started-with-journeys-es-1440-catalog-route-vs-agent.png",
+          "clip": {
+            "x": 363,
+            "y": 1273,
+            "width": 800,
+            "height": 538
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            1076
+          ],
+          "icc": "Display P3",
+          "sha256": "0fa179048df40d44f01b5e9e0e86767e5d1e8bc3c3e25abb3514375dbbb358f0"
+        },
+        {
+          "file": "getting-started-with-journeys-es-1440-catalog-builder-choice.png",
+          "clip": {
+            "x": 363,
+            "y": 2924,
+            "width": 800,
+            "height": 537
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            1074
+          ],
+          "icc": "Display P3",
+          "sha256": "7d505ee432667e011d3f2d601d4707227bc698361c1f41407649dbbd50fb5614"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "064969ac16cde65ececa424c5f21e381ec86a1b45654012362aaac864be69d3c",
+      "built_html": "_site/es/primeros-pasos-con-rutas.html",
+      "built_html_sha256": "6b87548ce745da0f8dfd03d3f4f8f245f039ad9a7c232c44b172d9e62f86852d",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+        "title": "Primeros pasos con rutas | Hellotext",
+        "locale": "es",
+        "viewport": [
+          580,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 580,
+        "documentHeight": 6024,
+        "article": {
+          "x": 16,
+          "y": 468,
+          "width": 548,
+          "height": 4984,
+          "right": 564,
+          "bottom": 5452
+        },
+        "headings": [
+          "Cuándo usar una rutaEnlace copiado",
+          "Cuándo usar otro tipo de misiónEnlace copiado",
+          "Cómo funcionan las rutasEnlace copiado",
+          "Empieza desde una plantilla de rutaEnlace copiado",
+          "Revisa antes de publicarEnlace copiado",
+          "Próximos pasosEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 16,
+              "y": 1292,
+              "width": 548,
+              "height": 1076,
+              "right": 564,
+              "bottom": 2368
+            },
+            "stage": {
+              "x": 16,
+              "y": 1292,
+              "width": 548,
+              "height": 1076,
+              "right": 564,
+              "bottom": 2368
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 1321,
+              "width": 408,
+              "height": 1018,
+              "right": 494,
+              "bottom": 2339
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 1330,
+              "width": 390,
+              "height": 1000,
+              "right": 485,
+              "bottom": 2330
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-mobile.png",
+            "naturalSize": [
+              390,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las tarjetas Recuperador de Carritos y Recuperador de Carritos con IA.",
+            "caption": "Las dos tarjetas del catálogo permiten distinguir una ruta de carrito de la misión con IA.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 16,
+              "y": 3644,
+              "width": 548,
+              "height": 1076,
+              "right": 564,
+              "bottom": 4720
+            },
+            "stage": {
+              "x": 16,
+              "y": 3644,
+              "width": 548,
+              "height": 1076,
+              "right": 564,
+              "bottom": 4720
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 3673,
+              "width": 408,
+              "height": 1018,
+              "right": 494,
+              "bottom": 4691
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 3682,
+              "width": 390,
+              "height": 1000,
+              "right": 485,
+              "bottom": 4682
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/catalog-builder-choice-es-mobile.png",
+            "naturalSize": [
+              390,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las opciones Creador de Rutas y Agente personalizado.",
+            "caption": "Creador de Rutas es la entrada para diseñar una ruta personalizada.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-es-580-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 580,
+            "height": 6024
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1160,
+            12048
+          ],
+          "icc": "Display P3",
+          "sha256": "67243234671f345e5e333587497d81747c29d9a13f71435478f7fa72d4020916"
+        },
+        {
+          "file": "getting-started-with-journeys-es-580-catalog-route-vs-agent.png",
+          "clip": {
+            "x": 4,
+            "y": 1280,
+            "width": 572,
+            "height": 1100
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            2200
+          ],
+          "icc": "Display P3",
+          "sha256": "4bbcf45867d8499858f3935d386c51acdede3464101e65763b59b9fcc35c8a8c"
+        },
+        {
+          "file": "getting-started-with-journeys-es-580-catalog-builder-choice.png",
+          "clip": {
+            "x": 4,
+            "y": 3632,
+            "width": 572,
+            "height": 1100
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            2200
+          ],
+          "icc": "Display P3",
+          "sha256": "65e5d0804e3f9c42ef15b5557d7f27a06030b0accc63b49e01bec0813e618692"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "064969ac16cde65ececa424c5f21e381ec86a1b45654012362aaac864be69d3c",
+      "built_html": "_site/es/primeros-pasos-con-rutas.html",
+      "built_html_sha256": "6b87548ce745da0f8dfd03d3f4f8f245f039ad9a7c232c44b172d9e62f86852d",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+        "title": "Primeros pasos con rutas | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 390,
+        "documentHeight": 6628,
+        "article": {
+          "x": 16,
+          "y": 543.5,
+          "width": 358,
+          "height": 5512.5,
+          "right": 374,
+          "bottom": 6056
+        },
+        "headings": [
+          "Cuándo usar una rutaEnlace copiado",
+          "Cuándo usar otro tipo de misiónEnlace copiado",
+          "Cómo funcionan las rutasEnlace copiado",
+          "Empieza desde una plantilla de rutaEnlace copiado",
+          "Revisa antes de publicarEnlace copiado",
+          "Próximos pasosEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 16,
+              "y": 1679.5,
+              "width": 358,
+              "height": 860.25,
+              "right": 374,
+              "bottom": 2539.75
+            },
+            "stage": {
+              "x": 16,
+              "y": 1679.5,
+              "width": 358,
+              "height": 860.25,
+              "right": 374,
+              "bottom": 2539.75
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 1698.5,
+              "width": 328,
+              "height": 822.25,
+              "right": 359,
+              "bottom": 2520.75
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 1704.5,
+              "width": 315.9921875,
+              "height": 810.25,
+              "right": 352.9921875,
+              "bottom": 2514.75
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-mobile.png",
+            "naturalSize": [
+              390,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las tarjetas Recuperador de Carritos y Recuperador de Carritos con IA.",
+            "caption": "Las dos tarjetas del catálogo permiten distinguir una ruta de carrito de la misión con IA.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 16,
+              "y": 4259.75,
+              "width": 358,
+              "height": 860.25,
+              "right": 374,
+              "bottom": 5120
+            },
+            "stage": {
+              "x": 16,
+              "y": 4259.75,
+              "width": 358,
+              "height": 860.25,
+              "right": 374,
+              "bottom": 5120
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 4278.75,
+              "width": 328,
+              "height": 822.25,
+              "right": 359,
+              "bottom": 5101
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 4284.75,
+              "width": 315.9921875,
+              "height": 810.25,
+              "right": 352.9921875,
+              "bottom": 5095
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/catalog-builder-choice-es-mobile.png",
+            "naturalSize": [
+              390,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las opciones Creador de Rutas y Agente personalizado.",
+            "caption": "Creador de Rutas es la entrada para diseñar una ruta personalizada.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-es-390-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 6628
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            780,
+            13256
+          ],
+          "icc": "Display P3",
+          "sha256": "742fb2847324c666d73f3a98d70ae534c8ac6b2a575cce216f6ab19c8abaacd5"
+        },
+        {
+          "file": "getting-started-with-journeys-es-390-catalog-route-vs-agent.png",
+          "clip": {
+            "x": 4,
+            "y": 1667,
+            "width": 382,
+            "height": 885
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            1770
+          ],
+          "icc": "Display P3",
+          "sha256": "38deff9bf3bbc59d085ae1cf8686cb2b169d4a647940a88660acf48eb9c245bd"
+        },
+        {
+          "file": "getting-started-with-journeys-es-390-catalog-builder-choice.png",
+          "clip": {
+            "x": 4,
+            "y": 4247,
+            "width": 382,
+            "height": 885
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            1770
+          ],
+          "icc": "Display P3",
+          "sha256": "a6d860865ef78577333f88a506783733399892969397a15ff69fd6ca939640b1"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "source_sha256": "86af4c39dadb0e9e31d1bac56ccedb7bec00dd64a172a29cf08ad86c3248f51b",
+      "built_html": "_site/getting-started-with-journeys.html",
+      "built_html_sha256": "f45dd9209adaf90a05692fdec2afe369ff3a4a13693a51df33e01a7777a12f57",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+        "title": "Getting started with journeys | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 1440,
+        "documentHeight": 4510,
+        "article": {
+          "x": 375.9921875,
+          "y": 563.828125,
+          "width": 774.4140625,
+          "height": 3509.015625,
+          "right": 1150.40625,
+          "bottom": 4072.84375
+        },
+        "headings": [
+          "When to use a journeyLink copied",
+          "When to use another playbook typeLink copied",
+          "How journeys workLink copied",
+          "Start from a journey templateLink copied",
+          "Review before publishingLink copied",
+          "Next stepsLink copied"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 375.9921875,
+              "y": 1261.828125,
+              "width": 774.4140625,
+              "height": 512.5078125,
+              "right": 1150.40625,
+              "bottom": 1774.3359375
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 1261.828125,
+              "width": 774.4140625,
+              "height": 512.5078125,
+              "right": 1150.40625,
+              "bottom": 1774.3359375
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 1290.828125,
+              "width": 716.4140625,
+              "height": 454.5078125,
+              "right": 1121.40625,
+              "bottom": 1745.3359375
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 413.9921875,
+              "y": 1299.828125,
+              "width": 698.40625,
+              "height": 436.5078125,
+              "right": 1112.3984375,
+              "bottom": 1736.3359375
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-desktop.png",
+            "naturalSize": [
+              1600,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Hellotext catalog showing the Cart Saver and AI Cart Saver cards.",
+            "caption": "The two catalog cards distinguish the cart journey from the AI playbook.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 375.9921875,
+              "y": 2888.3359375,
+              "width": 774.4140625,
+              "height": 512.5078125,
+              "right": 1150.40625,
+              "bottom": 3400.84375
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 2888.3359375,
+              "width": 774.4140625,
+              "height": 512.5078125,
+              "right": 1150.40625,
+              "bottom": 3400.84375
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 2917.3359375,
+              "width": 716.4140625,
+              "height": 454.5078125,
+              "right": 1121.40625,
+              "bottom": 3371.84375
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 413.9921875,
+              "y": 2926.3359375,
+              "width": 698.40625,
+              "height": 436.5078125,
+              "right": 1112.3984375,
+              "bottom": 3362.84375
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/catalog-builder-choice-en-desktop.png",
+            "naturalSize": [
+              1600,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Hellotext catalog showing the Journey Builder and Custom Agent options.",
+            "caption": "Journey Builder is the entry point for designing a custom journey.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-en-1440-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 4510
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            2880,
+            9020
+          ],
+          "icc": "Display P3",
+          "sha256": "50467101a457eadab74c07e0f3191db1f31c43d8338ab70cde5f7312dfcf6b9e"
+        },
+        {
+          "file": "getting-started-with-journeys-en-1440-catalog-route-vs-agent.png",
+          "clip": {
+            "x": 363,
+            "y": 1249,
+            "width": 800,
+            "height": 538
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            1076
+          ],
+          "icc": "Display P3",
+          "sha256": "9695c83719977bea254da1b43272ee99308d83c921b5ba5c90df2b39bba379fe"
+        },
+        {
+          "file": "getting-started-with-journeys-en-1440-catalog-builder-choice.png",
+          "clip": {
+            "x": 363,
+            "y": 2876,
+            "width": 800,
+            "height": 537
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            1074
+          ],
+          "icc": "Display P3",
+          "sha256": "ce51888b0ba2fabf825cbe3b3d8780d2c0b6c052f61a77bb13d8010476965936"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "source_sha256": "86af4c39dadb0e9e31d1bac56ccedb7bec00dd64a172a29cf08ad86c3248f51b",
+      "built_html": "_site/getting-started-with-journeys.html",
+      "built_html_sha256": "f45dd9209adaf90a05692fdec2afe369ff3a4a13693a51df33e01a7777a12f57",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+        "title": "Getting started with journeys | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 580,
+        "documentHeight": 5896,
+        "article": {
+          "x": 16,
+          "y": 436,
+          "width": 548,
+          "height": 4888,
+          "right": 564,
+          "bottom": 5324
+        },
+        "headings": [
+          "When to use a journeyLink copied",
+          "When to use another playbook typeLink copied",
+          "How journeys workLink copied",
+          "Start from a journey templateLink copied",
+          "Review before publishingLink copied",
+          "Next stepsLink copied"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 16,
+              "y": 1212,
+              "width": 548,
+              "height": 1076,
+              "right": 564,
+              "bottom": 2288
+            },
+            "stage": {
+              "x": 16,
+              "y": 1212,
+              "width": 548,
+              "height": 1076,
+              "right": 564,
+              "bottom": 2288
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 1241,
+              "width": 408,
+              "height": 1018,
+              "right": 494,
+              "bottom": 2259
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 1250,
+              "width": 390,
+              "height": 1000,
+              "right": 485,
+              "bottom": 2250
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-mobile.png",
+            "naturalSize": [
+              390,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Hellotext catalog showing the Cart Saver and AI Cart Saver cards.",
+            "caption": "The two catalog cards distinguish the cart journey from the AI playbook.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 16,
+              "y": 3564,
+              "width": 548,
+              "height": 1076,
+              "right": 564,
+              "bottom": 4640
+            },
+            "stage": {
+              "x": 16,
+              "y": 3564,
+              "width": 548,
+              "height": 1076,
+              "right": 564,
+              "bottom": 4640
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 3593,
+              "width": 408,
+              "height": 1018,
+              "right": 494,
+              "bottom": 4611
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 3602,
+              "width": 390,
+              "height": 1000,
+              "right": 485,
+              "bottom": 4602
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/catalog-builder-choice-en-mobile.png",
+            "naturalSize": [
+              390,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Hellotext catalog showing the Journey Builder and Custom Agent options.",
+            "caption": "Journey Builder is the entry point for designing a custom journey.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-en-580-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 580,
+            "height": 5896
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1160,
+            11792
+          ],
+          "icc": "Display P3",
+          "sha256": "0a692c2b9aeb02464d0a258a95ef714c5e1ca0f13e42491b19d15550c23d72ef"
+        },
+        {
+          "file": "getting-started-with-journeys-en-580-catalog-route-vs-agent.png",
+          "clip": {
+            "x": 4,
+            "y": 1200,
+            "width": 572,
+            "height": 1100
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            2200
+          ],
+          "icc": "Display P3",
+          "sha256": "afa10d600196d7386e26809dc103a29412f43b1af04e55dbaa98f2a644074364"
+        },
+        {
+          "file": "getting-started-with-journeys-en-580-catalog-builder-choice.png",
+          "clip": {
+            "x": 4,
+            "y": 3552,
+            "width": 572,
+            "height": 1100
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            2200
+          ],
+          "icc": "Display P3",
+          "sha256": "739231ba532865ece4535feea79a737080395af9152c9e171d153a1d04adf01a"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "source_sha256": "86af4c39dadb0e9e31d1bac56ccedb7bec00dd64a172a29cf08ad86c3248f51b",
+      "built_html": "_site/getting-started-with-journeys.html",
+      "built_html_sha256": "f45dd9209adaf90a05692fdec2afe369ff3a4a13693a51df33e01a7777a12f57",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+        "title": "Getting started with journeys | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 390,
+        "documentHeight": 6244,
+        "article": {
+          "x": 16,
+          "y": 507.5,
+          "width": 358,
+          "height": 5164.5,
+          "right": 374,
+          "bottom": 5672
+        },
+        "headings": [
+          "When to use a journeyLink copied",
+          "When to use another playbook typeLink copied",
+          "How journeys workLink copied",
+          "Start from a journey templateLink copied",
+          "Review before publishingLink copied",
+          "Next stepsLink copied"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 16,
+              "y": 1475.5,
+              "width": 358,
+              "height": 860.25,
+              "right": 374,
+              "bottom": 2335.75
+            },
+            "stage": {
+              "x": 16,
+              "y": 1475.5,
+              "width": 358,
+              "height": 860.25,
+              "right": 374,
+              "bottom": 2335.75
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 1494.5,
+              "width": 328,
+              "height": 822.25,
+              "right": 359,
+              "bottom": 2316.75
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 1500.5,
+              "width": 315.9921875,
+              "height": 810.25,
+              "right": 352.9921875,
+              "bottom": 2310.75
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-mobile.png",
+            "naturalSize": [
+              390,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Hellotext catalog showing the Cart Saver and AI Cart Saver cards.",
+            "caption": "The two catalog cards distinguish the cart journey from the AI playbook.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 16,
+              "y": 3971.75,
+              "width": 358,
+              "height": 860.25,
+              "right": 374,
+              "bottom": 4832
+            },
+            "stage": {
+              "x": 16,
+              "y": 3971.75,
+              "width": 358,
+              "height": 860.25,
+              "right": 374,
+              "bottom": 4832
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 3990.75,
+              "width": 328,
+              "height": 822.25,
+              "right": 359,
+              "bottom": 4813
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 3996.75,
+              "width": 315.9921875,
+              "height": 810.25,
+              "right": 352.9921875,
+              "bottom": 4807
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/catalog-builder-choice-en-mobile.png",
+            "naturalSize": [
+              390,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Hellotext catalog showing the Journey Builder and Custom Agent options.",
+            "caption": "Journey Builder is the entry point for designing a custom journey.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-en-390-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 6244
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            780,
+            12488
+          ],
+          "icc": "Display P3",
+          "sha256": "baf2e6579ea155a01af992a6abb24adbf9f86b67ccfb57c22818167274f2aef1"
+        },
+        {
+          "file": "getting-started-with-journeys-en-390-catalog-route-vs-agent.png",
+          "clip": {
+            "x": 4,
+            "y": 1463,
+            "width": 382,
+            "height": 885
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            1770
+          ],
+          "icc": "Display P3",
+          "sha256": "f5a2a5f44253f844e1e3fd455f0113201c3474ff7dce64bb691c6b2d4dbb92dd"
+        },
+        {
+          "file": "getting-started-with-journeys-en-390-catalog-builder-choice.png",
+          "clip": {
+            "x": 4,
+            "y": 3959,
+            "width": 382,
+            "height": 885
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            1770
+          ],
+          "icc": "Display P3",
+          "sha256": "068d66ffc0db219c9603e30e8f4532664b484298813a54682fd5127be041f9f6"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/custom-journey.md",
+      "source_sha256": "2fb404d6c5ff4eba66e68c54999fedb85cbc4e657ab927c7e19680dfa1f83b12",
+      "built_html": "_site/es/ruta-personalizada.html",
+      "built_html_sha256": "34fa0b92ea21370b89a4bc3df0fe4ca2ba7a4e26707e8c5c16b63e843e868fa6",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/ruta-personalizada.html",
+        "title": "Ruta personalizada | Hellotext",
+        "locale": "es",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 1440,
+        "documentHeight": 3227,
+        "article": {
+          "x": 375.9921875,
+          "y": 563.828125,
+          "width": 774.4140625,
+          "height": 2226.5078125,
+          "right": 1150.40625,
+          "bottom": 2790.3359375
+        },
+        "headings": [
+          "Selecciona un disparadorEnlace copiado",
+          "Agrega pasosEnlace copiado",
+          "Enviar un mensajeEnlace copiado",
+          "CondiciónEnlace copiado",
+          "EsperarEnlace copiado",
+          "Derivación humanaEnlace copiado",
+          "Guarda y publicaEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "journey-trigger-menu",
+            "figure": {
+              "x": 375.9921875,
+              "y": 1065.828125,
+              "width": 774.4140625,
+              "height": 512.5078125,
+              "right": 1150.40625,
+              "bottom": 1578.3359375
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 1065.828125,
+              "width": 774.4140625,
+              "height": 512.5078125,
+              "right": 1150.40625,
+              "bottom": 1578.3359375
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 1094.828125,
+              "width": 716.4140625,
+              "height": 454.5078125,
+              "right": 1121.40625,
+              "bottom": 1549.3359375
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 413.9921875,
+              "y": 1103.828125,
+              "width": 698.40625,
+              "height": 436.5078125,
+              "right": 1112.3984375,
+              "bottom": 1540.3359375
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/journey-trigger-menu-es-desktop.png",
+            "naturalSize": [
+              1600,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Editor de una ruta nueva con el panel Inicio de ruta y la lista de disparadores abierta.",
+            "caption": "Consulta las opciones en la lista antes de elegir y confirmar un disparador.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "custom-journey-es-1440-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3227
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            2880,
+            6454
+          ],
+          "icc": "Display P3",
+          "sha256": "67fcb8064ffffb072b53ecdfdc72148539a76f6b1d6b4dcf5df5d8f18616bb3e"
+        },
+        {
+          "file": "custom-journey-es-1440-journey-trigger-menu.png",
+          "clip": {
+            "x": 363,
+            "y": 1053,
+            "width": 800,
+            "height": 538
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            1076
+          ],
+          "icc": "Display P3",
+          "sha256": "e482f125ed9a05c1f2650e0980cef292ece68ed24fc6f89f6be5d4ee6cd27a17"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/custom-journey.md",
+      "source_sha256": "2fb404d6c5ff4eba66e68c54999fedb85cbc4e657ab927c7e19680dfa1f83b12",
+      "built_html": "_site/es/ruta-personalizada.html",
+      "built_html_sha256": "34fa0b92ea21370b89a4bc3df0fe4ca2ba7a4e26707e8c5c16b63e843e868fa6",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/ruta-personalizada.html",
+        "title": "Ruta personalizada | Hellotext",
+        "locale": "es",
+        "viewport": [
+          580,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 580,
+        "documentHeight": 3945,
+        "article": {
+          "x": 16,
+          "y": 468,
+          "width": 548,
+          "height": 2904.8125,
+          "right": 564,
+          "bottom": 3372.8125
+        },
+        "headings": [
+          "Selecciona un disparadorEnlace copiado",
+          "Agrega pasosEnlace copiado",
+          "Enviar un mensajeEnlace copiado",
+          "CondiciónEnlace copiado",
+          "EsperarEnlace copiado",
+          "Derivación humanaEnlace copiado",
+          "Guarda y publicaEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "journey-trigger-menu",
+            "figure": {
+              "x": 16,
+              "y": 1000,
+              "width": 548,
+              "height": 1076,
+              "right": 564,
+              "bottom": 2076
+            },
+            "stage": {
+              "x": 16,
+              "y": 1000,
+              "width": 548,
+              "height": 1076,
+              "right": 564,
+              "bottom": 2076
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 1029,
+              "width": 408,
+              "height": 1018,
+              "right": 494,
+              "bottom": 2047
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 1038,
+              "width": 390,
+              "height": 1000,
+              "right": 485,
+              "bottom": 2038
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/journey-trigger-menu-es-mobile.png",
+            "naturalSize": [
+              390,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Editor de una ruta nueva con el panel Inicio de ruta y la lista de disparadores abierta.",
+            "caption": "Consulta las opciones en la lista antes de elegir y confirmar un disparador.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "custom-journey-es-580-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 580,
+            "height": 3945
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1160,
+            7890
+          ],
+          "icc": "Display P3",
+          "sha256": "c50b81e832d789e4c8497c1f9c1b407d841bebcf52137bfe5ab8779efdfec321"
+        },
+        {
+          "file": "custom-journey-es-580-journey-trigger-menu.png",
+          "clip": {
+            "x": 4,
+            "y": 988,
+            "width": 572,
+            "height": 1100
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            2200
+          ],
+          "icc": "Display P3",
+          "sha256": "14550b7c2238be8d9ab37910162a7693c449594d05610e51149187e5f702be6a"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/custom-journey.md",
+      "source_sha256": "2fb404d6c5ff4eba66e68c54999fedb85cbc4e657ab927c7e19680dfa1f83b12",
+      "built_html": "_site/es/ruta-personalizada.html",
+      "built_html_sha256": "34fa0b92ea21370b89a4bc3df0fe4ca2ba7a4e26707e8c5c16b63e843e868fa6",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/ruta-personalizada.html",
+        "title": "Ruta personalizada | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 390,
+        "documentHeight": 4226,
+        "article": {
+          "x": 16,
+          "y": 472.65625,
+          "width": 358,
+          "height": 3181.0625,
+          "right": 374,
+          "bottom": 3653.71875
+        },
+        "headings": [
+          "Selecciona un disparadorEnlace copiado",
+          "Agrega pasosEnlace copiado",
+          "Enviar un mensajeEnlace copiado",
+          "CondiciónEnlace copiado",
+          "EsperarEnlace copiado",
+          "Derivación humanaEnlace copiado",
+          "Guarda y publicaEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "journey-trigger-menu",
+            "figure": {
+              "x": 16,
+              "y": 1184.65625,
+              "width": 358,
+              "height": 860.25,
+              "right": 374,
+              "bottom": 2044.90625
+            },
+            "stage": {
+              "x": 16,
+              "y": 1184.65625,
+              "width": 358,
+              "height": 860.25,
+              "right": 374,
+              "bottom": 2044.90625
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 1203.65625,
+              "width": 328,
+              "height": 822.25,
+              "right": 359,
+              "bottom": 2025.90625
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 1209.65625,
+              "width": 315.9921875,
+              "height": 810.25,
+              "right": 352.9921875,
+              "bottom": 2019.90625
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/journey-trigger-menu-es-mobile.png",
+            "naturalSize": [
+              390,
+              1000
+            ],
+            "loaded": true,
+            "alt": "Editor de una ruta nueva con el panel Inicio de ruta y la lista de disparadores abierta.",
+            "caption": "Consulta las opciones en la lista antes de elegir y confirmar un disparador.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "custom-journey-es-390-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 4226
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            780,
+            8452
+          ],
+          "icc": "Display P3",
+          "sha256": "33f5fc9dec7af680998588e36ce8a4ebd249e969b9f79a3ac87120043a823c9e"
+        },
+        {
+          "file": "custom-journey-es-390-journey-trigger-menu.png",
+          "clip": {
+            "x": 4,
+            "y": 1172,
+            "width": 382,
+            "height": 885
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            1770
+          ],
+          "icc": "Display P3",
+          "sha256": "857a8e8242346dc32553635dd54d34f96f7945de23a6950995b90b5d8eb1e9b3"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/en/journeys/custom-journey.md",
+      "source_sha256": "bc7c2a5bedd05dc4a38041f5ba71333477531b3ebbdc66f55593c37dc3da3e95",
+      "built_html": "_site/custom-journey.html",
+      "built_html_sha256": "2bab80629181214f320ed7d7042652581ff29ff26fc0427792035400b03e4667",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/custom-journey.html",
+        "title": "Custom journey | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 1440,
+        "documentHeight": 3179,
+        "article": {
+          "x": 375.9921875,
+          "y": 563.828125,
+          "width": 774.4140625,
+          "height": 2178.5078125,
+          "right": 1150.40625,
+          "bottom": 2742.3359375
+        },
+        "headings": [
+          "Select a triggerLink copied",
+          "Add stepsLink copied",
+          "Send a messageLink copied",
+          "ConditionLink copied",
+          "WaitLink copied",
+          "Human handoffLink copied",
+          "Save and publishLink copied"
+        ],
+        "figures": [
+          {
+            "id": "journey-trigger-menu",
+            "figure": {
+              "x": 375.9921875,
+              "y": 1041.828125,
+              "width": 774.4140625,
+              "height": 512.5078125,
+              "right": 1150.40625,
+              "bottom": 1554.3359375
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 1041.828125,
+              "width": 774.4140625,
+              "height": 512.5078125,
+              "right": 1150.40625,
+              "bottom": 1554.3359375
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 1070.828125,
+              "width": 716.4140625,
+              "height": 454.5078125,
+              "right": 1121.40625,
+              "bottom": 1525.3359375
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 413.9921875,
+              "y": 1079.828125,
+              "width": 698.40625,
+              "height": 436.5078125,
+              "right": 1112.3984375,
+              "bottom": 1516.3359375
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/journey-trigger-menu-en-desktop.png",
+            "naturalSize": [
+              1600,
+              1000
+            ],
+            "loaded": true,
+            "alt": "New journey editor with the Journey Begins panel and trigger options list open.",
+            "caption": "View the options in the list before choosing and confirming a trigger.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "custom-journey-en-1440-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3179
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            2880,
+            6358
+          ],
+          "icc": "Display P3",
+          "sha256": "197b7270b35d66876e2dc8c8b12300336a8c1098ea3b91a870b53e07ccb1957b"
+        },
+        {
+          "file": "custom-journey-en-1440-journey-trigger-menu.png",
+          "clip": {
+            "x": 363,
+            "y": 1029,
+            "width": 800,
+            "height": 538
+          },
+          "viewport": [
+            1440,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            1076
+          ],
+          "icc": "Display P3",
+          "sha256": "c6614bcc3c7e99f39d5b8904c9b14148c896dc13069ea5fc1bd6563aff12cb28"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/en/journeys/custom-journey.md",
+      "source_sha256": "bc7c2a5bedd05dc4a38041f5ba71333477531b3ebbdc66f55593c37dc3da3e95",
+      "built_html": "_site/custom-journey.html",
+      "built_html_sha256": "2bab80629181214f320ed7d7042652581ff29ff26fc0427792035400b03e4667",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/custom-journey.html",
+        "title": "Custom journey | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 580,
+        "documentHeight": 3821,
+        "article": {
+          "x": 16,
+          "y": 368,
+          "width": 548,
+          "height": 2880.8125,
+          "right": 564,
+          "bottom": 3248.8125
+        },
+        "headings": [
+          "Select a triggerLink copied",
+          "Add stepsLink copied",
+          "Send a messageLink copied",
+          "ConditionLink copied",
+          "WaitLink copied",
+          "Human handoffLink copied",
+          "Save and publishLink copied"
+        ],
+        "figures": [
+          {
+            "id": "journey-trigger-menu",
+            "figure": {
+              "x": 16,
+              "y": 900,
+              "width": 548,
+              "height": 1076,
+              "right": 564,
+              "bottom": 1976
+            },
+            "stage": {
+              "x": 16,
+              "y": 900,
+              "width": 548,
+              "height": 1076,
+              "right": 564,
+              "bottom": 1976
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 929,
+              "width": 408,
+              "height": 1018,
+              "right": 494,
+              "bottom": 1947
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 938,
+              "width": 390,
+              "height": 1000,
+              "right": 485,
+              "bottom": 1938
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/journey-trigger-menu-en-mobile.png",
+            "naturalSize": [
+              390,
+              1000
+            ],
+            "loaded": true,
+            "alt": "New journey editor with the Journey Begins panel and trigger options list open.",
+            "caption": "View the options in the list before choosing and confirming a trigger.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "custom-journey-en-580-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 580,
+            "height": 3821
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1160,
+            7642
+          ],
+          "icc": "Display P3",
+          "sha256": "c86785b3d03b65a947cd28454527674e39887b95146e747841732d64c070f26a"
+        },
+        {
+          "file": "custom-journey-en-580-journey-trigger-menu.png",
+          "clip": {
+            "x": 4,
+            "y": 888,
+            "width": 572,
+            "height": 1100
+          },
+          "viewport": [
+            580,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            2200
+          ],
+          "icc": "Display P3",
+          "sha256": "71dcc98cb87e7a6567bf317527805990e0dc31d7b33f516e56303bfb6e43453c"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/en/journeys/custom-journey.md",
+      "source_sha256": "bc7c2a5bedd05dc4a38041f5ba71333477531b3ebbdc66f55593c37dc3da3e95",
+      "built_html": "_site/custom-journey.html",
+      "built_html_sha256": "2bab80629181214f320ed7d7042652581ff29ff26fc0427792035400b03e4667",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/custom-journey.html",
+        "title": "Custom journey | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 390,
+        "documentHeight": 4070,
+        "article": {
+          "x": 16,
+          "y": 449,
+          "width": 358,
+          "height": 3049.0625,
+          "right": 374,
+          "bottom": 3498.0625
+        },
+        "headings": [
+          "Select a triggerLink copied",
+          "Add stepsLink copied",
+          "Send a messageLink copied",
+          "ConditionLink copied",
+          "WaitLink copied",
+          "Human handoffLink copied",
+          "Save and publishLink copied"
+        ],
+        "figures": [
+          {
+            "id": "journey-trigger-menu",
+            "figure": {
+              "x": 16,
+              "y": 1101,
+              "width": 358,
+              "height": 860.25,
+              "right": 374,
+              "bottom": 1961.25
+            },
+            "stage": {
+              "x": 16,
+              "y": 1101,
+              "width": 358,
+              "height": 860.25,
+              "right": 374,
+              "bottom": 1961.25
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 1120,
+              "width": 328,
+              "height": 822.25,
+              "right": 359,
+              "bottom": 1942.25
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 1126,
+              "width": 315.9921875,
+              "height": 810.25,
+              "right": 352.9921875,
+              "bottom": 1936.25
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-entry-20261010/journey-trigger-menu-en-mobile.png",
+            "naturalSize": [
+              390,
+              1000
+            ],
+            "loaded": true,
+            "alt": "New journey editor with the Journey Begins panel and trigger options list open.",
+            "caption": "View the options in the list before choosing and confirming a trigger.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "custom-journey-en-390-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 4070
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            780,
+            8140
+          ],
+          "icc": "Display P3",
+          "sha256": "f366b46823b403985a6f60b1f30f9c183553868afb7122f641e0b7f0ed213362"
+        },
+        {
+          "file": "custom-journey-en-390-journey-trigger-menu.png",
+          "clip": {
+            "x": 4,
+            "y": 1089,
+            "width": 382,
+            "height": 885
+          },
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            1770
+          ],
+          "icc": "Display P3",
+          "sha256": "00b1b8b161e2ed2d6b68c453e4d71c1a37cac7e1e052fc02ff530a1366b61423"
+        }
+      ]
+    }
+  ],
+  "blocked_requests": [
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    }
+  ],
+  "runtime_errors": [],
+  "finished_at": "2026-10-10T22:39:13.464Z",
+  "source_and_build_hashes_preserved": true
+}

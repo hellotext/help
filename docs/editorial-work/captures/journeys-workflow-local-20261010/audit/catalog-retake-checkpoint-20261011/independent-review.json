@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "reviewer": "integration_review",
+  "reviewed_at": "2026-10-11T01:27:02.892282+00:00",
+  "status": "delta_passed_scrollbar_finding_closed",
+  "scope": "Only three fullpage Getting EN views (1440/580/390) and two affected mobile catalog detail PNGs (580/390). No repeated Custom/ES/lifecycle detailed pixel review or runtime/guard/build testing.",
+  "reviewed_png_count": 5,
+  "files": [
+    {
+      "file": "getting-started-with-journeys-en-1440-full.png",
+      "sha256": "dad595beda2f38457251ac457d6a6ee492f26dc3533e6dc355c3b32236732cf2",
+      "pixelSize": [
+        2880,
+        11822
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "pixel_review": "passed_within_delta_scope"
+    },
+    {
+      "file": "getting-started-with-journeys-en-580-full.png",
+      "sha256": "883e5fe3b85932df43084066a144cf1cae79fd7f9bb25001e781435dfcc7736e",
+      "pixelSize": [
+        1160,
+        13114
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "pixel_review": "passed_within_delta_scope"
+    },
+    {
+      "file": "getting-started-with-journeys-en-580-catalog-route-vs-agent.png",
+      "sha256": "18ec637b24e9a0d94b5af85e55641f5fc9c6b3b6595364dcde6a6833951af70b",
+      "pixelSize": [
+        1144,
+        1016
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "pixel_review": "passed_within_delta_scope"
+    },
+    {
+      "file": "getting-started-with-journeys-en-390-full.png",
+      "sha256": "df97580178413889c0d66f36dcc1e41a0584e114a6807b8833b21b8e211e9aa3",
+      "pixelSize": [
+        780,
+        13598
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "pixel_review": "passed_within_delta_scope"
+    },
+    {
+      "file": "getting-started-with-journeys-en-390-catalog-route-vs-agent.png",
+      "sha256": "c86708221862778ee2584a64da32a375d7fb0bf68ac15141b3766338084bfb85",
+      "pixelSize": [
+        764,
+        812
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "pixel_review": "passed_within_delta_scope"
+    }
+  ],
+  "article": {
+    "path": "_i18n/en/journeys/getting-started-with-journeys.md",
+    "before_sha256": "b3519281575ccd7ea7e71b0260263c42406fa5a36ba9721e460db9c9917db7fe",
+    "after_sha256": "1ded25b0d6072e66c9a09359148ca3993fb8ec330daa3426cf130e46a1c948b3",
+    "only_source_change": "One responsive mobile PNG filename changed; inverse replacement reproduces the previous reviewed article SHA exactly. Prose, captions, alt and other figure markup remain byte-exact."
+  },
+  "source_asset": {
+    "path": "images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-mobile-compact-v2.png",
+    "sha256": "f90b5221f3387a81690ea3e2d16606b104bc6de8960eaedec949ec601e1f16e4",
+    "pixelSize": [
+      1560,
+      1632
+    ],
+    "nativeDensity": 4,
+    "source_pixel_acceptance": "Root review recorded in root-acceptance.json; no original raw source pixel review repeated by this reviewer.",
+    "superseded_evidence_preserved_sha256": "8c2ba8428329e7e2e98adfceb3ceeccd4e1a7dc32f88388f034f55be145b8e37"
+  },
+  "views": [
+    {
+      "viewport": [
+        1440,
+        1200
+      ],
+      "built_html": "_site/getting-started-with-journeys.html",
+      "built_html_sha256": "5d05fab2d61633308bb68a64ca17588b415c94b1b36eb8750004601fbda9f97b",
+      "catalog_current_source": "/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-desktop-compact.png",
+      "catalog_rendered_width": 698.3984375,
+      "catalog_native_css_width": 816,
+      "document_width": 1440
+    },
+    {
+      "viewport": [
+        580,
+        1200
+      ],
+      "built_html": "_site/getting-started-with-journeys.html",
+      "built_html_sha256": "5d05fab2d61633308bb68a64ca17588b415c94b1b36eb8750004601fbda9f97b",
+      "catalog_current_source": "/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-mobile-compact-v2.png",
+      "catalog_rendered_width": 390,
+      "catalog_native_css_width": 390,
+      "document_width": 580
+    },
+    {
+      "viewport": [
+        390,
+        1200
+      ],
+      "built_html": "_site/getting-started-with-journeys.html",
+      "built_html_sha256": "5d05fab2d61633308bb68a64ca17588b415c94b1b36eb8750004601fbda9f97b",
+      "catalog_current_source": "/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-mobile-compact-v2.png",
+      "catalog_rendered_width": 315.9921875,
+      "catalog_native_css_width": 390,
+      "document_width": 390
+    }
+  ],
+  "resolved_findings": [
+    {
+      "id": "EN_MOBILE_CART_CATALOG_SCROLLBAR",
+      "previous_review": "audit/journeys-workflow-local-20261010/final-bilingual-getting-independent-review.json",
+      "resolution": "Both complete Cart Saver and AI Cart Saver cards are visible and readable at Help widths 580 and 390, with the gray scrollbar absent. Native On Request label and card descriptions remain intact. No retouching or DOM/CSS workaround is claimed; the integration points to the accepted new native source."
+    }
+  ],
+  "observations": [
+    "All three fullpage views show header through footer, ordered article content and six separate static lavender stages without a new composition defect.",
+    "Catalog detail views have complete panel/card boundaries, balanced inset and no scrollbar, pointer, debug overlay or clipped instructional text.",
+    "The changed image stays at 390 CSS px or smaller (315.9921875 at viewport390), within its native density-adjusted width and within the article.",
+    "Source article, built HTML, accepted replacement asset and five reviewed PNGs match their frozen receipts at review end."
+  ],
+  "evidence": [
+    {
+      "path": "help-journeys-workflow-local-20261010/docs/editorial-work/captures/journeys-workflow-local-20261010/audit/catalog-retake-checkpoint-20261011/visual-review/capture-receipt.json",
+      "sha256": "ef8aa289a8042658532eff58f01b40cfe8a8070f5644880753b30b035e40e784"
+    },
+    {
+      "path": "help-journeys-workflow-local-20261010/docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-catalog-retake-20261011/receipt.json",
+      "sha256": "985424dea37a39c1cbdc0bd7a95b14439909c0177d4a398760e2ccce1d4734b5"
+    },
+    {
+      "path": "help-journeys-workflow-local-20261010/docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-catalog-retake-20261011/capture.json",
+      "sha256": "05e1e0aa9d0326fc486c0857daa34cac22e2fa141eab136f1d60949cb93409cc"
+    },
+    {
+      "path": "help-journeys-workflow-local-20261010/docs/editorial-work/captures/journeys-workflow-local-20261010/integration-en-catalog-retake-20261011/root-acceptance.json",
+      "sha256": "7cf0018e2f946d05c67dced43357122c582d869a5666a14710f57dd52adaf7ac"
+    },
+    {
+      "path": "help-journeys-workflow-local-20261010/docs/editorial-work/captures/journeys-workflow-local-20261010/audit/catalog-retake-checkpoint-20261011/build-execution.json",
+      "sha256": "91c2704bec7d15dc86d0fa780534de9bb62a93ae69e5188b8f98b2608dae86f6"
+    },
+    {
+      "path": "help-journeys-workflow-local-20261010/docs/editorial-work/captures/journeys-workflow-local-20261010/audit/catalog-retake-checkpoint-20261011/http-verification.json",
+      "sha256": "665b9381e811bdb0598d4db5d06481ffca163809087b7b9d32a6f51e58eac466"
+    },
+    {
+      "path": "audit/journeys-workflow-local-20261010/final-bilingual-getting-independent-review.json",
+      "sha256": "c3d4e2d65062af9defbca712ae8c97b3a10ac263627e71d487a0fdd96e910809"
+    }
+  ],
+  "open_findings_in_delta": [],
+  "limits": [
+    "Fullpage PNGs were viewed downscaled for overall composition; catalog readability and boundaries were judged in the two detailed PNGs.",
+    "Carries forward previous unchanged-source/detail judgments. Does not independently repeat lifecycle persistence, original clone restoration, app guards, production parity or publication controls.",
+    "Owner build/HTTP receipts are linked as supporting evidence; this reviewer did not run a build or make HTTP/browser requests.",
+    "This closes the named local visual defect only; no inventory update, final pair-completion label, external write or publication is performed."
+  ],
+  "operations": {
+    "browser": 0,
+    "app": 0,
+    "database": 0,
+    "external_writes": 0,
+    "help_edits": 0,
+    "builds": 0,
+    "local_audit_receipt_only": true
+  }
+}

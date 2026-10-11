@@ -1,0 +1,5681 @@
+{
+  "started_at": "2026-10-11T01:02:43.289Z",
+  "status": "failed",
+  "checkpoint_sha256": "bb8f46e6994b21c904350f8d41a0bd08ed7fb6090e4dc45df15d91a17ed64616",
+  "capture_route": "Native Chrome Page.captureScreenshot PNG, Display P3 D65, DPR 2; no post-processing",
+  "origin": "http://127.0.0.1:4306",
+  "browser_pid": 11168,
+  "server_pid": 11167,
+  "views": [
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "6a51a31b11d6fb37b66c49d69dce14855d8f27ea096bb34dd43d636e2018ed99",
+      "built_html": "_site/es/primeros-pasos-con-rutas.html",
+      "built_html_sha256": "dcdbdeebdfe45ce9154d8fc66a139db365087a757d5c3aacc6715851b62447e6",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+        "title": "Primeros pasos con rutas | Hellotext",
+        "locale": "es",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 1440,
+        "documentHeight": 5932,
+        "article": {
+          "x": 375.9921875,
+          "y": 563.828125,
+          "width": 774.4140625,
+          "height": 4931.640625,
+          "right": 1150.40625,
+          "bottom": 5495.46875
+        },
+        "headings": [
+          "Cuándo usar una rutaEnlace copiado",
+          "Cuándo usar otro tipo de misiónEnlace copiado",
+          "Cómo funcionan las rutasEnlace copiado",
+          "Empieza desde una plantilla de rutaEnlace copiado",
+          "Revisa antes de publicarEnlace copiado",
+          "Próximos pasosEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 375.9921875,
+              "y": 1285.828125,
+              "width": 774.4140625,
+              "height": 315.6484375,
+              "right": 1150.40625,
+              "bottom": 1601.4765625
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 1285.828125,
+              "width": 774.4140625,
+              "height": 315.6484375,
+              "right": 1150.40625,
+              "bottom": 1601.4765625
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 1314.828125,
+              "width": 716.4140625,
+              "height": 257.6484375,
+              "right": 1121.40625,
+              "bottom": 1572.4765625
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 414,
+              "y": 1323.828125,
+              "width": 698.3984375,
+              "height": 239.6484375,
+              "right": 1112.3984375,
+              "bottom": 1563.4765625
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-desktop-compact-v2.png",
+            "naturalSize": [
+              816,
+              280
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las tarjetas Recuperador de Carritos y Recuperador de Carritos con IA.",
+            "caption": "Las dos tarjetas del catálogo permiten distinguir una ruta de carrito de la misión con IA.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "template-cart-selected",
+            "figure": {
+              "x": 375.9921875,
+              "y": 2699.4765625,
+              "width": 774.4140625,
+              "height": 582.34375,
+              "right": 1150.40625,
+              "bottom": 3281.8203125
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 2699.4765625,
+              "width": 774.4140625,
+              "height": 582.34375,
+              "right": 1150.40625,
+              "bottom": 3281.8203125
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 2728.4765625,
+              "width": 716.4140625,
+              "height": 524.34375,
+              "right": 1121.40625,
+              "bottom": 3252.8203125
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 414,
+              "y": 2737.4765625,
+              "width": 698.3984375,
+              "height": 506.34375,
+              "right": 1112.3984375,
+              "bottom": 3243.8203125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/template-cart-selected-es-desktop.png",
+            "naturalSize": [
+              800,
+              580
+            ],
+            "loaded": true,
+            "alt": "Fragmento inicial de una plantilla en el editor de rutas, con el comienzo conectado a un paso de espera de 2 horas.",
+            "caption": "Inicio de la plantilla Salvador de Carrito #1, con una espera de dos horas conectada al comienzo de la ruta.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 375.9921875,
+              "y": 3377.8203125,
+              "width": 774.4140625,
+              "height": 315.6484375,
+              "right": 1150.40625,
+              "bottom": 3693.46875
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 3377.8203125,
+              "width": 774.4140625,
+              "height": 315.6484375,
+              "right": 1150.40625,
+              "bottom": 3693.46875
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 3406.8203125,
+              "width": 716.4140625,
+              "height": 257.6484375,
+              "right": 1121.40625,
+              "bottom": 3664.46875
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 414,
+              "y": 3415.8203125,
+              "width": 698.3984375,
+              "height": 239.6484375,
+              "right": 1112.3984375,
+              "bottom": 3655.46875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-desktop-compact.png",
+            "naturalSize": [
+              816,
+              280
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las opciones Creador de Rutas y Agente personalizado.",
+            "caption": "Creador de Rutas es la entrada para diseñar una ruta personalizada.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-saved-draft",
+            "figure": {
+              "x": 375.9921875,
+              "y": 4223.46875,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 4537.46875
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 4223.46875,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 4537.46875
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 547.1953125,
+              "y": 4252.46875,
+              "width": 432,
+              "height": 256,
+              "right": 979.1953125,
+              "bottom": 4508.46875
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 556.1953125,
+              "y": 4261.46875,
+              "width": 414,
+              "height": 238,
+              "right": 970.1953125,
+              "bottom": 4499.46875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-desktop-v2.png",
+            "naturalSize": [
+              414,
+              238
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Borradores seleccionado y la ruta ficticia guardada con el disparador Visitó un producto.",
+            "caption": "La ruta ficticia guardada aparece en Borradores.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-active",
+            "figure": {
+              "x": 375.9921875,
+              "y": 4633.46875,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 4947.46875
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 4633.46875,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 4947.46875
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 547.1953125,
+              "y": 4662.46875,
+              "width": 432,
+              "height": 256,
+              "right": 979.1953125,
+              "bottom": 4918.46875
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 556.1953125,
+              "y": 4671.46875,
+              "width": 414,
+              "height": 238,
+              "right": 970.1953125,
+              "bottom": 4909.46875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-active-es-desktop.png",
+            "naturalSize": [
+              414,
+              238
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Activas seleccionado y la ruta ficticia con su disparador Visitó un producto.",
+            "caption": "La ruta ficticia aparece en Activas después de publicarla.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-inactive",
+            "figure": {
+              "x": 375.9921875,
+              "y": 5043.46875,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 5357.46875
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 5043.46875,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 5357.46875
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 547.1953125,
+              "y": 5072.46875,
+              "width": 432,
+              "height": 256,
+              "right": 979.1953125,
+              "bottom": 5328.46875
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 556.1953125,
+              "y": 5081.46875,
+              "width": 414,
+              "height": 238,
+              "right": 970.1953125,
+              "bottom": 5319.46875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-inactive-es-desktop.png",
+            "naturalSize": [
+              414,
+              238
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Inactivas seleccionado y la ruta ficticia con su disparador Visitó un producto.",
+            "caption": "La misma ruta ficticia aparece en Inactivas después de elegir Desactivar.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-es-1440-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 5932
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+            "title": "Primeros pasos con rutas | Hellotext",
+            "locale": "es",
+            "viewport": [
+              1440,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              0
+            ]
+          },
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            2880,
+            11864
+          ],
+          "icc": "Display P3",
+          "sha256": "50f1ef4b11945b6cd6856f3618eb57d74562017dfdfb9caa57364c31f6d6350a"
+        },
+        {
+          "file": "getting-started-with-journeys-es-1440-custom-active.png",
+          "clip": {
+            "x": 363,
+            "y": 4621,
+            "width": 800,
+            "height": 339
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+            "title": "Primeros pasos con rutas | Hellotext",
+            "locale": "es",
+            "viewport": [
+              1440,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              4190.5
+            ]
+          },
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            678
+          ],
+          "icc": "Display P3",
+          "sha256": "a8c9a2ffd3aa2e64c54fa31d73a9b1685fb19537b01a3492e6404b950fd0f2a4"
+        },
+        {
+          "file": "getting-started-with-journeys-es-1440-custom-inactive.png",
+          "clip": {
+            "x": 363,
+            "y": 5031,
+            "width": 800,
+            "height": 339
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+            "title": "Primeros pasos con rutas | Hellotext",
+            "locale": "es",
+            "viewport": [
+              1440,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              4600.5
+            ]
+          },
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            678
+          ],
+          "icc": "Display P3",
+          "sha256": "77141a172877826fa0e22f6d4c9ba79f9096bbb4f275386a57e3b0dfde5a11c6"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "6a51a31b11d6fb37b66c49d69dce14855d8f27ea096bb34dd43d636e2018ed99",
+      "built_html": "_site/es/primeros-pasos-con-rutas.html",
+      "built_html_sha256": "dcdbdeebdfe45ce9154d8fc66a139db365087a757d5c3aacc6715851b62447e6",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+        "title": "Primeros pasos con rutas | Hellotext",
+        "locale": "es",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 580,
+        "documentHeight": 6685,
+        "article": {
+          "x": 16,
+          "y": 468,
+          "width": 548,
+          "height": 5645,
+          "right": 564,
+          "bottom": 6113
+        },
+        "headings": [
+          "Cuándo usar una rutaEnlace copiado",
+          "Cuándo usar otro tipo de misiónEnlace copiado",
+          "Cómo funcionan las rutasEnlace copiado",
+          "Empieza desde una plantilla de rutaEnlace copiado",
+          "Revisa antes de publicarEnlace copiado",
+          "Próximos pasosEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 16,
+              "y": 1292,
+              "width": 548,
+              "height": 484,
+              "right": 564,
+              "bottom": 1776
+            },
+            "stage": {
+              "x": 16,
+              "y": 1292,
+              "width": 548,
+              "height": 484,
+              "right": 564,
+              "bottom": 1776
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 1321,
+              "width": 408,
+              "height": 426,
+              "right": 494,
+              "bottom": 1747
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 1330,
+              "width": 390,
+              "height": 408,
+              "right": 485,
+              "bottom": 1738
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-mobile-compact.png",
+            "naturalSize": [
+              390,
+              408
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las tarjetas Recuperador de Carritos y Recuperador de Carritos con IA.",
+            "caption": "Las dos tarjetas del catálogo permiten distinguir una ruta de carrito de la misión con IA.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "template-cart-selected",
+            "figure": {
+              "x": 16,
+              "y": 2988,
+              "width": 548,
+              "height": 626,
+              "right": 564,
+              "bottom": 3614
+            },
+            "stage": {
+              "x": 16,
+              "y": 2988,
+              "width": 548,
+              "height": 626,
+              "right": 564,
+              "bottom": 3614
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 3017,
+              "width": 408,
+              "height": 568,
+              "right": 494,
+              "bottom": 3585
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 3026,
+              "width": 390,
+              "height": 550,
+              "right": 485,
+              "bottom": 3576
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/template-cart-selected-es-mobile.png",
+            "naturalSize": [
+              390,
+              550
+            ],
+            "loaded": true,
+            "alt": "Fragmento inicial de una plantilla en el editor de rutas, con el comienzo conectado a un paso de espera de 2 horas.",
+            "caption": "Inicio de la plantilla Salvador de Carrito #1, con una espera de dos horas conectada al comienzo de la ruta.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 16,
+              "y": 3734,
+              "width": 548,
+              "height": 484,
+              "right": 564,
+              "bottom": 4218
+            },
+            "stage": {
+              "x": 16,
+              "y": 3734,
+              "width": 548,
+              "height": 484,
+              "right": 564,
+              "bottom": 4218
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 3763,
+              "width": 408,
+              "height": 426,
+              "right": 494,
+              "bottom": 4189
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 3772,
+              "width": 390,
+              "height": 408,
+              "right": 485,
+              "bottom": 4180
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-mobile-compact.png",
+            "naturalSize": [
+              390,
+              408
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las opciones Creador de Rutas y Agente personalizado.",
+            "caption": "Creador de Rutas es la entrada para diseñar una ruta personalizada.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-saved-draft",
+            "figure": {
+              "x": 16,
+              "y": 4778,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5111
+            },
+            "stage": {
+              "x": 16,
+              "y": 4778,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5111
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 4807,
+              "width": 408,
+              "height": 275,
+              "right": 494,
+              "bottom": 5082
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 4816,
+              "width": 390,
+              "height": 257,
+              "right": 485,
+              "bottom": 5073
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Borradores seleccionado y la ruta ficticia guardada con el disparador Visitó un producto.",
+            "caption": "La ruta ficticia guardada aparece en Borradores.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-active",
+            "figure": {
+              "x": 16,
+              "y": 5207,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5540
+            },
+            "stage": {
+              "x": 16,
+              "y": 5207,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5540
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 5236,
+              "width": 408,
+              "height": 275,
+              "right": 494,
+              "bottom": 5511
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 5245,
+              "width": 390,
+              "height": 257,
+              "right": 485,
+              "bottom": 5502
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-active-es-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Activas seleccionado y la ruta ficticia con su disparador Visitó un producto.",
+            "caption": "La ruta ficticia aparece en Activas después de publicarla.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-inactive",
+            "figure": {
+              "x": 16,
+              "y": 5636,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5969
+            },
+            "stage": {
+              "x": 16,
+              "y": 5636,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5969
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 5665,
+              "width": 408,
+              "height": 275,
+              "right": 494,
+              "bottom": 5940
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 5674,
+              "width": 390,
+              "height": 257,
+              "right": 485,
+              "bottom": 5931
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-inactive-es-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Inactivas seleccionado y la ruta ficticia con su disparador Visitó un producto.",
+            "caption": "La misma ruta ficticia aparece en Inactivas después de elegir Desactivar.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-es-580-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 580,
+            "height": 6685
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+            "title": "Primeros pasos con rutas | Hellotext",
+            "locale": "es",
+            "viewport": [
+              580,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              0
+            ]
+          },
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1160,
+            13370
+          ],
+          "icc": "Display P3",
+          "sha256": "01c2cb11e9cf7dff705d6ee4a63419f9e4c257079df6c083d00e685ba4f38e1a"
+        },
+        {
+          "file": "getting-started-with-journeys-es-580-custom-active.png",
+          "clip": {
+            "x": 4,
+            "y": 5195,
+            "width": 572,
+            "height": 357
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+            "title": "Primeros pasos con rutas | Hellotext",
+            "locale": "es",
+            "viewport": [
+              580,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              4773.5
+            ]
+          },
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            714
+          ],
+          "icc": "Display P3",
+          "sha256": "6cb1a7c337e9cf66c9e80f4e5ad5c23dbf6d23c918ac27bfa88f0ddc5c9b8bc4"
+        },
+        {
+          "file": "getting-started-with-journeys-es-580-custom-inactive.png",
+          "clip": {
+            "x": 4,
+            "y": 5624,
+            "width": 572,
+            "height": 357
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+            "title": "Primeros pasos con rutas | Hellotext",
+            "locale": "es",
+            "viewport": [
+              580,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              5202.5
+            ]
+          },
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            714
+          ],
+          "icc": "Display P3",
+          "sha256": "0af5db92728319dc9055d135421ecedc8c064311eae9f7ef52fd26d185691c86"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "6a51a31b11d6fb37b66c49d69dce14855d8f27ea096bb34dd43d636e2018ed99",
+      "built_html": "_site/es/primeros-pasos-con-rutas.html",
+      "built_html_sha256": "dcdbdeebdfe45ce9154d8fc66a139db365087a757d5c3aacc6715851b62447e6",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+        "title": "Primeros pasos con rutas | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 390,
+        "documentHeight": 7159,
+        "article": {
+          "x": 16,
+          "y": 543.5,
+          "width": 358,
+          "height": 6043.5,
+          "right": 374,
+          "bottom": 6587
+        },
+        "headings": [
+          "Cuándo usar una rutaEnlace copiado",
+          "Cuándo usar otro tipo de misiónEnlace copiado",
+          "Cómo funcionan las rutasEnlace copiado",
+          "Empieza desde una plantilla de rutaEnlace copiado",
+          "Revisa antes de publicarEnlace copiado",
+          "Próximos pasosEnlace copiado"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 16,
+              "y": 1679.5,
+              "width": 358,
+              "height": 380.578125,
+              "right": 374,
+              "bottom": 2060.078125
+            },
+            "stage": {
+              "x": 16,
+              "y": 1679.5,
+              "width": 358,
+              "height": 380.578125,
+              "right": 374,
+              "bottom": 2060.078125
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 1698.5,
+              "width": 328,
+              "height": 342.578125,
+              "right": 359,
+              "bottom": 2041.078125
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 1704.5,
+              "width": 315.9921875,
+              "height": 330.578125,
+              "right": 352.9921875,
+              "bottom": 2035.078125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-mobile-compact.png",
+            "naturalSize": [
+              390,
+              408
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las tarjetas Recuperador de Carritos y Recuperador de Carritos con IA.",
+            "caption": "Las dos tarjetas del catálogo permiten distinguir una ruta de carrito de la misión con IA.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "template-cart-selected",
+            "figure": {
+              "x": 16,
+              "y": 3716.078125,
+              "width": 358,
+              "height": 495.640625,
+              "right": 374,
+              "bottom": 4211.71875
+            },
+            "stage": {
+              "x": 16,
+              "y": 3716.078125,
+              "width": 358,
+              "height": 495.640625,
+              "right": 374,
+              "bottom": 4211.71875
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 3735.078125,
+              "width": 328,
+              "height": 457.640625,
+              "right": 359,
+              "bottom": 4192.71875
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 3741.078125,
+              "width": 315.9921875,
+              "height": 445.640625,
+              "right": 352.9921875,
+              "bottom": 4186.71875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/template-cart-selected-es-mobile.png",
+            "naturalSize": [
+              390,
+              550
+            ],
+            "loaded": true,
+            "alt": "Fragmento inicial de una plantilla en el editor de rutas, con el comienzo conectado a un paso de espera de 2 horas.",
+            "caption": "Inicio de la plantilla Salvador de Carrito #1, con una espera de dos horas conectada al comienzo de la ruta.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 16,
+              "y": 4331.71875,
+              "width": 358,
+              "height": 380.578125,
+              "right": 374,
+              "bottom": 4712.296875
+            },
+            "stage": {
+              "x": 16,
+              "y": 4331.71875,
+              "width": 358,
+              "height": 380.578125,
+              "right": 374,
+              "bottom": 4712.296875
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 4350.71875,
+              "width": 328,
+              "height": 342.578125,
+              "right": 359,
+              "bottom": 4693.296875
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 4356.71875,
+              "width": 315.9921875,
+              "height": 330.578125,
+              "right": 352.9921875,
+              "bottom": 4687.296875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-mobile-compact.png",
+            "naturalSize": [
+              390,
+              408
+            ],
+            "loaded": true,
+            "alt": "Catálogo de Hellotext con las opciones Creador de Rutas y Agente personalizado.",
+            "caption": "Creador de Rutas es la entrada para diseñar una ruta personalizada.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-saved-draft",
+            "figure": {
+              "x": 16,
+              "y": 5452.296875,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 5710.53125
+            },
+            "stage": {
+              "x": 16,
+              "y": 5452.296875,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 5710.53125
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 5471.296875,
+              "width": 328,
+              "height": 220.234375,
+              "right": 359,
+              "bottom": 5691.53125
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 5477.296875,
+              "width": 315.9921875,
+              "height": 208.234375,
+              "right": 352.9921875,
+              "bottom": 5685.53125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Borradores seleccionado y la ruta ficticia guardada con el disparador Visitó un producto.",
+            "caption": "La ruta ficticia guardada aparece en Borradores.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-active",
+            "figure": {
+              "x": 16,
+              "y": 5806.53125,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 6064.765625
+            },
+            "stage": {
+              "x": 16,
+              "y": 5806.53125,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 6064.765625
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 5825.53125,
+              "width": 328,
+              "height": 220.234375,
+              "right": 359,
+              "bottom": 6045.765625
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 5831.53125,
+              "width": 315.9921875,
+              "height": 208.234375,
+              "right": 352.9921875,
+              "bottom": 6039.765625
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-active-es-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Activas seleccionado y la ruta ficticia con su disparador Visitó un producto.",
+            "caption": "La ruta ficticia aparece en Activas después de publicarla.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-inactive",
+            "figure": {
+              "x": 16,
+              "y": 6184.765625,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 6443
+            },
+            "stage": {
+              "x": 16,
+              "y": 6184.765625,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 6443
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 6203.765625,
+              "width": 328,
+              "height": 220.234375,
+              "right": 359,
+              "bottom": 6424
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 6209.765625,
+              "width": 315.9921875,
+              "height": 208.234375,
+              "right": 352.9921875,
+              "bottom": 6418
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-inactive-es-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Listado de rutas con Inactivas seleccionado y la ruta ficticia con su disparador Visitó un producto.",
+            "caption": "La misma ruta ficticia aparece en Inactivas después de elegir Desactivar.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-es-390-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 7159
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+            "title": "Primeros pasos con rutas | Hellotext",
+            "locale": "es",
+            "viewport": [
+              390,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              0
+            ]
+          },
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            780,
+            14318
+          ],
+          "icc": "Display P3",
+          "sha256": "01f81c692f8e56037dc378babb7b0e1b5a62c8864f87ce590cab4e961dd0b064"
+        },
+        {
+          "file": "getting-started-with-journeys-es-390-custom-active.png",
+          "clip": {
+            "x": 4,
+            "y": 5794,
+            "width": 382,
+            "height": 283
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+            "title": "Primeros pasos con rutas | Hellotext",
+            "locale": "es",
+            "viewport": [
+              390,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              5335.5
+            ]
+          },
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            566
+          ],
+          "icc": "Display P3",
+          "sha256": "e1c5e3678fc286d995957e98e23cb1013583cc7e2f17b49ed364a277c55bd056"
+        },
+        {
+          "file": "getting-started-with-journeys-es-390-custom-inactive.png",
+          "clip": {
+            "x": 4,
+            "y": 6172,
+            "width": 382,
+            "height": 283
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/es/primeros-pasos-con-rutas.html",
+            "title": "Primeros pasos con rutas | Hellotext",
+            "locale": "es",
+            "viewport": [
+              390,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              5714
+            ]
+          },
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            566
+          ],
+          "icc": "Display P3",
+          "sha256": "b42124b557f1f05e5bd8a53ce33a83160564ff196b7f27ae130ef2d1e4ae0de2"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "source_sha256": "b3519281575ccd7ea7e71b0260263c42406fa5a36ba9721e460db9c9917db7fe",
+      "built_html": "_site/getting-started-with-journeys.html",
+      "built_html_sha256": "cdf0df7d44b75662d51159df653db21817cab0e18c32d15e160c0d869e025ec1",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+        "title": "Getting started with journeys | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 1440,
+        "documentHeight": 5911,
+        "article": {
+          "x": 375.9921875,
+          "y": 563.828125,
+          "width": 774.4140625,
+          "height": 4909.8359375,
+          "right": 1150.40625,
+          "bottom": 5473.6640625
+        },
+        "headings": [
+          "When to use a journeyLink copied",
+          "When to use another playbook typeLink copied",
+          "How journeys workLink copied",
+          "Start from a journey templateLink copied",
+          "Review before publishingLink copied",
+          "Next stepsLink copied"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 375.9921875,
+              "y": 1261.828125,
+              "width": 774.4140625,
+              "height": 315.6484375,
+              "right": 1150.40625,
+              "bottom": 1577.4765625
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 1261.828125,
+              "width": 774.4140625,
+              "height": 315.6484375,
+              "right": 1150.40625,
+              "bottom": 1577.4765625
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 1290.828125,
+              "width": 716.4140625,
+              "height": 257.6484375,
+              "right": 1121.40625,
+              "bottom": 1548.4765625
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 414,
+              "y": 1299.828125,
+              "width": 698.3984375,
+              "height": 239.6484375,
+              "right": 1112.3984375,
+              "bottom": 1539.4765625
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-desktop-compact.png",
+            "naturalSize": [
+              816,
+              280
+            ],
+            "loaded": true,
+            "alt": "Hellotext catalog showing the Cart Saver and AI Cart Saver cards.",
+            "caption": "The two catalog cards distinguish the cart journey from the AI playbook.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "template-cart-selected",
+            "figure": {
+              "x": 375.9921875,
+              "y": 2651.4765625,
+              "width": 774.4140625,
+              "height": 608.5390625,
+              "right": 1150.40625,
+              "bottom": 3260.015625
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 2651.4765625,
+              "width": 774.4140625,
+              "height": 608.5390625,
+              "right": 1150.40625,
+              "bottom": 3260.015625
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 2680.4765625,
+              "width": 716.4140625,
+              "height": 550.5390625,
+              "right": 1121.40625,
+              "bottom": 3231.015625
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 413.9921875,
+              "y": 2689.4765625,
+              "width": 698.40625,
+              "height": 532.5390625,
+              "right": 1112.3984375,
+              "bottom": 3222.015625
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/template-cart-selected-en-desktop.png",
+            "naturalSize": [
+              800,
+              610
+            ],
+            "loaded": true,
+            "alt": "Initial fragment of a template in the journey editor, with the beginning connected to a 2-hour wait step.",
+            "caption": "Beginning of the Cart Saver #1 template, with a two-hour wait connected to the start of the journey.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 375.9921875,
+              "y": 3356.015625,
+              "width": 774.4140625,
+              "height": 315.6484375,
+              "right": 1150.40625,
+              "bottom": 3671.6640625
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 3356.015625,
+              "width": 774.4140625,
+              "height": 315.6484375,
+              "right": 1150.40625,
+              "bottom": 3671.6640625
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 404.9921875,
+              "y": 3385.015625,
+              "width": 716.4140625,
+              "height": 257.6484375,
+              "right": 1121.40625,
+              "bottom": 3642.6640625
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 414,
+              "y": 3394.015625,
+              "width": 698.3984375,
+              "height": 239.6484375,
+              "right": 1112.3984375,
+              "bottom": 3633.6640625
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-desktop-compact.png",
+            "naturalSize": [
+              816,
+              280
+            ],
+            "loaded": true,
+            "alt": "Hellotext catalog showing the Journey Builder and Custom Agent options.",
+            "caption": "Journey Builder is the entry point for designing a custom journey.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-saved-draft",
+            "figure": {
+              "x": 375.9921875,
+              "y": 4201.6640625,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 4515.6640625
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 4201.6640625,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 4515.6640625
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 547.1953125,
+              "y": 4230.6640625,
+              "width": 432,
+              "height": 256,
+              "right": 979.1953125,
+              "bottom": 4486.6640625
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 556.1953125,
+              "y": 4239.6640625,
+              "width": 414,
+              "height": 238,
+              "right": 970.1953125,
+              "bottom": 4477.6640625
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png",
+            "naturalSize": [
+              414,
+              238
+            ],
+            "loaded": true,
+            "alt": "Journey list with Draft selected and the saved fictional journey with the Viewed a product trigger.",
+            "caption": "The saved fictional journey appears under Draft.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-active",
+            "figure": {
+              "x": 375.9921875,
+              "y": 4611.6640625,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 4925.6640625
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 4611.6640625,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 4925.6640625
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 547.1953125,
+              "y": 4640.6640625,
+              "width": 432,
+              "height": 256,
+              "right": 979.1953125,
+              "bottom": 4896.6640625
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 556.1953125,
+              "y": 4649.6640625,
+              "width": 414,
+              "height": 238,
+              "right": 970.1953125,
+              "bottom": 4887.6640625
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-active-en-desktop.png",
+            "naturalSize": [
+              414,
+              238
+            ],
+            "loaded": true,
+            "alt": "Journey list with Active selected and the fictional journey with its Viewed a product trigger.",
+            "caption": "The fictional journey appears under Active after publishing.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-inactive",
+            "figure": {
+              "x": 375.9921875,
+              "y": 5021.6640625,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 5335.6640625
+            },
+            "stage": {
+              "x": 375.9921875,
+              "y": 5021.6640625,
+              "width": 774.4140625,
+              "height": 314,
+              "right": 1150.40625,
+              "bottom": 5335.6640625
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 547.1953125,
+              "y": 5050.6640625,
+              "width": 432,
+              "height": 256,
+              "right": 979.1953125,
+              "bottom": 5306.6640625
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 556.1953125,
+              "y": 5059.6640625,
+              "width": 414,
+              "height": 238,
+              "right": 970.1953125,
+              "bottom": 5297.6640625
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png",
+            "naturalSize": [
+              414,
+              238
+            ],
+            "loaded": true,
+            "alt": "Journey list with Inactive selected and the fictional journey with its Viewed a product trigger.",
+            "caption": "The same fictional journey appears under Inactive after choosing Make inactive.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-en-1440-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 5911
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              1440,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              0
+            ]
+          },
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            2880,
+            11822
+          ],
+          "icc": "Display P3",
+          "sha256": "adeb1fd89ca2fb2ee77a27138e149c6a28b0468c74212eb34dd4b1bc4e6936c8"
+        },
+        {
+          "file": "getting-started-with-journeys-en-1440-catalog-route-vs-agent.png",
+          "clip": {
+            "x": 363,
+            "y": 1249,
+            "width": 800,
+            "height": 341
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              1440,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              819.5
+            ]
+          },
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            682
+          ],
+          "icc": "Display P3",
+          "sha256": "4fa8d1b599aeb4c1675391cc553e4865eb7b03e6ebf3a2c5693d18d097b56b78"
+        },
+        {
+          "file": "getting-started-with-journeys-en-1440-template-cart-selected.png",
+          "clip": {
+            "x": 363,
+            "y": 2639,
+            "width": 800,
+            "height": 634
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              1440,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              2355.5
+            ]
+          },
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            1268
+          ],
+          "icc": "Display P3",
+          "sha256": "66e0c4eed0a50b3051f39a7eb08f8171f0afa8ba527dee237d1b4f812605506b"
+        },
+        {
+          "file": "getting-started-with-journeys-en-1440-catalog-builder-choice.png",
+          "clip": {
+            "x": 363,
+            "y": 3344,
+            "width": 800,
+            "height": 340
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              1440,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              2914
+            ]
+          },
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            680
+          ],
+          "icc": "Display P3",
+          "sha256": "27c524fa483d70b85e940b8307ee1607700d42eeb8b7e34fcfdc1041eec2dce3"
+        },
+        {
+          "file": "getting-started-with-journeys-en-1440-custom-saved-draft.png",
+          "clip": {
+            "x": 363,
+            "y": 4189,
+            "width": 800,
+            "height": 339
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              1440,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              3758.5
+            ]
+          },
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            678
+          ],
+          "icc": "Display P3",
+          "sha256": "c05bcb67cc26daaacb1269740841c258360a53a2a3b6a6157d43041ffd3070e3"
+        },
+        {
+          "file": "getting-started-with-journeys-en-1440-custom-active.png",
+          "clip": {
+            "x": 363,
+            "y": 4599,
+            "width": 800,
+            "height": 339
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              1440,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              4168.5
+            ]
+          },
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            678
+          ],
+          "icc": "Display P3",
+          "sha256": "a815ea04533c283db4af4daf709f2ca3972d64649a1ef2b2e2f36c175aa0c5c6"
+        },
+        {
+          "file": "getting-started-with-journeys-en-1440-custom-inactive.png",
+          "clip": {
+            "x": 363,
+            "y": 5009,
+            "width": 800,
+            "height": 339
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              1440,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              4578.5
+            ]
+          },
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1600,
+            678
+          ],
+          "icc": "Display P3",
+          "sha256": "c8a2ca3889ec75d6ad16b5989fa225da29a5e69eb84edf543033f8b0f9fe0f7b"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "source_sha256": "b3519281575ccd7ea7e71b0260263c42406fa5a36ba9721e460db9c9917db7fe",
+      "built_html": "_site/getting-started-with-journeys.html",
+      "built_html_sha256": "cdf0df7d44b75662d51159df653db21817cab0e18c32d15e160c0d869e025ec1",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+        "title": "Getting started with journeys | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 580,
+        "documentHeight": 6557,
+        "article": {
+          "x": 16,
+          "y": 436,
+          "width": 548,
+          "height": 5549,
+          "right": 564,
+          "bottom": 5985
+        },
+        "headings": [
+          "When to use a journeyLink copied",
+          "When to use another playbook typeLink copied",
+          "How journeys workLink copied",
+          "Start from a journey templateLink copied",
+          "Review before publishingLink copied",
+          "Next stepsLink copied"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 16,
+              "y": 1212,
+              "width": 548,
+              "height": 484,
+              "right": 564,
+              "bottom": 1696
+            },
+            "stage": {
+              "x": 16,
+              "y": 1212,
+              "width": 548,
+              "height": 484,
+              "right": 564,
+              "bottom": 1696
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 1241,
+              "width": 408,
+              "height": 426,
+              "right": 494,
+              "bottom": 1667
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 1250,
+              "width": 390,
+              "height": 408,
+              "right": 485,
+              "bottom": 1658
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-mobile-compact.png",
+            "naturalSize": [
+              390,
+              408
+            ],
+            "loaded": true,
+            "alt": "Hellotext catalog showing the Cart Saver and AI Cart Saver cards.",
+            "caption": "The two catalog cards distinguish the cart journey from the AI playbook.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "template-cart-selected",
+            "figure": {
+              "x": 16,
+              "y": 2932,
+              "width": 548,
+              "height": 626,
+              "right": 564,
+              "bottom": 3558
+            },
+            "stage": {
+              "x": 16,
+              "y": 2932,
+              "width": 548,
+              "height": 626,
+              "right": 564,
+              "bottom": 3558
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 2961,
+              "width": 408,
+              "height": 568,
+              "right": 494,
+              "bottom": 3529
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 2970,
+              "width": 390,
+              "height": 550,
+              "right": 485,
+              "bottom": 3520
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/template-cart-selected-en-mobile.png",
+            "naturalSize": [
+              390,
+              550
+            ],
+            "loaded": true,
+            "alt": "Initial fragment of a template in the journey editor, with the beginning connected to a 2-hour wait step.",
+            "caption": "Beginning of the Cart Saver #1 template, with a two-hour wait connected to the start of the journey.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 16,
+              "y": 3654,
+              "width": 548,
+              "height": 484,
+              "right": 564,
+              "bottom": 4138
+            },
+            "stage": {
+              "x": 16,
+              "y": 3654,
+              "width": 548,
+              "height": 484,
+              "right": 564,
+              "bottom": 4138
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 3683,
+              "width": 408,
+              "height": 426,
+              "right": 494,
+              "bottom": 4109
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 3692,
+              "width": 390,
+              "height": 408,
+              "right": 485,
+              "bottom": 4100
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-mobile-compact.png",
+            "naturalSize": [
+              390,
+              408
+            ],
+            "loaded": true,
+            "alt": "Hellotext catalog showing the Journey Builder and Custom Agent options.",
+            "caption": "Journey Builder is the entry point for designing a custom journey.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-saved-draft",
+            "figure": {
+              "x": 16,
+              "y": 4674,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5007
+            },
+            "stage": {
+              "x": 16,
+              "y": 4674,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5007
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 4703,
+              "width": 408,
+              "height": 275,
+              "right": 494,
+              "bottom": 4978
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 4712,
+              "width": 390,
+              "height": 257,
+              "right": 485,
+              "bottom": 4969
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Journey list with Draft selected and the saved fictional journey with the Viewed a product trigger.",
+            "caption": "The saved fictional journey appears under Draft.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-active",
+            "figure": {
+              "x": 16,
+              "y": 5103,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5436
+            },
+            "stage": {
+              "x": 16,
+              "y": 5103,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5436
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 5132,
+              "width": 408,
+              "height": 275,
+              "right": 494,
+              "bottom": 5407
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 5141,
+              "width": 390,
+              "height": 257,
+              "right": 485,
+              "bottom": 5398
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-active-en-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Journey list with Active selected and the fictional journey with its Viewed a product trigger.",
+            "caption": "The fictional journey appears under Active after publishing.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-inactive",
+            "figure": {
+              "x": 16,
+              "y": 5532,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5865
+            },
+            "stage": {
+              "x": 16,
+              "y": 5532,
+              "width": 548,
+              "height": 333,
+              "right": 564,
+              "bottom": 5865
+            },
+            "stageStyle": {
+              "padding": [
+                "28px",
+                "28px",
+                "28px",
+                "28px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "24px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 86,
+              "y": 5561,
+              "width": 408,
+              "height": 275,
+              "right": 494,
+              "bottom": 5836
+            },
+            "frameStyle": {
+              "padding": [
+                "8px",
+                "8px",
+                "8px",
+                "8px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "16px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 95,
+              "y": 5570,
+              "width": 390,
+              "height": 257,
+              "right": 485,
+              "bottom": 5827
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-inactive-en-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Journey list with Inactive selected and the fictional journey with its Viewed a product trigger.",
+            "caption": "The same fictional journey appears under Inactive after choosing Make inactive.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-en-580-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 580,
+            "height": 6557
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              580,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              0
+            ]
+          },
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1160,
+            13114
+          ],
+          "icc": "Display P3",
+          "sha256": "573ca00b21528fe73617f7ca6845f78065924fc01a29373aa721332ab281fc26"
+        },
+        {
+          "file": "getting-started-with-journeys-en-580-catalog-route-vs-agent.png",
+          "clip": {
+            "x": 4,
+            "y": 1200,
+            "width": 572,
+            "height": 508
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              580,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              854
+            ]
+          },
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            1016
+          ],
+          "icc": "Display P3",
+          "sha256": "3bb0894f45ab8e10a4727c342ce0d01bdc6f786473e073507f4dc3d69b7ee0e3"
+        },
+        {
+          "file": "getting-started-with-journeys-en-580-template-cart-selected.png",
+          "clip": {
+            "x": 4,
+            "y": 2920,
+            "width": 572,
+            "height": 650
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              580,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              2645
+            ]
+          },
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            1300
+          ],
+          "icc": "Display P3",
+          "sha256": "c59f582db204229488ccefae0c9ea25877b358324ea5c1d549d2a29c389695e9"
+        },
+        {
+          "file": "getting-started-with-journeys-en-580-catalog-builder-choice.png",
+          "clip": {
+            "x": 4,
+            "y": 3642,
+            "width": 572,
+            "height": 508
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              580,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              3296
+            ]
+          },
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            1016
+          ],
+          "icc": "Display P3",
+          "sha256": "6a61f4ed679d00a92b44211facabe41203240ee03a270b748afbddd5084861bb"
+        },
+        {
+          "file": "getting-started-with-journeys-en-580-custom-saved-draft.png",
+          "clip": {
+            "x": 4,
+            "y": 4662,
+            "width": 572,
+            "height": 357
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              580,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              4240.5
+            ]
+          },
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            714
+          ],
+          "icc": "Display P3",
+          "sha256": "b3dc2bc6c47039ea6a8be445be9c94bc9111a6161e31243dd1530102633768bd"
+        },
+        {
+          "file": "getting-started-with-journeys-en-580-custom-active.png",
+          "clip": {
+            "x": 4,
+            "y": 5091,
+            "width": 572,
+            "height": 357
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              580,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              4669.5
+            ]
+          },
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            714
+          ],
+          "icc": "Display P3",
+          "sha256": "0465fb62f8e5e9cbed7136c98be22b4d2e2f7dda6db1eea302a0bba20d3e35e8"
+        },
+        {
+          "file": "getting-started-with-journeys-en-580-custom-inactive.png",
+          "clip": {
+            "x": 4,
+            "y": 5520,
+            "width": 572,
+            "height": 357
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              580,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              5098.5
+            ]
+          },
+          "viewport": [
+            580,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            1144,
+            714
+          ],
+          "icc": "Display P3",
+          "sha256": "fb3e50928f5b50874ad453ad495451d19a3d4fb69fd78a58bef398e248e06cf8"
+        }
+      ]
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "source_sha256": "b3519281575ccd7ea7e71b0260263c42406fa5a36ba9721e460db9c9917db7fe",
+      "built_html": "_site/getting-started-with-journeys.html",
+      "built_html_sha256": "cdf0df7d44b75662d51159df653db21817cab0e18c32d15e160c0d869e025ec1",
+      "geometry": {
+        "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+        "title": "Getting started with journeys | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "documentWidth": 390,
+        "documentHeight": 6799,
+        "article": {
+          "x": 16,
+          "y": 507.5,
+          "width": 358,
+          "height": 5719.5,
+          "right": 374,
+          "bottom": 6227
+        },
+        "headings": [
+          "When to use a journeyLink copied",
+          "When to use another playbook typeLink copied",
+          "How journeys workLink copied",
+          "Start from a journey templateLink copied",
+          "Review before publishingLink copied",
+          "Next stepsLink copied"
+        ],
+        "figures": [
+          {
+            "id": "catalog-route-vs-agent",
+            "figure": {
+              "x": 16,
+              "y": 1475.5,
+              "width": 358,
+              "height": 380.578125,
+              "right": 374,
+              "bottom": 1856.078125
+            },
+            "stage": {
+              "x": 16,
+              "y": 1475.5,
+              "width": 358,
+              "height": 380.578125,
+              "right": 374,
+              "bottom": 1856.078125
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 1494.5,
+              "width": 328,
+              "height": 342.578125,
+              "right": 359,
+              "bottom": 1837.078125
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 1500.5,
+              "width": 315.9921875,
+              "height": 330.578125,
+              "right": 352.9921875,
+              "bottom": 1831.078125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-mobile-compact.png",
+            "naturalSize": [
+              390,
+              408
+            ],
+            "loaded": true,
+            "alt": "Hellotext catalog showing the Cart Saver and AI Cart Saver cards.",
+            "caption": "The two catalog cards distinguish the cart journey from the AI playbook.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "template-cart-selected",
+            "figure": {
+              "x": 16,
+              "y": 3428.078125,
+              "width": 358,
+              "height": 495.640625,
+              "right": 374,
+              "bottom": 3923.71875
+            },
+            "stage": {
+              "x": 16,
+              "y": 3428.078125,
+              "width": 358,
+              "height": 495.640625,
+              "right": 374,
+              "bottom": 3923.71875
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 3447.078125,
+              "width": 328,
+              "height": 457.640625,
+              "right": 359,
+              "bottom": 3904.71875
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 3453.078125,
+              "width": 315.9921875,
+              "height": 445.640625,
+              "right": 352.9921875,
+              "bottom": 3898.71875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/template-cart-selected-en-mobile.png",
+            "naturalSize": [
+              390,
+              550
+            ],
+            "loaded": true,
+            "alt": "Initial fragment of a template in the journey editor, with the beginning connected to a 2-hour wait step.",
+            "caption": "Beginning of the Cart Saver #1 template, with a two-hour wait connected to the start of the journey.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "catalog-builder-choice",
+            "figure": {
+              "x": 16,
+              "y": 4043.71875,
+              "width": 358,
+              "height": 380.578125,
+              "right": 374,
+              "bottom": 4424.296875
+            },
+            "stage": {
+              "x": 16,
+              "y": 4043.71875,
+              "width": 358,
+              "height": 380.578125,
+              "right": 374,
+              "bottom": 4424.296875
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 4062.71875,
+              "width": 328,
+              "height": 342.578125,
+              "right": 359,
+              "bottom": 4405.296875
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 4068.71875,
+              "width": 315.9921875,
+              "height": 330.578125,
+              "right": 352.9921875,
+              "bottom": 4399.296875
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-mobile-compact.png",
+            "naturalSize": [
+              390,
+              408
+            ],
+            "loaded": true,
+            "alt": "Hellotext catalog showing the Journey Builder and Custom Agent options.",
+            "caption": "Journey Builder is the entry point for designing a custom journey.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-saved-draft",
+            "figure": {
+              "x": 16,
+              "y": 5092.296875,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 5350.53125
+            },
+            "stage": {
+              "x": 16,
+              "y": 5092.296875,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 5350.53125
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 5111.296875,
+              "width": 328,
+              "height": 220.234375,
+              "right": 359,
+              "bottom": 5331.53125
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 5117.296875,
+              "width": 315.9921875,
+              "height": 208.234375,
+              "right": 352.9921875,
+              "bottom": 5325.53125
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Journey list with Draft selected and the saved fictional journey with the Viewed a product trigger.",
+            "caption": "The saved fictional journey appears under Draft.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-active",
+            "figure": {
+              "x": 16,
+              "y": 5446.53125,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 5704.765625
+            },
+            "stage": {
+              "x": 16,
+              "y": 5446.53125,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 5704.765625
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 5465.53125,
+              "width": 328,
+              "height": 220.234375,
+              "right": 359,
+              "bottom": 5685.765625
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 5471.53125,
+              "width": 315.9921875,
+              "height": 208.234375,
+              "right": 352.9921875,
+              "bottom": 5679.765625
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-active-en-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Journey list with Active selected and the fictional journey with its Viewed a product trigger.",
+            "caption": "The fictional journey appears under Active after publishing.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          },
+          {
+            "id": "custom-inactive",
+            "figure": {
+              "x": 16,
+              "y": 5824.765625,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 6083
+            },
+            "stage": {
+              "x": 16,
+              "y": 5824.765625,
+              "width": 358,
+              "height": 258.234375,
+              "right": 374,
+              "bottom": 6083
+            },
+            "stageStyle": {
+              "padding": [
+                "18px",
+                "14px",
+                "18px",
+                "14px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+              ],
+              "radius": "18px",
+              "background": "color(display-p3 0.9333 0.898 1)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "frame": {
+              "x": 31,
+              "y": 5843.765625,
+              "width": 328,
+              "height": 220.234375,
+              "right": 359,
+              "bottom": 6064
+            },
+            "frameStyle": {
+              "padding": [
+                "5px",
+                "5px",
+                "5px",
+                "5px"
+              ],
+              "border": [
+                "1px",
+                "solid",
+                "color(display-p3 0.9059 0.898 0.9176)"
+              ],
+              "radius": "12px",
+              "background": "rgb(255, 255, 255)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "image": {
+              "x": 37,
+              "y": 5849.765625,
+              "width": 315.9921875,
+              "height": 208.234375,
+              "right": 352.9921875,
+              "bottom": 6058
+            },
+            "imageStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "8px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "static",
+              "visibility": "visible"
+            },
+            "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-inactive-en-mobile.png",
+            "naturalSize": [
+              390,
+              257
+            ],
+            "loaded": true,
+            "alt": "Journey list with Inactive selected and the fictional journey with its Viewed a product trigger.",
+            "caption": "The same fictional journey appears under Inactive after choosing Make inactive.",
+            "captionStyle": {
+              "padding": [
+                "0px",
+                "0px",
+                "0px",
+                "0px"
+              ],
+              "border": [
+                "0px",
+                "none",
+                "color(display-p3 0.0784 0.0157 0.2039)"
+              ],
+              "radius": "0px",
+              "background": "rgba(0, 0, 0, 0)",
+              "display": "block",
+              "position": "absolute",
+              "visibility": "visible"
+            },
+            "interactiveCount": 0,
+            "ancestorsLinked": false
+          }
+        ]
+      },
+      "captures": [
+        {
+          "file": "getting-started-with-journeys-en-390-full.png",
+          "clip": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 6799
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              390,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              0
+            ]
+          },
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            780,
+            13598
+          ],
+          "icc": "Display P3",
+          "sha256": "f57f8d9f40ef5388e9a064b44f300bc1749f23a680a3b578cea38936457a3a89"
+        },
+        {
+          "file": "getting-started-with-journeys-en-390-catalog-route-vs-agent.png",
+          "clip": {
+            "x": 4,
+            "y": 1463,
+            "width": 382,
+            "height": 406
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              390,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              1066
+            ]
+          },
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            812
+          ],
+          "icc": "Display P3",
+          "sha256": "0fa27ea743c394d6efe13e2d4115a8bd70b0f649efbe1b034dd24d74ed3e2afb"
+        },
+        {
+          "file": "getting-started-with-journeys-en-390-template-cart-selected.png",
+          "clip": {
+            "x": 4,
+            "y": 3416,
+            "width": 382,
+            "height": 520
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              390,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              3076
+            ]
+          },
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            1040
+          ],
+          "icc": "Display P3",
+          "sha256": "1dd2cc56868522af9d69bbce82b751a5140083578b9fa2a338ab6d57dc0e08b7"
+        },
+        {
+          "file": "getting-started-with-journeys-en-390-catalog-builder-choice.png",
+          "clip": {
+            "x": 4,
+            "y": 4031,
+            "width": 382,
+            "height": 406
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              390,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              3634
+            ]
+          },
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            812
+          ],
+          "icc": "Display P3",
+          "sha256": "928941cfb080699aa954feb8810491a39c1d231caf1227fabde5f5e3e2d5d00a"
+        },
+        {
+          "file": "getting-started-with-journeys-en-390-custom-saved-draft.png",
+          "clip": {
+            "x": 4,
+            "y": 5080,
+            "width": 382,
+            "height": 283
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              390,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              4621.5
+            ]
+          },
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            566
+          ],
+          "icc": "Display P3",
+          "sha256": "6ccc494c20b59f594b22deaa15a899c953e8df07450c6b65e833dd20589f19ec"
+        },
+        {
+          "file": "getting-started-with-journeys-en-390-custom-active.png",
+          "clip": {
+            "x": 4,
+            "y": 5434,
+            "width": 382,
+            "height": 283
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              390,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              4975.5
+            ]
+          },
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            566
+          ],
+          "icc": "Display P3",
+          "sha256": "41e0a28170074fecfe2025ba46322ea8d37dd431287d4008c26a7fafca4e7486"
+        },
+        {
+          "file": "getting-started-with-journeys-en-390-custom-inactive.png",
+          "clip": {
+            "x": 4,
+            "y": 5812,
+            "width": 382,
+            "height": 283
+          },
+          "page_state": {
+            "url": "http://127.0.0.1:4306/getting-started-with-journeys.html",
+            "title": "Getting started with journeys | Hellotext",
+            "locale": "en",
+            "viewport": [
+              390,
+              1200
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              5354
+            ]
+          },
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "pixelSize": [
+            764,
+            566
+          ],
+          "icc": "Display P3",
+          "sha256": "a49b5a71fb1279da47a42b184885d6915bd57e2d3f68c7eec9d99637b89d89fd"
+        }
+      ]
+    }
+  ],
+  "blocked_requests": [
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    },
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    }
+  ],
+  "runtime_errors": [],
+  "reused_details": [
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "width": 1440,
+      "id": "catalog-route-vs-agent",
+      "source_sha256": "222ce8939e512686e30da7c8efc01caa175c649e03cb19216b80cb784cdfd210",
+      "prior_receipt_sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867",
+      "prior_capture": "../../es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-catalog-route-vs-agent.png",
+      "prior_capture_sha256": "36dc03ef61c28fb324620878907f4d7af223590b620ce48e756377500186a141",
+      "geometry_signature_sha256": "be03b0839585b4eafead01873f55e379f9bd23b919ed09798aca8f2e454cb87f",
+      "same_source_and_geometry": true
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "width": 1440,
+      "id": "template-cart-selected",
+      "source_sha256": "da86b6d52f5d3798210eca8ac3b69bfb75f3c5f70a1529b4b3ec118a9f183109",
+      "prior_receipt_sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867",
+      "prior_capture": "../../es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-template-cart-selected-viewport.png",
+      "prior_capture_sha256": "6a1171de5b7b3563e6a7167e00abf473eda488d315827cede5bdea61085e4b3f",
+      "geometry_signature_sha256": "d4b413321c9a9c519aa7fd79dddaf576e13fdc578b8aba9aa73ab5ac495de179",
+      "same_source_and_geometry": true
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "width": 1440,
+      "id": "catalog-builder-choice",
+      "source_sha256": "74c43ec93e6098c5903f9e5ade6d3f6215d4125da855c24decf54509721710f6",
+      "prior_receipt_sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867",
+      "prior_capture": "../../es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-catalog-builder-choice.png",
+      "prior_capture_sha256": "92f722b847fa69406d876591481f331c3f4e3bd7773e2c9234e23d4e1e663b39",
+      "geometry_signature_sha256": "b0ecdb3233597ea5abfc6e398a00e94d9f2d489c2b65464d34ce344a6a46430c",
+      "same_source_and_geometry": true
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "width": 1440,
+      "id": "custom-saved-draft",
+      "source_sha256": "05338eda075acef734e13d539ddaabeab013c85a3e58a83c528eb17061441646",
+      "prior_receipt_sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867",
+      "prior_capture": "../../es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-1440-custom-saved-draft.png",
+      "prior_capture_sha256": "ce4f646cec08365d653e06d78f78e78ccbe5948335283ce22a57591fee9ef2f5",
+      "geometry_signature_sha256": "246502d91ca0bbc5ab6271cc4eaa57cf7f2042d9ca0908e5c9d562335dec55f1",
+      "same_source_and_geometry": true
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "width": 580,
+      "id": "catalog-route-vs-agent",
+      "source_sha256": "586ac88d21871db6df4cb2d25c38467d003d9836f3da859d39dbdc541d27ddb8",
+      "prior_receipt_sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867",
+      "prior_capture": "../../es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-580-catalog-route-vs-agent.png",
+      "prior_capture_sha256": "6095736743293690fe8708d4a7128ca791282f8d50166cfaa1b375a9ced187c2",
+      "geometry_signature_sha256": "b6092e36069fbdc8431d9379633249ec76427c6ac2c5237fc4fcc4f5e2d46716",
+      "same_source_and_geometry": true
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "width": 580,
+      "id": "template-cart-selected",
+      "source_sha256": "f2ebb99b499a6286572202edf4f54ff364bf1f427900a6bde8458472bb17890d",
+      "prior_receipt_sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867",
+      "prior_capture": "../../es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-580-template-cart-selected.png",
+      "prior_capture_sha256": "ce43b62054277e6e5208b2516476fa9aeb8e1b0f81a1099512e229344bc9548a",
+      "geometry_signature_sha256": "6df0873ce0375903738b5b717b77ca9596465bb8adc464efda875cd2e52fd885",
+      "same_source_and_geometry": true
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "width": 580,
+      "id": "catalog-builder-choice",
+      "source_sha256": "3cc12360eca02e970d1df91988b4fc089f10413ed3cd79beef697285d35062e4",
+      "prior_receipt_sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867",
+      "prior_capture": "../../es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-580-catalog-builder-choice.png",
+      "prior_capture_sha256": "a2b90e1ed6396b9de0cf89e52eb4398a8d2c6539837fde0f9ec7c1705b4adbf1",
+      "geometry_signature_sha256": "bbd03065eb2da72968aecb6c552223b764c5c4691f8e725ab426c5748cd60e3b",
+      "same_source_and_geometry": true
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "width": 580,
+      "id": "custom-saved-draft",
+      "source_sha256": "3529b6f44033019d7fbf3606fdad64a45f5373f3f6c086a0c1a39f00bc7e80b6",
+      "prior_receipt_sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867",
+      "prior_capture": "../../es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-580-custom-saved-draft.png",
+      "prior_capture_sha256": "cc803b4a6ede9b886d88390a46cbda926ddf53890c55a4aa96ba8ef24531c7db",
+      "geometry_signature_sha256": "18f418e1db64ed4beaa987dc937f94dbb5331d66a2d7b7afd2b01344444674a4",
+      "same_source_and_geometry": true
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "width": 390,
+      "id": "catalog-route-vs-agent",
+      "source_sha256": "586ac88d21871db6df4cb2d25c38467d003d9836f3da859d39dbdc541d27ddb8",
+      "prior_receipt_sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867",
+      "prior_capture": "../../es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-390-catalog-route-vs-agent.png",
+      "prior_capture_sha256": "d021a46e52e6ddc34d8703b6736e12fe74eb23ff9bf5fe2139c8ce21447b3abf",
+      "geometry_signature_sha256": "fb49f6fd533cb3e9468fc5b2733febe427f000b6e4766e9700042782ce1c3534",
+      "same_source_and_geometry": true
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "width": 390,
+      "id": "template-cart-selected",
+      "source_sha256": "f2ebb99b499a6286572202edf4f54ff364bf1f427900a6bde8458472bb17890d",
+      "prior_receipt_sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867",
+      "prior_capture": "../../es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-390-template-cart-selected.png",
+      "prior_capture_sha256": "2a1700afa2c1bf0f59ac0deb07ee4c8ba276db4fd9c4504ce279218df9acfc60",
+      "geometry_signature_sha256": "e7f021af9605638b3e7a92e9f4dab20deee5cbb0981b058830919c75ca953a87",
+      "same_source_and_geometry": true
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "width": 390,
+      "id": "catalog-builder-choice",
+      "source_sha256": "3cc12360eca02e970d1df91988b4fc089f10413ed3cd79beef697285d35062e4",
+      "prior_receipt_sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867",
+      "prior_capture": "../../es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-390-catalog-builder-choice.png",
+      "prior_capture_sha256": "21e83cb2f117aac3c4826cb8f2a94e86749e56c7a980df78712a0a753c155df1",
+      "geometry_signature_sha256": "8ecf1874470db0894fe929c2b7730c13cc019f176438bce8b520e468784cce3b",
+      "same_source_and_geometry": true
+    },
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "width": 390,
+      "id": "custom-saved-draft",
+      "source_sha256": "3529b6f44033019d7fbf3606fdad64a45f5373f3f6c086a0c1a39f00bc7e80b6",
+      "prior_receipt_sha256": "0d3908ae2e6f57e877503fde982550eb9aa2ce66bcd4446516ed29658a199867",
+      "prior_capture": "../../es-group-checkpoint-20261011/visual-review/getting-started-with-journeys-es-390-custom-saved-draft.png",
+      "prior_capture_sha256": "006d8b7923b3f8b3475daddcba0822d7549f20cce19f3b26c8a21c13340afa05",
+      "geometry_signature_sha256": "29454eefeedc640f9e441937ba58e893d8370cebe96298d0255a7183fcbe398a",
+      "same_source_and_geometry": true
+    }
+  ],
+  "shared_details": [],
+  "error": "AssertionError [ERR_ASSERTION]: The input did not match the regular expression /profile: Display P3/. Input:\n\n'/Users/pel/Documents/Codex/2026-10-06/task-8/help-journeys-workflow-local-20261010/docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/custom-journey-es-1440-full.png\\n' +\n  '  profile: <nil>\\n' +\n  '  pixelWidth: 2880\\n' +\n  '  pixelHeight: 18532\\n'\n\n    at capture (file:///Users/pel/Documents/Codex/2026-10-06/task-8/help-journeys-workflow-local-20261010/docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/review-pages.mjs:64:132)\n    at async file:///Users/pel/Documents/Codex/2026-10-06/task-8/help-journeys-workflow-local-20261010/docs/editorial-work/captures/journeys-workflow-local-20261010/audit/final-bilingual-checkpoint-20261011/visual-review/review-pages.mjs:101:18"
+}

@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-10-10T22:15:32.329239+00:00",
+  "finding": "A top-level audit directory is not excluded by current Jekyll configuration; first local build copied its input snapshot and log into both locale outputs.",
+  "correction": "Moved only this newly created evidence directory underneath already-excluded docs/. No configuration or article change.",
+  "initial_build_accepted_as_export_checkpoint": false,
+  "public_or_external_writes": 0,
+  "repeat_build_reason": "Verify corrected export excludes local editorial evidence."
+}

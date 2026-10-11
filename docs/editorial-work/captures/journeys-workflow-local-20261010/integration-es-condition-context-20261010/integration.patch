@@ -1,0 +1,11 @@
+--- before/_i18n/es/journeys/custom-journey.md
++++ after/_i18n/es/journeys/custom-journey.md
+@@ -62,6 +62,8 @@
+ 
+ Por ejemplo, puedes enviar por un camino a clientes que compraron y por otro a clientes que no compraron.
+ 
++El siguiente ejemplo usa la edad como condición para una rama.
++
+ <!-- journeys-workflow:custom-condition-age:start -->
+ <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-condition-age" aria-label="Ejemplo de condición por edad">
+   <div class="ht-editorial-visual__stage">

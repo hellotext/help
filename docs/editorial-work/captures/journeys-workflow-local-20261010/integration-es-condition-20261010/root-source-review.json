@@ -1,0 +1,28 @@
+{
+  "reviewed_at": "2026-10-10T23:21:24.746534+00:00",
+  "status": "accepted_native_configuration_candidates_persistence_not_yet_proven",
+  "reviewer": "root",
+  "files": [
+    {
+      "path": "journeys-workflow-capture-20261010/captures/custom-condition-age-es-desktop.png",
+      "sha256": "3101b29b647c02c65f521a75771bca87cd3a9b5516ebbcaec374c3029d027769",
+      "metadata_path": "journeys-workflow-capture-20261010/captures/custom-condition-age-es-desktop.json",
+      "metadata_sha256": "cb407fecea5bfee67ba80166a2a5ba82c4d4bb01fac10a39443bf16553585369"
+    },
+    {
+      "path": "journeys-workflow-capture-20261010/captures/custom-condition-age-es-mobile.png",
+      "sha256": "e6443caf946cb59832b804ccf2673712b4815bdf2f2d403ddbf8c5e8fd3a04cb",
+      "metadata_path": "journeys-workflow-capture-20261010/captures/custom-condition-age-es-mobile.json",
+      "metadata_sha256": "a0b5a2a8ca04ed077d00b8a80d7116013210243a784f86eea58a13e85228d9a4"
+    }
+  ],
+  "pixels_reviewed": {
+    "locale": "es",
+    "heading": "Condición",
+    "rule": "Características del cliente / Tiene / Edad / Más que / 18",
+    "wait": "No esperar hasta que se cumpla una condición",
+    "legibility": "Both complete rule controls and wait choice readable; compact native panel crop, no unrelated UI or pointer overlay."
+  },
+  "coverage_limit": "One branch rule configuration only. Does not show saved database values, full branch topology, execution or activation.",
+  "integration": "After the existing Condition example, describe this figure as a distinct age-rule example; do not imply a purchase rule."
+}
