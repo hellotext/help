@@ -1,0 +1,78 @@
+{
+  "status": "passed_static_root_review_pending_real_clone_binding",
+  "reviewed_at": "2026-10-11T13:58:47.179297+00:00",
+  "reviewer": "root",
+  "files": [
+    {
+      "path": "csat-capture-20261011/private/clone-csat-fixture.py",
+      "sha256": "ecfbf5f8424de67d433f7d123b87b0f2c8119a95c2fb1d94c7e03e698352a919",
+      "read_complete": true
+    },
+    {
+      "path": "csat-capture-20261011/private/bind-clone-result.py",
+      "sha256": "7797c5fdb37ea92bd78d8fb3da12e1dd0f55745c496d12f2438d9e24d76d1a0d",
+      "read_complete": true
+    },
+    {
+      "path": "csat-capture-20261011/private/prepare-fixture.rb",
+      "sha256": "d839a7e73e13708796dc4ba3c85e4c4f8736b5cb3ceb1d3472a82f515c56f8c6",
+      "read_complete": true
+    },
+    {
+      "path": "csat-capture-20261011/private/with-runtime.py",
+      "sha256": "d9b14a539f85143421fdb65203505e77a360f0e8c45a48e0bda8cbb7063ec22b",
+      "read_complete": true
+    },
+    {
+      "path": "csat-capture-20261011/private/register-runtime-guard.rb",
+      "sha256": "1e4108de2e5c1b6df3e4c4d7c8e5fab0f8a26df314f055507bd7bcfe4c11b181",
+      "read_complete": true
+    },
+    {
+      "path": "csat-capture-20261011/private/capture-checks.rb",
+      "sha256": "4e7103bd3a6e97876941e4ddfbae7688a365c049a2636e671857364d3f1df7ae",
+      "read_complete": true
+    },
+    {
+      "path": "csat-capture-20261011/private/runtime-actions.rb",
+      "sha256": "db9d42e92220d99f3823629f113d3316ee12cd58b0c6b843418cd7f7e4ff004a",
+      "read_complete": true
+    },
+    {
+      "path": "csat-capture-20261011/private/native-route-probe.rb",
+      "sha256": "18210a78513ef0ab6ed576f5674f07b55e85084a7d68641d6e773b26b99322a1",
+      "read_complete": true
+    },
+    {
+      "path": "csat-capture-20261011/private/egress.sb",
+      "sha256": "5781ebe6b75416c08d288d07c006b55538813e2ea617f4fe9b0a506c0194d0ab",
+      "read_complete": true
+    },
+    {
+      "path": "csat-capture-20261011/private/csat-redis-egress.sb",
+      "sha256": "ad362c0215939f8f4b167f2fa4cb3855a40c9b340f17a9ad55b22513525f7d04",
+      "read_complete": true
+    },
+    {
+      "path": "csat-capture-20261011/private/start-csat-redis.py",
+      "sha256": "c8ad60c048e4c86d748fefcb00319100640a898d6ab5a67081dd1fd1d812d896",
+      "read_complete": true
+    }
+  ],
+  "independent_review": {
+    "path": "audit/csat-completion-20261011/independent-static-review.json",
+    "sha256": "e930822054da3524f053f665dfab58a279951880b75e16a6fc991f0e2aa41a2b"
+  },
+  "approved_now": [
+    "Exact clone helper creates only new owned CSAT database from closed fictional source, compares541tables536sequences before/after.",
+    "Offline binding of genuine successful clone receipt, preserve old contract."
+  ],
+  "reviewed_runtime_scope": "Ten native CSAT component/join rows in new copy only; no original rows changed. Nonperforming queues/mail, external-network-denied Rails, native templates ES/EN. Boot still requires exact live clone and helper/env binding.",
+  "findings": [],
+  "pending": [
+    "Native clone success",
+    "Bound boot ticket",
+    "Observed preparation and preflight",
+    "Separate browser policy review and real pixels"
+  ]
+}

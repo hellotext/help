@@ -1,0 +1,144 @@
+{
+  "schema": "csat-report-integration-independent-review-v1",
+  "status": "passed_static_integration_and_source_review_inline_pending",
+  "reviewer": "/root/customize_publication",
+  "at": "2026-10-11T14:02:04.066514+00:00",
+  "scope": "Independent review of report figures and their lead-in/alt/caption additions after the separately approved semantic copy; no claim of actual survey execution or complete rendered Help QA.",
+  "evidence": [
+    {
+      "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/report-integration.json",
+      "sha256": "7f025c56f5ca3e3e159bd89deb37674cfb0ea2a32d8878c4ea7e46dd07b15510"
+    },
+    {
+      "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/report-reuse-review.json",
+      "sha256": "7efc86e526989217d63eea7a4ce0329adab3086ef6337b043250dd17f3f56ef2"
+    },
+    {
+      "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/copy-independent-review.json",
+      "sha256": "76b996f734d8d0e5dac924949be31a5315a01c22a0c09ccd44aafe107a173201"
+    },
+    {
+      "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/report-caption-adjustment.json",
+      "sha256": "8ff2079f5554877e144780a2f9137923362ff09b21a9bdaa450711ca5ce92109"
+    }
+  ],
+  "records": [
+    {
+      "locale": "es",
+      "article": "_i18n/es/journeys/csat-pulse-playbook.md",
+      "article_sha256": "403eec6fdeea4cfedfa0a75bb63ba59035e98aa5b0a1ae1e552e77965036113a",
+      "base_copy_sha256": "04ae0836fa3d6d289dd42bf74fc1ca013f2c7a00d69050f795d4211e04470a1b",
+      "only_changes_after_approved_copy": [
+        "one contextual lead-in paragraph",
+        "one static report figure",
+        "later figcaption simplification only"
+      ],
+      "headings_preserved": 12,
+      "ordered_links_preserved": 24,
+      "report_png": {
+        "path": "help-csat-completion-20261011/images/analytics-reporting-attribution/service-quality-report-guide/resolution-csat-es.png",
+        "sha256": "dd80835c1f99f63dfcc8b15c4a8d80d472966dffe1b0cf8c3fb95763c713c4be"
+      },
+      "provenance": {
+        "path": "help-csat-completion-20261011/docs/editorial-work/captures/service-quality-report-guide/resolution-csat-es.json",
+        "sha256": "60ba229bbebcccb1fa28f22ac7c77344fd37354254a9cd72d23b686361ab4d98"
+      },
+      "pixel_size": [
+        2414,
+        932
+      ],
+      "native_density": 2,
+      "icc": {
+        "profile": "Display P3",
+        "sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+        "bytes": 536
+      },
+      "chunk_types": [
+        "IDAT",
+        "IEND",
+        "IHDR",
+        "cICP",
+        "eXIf",
+        "iCCP"
+      ],
+      "all_chunk_crcs_valid": true,
+      "source_individually_viewed": true,
+      "visual_observation": "Two complete native report cards. Resolution59/41 is separate from CSAT81/75; both comparison indicators green. Labels match locale. Lead-in and alt describe these actual pixels.",
+      "viewing_limit": "view_image requested original; tool displayed2048px width. This does not constitute inline Help review.",
+      "caption": "Interfaz real de Calidad de servicio con datos ficticios del 11 al 24 de septiembre de 2026: 81 % de CSAT de agentes de IA y 75 % de CSAT de colaboradores.",
+      "native_width_css": 1207,
+      "frame_max_width_css": 1225,
+      "same_desktop_source_at_both_help_layouts": true
+    },
+    {
+      "locale": "en",
+      "article": "_i18n/en/journeys/csat-pulse-playbook.md",
+      "article_sha256": "84b1585b1d32b952ae89ef7b5bf9499389cce214f8d8c1845eb761d5a8386b64",
+      "base_copy_sha256": "0bd67e93a9768c8d0d21191a60bd52cccf93c07622931148314b6d72bb8493e2",
+      "only_changes_after_approved_copy": [
+        "one contextual lead-in paragraph",
+        "one static report figure",
+        "later figcaption simplification only"
+      ],
+      "headings_preserved": 12,
+      "ordered_links_preserved": 24,
+      "report_png": {
+        "path": "help-csat-completion-20261011/images/analytics-reporting-attribution/service-quality-report-guide/resolution-csat-en.png",
+        "sha256": "1620c7d798175ee51e4047d471731c40304c0705e6615c2b176ef1e7f1757eeb"
+      },
+      "provenance": {
+        "path": "help-csat-completion-20261011/docs/editorial-work/captures/service-quality-report-guide/resolution-csat-en.json",
+        "sha256": "9ddd0e56077c862b8ec26e1e199a9fccad5c89ce4c373141527d4dc54232ead1"
+      },
+      "pixel_size": [
+        2414,
+        940
+      ],
+      "native_density": 2,
+      "icc": {
+        "profile": "Display P3",
+        "sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+        "bytes": 536
+      },
+      "chunk_types": [
+        "IDAT",
+        "IEND",
+        "IHDR",
+        "cICP",
+        "eXIf",
+        "iCCP"
+      ],
+      "all_chunk_crcs_valid": true,
+      "source_individually_viewed": true,
+      "visual_observation": "Two complete native report cards. Resolution59/41 is separate from CSAT81/75; both comparison indicators green. Labels match locale. Lead-in and alt describe these actual pixels.",
+      "viewing_limit": "view_image requested original; tool displayed2048px width. This does not constitute inline Help review.",
+      "caption": "Real Service Quality interface with fictional data for September 11–24, 2026: 81% AI agents CSAT and 75% teammates CSAT.",
+      "native_width_css": 1207,
+      "frame_max_width_css": 1225,
+      "same_desktop_source_at_both_help_layouts": true
+    }
+  ],
+  "resolved_recommendations": [
+    {
+      "id": "CSAT-REPORT-CAPTION",
+      "status": "closed_by_root_caption_only_change",
+      "reason": "Keep reader-facing caption focused on Service Quality values and fictional period. Historical reuse/lineage stays in CAP/workrecord.",
+      "adjustment": {
+        "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/report-caption-adjustment.json",
+        "sha256": "8ff2079f5554877e144780a2f9137923362ff09b21a9bdaa450711ca5ce92109"
+      }
+    }
+  ],
+  "findings": [],
+  "pending": [
+    "Actual new native CSAT sources and admission",
+    "Complete six-view Help review and every figure detail, including mobile readability of the historical report"
+  ],
+  "operations": {
+    "help_edits": false,
+    "network_requests": false,
+    "build": false,
+    "services": false,
+    "publication": false
+  }
+}

@@ -13,7 +13,7 @@ Puede:
 - Enviar una pregunta CSAT después de que una conversación se resuelve o cierra.
 - Usar una respuesta simple de pulgar arriba o pulgar abajo por defecto.
 - Registrar respuestas positivas y negativas de satisfacción.
-- Evitar preguntar dos veces por la misma conversación.
+- Evitar nuevas preguntas al mismo contacto o conversación durante los 14 días posteriores a la última pregunta CSAT.
 - Respetar reglas de canal, consentimiento y elegibilidad de envío.
 - Enviar un seguimiento después de una respuesta y derivar el feedback negativo cuando hay una derivación configurada.
 - Aportar las respuestas recibidas a los porcentajes de CSAT de agentes de IA y CSAT de colaboradores en Calidad de servicio.
@@ -51,7 +51,7 @@ Usa el Inbox directamente cuando el cliente está molesto, sigue esperando ayuda
 Antes de habilitar Pulso CSAT, confirma:
 
 - Tu equipo tiene una forma clara de marcar conversaciones como resueltas o cerradas.
-- El historial de conversación está disponible para que Hellotext pueda detectar si la interacción fue significativa.
+- La conversación tiene una interacción resuelta con un mensaje recibido del cliente durante esa interacción.
 - Los canales donde quieres pedir CSAT están conectados y son elegibles.
 - Los perfiles de cliente tienen consentimiento para el canal.
 - Tu equipo sabe quién revisa y da seguimiento al feedback negativo.
@@ -63,49 +63,122 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 Abre **Misiones**, haz clic en **Explorar misiones** y elige **Pulso CSAT**.
 
-Abre **Mensaje CSAT** para editar la pregunta que reciben los clientes después de resolver la conversación.
+Abre **Mensaje de CSAT** para editar la pregunta que reciben los clientes después de resolver la conversación.
 
-El mensaje CSAT por defecto es corto y conversacional, por ejemplo:
+El mensaje CSAT por defecto pregunta «¿Quedaste conforme con la ayuda?» y ofrece las opciones **👍 Sí** y **👎 No**.
 
-Antes de cerrar: ¿quedaste satisfecho con la ayuda? 👍 / 👎
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-csat-figure="question-controls" aria-label="Editor del mensaje CSAT">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 658px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/csat-completion-20261011/question-controls-es-mobile.png 4x" width="1496" height="1548" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/csat-completion-20261011/question-controls-es-desktop.png" srcset="/images/editorial/csat-completion-20261011/question-controls-es-desktop.png 4x" width="2560" height="1500" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Mensaje de CSAT con la pregunta predeterminada y las opciones Sí y No en el editor." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con configuración de demostración: revisa la pregunta y las dos opciones antes de habilitar Pulso CSAT.</figcaption>
+</figure>
 
 Puedes adaptar el mensaje al tono de tu marca. Mantenlo breve y fácil de responder.
 
 Evita hacer varias preguntas a la vez. CSAT funciona mejor cuando la primera respuesta es simple.
 
+La vista previa muestra la pregunta y sus dos opciones. Revísalas antes de habilitar la misión.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-csat-figure="static-preview" aria-label="Vista previa de la pregunta CSAT">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 560px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/csat-completion-20261011/static-preview-es-mobile.png 4x" width="1528" height="784" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/csat-completion-20261011/static-preview-es-desktop.png" srcset="/images/editorial/csat-completion-20261011/static-preview-es-desktop.png 4x" width="2168" height="784" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Vista previa de la pregunta ¿Quedaste conforme con la ayuda? y los botones Sí y No." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Vista previa nativa de la configuración de demostración; no representa un mensaje enviado ni una respuesta recibida.</figcaption>
+</figure>
+
 ## Elige cuándo debería dispararse
 
-El disparador es **al resolver**: Pulso CSAT envía después de que una conversación se marca como resuelta o cerrada.
+El disparador es **al resolver**: Pulso CSAT puede enviar después de que una conversación se marca como resuelta o cerrada, si cumple las condiciones de audiencia, interacción y canal.
 
 Si el timing depende de productos entregados en lugar de una conversación resuelta, ese es un momento de [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}).
 
 ## Entiende elegibilidad
 
-Pulso CSAT debería preguntar solo cuando la interacción fue significativa.
+Pulso CSAT revisa la interacción resuelta, la audiencia y el canal antes de preparar la pregunta.
 
 Una pregunta puede omitirse cuando:
 
-- La conversación no tuvo suficiente actividad del cliente.
-- La misma conversación ya recibió una pregunta CSAT.
-- El cliente no es elegible para el canal.
-- El canal no puede enviar la pregunta de forma válida.
+- La interacción resuelta no contiene un mensaje recibido del cliente.
+- Ya se generó una pregunta CSAT para el mismo contacto o conversación durante los últimos 14 días, aunque no se haya entregado. Después de ese plazo, una nueva interacción resuelta puede volver a ser elegible.
+- El cliente queda fuera de la audiencia configurada o no es elegible para el canal.
+- El canal de la interacción no está incluido en la selección manual de canales, o no puede enviar la pregunta de forma válida.
 - Consentimiento, límites de envío u otras reglas de envío bloquean el mensaje.
 
 Si una pregunta CSAT se omite por elegibilidad, no lo trates como una encuesta fallida. Significa que Hellotext evitó preguntar en un mal momento.
 
 ## Maneja respuestas positivas y negativas
 
-Cuando el cliente responde positivamente, Pulso CSAT registra la respuesta.
+Cuando el cliente responde positivamente, Pulso CSAT registra la respuesta y envía la respuesta positiva configurada. En **Mensaje de CSAT**, desplázate hasta **Responder cuando sea positivo** para revisar ese seguimiento.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-csat-figure="positive-response" aria-label="Seguimiento para una respuesta positiva">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 658px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/csat-completion-20261011/positive-response-es-mobile.png 4x" width="1496" height="852" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/csat-completion-20261011/positive-response-es-desktop.png" srcset="/images/editorial/csat-completion-20261011/positive-response-es-desktop.png 4x" width="2560" height="868" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Responder cuando sea positivo muestra el agradecimiento y la pregunta sobre qué se podría mejorar." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Editor real del seguimiento positivo en la configuración de demostración.</figcaption>
+</figure>
 
 Cuando el cliente responde negativamente, Pulso CSAT registra la respuesta y envía un seguimiento. La respuesta y el motivo elegido, si lo hay, permanecen conectados a la conversación original. Si hay un componente de derivación configurado, también asigna la conversación para que un colaborador o equipo haga el seguimiento.
 
+En **Responder cuando sea negativo**, revisa el seguimiento y las opciones de motivo.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-csat-figure="negative-reasons" aria-label="Seguimiento y motivos de una respuesta negativa">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 658px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/csat-completion-20261011/negative-reasons-es-mobile.png 4x" width="1496" height="1256" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/csat-completion-20261011/negative-reasons-es-desktop.png" srcset="/images/editorial/csat-completion-20261011/negative-reasons-es-desktop.png 4x" width="2560" height="1004" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Responder cuando sea negativo muestra el seguimiento y las opciones No resuelto, Info incorrecta y Otro." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Editor real del seguimiento negativo y sus tres motivos, en una configuración de demostración.</figcaption>
+</figure>
+
 Para el comportamiento de derivación, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-csat-figure="escalation-configuration" aria-label="Configuración de la derivación">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 658px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/csat-completion-20261011/escalation-configuration-es-mobile.png 4x" width="1496" height="1088" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/csat-completion-20261011/escalation-configuration-es-desktop.png" srcset="/images/editorial/csat-completion-20261011/escalation-configuration-es-desktop.png 4x" width="2560" height="976" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Panel Derivación con el interruptor del componente activo y el campo Selecciona persona o equipo sin destinatario elegido." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real de la configuración de demostración: la derivación todavía no tiene una persona o equipo seleccionado; la misión permanece deshabilitada.</figcaption>
+</figure>
 
 ## Revisa Satisfacción del cliente
 
 En **Calidad de servicio**, **Satisfacción del cliente** muestra dos porcentajes agregados para el período seleccionado: **CSAT de agentes de IA** y **CSAT de colaboradores**. El porcentaje de colaboradores combina las conversaciones atendidas por una persona desde el inicio con las derivadas de IA a una persona. El período usa la fecha en que respondió el cliente.
 
 Cada porcentaje se calcula como respuestas positivas divididas entre respuestas positivas más negativas. Cuando ambos períodos tienen datos, el panel compara el período seleccionado con el anterior.
+
+En este ejemplo ficticio del 11 al 24 de septiembre de 2026, la tarjeta derecha muestra un 81 % de CSAT para agentes de IA y un 75 % para colaboradores. La tarjeta izquierda muestra quién completó la resolución; esos porcentajes describen otra medida.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-csat-figure="report" aria-label="Satisfacción del cliente en Calidad de servicio">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1225px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/service-quality-report-guide/resolution-csat-es.png" srcset="/images/analytics-reporting-attribution/service-quality-report-guide/resolution-csat-es.png 2x" width="2414" height="932" loading="lazy" decoding="async" alt="Dos tarjetas del reporte: Ruta de resolución, con 59 % por IA y 41 % por equipo, y Satisfacción del cliente, con CSAT de agentes de IA del 81 % y CSAT de colaboradores del 75 %. Ambas comparaciones de CSAT son verdes." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real de Calidad de servicio con datos ficticios del 11 al 24 de septiembre de 2026: 81 % de CSAT de agentes de IA y 75 % de CSAT de colaboradores.</figcaption>
+</figure>
 
 No hay un reporte de resultados específico de Pulso CSAT en **Misiones**. El panel de Calidad de servicio no muestra tasa de respuesta, cantidades de respuestas, porcentajes separados de conversaciones solo con personas y con derivación, ni desgloses por canal, agente, equipo, intención o misión. Revisa las conversaciones individuales de clientes para consultar motivos negativos y el contexto del seguimiento. Consulta [Reporte de Calidad de servicio]({% link _analytics-reporting-attribution/service-quality-report-guide.md %}) para conocer el reporte.
 
@@ -116,7 +189,7 @@ Prueba con conversaciones resueltas realistas antes de habilitar Pulso CSAT ampl
 Prueba:
 
 - Una conversación resuelta que debería recibir CSAT.
-- Una conversación demasiado corta que no debería recibir CSAT.
+- Una interacción resuelta sin un mensaje recibido del cliente, que no debería recibir CSAT.
 - Una respuesta positiva.
 - Una respuesta negativa con una derivación configurada para el seguimiento.
 - Un canal fuera de su ventana de envío.

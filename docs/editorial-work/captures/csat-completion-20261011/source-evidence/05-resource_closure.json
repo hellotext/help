@@ -1,0 +1,51 @@
+{
+  "status": "owned_capture_resources_closed",
+  "recorded_at_utc": "2026-10-11T14:34:51.837470+00:00",
+  "ports": [
+    {
+      "port": 33354,
+      "listener_absent": true
+    },
+    {
+      "port": 19596,
+      "listener_absent": true
+    },
+    {
+      "port": 3360,
+      "listener_absent": true
+    },
+    {
+      "port": 9541,
+      "listener_absent": true
+    }
+  ],
+  "puma_es": {
+    "pid": 18443,
+    "signal": "SIGTERM",
+    "session_exit": 143
+  },
+  "puma_en": {
+    "pid": 22459,
+    "signal": "SIGTERM",
+    "session_exit": 143
+  },
+  "redis": {
+    "pid": 12945,
+    "signal": "SIGTERM",
+    "session_exit": 0
+  },
+  "proxy": {
+    "pid": 18515,
+    "signal": "SIGTERM",
+    "session_exit": 0
+  },
+  "chrome": {
+    "pid": 18616,
+    "signal": "SIGTERM",
+    "single_page_blank_before_disconnect": true,
+    "cdp_listener_absent": true
+  },
+  "ownership": "Each signal was preceded by matching own launch/readiness PID and exact listener; Chrome profile, proxy log FDs and Redis cwd also matched. No unowned process signaled.",
+  "database_copy": "Retained privately for audit; no deletion or cleanup performed.",
+  "protected_worktrees_and_shared_config_changed": false
+}

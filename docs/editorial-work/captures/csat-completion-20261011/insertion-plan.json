@@ -1,0 +1,135 @@
+{
+  "schema": "csat-final-insertion-plan-v1",
+  "status": "approved_for_integration",
+  "insertions": [
+    {
+      "id": "question-controls",
+      "locale": "es",
+      "anchor": "El mensaje CSAT por defecto pregunta «¿Quedaste conforme con la ayuda?» y ofrece las opciones **👍 Sí** y **👎 No**.",
+      "position": "after",
+      "copy": {
+        "aria": "Editor del mensaje CSAT",
+        "alt": "Mensaje de CSAT con la pregunta predeterminada y las opciones Sí y No en el editor.",
+        "caption": "Interfaz real con configuración de demostración: revisa la pregunta y las dos opciones antes de habilitar Pulso CSAT."
+      }
+    },
+    {
+      "id": "static-preview",
+      "locale": "es",
+      "anchor": "La vista previa muestra la pregunta y sus dos opciones. Revísalas antes de habilitar la misión.",
+      "position": "after",
+      "copy": {
+        "aria": "Vista previa de la pregunta CSAT",
+        "alt": "Vista previa de la pregunta ¿Quedaste conforme con la ayuda? y los botones Sí y No.",
+        "caption": "Vista previa nativa de la configuración de demostración; no representa un mensaje enviado ni una respuesta recibida."
+      }
+    },
+    {
+      "id": "positive-response",
+      "locale": "es",
+      "anchor": "Cuando el cliente responde positivamente, Pulso CSAT registra la respuesta y envía la respuesta positiva configurada. En **Mensaje de CSAT**, desplázate hasta **Responder cuando sea positivo** para revisar ese seguimiento.",
+      "position": "after",
+      "copy": {
+        "aria": "Seguimiento para una respuesta positiva",
+        "alt": "Responder cuando sea positivo muestra el agradecimiento y la pregunta sobre qué se podría mejorar.",
+        "caption": "Editor real del seguimiento positivo en la configuración de demostración."
+      }
+    },
+    {
+      "id": "negative-reasons",
+      "locale": "es",
+      "anchor": "En **Responder cuando sea negativo**, revisa el seguimiento y las opciones de motivo.",
+      "position": "after",
+      "copy": {
+        "aria": "Seguimiento y motivos de una respuesta negativa",
+        "alt": "Responder cuando sea negativo muestra el seguimiento y las opciones No resuelto, Info incorrecta y Otro.",
+        "caption": "Editor real del seguimiento negativo y sus tres motivos, en una configuración de demostración."
+      }
+    },
+    {
+      "id": "escalation-configuration",
+      "locale": "es",
+      "anchor": "Para el comportamiento de derivación, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).",
+      "position": "after",
+      "copy": {
+        "aria": "Configuración de la derivación",
+        "alt": "Panel Derivación con el interruptor del componente activo y el campo Selecciona persona o equipo sin destinatario elegido.",
+        "caption": "Interfaz real de la configuración de demostración: la derivación todavía no tiene una persona o equipo seleccionado; la misión permanece deshabilitada."
+      }
+    },
+    {
+      "id": "question-controls",
+      "locale": "en",
+      "anchor": "The default CSAT message asks “Were you satisfied with the help?” and offers **👍 Yes** and **👎 No**.",
+      "position": "after",
+      "copy": {
+        "aria": "CSAT message editor",
+        "alt": "CSAT Message shows the default question and the Yes and No response options in the editor.",
+        "caption": "Real interface with demonstration configuration: review the question and its two options before enabling CSAT Pulse."
+      }
+    },
+    {
+      "id": "static-preview",
+      "locale": "en",
+      "anchor": "The preview shows the question and its two options. Review them before enabling the playbook.",
+      "position": "after",
+      "copy": {
+        "aria": "CSAT question preview",
+        "alt": "Preview of Were you satisfied with the help? with Yes and No buttons.",
+        "caption": "Native preview of the demonstration configuration; it does not represent a sent message or a received response."
+      }
+    },
+    {
+      "id": "positive-response",
+      "locale": "en",
+      "anchor": "When the customer responds positively, CSAT Pulse records the response and sends the configured positive reply. In **CSAT Message**, scroll to **Reply with when positive** to review that follow-up.",
+      "position": "after",
+      "copy": {
+        "aria": "Positive response follow-up",
+        "alt": "Reply with when positive shows a thank-you message and a question about what could be improved.",
+        "caption": "Real positive follow-up editor in the demonstration configuration."
+      }
+    },
+    {
+      "id": "negative-reasons",
+      "locale": "en",
+      "anchor": "In **Reply with when negative**, review the follow-up and reason options.",
+      "position": "after",
+      "copy": {
+        "aria": "Negative follow-up and reasons",
+        "alt": "Reply with when negative shows the follow-up and Not resolved, Wrong info, and Other reason options.",
+        "caption": "Real negative follow-up editor and its three reasons in a demonstration configuration."
+      }
+    },
+    {
+      "id": "escalation-configuration",
+      "locale": "en",
+      "anchor": "For handoff behavior, use [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).",
+      "position": "after",
+      "copy": {
+        "aria": "Escalation configuration",
+        "alt": "Escalation panel with the component toggle on and an empty Select a teammate or team field.",
+        "caption": "Real interface in a demonstration configuration: no teammate or team has been selected for escalation, and the playbook remains disabled."
+      }
+    }
+  ],
+  "figure_order": {
+    "es": [
+      "question-controls",
+      "static-preview",
+      "positive-response",
+      "negative-reasons",
+      "escalation-configuration",
+      "report"
+    ],
+    "en": [
+      "question-controls",
+      "static-preview",
+      "positive-response",
+      "negative-reasons",
+      "escalation-configuration",
+      "report"
+    ]
+  },
+  "pending": []
+}

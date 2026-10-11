@@ -1,0 +1,283 @@
+{
+  "schema": "csat-editorial-preparation-v1",
+  "at": "2026-10-11T13:43:14.611214+00:00",
+  "status": "copy_prepared_native_captures_and_independent_review_pending",
+  "base": "c8ecc56b0518c258f7e8511d6153ac9f685888eb",
+  "article_key": "journeys/csat-pulse-playbook.md",
+  "originals": [
+    {
+      "path": "_i18n/es/journeys/csat-pulse-playbook.md",
+      "sha256": "193eda4cbd989d06f828206956235e244124c62f01e349b9f547b662ec8b3c5b",
+      "original": "docs/editorial-work/captures/csat-completion-20261011/originals/_i18n/es/journeys/csat-pulse-playbook.md"
+    },
+    {
+      "path": "_i18n/en/journeys/csat-pulse-playbook.md",
+      "sha256": "f9541b391f9f6ad3d57cbd78061a3f927f4e3386d27e99ce789cb2bcdf16376c",
+      "original": "docs/editorial-work/captures/csat-completion-20261011/originals/_i18n/en/journeys/csat-pulse-playbook.md"
+    },
+    {
+      "path": "_journeys/csat-pulse-playbook.md",
+      "sha256": "9f601f0fe423be41e4ca47d749b1863ea61807b409b234d10ae6105e217c3aea",
+      "original": "docs/editorial-work/captures/csat-completion-20261011/originals/_journeys/csat-pulse-playbook.md"
+    },
+    {
+      "path": "docs/editorial-work/progress.csv",
+      "sha256": "30be6b995f1747eb9e1a100c6fdd861b812326498719076470ae28135db50612",
+      "original": "docs/editorial-work/captures/csat-completion-20261011/originals/docs/editorial-work/progress.csv"
+    }
+  ],
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "source_bindings": [
+    {
+      "path": "app/models/playbook/csat.rb",
+      "sha256": "49be4e35caaf1e04f514406373550e4698262d39617c0d4a6c38ebcfe7f63838"
+    },
+    {
+      "path": "app/models/playbook/csat/send_attempt.rb",
+      "sha256": "cf09654d64ca4792a6da80eb7ec88d2fcbbbdafb44767392157e1bb620d2cb72"
+    },
+    {
+      "path": "app/models/playbook/csat/interaction_selector.rb",
+      "sha256": "b4b20db66cc9e2dfddc8f89930ccaacd988d79d3938104e9e5850f6b6c4b4ec6"
+    },
+    {
+      "path": "app/models/playbook/csat/responder.rb",
+      "sha256": "5afe2abd98c2f0fd90a00464a4c416e2341aa66b898d4c0903ce45add180ab3f"
+    },
+    {
+      "path": "app/models/playbook/component/message.rb",
+      "sha256": "4f93eb1a2e3364ce2b577e1a8aebb6d7569696dbd3cd0083fa567e284c2e2536"
+    },
+    {
+      "path": "app/models/conversation/closeable.rb",
+      "sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49"
+    },
+    {
+      "path": "app/models/ai/conversation.rb",
+      "sha256": "7c11f37e4d3696b59013009767b2d924c1ad8b8fd6a621d8066745939946ef61"
+    },
+    {
+      "path": "config/locales/models/playbook/component/message/es.yml",
+      "sha256": "232e5147262c102764dbbd10f078fe009efbeeea04e6ff088124d43291d49df8"
+    },
+    {
+      "path": "config/locales/models/playbook/component/message/en.yml",
+      "sha256": "dc76ee13543b5af2d3b5246d70554620cfab7988f2c2fbab4d8d68b9d1a3127d"
+    },
+    {
+      "path": "app/views/playbook/previews/_csat.html.erb",
+      "sha256": "c2ef303b8f767b28f84a1e19e96a7d60f6d044a7bb9d8d7451a90d29e4a02505"
+    }
+  ],
+  "copy_delta": [
+    {
+      "locale": "es",
+      "changes": [
+        {
+          "before": "Evitar preguntar dos veces por la misma conversación.",
+          "after": "Evitar nuevas preguntas al mismo contacto o conversación durante los 14 días posteriores a la última pregunta CSAT."
+        },
+        {
+          "before": "El historial de conversación está disponible para que Hellotext pueda detectar si la interacción fue significativa.",
+          "after": "La conversación tiene una interacción resuelta con un mensaje recibido del cliente durante esa interacción."
+        },
+        {
+          "before": "El mensaje CSAT por defecto es corto y conversacional, por ejemplo:\n\nAntes de cerrar: ¿quedaste satisfecho con la ayuda? 👍 / 👎",
+          "after": "El mensaje CSAT por defecto pregunta «¿Quedaste conforme con la ayuda?» y ofrece las opciones **👍 Sí** y **👎 No**."
+        },
+        {
+          "before": "El disparador es **al resolver**: Pulso CSAT envía después de que una conversación se marca como resuelta o cerrada.",
+          "after": "El disparador es **al resolver**: Pulso CSAT puede enviar después de que una conversación se marca como resuelta o cerrada, si cumple las condiciones de audiencia, interacción y canal."
+        },
+        {
+          "before": "Pulso CSAT debería preguntar solo cuando la interacción fue significativa.",
+          "after": "Pulso CSAT revisa la interacción resuelta, la audiencia y el canal antes de preparar la pregunta."
+        },
+        {
+          "before": "La conversación no tuvo suficiente actividad del cliente.",
+          "after": "La interacción resuelta no contiene un mensaje recibido del cliente."
+        },
+        {
+          "before": "La misma conversación ya recibió una pregunta CSAT.",
+          "after": "Ya se generó una pregunta CSAT para el mismo contacto o conversación durante los últimos 14 días, aunque no se haya entregado. Después de ese plazo, una nueva interacción resuelta puede volver a ser elegible."
+        },
+        {
+          "before": "El cliente no es elegible para el canal.",
+          "after": "El cliente queda fuera de la audiencia configurada o no es elegible para el canal."
+        },
+        {
+          "before": "El canal no puede enviar la pregunta de forma válida.",
+          "after": "El canal de la interacción no está incluido en la selección manual de canales, o no puede enviar la pregunta de forma válida."
+        },
+        {
+          "before": "Cuando el cliente responde positivamente, Pulso CSAT registra la respuesta.",
+          "after": "Cuando el cliente responde positivamente, Pulso CSAT registra la respuesta y envía la respuesta positiva configurada."
+        },
+        {
+          "before": "Una conversación demasiado corta que no debería recibir CSAT.",
+          "after": "Una interacción resuelta sin un mensaje recibido del cliente, que no debería recibir CSAT."
+        }
+      ],
+      "headings_preserved": 12,
+      "ordered_links_preserved": 24,
+      "sha256": "04ae0836fa3d6d289dd42bf74fc1ca013f2c7a00d69050f795d4211e04470a1b"
+    },
+    {
+      "locale": "en",
+      "changes": [
+        {
+          "before": "Avoid asking twice for the same conversation.",
+          "after": "Avoid new prompts for the same contact or conversation for 14 days after the last CSAT prompt."
+        },
+        {
+          "before": "Conversation history is available so Hellotext can tell whether the interaction was meaningful.",
+          "after": "The conversation has a resolved interaction with a customer message received during that interaction."
+        },
+        {
+          "before": "The default CSAT message is short and conversational, such as:\n\nBefore we close: were you satisfied with the help? 👍 / 👎",
+          "after": "The default CSAT message asks “Were you satisfied with the help?” and offers **👍 Yes** and **👎 No**."
+        },
+        {
+          "before": "The trigger is **on resolved**: CSAT Pulse sends after a conversation is marked resolved or closed.",
+          "after": "The trigger is **on resolved**: CSAT Pulse can send after a conversation is marked resolved or closed, when its audience, interaction, and channel conditions are met."
+        },
+        {
+          "before": "CSAT Pulse should ask only when the interaction was meaningful.",
+          "after": "CSAT Pulse checks the resolved interaction, audience, and channel before preparing the prompt."
+        },
+        {
+          "before": "The conversation did not have enough customer activity.",
+          "after": "The resolved interaction has no received customer message."
+        },
+        {
+          "before": "The same conversation already received a CSAT prompt.",
+          "after": "A CSAT prompt was created for the same contact or conversation within the last 14 days, even if it was not delivered. After that interval, a newly resolved interaction can become eligible again."
+        },
+        {
+          "before": "The customer is not eligible for the channel.",
+          "after": "The customer falls outside the configured audience or is not eligible for the channel."
+        },
+        {
+          "before": "The channel cannot send the prompt compliantly.",
+          "after": "The interaction channel is excluded from the manual channel selection, or cannot send the prompt compliantly."
+        },
+        {
+          "before": "When the customer responds positively, CSAT Pulse records the response.",
+          "after": "When the customer responds positively, CSAT Pulse records the response and sends the configured positive reply."
+        },
+        {
+          "before": "A conversation that is too short and should not receive CSAT.",
+          "after": "A resolved interaction with no received customer message, which should not receive CSAT."
+        }
+      ],
+      "headings_preserved": 12,
+      "ordered_links_preserved": 24,
+      "sha256": "0bd67e93a9768c8d0d21191a60bd52cccf93c07622931148314b6d72bb8493e2"
+    }
+  ],
+  "native_capture_plan": [
+    "Disabled CSAT configuration entry and actual question editor/preview.",
+    "Positive and negative branch controls and fixed reason choices; no submitted answer or survey delivery.",
+    "Escalation configuration with actual native controls, no assignment execution.",
+    "Existing two Service Quality resolution-CSAT figures are conditional reuse after source/provenance/pixel checks, explicitly synthetic aggregate population."
+  ],
+  "section_coverage": {
+    "What it does": "Preview supports exact question/choices; description remains prospective.",
+    "When and coexistence": "Conceptual comparison with existing linked guides; no redundant screenshot.",
+    "Prerequisites and trigger/eligibility": "Source-backed criteria; no scheduler/event execution needed.",
+    "Edit question": "Requires complete native controls and static preview.",
+    "Responses": "Requires native branch controls; escalation shown as configuration.",
+    "Reports": "Reuse own Service Quality panel only with actual source dates/count scope, no survey lineage inference.",
+    "Testing and launch": "Keep prospective checklist; never describe it as executed."
+  },
+  "new_captures": 0,
+  "reused_images_accepted": 0,
+  "inventory_changed": false,
+  "publication": false,
+  "source_root": "journeys-workflow-capture-20261010/app",
+  "source_path_correction": {
+    "historical_receipt": "audit/csat-completion-20261011/preparation-v1-before-source-path-correction.json",
+    "historical_sha256": "3e3c22d9e67360ad727fe6fb9cf5241648cf4e99f228c8b1a1b1671687937816",
+    "checks": [
+      {
+        "path": "app/models/playbook/csat.rb",
+        "old_sha256": "49be4e35caaf1e04f514406373550e4698262d39617c0d4a6c38ebcfe7f63838",
+        "current_sha256": "49be4e35caaf1e04f514406373550e4698262d39617c0d4a6c38ebcfe7f63838",
+        "equal": true,
+        "current_snapshot_matches_git_object": true
+      },
+      {
+        "path": "app/models/playbook/csat/send_attempt.rb",
+        "old_sha256": "cf09654d64ca4792a6da80eb7ec88d2fcbbbdafb44767392157e1bb620d2cb72",
+        "current_sha256": "cf09654d64ca4792a6da80eb7ec88d2fcbbbdafb44767392157e1bb620d2cb72",
+        "equal": true,
+        "current_snapshot_matches_git_object": true
+      },
+      {
+        "path": "app/models/playbook/csat/interaction_selector.rb",
+        "old_sha256": "b4b20db66cc9e2dfddc8f89930ccaacd988d79d3938104e9e5850f6b6c4b4ec6",
+        "current_sha256": "b4b20db66cc9e2dfddc8f89930ccaacd988d79d3938104e9e5850f6b6c4b4ec6",
+        "equal": true,
+        "current_snapshot_matches_git_object": true
+      },
+      {
+        "path": "app/models/playbook/csat/responder.rb",
+        "old_sha256": "5afe2abd98c2f0fd90a00464a4c416e2341aa66b898d4c0903ce45add180ab3f",
+        "current_sha256": "5afe2abd98c2f0fd90a00464a4c416e2341aa66b898d4c0903ce45add180ab3f",
+        "equal": true,
+        "current_snapshot_matches_git_object": true
+      },
+      {
+        "path": "app/models/playbook/component/message.rb",
+        "old_sha256": "4f93eb1a2e3364ce2b577e1a8aebb6d7569696dbd3cd0083fa567e284c2e2536",
+        "current_sha256": "4f93eb1a2e3364ce2b577e1a8aebb6d7569696dbd3cd0083fa567e284c2e2536",
+        "equal": true,
+        "current_snapshot_matches_git_object": true
+      },
+      {
+        "path": "app/models/conversation/closeable.rb",
+        "old_sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49",
+        "current_sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49",
+        "equal": true,
+        "current_snapshot_matches_git_object": true
+      },
+      {
+        "path": "app/models/ai/conversation.rb",
+        "old_sha256": "1fb8b9a2ff98036e99e64ff8d49d9ed275f66269d0113bab3b589ddab2310eab",
+        "current_sha256": "7c11f37e4d3696b59013009767b2d924c1ad8b8fd6a621d8066745939946ef61",
+        "equal": false,
+        "current_snapshot_matches_git_object": true
+      },
+      {
+        "path": "config/locales/models/playbook/component/message/es.yml",
+        "old_sha256": "232e5147262c102764dbbd10f078fe009efbeeea04e6ff088124d43291d49df8",
+        "current_sha256": "232e5147262c102764dbbd10f078fe009efbeeea04e6ff088124d43291d49df8",
+        "equal": true,
+        "current_snapshot_matches_git_object": true
+      },
+      {
+        "path": "config/locales/models/playbook/component/message/en.yml",
+        "old_sha256": "dc76ee13543b5af2d3b5246d70554620cfab7988f2c2fbab4d8d68b9d1a3127d",
+        "current_sha256": "dc76ee13543b5af2d3b5246d70554620cfab7988f2c2fbab4d8d68b9d1a3127d",
+        "equal": true,
+        "current_snapshot_matches_git_object": true
+      },
+      {
+        "path": "app/views/playbook/previews/_csat.html.erb",
+        "old_sha256": "c2ef303b8f767b28f84a1e19e96a7d60f6d044a7bb9d8d7451a90d29e4a02505",
+        "current_sha256": "c2ef303b8f767b28f84a1e19e96a7d60f6d044a7bb9d8d7451a90d29e4a02505",
+        "equal": true,
+        "current_snapshot_matches_git_object": true
+      }
+    ],
+    "scope": "Initial reads used the earlier current-app-capture snapshot. Nine files are byte-identical to8e; AI::Conversation differs in replacement/resume concurrency methods, with CSAT resolved/send hook unchanged. Root read the complete diff; no copy change required. All source pins now verified against8e Git objects."
+  },
+  "independent_feedback_resolution": {
+    "at": "2026-10-11T13:47:52.951356+00:00",
+    "reviewer": "runtime_isolation",
+    "finding": "Cooldown anchors at prompt creation (asked_at), not delivery.",
+    "resolution": "Both eligibility bullets now say created/generated, even if undelivered.",
+    "previous_preparation": "audit/csat-completion-20261011/preparation-v2-before-cooldown-wording.json",
+    "previous_sha256": "0ca9e2484596d0cd1ad70a03f4cd82576f03e4e5a9e4060b887b9e47ec35cda0"
+  }
+}

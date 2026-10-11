@@ -1,0 +1,296 @@
+{
+  "schema": "csat-rendered-page-independent-review-v1",
+  "recorded_at": "2026-10-11T14:47:12.755468+00:00",
+  "reviewer": "/root/inbox_article/guide_review",
+  "status": "passed",
+  "locale": "en",
+  "width": 1440,
+  "packet": {
+    "path": "docs/editorial-work/captures/csat-completion-20261011/validation/page-review/views/en-1440.json",
+    "sha256": "2192d2b252f528448d527f4b26a2164aedee778a89ccf9347635fc891d1b7960"
+  },
+  "checkpoint_sha256": "5e87fb5f2c20530354e4c1abb55946752a64eb16a46716e78e4275b015b33943",
+  "source": {
+    "path": "_i18n/en/journeys/csat-pulse-playbook.md",
+    "sha256": "96cbd80de177b9a91dfe8f47ce7353dd9065a3346f0955fbf252f490d793db41"
+  },
+  "build": {
+    "path": "_site/csat-pulse-playbook.html",
+    "sha256": "563f54a9a221cb06e4edee366f45233addd79f8b4a880f5a2ef66eab9491587c"
+  },
+  "findings": [],
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 8,
+    "document_height_css": 8580,
+    "coverage_end_css": 8580,
+    "footer_individually_viewed": true
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 6
+  },
+  "observations": [
+    "All 14 PNGs individually opened using view_image; no mosaic substituted.",
+    "All article sections, inline-figure adjacency, complete borders and footer reviewed. No overlap, distortion, clipped content or locale mismatch found.",
+    "PNG hashes, dimensions, CRC, Display P3 ICC and 2x capture density match packet; source/build/checkpoint hashes remain exact."
+  ],
+  "shots": [
+    {
+      "file": "csat-en-1440-full-part1.png",
+      "sha256": "fa10de16a7e6a505d594903c545b612439583afdb61cecf58e0a89fcc23d1b29",
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Top navigation, breadcrumb, title, introduction and opening list are readable."
+    },
+    {
+      "file": "csat-en-1440-full-part2.png",
+      "sha256": "2420f85ab4cd1f7955744f9d51a266d7f225b4cb9c8c24762ef164a38f15fe02",
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 1440,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Usage, other-feedback guidance and prerequisite transition are complete."
+    },
+    {
+      "file": "csat-en-1440-full-part3.png",
+      "sha256": "c764f28a2cdaba91b82bd76d6dfc4dbcf0d89ab579ff88281d5f7db6dee7ed08",
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 1440,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Prerequisites, editor instructions and complete question editor are adjacent and readable."
+    },
+    {
+      "file": "csat-en-1440-full-part4.png",
+      "sha256": "dd84ab34182b42b08172cae0fd2e69299c115b2e6642ca750a20dcc50c43ebe7",
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 1440,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Complete static preview, trigger and eligibility sections are readable."
+    },
+    {
+      "file": "csat-en-1440-full-part5.png",
+      "sha256": "36a4fad77d06fa4a4658d74eabeb73196030f0734576aee0bdc03fb38464416b",
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 1440,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Positive and negative follow-ups and all three reasons match their adjacent instructions."
+    },
+    {
+      "file": "csat-en-1440-full-part6.png",
+      "sha256": "c5c9105321a7a018e5699de4d8b52d5de3c086ad229b46a5e4ca55c09407d5ef",
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 1440,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Escalation, report context and both report cards are visible and legible."
+    },
+    {
+      "file": "csat-en-1440-full-part7.png",
+      "sha256": "2f87f38adfcfe1809640ef8794688a20f361fd70ed50bb0eb07d92267ef0e0eb",
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 1440,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Testing, follow-up review and related-guide transition are complete."
+    },
+    {
+      "file": "csat-en-1440-full-part8.png",
+      "sha256": "963cd36884be76adb9ed2f50e311f78de88de1cab29b8197a5f8bf49faa15bac",
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 7380,
+        "width": 1440,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Related guides, feedback/contact controls, footer/legal links and English selector are complete."
+    },
+    {
+      "file": "csat-en-1440-question-controls.png",
+      "sha256": "1ee395ce193838a80383d151291b503cbb328fb5afe3465d0dd755e28ab503d6",
+      "pixelSize": [
+        1600,
+        952
+      ],
+      "clip": {
+        "x": 363,
+        "y": 2793,
+        "width": 800,
+        "height": 476
+      },
+      "kind": "figure_detail",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Complete native editor with question, Yes/No controls and toolbar."
+    },
+    {
+      "file": "csat-en-1440-static-preview.png",
+      "sha256": "4523494535c99458a362ed16a2ab2cf0f92e073752eea72f14084f112ee75bc6",
+      "pixelSize": [
+        1600,
+        594
+      ],
+      "clip": {
+        "x": 363,
+        "y": 3420,
+        "width": 800,
+        "height": 297
+      },
+      "kind": "figure_detail",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Complete root-question preview with both response options."
+    },
+    {
+      "file": "csat-en-1440-positive-response.png",
+      "sha256": "4c51d72e99dc851978ef24cf7a77441e28a7e2ccc5032c11aa7d4ef544487abd",
+      "pixelSize": [
+        1600,
+        636
+      ],
+      "clip": {
+        "x": 363,
+        "y": 4590,
+        "width": 800,
+        "height": 318
+      },
+      "kind": "figure_detail",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Complete positive message and native toolbar."
+    },
+    {
+      "file": "csat-en-1440-negative-reasons.png",
+      "sha256": "09babaec5d2b0827b81c70949bfe6f0d0470b9d4b3a10c737979dca1d53cb715",
+      "pixelSize": [
+        1600,
+        704
+      ],
+      "clip": {
+        "x": 363,
+        "y": 5067,
+        "width": 800,
+        "height": 352
+      },
+      "kind": "figure_detail",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Complete negative message and Not resolved/Wrong info/Other controls."
+    },
+    {
+      "file": "csat-en-1440-escalation-configuration.png",
+      "sha256": "83270629f76626a81f50c1808c91f007061885a105df1398b9f1021106e24718",
+      "pixelSize": [
+        1600,
+        690
+      ],
+      "clip": {
+        "x": 363,
+        "y": 5490,
+        "width": 800,
+        "height": 345
+      },
+      "kind": "figure_detail",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Component toggle and empty teammate/team selector are visible."
+    },
+    {
+      "file": "csat-en-1440-report.png",
+      "sha256": "420c7c94600e852621cb9f7c9055d8be2c6a7f1583610fae42a833e2e9e5d55e",
+      "pixelSize": [
+        1600,
+        746
+      ],
+      "clip": {
+        "x": 363,
+        "y": 6208,
+        "width": 800,
+        "height": 373
+      },
+      "kind": "figure_detail",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Both report cards, 59/41 resolution context, 81/75 CSAT and +13/+2 comparisons are readable."
+    }
+  ],
+  "limitations": [
+    "Pixel acceptance applies only to this immutable EN1440 packet. Other views and final capture/runtime/service closure are separate checks.",
+    "view_image presentation resized full-page tiles from 2880x2400 to 1727x1440; detail images were also individually inspected."
+  ]
+}

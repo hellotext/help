@@ -1,0 +1,204 @@
+{
+  "schema": "csat-copy-independent-review-v1",
+  "at": "2026-10-11T13:49:10.738145+00:00",
+  "status": "passed",
+  "reviewer": "/root/runtime_isolation",
+  "scope": "Independent read-only review of the complete ES/EN article bodies and the prepared CSAT factual copy delta; source verified against local Git objects at 8e. No visual, runtime, delivery, report-data, or publication acceptance is implied.",
+  "worktree": "help-csat-completion-20261011",
+  "base": "c8ecc56b0518c258f7e8511d6153ac9f685888eb",
+  "preparation": {
+    "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/preparation.json",
+    "sha256": "ca3eda9605cbdc172ad5bfab0e63c4439bb049861185f40cf07ed6b36f104e1a"
+  },
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "source_root": "journeys-workflow-capture-20261010/app",
+  "source_bindings": [
+    {
+      "path": "app/models/playbook/csat.rb",
+      "sha256": "49be4e35caaf1e04f514406373550e4698262d39617c0d4a6c38ebcfe7f63838",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "app/models/playbook/csat/send_attempt.rb",
+      "sha256": "cf09654d64ca4792a6da80eb7ec88d2fcbbbdafb44767392157e1bb620d2cb72",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "app/models/playbook/csat/interaction_selector.rb",
+      "sha256": "b4b20db66cc9e2dfddc8f89930ccaacd988d79d3938104e9e5850f6b6c4b4ec6",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "app/models/playbook/csat/responder.rb",
+      "sha256": "5afe2abd98c2f0fd90a00464a4c416e2341aa66b898d4c0903ce45add180ab3f",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "app/models/playbook/component/message.rb",
+      "sha256": "4f93eb1a2e3364ce2b577e1a8aebb6d7569696dbd3cd0083fa567e284c2e2536",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "app/models/conversation/closeable.rb",
+      "sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "app/models/ai/conversation.rb",
+      "sha256": "7c11f37e4d3696b59013009767b2d924c1ad8b8fd6a621d8066745939946ef61",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "config/locales/models/playbook/component/message/es.yml",
+      "sha256": "232e5147262c102764dbbd10f078fe009efbeeea04e6ff088124d43291d49df8",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "config/locales/models/playbook/component/message/en.yml",
+      "sha256": "dc76ee13543b5af2d3b5246d70554620cfab7988f2c2fbab4d8d68b9d1a3127d",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "app/views/playbook/previews/_csat.html.erb",
+      "sha256": "c2ef303b8f767b28f84a1e19e96a7d60f6d044a7bb9d8d7451a90d29e4a02505",
+      "snapshot_matches_git_object": true
+    }
+  ],
+  "articles": [
+    {
+      "locale": "es",
+      "source": "_i18n/es/journeys/csat-pulse-playbook.md",
+      "sha256": "04ae0836fa3d6d289dd42bf74fc1ca013f2c7a00d69050f795d4211e04470a1b",
+      "full_body_read": true,
+      "headings_preserved": 12,
+      "ordered_links_preserved": 24,
+      "original_sha256": "193eda4cbd989d06f828206956235e244124c62f01e349b9f547b662ec8b3c5b"
+    },
+    {
+      "locale": "en",
+      "source": "_i18n/en/journeys/csat-pulse-playbook.md",
+      "sha256": "0bd67e93a9768c8d0d21191a60bd52cccf93c07622931148314b6d72bb8493e2",
+      "full_body_read": true,
+      "headings_preserved": 12,
+      "ordered_links_preserved": 24,
+      "original_sha256": "f9541b391f9f6ad3d57cbd78061a3f927f4e3386d27e99ce789cb2bcdf16376c"
+    }
+  ],
+  "originals": [
+    {
+      "path": "_i18n/es/journeys/csat-pulse-playbook.md",
+      "sha256": "193eda4cbd989d06f828206956235e244124c62f01e349b9f547b662ec8b3c5b",
+      "original": "docs/editorial-work/captures/csat-completion-20261011/originals/_i18n/es/journeys/csat-pulse-playbook.md",
+      "preserved": true
+    },
+    {
+      "path": "_i18n/en/journeys/csat-pulse-playbook.md",
+      "sha256": "f9541b391f9f6ad3d57cbd78061a3f927f4e3386d27e99ce789cb2bcdf16376c",
+      "original": "docs/editorial-work/captures/csat-completion-20261011/originals/_i18n/en/journeys/csat-pulse-playbook.md",
+      "preserved": true
+    },
+    {
+      "path": "_journeys/csat-pulse-playbook.md",
+      "sha256": "9f601f0fe423be41e4ca47d749b1863ea61807b409b234d10ae6105e217c3aea",
+      "original": "docs/editorial-work/captures/csat-completion-20261011/originals/_journeys/csat-pulse-playbook.md",
+      "preserved": true
+    },
+    {
+      "path": "docs/editorial-work/progress.csv",
+      "sha256": "30be6b995f1747eb9e1a100c6fdd861b812326498719076470ae28135db50612",
+      "original": "docs/editorial-work/captures/csat-completion-20261011/originals/docs/editorial-work/progress.csv",
+      "preserved": true
+    }
+  ],
+  "checks": [
+    {
+      "topic": "cooldown",
+      "status": "passed",
+      "evidence": [
+        "app/models/playbook/csat.rb:37",
+        "app/models/playbook/csat/send_attempt.rb:30",
+        "app/models/playbook/csat/send_attempt.rb:104"
+      ],
+      "result": "COOLDOWN is 14 days; either the same conversation or the same contact blocks another attempt. asked_at is prompt message creation time before asynchronous delivery. Corrected copy explicitly includes undelivered prompts and describes later eligibility as conditional."
+    },
+    {
+      "topic": "interaction and length",
+      "status": "passed",
+      "evidence": [
+        "app/models/playbook/csat/interaction_selector.rb:6",
+        "app/models/playbook/csat/send_attempt.rb:46"
+      ],
+      "result": "The selected closed/resolved interaction must overlap a received customer message from this conversation/contact. Neither source checks character length, conversation duration, or a minimum message count. Both articles now describe the actual prerequisite; the retained meaningful-interaction sentence is editorial advice, not a claimed numerical product gate."
+    },
+    {
+      "topic": "audience and manual channel",
+      "status": "passed",
+      "evidence": [
+        "app/models/playbook/csat/send_attempt.rb:7",
+        "app/models/playbook/csat/send_attempt.rb:57"
+      ],
+      "result": "Enabled playbook and admittable contact are required. With manual outbound selection, the received source message technology must belong to selected technologies. Both locales qualify sending by interaction, audience and channel rather than claiming every closure sends."
+    },
+    {
+      "topic": "positive and negative follow-up",
+      "status": "passed",
+      "evidence": [
+        "app/models/playbook/csat/responder.rb:79",
+        "app/models/playbook/csat/responder.rb:103",
+        "app/models/playbook/csat/responder.rb:162"
+      ],
+      "result": "First answer records outcome and creates the configured csat_positive or csat_negative follow-up. Negative outcome triggers assignment only when an escalation component exists. Copy distinguishes configured escalation from unconditional routing."
+    },
+    {
+      "topic": "native defaults",
+      "status": "passed",
+      "evidence": [
+        "config/locales/models/playbook/component/message/es.yml:42",
+        "config/locales/models/playbook/component/message/en.yml:42",
+        "app/models/playbook/component/message.rb:82"
+      ],
+      "result": "Spanish question and Sí/No labels and English question and Yes/No labels match native localized defaults exactly. Both defaults have a positive follow-up; no invented question or response threshold remains in the changed copy."
+    },
+    {
+      "topic": "resolution hooks",
+      "status": "passed",
+      "evidence": [
+        "app/models/conversation/closeable.rb:152",
+        "app/models/conversation/closeable.rb:194",
+        "app/models/ai/conversation.rb:265",
+        "app/models/ai/conversation.rb:834"
+      ],
+      "result": "Human/automation closure and eligible AI resolution call the actual selector/send-attempt path. No delivery or runtime was executed during this review."
+    }
+  ],
+  "resolved_findings": [
+    {
+      "id": "CSAT-COPY-001",
+      "status": "resolved",
+      "topic": "Cooldown starts at prompt creation, not confirmed receipt",
+      "observation": "The initially reviewed eligibility bullets said received/recibió. The code stores asked_at from message.created_at before delivery_later and never requires delivered state in cooldown queries.",
+      "correction": "Root changed only that bullet in each locale to created/generated, explicitly including undelivered prompts. Independently re-read the exact two deltas and verified current body hashes.",
+      "initial_article_sha256": {
+        "es": "0393173f0cfe07b15c58eaea4cc5bcfada8065f2dce858bee9cd93d1932549b2",
+        "en": "f9f5b7bd8781d74bd53da65fd49770a54e855ae0d5075f66cb3d659e126e1309"
+      },
+      "initial_preparation_source_corrected_sha256": "0ca9e2484596d0cd1ad70a03f4cd82576f03e4e5a9e4060b887b9e47ec35cda0"
+    }
+  ],
+  "findings": [],
+  "remaining_copy_blockers": [],
+  "limitations": [
+    "This checks the requested CSAT behavior delta; the retained Service Quality reporting sections were read for bilingual coherence, not independently re-audited against report SQL.",
+    "Native UI captures, source admission, complete rendered Help QA, and publication controls remain separate future gates."
+  ],
+  "operations": {
+    "help_edits": false,
+    "app_edits": false,
+    "db_access": false,
+    "services_started": false,
+    "network_requests": false,
+    "runtime_helpers_executed": false,
+    "publication": false,
+    "only_output": "audit/csat-completion-20261011/copy-independent-review.json"
+  }
+}

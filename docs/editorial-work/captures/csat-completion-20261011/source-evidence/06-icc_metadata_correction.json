@@ -1,0 +1,20 @@
+{
+  "status": "metadata_only_native_icc_description_normalized",
+  "old_manifest": {
+    "path": "csat-capture-20261011/source-manifest-before-icc-description.json",
+    "sha256": "8c39630579e9c508681ba6e02018589123267fce7dfdcc4b2b69e4a1621edb0b"
+  },
+  "manifest": {
+    "path": "csat-capture-20261011/source-manifest.json",
+    "sha256": "d3bd1bb7386c93c2265658cffbeed61d587e2c3785277fee9332ac3409b32d44"
+  },
+  "curator_sha256": "ecaa7cdc8bc903d3d911ed38906b7014b36aeeb7ae392ccad465ee2b5ff0e141",
+  "changed_field": "records[].icc.profile",
+  "native_icc_description": "Display P3 Gamut with sRGB Transfer",
+  "native_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+  "native_icc_bytes": 520,
+  "description_source": "Read exact desc/mluc enUS bytes from every PNG; no ICC assignment/conversion or pixel processing.",
+  "all20_png_bytes_unchanged": true,
+  "all_other_manifest_fields_unchanged": true,
+  "authorization": "Root requested metadata-name correction after integration comparison; source pixel PASS remains external."
+}

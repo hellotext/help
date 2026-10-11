@@ -1,0 +1,76 @@
+{
+  "status": "section_plan_before_native_capture",
+  "article_key": "journeys/csat-pulse-playbook.md",
+  "sections": [
+    {
+      "heading_es": "Qué hace Pulso CSAT",
+      "decision": "Conceptual purpose and supported behavior; native editor and branch figures in later sections avoid duplication.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Cuándo usarla",
+      "decision": "Use-case decisions need prose, not a distinct UI state.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Cómo convive con otros feedbacks",
+      "decision": "Comparison and canonical links; unrelated mission editors would repeat published guides.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Qué necesita antes de lanzarla",
+      "decision": "Prerequisites and channel consent must be verified by the reader. This batch cannot demonstrate external connected-channel or delivery outcomes.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Edita el mensaje CSAT",
+      "decision": "Native own disabled editor context, root question controls and static preview with fixed native answers. ES/EN desktop/mobile where useful.",
+      "status": "new_capture_pending"
+    },
+    {
+      "heading_es": "Elige cuándo debería dispararse",
+      "decision": "Show native trigger in context if visible and useful; otherwise source-backed resolved interaction condition is a prose concept, not a configurable scheduler.",
+      "status": "native_context_pending"
+    },
+    {
+      "heading_es": "Entiende elegibilidad",
+      "decision": "Rules are backend admission conditions; avoid an invented validation/result panel. Adjacent precise text carries the 14-day and audience/channel conditions.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Maneja respuestas positivas y negativas",
+      "decision": "Native positive/negative reply editor and actual negative reason choices; escalation pane/chooser showing configuration only, never a performed assignment.",
+      "status": "new_capture_pending"
+    },
+    {
+      "heading_es": "Revisa Satisfacción del cliente",
+      "decision": "Two reused native report assets with fictional 81/75 CSAT versus 59/41 resolution. Complete inline readability pending.",
+      "status": "reused_source_pixels_passed"
+    },
+    {
+      "heading_es": "Cómo probarla",
+      "decision": "Prospective reader checklist; no executed customer reply, send, or feedback outcome in this batch.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Qué revisar después del lanzamiento",
+      "decision": "Prospective operations and report links; report figure already covers relevant aggregate UI.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Guías relacionadas",
+      "decision": "Keep all existing canonical links; no visual needed for navigation list.",
+      "status": "prose"
+    }
+  ],
+  "rules": [
+    "Every final source requires native 2x or higher Display P3 pixel review and full-guide review at 1440/580/390 widths.",
+    "Figure count depends on actual nonredundant UI coverage.",
+    "Only two reused report PNGs are accepted as sources; no new native source is accepted yet."
+  ],
+  "preservation": {
+    "heading_count_per_locale": 12,
+    "ordered_liquid_links_per_locale": 24
+  },
+  "remaining": "Actual native UI will decide crop, exact labels and source count."
+}

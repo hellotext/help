@@ -1,0 +1,36 @@
+{
+  "status": "ten_native_rows_and_readonly_preflight_passed",
+  "tables_compared": 541,
+  "new_rows": {
+    "playbook_component_channels": 1,
+    "playbook_component_messages": 3,
+    "playbook_component_audiences": 1,
+    "automation_assignments": 1,
+    "playbook_components": 4
+  },
+  "original_rows_unchanged": true,
+  "original_playbook_and_synthetic_aggregates_unchanged": true,
+  "jobs_enqueued": 0,
+  "jobs_performed": 0,
+  "new_rich_texts": 0,
+  "new_attachments": 0,
+  "survey_prompts_answers_or_deliveries_created": false,
+  "prepared_locale": "es",
+  "native_routes_resolved": 11,
+  "http_requests": 0,
+  "browser_started": false,
+  "runtime": "Only owned Redis remains active; both Rails runner phases exited0.",
+  "bindings": {
+    "boot-readiness.json": "796e80c4234279a901f1855cdd4cffbef0cc12f052ae29ca5060b239a3a930ec",
+    "fixture-preparation-result.json": "e440100b2e7d06ca40e8426a6a098934574b83d473f490f8cc0a5adef82b9b37",
+    "preflight-result.json": "b99f6e7167dda757211b34addb682d0b9783b7d9c337e40a964e3cf10e9f2a20",
+    "native-route-evidence.json": "85132c4d1f7fdd29629fc1fcb6ae4960db938970f74181320d71181562b88f69",
+    "owned-state.json": "7d7cb9fb450c86d33730061be0d6a64eb0a3c81c74d2f3c405aa357e21dc48b0",
+    "fixture-after-sequences.json": "ec5769834af3f1374a5a521002f7c2f2ac352ed1c7607dca8a6e1d1831348124"
+  },
+  "limitations": [
+    "Aggregate attempts remain synthetic historical report fixtures, not sends or answers.",
+    "Native route candidates require reviewed exact GET/HEAD contract before HTTP.",
+    "No publication or pixel acceptance from this receipt."
+  ]
+}

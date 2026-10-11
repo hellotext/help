@@ -1,0 +1,105 @@
+{
+  "schema": "csat-independent-insertion-plan-copy-review-v1",
+  "at": "2026-10-11T14:35:20.852086+00:00",
+  "status": "passed_plan_copy_review_only",
+  "reviewer": "/root/inbox_article/guide_review",
+  "scope": "Current bilingual CSAT articles, ten proposed insertions, source-manifest bindings, prior semantic/UI/report reviews. No rendered-page or publication acceptance.",
+  "bindings": [
+    {
+      "path": "audit/csat-help-preparation-20261011/insertion-plan.json",
+      "sha256": "2538592f122e0f5033113a03c329dad3be586c11fc1990c45b03e4cdbacd7732"
+    },
+    {
+      "path": "csat-capture-20261011/source-manifest.json",
+      "sha256": "d3bd1bb7386c93c2265658cffbeed61d587e2c3785277fee9332ac3409b32d44"
+    },
+    {
+      "path": "audit/csat-completion-20261011/root-source-pixel-review.json",
+      "sha256": "5a99eb996f7cce0c8418ad881a9c1f66258037c420aeb75e89edf65a309da09b"
+    },
+    {
+      "path": "audit/csat-completion-20261011/capture-interaction-source-review.json",
+      "sha256": "1a9c02a3c8dd31c899a96da6725d86f63aaa1a27a8a9bbd95503fc7cf0f27856"
+    },
+    {
+      "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/copy-independent-review.json",
+      "sha256": "76b996f734d8d0e5dac924949be31a5315a01c22a0c09ccd44aafe107a173201"
+    },
+    {
+      "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/ui-copy-independent-review.json",
+      "sha256": "60b27c9d60517e04b42d5e15ec330b828ec37a89f7ee6a894bbebe1b8d9b64cd"
+    },
+    {
+      "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/report-reuse-review.json",
+      "sha256": "7efc86e526989217d63eea7a4ce0329adab3086ef6337b043250dd17f3f56ef2"
+    },
+    {
+      "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/report-integration-independent-review.json",
+      "sha256": "c0a6a018821871de2581b8ec92a4942a991070441410d3d4fb4a6ae4d51e3aed"
+    }
+  ],
+  "articles": [
+    {
+      "locale": "es",
+      "article": "help-csat-completion-20261011/_i18n/es/journeys/csat-pulse-playbook.md",
+      "sha256": "4426575f7c7b37c1a3cf1cc8d8e722b2b56cb649473b337651bb4692519a167f",
+      "full_body_read": true,
+      "insertion_anchors_unique": 5,
+      "planned_figures": 6,
+      "preserved_headings": 12,
+      "preserved_ordered_links": 24,
+      "link_targets_exist": true,
+      "status": "passed_plan_copy_review_only"
+    },
+    {
+      "locale": "en",
+      "article": "help-csat-completion-20261011/_i18n/en/journeys/csat-pulse-playbook.md",
+      "sha256": "52298916a16a86e9fed1b769a7fb8b882b7c73489402295c2efa275496f4ac69",
+      "full_body_read": true,
+      "insertion_anchors_unique": 5,
+      "planned_figures": 6,
+      "preserved_headings": 12,
+      "preserved_ordered_links": 24,
+      "link_targets_exist": true,
+      "status": "passed_plan_copy_review_only"
+    }
+  ],
+  "checks": [
+    {
+      "topic": "coverage_and_anchors",
+      "result": "Five unique after-anchors per locale in coherent instructional order: question, static preview, positive follow-up, negative reasons and escalation. Existing report is sixth. All 12 headings and 24 ordered Liquid links per locale remain identical to preserved originals; all target files exist."
+    },
+    {
+      "topic": "copy_accuracy",
+      "result": "Alt, aria and captions match native localized question/options, positive reply and all three negative reasons documented in the source review. Screens are described as editors or static previews of demonstration configuration, not observed deliveries or received responses."
+    },
+    {
+      "topic": "escalation_scope",
+      "result": "Caption explicitly preserves empty assignee and disabled parent playbook; component toggle being on is not presented as completed escalation or an enabled playbook."
+    },
+    {
+      "topic": "source_bindings",
+      "result": "Exact five-concept x two-locale x two-layout matrix: all 20 actual PNG hashes and IHDR dimensions match source manifest, and every record matches root pixel review hash/status/individually_viewed. Source PNG pixels were not redundantly re-reviewed by this reviewer."
+    },
+    {
+      "topic": "report",
+      "result": "Both historical report PNG hashes remain those accepted by report reviewers. Copy qualifies synthetic dates/data and does not claim the configuration fixture produced these results."
+    }
+  ],
+  "findings": [],
+  "remaining_gates": [
+    "The insertion plan remains explicitly pending final admission/runtime closure; this review does not change that gate.",
+    "Integrate admitted bytes and verify final source, figure markup and build.",
+    "Complete rendered bilingual Help review at desktop/intermediate/mobile sizes, including each figure detail and readability of the historical report."
+  ],
+  "operations": {
+    "help_edits": false,
+    "source_edits": false,
+    "owner_helpers_executed": false,
+    "db_access": false,
+    "browser_or_http": false,
+    "services_started": false,
+    "external_writes": false,
+    "publication": false
+  }
+}
