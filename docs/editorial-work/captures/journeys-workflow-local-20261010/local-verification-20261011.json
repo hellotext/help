@@ -1,0 +1,44 @@
+{
+  "status": "both_bilingual_pairs_local_verified",
+  "recorded_at": "2026-10-11T01:34:19.800560+00:00",
+  "verifying_commit": "efcdcb963f6f23984f45a6c86e94e90eb2f2f5f8",
+  "branch": "codex/journeys-workflow-local-20261010",
+  "article_keys": [
+    "journeys/custom-journey.md",
+    "journeys/getting-started-with-journeys.md"
+  ],
+  "article_bodies": 4,
+  "final_review": {
+    "path": "audit/catalog-retake-checkpoint-20261011/final-review.json",
+    "sha256": "71c0ba810a7077fe066cd262157aabd290707b35f1fb054c0b29e85f50ba25fd"
+  },
+  "final_checks": {
+    "source_pngs": 68,
+    "workflow_pngs": 56,
+    "historical_pngs": 12,
+    "exact_built_png_copies": 136,
+    "http_resources_exact": 144,
+    "excluded_404": 9,
+    "bilingual_full_page_views": 12,
+    "open_findings": 0
+  },
+  "public_files_checked_against_verifying_commit": 72,
+  "inventory": {
+    "rows": 154,
+    "status_counts": {
+      "local_verified": 113,
+      "pending": 33,
+      "out_of_scope": 1,
+      "in_progress": 6,
+      "visual_pending": 1
+    },
+    "unresolved_local": 40,
+    "unresolved_main_observed": 42,
+    "other_rows_preserved": 152
+  },
+  "closure_scope": "Only two work records, two CSV rows and this excluded local receipt changed after the verifying commit; tested article/image bytes are unchanged. Prior pending-commit receipts remain historical and are superseded only for inventory closure by this record.",
+  "native_runtime": "Original and retake owned processes stopped; fictional route disabled and locale restored. No customer events or message execution.",
+  "publication": false,
+  "external_writes_in_this_local_continuation": false,
+  "remaining_blockers": []
+}

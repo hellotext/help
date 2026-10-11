@@ -1,6 +1,6 @@
 # Getting started with journeys: local visual preparation
 
-Status: `in_progress`. Both ES and EN contain six equivalent responsive figures. Source, prose, production build and rendered review checks have passed, including the final native EN mobile catalog recapture. Inventory closure and a verifying local commit remain with root. These changes are not published.
+Status: `local_verified` at `efcdcb963f6f23984f45a6c86e94e90eb2f2f5f8`. Both ES and EN contain six equivalent responsive figures. Source, prose, production build and rendered review checks have passed, including the final native EN mobile catalog recapture. The actual verifying local commit is recorded above. These changes are not published.
 
 ## Current coverage
 
@@ -45,6 +45,6 @@ The immutable application source is `8e27a524a1a1354385c7d2fd22de8e568c2112cb`. 
 
 No full production pixel parity is claimed. No private Rails bodies, database snapshots, held request bodies, cookies or tokens are included. A blank canvas review capture and a tall capture lacking ICC remain preserved as rejected attempts. The first blank template review capture was accidentally overwritten by a repeated review run; it is not claimed as preserved evidence. The final corrected template and canvas details were captured natively and inspected, without image reconstruction.
 
-No commit or publication was performed by this integration work. The inventory remains unchanged at 42 unresolved pairs; root must supply an actual verifying local commit before any `local_verified` update. Earlier chronological records and their receipts remain preserved with their original scope and hashes.
+Local article, image, build and browser verification is recorded at commit `efcdcb963f6f23984f45a6c86e94e90eb2f2f5f8`. The two target rows are now `local_verified`, leaving **40 unresolved pairs locally**; the other 152 rows are unchanged. Remote main remains at 42 unresolved pairs because this Routes batch has not been published. No additional push, PR, merge, deployment or upload was performed. Earlier chronological receipts retain their historical status and scope; the [local verification closure](captures/journeys-workflow-local-20261010/local-verification-20261011.json) records this final inventory transition.
 
 [Earlier work-record snapshot](captures/journeys-workflow-local-20261010/final-bilingual-preparation-20261011/workrecord-history/getting-started-with-journeys-before-consolidation.md).
