@@ -1,0 +1,322 @@
+{
+  "status": "source_review_complete_runtime_and_pixels_pending",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "comparison_revision": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "comparison_sha256": "7c6e23bc24c5e0e6e03bbbf3bf18fedbdb865d4b9f8b288358c2cb5e5c19e81c",
+  "comparison_url": "https://github.com/hellotext/hellotext/compare/8e27a524a1a1354385c7d2fd22de8e568c2112cb...afacda5636225888e44666da2e6d76fdd6a1425f",
+  "changed_files_in_comparison": 16,
+  "relevant_intersections": [],
+  "bindings": [
+    {
+      "path": "app/controllers/conversation/actions_controller.rb",
+      "sha256": "00925da7c6de675ef178b30c82da811c9eb39e703691c67d10032a7abf4bd3ee",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/controllers/conversation/actions_controller.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/controllers/conversation/actions/assign_controller.rb",
+      "sha256": "51ca74eb68549b0b2eca9dda4451bd88f3a5acd0a15c90a67dac4fae1fa695f3",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/controllers/conversation/actions/assign_controller.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/controllers/business/users_controller.rb",
+      "sha256": "50490614ae578170378d44edab185f0cf374c002ae8269a1ef6f5fce88f29340",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/controllers/business/users_controller.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/views/business/users/index.turbo_stream.erb",
+      "sha256": "2486ba2fc4d97b7957e72079924778f92c03d735f1d00f472a0595c53dfdcf5c",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/views/business/users/index.turbo_stream.erb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/views/inbox/partials/_actions.html.erb",
+      "sha256": "37a2ae9d50496cd93548b3cbd9bcd3511526033e74a77e5cb96015b54dd6fed2",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/views/inbox/partials/_actions.html.erb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/conversation.rb",
+      "sha256": "4e1d9cc638353bd8a2209a45f29ba14757aff3852a4039f55ce4325e22ec308c",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/conversation.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/conversation/states.rb",
+      "sha256": "1b00b662395542e1e3d79e3bd59ec571504c71f83ef3241395f2181fe6b2dd41",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/conversation/states.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/conversation/assignable.rb",
+      "sha256": "68617f1e3c728b7552aff8f3a44483888dd09388d43e02ec048de43b6a327ebe",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/conversation/assignable.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/conversation/agent.rb",
+      "sha256": "ec546c4e48379d121a24e7cec43ec6b9e900a8d3027193bfec0af991f741a9a8",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/conversation/agent.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/conversation/turbo_stream_broadcastable.rb",
+      "sha256": "c4a38b911df418774d89c4e6257349733d51e043693fb1e8f58fb8053cce32df",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/conversation/turbo_stream_broadcastable.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/conversation/records_events.rb",
+      "sha256": "3a2ed8323b36e64bdbaf9f1ab016e1c4c9712d96b561cec1226af136c947e853",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/conversation/records_events.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/conversation/cursor/base.rb",
+      "sha256": "1500ef87b11a475f4782fcb7d5675e2509f231ceddc0e5a39da57111b4d4f4b9",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/conversation/cursor/base.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/conversation/cursor/timeline_only.rb",
+      "sha256": "5151c850513bf8d0991355355e6ae7dee6b194f3451a4d58361344288826488d",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/conversation/cursor/timeline_only.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/conversation/filter.rb",
+      "sha256": "40b72804eb89d01716e2dcc08493e164621f0325484403cbcd215c5338188405",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/conversation/filter.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/conversation/filter/state.rb",
+      "sha256": "3f3caf281db14e7b47086f1131f07a57f829194d3c72fec680769dd8510be984",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/conversation/filter/state.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/event.rb",
+      "sha256": "6fa719d88769fc18712092cb60f63c1d216240908e4a6c22c7714b0a1638117a",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/event.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/event/broadcasting.rb",
+      "sha256": "041b6f4a825ca15fd81427c902bd2d21d8157d4f51e24b056758ed9b4e7a2de8",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/event/broadcasting.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/workload/user_interval.rb",
+      "sha256": "27bcd5c04a981d1f1d4225ef1cd518e2bf6fef36271d10718a23433dc3fcc9dc",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/workload/user_interval.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/workload/user_interval/touchpoint.rb",
+      "sha256": "e53ea3e77aef847ed1e431866c0bc0f325d3f0a90dc9934cacd331bfb296795b",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/workload/user_interval/touchpoint.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/track/event.rb",
+      "sha256": "48bb0933847d45766e15fdf786951cf071faf6e9409544344ddec01c05583abe",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/track/event.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/track/event/runnable.rb",
+      "sha256": "2f57086bf17ab367c0681d11e53e13c941127ed8b994c579eb9687841aaff7ca",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/track/event/runnable.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/track/event/post_creation_runner.rb",
+      "sha256": "f9f3001332d5c64847e3438350b9e10da30d58ddc7990cd9271b308baa139d84",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/track/event/post_creation_runner.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/track/event/broadcasts_creation.rb",
+      "sha256": "98e2b11d4df4730825843ceb9d322a825809ae4a56be21272e9d4f900882794e",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/track/event/broadcasts_creation.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/track/event/monetizable.rb",
+      "sha256": "ef7885082e5d9fa1f4c6518c853a22a3a88fdd9bbce538edab1f6675f8d99e0b",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/track/event/monetizable.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/track/event/capturable.rb",
+      "sha256": "a11fe6f647d5139eb8e02ddb5f295458974475d233f8e3dbc4b0d9251f372a7e",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/track/event/capturable.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/track/action/conversation.rb",
+      "sha256": "055592e65822dfacff3cd9bf72476364c12714855c9c4e57b23d15d8692ba330",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/track/action/conversation.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/contact/lifecycle/activity_transition.rb",
+      "sha256": "4e933eab59454cd84875986b453c69f2883db9d1cd28cec8252edc611a8c3e1f",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/contact/lifecycle/activity_transition.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/dashboard/metric.rb",
+      "sha256": "102508197b01f8912c8ddc409e601ede95626a559ca8bf753b91f36dab4eba95",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/dashboard/metric.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/dashboard/action_rollup.rb",
+      "sha256": "42e87a57ec90f16bb5c64244dc0c1ead88566c5b60ea26b7cd73dea8bf6e7a70",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/dashboard/action_rollup.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/elasticsearch/indexable.rb",
+      "sha256": "a823798564c1e4a0955cf9946c2049f78dd160d3f3ce82bee50072b65271ba12",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/elasticsearch/indexable.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/elasticsearch/index.rb",
+      "sha256": "3990bd92ce645ab551aa3cb694c521d719aa38c2de8fd496f9dd6cd12b292258",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/elasticsearch/index.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/playbook.rb",
+      "sha256": "5ac5845456909f92e8fa156499bbd19d5694b13f63a84bae6901ab89cc2fd770",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/playbook.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/playbook/custom.rb",
+      "sha256": "9c250c15f0abeb2ced580300eca12da196c48875b282fdaddd3876bcc249b293",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/playbook/custom.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/playbook/agent.rb",
+      "sha256": "2bb89f47207d7565d25d09d33a1ddb1f2f1c5ee313d1c40ab4d4d272e53980f1",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/playbook/agent.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/ai/agent.rb",
+      "sha256": "b44c5c4c9dc184d08e1897b6dbe3cb476f13cfa18d64a8d23f0e3335d2d0ec02",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/ai/agent.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/ai/conversation.rb",
+      "sha256": "7c11f37e4d3696b59013009767b2d924c1ad8b8fd6a621d8066745939946ef61",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/ai/conversation.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/ai/conversation/summarizable.rb",
+      "sha256": "d6ac3ccc0b6e3a3e838a22665970230026cba97a9399e71e7363925473b031c2",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/ai/conversation/summarizable.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/batch.rb",
+      "sha256": "fcd2ea06930af89bd7cc1d379b08978f2632c99f92525201d8872ba60c57f281",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/batch.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/batch/conversation.rb",
+      "sha256": "52b926ef906e2b4b1b4ea39467c5e71508387452be1e4bc732fd14365f31a571",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/batch/conversation.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/batch/conversation/assign.rb",
+      "sha256": "22d38a7fb7a229d259deca74c6432e536c3569457829988ae39d249c763c408e",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/batch/conversation/assign.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/batch/conversation/processor.rb",
+      "sha256": "b464d7bc3ce245d29607693670fef42ee92eb0895322452c18c6164c99dd7620",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/batch/conversation/processor.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/jobs/batch/process_job.rb",
+      "sha256": "ba828abe50d74a1e81ed41e8ccb340adf86e561c67ac05e08e663bdf4550d79c",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/jobs/batch/process_job.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/controllers/batch/conversations_controller.rb",
+      "sha256": "ec92dc3aa0820edb46cd04405c2a76b217591f12d1c674d1b890015d58fb851b",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/controllers/batch/conversations_controller.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/javascript/controllers/conversations/inbox_controller.js",
+      "sha256": "8e280387320881f38e268040fd5f6d8394fa882f4abeed27dc7094a51af8b0d3",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/javascript/controllers/conversations/inbox_controller.js",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/dashboard/message.rb",
+      "sha256": "235ae9c5b9115617925ecaf5fc53a30e2ecec59bead0444dc1a31813d4ac8d4b",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/dashboard/message.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/push_notification.rb",
+      "sha256": "ec37f73bf173cee94568d71467309fbb59d5271e820a0b429174dfb6419c86fe",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/push_notification.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/push_notification/deliverable.rb",
+      "sha256": "262c238c747ae610c987655a3d1052ceabfcac115465148b8915a9e76939196d",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/push_notification/deliverable.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/controllers/concerns/set_current_user.rb",
+      "sha256": "f603c9689ce485e937467c42ebd6413f38143220f89488b1606a9c096c390ae8",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/controllers/concerns/set_current_user.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/concerns/reopens_conversations.rb",
+      "sha256": "d9b27d86eb1d5c3b9c81489f17950ad4fc43b948357483e791130cdfffffdcc3",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/concerns/reopens_conversations.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "app/models/concerns/onboarding/steppable.rb",
+      "sha256": "e83a519a4a28990a785d1665f67b3187f3d246575c76a4c026a872ad5c35dbbc",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/app/models/concerns/onboarding/steppable.rb",
+      "unchanged_in_compared_delta": true
+    },
+    {
+      "path": "config/routes.rb",
+      "sha256": "26739a703c1f9323688a0895ee0335185a5e2325df305a43fe114dae31e9aac6",
+      "reference": "https://github.com/hellotext/hellotext/blob/8e27a524a1a1354385c7d2fd22de8e568c2112cb/config/routes.rb",
+      "unchanged_in_compared_delta": true
+    }
+  ],
+  "limits": [
+    "Immutable source review, not proof of current production deployment.",
+    "Native request preflight and one-shot approval are required before the proposed local action.",
+    "Existing eight PNGs are preserved; final inline legibility has not been accepted in this completion batch."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "assigning-help-qa-execution-v1",
+  "status": "completed",
+  "helpers": [
+    {
+      "name": "build-and-check.py",
+      "sha256": "f9ffd67dcbc95963d9a9c51ebfcdbcd8c83775d7eb0ebe5578fbc7a3b7502618"
+    },
+    {
+      "name": "owned-review-processes.py",
+      "sha256": "3d67fbbe01c684a7a8f95bec2d3e366dcc111aaf09f241cb220fa8915459ec7e"
+    },
+    {
+      "name": "review-pages.mjs",
+      "sha256": "9740fcd9aac36cb5acd2e4fd47cd147b8fcfc155423c295e3dfc70ffb8051b4a"
+    },
+    {
+      "name": "check-local-http.py",
+      "sha256": "49e17965420796338eb8c441a931873fb80b498a1d7220b004f813142b798023"
+    }
+  ],
+  "standard_capture_sha256": "445ec700c1206723c6df9d38e0d8bfff761121b5a17bf2c3cd8c39982390ff8c",
+  "standard_native_PNGs": 86,
+  "native_density": 2,
+  "profile": "Display P3",
+  "pixel_edits_or_stitching": false,
+  "articles_and_assets_preserved": true,
+  "external_browser_requests_blocked": 6,
+  "browser_runtime_errors": 0,
+  "auxiliary_diagnostic": {
+    "scope": "Inline legibility only; not a public source or standard QA PNG",
+    "native_dpr": 1,
+    "PNG_sha256": "9bef95c677bf073c9b48a313be7127627c1c900450ff4245f82f326d34704415",
+    "pixel_size": [
+      800,
+      303
+    ],
+    "icc": null,
+    "helper_status": "failed_expected_Display_P3_assertion",
+    "readability_result": "passed_by_root_and_independent_EN_reviewer",
+    "private_diagnostic_outcome_sha256": "64751a12d7e9f525912a93c73ffe4959e2c12c11ae2c8c2944b951ce739fc8a4",
+    "DPR2_zoom1_about_blank_after_diagnostic_confirmed": true,
+    "extra_blank_viewport_height_assertion_failed": {
+      "expected": 1200,
+      "observed": 1057
+    },
+    "included_in_standard_PNG_count": false,
+    "PNG_retained_outside_Help": true
+  },
+  "build_log": {
+    "sha256": "2b5bc1a15defbbfb934e54bf5182cf275bfaadbac98f2f8277bf4e7762a6208b",
+    "preserved_byte_exact": true,
+    "literal_trailing_whitespace_lines": [
+      10
+    ],
+    "native_cache_paths_retained": true
+  },
+  "limits": [
+    "The auxiliary DPR1 helper did not pass its ICC assertion. Its unmodified PNG was inspected only for target-text readability; all 86 formal PNGs remain native 2x Display P3.",
+    "No standard screenshots followed the auxiliary diagnostic. Its observed blank viewport height does not change the frozen six standard views.",
+    "Local link resolution verifies built files and fragments, not extensionless routing by the simple HTTP server."
+  ]
+}

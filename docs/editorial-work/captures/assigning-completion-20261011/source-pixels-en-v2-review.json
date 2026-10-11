@@ -1,0 +1,380 @@
+{
+  "schema": "assigning-source-pixel-review-v2",
+  "status": "passed",
+  "locale": "en",
+  "reviewer": "conversation_article",
+  "reviewed_at": "2026-10-11T10:19:10.637296+00:00",
+  "scope": "Complete eight-record V2 English source-pixel matrix: every saved PNG was individually opened and viewed, with current bytes revalidated at this freeze. This receipt accepts source pixels only.",
+  "source_directory": "assigning-conversations-capture-v2-20261011/captures",
+  "records": [
+    {
+      "id": "claim-before",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "claim-before-en-desktop.png",
+      "sha256": "d3d562784199a8bbb3884b0be2ad88693476b777ebdf743b9bdf28068ff5aa99",
+      "clip": [
+        376,
+        91,
+        710,
+        280
+      ],
+      "pixelSize": [
+        2840,
+        1120
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "capturedAt": "2026-10-11T10:03:30.578Z",
+      "status": "passed",
+      "actual_pixels_viewed": true,
+      "sidecar_sha256": "5ad5ba43453b2f6622fd2d8435fe325f8c5dc65914d1b48aa72c0974cec2692d",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_signature_crc_dimensions_and_embedded_P3": "passed",
+      "native_logical_size": [
+        710,
+        280
+      ],
+      "visual_observations": [
+        "Assign to me, the Complete check icon and Actions ellipsis are complete and legible.",
+        "The native beginning-of-conversation text, FRIDAY and fictional Spanish customer message are fully visible and readable; no assignment result is depicted.",
+        "No cursor, debug overlay, loading blank or visible scrollbar appears in the saved crop.",
+        "The desktop crop focuses the conversation panel; it does not display contact identity."
+      ],
+      "byte_identity_note": "The V2 desktop PNG happens to equal the earlier V1 PNG hash. It was independently opened and viewed in this review from the V2 path; its fresh V2 sidecar timestamp, route, helper and read-contract bindings are recorded. The capture owner reports a new CDP capture, not a copy; pixel-byte identity alone cannot prove capture execution.",
+      "reviewed_at": "2026-10-11T10:05:16.927942+00:00"
+    },
+    {
+      "id": "claim-before",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "claim-before-en-mobile.png",
+      "sha256": "6ad88b1405c5b96cefebc9858782a64ef3cb2cab89704b2d4ccbdbf1ba2d6ad5",
+      "clip": [
+        0,
+        68,
+        390,
+        310
+      ],
+      "pixelSize": [
+        1560,
+        1240
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "viewport": [
+        390,
+        1000
+      ],
+      "capturedAt": "2026-10-11T10:04:04.099Z",
+      "status": "passed",
+      "actual_pixels_viewed": true,
+      "sidecar_sha256": "0a9d03803105bd9b9f67981eb72621cab24636e58797d0d4a13292f945ca26fc",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_signature_crc_dimensions_and_embedded_P3": "passed",
+      "native_logical_size": [
+        390,
+        310
+      ],
+      "visual_observations": [
+        "Assign to me, the Complete check icon and Actions ellipsis are complete and legible.",
+        "The native beginning-of-conversation text, FRIDAY and fictional Spanish customer message are fully visible and readable; no assignment result is depicted.",
+        "No cursor, debug overlay, loading blank or visible scrollbar appears in the saved crop.",
+        "Mateo and the M avatar identify the contact; they are not an assigned-owner result."
+      ],
+      "reviewed_at": "2026-10-11T10:05:16.927942+00:00"
+    },
+    {
+      "id": "claim-after",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "claim-after-en-desktop.png",
+      "sha256": "6340c8cbad83c9f260a5e205fea9779d85db868a11998d9f860a18512ad019a9",
+      "clip": [
+        376,
+        91,
+        710,
+        280
+      ],
+      "pixelSize": [
+        2840,
+        1120
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "capturedAt": "2026-10-11T10:16:44.162Z",
+      "status": "passed",
+      "actual_pixels_viewed": true,
+      "reviewed_at": "2026-10-11T10:19:10.637296+00:00",
+      "sidecar_sha256": "1c3e1c5ec5ecce0c4dea900d76e4c4ae8d1424b25e6946202258825c1b9ade0e",
+      "native_logical_size": [
+        710,
+        280
+      ],
+      "visual_observations": [
+        "The assigned-owner S avatar, orange Complete button with check and Actions ellipsis are complete and legible.",
+        "The earlier Assign to me control is no longer shown. Complete is the available action label; it is not evidence that the conversation has been closed.",
+        "The beginning-of-conversation text, FRIDAY and fictional Spanish customer message remain readable. TODAY is visible near the lower edge; the assignment-event line is outside the crop.",
+        "No cursor, debug overlay, loading blank or visible scrollbar appears in the saved crop.",
+        "The desktop crop does not show contact identity. The full responsible-person name is not visible in this crop."
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_signature_crc_dimensions_and_embedded_P3": "passed"
+    },
+    {
+      "id": "claim-after",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "claim-after-en-mobile.png",
+      "sha256": "6c96b4e5f59a2830df6309d412134f14a13bbed9475cb753e45c757befbbefa0",
+      "clip": [
+        0,
+        68,
+        390,
+        310
+      ],
+      "pixelSize": [
+        1560,
+        1240
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "viewport": [
+        390,
+        1000
+      ],
+      "capturedAt": "2026-10-11T10:17:06.355Z",
+      "status": "passed",
+      "actual_pixels_viewed": true,
+      "reviewed_at": "2026-10-11T10:19:10.637296+00:00",
+      "sidecar_sha256": "913ad21778055a80dcf8e9985f7d5ce3759d8b59fd3806329ad68dfb69ad7c62",
+      "native_logical_size": [
+        390,
+        310
+      ],
+      "visual_observations": [
+        "The assigned-owner S avatar, orange Complete button with check and Actions ellipsis are complete and legible.",
+        "The earlier Assign to me control is no longer shown. Complete is the available action label; it is not evidence that the conversation has been closed.",
+        "The beginning-of-conversation text, FRIDAY and fictional Spanish customer message remain readable. TODAY is visible near the lower edge; the assignment-event line is outside the crop.",
+        "No cursor, debug overlay, loading blank or visible scrollbar appears in the saved crop.",
+        "Mateo and the green M avatar remain contact identity, separate from the pink S assigned-owner avatar."
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_signature_crc_dimensions_and_embedded_P3": "passed"
+    },
+    {
+      "id": "ai-chooser",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "ai-chooser-en-desktop.png",
+      "sha256": "3414bc056e4d3b10adb54b6912c6f982c63e4f1cb8486cbebd933bcf6131bdc6",
+      "clip": [
+        750,
+        164,
+        555,
+        205
+      ],
+      "pixelSize": [
+        2220,
+        820
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "capturedAt": "2026-10-11T10:05:16.834Z",
+      "status": "passed",
+      "actual_pixels_viewed": true,
+      "sidecar_sha256": "397feac5f0ae141166fea24f9ab0940bca0cf4171cc8ec9d247e70ecd46aaa27",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_signature_crc_dimensions_and_embedded_P3": "passed",
+      "native_logical_size": [
+        555,
+        205
+      ],
+      "visual_observations": [
+        "AI Agents and the entire fictional agent option Asistente de atención · Demo are readable and contained in the saved crop.",
+        "The native agent chooser remains open; no selected target, saved assignment or AI execution result is depicted.",
+        "Native cascading-menu overlap and partially visible background conversation content are preserved. The crop is not an exhaustive teammate list.",
+        "No cursor, debug overlay, loading blank or visible scrollbar appears in the saved crop.",
+        "The foreground agent submenu overlaps the lower part of Assign. AI Agents and the candidate remain complete; Lucía Méndez and Valentina Rojas are also visible."
+      ],
+      "reviewed_at": "2026-10-11T10:07:09.603860+00:00"
+    },
+    {
+      "id": "ai-chooser",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "ai-chooser-en-mobile.png",
+      "sha256": "3a0ddb66c2b580b97c5276c4c2f0cdb706584c6502d809b96858e674eba9da37",
+      "clip": [
+        0,
+        136,
+        390,
+        392
+      ],
+      "pixelSize": [
+        1560,
+        1568
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "viewport": [
+        390,
+        1000
+      ],
+      "capturedAt": "2026-10-11T10:05:58.858Z",
+      "status": "passed",
+      "actual_pixels_viewed": true,
+      "sidecar_sha256": "a7a026fe11377c56eb478de377bb4ed4ad9959bec3441e2e4e34875cd616032a",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_signature_crc_dimensions_and_embedded_P3": "passed",
+      "native_logical_size": [
+        390,
+        392
+      ],
+      "visual_observations": [
+        "AI Agents and the entire fictional agent option Asistente de atención · Demo are readable and contained in the saved crop.",
+        "The native agent chooser remains open; no selected target, saved assignment or AI execution result is depicted.",
+        "Native cascading-menu overlap and partially visible background conversation content are preserved. The crop is not an exhaustive teammate list.",
+        "No cursor, debug overlay, loading blank or visible scrollbar appears in the saved crop.",
+        "Assign is fully readable above AI Agents; Valentina Rojas, Mateo Silva and Diego Pereira are visible below."
+      ],
+      "reviewed_at": "2026-10-11T10:07:09.603860+00:00"
+    },
+    {
+      "id": "bulk-chooser",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "bulk-chooser-en-desktop.png",
+      "sha256": "018ea1d8a0e77e68ad5fb918c8f11f8cc449643b1f83b7259ec4e18ce07a7d3d",
+      "clip": [
+        0,
+        91,
+        1040,
+        300
+      ],
+      "pixelSize": [
+        4160,
+        1200
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "viewport": [
+        1100,
+        1000
+      ],
+      "capturedAt": "2026-10-11T10:06:57.910Z",
+      "status": "passed",
+      "actual_pixels_viewed": true,
+      "sidecar_sha256": "d057b885fd0a0b20ef1bbff4ca7abdf25764434e5ba12d562006146b7b3b00ea",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_signature_crc_dimensions_and_embedded_P3": "passed",
+      "native_logical_size": [
+        1040,
+        300
+      ],
+      "visual_observations": [
+        "The complete Assign 2 conversations to me label and Actions > Assign control are readable.",
+        "The native teammate chooser shows the complete names Lucía Méndez, Valentina Rojas and Mateo Silva. The list continues beyond the crop; no complete-list claim is made.",
+        "A native highlight appears on Lucía Méndez, but this chooser view does not demonstrate a submitted or persisted assignment.",
+        "No cursor, debug overlay, loading blank or visible scrollbar appears in the saved crop.",
+        "Two orange checked rows for Diego Navarro and Nicolás Vega are visible with 2 conversations selected. Cancel and Select all 4.",
+        "Native ellipses in customer previews are preserved. Source crop is 1040 CSS pixels wide; actual Help inline readability remains pending."
+      ],
+      "reviewed_at": "2026-10-11T10:09:19.677764+00:00"
+    },
+    {
+      "id": "bulk-chooser",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "bulk-chooser-en-mobile.png",
+      "sha256": "8bdec2cb3c3b8a5d5728300012d17c7eaf562d04e3455e8b0d81b589d3f8fa52",
+      "clip": [
+        0,
+        76,
+        390,
+        314
+      ],
+      "pixelSize": [
+        1560,
+        1256
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "viewport": [
+        390,
+        1000
+      ],
+      "capturedAt": "2026-10-11T10:07:49.890Z",
+      "status": "passed",
+      "actual_pixels_viewed": true,
+      "sidecar_sha256": "d0a31cffddf25995950c860999071ccf95bf86ca669c0ca7c1611634cc871d7b",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "png_signature_crc_dimensions_and_embedded_P3": "passed",
+      "native_logical_size": [
+        390,
+        314
+      ],
+      "visual_observations": [
+        "The complete Assign 2 conversations to me label and Actions > Assign control are readable.",
+        "The native teammate chooser shows the complete names Lucía Méndez, Valentina Rojas and Mateo Silva. The list continues beyond the crop; no complete-list claim is made.",
+        "A native highlight appears on Lucía Méndez, but this chooser view does not demonstrate a submitted or persisted assignment.",
+        "No cursor, debug overlay, loading blank or visible scrollbar appears in the saved crop.",
+        "The count of two is present in the action button. Conversation rows and selection checkboxes are outside this mobile crop and cannot be claimed from its pixels.",
+        "The mobile crop shows controls for assigning two selected conversations, with the Assign menu and teammates visible; it does not show a completed batch result."
+      ],
+      "reviewed_at": "2026-10-11T10:09:19.677764+00:00"
+    }
+  ],
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "read_contract_sha256": "a11df6a033e0c186129f5090a1f4acb939ff55e1e0ad9bd76ad45c14415a0f7a",
+  "capture_helper_sha256": "bb1ac6a57d86f07706a66d2d28784c2d07e3152da99c8919142b25a7dba69a3e",
+  "labels_verified": {
+    "en": "AI Agents"
+  },
+  "checks": {
+    "individual_saved_pixel_review": "passed",
+    "eight_record_matrix": "passed",
+    "source_bytes_match_capture_owner_freeze": true,
+    "all_current_png_crc_dimensions_and_P3": "passed",
+    "native_density_and_color": "4x native compositor with embedded Display P3; DPR2 captureScale2",
+    "before_after_crop_and_route_continuity": "passed",
+    "source_pixel_changes": false,
+    "v1_acceptance_reused": false
+  },
+  "findings": [],
+  "editorial_constraints": [
+    "Use the neutral bulk description valid for both layouts: controls for assigning two selected fictional conversations, with the Assign menu and a teammate visible. The mobile crop does not show selection checkboxes or conversation rows.",
+    "The AFTER owner avatar and Complete control must not be described as a completed conversation. No assignment-event line is visible in the saved crops.",
+    "AI and bulk images show open choosers, without proving submitted AI or batch assignment."
+  ],
+  "limitations": [
+    "This source-pixel PASS does not replace the separately reviewed single native human-claim semantic receipt, capture provenance, isolation checks or runtime closure.",
+    "The capture owner reported a single native claim and its server result. This reviewer did not execute or independently re-enact that action; chronological image timestamps alone do not prove the server transaction.",
+    "The reported assignment timeline sentence lies outside both AFTER crops. No inference of automatic assignment is made from its wording.",
+    "The six BEFORE/AI/bulk V2 images were individually viewed in their earlier V2 review sessions and rehashed at final freeze; the two AFTER images were viewed in the final session. No V1 acceptance was reused.",
+    "The documented local cssMinify=false workaround remains a limitation; no full deployed app CSS or pixel parity claim is made.",
+    "Fictional customer messages and the fictional agent name remain in Spanish within the English interface.",
+    "Bulk desktop native crop width is 1040 CSS pixels. Final Help inline readability, responsive composition and EN full-page/detail QA at 1440/580/390 remain pending integration.",
+    "No browser action, app/DB access, assignment, send, runtime change, source pixel editing or Help article edit was performed by this reviewer."
+  ]
+}

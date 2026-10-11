@@ -1,0 +1,63 @@
+{
+  "schema": "assigning-help-locale-pixel-review-v1",
+  "status": "passed",
+  "locale": "es",
+  "reviewer": "inbox_article",
+  "reviewed_at": "2026-10-11T10:42:13.373546+00:00",
+  "source": {
+    "path": "_i18n/es/team/assigning-conversations.md",
+    "sha256": "9e9b00e2743dbc1123ccdccd049967b0cc0ca48398270e19aa9d665f368f994a"
+  },
+  "built_html": {
+    "path": "_site/es/asignando-conversaciones.html",
+    "sha256": "7a77c1c0a3d591bdfb27f7af245335da35cc783f6dd9e06dea7005915b95197e"
+  },
+  "checkpoint_sha256": "1f35281e5f35af5c7928c65ebb2e11e44571ecce76ac9973ca9b3b07e395c927",
+  "views": [
+    {
+      "width": 1440,
+      "file": "help-pixels-es-1440-review.json",
+      "sha256": "fda9b68ec17674ab2ce8b1b29b6cb5072066ec7320901a9a59877f822a76261b",
+      "packet": {
+        "path": "validation/page-review/views/es-1440.json",
+        "sha256": "4b44a5cb017a03d04b032f46ae85a0c8ac6657971bbf296bc9bbca2fb9c4a035"
+      },
+      "png_count": 14
+    },
+    {
+      "width": 580,
+      "file": "help-pixels-es-580-review.json",
+      "sha256": "abfa50409d5730f52aa1477ebaa277c7fe397338ed7d886be49939304b3699a6",
+      "packet": {
+        "path": "validation/page-review/views/es-580.json",
+        "sha256": "e7859be08b9871113cee07954ffe405fa7ea5cb3ea090b75a9494acbd1efd6cd"
+      },
+      "png_count": 14
+    },
+    {
+      "width": 390,
+      "file": "help-pixels-es-390-review.json",
+      "sha256": "56d2e8b1eecfefa542daa294f7234e680c72db0d4b1134a1e36052c1a542b01e",
+      "packet": {
+        "path": "validation/page-review/views/es-390.json",
+        "sha256": "62218b8d239b2cb2c583559359eb2731e225c3cbb75ece957c26b3bec9b2ba17"
+      },
+      "png_count": 15
+    }
+  ],
+  "counts": {
+    "views": 3,
+    "full_page_segments": 25,
+    "figure_details": 18,
+    "personally_viewed_pngs": 43
+  },
+  "findings": [],
+  "scope": "Complete ES Help page at 1440, 580 and 390 CSS pixels, with all six figures inspected separately per viewport. This receipt does not claim English review, publication, or additional runtime actions.",
+  "mutations_by_reviewer": {
+    "articles": false,
+    "assets": false,
+    "browser": false,
+    "runtime": false,
+    "inventory": false
+  }
+}

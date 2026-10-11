@@ -1,0 +1,37 @@
+{
+  "status": "integrated_locally_pending_build_and_page_QA",
+  "at": "2026-10-11T10:29:17.332444+00:00",
+  "raw_manifest_sha256": "13e6786494ebe61c62ddbd7bbe7962a74d19ccb6cd4618d90bb8599f32ee2206",
+  "acceptance_sha256": "69c1d7e3565a34720fd33dd6a347cb5f2d0db8d5b7b535ae9c84ba00f316c2c6",
+  "source_pixel_reviews": {
+    "es": {
+      "file": "source-pixels-es-v2-review.json",
+      "sha256": "e261a3640ffcd9dd2f14cc97f0b5c351a7227e311d78f7794b07ea5efd0f0c1b"
+    },
+    "en": {
+      "file": "source-pixels-en-v2-review.json",
+      "sha256": "1b66bcfbdd39e395b1b53ebf0a5bbcf9ebea279812d83566e74c61d3995535e0"
+    }
+  },
+  "integration_inputs_sha256": "84e6b0069779045a05e610eca8298adbd0a054926fa900a998d5b63b026b9392",
+  "source_register_sha256": "b8ab68750cf854307377e678d5c2955725beee59f2203e116d73cecdb4832403",
+  "articles": [
+    {
+      "path": "_i18n/es/team/assigning-conversations.md",
+      "before_sha256": "51dadb87607386852c05c0827e88a3855e03d41c799b826b08ca6c007724e5a9",
+      "after_sha256": "9e9b00e2743dbc1123ccdccd049967b0cc0ca48398270e19aa9d665f368f994a",
+      "figures": 6
+    },
+    {
+      "path": "_i18n/en/team/assigning-conversations.md",
+      "before_sha256": "a4b0118b0ba0af82960bcf19c2bcd54bdd813f276dcedf4db9f5552f117942db",
+      "after_sha256": "d720f3205fbb056699afc9994efb5e3016b69bbea4f131c3dcd1cf4d5c29f94b",
+      "figures": 6
+    }
+  ],
+  "preserved_sources": 24,
+  "selected_sources": 20,
+  "new_sources": 16,
+  "inventory_changed": false,
+  "publication": false
+}

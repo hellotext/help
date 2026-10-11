@@ -1,0 +1,46 @@
+{
+  "status": "integration_inputs_only_no_new_assets_or_article_references",
+  "articles": {
+    "es": {
+      "path": "_i18n/es/team/assigning-conversations.md",
+      "sha256": "51dadb87607386852c05c0827e88a3855e03d41c799b826b08ca6c007724e5a9",
+      "anchors": {
+        "claim": "1. Abre el **Inbox** y selecciona una conversación sin asignar.\n2. Selecciona **Asignarme** en el encabezado de la conversación.\n3. Confirma que tu avatar aparezca como responsable.",
+        "ai": "Si hay agentes de IA asociados a esa conversación, el menú **Asignar** muestra el grupo **Agentes de IA**.",
+        "bulk": "1. Selecciona las conversaciones en la lista del Inbox.\n2. Elige **Asignarme** para tomar toda la selección.\n3. Para elegir a otra persona, abre **Acciones**, selecciona **Asignar** y elige quién debería recibirlas."
+      }
+    },
+    "en": {
+      "path": "_i18n/en/team/assigning-conversations.md",
+      "sha256": "a4b0118b0ba0af82960bcf19c2bcd54bdd813f276dcedf4db9f5552f117942db",
+      "anchors": {
+        "claim": "1. Open **Inbox** and select an unassigned conversation.\n2. Select **Assign to me** in the conversation header.\n3. Confirm that your avatar appears as the assignee.",
+        "ai": "If AI agents are associated with the conversation, the **Assign** menu shows an **AI agents** group.",
+        "bulk": "1. Select the conversations from the Inbox list.\n2. Choose **Assign to me** to take the selection yourself.\n3. To choose someone else, open the batch **Actions** menu, select **Assign**, and choose a teammate."
+      }
+    }
+  },
+  "insertion_plan_sha256": "c833bb1ff40bdedab6d3062cbddb4eb56fa644552e8ef1f8ddca19de1b73943c",
+  "retained_pixel_review_sha256": "80986cde9e2acbf54c429c039441969ddbbb92937b264c94d592159aa5b01b7c",
+  "target_asset_directory": "images/editorial/assigning-completion-20261011",
+  "expected_new_ids": [
+    "claim-before",
+    "claim-after",
+    "ai-chooser",
+    "bulk-chooser"
+  ],
+  "new_sources": 16,
+  "retained_sources": 8,
+  "selected_sources": 20,
+  "figures_per_locale": 6,
+  "labels_to_apply_only_after_accepted_pixels": {
+    "es": {
+      "before": "**Agentes de IA**",
+      "after": "**Agentes IA**"
+    },
+    "en": {
+      "before": "**AI agents**",
+      "after": "**AI Agents**"
+    }
+  }
+}

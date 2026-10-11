@@ -1,0 +1,275 @@
+{
+  "schema": "assigning-v2-capture-provenance-v1",
+  "status": "capture_complete_runtime_closure_pending",
+  "manifest_sha256": "13e6786494ebe61c62ddbd7bbe7962a74d19ccb6cd4618d90bb8599f32ee2206",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "comparison_revision": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "capture_helper_sha256": "bb1ac6a57d86f07706a66d2d28784c2d07e3152da99c8919142b25a7dba69a3e",
+  "static_index_sha256": "2e05de23495ecb0e26cc77b7237667ac5b16dd196851d9930229c8c67561fe17",
+  "read_contract_sha256": "a11df6a033e0c186129f5090a1f4acb939ff55e1e0ad9bd76ad45c14415a0f7a",
+  "mutation_contract_sha256": "9919f5d4c440f0e2d5f81a7edf1c54710b06abafa74fe4e9e5ab4b2dcab6d6ea",
+  "native_capture": {
+    "engine": "Chrome native CDP Page.captureScreenshot",
+    "device_pixel_ratio": 2,
+    "capture_scale": 2,
+    "native_density": 4,
+    "profile": "Display P3",
+    "pixel_transformations": [],
+    "dom_or_css_changes_for_capture": false,
+    "fresh_v2_capture_count": 16,
+    "old_images_reused": false,
+    "note": "One EN BEFORE desktop PNG is byte-identical to historical V1 because the rendered state is deterministic; the new capture has a fresh V2 sidecar and binding."
+  },
+  "action_evidence": {
+    "completed_native_claim_count": 1,
+    "http_status": 200,
+    "native_result_sha256": "83f1027c26802240a433c2395f19e9083c3798ebe6a0c566c448a417e2d086e5",
+    "candidate_sha256": "11799412a83e37dc116ba335bd67a2a570437bbb05f671b3e6c87e515779425e",
+    "approval_sha256": "837ae5f4daaea964bec2c876c865f0a043f4dc3699e1f87d8a068c196b1a5419",
+    "browser_reservation_sha256": "8d544c2f5fac5584f70da2f57b1263e59578c8fa2ff5f918fde07318960649f0",
+    "proxy_reservation_sha256": "2cabfb9f3a87812e2ffc89ab2b369aa4dc6c37ec0e3e495c39dce90375e64b45",
+    "before_after_timing_verified": true,
+    "ai_target_selections": 0,
+    "batch_submissions": 0,
+    "aggregate_transport_counts": {
+      "allowed_get_head": 2041,
+      "native_claim_paused": 1,
+      "native_claim_forwarded": 1,
+      "denied_other_requests": 53,
+      "denied_websocket_attempts": 202
+    },
+    "private_phase_ledger_sha256": [
+      "35efac9ca5074f157a22d76e134a1bbd3d974227108ea3656a64f047f93f3f81",
+      "e8e327e78ad96df86074e42cf17cebad601fcd071047bbcff9134260a7882725",
+      "c0ec787afa3cf345f7dcc9e4ee6390741a11337d8740108ceb4958baaed1bfdc",
+      "a8cf5355aadc4b6ea23302332023f652f34f188620251b229694e46ac687de2e"
+    ]
+  },
+  "isolation": {
+    "external_os_egress_sandbox": true,
+    "exact_local_proxy_allowlist": true,
+    "application_request_guard": true,
+    "browser_internal_sandbox_disabled": true,
+    "reason": "The internal Chromium sandbox is disabled with the child-only --no-sandbox flag because of macOS nesting incompatibility. The inherited sandbox-exec egress boundary remains; no double-sandbox claim.",
+    "closed_v1_root_browser_write_denied": true
+  },
+  "limitations": [
+    "Existing immutable CSS asset build used cssMinify:false and omitted LightningCSS target transforms; this capture did not alter DOM/CSS or asset bytes. No full production CSS or pixel parity claim.",
+    "AI Agents / Agentes IA show native chooser eligibility only; no AI run or target selection.",
+    "Bulk desktop shows two selected rows and count; mobile shows the native count-two action and chooser from the same retained selection. Member lists are native excerpts, not exhaustive lists.",
+    "Native post-assignment timeline uses the words Asignado automáticamente / Automatically assigned despite the observed human Assign to me form. Images keep the planned header context and do not claim automation. Complete / Completo remains an available action, not proof that the conversation was closed.",
+    "Customer message content remains fictional Spanish text in both localized interfaces.",
+    "Source pixel review is separate from legibility of these native crops inside Help at 1440, 580 and 390 CSS pixels."
+  ],
+  "records": [
+    {
+      "file": "ai-chooser-en-desktop.png",
+      "captured_at": "2026-10-11T10:05:16.834Z",
+      "private_sidecar_sha256": "397feac5f0ae141166fea24f9ab0940bca0cf4171cc8ec9d247e70ecd46aaa27",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 4
+    },
+    {
+      "file": "ai-chooser-en-mobile.png",
+      "captured_at": "2026-10-11T10:05:58.858Z",
+      "private_sidecar_sha256": "a7a026fe11377c56eb478de377bb4ed4ad9959bec3441e2e4e34875cd616032a",
+      "viewport": [
+        390,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 4
+    },
+    {
+      "file": "ai-chooser-es-desktop.png",
+      "captured_at": "2026-10-11T09:57:35.125Z",
+      "private_sidecar_sha256": "28ce5b07c1f542894b4f708e70b14767ea0f6dc17a5ed2db72d142d3dee2e890",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 4
+    },
+    {
+      "file": "ai-chooser-es-mobile.png",
+      "captured_at": "2026-10-11T09:58:35.394Z",
+      "private_sidecar_sha256": "3b0381125cfdb2423869deac66f8d4b3b54b837392d12745c06a9ecd8726017d",
+      "viewport": [
+        390,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 4
+    },
+    {
+      "file": "bulk-chooser-en-desktop.png",
+      "captured_at": "2026-10-11T10:06:57.910Z",
+      "private_sidecar_sha256": "d057b885fd0a0b20ef1bbff4ca7abdf25764434e5ba12d562006146b7b3b00ea",
+      "viewport": [
+        1100,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 5
+    },
+    {
+      "file": "bulk-chooser-en-mobile.png",
+      "captured_at": "2026-10-11T10:07:49.890Z",
+      "private_sidecar_sha256": "d0a31cffddf25995950c860999071ccf95bf86ca669c0ca7c1611634cc871d7b",
+      "viewport": [
+        390,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 4
+    },
+    {
+      "file": "bulk-chooser-es-desktop.png",
+      "captured_at": "2026-10-11T10:00:08.175Z",
+      "private_sidecar_sha256": "57af4a48b36a2452aa0ae69698ac6ca7acff6032f04ce71ba8dfca271c9f46c9",
+      "viewport": [
+        1100,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 5
+    },
+    {
+      "file": "bulk-chooser-es-mobile.png",
+      "captured_at": "2026-10-11T10:00:58.389Z",
+      "private_sidecar_sha256": "160a5d4bcd2cb0692e7ea1a3a7f69c8ab8c4014150b0684e55bcaca8b9df27b2",
+      "viewport": [
+        390,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 4
+    },
+    {
+      "file": "claim-after-en-desktop.png",
+      "captured_at": "2026-10-11T10:16:44.162Z",
+      "private_sidecar_sha256": "1c3e1c5ec5ecce0c4dea900d76e4c4ae8d1424b25e6946202258825c1b9ade0e",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 4
+    },
+    {
+      "file": "claim-after-en-mobile.png",
+      "captured_at": "2026-10-11T10:17:06.355Z",
+      "private_sidecar_sha256": "913ad21778055a80dcf8e9985f7d5ce3759d8b59fd3806329ad68dfb69ad7c62",
+      "viewport": [
+        390,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 5
+    },
+    {
+      "file": "claim-after-es-desktop.png",
+      "captured_at": "2026-10-11T10:13:41.902Z",
+      "private_sidecar_sha256": "5a3dc2526aeea9a88858b5c09c423b63a1311c24f24fa0b098439c52765182f5",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 4
+    },
+    {
+      "file": "claim-after-es-mobile.png",
+      "captured_at": "2026-10-11T10:14:12.211Z",
+      "private_sidecar_sha256": "612c928aae9332282b49a80c90badc063b24edba23e74f7c6fb7c46c532c6e9d",
+      "viewport": [
+        390,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 5
+    },
+    {
+      "file": "claim-before-en-desktop.png",
+      "captured_at": "2026-10-11T10:03:30.578Z",
+      "private_sidecar_sha256": "5ad5ba43453b2f6622fd2d8435fe325f8c5dc65914d1b48aa72c0974cec2692d",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 4
+    },
+    {
+      "file": "claim-before-en-mobile.png",
+      "captured_at": "2026-10-11T10:04:04.099Z",
+      "private_sidecar_sha256": "0a9d03803105bd9b9f67981eb72621cab24636e58797d0d4a13292f945ca26fc",
+      "viewport": [
+        390,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 4
+    },
+    {
+      "file": "claim-before-es-desktop.png",
+      "captured_at": "2026-10-11T09:55:29.049Z",
+      "private_sidecar_sha256": "a57e8874733d527c0f9d7678ce22e4aca09300c0e3fd9e4d2b91b5c3e14ebd9b",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 4
+    },
+    {
+      "file": "claim-before-es-mobile.png",
+      "captured_at": "2026-10-11T09:55:58.239Z",
+      "private_sidecar_sha256": "b88a944364e86debdf3c7c5475dd66a27e4a4a6fbea06364069a2846ecfc8528",
+      "viewport": [
+        390,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "zoom": 1,
+      "fonts": "loaded",
+      "visible_proofs_passed": 4
+    }
+  ],
+  "browser_proxy_shutdown_sha256": "43831433c56ca86fc6d28f7f92a7e45039c777acc389b25c49247a6768edfac6"
+}

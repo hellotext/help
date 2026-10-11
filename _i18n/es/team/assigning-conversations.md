@@ -7,7 +7,7 @@ Que una conversación esté asignada no significa que el cliente ya recibió una
 Desde una conversación individual, el menú **Asignar** puede mostrar:
 
 - Otras personas del equipo.
-- Agentes de IA compatibles disponibles para esa conversación.
+- Agentes de IA asociados a esa conversación.
 
 El menú manual del Inbox asigna una persona específica o un agente de IA. Un equipo se convierte en destino mediante la Derivación de una misión, un step de Asignación de una ruta u otra regla de enrutamiento. Hellotext elige una persona elegible de ese equipo o mantiene la conversación esperando al equipo cuando nadie tiene capacidad.
 
@@ -16,6 +16,34 @@ El menú manual del Inbox asigna una persona específica o un agente de IA. Un e
 1. Abre el **Inbox** y selecciona una conversación sin asignar.
 2. Selecciona **Asignarme** en el encabezado de la conversación.
 3. Confirma que tu avatar aparezca como responsable.
+
+<!-- inbox-actions:claim-before:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="claim-before" aria-label="Ubica Asignarme en una conversación sin asignar">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 728px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/assigning-completion-20261011/claim-before-es-mobile.png 4x" width="1560" height="1240" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/assigning-completion-20261011/claim-before-es-desktop.png" srcset="/images/editorial/assigning-completion-20261011/claim-before-es-desktop.png 4x" width="2840" height="1120" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Encabezado de una conversación ficticia sin asignar con el botón Asignarme visible." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">El botón Asignarme en una conversación ficticia sin asignar.</figcaption>
+</figure>
+<!-- inbox-actions:claim-before:end -->
+
+<!-- inbox-actions:claim-after:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="claim-after" aria-label="Comprueba tu asignación en el encabezado">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 728px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/assigning-completion-20261011/claim-after-es-mobile.png 4x" width="1560" height="1240" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/assigning-completion-20261011/claim-after-es-desktop.png" srcset="/images/editorial/assigning-completion-20261011/claim-after-es-desktop.png 4x" width="2840" height="1120" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Encabezado de la misma conversación ficticia después de usar Asignarme, con el avatar de la persona responsable." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Después de usar Asignarme, el encabezado muestra a la persona responsable de la conversación ficticia.</figcaption>
+</figure>
+<!-- inbox-actions:claim-after:end -->
 
 Responder una conversación sin asignar normalmente también hace que se te asigne automáticamente. Esto ocurre solamente cuando puedes tomar esa conversación.
 
@@ -31,10 +59,10 @@ Si una regla de enrutamiento o Derivación ya mantiene la conversación para un 
 <!-- inbox-actions:assignment-menu:start -->
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="assignment-menu" aria-label="Elige a una persona desde Asignar">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 408px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-20261010/assignment-menu-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-20261010/assignment-menu-es-desktop.png" srcset="/images/editorial/inbox-actions-20261010/assignment-menu-es-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Acciones del Inbox con Asignar abierto y opciones de integrantes para elegir." />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-20261010/assignment-menu-es-mobile.png" srcset="/images/editorial/inbox-actions-20261010/assignment-menu-es-mobile.png 4x" width="1560" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Acciones del Inbox con Asignar abierto y opciones de integrantes para elegir." />
       </picture>
     </div>
   </div>
@@ -42,15 +70,15 @@ Si una regla de enrutamiento o Derivación ya mantiene la conversación para un 
 </figure>
 <!-- inbox-actions:assignment-menu:end -->
 
-Usa los mismos pasos para reasignar una conversación que ya tiene responsable. Hellotext actualiza el avatar del encabezado y registra la asignación en el timeline de la conversación. La nueva persona asignada también puede recibir una notificación.
+Usa los mismos pasos para reasignar una conversación que ya tiene responsable. Hellotext actualiza el avatar del encabezado y registra la asignación en el timeline de la conversación. La nueva persona asignada también puede recibir una notificación. Si asignas una conversación cerrada o pospuesta a otra persona, vuelve al trabajo activo.
 
 <!-- inbox-actions:assignment-result:start -->
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="assignment-result" aria-label="Comprueba el nuevo responsable">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 408px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación del Inbox después de una asignación manual, con el responsable y el registro de asignación visibles." />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-mobile.png" srcset="/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-mobile.png 4x" width="1560" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación del Inbox después de una asignación manual, con el responsable y el registro de asignación visibles." />
       </picture>
     </div>
   </div>
@@ -62,9 +90,23 @@ Antes de reasignar, agrega una nota interna cuando el motivo o el próximo paso 
 
 ## Asigna una conversación a un agente de IA
 
-Cuando hay agentes de IA compatibles, el menú **Asignar** incluye el grupo **Agentes de IA**.
+Si hay agentes de IA asociados a esa conversación, el menú **Asignar** muestra el grupo **Agentes IA**.
 
-Elige el agente que debería continuar la conversación. Hellotext quita al responsable humano y transfiere la conversación activa a ese agente. Si el grupo no aparece, no hay un agente de IA compatible disponible para esa conversación.
+<!-- inbox-actions:ai-chooser:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="ai-chooser" aria-label="Ubica los agentes de IA asociados">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 573px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/assigning-completion-20261011/ai-chooser-es-mobile.png 4x" width="1560" height="1568" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/assigning-completion-20261011/ai-chooser-es-desktop.png" srcset="/images/editorial/assigning-completion-20261011/ai-chooser-es-desktop.png 4x" width="2220" height="820" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Asignar de una conversación ficticia con el grupo Agentes IA y su lista de agentes abiertos." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Grupo Agentes IA del menú Asignar en una conversación ficticia.</figcaption>
+</figure>
+<!-- inbox-actions:ai-chooser:end -->
+
+Elige uno de los agentes disponibles para transferirle la conversación. Hellotext quita al responsable humano y establece la asignación de IA para esa conversación. Si el grupo no aparece, no hay agentes asociados que mostrar.
 
 Usa la asignación manual a IA para una transferencia deliberada. Para seleccionar automáticamente según la intención, gestionar caminos no resueltos y derivar nuevamente a una persona o equipo, usa la configuración de la misión o de la ruta.
 
@@ -93,7 +135,21 @@ Usa una asignación en lote cuando varias conversaciones deberían pasar a la mi
 2. Elige **Asignarme** para tomar toda la selección.
 3. Para elegir a otra persona, abre **Acciones**, selecciona **Asignar** y elige quién debería recibirlas.
 
-Revisa la selección antes de asignarla. La acción cambia el responsable de todas las conversaciones seleccionadas, pero no agrega una nota compartida ni resuelve diferencias en el contexto de cada cliente.
+<!-- inbox-actions:bulk-chooser:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="bulk-chooser" aria-label="Revisa una selección antes de asignarla">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1058px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/assigning-completion-20261011/bulk-chooser-es-mobile.png 4x" width="1560" height="1256" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/assigning-completion-20261011/bulk-chooser-es-desktop.png" srcset="/images/editorial/assigning-completion-20261011/bulk-chooser-es-desktop.png 4x" width="4160" height="1360" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Controles para asignar dos conversaciones ficticias seleccionadas, con el menú Asignar y una persona del equipo visibles." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Dos conversaciones ficticias seleccionadas con el menú para asignarlas a una persona.</figcaption>
+</figure>
+<!-- inbox-actions:bulk-chooser:end -->
+
+Revisa la selección antes de asignarla. La asignación en lote se procesa en segundo plano; comprueba el responsable de cada conversación cuando termine. También devuelve al trabajo activo las conversaciones cerradas o pospuestas que asigna. No agrega una nota compartida ni resuelve diferencias en el contexto de cada cliente.
 
 ## Qué no cambia una asignación
 

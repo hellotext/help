@@ -1,0 +1,75 @@
+{
+  "status": "proposed_only_not_applied",
+  "notes": [
+    "The introductory no-close/no-snooze statement remains accurate and unchanged.",
+    "The individual same-owner controller early return is respected by wording different teammate.",
+    "AI menu association is distinguished from model execution or provider readiness.",
+    "Bulk is asynchronous; no bulk mutation is planned."
+  ],
+  "articles": [
+    {
+      "locale": "es",
+      "active_source": "_i18n/es/team/assigning-conversations.md",
+      "active_sha256": "c7129d6ffab1b082fb321e1d7f90d261396d82e1b0e1c25e56c7a121dfc704d3",
+      "proposed_file": "proposals/es.md",
+      "proposed_sha256": "51dadb87607386852c05c0827e88a3855e03d41c799b826b08ca6c007724e5a9",
+      "replacements": [
+        {
+          "before": "- Agentes de IA compatibles disponibles para esa conversación.",
+          "after": "- Agentes de IA asociados a esa conversación."
+        },
+        {
+          "before": "Usa los mismos pasos para reasignar una conversación que ya tiene responsable. Hellotext actualiza el avatar del encabezado y registra la asignación en el timeline de la conversación. La nueva persona asignada también puede recibir una notificación.",
+          "after": "Usa los mismos pasos para reasignar una conversación que ya tiene responsable. Hellotext actualiza el avatar del encabezado y registra la asignación en el timeline de la conversación. La nueva persona asignada también puede recibir una notificación. Si asignas una conversación cerrada o pospuesta a otra persona, vuelve al trabajo activo."
+        },
+        {
+          "before": "Cuando hay agentes de IA compatibles, el menú **Asignar** incluye el grupo **Agentes de IA**.",
+          "after": "Si hay agentes de IA asociados a esa conversación, el menú **Asignar** muestra el grupo **Agentes de IA**."
+        },
+        {
+          "before": "Elige el agente que debería continuar la conversación. Hellotext quita al responsable humano y transfiere la conversación activa a ese agente. Si el grupo no aparece, no hay un agente de IA compatible disponible para esa conversación.",
+          "after": "Elige uno de los agentes disponibles para transferirle la conversación. Hellotext quita al responsable humano y establece la asignación de IA para esa conversación. Si el grupo no aparece, no hay agentes asociados que mostrar."
+        },
+        {
+          "before": "Revisa la selección antes de asignarla. La acción cambia el responsable de todas las conversaciones seleccionadas, pero no agrega una nota compartida ni resuelve diferencias en el contexto de cada cliente.",
+          "after": "Revisa la selección antes de asignarla. La asignación en lote se procesa en segundo plano; comprueba el responsable de cada conversación cuando termine. También devuelve al trabajo activo las conversaciones cerradas o pospuestas que asigna. No agrega una nota compartida ni resuelve diferencias en el contexto de cada cliente."
+        }
+      ],
+      "headings_preserved": 8,
+      "links_preserved": 9,
+      "existing_figure_blocks_byte_exact": true
+    },
+    {
+      "locale": "en",
+      "active_source": "_i18n/en/team/assigning-conversations.md",
+      "active_sha256": "86dbfc1fb4b0be421e3a00ba3c1eddaaf7a892d794dd08a98726348288ec2060",
+      "proposed_file": "proposals/en.md",
+      "proposed_sha256": "a4b0118b0ba0af82960bcf19c2bcd54bdd813f276dcedf4db9f5552f117942db",
+      "replacements": [
+        {
+          "before": "- Compatible AI agents available for that conversation.",
+          "after": "- AI agents associated with that conversation."
+        },
+        {
+          "before": "Use the same steps to reassign a conversation that already has an owner. Hellotext updates the assignee shown in the header and records the assignment in the conversation timeline. The new assignee can also receive an assignment notification.",
+          "after": "Use the same steps to reassign a conversation that already has an owner. Hellotext updates the assignee shown in the header and records the assignment in the conversation timeline. The new assignee can also receive an assignment notification. Assigning a closed or snoozed conversation to a different teammate returns it to active work."
+        },
+        {
+          "before": "When compatible AI agents are available, the **Assign** menu includes an **AI agents** group.",
+          "after": "If AI agents are associated with the conversation, the **Assign** menu shows an **AI agents** group."
+        },
+        {
+          "before": "Choose the agent that should continue the conversation. Hellotext removes the human assignee and transfers the active conversation to that agent. If the group is not present, no compatible AI agent is available for that conversation.",
+          "after": "Choose one of the available agents to transfer the conversation to it. Hellotext removes the human assignee and sets the AI assignment for that conversation. If the group is not present, there are no associated agents to show."
+        },
+        {
+          "before": "Review the selection before assigning it. Batch assignment changes the owner of every selected conversation, but does not add a shared note or resolve differences in customer context.",
+          "after": "Review the selection before assigning it. Batch assignment runs in the background; check each conversation’s assignee when it finishes. It also returns the closed or snoozed conversations it assigns to active work. It does not add a shared note or resolve differences in customer context."
+        }
+      ],
+      "headings_preserved": 8,
+      "links_preserved": 9,
+      "existing_figure_blocks_byte_exact": true
+    }
+  ]
+}
