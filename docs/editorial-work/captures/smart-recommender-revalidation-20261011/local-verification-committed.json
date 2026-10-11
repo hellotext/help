@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-10-11T06:15:03.079506+00:00",
+  "status": "bilingual_article_local_verified",
+  "article_key": "journeys/smart-recommender-playbook.md",
+  "verifying_commit": "5c25235e38e1defe08c17359a5de5d3a7e5872bf",
+  "final_review": {
+    "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/final-review.json",
+    "sha256": "98c5f5cada82aa2bce8815be4c5599b19a5443e51444537ba8f99d722ca34516"
+  },
+  "local_verification_before_commit": {
+    "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/local-verification.json",
+    "sha256": "9a77de3b24ff8e2a1120ecb3bc660a9f4f1bdb9ea34594781dc9c5d276c2163e"
+  },
+  "evidence_index_at_verifying_commit": {
+    "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/evidence-index.json",
+    "sha256": "0a7747e095af36e8143b5829adac33454c1b47476e60d46a6b92f45b6f3025ce"
+  },
+  "remaining_blockers": [],
+  "inventory": {
+    "before_row": "journeys/smart-recommender-playbook.md,in_progress,d84f01ba7cc51c090ae5c2794157a00adfe4874e,docs/editorial-work/playbook-followup.md",
+    "after_row": "journeys/smart-recommender-playbook.md,local_verified,5c25235e38e1defe08c17359a5de5d3a7e5872bf,docs/editorial-work/smart-recommender-playbook.md",
+    "rows": 154,
+    "unrelated_rows_preserved": 153,
+    "before_counts": {
+      "local_verified": 113,
+      "pending": 33,
+      "out_of_scope": 1,
+      "in_progress": 6,
+      "visual_pending": 1
+    },
+    "after_counts": {
+      "local_verified": 114,
+      "pending": 33,
+      "out_of_scope": 1,
+      "in_progress": 5,
+      "visual_pending": 1
+    },
+    "unresolved_after": 39
+  },
+  "immutable_receipts_preserved": true,
+  "publication_verified": false,
+  "limits": [
+    "This closure records a real existing local verifier commit; it is not evidence of a remote merge or deployment.",
+    "The verifier commit retains the original pre-commit receipts, evidence index and work-record snapshot. This later closure updates only the inventory and current work record."
+  ]
+}

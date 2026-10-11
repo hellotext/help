@@ -1,0 +1,262 @@
+{
+  "reviewer": "root",
+  "reviewed_at": "2026-10-11T06:09:56.487755+00:00",
+  "status": "pass",
+  "scope": "ES complete-page composition at 1440, 580 and 390 CSS pixels; 10 native overlapping segments viewed individually with view_image. Figure detail review is separately owned by inbox_article.",
+  "capture_receipt_sha256": "ffa53230e28d77cbf63e6abbac446c1af45be18c3775258154de550b5086d538",
+  "observations": [
+    "Header, breadcrumbs, title, nine sections, seven static figure stages, related links and footer fit their layout.",
+    "No visible overlap, horizontal clipping, cursor or stray scrollbar in accepted composition segments.",
+    "Lavender figure stages and white frames remain consistent at desktop and mobile widths.",
+    "Segment boundaries overlap by 100 CSS pixels; they are not stitched or altered."
+  ],
+  "limitations": [
+    "Long image rendering in the review tool is downscaled; this receipt validates composition rather than fine text legibility, which is covered by separate native detail review.",
+    "1440 segments were viewed earlier in the same root review before context compaction; 580/390 segments were viewed in this continuation."
+  ],
+  "coverage": [
+    {
+      "width_css": 1440,
+      "height_css": 12531,
+      "segments": 3,
+      "overlap_css": 100,
+      "complete": true
+    },
+    {
+      "width_css": 580,
+      "height_css": 14466,
+      "segments": 3,
+      "overlap_css": 100,
+      "complete": true
+    },
+    {
+      "width_css": 390,
+      "height_css": 16780,
+      "segments": 4,
+      "overlap_css": 100,
+      "complete": true
+    }
+  ],
+  "images": [
+    {
+      "file": "smart-recommender-playbook-es-1440-full-part1.png",
+      "sha256": "42a1ce11586da17d4645360b720c3bc8c417d650385a516aa7fe7e34d18fefad",
+      "pixel_size": [
+        2880,
+        10000
+      ],
+      "clip_css": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 5000
+      },
+      "profile": [
+        {
+          "name": "_",
+          "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+          "display_p3": true
+        }
+      ],
+      "visual_result": "pass"
+    },
+    {
+      "file": "smart-recommender-playbook-es-1440-full-part2.png",
+      "sha256": "db1a0eec9ac9bd1ae4317598069ddd5cac13db3fd8d96a0c734b30573cebc0b4",
+      "pixel_size": [
+        2880,
+        10000
+      ],
+      "clip_css": {
+        "x": 0,
+        "y": 4900,
+        "width": 1440,
+        "height": 5000
+      },
+      "profile": [
+        {
+          "name": "_",
+          "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+          "display_p3": true
+        }
+      ],
+      "visual_result": "pass"
+    },
+    {
+      "file": "smart-recommender-playbook-es-1440-full-part3.png",
+      "sha256": "a3c8957369309b8d14001830c9f17981ade6349504a1cd9cf03df0bdcf10b8b4",
+      "pixel_size": [
+        2880,
+        5462
+      ],
+      "clip_css": {
+        "x": 0,
+        "y": 9800,
+        "width": 1440,
+        "height": 2731
+      },
+      "profile": [
+        {
+          "name": "_",
+          "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+          "display_p3": true
+        }
+      ],
+      "visual_result": "pass"
+    },
+    {
+      "file": "smart-recommender-playbook-es-580-full-part1.png",
+      "sha256": "b45e9eb7eedddc1e5d2ffe4e981f279799062ed648d25f53b8dbafbc9afa91b1",
+      "pixel_size": [
+        1160,
+        10000
+      ],
+      "clip_css": {
+        "x": 0,
+        "y": 0,
+        "width": 580,
+        "height": 5000
+      },
+      "profile": [
+        {
+          "name": "_",
+          "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+          "display_p3": true
+        }
+      ],
+      "visual_result": "pass"
+    },
+    {
+      "file": "smart-recommender-playbook-es-580-full-part2.png",
+      "sha256": "3ccbc05216aa5b6decbeb2c2354f709ef9bde556572b2e15ea4a84692165ba7b",
+      "pixel_size": [
+        1160,
+        10000
+      ],
+      "clip_css": {
+        "x": 0,
+        "y": 4900,
+        "width": 580,
+        "height": 5000
+      },
+      "profile": [
+        {
+          "name": "_",
+          "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+          "display_p3": true
+        }
+      ],
+      "visual_result": "pass"
+    },
+    {
+      "file": "smart-recommender-playbook-es-580-full-part3.png",
+      "sha256": "95832cf4c1f1529ab2a668e02fc13e53be8607efb54c8b31b618d4d1339b8b43",
+      "pixel_size": [
+        1160,
+        9332
+      ],
+      "clip_css": {
+        "x": 0,
+        "y": 9800,
+        "width": 580,
+        "height": 4666
+      },
+      "profile": [
+        {
+          "name": "_",
+          "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+          "display_p3": true
+        }
+      ],
+      "visual_result": "pass"
+    },
+    {
+      "file": "smart-recommender-playbook-es-390-full-part1.png",
+      "sha256": "db34491b259114f9bbe67489542dae52ca7153bec47963069f744cdc69ba6cce",
+      "pixel_size": [
+        780,
+        10000
+      ],
+      "clip_css": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 5000
+      },
+      "profile": [
+        {
+          "name": "_",
+          "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+          "display_p3": true
+        }
+      ],
+      "visual_result": "pass"
+    },
+    {
+      "file": "smart-recommender-playbook-es-390-full-part2.png",
+      "sha256": "b58ae938fbf98db6e0d7ac9d6625c4f10ff842cb898b0ac38a17963b95b593c6",
+      "pixel_size": [
+        780,
+        10000
+      ],
+      "clip_css": {
+        "x": 0,
+        "y": 4900,
+        "width": 390,
+        "height": 5000
+      },
+      "profile": [
+        {
+          "name": "_",
+          "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+          "display_p3": true
+        }
+      ],
+      "visual_result": "pass"
+    },
+    {
+      "file": "smart-recommender-playbook-es-390-full-part3.png",
+      "sha256": "32a839d5c90eb4003e24ffa093f75076234c172a3d37eb8ff61e1dc7735f10e4",
+      "pixel_size": [
+        780,
+        10000
+      ],
+      "clip_css": {
+        "x": 0,
+        "y": 9800,
+        "width": 390,
+        "height": 5000
+      },
+      "profile": [
+        {
+          "name": "_",
+          "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+          "display_p3": true
+        }
+      ],
+      "visual_result": "pass"
+    },
+    {
+      "file": "smart-recommender-playbook-es-390-full-part4.png",
+      "sha256": "fd657727a552d473f42770ee95208dafa386bec6edd745e83ab498472f85c6c3",
+      "pixel_size": [
+        780,
+        4160
+      ],
+      "clip_css": {
+        "x": 0,
+        "y": 14700,
+        "width": 390,
+        "height": 2080
+      },
+      "profile": [
+        {
+          "name": "_",
+          "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+          "display_p3": true
+        }
+      ],
+      "visual_result": "pass"
+    }
+  ]
+}

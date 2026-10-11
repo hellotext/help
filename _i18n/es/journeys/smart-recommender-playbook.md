@@ -85,6 +85,7 @@ Recomendador Inteligente incluye:
 - **Tono:** la voz usada en las respuestas.
 - **Derivación:** si se permite solicitar una derivación y su equipo o persona de destino.
 - **Búsqueda web:** sitios aprobados que el agente puede usar para la misión de recomendación.
+- **[Descuentos]({% link _journeys/how-to-customize-a-playbook-safely.md %}#personaliza-la-estrategia-de-descuento):** qué ofertas existentes de la tienda puede usar el agente, cuando el componente esté disponible.
 - **[Seguimiento]({% link _journeys/how-to-customize-a-playbook-safely.md %}#personaliza-el-seguimiento):** la cantidad de recordatorios, la espera y la acción final si el cliente deja de responder.
 
 Los componentes y permisos pueden variar; revisa también **Audiencia** cuando esté disponible. El filtro limita admisión y no concede identidad, consentimiento o un canal listo. Las figuras siguientes muestran los mismos controles compartidos en borradores ficticios independientes; no presentan una misión Recomendador Inteligente guardada o ejecutada.
@@ -161,7 +162,7 @@ En **Tono**, **Amigable**, **Juguetón** y **Exclusivo** están seleccionados si
 
 Mantén la selección automática de canales salvo que tengas una razón clara para limitar la misión. Algunos formatos de recomendación funcionan mejor en canales enriquecidos, mientras que otros pueden necesitar links o texto más simple.
 
-Esta misión tiene una intención interna de recomendación de productos. Normalmente no necesitas crear intenciones manuales para ella. Si necesitas varios agentes con distintos objetivos de producto o reglas de activación, usa un [agente personalizado]({% link _journeys/custom-agent-playbook.md %}) y define esas intenciones aparte.
+Esta misión tiene una intención interna de recomendación de productos. Normalmente no necesitas crear intenciones manuales para ella. Para otras tareas informativas respaldadas por fuentes autorizadas, consulta [Agente personalizado]({% link _journeys/custom-agent-playbook.md %}) y define intenciones dentro de su alcance. Las intenciones no habilitan recomendaciones de productos ni agregan herramientas.
 
 ## Escribe un prompt útil
 

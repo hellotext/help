@@ -1,0 +1,676 @@
+{
+  "verified_at": "2026-10-11T06:01:20.667903+00:00",
+  "status": "production_build_and_source_exports_passed_pixel_review_pending",
+  "articles": [
+    {
+      "source": "_i18n/es/journeys/smart-recommender-playbook.md",
+      "source_sha256": "bac68256630eea15366edc280fba474a00d3cab20491419ddd27ec6dbe851c71",
+      "built_html": "_site/es/recomendador-inteligente.html",
+      "built_html_sha256": "1603f3b529980aed7ce60b27e64a808c107089f88428ff5bf9a425aa8c3a8b4d",
+      "preserved_headings": 9,
+      "liquid_links": 25,
+      "preserved_figure_structures_exported": 7,
+      "figure_sources": {
+        "product": {
+          "desktop": "/images/developers/products-and-inventory-with-api/identity-es.png",
+          "mobile": "/images/developers/products-and-inventory-with-api/identity-es-mobile.png"
+        },
+        "upload": {
+          "desktop": "/images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+          "mobile": "/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png"
+        },
+        "incoming": {
+          "desktop": "/images/captures/property-collector/channels-es.png",
+          "mobile": "/images/captures/property-collector/channels-es-mobile.png"
+        },
+        "tone": {
+          "desktop": "/images/captures/property-collector/tone-es.png",
+          "mobile": "/images/captures/property-collector/tone-es-mobile.png"
+        },
+        "handoff": {
+          "desktop": "/images/captures/property-collector/handoff-es.png",
+          "mobile": "/images/captures/property-collector/handoff-es-mobile.png"
+        },
+        "web": {
+          "desktop": "/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+          "mobile": "/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png"
+        },
+        "prompt": {
+          "desktop": "/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+          "mobile": "/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png"
+        }
+      }
+    },
+    {
+      "source": "_i18n/en/journeys/smart-recommender-playbook.md",
+      "source_sha256": "c2d5c5d47c1312f0040b5f445001dc3f56a460e38e06cebbe5aaf8b7880b3641",
+      "built_html": "_site/smart-recommender-playbook.html",
+      "built_html_sha256": "966e4173425839bbcf47793c668ffe429bf7c3af6004228b8c10f050b506fc83",
+      "preserved_headings": 9,
+      "liquid_links": 25,
+      "preserved_figure_structures_exported": 7,
+      "figure_sources": {
+        "product": {
+          "desktop": "/images/developers/products-and-inventory-with-api/identity-en.png",
+          "mobile": "/images/developers/products-and-inventory-with-api/identity-en-mobile.png"
+        },
+        "upload": {
+          "desktop": "/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+          "mobile": "/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png"
+        },
+        "incoming": {
+          "desktop": "/images/captures/property-collector/channels-en.png",
+          "mobile": "/images/captures/property-collector/channels-en-mobile.png"
+        },
+        "tone": {
+          "desktop": "/images/captures/property-collector/tone-en.png",
+          "mobile": "/images/captures/property-collector/tone-en-mobile.png"
+        },
+        "handoff": {
+          "desktop": "/images/captures/property-collector/handoff-en.png",
+          "mobile": "/images/captures/property-collector/handoff-en-mobile.png"
+        },
+        "web": {
+          "desktop": "/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+          "mobile": "/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png"
+        },
+        "prompt": {
+          "desktop": "/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+          "mobile": "/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png"
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "source": "images/developers/products-and-inventory-with-api/identity-es.png",
+      "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+      "pixel_size": [
+        1006,
+        786
+      ],
+      "native_logical_size": [
+        503.0,
+        393.0
+      ],
+      "native_density": 2,
+      "concept": "product",
+      "locale": "es",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/developers/products-and-inventory-with-api/identity-es.png",
+        "_site/es/images/developers/products-and-inventory-with-api/identity-es.png"
+      ]
+    },
+    {
+      "source": "images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+      "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+      "pixel_size": [
+        778,
+        786
+      ],
+      "native_logical_size": [
+        389.0,
+        393.0
+      ],
+      "native_density": 2,
+      "concept": "product",
+      "locale": "es",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+        "_site/es/images/developers/products-and-inventory-with-api/identity-es-mobile.png"
+      ]
+    },
+    {
+      "source": "images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+      "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+      "pixel_size": [
+        1256,
+        732
+      ],
+      "native_logical_size": [
+        628.0,
+        366.0
+      ],
+      "native_density": 2,
+      "concept": "upload",
+      "locale": "es",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+        "_site/es/images/journeys/how-to-customize-a-playbook-safely/upload-es.png"
+      ]
+    },
+    {
+      "source": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+      "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+      "pixel_size": [
+        844,
+        804
+      ],
+      "native_logical_size": [
+        422.0,
+        402.0
+      ],
+      "native_density": 2,
+      "concept": "upload",
+      "locale": "es",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+        "_site/es/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png"
+      ]
+    },
+    {
+      "source": "images/captures/property-collector/channels-es.png",
+      "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+      "pixel_size": [
+        1150,
+        1180
+      ],
+      "native_logical_size": [
+        575.0,
+        590.0
+      ],
+      "native_density": 2,
+      "concept": "incoming",
+      "locale": "es",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/captures/property-collector/channels-es.png",
+        "_site/es/images/captures/property-collector/channels-es.png"
+      ]
+    },
+    {
+      "source": "images/captures/property-collector/channels-es-mobile.png",
+      "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+      "pixel_size": [
+        780,
+        1520
+      ],
+      "native_logical_size": [
+        390.0,
+        760.0
+      ],
+      "native_density": 2,
+      "concept": "incoming",
+      "locale": "es",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/captures/property-collector/channels-es-mobile.png",
+        "_site/es/images/captures/property-collector/channels-es-mobile.png"
+      ]
+    },
+    {
+      "source": "images/captures/property-collector/tone-es.png",
+      "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+      "pixel_size": [
+        1150,
+        1030
+      ],
+      "native_logical_size": [
+        575.0,
+        515.0
+      ],
+      "native_density": 2,
+      "concept": "tone",
+      "locale": "es",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/captures/property-collector/tone-es.png",
+        "_site/es/images/captures/property-collector/tone-es.png"
+      ]
+    },
+    {
+      "source": "images/captures/property-collector/tone-es-mobile.png",
+      "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+      "pixel_size": [
+        780,
+        970
+      ],
+      "native_logical_size": [
+        390.0,
+        485.0
+      ],
+      "native_density": 2,
+      "concept": "tone",
+      "locale": "es",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/captures/property-collector/tone-es-mobile.png",
+        "_site/es/images/captures/property-collector/tone-es-mobile.png"
+      ]
+    },
+    {
+      "source": "images/captures/property-collector/handoff-es.png",
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "pixel_size": [
+        1150,
+        660
+      ],
+      "native_logical_size": [
+        575.0,
+        330.0
+      ],
+      "native_density": 2,
+      "concept": "handoff",
+      "locale": "es",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/captures/property-collector/handoff-es.png",
+        "_site/es/images/captures/property-collector/handoff-es.png"
+      ]
+    },
+    {
+      "source": "images/captures/property-collector/handoff-es-mobile.png",
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "pixel_size": [
+        780,
+        680
+      ],
+      "native_logical_size": [
+        390.0,
+        340.0
+      ],
+      "native_density": 2,
+      "concept": "handoff",
+      "locale": "es",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/captures/property-collector/handoff-es-mobile.png",
+        "_site/es/images/captures/property-collector/handoff-es-mobile.png"
+      ]
+    },
+    {
+      "source": "images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+      "sha256": "88c9fed5e13991d0f77cfd6acf51bc618a671f0dae2c90fb1754ecc01c54937f",
+      "pixel_size": [
+        1256,
+        384
+      ],
+      "native_logical_size": [
+        628.0,
+        192.0
+      ],
+      "native_density": 2,
+      "concept": "web",
+      "locale": "es",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+        "_site/es/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png"
+      ]
+    },
+    {
+      "source": "images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+      "sha256": "364ff829a380fb4a643dbcd9f7027781b0aac3aa5ce56bc073d4cf44f88395d2",
+      "pixel_size": [
+        844,
+        408
+      ],
+      "native_logical_size": [
+        422.0,
+        204.0
+      ],
+      "native_density": 2,
+      "concept": "web",
+      "locale": "es",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+        "_site/es/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png"
+      ]
+    },
+    {
+      "source": "images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+      "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19",
+      "pixel_size": [
+        1256,
+        1108
+      ],
+      "native_logical_size": [
+        628.0,
+        554.0
+      ],
+      "native_density": 2,
+      "concept": "prompt",
+      "locale": "es",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+        "_site/es/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png"
+      ]
+    },
+    {
+      "source": "images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+      "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+      "pixel_size": [
+        844,
+        956
+      ],
+      "native_logical_size": [
+        422.0,
+        478.0
+      ],
+      "native_density": 2,
+      "concept": "prompt",
+      "locale": "es",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+        "_site/es/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png"
+      ]
+    },
+    {
+      "source": "images/developers/products-and-inventory-with-api/identity-en.png",
+      "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+      "pixel_size": [
+        1006,
+        786
+      ],
+      "native_logical_size": [
+        503.0,
+        393.0
+      ],
+      "native_density": 2,
+      "concept": "product",
+      "locale": "en",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/developers/products-and-inventory-with-api/identity-en.png",
+        "_site/es/images/developers/products-and-inventory-with-api/identity-en.png"
+      ]
+    },
+    {
+      "source": "images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+      "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+      "pixel_size": [
+        778,
+        786
+      ],
+      "native_logical_size": [
+        389.0,
+        393.0
+      ],
+      "native_density": 2,
+      "concept": "product",
+      "locale": "en",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+        "_site/es/images/developers/products-and-inventory-with-api/identity-en-mobile.png"
+      ]
+    },
+    {
+      "source": "images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+      "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+      "pixel_size": [
+        1256,
+        732
+      ],
+      "native_logical_size": [
+        628.0,
+        366.0
+      ],
+      "native_density": 2,
+      "concept": "upload",
+      "locale": "en",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+        "_site/es/images/journeys/how-to-customize-a-playbook-safely/upload-en.png"
+      ]
+    },
+    {
+      "source": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+      "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+      "pixel_size": [
+        844,
+        804
+      ],
+      "native_logical_size": [
+        422.0,
+        402.0
+      ],
+      "native_density": 2,
+      "concept": "upload",
+      "locale": "en",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+        "_site/es/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png"
+      ]
+    },
+    {
+      "source": "images/captures/property-collector/channels-en.png",
+      "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+      "pixel_size": [
+        1150,
+        1180
+      ],
+      "native_logical_size": [
+        575.0,
+        590.0
+      ],
+      "native_density": 2,
+      "concept": "incoming",
+      "locale": "en",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/captures/property-collector/channels-en.png",
+        "_site/es/images/captures/property-collector/channels-en.png"
+      ]
+    },
+    {
+      "source": "images/captures/property-collector/channels-en-mobile.png",
+      "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+      "pixel_size": [
+        780,
+        1520
+      ],
+      "native_logical_size": [
+        390.0,
+        760.0
+      ],
+      "native_density": 2,
+      "concept": "incoming",
+      "locale": "en",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/captures/property-collector/channels-en-mobile.png",
+        "_site/es/images/captures/property-collector/channels-en-mobile.png"
+      ]
+    },
+    {
+      "source": "images/captures/property-collector/tone-en.png",
+      "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+      "pixel_size": [
+        1150,
+        1030
+      ],
+      "native_logical_size": [
+        575.0,
+        515.0
+      ],
+      "native_density": 2,
+      "concept": "tone",
+      "locale": "en",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/captures/property-collector/tone-en.png",
+        "_site/es/images/captures/property-collector/tone-en.png"
+      ]
+    },
+    {
+      "source": "images/captures/property-collector/tone-en-mobile.png",
+      "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+      "pixel_size": [
+        780,
+        970
+      ],
+      "native_logical_size": [
+        390.0,
+        485.0
+      ],
+      "native_density": 2,
+      "concept": "tone",
+      "locale": "en",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/captures/property-collector/tone-en-mobile.png",
+        "_site/es/images/captures/property-collector/tone-en-mobile.png"
+      ]
+    },
+    {
+      "source": "images/captures/property-collector/handoff-en.png",
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "pixel_size": [
+        1150,
+        660
+      ],
+      "native_logical_size": [
+        575.0,
+        330.0
+      ],
+      "native_density": 2,
+      "concept": "handoff",
+      "locale": "en",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/captures/property-collector/handoff-en.png",
+        "_site/es/images/captures/property-collector/handoff-en.png"
+      ]
+    },
+    {
+      "source": "images/captures/property-collector/handoff-en-mobile.png",
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "pixel_size": [
+        780,
+        680
+      ],
+      "native_logical_size": [
+        390.0,
+        340.0
+      ],
+      "native_density": 2,
+      "concept": "handoff",
+      "locale": "en",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/captures/property-collector/handoff-en-mobile.png",
+        "_site/es/images/captures/property-collector/handoff-en-mobile.png"
+      ]
+    },
+    {
+      "source": "images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+      "sha256": "4336ad08637c31a36fcf67e92368c567e618fe96d135feabff8d2737764e04c7",
+      "pixel_size": [
+        1256,
+        432
+      ],
+      "native_logical_size": [
+        628.0,
+        216.0
+      ],
+      "native_density": 2,
+      "concept": "web",
+      "locale": "en",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+        "_site/es/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png"
+      ]
+    },
+    {
+      "source": "images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+      "sha256": "61a0d21c1723fc520232f1245b1a95fe4eb24e95866609f7b95de15d1e1fd4ca",
+      "pixel_size": [
+        844,
+        408
+      ],
+      "native_logical_size": [
+        422.0,
+        204.0
+      ],
+      "native_density": 2,
+      "concept": "web",
+      "locale": "en",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+        "_site/es/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png"
+      ]
+    },
+    {
+      "source": "images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+      "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e",
+      "pixel_size": [
+        1256,
+        1108
+      ],
+      "native_logical_size": [
+        628.0,
+        554.0
+      ],
+      "native_density": 2,
+      "concept": "prompt",
+      "locale": "en",
+      "mobile": false,
+      "built_copies_equal": [
+        "_site/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+        "_site/es/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png"
+      ]
+    },
+    {
+      "source": "images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+      "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+      "pixel_size": [
+        844,
+        956
+      ],
+      "native_logical_size": [
+        422.0,
+        478.0
+      ],
+      "native_density": 2,
+      "concept": "prompt",
+      "locale": "en",
+      "mobile": true,
+      "built_copies_equal": [
+        "_site/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+        "_site/es/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png"
+      ]
+    }
+  ],
+  "source_png_count": 28,
+  "source_to_built_png_comparisons": 56,
+  "exported_js_copies": [
+    "_site/assets/editorial/editorial_visuals.js",
+    "_site/es/assets/editorial/editorial_visuals.js",
+    "_site/assets/editorial/editorial_tabs.js",
+    "_site/es/assets/editorial/editorial_tabs.js"
+  ],
+  "excluded_paths": [
+    "docs",
+    "es/docs",
+    "AGENTS.md",
+    "es/AGENTS.md",
+    "audit",
+    "es/audit",
+    "script/verify_security_headers.rb"
+  ],
+  "input_snapshot_sha256": "a12f0c3da4234d7683b99a87c2f899eb809cdc18e56465e21aa311c4bb8e5a14",
+  "build_execution_sha256": "bb692a680789b634096848f2f499c8553be8c88d9e7c3f7b7b4b0d32a1f6ee21",
+  "source_admission_sha256": "abcaf039afb9090ffa50ce67bfb4119738b37ffc2c11804ae3a2b711f92131b7",
+  "inventory_counts": {
+    "local_verified": 113,
+    "pending": 33,
+    "out_of_scope": 1,
+    "in_progress": 6,
+    "visual_pending": 1
+  },
+  "inventory_modified": false,
+  "complete_visual_coverage": false,
+  "commit_or_publication": false
+}

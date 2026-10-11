@@ -85,6 +85,7 @@ Smart Recommender includes:
 - **Tone:** the voice used in replies.
 - **Escalation:** whether a handoff can be requested and its destination team or teammate.
 - **Web search:** approved websites the agent can use for the recommendation mission.
+- **[Discounts]({% link _journeys/how-to-customize-a-playbook-safely.md %}#customize-discount-strategy):** which existing store offers the agent can use, when the component is available.
 - **[Follow-up]({% link _journeys/how-to-customize-a-playbook-safely.md %}#customize-follow-up):** the number of nudges, the wait, and the final action if the customer stops replying.
 
 Components and permissions may vary; also review **Audience** when available. Its filter limits admission and does not provide identity, consent, or a ready channel. The following figures show the same shared controls in independent fictional drafts; they do not show a saved or running Smart Recommender playbook.
@@ -161,7 +162,7 @@ In **Tone**, **Friendly**, **Playful**, and **Exclusive** are selected without s
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Some recommendation formats work better in rich channels, while others may need simpler links or text.
 
-This playbook has an internal product-recommendation intent. You usually do not need to create manual intents for it. If you need several agents with different product missions or activation rules, use a [custom agent]({% link _journeys/custom-agent-playbook.md %}) and define those intents separately.
+This playbook has an internal product-recommendation intent. You usually do not need to create manual intents for it. For other informational tasks grounded in authorized sources, see [Custom Agent]({% link _journeys/custom-agent-playbook.md %}) and define intents within its scope. Intents do not enable product recommendations or add tools.
 
 ## Write a useful prompt
 
