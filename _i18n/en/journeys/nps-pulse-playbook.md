@@ -60,15 +60,95 @@ For setup validation, use [Verify your data and signals after setup]({% link _in
 
 Open **Playbooks**, click **Explore playbooks**, and choose **NPS Pulse**.
 
-Open **NPS message** to edit the primary question customers receive after delivery.
+<!-- nps-visual:header:start -->
+The header includes the control for enabling the playbook. On mobile, the native layout hides its name and retains the **Configuration** tab. The example shows the playbook off.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-nps-figure="header" aria-label="Editor header with the playbook off; the native mobile layout hides its name. Fictional account.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 918px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/birthday-bash/header-en-mobile.png 2x" width="860" height="234" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/nps-pulse/header-en-desktop.png" srcset="/images/journeys/nps-pulse/header-en-desktop.png 2x" width="1800" height="194" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Editor header with the playbook off; the native mobile layout hides its name. Fictional account." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Editor header with the playbook off; the native mobile layout hides its name. Fictional account.</figcaption>
+</figure>
+<!-- nps-visual:header:end -->
+
+<!-- nps-visual:cards:start -->
+Under **Configuration**, you will find **Outgoing channels**, **NPS Message**, and **Audience**. The desktop capture shows all three cards; mobile shows the first two.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-nps-figure="cards" aria-label="Outgoing channels, NPS Message and Audience cards; mobile shows the first two.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/nps-pulse/cards-en-mobile.png 2x" width="844" height="872" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/nps-pulse/cards-en-desktop.png" srcset="/images/journeys/nps-pulse/cards-en-desktop.png 2x" width="1256" height="1032" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Outgoing channels, NPS Message and Audience cards; mobile shows the first two." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Outgoing channels, NPS Message and Audience cards; mobile shows the first two.</figcaption>
+</figure>
+<!-- nps-visual:cards:end -->
+
+Open **NPS Message** to edit the primary question customers receive after delivery.
 
 The default question is:
 
 On a scale from 1 to 10, how likely are you to recommend us to a friend or colleague?
 
+<!-- nps-visual:message:start -->
+The form says “after a conversation ends,” but NPS Pulse is scheduled from a delivered-order event. Closing a conversation is not this playbook’s trigger.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-nps-figure="message" aria-label="Default NPS question and ten fixed, unselected buttons from 10 to 1 in a fictional account’s message editor.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/nps-pulse/message-en-mobile.png 2x" width="844" height="870" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/nps-pulse/message-en-desktop.png" srcset="/images/journeys/nps-pulse/message-en-desktop.png 2x" width="1256" height="894" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Default NPS question and ten fixed, unselected buttons from 10 to 1 in a fictional account’s message editor." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Default NPS question and ten fixed, unselected buttons from 10 to 1 in a fictional account’s message editor.</figcaption>
+</figure>
+<!-- nps-visual:message:end -->
+
 Keep the question focused on recommendation. If you add too much context, customers may answer about a single support interaction or a single product instead of the overall relationship.
 
 You can edit the question text. The 1-10 score buttons are fixed.
+
+<!-- nps-visual:channel:start -->
+In **Outgoing channels**, the automatic option retains the label **All incoming channels**. That selection does not guarantee an eligible channel or consent for a particular customer. **Manual selection** lets you choose specific channels.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-nps-figure="channel" aria-label="Outgoing channels with the automatic option selected and Manual selection available. Native incoming-channel wording is preserved.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/replenishment-driver/channel-en-mobile.png 2x" width="844" height="1156" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/replenishment-driver/channel-en-desktop.png" srcset="/images/journeys/replenishment-driver/channel-en-desktop.png 2x" width="1256" height="972" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Outgoing channels with the automatic option selected and Manual selection available. Native incoming-channel wording is preserved." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Outgoing channels with the automatic option selected and Manual selection available. Native incoming-channel wording is preserved.</figcaption>
+</figure>
+<!-- nps-visual:channel:end -->
+
+<!-- nps-visual:audience:start -->
+In **Audience**, review whom the playbook will apply to. The example keeps **All audience**; each profile still needs a delivery signal and channel eligibility.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-nps-figure="audience" aria-label="Audience selector with All audience and the Add audiences field in a fictional account.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/birthday-bash/audience-en-mobile.png 2x" width="844" height="480" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/birthday-bash/audience-en-desktop.png" srcset="/images/journeys/birthday-bash/audience-en-desktop.png 2x" width="1256" height="456" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Audience selector with All audience and the Add audiences field in a fictional account." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Audience selector with All audience and the Add audiences field in a fictional account.</figcaption>
+</figure>
+<!-- nps-visual:audience:end -->
 
 ## Understand timing and eligibility
 
@@ -91,13 +171,15 @@ NPS uses a 1-10 answer.
 
 Hellotext classifies the score as:
 
-| Score | Bucket | Meaning |
-| --- | --- | --- |
-| 9-10 | Promoter | The customer is likely to recommend the brand. |
-| 7-8 | Passive | The customer is satisfied enough, but not strongly loyal. |
-| 1-6 | Detractor | The customer may be unhappy or at risk. |
+| Score | Bucket |
+| --- | --- |
+| 9–10 | Promoter |
+| 7–8 | Passive |
+| 1–6 | Detractor |
 
-Only a numeric reply from 1 to 10 is stored as an NPS score. NPS Pulse does not send an automatic request to correct an invalid reply.
+The bucket describes the score; it does not explain the reason for the answer.
+
+Only an integer from 1 to 10, without additional text, is stored as an NPS score. NPS Pulse does not send an automatic request to correct an invalid reply.
 
 ## What happens after a reply
 

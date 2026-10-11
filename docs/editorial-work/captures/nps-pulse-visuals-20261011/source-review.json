@@ -1,0 +1,496 @@
+{
+  "status": "scoped_source_and_text_review_passed",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "comparison_revision": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "comparison_receipt_sha256": "7c6e23bc24c5e0e6e03bbbf3bf18fedbdb865d4b9f8b288358c2cb5e5c19e81c",
+  "bindings": [
+    {
+      "path": "app/models/playbook/nps.rb",
+      "sha256": "c663367f3372e35d9311343b76b17dabe366b679d890b8dc9083598f4407359e",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          73
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/models/playbook/nps/attempt.rb",
+      "sha256": "9ef94d87bc7eda56bc0fdb7a2ae76d893e00096be1f9f718b346f644dcd33616",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          80
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/models/playbook/nps/schedule_attempt.rb",
+      "sha256": "02591112205df53af8fd3f57c2818f2852d917abbb9ed4251eff1368a0794db0",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          291
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/models/playbook/nps/send_guard.rb",
+      "sha256": "fa25ee9cdc525d143943c2a26ee90ff4950e2095dca000ebd6c7c75e4ebebeb7",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          45
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/models/playbook/nps/responder.rb",
+      "sha256": "d49dde862612fcd8667e7fe680913dfc1f5276d7aa4febe050d4bc9abcff1dd5",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          87
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/models/playbook/report.rb",
+      "sha256": "da2dbbea32fc08e2ffe7c5eed3239c907bb463f51f24af177c65935a23762573",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          37
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/views/playbook/previews/_csat.html.erb",
+      "sha256": "c2ef303b8f767b28f84a1e19e96a7d60f6d044a7bb9d8d7451a90d29e4a02505",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          73
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/javascript/controllers/playbook/csat_preview_controller.js",
+      "sha256": "6002e41db691ce678e8e010bb019be685b4181c497d9ca21548c0e5d68012e2a",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          57
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/javascript/controllers/playbook/message_controller.js",
+      "sha256": "7ca2065ce937c7bc0d548dc7fb418bc2070bc190d728f023e1a32ad6cff54142",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          195
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/javascript/controllers/playbook/component_controller.js",
+      "sha256": "6e8becb4b16eb37398c33841e13a746c01f09628d52339c3fbdffce8f4f77bf3",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          58
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/models/playbook/saver/message.rb",
+      "sha256": "0d2ba5662e724074c29198e4e11bbf6a51083cca80b0582f39702bcda00bd1b3",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          107
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/views/playbook/component/messages/_form.html.erb",
+      "sha256": "d24cc792e64dd9b40c0bce10c6aabe9d9f36c00ee7bd5b44e47f6f5d267c4f30",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          127
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/models/supervisor/automation/order_delivered.rb",
+      "sha256": "a59eb24f591d3bb11473768640ea5f3b9bbd179f3bc384d998f5ca5852d0baba",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          41
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/models/message/stateful.rb",
+      "sha256": "b56a4f840155f3beabbc656662c6e668a4ac8b55400b419d02e375692953de2e",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          458,
+          475
+        ],
+        [
+          643,
+          645
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "db/seeds/playbooks.rb",
+      "sha256": "460fbeb8b0f3154a5fc9f2f947a1ed31b914b9558a2aed6d3e0f4f9b6db3f5c3",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1111,
+          1140
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "config/locales/views/playbooks/es.yml",
+      "sha256": "2e76381965fdd69a0c5b939ac47bf99e4ad0c8a109e6171db69572fa697d5a6d",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          217,
+          234
+        ],
+        [
+          329,
+          346
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution",
+      "reading_note": "Full relevant NPS definitions or channel labels read in preceding survey triage; NPS question/form labels reconfirmed in this pass."
+    },
+    {
+      "path": "config/locales/views/playbooks/en.yml",
+      "sha256": "0cd46ff6498f9b50d0cca7372e575bcaba911b3d8ddf54a4b0c4d7e84486fc02",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          217,
+          234
+        ],
+        [
+          329,
+          346
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "config/locales/models/playbook/component/message/es.yml",
+      "sha256": "232e5147262c102764dbbd10f078fe009efbeeea04e6ff088124d43291d49df8",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          31
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution",
+      "reading_note": "Full relevant NPS definitions or channel labels read in preceding survey triage; NPS question/form labels reconfirmed in this pass."
+    },
+    {
+      "path": "config/locales/models/playbook/component/message/en.yml",
+      "sha256": "dc76ee13543b5af2d3b5246d70554620cfab7988f2c2fbab4d8d68b9d1a3127d",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          31
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution",
+      "reading_note": "Full relevant NPS definitions or channel labels read in preceding survey triage; NPS question/form labels reconfirmed in this pass."
+    },
+    {
+      "path": "app/views/playbooks/_form.html.erb",
+      "sha256": "46c3249f7dc8477d51e06fb1f3a064e0dd1b6fca571d42b899975facf7d5ac54",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          290,
+          330
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/controllers/playbooks_controller.rb",
+      "sha256": "fd09a7c52e2f21180a6182d0214c006993beac200ae9a5e7c4eca31f6d855888",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          148,
+          171
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    },
+    {
+      "path": "app/models/playbook/preview.rb",
+      "sha256": "c23bca136cdaade6968eb20dd0483961f1de98b76c606b10fc28207cf10c8510",
+      "snapshot_equal_to_git_8e": true,
+      "reviewed_line_ranges": [
+        [
+          1,
+          25
+        ]
+      ],
+      "scope": "NPS-specific behavior or directly used configuration/preview/report boundary; source inspection, no execution"
+    }
+  ],
+  "historical_comparison": [
+    {
+      "path": "app/models/playbook/nps.rb",
+      "sha256_8e": "c663367f3372e35d9311343b76b17dabe366b679d890b8dc9083598f4407359e",
+      "historical_sha256": "c663367f3372e35d9311343b76b17dabe366b679d890b8dc9083598f4407359e",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/models/playbook/nps/schedule_attempt.rb",
+      "sha256_8e": "02591112205df53af8fd3f57c2818f2852d917abbb9ed4251eff1368a0794db0",
+      "historical_sha256": "02591112205df53af8fd3f57c2818f2852d917abbb9ed4251eff1368a0794db0",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/models/playbook/nps/attempt.rb",
+      "sha256_8e": "9ef94d87bc7eda56bc0fdb7a2ae76d893e00096be1f9f718b346f644dcd33616",
+      "historical_sha256": "9ef94d87bc7eda56bc0fdb7a2ae76d893e00096be1f9f718b346f644dcd33616",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/models/playbook/nps/send_guard.rb",
+      "sha256_8e": "fa25ee9cdc525d143943c2a26ee90ff4950e2095dca000ebd6c7c75e4ebebeb7",
+      "historical_sha256": "fa25ee9cdc525d143943c2a26ee90ff4950e2095dca000ebd6c7c75e4ebebeb7",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/models/playbook/nps/responder.rb",
+      "sha256_8e": "d49dde862612fcd8667e7fe680913dfc1f5276d7aa4febe050d4bc9abcff1dd5",
+      "historical_sha256": "d49dde862612fcd8667e7fe680913dfc1f5276d7aa4febe050d4bc9abcff1dd5",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/models/playbook/component/message.rb",
+      "sha256_8e": "4f93eb1a2e3364ce2b577e1a8aebb6d7569696dbd3cd0083fa567e284c2e2536",
+      "historical_sha256": "4f93eb1a2e3364ce2b577e1a8aebb6d7569696dbd3cd0083fa567e284c2e2536",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/models/playbook/saver/message.rb",
+      "sha256_8e": "0d2ba5662e724074c29198e4e11bbf6a51083cca80b0582f39702bcda00bd1b3",
+      "historical_sha256": "0d2ba5662e724074c29198e4e11bbf6a51083cca80b0582f39702bcda00bd1b3",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/models/concerns/localized_template_backed.rb",
+      "sha256_8e": "c6728c9455edb71ae608da6fbcaa51077e9a2dd90225f914e56baa62241e6881",
+      "historical_sha256": "c6728c9455edb71ae608da6fbcaa51077e9a2dd90225f914e56baa62241e6881",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/views/playbook/component/messages/_form.html.erb",
+      "sha256_8e": "d24cc792e64dd9b40c0bce10c6aabe9d9f36c00ee7bd5b44e47f6f5d267c4f30",
+      "historical_sha256": "d24cc792e64dd9b40c0bce10c6aabe9d9f36c00ee7bd5b44e47f6f5d267c4f30",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/message_controller.js",
+      "sha256_8e": "7ca2065ce937c7bc0d548dc7fb418bc2070bc190d728f023e1a32ad6cff54142",
+      "historical_sha256": "7ca2065ce937c7bc0d548dc7fb418bc2070bc190d728f023e1a32ad6cff54142",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/views/playbook/previews/_csat.html.erb",
+      "sha256_8e": "c2ef303b8f767b28f84a1e19e96a7d60f6d044a7bb9d8d7451a90d29e4a02505",
+      "historical_sha256": "c2ef303b8f767b28f84a1e19e96a7d60f6d044a7bb9d8d7451a90d29e4a02505",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/csat_preview_controller.js",
+      "sha256_8e": "6002e41db691ce678e8e010bb019be685b4181c497d9ca21548c0e5d68012e2a",
+      "historical_sha256": "6002e41db691ce678e8e010bb019be685b4181c497d9ca21548c0e5d68012e2a",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/models/playbook/preview.rb",
+      "sha256_8e": "c23bca136cdaade6968eb20dd0483961f1de98b76c606b10fc28207cf10c8510",
+      "historical_sha256": "c23bca136cdaade6968eb20dd0483961f1de98b76c606b10fc28207cf10c8510",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/models/playbook/report.rb",
+      "sha256_8e": "da2dbbea32fc08e2ffe7c5eed3239c907bb463f51f24af177c65935a23762573",
+      "historical_sha256": "da2dbbea32fc08e2ffe7c5eed3239c907bb463f51f24af177c65935a23762573",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/controllers/playbook/components_controller.rb",
+      "sha256_8e": "7e8172a984635abc1ca5ce0aa7ddd317dc8605ba5ec36cbe6b6499f0169155ac",
+      "historical_sha256": "7e8172a984635abc1ca5ce0aa7ddd317dc8605ba5ec36cbe6b6499f0169155ac",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/policies/playbook_policy.rb",
+      "sha256_8e": "142f231b5cedb9d8e63e035f647fbccb59ab424974cd8f31ff78cb9858a3a7cf",
+      "historical_sha256": "142f231b5cedb9d8e63e035f647fbccb59ab424974cd8f31ff78cb9858a3a7cf",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "config/locales/models/playbook/component/message/es.yml",
+      "sha256_8e": "232e5147262c102764dbbd10f078fe009efbeeea04e6ff088124d43291d49df8",
+      "historical_sha256": "232e5147262c102764dbbd10f078fe009efbeeea04e6ff088124d43291d49df8",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "config/locales/models/playbook/component/message/en.yml",
+      "sha256_8e": "dc76ee13543b5af2d3b5246d70554620cfab7988f2c2fbab4d8d68b9d1a3127d",
+      "historical_sha256": "dc76ee13543b5af2d3b5246d70554620cfab7988f2c2fbab4d8d68b9d1a3127d",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "db/seeds/playbooks.rb",
+      "sha256_8e": "460fbeb8b0f3154a5fc9f2f947a1ed31b914b9558a2aed6d3e0f4f9b6db3f5c3",
+      "historical_sha256": "46999ebf8d37b8188dbd62065cfc1300b1baeffc5c7a092d8881186e81a1d3c4",
+      "same_as_historical": false,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/controllers/playbooks_controller.rb",
+      "sha256_8e": "fd09a7c52e2f21180a6182d0214c006993beac200ae9a5e7c4eca31f6d855888",
+      "historical_sha256": "87e7755e75590b891ce02e0607275aa69b9d424d21b396eab99b3d0b0baa6d09",
+      "same_as_historical": false,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/views/playbooks/_form.html.erb",
+      "sha256_8e": "46c3249f7dc8477d51e06fb1f3a064e0dd1b6fca571d42b899975facf7d5ac54",
+      "historical_sha256": "53f5e6c3ecf0104ae38bfd69cc5f4e663b9b534e2d1a9547c05e72bbaff4371d",
+      "same_as_historical": false,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/models/supervisor/automation/order_delivered.rb",
+      "sha256_8e": "a59eb24f591d3bb11473768640ea5f3b9bbd179f3bc384d998f5ca5852d0baba",
+      "historical_sha256": "a59eb24f591d3bb11473768640ea5f3b9bbd179f3bc384d998f5ca5852d0baba",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "app/models/message/stateful.rb",
+      "sha256_8e": "b56a4f840155f3beabbc656662c6e668a4ac8b55400b419d02e375692953de2e",
+      "historical_sha256": "b56a4f840155f3beabbc656662c6e668a4ac8b55400b419d02e375692953de2e",
+      "same_as_historical": true,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "config/locales/views/playbooks/es.yml",
+      "sha256_8e": "2e76381965fdd69a0c5b939ac47bf99e4ad0c8a109e6171db69572fa697d5a6d",
+      "historical_sha256": "0f098cf2baeb0c7462cd0e06340cbb413b544b987fd3f374ae6f563be624af9e",
+      "same_as_historical": false,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    },
+    {
+      "path": "config/locales/views/playbooks/en.yml",
+      "sha256_8e": "0cd46ff6498f9b50d0cca7372e575bcaba911b3d8ddf54a4b0c4d7e84486fc02",
+      "historical_sha256": "446533f591c61a88331412aabf3a38f8d57df28c7b1e476ca620e6486fb2ec7a",
+      "same_as_historical": false,
+      "in_afac_delta": false,
+      "human_scope": "Historical recorded scope retained; byte comparison does not constitute a fresh complete read."
+    }
+  ],
+  "scope": "Reuse previously reviewed scoped 8e→afac comparison; no new fetch or broad source audit. Exact current snapshot files below compared to immutable 8e Git blobs.",
+  "independent_review_sha256": "244763319760396c6154331b3591e77e5c945abc12667ba275808c6c9b066e27",
+  "limits": [
+    "No global pixel/deployment parity claim.",
+    "No runtime/survey/order/delivery/score/activation executed.",
+    "Native wording mismatches retained in pixels and described in article."
+  ]
+}

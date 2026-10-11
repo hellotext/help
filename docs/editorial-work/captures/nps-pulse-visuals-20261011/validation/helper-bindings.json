@@ -1,0 +1,49 @@
+{
+  "status": "helpers_bound_for_actual_NPS_build_and_native_Help_QA",
+  "helpers": [
+    {
+      "path": "audit/nps-help-qa-20261011/build-and-check.py",
+      "sha256": "ad4d9c078e87d820b133ed7efdd61ca5564bb9462bfc43ee07b33c29fc6ad491"
+    },
+    {
+      "path": "audit/nps-help-qa-20261011/owned-review-processes.py",
+      "sha256": "72f076c5af391ad1553f6073437b0339acc8219d6d35c84214190dd149c9e595"
+    },
+    {
+      "path": "audit/nps-help-qa-20261011/review-pages.mjs",
+      "sha256": "c7740fe9483fb519c75b9dceace6c59d9ce1809548db8df43103381f08f7a597"
+    },
+    {
+      "path": "audit/nps-help-qa-20261011/freeze-view-packets.py",
+      "sha256": "4fd5c8566e29921bf396386931d86549659500ba751e7f906ea8b73cd4eb4b4e"
+    },
+    {
+      "path": "audit/nps-help-qa-20261011/check-local-http.py",
+      "sha256": "1f24e3077b7e2fb82839e8c747a95974c03edcf06a8b06c76bd9f0664e8bb887"
+    },
+    {
+      "path": "audit/nps-help-qa-20261011/record-en-view-review.py",
+      "sha256": "d562f9c9af7f0cf0fcb5c878f5aae47420ccc675d9b71a4cf171093c287a9158"
+    },
+    {
+      "path": "audit/nps-help-qa-20261011/helper-preparation.json",
+      "sha256": "9072807ff872b6dca3d41d87151f5e4cee5a0b46292b26ef72acc81fa32e616c"
+    },
+    {
+      "path": "audit/nps-help-qa-20261011/finalize-local-review.py",
+      "sha256": "320cc63d39fffcf2d5115ae907251ad6ae21f2cd8b476ae8276879b8a9dbd449"
+    }
+  ],
+  "worktree": "help-nps-visuals-20261011",
+  "source_manifest_sha256": "cccbba6c3f7bf21797c5bb98603b1ba6fb45f747ff5d76b77025709b0a29f3b0",
+  "checkpoint_sha256": "723d7f36eae44d00b4790638dcfe730394661d80644e960d3e53c6d633873786",
+  "ports": [
+    3357,
+    9537
+  ],
+  "limits": [
+    "Raw browser/server logs and temporary Chrome profile stay outside Help.",
+    "Record-en-view-review validates metadata only; it must run only after its reviewer has individually viewed every PNG in that view.",
+    "Static Help QA does not operate the application or database."
+  ]
+}

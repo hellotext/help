@@ -1,0 +1,686 @@
+{
+  "schema_version": 1,
+  "selected": [
+    "header",
+    "cards",
+    "message",
+    "channel",
+    "audience"
+  ],
+  "locales": [
+    "es",
+    "en"
+  ],
+  "figures_per_locale": 5,
+  "asset_directory": "images/journeys (historical paths preserved)",
+  "media": "(max-width: 600px)",
+  "density": 2,
+  "new_preview_required": false,
+  "new_preview_reason": "The static NPS preview renders the same Message body/footer/attachments and ten button definitions already shown in the Message editor. Its buttons are pointer-events-none and tabindex -1; it cannot establish a sent question, accepted score, response processing, timing, delivery or reporting. The article does not ask the reader to operate this preview.",
+  "copy": {
+    "lead": {
+      "es": {
+        "header": "La cabecera incluye el control para habilitar la misión. En móvil, el nombre se oculta y se conserva la pestaña **Configuración**. El ejemplo muestra la misión apagada.",
+        "cards": "En **Configuración** encontrarás **Canales de salida**, **Mensaje de NPS** y **Audiencia**. La captura de escritorio muestra las tres tarjetas; la móvil muestra las dos primeras.",
+        "message": "El formulario dice «cuando termina una conversación», pero Pulso NPS se programa a partir de un evento de pedido entregado. Cerrar una conversación no es el disparador de esta misión.",
+        "channel": "En **Canales de salida**, la opción automática conserva el texto **Todos los canales de entrada**. Esa selección no garantiza que un cliente tenga un canal elegible ni consentimiento para recibir la pregunta. **Selección manual** permite elegir canales específicos.",
+        "audience": "En **Audiencia**, revisa a quién se aplicará la misión. El ejemplo mantiene **Toda la audiencia**; cada perfil todavía necesita una señal de entrega y elegibilidad de canal."
+      },
+      "en": {
+        "header": "The header includes the control for enabling the playbook. On mobile, the native layout hides its name and retains the **Configuration** tab. The example shows the playbook off.",
+        "cards": "Under **Configuration**, you will find **Outgoing channels**, **NPS Message**, and **Audience**. The desktop capture shows all three cards; mobile shows the first two.",
+        "message": "The form says “after a conversation ends,” but NPS Pulse is scheduled from a delivered-order event. Closing a conversation is not this playbook’s trigger.",
+        "channel": "In **Outgoing channels**, the automatic option retains the label **All incoming channels**. That selection does not guarantee an eligible channel or consent for a particular customer. **Manual selection** lets you choose specific channels.",
+        "audience": "In **Audience**, review whom the playbook will apply to. The example keeps **All audience**; each profile still needs a delivery signal and channel eligibility."
+      }
+    },
+    "alt": {
+      "es": {
+        "header": "Cabecera del editor con la misión apagada; el nombre se oculta en la vista móvil. Cuenta ficticia.",
+        "cards": "Tarjetas Canales de salida, Mensaje de NPS y Audiencia; en móvil se muestran las dos primeras.",
+        "message": "Pregunta NPS predeterminada y diez botones fijos del 10 al 1, sin seleccionar, en el editor de una cuenta ficticia.",
+        "channel": "Canales de salida con la opción automática seleccionada y Selección manual disponible. Se conserva el texto nativo de canales de entrada.",
+        "audience": "Selector de audiencia con Toda la audiencia y el campo Agrega audiencias en una cuenta ficticia."
+      },
+      "en": {
+        "header": "Editor header with the playbook off; the native mobile layout hides its name. Fictional account.",
+        "cards": "Outgoing channels, NPS Message and Audience cards; mobile shows the first two.",
+        "message": "Default NPS question and ten fixed, unselected buttons from 10 to 1 in a fictional account’s message editor.",
+        "channel": "Outgoing channels with the automatic option selected and Manual selection available. Native incoming-channel wording is preserved.",
+        "audience": "Audience selector with All audience and the Add audiences field in a fictional account."
+      }
+    }
+  },
+  "section_coverage": [
+    {
+      "id": "what",
+      "section": "What NPS Pulse does / Qué hace Pulso NPS",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          7,
+          21
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          7,
+          21
+        ]
+      },
+      "reader_task": "Recognize a delivered-order recommendation survey, fixed 1–10 scale, first valid answer and duplicate/cooldown limits.",
+      "minimum_evidence": "Conceptual overview; no result capture required. Message editor illustrates question/buttons only.",
+      "historical_figure_concepts": [],
+      "source_anchors": [
+        {
+          "path": "app/models/playbook/nps.rb",
+          "lines": [
+            36,
+            38
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/schedule_attempt.rb",
+          "lines": [
+            11,
+            27
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/responder.rb",
+          "lines": [
+            8,
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when",
+      "section": "When to use it / Cuándo usarla",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          23,
+          32
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          23,
+          32
+        ]
+      },
+      "reader_task": "Choose relationship feedback when delivered-order signals are reliable.",
+      "minimum_evidence": "Decision guidance; prose is sufficient and must not imply that a low score diagnoses churn.",
+      "historical_figure_concepts": [],
+      "source_anchors": []
+    },
+    {
+      "id": "other_feedback",
+      "section": "How it works with other feedback / Cómo convive con otros feedbacks",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          34,
+          46
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          34,
+          46
+        ]
+      },
+      "reader_task": "Distinguish NPS from Review/CSAT and direct support; understand independent delivered-event scheduling.",
+      "minimum_evidence": "Conceptual comparison plus existing related-guide links; do not create another mission for illustration.",
+      "historical_figure_concepts": [],
+      "source_anchors": [
+        {
+          "path": "app/models/supervisor/automation/order_delivered.rb",
+          "lines": [
+            21,
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prerequisites",
+      "section": "What it needs before launch / Qué necesita antes de lanzarla",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          48,
+          57
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          48,
+          57
+        ]
+      },
+      "reader_task": "Check delivery signals, eligible channel/consent and a separate owner for low scores.",
+      "minimum_evidence": "Future readiness checklist; channel/audience configuration figures can locate settings but do not prove recipient eligibility, consent or integration.",
+      "historical_figure_concepts": [
+        "channel",
+        "audience"
+      ],
+      "source_anchors": [
+        {
+          "path": "app/models/playbook/nps/schedule_attempt.rb",
+          "lines": [
+            11,
+            23
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/schedule_attempt.rb",
+          "lines": [
+            64,
+            117
+          ]
+        }
+      ]
+    },
+    {
+      "id": "configure",
+      "section": "Edit the NPS message / Edita el mensaje NPS",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          59,
+          71
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          59,
+          141
+        ]
+      },
+      "reader_task": "Locate NPS editor and three cards; edit wording while retaining ten fixed responses; understand automatic channels/audience and component return versus final save.",
+      "minimum_evidence": "Central UI task covered by five existing figure concepts, conditional on current individual-source and rendered-page QA. Screenshots show unchanged configuration, not an edited/saved/sent result. No new requirement to select Manual channels, narrow Audience or send a survey was added.",
+      "historical_figure_concepts": [
+        "header",
+        "cards",
+        "message",
+        "channel",
+        "audience"
+      ],
+      "source_anchors": [
+        {
+          "path": "db/seeds/playbooks.rb",
+          "lines": [
+            1111,
+            1140
+          ]
+        },
+        {
+          "path": "app/views/playbook/component/messages/_form.html.erb",
+          "lines": [
+            11,
+            18
+          ]
+        },
+        {
+          "path": "app/views/playbook/component/messages/_form.html.erb",
+          "lines": [
+            87,
+            125
+          ]
+        },
+        {
+          "path": "app/models/playbook/saver/message.rb",
+          "lines": [
+            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timing",
+      "section": "Understand timing and eligibility / Entiende timing y elegibilidad",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          73,
+          86
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          143,
+          160
+        ]
+      },
+      "reader_task": "Understand delivered-event + seven-day anchor, later slot selection, 90-day attempt reservation and skip conditions.",
+      "minimum_evidence": "Source-backed explanation, not a configurable timer in this editor; no fabricated calendar, scheduled row or timed delivery needed. Preserve future test checklist.",
+      "historical_figure_concepts": [],
+      "source_anchors": [
+        {
+          "path": "app/models/playbook/nps.rb",
+          "lines": [
+            36,
+            38
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/schedule_attempt.rb",
+          "lines": [
+            11,
+            27
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/schedule_attempt.rb",
+          "lines": [
+            53,
+            61
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/schedule_attempt.rb",
+          "lines": [
+            162,
+            187
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/send_guard.rb",
+          "lines": [
+            5,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "id": "score",
+      "section": "Understand the score / Entiende el puntaje",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          88,
+          100
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          162,
+          176
+        ]
+      },
+      "reader_task": "Interpret 9–10 promoter, 7–8 passive and 1–6 detractor; distinguish valid integer from invalid text.",
+      "minimum_evidence": "Existing comparison table is clearer than a manufactured answered conversation. Fixed ten-button editor provides UI context but does not prove responder execution.",
+      "historical_figure_concepts": [
+        "message"
+      ],
+      "source_anchors": [
+        {
+          "path": "app/models/playbook/nps/responder.rb",
+          "lines": [
+            50,
+            68
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/attempt.rb",
+          "lines": [
+            77,
+            79
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reply",
+      "section": "What happens after a reply / Qué ocurre después de la respuesta",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          102,
+          106
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          178,
+          182
+        ]
+      },
+      "reader_task": "Know first valid score wins; subsequent text is not a stored reason or automatic second question.",
+      "minimum_evidence": "Source-backed behavior can remain prose. No customer reply, artificial score, reason or second-question screenshot required.",
+      "historical_figure_concepts": [],
+      "source_anchors": [
+        {
+          "path": "app/models/playbook/nps/responder.rb",
+          "lines": [
+            8,
+            24
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/responder.rb",
+          "lines": [
+            27,
+            47
+          ]
+        }
+      ]
+    },
+    {
+      "id": "followup",
+      "section": "Follow up on detractors / Da seguimiento a detractores",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          108,
+          110
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          184,
+          186
+        ]
+      },
+      "reader_task": "Assign independent review/follow-up responsibility; understand no NPS-specific recovery item or handoff.",
+      "minimum_evidence": "Organizational checklist plus existing Inbox/handoff links. No NPS Follow-up card is defined; do not insert the generic agent Follow-up preview or imply automatic escalation.",
+      "historical_figure_concepts": [],
+      "source_anchors": [
+        {
+          "path": "db/seeds/playbooks.rb",
+          "lines": [
+            1120,
+            1140
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/responder.rb",
+          "lines": [
+            8,
+            24
+          ]
+        },
+        {
+          "path": "app/views/playbook/component/messages/_form.html.erb",
+          "lines": [
+            102,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "section": "Understand the available NPS data / Entiende los datos NPS disponibles",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          112,
+          116
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          188,
+          192
+        ]
+      },
+      "reader_task": "Distinguish internal score/bucket storage from general metrics and the unavailable dedicated NPS score/rate/bucket report.",
+      "minimum_evidence": "Conceptual explanation and formula; no results screenshot or fixture report should be invented. Preserve main explicit absence; historical draft weakens this important boundary.",
+      "historical_figure_concepts": [],
+      "source_anchors": [
+        {
+          "path": "app/models/playbook/report.rb",
+          "lines": [
+            2,
+            17
+          ]
+        },
+        {
+          "path": "app/models/playbook/report.rb",
+          "lines": [
+            31,
+            35
+          ]
+        },
+        {
+          "path": "app/controllers/playbooks_controller.rb",
+          "lines": [
+            148,
+            159
+          ]
+        },
+        {
+          "path": "app/models/message/stateful.rb",
+          "lines": [
+            458,
+            475
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "section": "How to test it / Cómo probarla",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          118,
+          133
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          194,
+          209
+        ]
+      },
+      "reader_task": "Plan eligible/no-event, three buckets, typed number, invalid reply and ineligible-channel scenarios; check expected schedule/recording behavior later in an authorized test environment.",
+      "minimum_evidence": "Keep all eight scenarios and the outcome checklist. They are user instructions, not actions claimed completed by editorial QA. No sends, activation, productive events or synthetic success receipts required to illustrate this guide.",
+      "historical_figure_concepts": [],
+      "source_anchors": [
+        {
+          "path": "app/models/playbook/nps/schedule_attempt.rb",
+          "lines": [
+            11,
+            27
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/responder.rb",
+          "lines": [
+            8,
+            24
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/responder.rb",
+          "lines": [
+            50,
+            68
+          ]
+        }
+      ]
+    },
+    {
+      "id": "launch",
+      "section": "What to review after launch / Qué revisar después del lanzamiento",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          135,
+          144
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          211,
+          220
+        ]
+      },
+      "reader_task": "Review delivery-signal timestamp, eligibility, duplicate/90-day behavior and human follow-up; tune one factor at a time.",
+      "minimum_evidence": "Future operational checklist; no real launch or metrics claim. Prose remains intact, supported by rules and linked guides.",
+      "historical_figure_concepts": [],
+      "source_anchors": [
+        {
+          "path": "app/models/playbook/nps/schedule_attempt.rb",
+          "lines": [
+            35,
+            61
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/send_guard.rb",
+          "lines": [
+            5,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "id": "links",
+      "section": "Related guides / Guías relacionadas",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          146,
+          157
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          222,
+          233
+        ]
+      },
+      "reader_task": "Navigate to enabling, customization, other feedback, handoff, reporting and data verification guides.",
+      "minimum_evidence": "Preserve ten related links and all eighteen ordered Liquid link references; no screenshot needed.",
+      "historical_figure_concepts": [],
+      "source_anchors": []
+    }
+  ],
+  "current_full_page_QA": "pending"
+}

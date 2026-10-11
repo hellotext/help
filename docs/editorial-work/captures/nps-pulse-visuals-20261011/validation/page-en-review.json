@@ -1,0 +1,48 @@
+{
+  "status": "passed_all_three_EN_views_and_15_figure_details",
+  "reviewer": "conversation_article; build and QA owner",
+  "reviewed_at": "2026-10-11T08:40:27.589852+00:00",
+  "views": [
+    {
+      "path": "audit/nps-help-qa-20261011/page-en-1440-review.json",
+      "sha256": "f20eba01d6374da7c8404fdbd40c6f1d453f72e9a71ce54f14f45db624a16aca",
+      "viewport_css": [
+        1440,
+        1200
+      ],
+      "segments": 9,
+      "details": 5,
+      "images_individually_seen": 14
+    },
+    {
+      "path": "audit/nps-help-qa-20261011/page-en-580-review.json",
+      "sha256": "df185806794f87fce786991df751c18c7542b4b5189958a0592ca60b24a2133f",
+      "viewport_css": [
+        580,
+        1200
+      ],
+      "segments": 9,
+      "details": 5,
+      "images_individually_seen": 14
+    },
+    {
+      "path": "audit/nps-help-qa-20261011/page-en-390-review.json",
+      "sha256": "6c41de69fff46f378f48b1f375557888b5e9cec31dbe06ddbf87bbf7f4a661c4",
+      "viewport_css": [
+        390,
+        1200
+      ],
+      "segments": 10,
+      "details": 5,
+      "images_individually_seen": 15
+    }
+  ],
+  "images_individually_seen": 43,
+  "full_page_segments": 28,
+  "figure_details": 15,
+  "findings": [],
+  "limits": [
+    "Static Help QA of preserved native source PNGs; no new app capture, DB, event, save or send.",
+    "Immutable per-view receipts bind source and HTML, checkpoint, native geometry, PNG SHA/CRC/ICC and pixel decisions."
+  ]
+}
