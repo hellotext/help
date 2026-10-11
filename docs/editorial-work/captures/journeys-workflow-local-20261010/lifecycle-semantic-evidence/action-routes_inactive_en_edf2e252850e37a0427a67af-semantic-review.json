@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-10-11T00:49:23.616065+00:00",
+  "status": "exact_native_graph_semantics_verified",
+  "journey_id": 10,
+  "state": "disabled",
+  "version": 3,
+  "locale": "en",
+  "tables": 541,
+  "original_rows_preserved_with_only_authorized_locale_projection": true,
+  "step_count": 6,
+  "trigger_action_id": 13,
+  "wait": "2 hours",
+  "condition": "Age > 18, no internal wait",
+  "message_technology_ids": [
+    2
+  ],
+  "message_body_exact": true,
+  "assignment_user_id": 1,
+  "end_policy": "end_journey",
+  "topology": "Wait → Condition; positive Branch → Message → Assignment → route end; Else → route end",
+  "performed_jobs": 0,
+  "retained_jobs": {
+    "Automation::Relay::Job": 2
+  },
+  "legacy_technology_columns": "Legacy target_technology_ids columns retain default all. Effective channel selection and WhatsApp sync use the target_technologies association, verified as SMS2 only for Message and Template; see TargetsTechnologies concern.",
+  "limits": "Persistence and graph configuration only; native reload pixels checked separately. No entry event, rule evaluation, elapsed wait, assignment execution or message delivery demonstrated.",
+  "source_semantic_receipt_sha256": "3988693f8108c51e15df5e8e9d70963981466e376fb50fc65af0424694d3dc95",
+  "private_evidence_references": {
+    "before-rows": {
+      "sha256": "0dd490f5e9319ed79439045ac2e5ccb46d90fd08de46c4b072a1e24088ded1cf",
+      "copied": false
+    },
+    "after-rows": {
+      "sha256": "f83a4a62c60728dc39a91854bf83fcb5b18a43feb5a481fe72a8d0339527a380",
+      "copied": false
+    },
+    "result": {
+      "sha256": "25479d7c81368daa0b1eb1b7169a3be712cbd17ba45e43d5b3e515d04df6e690",
+      "copied": false
+    },
+    "final": {
+      "sha256": "8b0a293bb0455b929dca2176005dd8950163eef1977dfe1e8f6be1f4710d053f",
+      "copied": false
+    }
+  },
+  "curation": "Root semantic summary only; nonce and private paths omitted. No DB snapshots or native request bodies copied."
+}

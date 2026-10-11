@@ -1,0 +1,340 @@
+{
+  "recorded_at": "2026-10-10T22:09:39.661733+00:00",
+  "status": "approved_copy_corrections_applied_locally",
+  "review_record": "audit/journeys-workflow-local-20261010/minimum-coverage-review.json",
+  "review_record_sha256": "43071afd805d6fb1b27206bff53608007f5060f3456b3078369e980dabe817ee",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "source_validation": "Uses the source8e review supplied by root; this edit did not rerun the app or independently execute lifecycle transitions.",
+  "source_manifest_sha256": "d28b8d6b6975cc08fa885adf7157af117863987f1e5ff427ca9671a68a8a576c",
+  "source_references": [
+    {
+      "path": "app/actors/journey/create_journey.rb",
+      "sha256": "fc30f983cfd812b33cf92dcec4c68315c472a36a2777d25c419ab5dcdc01d3bf",
+      "git_blob": "b757fbe4846ac778a71094320db379d6fdb9b51d"
+    },
+    {
+      "path": "app/actors/journey/update.rb",
+      "sha256": "a3b41063335b2dc524a6f4c2d2f0c6967e9b57415758f057474ef77043f6d98d",
+      "git_blob": "72d8b0dcb776a12f8d44d8914ba8f0a058b2638a"
+    },
+    {
+      "path": "app/actors/journey/process_step/assignment.rb",
+      "sha256": "dfd66155a456502666471033d439991e4430c91828b256bcbc129e39d924204d",
+      "git_blob": "8daf5d8b0d5a5d7d817dccd8d5d68a5f411a4f79"
+    },
+    {
+      "path": "app/actors/journey/process_step/assignment/assign.rb",
+      "sha256": "c07d59aecfb0c79cf4fc289556bc8d2a99bcd2b0e29f941a8889e7836b5171ff",
+      "git_blob": "8b53233098fa08b3443dd4a0cf99336f47a746d6"
+    },
+    {
+      "path": "app/actors/journey/process_step/move_to_next_step.rb",
+      "sha256": "72506be019fbbceef5b6d04122a750bed470e312430c7de55afd330ff3c31ef0",
+      "git_blob": "1199d12f9a6b020e3f8795a2eb41b3544a902883"
+    },
+    {
+      "path": "app/models/automation/end_policy/end_journey.rb",
+      "sha256": "4813acae2363e302209c2ec581643a814a49c5a28fba678a3c24d6c513b45196",
+      "git_blob": "b38f86707a61392afeeb5875b4750892aed58016"
+    },
+    {
+      "path": "app/models/automation/end_policy/handoff_to_supervisor.rb",
+      "sha256": "95e982b49fe01536010a24b6db8747de6f80cab46a1362841b02389f2c825e30",
+      "git_blob": "4f7ec8789448cea859a7e7251f41711cc71a0459"
+    },
+    {
+      "path": "app/models/journey.rb",
+      "sha256": "d349a50eb1fac4cd0a9a4db1072d49c0e68d9eaf857b87f574b1307e8208d4a2",
+      "git_blob": "f8e2b25223b7d91cedc375d9dc018edacd781ca1"
+    },
+    {
+      "path": "app/views/journeys/partials/editor/_header.html.erb",
+      "sha256": "943efe159df67f52a75162d189d88e61ce92e15b12c0f88eb9a28d8dc01fb4ea",
+      "git_blob": "6d2ff1bd4910d04ca92e98c163d8c403ff65d604"
+    },
+    {
+      "path": "app/views/journeys/partials/editor/_end_pane.html.erb",
+      "sha256": "0cfc9e49ecff59681d1009d843e6836a2b58bd9eee61ddeb6cf8d779f8ca7694",
+      "git_blob": "a75b1a584c43171acbdf516a1364762d3833b5f3"
+    },
+    {
+      "path": "app/views/automation/assignments/_pane.html.erb",
+      "sha256": "2c24f40992cecfdc013a92ec4b0c44661e4e9b0ae53dea9bd6dc090e5e7b4aaa",
+      "git_blob": "9bae854ace179a9e337411d5578045565faf1651"
+    },
+    {
+      "path": "app/javascript/controllers/automation/end_pane_controller.js",
+      "sha256": "d37369a33713176c0b9f32607f9e851d7a7b16c54476e414ec922d0e5e77e8e5",
+      "git_blob": "27c5d9d3c7a20c86be1ca657e49df8199d1a0238"
+    },
+    {
+      "path": "config/locales/actions/es.yml",
+      "sha256": "c7ee71afa36508244806b33b55af44b8aeaaed8627be187db511bc7cb5c9cef7",
+      "git_blob": "bdfe1cbc83b9b3c5c7a7e2a589aeb5e7f3a07e01"
+    },
+    {
+      "path": "config/locales/actions/en.yml",
+      "sha256": "e23ff134e37e5f85640328ce262cfe27da991b716cf9d19ad1639023ab83f05f",
+      "git_blob": "118eed2ec8076c1f1ccf59a8c5742d32da0ef4f3"
+    },
+    {
+      "path": "config/locales/views/journeys/es.yml",
+      "sha256": "4bfc329940497019edb2538ca633190c8b62cddfb41adda042abda70c9e8ef0d",
+      "git_blob": "f705eeee1be17c7568781c9ef007b6d874a9007d"
+    },
+    {
+      "path": "config/locales/views/journeys/en.yml",
+      "sha256": "4c37cd552cb8812202879a6cf4cf019504867c362461a342bc5c35687b50dbc0",
+      "git_blob": "0ff536c20475c36c06ad035dfae146c6e5000f5b"
+    }
+  ],
+  "working_base_revision": "74114920f243f447db9757b7955deae53c71ebb5",
+  "articles": [
+    {
+      "path": "_i18n/en/journeys/custom-journey.md",
+      "before_sha256": "e00e7027b85c3e33868900e147f0e5362663a5b84b674979cefb338fb51c3e72",
+      "after_sha256": "bc7c2a5bedd05dc4a38041f5ba71333477531b3ebbdc66f55593c37dc3da3e95",
+      "headings_preserved": 7,
+      "markdown_links_preserved": 0,
+      "liquid_links_preserved": 0,
+      "figure_blocks_byte_exact": 1,
+      "paragraph_count_preserved": 27,
+      "corrections_applied": 3
+    },
+    {
+      "path": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "before_sha256": "3d5d455ae501e509f5896e1dab0fa5f793469980267e31289f874ed08ed33f2a",
+      "after_sha256": "86af4c39dadb0e9e31d1bac56ccedb7bec00dd64a172a29cf08ad86c3248f51b",
+      "headings_preserved": 6,
+      "markdown_links_preserved": 12,
+      "liquid_links_preserved": 12,
+      "figure_blocks_byte_exact": 2,
+      "paragraph_count_preserved": 31,
+      "corrections_applied": 2
+    },
+    {
+      "path": "_i18n/es/journeys/custom-journey.md",
+      "before_sha256": "ab821897f05127f0c127a56c0b3c1ecf8b12eba8e9d68d0b32a1fbeab6b29e39",
+      "after_sha256": "2fb404d6c5ff4eba66e68c54999fedb85cbc4e657ab927c7e19680dfa1f83b12",
+      "headings_preserved": 7,
+      "markdown_links_preserved": 0,
+      "liquid_links_preserved": 0,
+      "figure_blocks_byte_exact": 1,
+      "paragraph_count_preserved": 27,
+      "corrections_applied": 3
+    },
+    {
+      "path": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "before_sha256": "847acddf30092da26322a14acdaa1c372b7f9e1f248a1be2c4de51310a4988e3",
+      "after_sha256": "064969ac16cde65ececa424c5f21e381ec86a1b45654012362aaac864be69d3c",
+      "headings_preserved": 6,
+      "markdown_links_preserved": 12,
+      "liquid_links_preserved": 12,
+      "figure_blocks_byte_exact": 2,
+      "paragraph_count_preserved": 31,
+      "corrections_applied": 2
+    }
+  ],
+  "corrections": [
+    {
+      "path": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "topic": "normal_save_state_and_actual_label",
+      "before": "Haz clic en **Guardar cambios** mientras trabajas. La ruta permanece inactiva hasta que la publiques.",
+      "after": "Haz clic en **Guardar** mientras trabajas. Al guardar una ruta nueva sin publicarla, queda como borrador. Guardar cambios en una ruta ya activa no la desactiva.",
+      "source_basis": [
+        "app/actors/journey/create_journey.rb",
+        "app/actors/journey/update.rb",
+        "app/views/journeys/partials/editor/_header.html.erb",
+        "config/locales/actions/es.yml"
+      ],
+      "original_paragraph_newlines_preserved": true
+    },
+    {
+      "path": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "topic": "deactivation_state_not_job_cancellation",
+      "before": "Cuando esté lista, haz clic en **Publicar**. Para detenerla más adelante, desactívala.",
+      "after": "Cuando esté lista, haz clic en **Publicar**. Para dejar una ruta activa en estado inactivo, haz clic en **Desactivar**.",
+      "source_basis": [
+        "app/actors/journey/update.rb",
+        "app/views/journeys/partials/editor/_header.html.erb"
+      ],
+      "original_paragraph_newlines_preserved": true
+    },
+    {
+      "path": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "topic": "normal_save_state_and_actual_label",
+      "before": "Click **Save Changes** while you work. The journey remains inactive until you publish it.",
+      "after": "Click **Save changes** while you work (**Save** on mobile). Saving a new journey without publishing creates a draft. Saving changes to an active journey does not make it inactive.",
+      "source_basis": [
+        "app/actors/journey/create_journey.rb",
+        "app/actors/journey/update.rb",
+        "app/views/journeys/partials/editor/_header.html.erb",
+        "config/locales/actions/en.yml"
+      ],
+      "original_paragraph_newlines_preserved": true
+    },
+    {
+      "path": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "topic": "deactivation_state_not_job_cancellation",
+      "before": "When you are ready, click **Publish**. To stop it later, make it inactive.",
+      "after": "When you are ready, click **Publish**. To make an active journey inactive, click **Make inactive**.",
+      "source_basis": [
+        "app/actors/journey/update.rb",
+        "app/views/journeys/partials/editor/_header.html.erb"
+      ],
+      "original_paragraph_newlines_preserved": true
+    },
+    {
+      "path": "_i18n/es/journeys/custom-journey.md",
+      "topic": "normal_save_state_and_actual_label",
+      "before": "Haz clic en **Guardar cambios** mientras trabajas. Las rutas personalizadas permanecen inactivas hasta que las publicas.",
+      "after": "Haz clic en **Guardar** mientras trabajas. Al guardar una ruta nueva sin publicarla, queda como borrador. Guardar cambios en una ruta ya activa no la desactiva.",
+      "source_basis": [
+        "app/actors/journey/create_journey.rb",
+        "app/actors/journey/update.rb",
+        "app/views/journeys/partials/editor/_header.html.erb",
+        "config/locales/actions/es.yml"
+      ],
+      "original_paragraph_newlines_preserved": true
+    },
+    {
+      "path": "_i18n/es/journeys/custom-journey.md",
+      "topic": "deactivation_state_not_job_cancellation",
+      "before": "Cuando esté lista, haz clic en **Publicar**. Para detener la ruta más adelante, desactívala.",
+      "after": "Cuando esté lista, haz clic en **Publicar**. Para dejar una ruta activa en estado inactivo, haz clic en **Desactivar**.",
+      "source_basis": [
+        "app/actors/journey/update.rb",
+        "app/views/journeys/partials/editor/_header.html.erb"
+      ],
+      "original_paragraph_newlines_preserved": true
+    },
+    {
+      "path": "_i18n/en/journeys/custom-journey.md",
+      "topic": "normal_save_state_and_actual_label",
+      "before": "Click **Save Changes** while you work. Custom journeys stay inactive until you publish them.",
+      "after": "Click **Save changes** while you work (**Save** on mobile). Saving a new journey without publishing creates a draft. Saving changes to an active journey does not make it inactive.",
+      "source_basis": [
+        "app/actors/journey/create_journey.rb",
+        "app/actors/journey/update.rb",
+        "app/views/journeys/partials/editor/_header.html.erb",
+        "config/locales/actions/en.yml"
+      ],
+      "original_paragraph_newlines_preserved": true
+    },
+    {
+      "path": "_i18n/en/journeys/custom-journey.md",
+      "topic": "deactivation_state_not_job_cancellation",
+      "before": "When you are ready, click **Publish**. To stop the journey later, make it inactive.",
+      "after": "When you are ready, click **Publish**. To make an active journey inactive, click **Make inactive**.",
+      "source_basis": [
+        "app/actors/journey/update.rb",
+        "app/views/journeys/partials/editor/_header.html.erb"
+      ],
+      "original_paragraph_newlines_preserved": true
+    },
+    {
+      "path": "_i18n/es/journeys/custom-journey.md",
+      "topic": "assignment_continues_and_end_policy_separate",
+      "before": "Usa reglas de derivación cuando la ruta debería detenerse y una persona debería tomar la conversación.",
+      "after": "Configura un paso de asignación cuando una persona o equipo deba tomar la conversación. La asignación no detiene la ruta por sí sola: después continúa al siguiente paso. Si el flujo debe terminar tras derivar, revisa la conexión al final y su configuración. La opción **Regresar a la ruta de IA** controla qué ocurre al terminar; no selecciona a una persona o equipo.",
+      "source_basis": [
+        "app/actors/journey/process_step/assignment.rb",
+        "app/actors/journey/process_step/move_to_next_step.rb",
+        "app/views/journeys/partials/editor/_end_pane.html.erb",
+        "app/javascript/controllers/automation/end_pane_controller.js",
+        "config/locales/views/journeys/es.yml"
+      ],
+      "original_paragraph_newlines_preserved": true
+    },
+    {
+      "path": "_i18n/en/journeys/custom-journey.md",
+      "topic": "assignment_continues_and_end_policy_separate",
+      "before": "Use handoff rules when the journey should stop and a person should take over the conversation.",
+      "after": "Configure an assignment step when a person or team should take over the conversation. Assignment does not stop the journey by itself: it continues to the next step. If the flow should end after handoff, review its connection to the end and the end configuration. **Return to AI routing** controls what happens when the journey ends; it does not select a person or team.",
+      "source_basis": [
+        "app/actors/journey/process_step/assignment.rb",
+        "app/actors/journey/process_step/move_to_next_step.rb",
+        "app/views/journeys/partials/editor/_end_pane.html.erb",
+        "app/javascript/controllers/automation/end_pane_controller.js",
+        "config/locales/views/journeys/en.yml"
+      ],
+      "original_paragraph_newlines_preserved": true
+    }
+  ],
+  "diff_sha256": "3a5a193b089d6536fc66e268ca502749f84522daed1060a0a40712061f3bd3b2",
+  "preserved_stubs": [
+    {
+      "path": "_journeys/getting-started-with-journeys.md",
+      "sha256": "1d4913a819a0fe14b2f6c80f935af2c4ccc431d05a2ee08f37310a1a6a8ec09e"
+    },
+    {
+      "path": "_journeys/custom-journey.md",
+      "sha256": "210cbc505b58d858800902f033264d0ed7bab82cff3bf742133c66826a17982e"
+    }
+  ],
+  "preserved_pngs": [
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-builder-choice-en-desktop.png",
+      "sha256": "564cbc065809555bb9a2b4f500e8700407dd1417ddf743e1e768a6743e02502e"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-builder-choice-en-mobile.png",
+      "sha256": "67075cd9e52b089412ca184675f123e37b7d617f7de16c8b7fdfc106e032e9e2"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-builder-choice-es-desktop.png",
+      "sha256": "345bda0516550574d36aad75f73032c6737b324ebefabcb4853eeb2451b179ac"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-builder-choice-es-mobile.png",
+      "sha256": "16fe9d232203a852a42b511ef93109616cb2fb3e5a1f1a0695c34d754afd6984"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-desktop.png",
+      "sha256": "e6914c42a864e9e04ed9032a3b1ebd0dac964b75b8dfeaabe7ca77cf2a150294"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-mobile.png",
+      "sha256": "58df8a2f574017be737a899f3f01a48e9a239b05b9266db6ae41ff110694823c"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-desktop.png",
+      "sha256": "94c81e4ca9401ecb4d3e766bd2bbe81f69331dcfa46b58f786e9315a0df7d89e"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-mobile.png",
+      "sha256": "d6d2170a478446e2f999fbca07000deb9e0a9c7df61df4449c441567dff4bd6b"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/journey-trigger-menu-en-desktop.png",
+      "sha256": "2d59cf1d794f3411d4c745523532f39b102362279127f6dda79cb66adaf6b668"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/journey-trigger-menu-en-mobile.png",
+      "sha256": "eaf738a3ac917d891e90001d84e2e9cea68919199fa3097cff7577436b466e18"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/journey-trigger-menu-es-desktop.png",
+      "sha256": "dfe9bc526dfa1a6b454c6252c86f3abab0be7ba8417a22b15438a1a1690c1e1d"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/journey-trigger-menu-es-mobile.png",
+      "sha256": "e6a798310618be12b423f4b498e1380c791b3d3d51744977b9aa4c5ed303fc79"
+    }
+  ],
+  "ledger_sha256_unchanged": "afedaf9372c09806d76483b325304b9284aeca138bba3e10954b073ba077e18c",
+  "bilingual_coherence": "Matching correction topics in both locales. ES Guardar; EN desktop Save changes/mobile Save. New journey saving creates draft; active saving preserves active state. Deactivation changes state without claiming queued-job cancellation. Human assignment continues to next step; end connection and AI-return policy are distinct.",
+  "diff_check": "passed",
+  "new_captures": 0,
+  "existing_png_edits": 0,
+  "runtime_actions": 0,
+  "database_actions": 0,
+  "browser_actions": 0,
+  "network_actions": 0,
+  "journey_save_or_publish_actions": 0,
+  "new_persistence_or_capture_claims": false,
+  "build": "not_run_for_this_scoped_text_edit; root will build after actual capture integration",
+  "article_visual_coverage": "unchanged; missing actual workflow evidence remains pending",
+  "commit": "not_performed",
+  "external_publication": "not_performed"
+}

@@ -1,0 +1,44 @@
+--- a/_i18n/es/journeys/custom-journey.md
++++ b/_i18n/es/journeys/custom-journey.md
+@@ -33,6 +33,20 @@
+ Las rutas avanzan en secuencia de un paso al siguiente.
+ 
+ Para agregar un paso, arrástralo al lugar del flujo donde debería ocurrir.
++
++<!-- journeys-workflow:custom-canvas-start:start -->
++<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-canvas-start" aria-label="Conexiones iniciales de la ruta ficticia guardada">
++  <div class="ht-editorial-visual__stage">
++    <div class="ht-editorial-visual__image-frame" style="max-width: 458px; width: fit-content; margin: 0 auto;">
++      <picture>
++        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-canvas-start-es-mobile-v3.png 4x" width="1560" height="3280" />
++        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-canvas-start-es-desktop-v2.png" srcset="/images/editorial/journeys-workflow-20261010/custom-canvas-start-es-desktop-v2.png 4x" width="1760" height="3200" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fragmento guardado de la ruta ficticia: Visitó un producto, espera de 2 horas y condición con las ramas Edad más que 18 y Demás." />
++      </picture>
++    </div>
++  </div>
++  <figcaption class="ht-editorial-visual__caption">Ejemplo ficticio guardado: Visitó un producto conecta con una espera de dos horas y una condición con las ramas Edad más que 18 y Demás.</figcaption>
++</figure>
++<!-- journeys-workflow:custom-canvas-start:end -->
+ 
+ Tipos de pasos comunes:
+ 
+@@ -118,6 +132,20 @@
+ </figure>
+ <!-- journeys-workflow:custom-assignment-sofia:end -->
+ 
++<!-- journeys-workflow:custom-canvas-end:start -->
++<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-canvas-end" aria-label="Conexiones de la asignación y el final de ruta">
++  <div class="ht-editorial-visual__stage">
++    <div class="ht-editorial-visual__image-frame" style="max-width: 458px; width: fit-content; margin: 0 auto;">
++      <picture>
++        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-canvas-end-es-mobile-v3.png 4x" width="1560" height="3760" />
++        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-canvas-end-es-desktop-v2.png" srcset="/images/editorial/journeys-workflow-20261010/custom-canvas-end-es-desktop-v2.png 4x" width="1760" height="3760" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fragmento del ejemplo ficticio con el mensaje conectado a Asignación a Sofía y después a Fin de ruta; la rama Demás también llega al final." />
++      </picture>
++    </div>
++  </div>
++  <figcaption class="ht-editorial-visual__caption">El mensaje se conecta con la asignación a Sofía y después con Fin de ruta; la rama Demás también llega al final.</figcaption>
++</figure>
++<!-- journeys-workflow:custom-canvas-end:end -->
++
+ El final se configura por separado en **Fin de ruta**.
+ 
+ <!-- journeys-workflow:custom-end-policy:start -->

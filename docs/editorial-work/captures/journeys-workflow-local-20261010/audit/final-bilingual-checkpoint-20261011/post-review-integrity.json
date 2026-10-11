@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-11T01:11:01.291406+00:00",
+  "status": "passed",
+  "capture_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a",
+  "frozen_files_preserved": 85,
+  "current_review_pngs": 72,
+  "native_complete_page_views": 12,
+  "long_page_segments": 12,
+  "fullpage_single_pngs": 6,
+  "reused_es_details": 33,
+  "shared_detail_instances": 15,
+  "fresh_detail_pngs": 54,
+  "all_png_hashes_match": true,
+  "all_six_custom_views_have_full_coordinate_coverage": true,
+  "overlap_css": 100,
+  "source_css_or_article_changes": false,
+  "notes": [
+    "The initial capture script was unintentionally run a second time after a continuation-edit cwd error. Initial Getting QA was not used for final attribution; independent reviewer reinspects all18 final assigned PNGs with hashes.",
+    "One blank canvas detail and one full-page capture without ICC are preserved as rejected review artifacts. The first blank Template detail was overwritten by the accidental repeat and is not preserved; no reconstruction or published source change occurred."
+  ]
+}

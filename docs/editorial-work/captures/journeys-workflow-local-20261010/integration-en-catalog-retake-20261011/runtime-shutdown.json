@@ -1,0 +1,38 @@
+{
+  "status": "catalog_retake_owned_runtime_shutdown_verified",
+  "at": "2026-10-11T01:25:57.405882+00:00",
+  "processes": [
+    {
+      "kind": "Puma",
+      "pid": 18628,
+      "port": 3304,
+      "owner_verified": true,
+      "cwd_and_command_verified": true,
+      "signal": "SIGTERM",
+      "pid_absent_after": true,
+      "listener_absent_after": true
+    },
+    {
+      "kind": "Redis",
+      "pid": 17457,
+      "port": 6421,
+      "owner_verified": true,
+      "cwd_and_command_verified": true,
+      "signal": "SIGTERM",
+      "pid_absent_after": true,
+      "listener_absent_after": true
+    }
+  ],
+  "other_processes_signalled": false,
+  "databases_and_artifacts_preserved": true,
+  "original_runtime_not_modified": true,
+  "bindings": {
+    "final_state_verification_sha256": "a16a33101b3bb3110bda087aa0aebb03b9a96a80c679e1e3aefe59c504b17014",
+    "browser_proxy_shutdown_sha256": "0a41d2dda3c16a920a88818288511457474a3e1031280c12bf01a39462e01a3a"
+  },
+  "receipt_amendment": {
+    "at": "2026-10-11T01:27:02.734345+00:00",
+    "superseded_receipt_sha256": "78a9824be6bf7e3bbc6d50f27dfb81f4965a3532aa05df8e3d3c2b6b4cbaae98",
+    "scope": "Final verification receipt hash only; no additional signals or process actions."
+  }
+}

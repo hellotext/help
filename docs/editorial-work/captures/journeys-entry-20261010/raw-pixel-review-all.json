@@ -1,0 +1,522 @@
+{
+  "status": "twelve_sources_individually_pixel_reviewed;visual_candidates_pass_with_explicit_native_limits",
+  "recorded_at": "2026-10-10T20:11:55.017219+00:00",
+  "records": [
+    {
+      "file": "journeys-capture-20261010/captures/catalog-route-vs-agent-es-desktop-v2.png",
+      "sha256": "94c81e4ca9401ecb4d3e766bd2bbe81f69331dcfa46b58f786e9315a0df7d89e",
+      "metadata_sha256": "e58006e5dad0b2f5b93f66675baa5371ef6bbb954fdc8c885e275f3fc768d050",
+      "id": "catalog-route-vs-agent",
+      "locale": "es",
+      "layout": "desktop",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "viewport": [
+        1600,
+        1000
+      ],
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "crc_verified": true,
+      "capturedAt": "2026-10-10T20:02:35.582Z",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "viewed_with": "view_image",
+      "viewer_display_size": [
+        1996,
+        1248
+      ],
+      "human_result": "acceptable_preview_candidate_with_recorded_native_limits",
+      "findings": [
+        "Conversion category and both cart cards visible with native catalog context.",
+        "AI card is muted and carries A Pedido. No availability/activation claim.",
+        "Adjacent catalog content at viewport bottom is partial; the illustrated pair is inside the viewport."
+      ]
+    },
+    {
+      "file": "journeys-capture-20261010/captures/catalog-route-vs-agent-es-mobile.png",
+      "sha256": "d6d2170a478446e2f999fbca07000deb9e0a9c7df61df4449c441567dff4bd6b",
+      "metadata_sha256": "abcbffa72f4d89f3a5517677cf5e1bc99d261c95f3bcf32eade41ef081335d39",
+      "id": "catalog-route-vs-agent",
+      "locale": "es",
+      "layout": "mobile",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "viewport": [
+        390,
+        1000
+      ],
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "crc_verified": true,
+      "capturedAt": "2026-10-10T20:05:01.079Z",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "viewed_with": "view_image",
+      "viewer_display_size": [
+        799,
+        2048
+      ],
+      "human_result": "acceptable_preview_candidate_with_recorded_native_limits",
+      "findings": [
+        "Both card frames and descriptions are complete. Native A Pedido ribbon overlaps the final part of the AI card title.",
+        "The full description ends con IA, so this source supports recognizing/comparing route versus AI conceptually. It does not support claiming the full title is unobscured.",
+        "Acceptable as a preview candidate with this limitation; final article-width readability and root acceptance remain pending."
+      ]
+    },
+    {
+      "file": "journeys-capture-20261010/captures/catalog-builder-choice-es-desktop.png",
+      "sha256": "345bda0516550574d36aad75f73032c6737b324ebefabcb4853eeb2451b179ac",
+      "metadata_sha256": "9d4c1e071e23cf81945b06e05f402aab02b61b130dbeb016acd9a72b011a95c5",
+      "id": "catalog-builder-choice",
+      "locale": "es",
+      "layout": "desktop",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "viewport": [
+        1600,
+        1000
+      ],
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "crc_verified": true,
+      "capturedAt": "2026-10-10T20:03:54.919Z",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "viewed_with": "view_image",
+      "viewer_display_size": [
+        1996,
+        1248
+      ],
+      "human_result": "acceptable_preview_candidate_with_recorded_native_limits",
+      "findings": [
+        "DIY category, Creador de Rutas and Agente Personalizado cards are complete, with wider native catalog context.",
+        "Agent card has native A Pedido ribbon; no claim it was opened or created.",
+        "This different catalog section provides a distinct entry-point explanation; it is not redundant with the cart comparison view."
+      ]
+    },
+    {
+      "file": "journeys-capture-20261010/captures/catalog-builder-choice-es-mobile.png",
+      "sha256": "16fe9d232203a852a42b511ef93109616cb2fb3e5a1f1a0695c34d754afd6984",
+      "metadata_sha256": "c85548ef47539d9f37283e4d8c0e0c630bf8c4d6d71b865f41e7072aa3e3d391",
+      "id": "catalog-builder-choice",
+      "locale": "es",
+      "layout": "mobile",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "viewport": [
+        390,
+        1000
+      ],
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "crc_verified": true,
+      "capturedAt": "2026-10-10T20:05:20.638Z",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "viewed_with": "view_image",
+      "viewer_display_size": [
+        799,
+        2048
+      ],
+      "human_result": "acceptable_preview_candidate_with_recorded_native_limits",
+      "findings": [
+        "DIY category and both intended cards are complete and readable.",
+        "Earlier support-playbook cards provide native scroll context; no article control is simulated."
+      ]
+    },
+    {
+      "file": "journeys-capture-20261010/captures/journey-trigger-menu-es-desktop.png",
+      "sha256": "dfe9bc526dfa1a6b454c6252c86f3abab0be7ba8417a22b15438a1a1690c1e1d",
+      "metadata_sha256": "1c770881e0757841a28c25913301b274075fc4a4f90f68a294807c0f94be3eba",
+      "id": "journey-trigger-menu",
+      "locale": "es",
+      "layout": "desktop",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "viewport": [
+        1600,
+        1000
+      ],
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "crc_verified": true,
+      "capturedAt": "2026-10-10T20:06:52.784Z",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "viewed_with": "view_image",
+      "viewer_display_size": [
+        1996,
+        1248
+      ],
+      "human_result": "acceptable_preview_candidate_with_recorded_native_limits",
+      "findings": [
+        "New Ruta #3 editor, start/end canvas, step palette and Inicio de ruta panel visible.",
+        "Selector still reads Seleccionar; menu is open and shows the subscriber group and beginning of conversation choices. Hover highlight does not establish selection.",
+        "The menu has native internal scrolling; the next option is partially clipped by its own viewport. No all-options or23-trigger visibility claim.",
+        "Confirmar and Cancelar are visible; neither action is inferred from pixels."
+      ]
+    },
+    {
+      "file": "journeys-capture-20261010/captures/journey-trigger-menu-es-mobile.png",
+      "sha256": "e6a798310618be12b423f4b498e1380c791b3d3d51744977b9aa4c5ed303fc79",
+      "metadata_sha256": "4885c6b8ff5ab5beaa1adf396b0d5a4369d7c950b7e5287bc1479599956447fc",
+      "id": "journey-trigger-menu",
+      "locale": "es",
+      "layout": "mobile",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "viewport": [
+        390,
+        1000
+      ],
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "crc_verified": true,
+      "capturedAt": "2026-10-10T20:07:31.992Z",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "viewed_with": "view_image",
+      "viewer_display_size": [
+        799,
+        2048
+      ],
+      "human_result": "acceptable_preview_candidate_with_recorded_native_limits",
+      "findings": [
+        "Inicio de ruta heading, Seleccionar control, open menu container, Confirmar and Cancelar are complete.",
+        "Subscriber choices and first conversation choice visible; following conversation-assigned row is partly hidden by native internal scrolling. No complete23-options claim.",
+        "Selector still says Seleccionar. Native highlight is not proof of a selected or confirmed trigger.",
+        "Mobile shows the actual full-width panel rather than desktop canvas; useful responsive context for opening the list."
+      ]
+    },
+    {
+      "file": "journeys-capture-20261010/captures/catalog-route-vs-agent-en-desktop.png",
+      "sha256": "e6914c42a864e9e04ed9032a3b1ebd0dac964b75b8dfeaabe7ca77cf2a150294",
+      "metadata_sha256": "d83f13eaf4cd869dce11e5dc7548fe4ce3bc5e3b70ca09d73d5d91beb1c4ec4b",
+      "id": "catalog-route-vs-agent",
+      "locale": "en",
+      "layout": "desktop",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "viewport": [
+        1600,
+        1000
+      ],
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "crc_verified": true,
+      "capturedAt": "2026-10-10T20:08:36.662Z",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "viewed_with": "view_image",
+      "viewer_display_size": [
+        1996,
+        1248
+      ],
+      "human_result": "acceptable_preview_candidate_with_native_limits",
+      "findings": [
+        "Both intended English card titles and descriptions visible completely; On Request ribbon does not overlap these titles.",
+        "Native wider catalog context and original muted card appearance retained. No creation, activation or AI execution claim.",
+        "Different catalog section from the other candidate; no redundant duplicate scene."
+      ]
+    },
+    {
+      "file": "journeys-capture-20261010/captures/catalog-builder-choice-en-desktop.png",
+      "sha256": "564cbc065809555bb9a2b4f500e8700407dd1417ddf743e1e768a6743e02502e",
+      "metadata_sha256": "645a8b684a030c7303312cb57eeaa440bc2e370cf1c3eea53784c647f4e6684e",
+      "id": "catalog-builder-choice",
+      "locale": "en",
+      "layout": "desktop",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "viewport": [
+        1600,
+        1000
+      ],
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "crc_verified": true,
+      "capturedAt": "2026-10-10T20:08:42.034Z",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "viewed_with": "view_image",
+      "viewer_display_size": [
+        1996,
+        1248
+      ],
+      "human_result": "acceptable_preview_candidate_with_native_limits",
+      "findings": [
+        "Both intended English card titles and descriptions visible completely; On Request ribbon does not overlap these titles.",
+        "Native wider catalog context and original muted card appearance retained. No creation, activation or AI execution claim.",
+        "Different catalog section from the other candidate; no redundant duplicate scene."
+      ]
+    },
+    {
+      "file": "journeys-capture-20261010/captures/catalog-route-vs-agent-en-mobile.png",
+      "sha256": "58df8a2f574017be737a899f3f01a48e9a239b05b9266db6ae41ff110694823c",
+      "metadata_sha256": "abcadd7c7ec6a8a5bd31685c7bf53fa0412d573f6e6dcf28588cf8c4239a0028",
+      "id": "catalog-route-vs-agent",
+      "locale": "en",
+      "layout": "mobile",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "viewport": [
+        390,
+        1000
+      ],
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "crc_verified": true,
+      "capturedAt": "2026-10-10T20:09:36.348Z",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "viewed_with": "view_image",
+      "viewer_display_size": [
+        799,
+        2048
+      ],
+      "human_result": "acceptable_preview_candidate_with_recorded_native_limits",
+      "findings": [
+        "Both intended English card titles, descriptions and frames complete; native On Request ribbon does not overlap the relevant titles.",
+        "Native category and catalog scroll context retained; no creation, activation or AI execution outcome."
+      ]
+    },
+    {
+      "file": "journeys-capture-20261010/captures/catalog-builder-choice-en-mobile.png",
+      "sha256": "67075cd9e52b089412ca184675f123e37b7d617f7de16c8b7fdfc106e032e9e2",
+      "metadata_sha256": "34f4f8785fc3e5c66a4f94e48afab213247480319ad3591e7863533f61dfcbbc",
+      "id": "catalog-builder-choice",
+      "locale": "en",
+      "layout": "mobile",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "viewport": [
+        390,
+        1000
+      ],
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "crc_verified": true,
+      "capturedAt": "2026-10-10T20:09:42.453Z",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "viewed_with": "view_image",
+      "viewer_display_size": [
+        799,
+        2048
+      ],
+      "human_result": "acceptable_preview_candidate_with_recorded_native_limits",
+      "findings": [
+        "Both intended English card titles, descriptions and frames complete; native On Request ribbon does not overlap the relevant titles.",
+        "Native category and catalog scroll context retained; no creation, activation or AI execution outcome."
+      ]
+    },
+    {
+      "file": "journeys-capture-20261010/captures/journey-trigger-menu-en-desktop.png",
+      "sha256": "2d59cf1d794f3411d4c745523532f39b102362279127f6dda79cb66adaf6b668",
+      "metadata_sha256": "7bb8dcd8ec4b700a0f7356b8e36aa4de453df42b67d4970a20cbd77f157aec37",
+      "id": "journey-trigger-menu",
+      "locale": "en",
+      "layout": "desktop",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "viewport": [
+        1600,
+        1000
+      ],
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "crc_verified": true,
+      "capturedAt": "2026-10-10T20:10:33.372Z",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "viewed_with": "view_image",
+      "viewer_display_size": [
+        1996,
+        1248
+      ],
+      "human_result": "acceptable_preview_candidate_with_recorded_native_limits",
+      "findings": [
+        "Journey Begins header, Select control, open menu container and Confirm/Cancel complete. Desktop includes genuine new canvas and step palette; mobile uses native full-width panel.",
+        "Visible initial choices show subscriber group and beginning of conversation group; following option partly clipped by native internal scrolling. No complete list/23-options visibility claim.",
+        "Select remains displayed. Highlighted Subscribed row is not proof of chosen/confirmed trigger. No confirmation or persistence outcome inferred."
+      ]
+    },
+    {
+      "file": "journeys-capture-20261010/captures/journey-trigger-menu-en-mobile.png",
+      "sha256": "eaf738a3ac917d891e90001d84e2e9cea68919199fa3097cff7577436b466e18",
+      "metadata_sha256": "2f2f8bb3cf9032280503513e20b9e2da06f68f6dbbe62f4caf76220ddde22702",
+      "id": "journey-trigger-menu",
+      "locale": "en",
+      "layout": "mobile",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "viewport": [
+        390,
+        1000
+      ],
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "crc_verified": true,
+      "capturedAt": "2026-10-10T20:10:41.279Z",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "viewed_with": "view_image",
+      "viewer_display_size": [
+        799,
+        2048
+      ],
+      "human_result": "acceptable_preview_candidate_with_recorded_native_limits",
+      "findings": [
+        "Journey Begins header, Select control, open menu container and Confirm/Cancel complete. Desktop includes genuine new canvas and step palette; mobile uses native full-width panel.",
+        "Visible initial choices show subscriber group and beginning of conversation group; following option partly clipped by native internal scrolling. No complete list/23-options visibility claim.",
+        "Select remains displayed. Highlighted Subscribed row is not proof of chosen/confirmed trigger. No confirmation or persistence outcome inferred."
+      ]
+    }
+  ],
+  "count": 12,
+  "individual_view_image_reviews": 12,
+  "source_crc_profile_hash_geometry_passed": true,
+  "language_reviews": {
+    "es": {
+      "file": "raw-pixel-review-es.json",
+      "sha256": "b943b131a0ac6d2051d9b60fe2a2b9690d03214c96ce5485dbdab7726d96d916"
+    },
+    "en": {
+      "file": "raw-pixel-review-en.json",
+      "sha256": "8b494b9e2f1c3da65498632672dbbde5dd62d1203823cf499407c8d255d1ed25"
+    }
+  },
+  "native_limits": [
+    {
+      "id": "catalog-route-vs-agent",
+      "variant": "es-mobile",
+      "initial_requirement": "Both named catalog cards complete",
+      "observed": "Both card frames/descriptions complete; A Pedido overlays end of AI title.",
+      "decision": "Accept only conceptual comparison; do not record unobscured full title. Root concurred provisional acceptance."
+    },
+    {
+      "id": "journey-trigger-menu",
+      "variant": "es-desktop and es-mobile",
+      "initial_requirement": "Trigger choices needed to explain the step visible without clipping",
+      "observed": "Open menu container and initial choices complete; later choice partly clipped by native internal scroll.",
+      "decision": "Accept opening the list only; no full trigger inventory. Final contract must record this scoped deviation rather than falsely passing a full-list requirement."
+    }
+  ],
+  "catalog_nonredundancy": "The two concepts show Conversion and DIY sections respectively with different intended cards; both are useful for the two distinct article anchors.",
+  "explicitly_excluded": [
+    {
+      "file": "catalog-route-vs-agent-es-desktop.png",
+      "sha256": "b7e0d0dc8ae687d529faadd2d7e0c67a7f8e2cb1d41938f89ddefe7e45129144",
+      "decision": "rejected_never_import",
+      "reason": "Recorded blank candidate; root/capture rejection retained. Not reopened or counted as a reviewed acceptable source here.",
+      "rejection_record_sha256": "a6c34d5aa21ffc6ef87fe7312a13257d51fd1e63004a0f04877decd4bbe78d06"
+    }
+  ],
+  "does_not_claim": [
+    "Actual Help-column readability or buildQA",
+    "Full AI title visible in Spanish mobile",
+    "Entire trigger inventory visible",
+    "Selected/confirmed/saved trigger",
+    "Created or active journey",
+    "AI execution, delivery or customer outcome",
+    "Final runtime restoration guards or publication"
+  ],
+  "integration_authorized": false
+}

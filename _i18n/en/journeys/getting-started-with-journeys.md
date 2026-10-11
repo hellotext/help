@@ -19,6 +19,20 @@ Good journey use cases include:
 
 An abandoned cart can exist in more than one form: [Cart Saver route]({% link _journeys/cart-saver-route.md %}) with fixed steps, or an AI playbook that decides more dynamically based on signals and customer context.
 
+<!-- journeys-entry:catalog-route-vs-agent:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="catalog-route-vs-agent" aria-label="Distinguish the two cart options">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 834px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-mobile-compact-v2.png 4x" width="1560" height="1632" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-desktop-compact.png" srcset="/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-desktop-compact.png 4x" width="3264" height="1120" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Hellotext catalog showing the Cart Saver and AI Cart Saver cards." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The two catalog cards distinguish the cart journey from the AI playbook.</figcaption>
+</figure>
+<!-- journeys-entry:catalog-route-vs-agent:end -->
+
 Keep reading: [Cart Saver route]({% link _journeys/cart-saver-route.md %}) and [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## When to use another playbook type
@@ -50,7 +64,35 @@ Use a journey template when you want to launch a proven step-by-step flow quickl
 
 To create one, go to the automation area in Hellotext, choose a journey template, review the trigger and steps, and adjust the copy, timing, channel, conditions, and handoff rules before publishing.
 
+<!-- journeys-workflow:template-cart-selected:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="template-cart-selected" aria-label="Initial fragment of a journey template">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 818px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/template-cart-selected-en-mobile.png 4x" width="1560" height="2200" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/template-cart-selected-en-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/template-cart-selected-en-desktop.png 4x" width="3200" height="2440" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Initial fragment of a template in the journey editor, with the beginning connected to a 2-hour wait step." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Beginning of the Cart Saver #1 template, with a two-hour wait connected to the start of the journey.</figcaption>
+</figure>
+<!-- journeys-workflow:template-cart-selected:end -->
+
 If no template fits what you need, create a [custom journey]({% link _journeys/custom-journey.md %}).
+
+<!-- journeys-entry:catalog-builder-choice:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="catalog-builder-choice" aria-label="Locate Journey Builder">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 834px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-mobile-compact.png 4x" width="1560" height="1632" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-desktop-compact.png" srcset="/images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-desktop-compact.png 4x" width="3264" height="1120" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Hellotext catalog showing the Journey Builder and Custom Agent options." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Journey Builder is the entry point for designing a custom journey.</figcaption>
+</figure>
+<!-- journeys-entry:catalog-builder-choice:end -->
 
 ## Review before publishing
 
@@ -65,9 +107,53 @@ Before you publish, check that:
 - Links, coupons, and personalization tags work.
 - Any handoff to a human team is clear.
 
-Click **Save Changes** while you work. The journey remains inactive until you publish it.
+Click **Save changes** while you work (**Save** on mobile). Saving a new journey without publishing creates a draft. Saving changes to an active journey does not make it inactive.
 
-When you are ready, click **Publish**. To stop it later, make it inactive.
+<!-- journeys-workflow:custom-saved-draft:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-saved-draft" aria-label="Fictional journey saved as a draft">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 432px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-mobile.png 4x" width="1560" height="1028" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png 4x" width="1656" height="952" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Journey list with Draft selected and the saved fictional journey with the Viewed a product trigger." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The saved fictional journey appears under Draft.</figcaption>
+</figure>
+<!-- journeys-workflow:custom-saved-draft:end -->
+
+When you are ready, click **Publish**.
+
+<!-- journeys-workflow:custom-active:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-active" aria-label="Published fictional journey in Active">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 432px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-active-en-mobile.png 4x" width="1560" height="1028" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-active-en-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/custom-active-en-desktop.png 4x" width="1656" height="952" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Journey list with Active selected and the fictional journey with its Viewed a product trigger." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The fictional journey appears under Active after publishing.</figcaption>
+</figure>
+<!-- journeys-workflow:custom-active:end -->
+
+To make an active journey inactive, click **Make inactive**.
+
+<!-- journeys-workflow:custom-inactive:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-inactive" aria-label="Fictional journey in Inactive">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 432px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-inactive-en-mobile.png 4x" width="1560" height="1028" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png 4x" width="1656" height="952" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Journey list with Inactive selected and the fictional journey with its Viewed a product trigger." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The same fictional journey appears under Inactive after choosing Make inactive.</figcaption>
+</figure>
+<!-- journeys-workflow:custom-inactive:end -->
 
 ## Next steps
 

@@ -1,0 +1,455 @@
+{
+  "status": "visual_contract_frozen_twelve_sources_reviewed_awaiting_root_final_acceptance_and_capture_guards",
+  "publication_authorized_for_this_proposal": false,
+  "help_written": true,
+  "screenshots_created": false,
+  "browser_app_db_used_by_author": false,
+  "help_read_head": "85518c21cd4ec676c5566c4967b6bf6121812ce2",
+  "new_worktree_base": "Verified at85518c21; recheck article hashes immediately before later integration.",
+  "capture_readiness_sha256": "d8206883357fe96fe16294495e42a3d87b492ee1e91c667c837aab231435b46e",
+  "capture_readiness_path": "source-preparation.json",
+  "readiness_id_mapping": "Final IDs agreed with current_app_capture; readiness_alias preserves prior static record names.",
+  "figure_order": [
+    "catalog-route-vs-agent",
+    "catalog-builder-choice",
+    "journey-trigger-menu"
+  ],
+  "figures": [
+    {
+      "id": "catalog-route-vs-agent",
+      "readiness_alias": "catalog-route-vs-ai",
+      "article": "journeys/getting-started-with-journeys.md",
+      "copy": {
+        "es": {
+          "title": "Distingue las dos opciones de carrito",
+          "alt": "Catálogo de Hellotext con las tarjetas Recuperador de Carritos y Recuperador de Carritos con IA.",
+          "caption": "Las dos tarjetas del catálogo permiten distinguir una ruta de carrito de la misión con IA."
+        },
+        "en": {
+          "title": "Distinguish the two cart options",
+          "alt": "Hellotext catalog showing the Cart Saver and AI Cart Saver cards.",
+          "caption": "The two catalog cards distinguish the cart journey from the AI playbook."
+        }
+      },
+      "required_visible": [
+        "Both target catalog card frames complete",
+        "Visible description sufficient to identify the AI card even where its native ribbon covers part of the Spanish mobile title",
+        "Category and native catalog context"
+      ],
+      "claims_excluded": [
+        "Configured journey",
+        "Cart recovery outcome",
+        "AI execution",
+        "Card clicked",
+        "Channel entitlement"
+      ],
+      "anchors": {
+        "es": {
+          "type": "after_exact_paragraph",
+          "text": "Un carrito abandonado puede existir de más de una forma: como [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) con pasos fijos, o como una misión con IA que decide de forma más dinámica usando señales y contexto del cliente.",
+          "occurrences": 1,
+          "line": 20,
+          "sha256": "6217ed246b0aee8e8cd337f568e8192748bead36b8e798a4b92c40cf68547394",
+          "next_original_text": "Sigue leyendo: [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) y [Carrito abandonado: plantilla de ruta vs misión con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})."
+        },
+        "en": {
+          "type": "after_exact_paragraph",
+          "text": "An abandoned cart can exist in more than one form: [Cart Saver route]({% link _journeys/cart-saver-route.md %}) with fixed steps, or an AI playbook that decides more dynamically based on signals and customer context.",
+          "occurrences": 1,
+          "line": 20,
+          "sha256": "c133fafe53cd0d4b5d1b58636e47163a7987abc50bf1599da6069c0698a566c0",
+          "next_original_text": "Keep reading: [Cart Saver route]({% link _journeys/cart-saver-route.md %}) and [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})."
+        }
+      },
+      "status": "visually_reviewed_candidate_matrix_pending_root_final_acceptance",
+      "required_variants": [
+        "es-desktop",
+        "es-mobile",
+        "en-desktop",
+        "en-mobile"
+      ],
+      "accepted_sources": [],
+      "asset_paths": null,
+      "copy_approval": "proposed; verify exact visible labels and context against final accepted sources before use",
+      "candidate_source_hashes": [
+        {
+          "file": "catalog-route-vs-agent-es-desktop-v2.png",
+          "locale": "es",
+          "layout": "desktop",
+          "sha256": "94c81e4ca9401ecb4d3e766bd2bbe81f69331dcfa46b58f786e9315a0df7d89e"
+        },
+        {
+          "file": "catalog-route-vs-agent-es-mobile.png",
+          "locale": "es",
+          "layout": "mobile",
+          "sha256": "d6d2170a478446e2f999fbca07000deb9e0a9c7df61df4449c441567dff4bd6b"
+        },
+        {
+          "file": "catalog-route-vs-agent-en-desktop.png",
+          "locale": "en",
+          "layout": "desktop",
+          "sha256": "e6914c42a864e9e04ed9032a3b1ebd0dac964b75b8dfeaabe7ca77cf2a150294"
+        },
+        {
+          "file": "catalog-route-vs-agent-en-mobile.png",
+          "locale": "en",
+          "layout": "mobile",
+          "sha256": "58df8a2f574017be737a899f3f01a48e9a239b05b9266db6ae41ff110694823c"
+        }
+      ],
+      "accepted_native_limits": [
+        "Spanish mobile A Pedido ribbon partly covers the end of AI title. Do not claim unobscured full title.",
+        "AI card remains natively muted/On Request; no availability or activation inferred."
+      ]
+    },
+    {
+      "id": "catalog-builder-choice",
+      "readiness_alias": "catalog-builder-vs-agent",
+      "article": "journeys/getting-started-with-journeys.md",
+      "copy": {
+        "es": {
+          "title": "Localiza el constructor de rutas",
+          "alt": "Catálogo de Hellotext con las opciones Creador de Rutas y Agente personalizado.",
+          "caption": "Creador de Rutas es la entrada para diseñar una ruta personalizada."
+        },
+        "en": {
+          "title": "Locate Journey Builder",
+          "alt": "Hellotext catalog showing the Journey Builder and Custom Agent options.",
+          "caption": "Journey Builder is the entry point for designing a custom journey."
+        }
+      },
+      "required_visible": [
+        "Journey Builder card complete",
+        "Custom Agent card complete",
+        "Category and native navigation context"
+      ],
+      "claims_excluded": [
+        "Created custom journey",
+        "Created custom agent",
+        "Saved draft",
+        "Active workflow"
+      ],
+      "anchors": {
+        "es": {
+          "type": "after_exact_paragraph",
+          "text": "Si ninguna plantilla se ajusta a lo que necesitas, crea una [ruta personalizada]({% link _journeys/custom-journey.md %}).",
+          "occurrences": 1,
+          "line": 53,
+          "sha256": "2d3b754a14c7df5078d77d7ed20b39324a6b5b758a8b6798fa603f58545aa744",
+          "next_original_text": "## Revisa antes de publicar"
+        },
+        "en": {
+          "type": "after_exact_paragraph",
+          "text": "If no template fits what you need, create a [custom journey]({% link _journeys/custom-journey.md %}).",
+          "occurrences": 1,
+          "line": 53,
+          "sha256": "2b1ac2840d94b72c5f7adebd2df264a920dfbae113a9d9b3d7cc21501efdb1d4",
+          "next_original_text": "## Review before publishing"
+        }
+      },
+      "status": "visually_reviewed_candidate_matrix_pending_root_final_acceptance",
+      "required_variants": [
+        "es-desktop",
+        "es-mobile",
+        "en-desktop",
+        "en-mobile"
+      ],
+      "accepted_sources": [],
+      "asset_paths": null,
+      "copy_approval": "proposed; verify exact visible labels and context against final accepted sources before use",
+      "candidate_source_hashes": [
+        {
+          "file": "catalog-builder-choice-es-desktop.png",
+          "locale": "es",
+          "layout": "desktop",
+          "sha256": "345bda0516550574d36aad75f73032c6737b324ebefabcb4853eeb2451b179ac"
+        },
+        {
+          "file": "catalog-builder-choice-es-mobile.png",
+          "locale": "es",
+          "layout": "mobile",
+          "sha256": "16fe9d232203a852a42b511ef93109616cb2fb3e5a1f1a0695c34d754afd6984"
+        },
+        {
+          "file": "catalog-builder-choice-en-desktop.png",
+          "locale": "en",
+          "layout": "desktop",
+          "sha256": "564cbc065809555bb9a2b4f500e8700407dd1417ddf743e1e768a6743e02502e"
+        },
+        {
+          "file": "catalog-builder-choice-en-mobile.png",
+          "locale": "en",
+          "layout": "mobile",
+          "sha256": "67075cd9e52b089412ca184675f123e37b7d617f7de16c8b7fdfc106e032e9e2"
+        }
+      ]
+    },
+    {
+      "id": "journey-trigger-menu",
+      "readiness_alias": "custom-trigger-options",
+      "article": "journeys/custom-journey.md",
+      "copy": {
+        "es": {
+          "title": "Abre las opciones del disparador",
+          "alt": "Editor de una ruta nueva con el panel Inicio de ruta y la lista de disparadores abierta.",
+          "caption": "Consulta las opciones en la lista antes de elegir y confirmar un disparador."
+        },
+        "en": {
+          "title": "Open the trigger options",
+          "alt": "New journey editor with the Journey Begins panel and trigger options list open.",
+          "caption": "View the options in the list before choosing and confirming a trigger."
+        }
+      },
+      "required_visible": [
+        "Native trigger picker and open dropdown container fully within viewport",
+        "Initial visible choices sufficient to demonstrate opening the list; native internal scrolling may partially reveal a subsequent option",
+        "Panel heading and native editor context"
+      ],
+      "claims_excluded": [
+        "Selected option",
+        "Confirmed trigger",
+        "Saved trigger",
+        "Customer event",
+        "Step added",
+        "Configured topology",
+        "Save or Publish outcome"
+      ],
+      "anchors": {
+        "es": {
+          "type": "after_exact_paragraph",
+          "text": "El disparador puede ser un evento estándar, como una suscripción, actualización de carrito, vista de producto, compra o mensaje. También puede ser un evento personalizado si tu cuenta lo registra.",
+          "occurrences": 1,
+          "line": 15,
+          "sha256": "abef492ffbbe2ebcfc9fd63ecf4a350722483efd224f2d44f2dfb4ba045a22d2",
+          "next_original_text": "## Agrega pasos"
+        },
+        "en": {
+          "type": "after_exact_paragraph",
+          "text": "The trigger can be a standard event, such as a subscription, cart update, product view, purchase, or message. It can also be a custom event if your account tracks one.",
+          "occurrences": 1,
+          "line": 15,
+          "sha256": "d36db5c3f5ce2540327c4f9625b57801c45ce10ffb3b75b6a3a953211d38d52f",
+          "next_original_text": "## Add steps"
+        }
+      },
+      "status": "visually_reviewed_candidate_matrix_pending_root_final_acceptance",
+      "required_variants": [
+        "es-desktop",
+        "es-mobile",
+        "en-desktop",
+        "en-mobile"
+      ],
+      "accepted_sources": [],
+      "asset_paths": null,
+      "copy_approval": "proposed; verify exact visible labels and context against final accepted sources before use",
+      "candidate_source_hashes": [
+        {
+          "file": "journey-trigger-menu-es-desktop.png",
+          "locale": "es",
+          "layout": "desktop",
+          "sha256": "dfe9bc526dfa1a6b454c6252c86f3abab0be7ba8417a22b15438a1a1690c1e1d"
+        },
+        {
+          "file": "journey-trigger-menu-es-mobile.png",
+          "locale": "es",
+          "layout": "mobile",
+          "sha256": "e6a798310618be12b423f4b498e1380c791b3d3d51744977b9aa4c5ed303fc79"
+        },
+        {
+          "file": "journey-trigger-menu-en-desktop.png",
+          "locale": "en",
+          "layout": "desktop",
+          "sha256": "2d59cf1d794f3411d4c745523532f39b102362279127f6dda79cb66adaf6b668"
+        },
+        {
+          "file": "journey-trigger-menu-en-mobile.png",
+          "locale": "en",
+          "layout": "mobile",
+          "sha256": "eaf738a3ac917d891e90001d84e2e9cea68919199fa3097cff7577436b466e18"
+        }
+      ],
+      "accepted_native_limits": [
+        "Only the visible part of the scrollable list is shown; not all triggers.",
+        "Selector retains Select/Seleccionar. Highlight does not establish selection or confirmation."
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "path": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "0a8f1c8151e2574bbdbaf4ffcf938547568c82774ce20b9f52d4f5c3b7d591b1",
+      "proposed_sha256": "0a8f1c8151e2574bbdbaf4ffcf938547568c82774ce20b9f52d4f5c3b7d591b1",
+      "byte_exact_until_accepted_sources": true,
+      "headings": [
+        "## Cuándo usar una ruta",
+        "## Cuándo usar otro tipo de misión",
+        "## Cómo funcionan las rutas",
+        "## Empieza desde una plantilla de ruta",
+        "## Revisa antes de publicar",
+        "## Próximos pasos"
+      ],
+      "liquid_links": [
+        "_journeys/smart-recommender-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/cart-saver-route.md",
+        "_journeys/cart-saver-route.md",
+        "_journeys/abandoned-cart-route-vs-ai-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/playbooks-overview.md",
+        "_journeys/custom-journey.md",
+        "_journeys/how-to-write-a-great-prompt.md"
+      ],
+      "current_figure_count": 0,
+      "planned_figure_ids": [
+        "catalog-route-vs-agent",
+        "catalog-builder-choice"
+      ]
+    },
+    {
+      "path": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "source_sha256": "88235e2d1a4d831504674a53e21a2fc856b35627077c07a606e5b0098b673aa8",
+      "proposed_sha256": "88235e2d1a4d831504674a53e21a2fc856b35627077c07a606e5b0098b673aa8",
+      "byte_exact_until_accepted_sources": true,
+      "headings": [
+        "## When to use a journey",
+        "## When to use another playbook type",
+        "## How journeys work",
+        "## Start from a journey template",
+        "## Review before publishing",
+        "## Next steps"
+      ],
+      "liquid_links": [
+        "_journeys/smart-recommender-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/cart-saver-route.md",
+        "_journeys/cart-saver-route.md",
+        "_journeys/abandoned-cart-route-vs-ai-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/playbooks-overview.md",
+        "_journeys/custom-journey.md",
+        "_journeys/how-to-write-a-great-prompt.md"
+      ],
+      "current_figure_count": 0,
+      "planned_figure_ids": [
+        "catalog-route-vs-agent",
+        "catalog-builder-choice"
+      ]
+    },
+    {
+      "path": "_i18n/es/journeys/custom-journey.md",
+      "source_sha256": "a6a4fc285453ebba937703adf02168e58937c6447c0f60bac0cf4cd3fdf96f2a",
+      "proposed_sha256": "a6a4fc285453ebba937703adf02168e58937c6447c0f60bac0cf4cd3fdf96f2a",
+      "byte_exact_until_accepted_sources": true,
+      "headings": [
+        "## Selecciona un disparador",
+        "## Agrega pasos",
+        "### Enviar un mensaje",
+        "### Condición",
+        "### Esperar",
+        "### Derivación humana",
+        "## Guarda y publica"
+      ],
+      "liquid_links": [],
+      "current_figure_count": 0,
+      "planned_figure_ids": [
+        "journey-trigger-menu"
+      ]
+    },
+    {
+      "path": "_i18n/en/journeys/custom-journey.md",
+      "source_sha256": "72c01bbec890ab367f88f6f369cd82f0b93ebb0d91d51d0f835ffdb608f8f436",
+      "proposed_sha256": "72c01bbec890ab367f88f6f369cd82f0b93ebb0d91d51d0f835ffdb608f8f436",
+      "byte_exact_until_accepted_sources": true,
+      "headings": [
+        "## Select a trigger",
+        "## Add steps",
+        "### Send a message",
+        "### Condition",
+        "### Wait",
+        "### Human handoff",
+        "## Save and publish"
+      ],
+      "liquid_links": [],
+      "current_figure_count": 0,
+      "planned_figure_ids": [
+        "journey-trigger-menu"
+      ]
+    }
+  ],
+  "stubs": [
+    {
+      "path": "_journeys/getting-started-with-journeys.md",
+      "sha256": "1d4913a819a0fe14b2f6c80f935af2c4ccc431d05a2ee08f37310a1a6a8ec09e"
+    },
+    {
+      "path": "_journeys/custom-journey.md",
+      "sha256": "210cbc505b58d858800902f033264d0ed7bab82cff3bf742133c66826a17982e"
+    }
+  ],
+  "presentation": {
+    "desktop_viewport": [
+      1600,
+      1000
+    ],
+    "mobile_viewport": [
+      390,
+      1000
+    ],
+    "native_density": 4,
+    "icc": "Display P3",
+    "renderer": "Reuse existing responsive static picture/source renderer after acceptance; no CSS/global config changes",
+    "qa_widths": [
+      1440,
+      580,
+      390
+    ]
+  },
+  "acceptance_contract": {
+    "group_atomicity": "Only a complete ES/EN desktop/mobile matrix can be integrated; incomplete groups remain external.",
+    "png": "Native captured bytes, SHA256 bound, CRC and P3 checked, no pixel edits or upsampling.",
+    "runtime": "New read-only capture contract; no option selection, Confirm, step edit, save, publish or automation mutation.",
+    "article_changes": "Insert accepted figures only at unique exact anchors; stripping those blocks must restore source bytes. Headings/links/stubs unchanged.",
+    "build_and_pixels": "Current build, two emitted source copies, responsive source selection/4x/native display limits, alt and actual page pixels required; old build results do not transfer.",
+    "inventory": "Only the two article rows change from pending to in_progress during preparation; total45 unresolved remains. No complete status from catalog/menu coverage.",
+    "claims": "Each caption is bounded to visible controls; no action outcome or saved/active state inferred.",
+    "visual_scope": "Card frames and identifying descriptions, and an open trigger-list container with visible initial options. Explicit native ribbon/internal-scroll limits are accepted; do not claim full AI title in ES mobile or complete trigger inventory."
+  },
+  "independent_editorial_review": {
+    "reviewer": "next_candidate",
+    "status": "anchors_unique_and_relevant; no editorial blocker",
+    "conditions": [
+      "Trigger caption explicitly precedes choosing/confirmation because original numbered list ends with Confirm.",
+      "Open-list caption requires actual open dropdown pixels; closed pane is not equivalent.",
+      "No creation, activation, AI execution or saved-state claim from catalog."
+    ]
+  },
+  "help_base": "85518c21cd4ec676c5566c4967b6bf6121812ce2",
+  "originals_record": "originals.json",
+  "originals_sha256": "9d6b2590d34674cfc3f71ba142fb80bb4b157e751f0967123edc78782a0e5c55",
+  "external_proposal_sha256": "78f3a324417a3c114eea7e960e2b4a222e77b40e24b0d343d66af92b308050d8",
+  "selected_figure_ids": [
+    "catalog-route-vs-agent",
+    "catalog-builder-choice",
+    "journey-trigger-menu"
+  ],
+  "catalog_redundancy_decision": {
+    "status": "twelve_source_pixel_review_complete_distinct_scenes",
+    "rule": "Conversion and DIY catalog scenes have different target cards and article anchors; both are retained in the visual contract. No redundant screenshot quota."
+  },
+  "help_write_scope": "Workrecords, plans, Custom originals and two ledger rows only; four bodies and both stubs unchanged.",
+  "article_bodies_written": false,
+  "selection_state": "Selected for proposed local integration only; final root acceptance and runtime guards still required, no article/assets inserted.",
+  "visual_contract_review": {
+    "record": "raw-pixel-review-all.json (independent local audit)",
+    "sha256": "51c13e9427a41d119a177b9ae01746ae791af83624effdd054f54fc43e6a9ab6",
+    "prior_plan_sha256": "f752e42f90ef2718f08b64764627f5238c6a17c952d12e1c046ed2c8fe118ad7",
+    "root_authorized_native_limit_adjustment": true,
+    "help_integration_authorized_by_this_record": false
+  }
+}

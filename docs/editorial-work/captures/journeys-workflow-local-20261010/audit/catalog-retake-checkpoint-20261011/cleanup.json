@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-11T01:28:48.822893+00:00",
+  "status": "owned_help_review_services_stopped",
+  "ownership": "Exact child commands and shared supervisor verified before SIGTERM; only the dedicated supervisor signalled.",
+  "checks": [
+    {
+      "pid": 20389,
+      "absent": true
+    },
+    {
+      "pid": 20400,
+      "absent": true
+    },
+    {
+      "pid": 20401,
+      "absent": true
+    },
+    {
+      "port": 4306,
+      "listener_absent": true
+    },
+    {
+      "port": 9494,
+      "listener_absent": true
+    }
+  ],
+  "process_receipt_sha256": "97ffc1a3d3b971435a624a9616d119d013ef7cdae71eb5e96025c4f0a155a80f",
+  "only_owned_processes_stopped": true,
+  "other_services_touched": false
+}

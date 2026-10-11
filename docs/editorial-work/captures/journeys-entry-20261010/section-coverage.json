@@ -1,0 +1,181 @@
+{
+  "status": "three_concepts_integrated_locally_visual_verified; guide_coverage_remains_partial",
+  "article_pair_count": 2,
+  "all_sections_reviewed": true,
+  "current_status_each": "in_progress",
+  "pending_total_unchanged": 45,
+  "planned_figure_count": "up_to3_conditional_on_catalog_nonredundancy",
+  "planned_max_png_count": 12,
+  "accepted_png_count": 12,
+  "sections": [
+    {
+      "article": "journeys/getting-started-with-journeys.md",
+      "section": {
+        "es": "Introducci\u00f3n",
+        "en": "Introduction"
+      },
+      "planned_figure_ids": [],
+      "status": "prose_only",
+      "remaining_gap": "Defines journey versus autonomous playbook; no runtime capability outcome verified by this batch."
+    },
+    {
+      "article": "journeys/getting-started-with-journeys.md",
+      "section": {
+        "es": "Cu\u00e1ndo usar una ruta",
+        "en": "When to use a journey"
+      },
+      "planned_figure_ids": [
+        "catalog-route-vs-agent"
+      ],
+      "status": "partial_visual_integrated_locally_verified",
+      "remaining_gap": "Two catalog choices only; no cart route configuration or recovered-cart execution."
+    },
+    {
+      "article": "journeys/getting-started-with-journeys.md",
+      "section": {
+        "es": "Cu\u00e1ndo usar otro tipo de misi\u00f3n",
+        "en": "When to use another playbook type"
+      },
+      "planned_figure_ids": [],
+      "status": "linked_guides_prose_only",
+      "remaining_gap": "No agent execution, product recommendation or post-purchase outcome. Prior catalog figure only illustrates terminology."
+    },
+    {
+      "article": "journeys/getting-started-with-journeys.md",
+      "section": {
+        "es": "C\u00f3mo funcionan las rutas",
+        "en": "How journeys work"
+      },
+      "planned_figure_ids": [],
+      "status": "visual_gap_retained",
+      "remaining_gap": "No configured topology, customers entering, step progression, coupon, message or handoff result."
+    },
+    {
+      "article": "journeys/getting-started-with-journeys.md",
+      "section": {
+        "es": "Empieza desde una plantilla de ruta",
+        "en": "Start from a journey template"
+      },
+      "planned_figure_ids": [
+        "catalog-builder-choice"
+      ],
+      "status": "partial_visual_integrated_locally_verified",
+      "remaining_gap": "Entry points only; no template editor, trigger confirmation, configured condition/channel or saved route."
+    },
+    {
+      "article": "journeys/getting-started-with-journeys.md",
+      "section": {
+        "es": "Revisa antes de publicar",
+        "en": "Review before publishing"
+      },
+      "planned_figure_ids": [],
+      "status": "visual_gap_retained",
+      "remaining_gap": "Checklist and original save/publish/deactivate prose preserved but not validated by this capture batch; no state transition or job cancellation claim."
+    },
+    {
+      "article": "journeys/getting-started-with-journeys.md",
+      "section": {
+        "es": "Pr\u00f3ximos pasos",
+        "en": "Next steps"
+      },
+      "planned_figure_ids": [],
+      "status": "linked_guide_prose_only",
+      "remaining_gap": "Original prompt-guide link retained; no screenshot required for the link itself."
+    },
+    {
+      "article": "journeys/custom-journey.md",
+      "section": {
+        "es": "Introducci\u00f3n",
+        "en": "Introduction"
+      },
+      "planned_figure_ids": [],
+      "status": "prose_only",
+      "remaining_gap": "No configured canvas; a new unsaved editor is only context for the trigger figure."
+    },
+    {
+      "article": "journeys/custom-journey.md",
+      "section": {
+        "es": "Selecciona un disparador",
+        "en": "Select a trigger"
+      },
+      "planned_figure_ids": [
+        "journey-trigger-menu"
+      ],
+      "status": "partial_visual_integrated_locally_verified",
+      "remaining_gap": "Open menu before choosing/confirming only; no chosen option, confirmed trigger, occurrence or consent outcome."
+    },
+    {
+      "article": "journeys/custom-journey.md",
+      "section": {
+        "es": "Agrega pasos",
+        "en": "Add steps"
+      },
+      "planned_figure_ids": [],
+      "status": "visual_gap_retained",
+      "remaining_gap": "No native inserted step, drag/drop, persisted order or connected topology."
+    },
+    {
+      "article": "journeys/custom-journey.md",
+      "section": {
+        "es": "Enviar un mensaje",
+        "en": "Send a message"
+      },
+      "planned_figure_ids": [],
+      "status": "visual_gap_retained",
+      "remaining_gap": "Message controls, personalization, coupons and actual send remain outside the allowed capture routes."
+    },
+    {
+      "article": "journeys/custom-journey.md",
+      "section": {
+        "es": "Condici\u00f3n",
+        "en": "Condition"
+      },
+      "planned_figure_ids": [],
+      "status": "visual_gap_retained",
+      "remaining_gap": "No configured condition/Else rule, branch or client outcome. No trigger prerequisite bypass."
+    },
+    {
+      "article": "journeys/custom-journey.md",
+      "section": {
+        "es": "Esperar",
+        "en": "Wait"
+      },
+      "planned_figure_ids": [],
+      "status": "visual_gap_retained",
+      "remaining_gap": "No wait step saved, timer scheduled or future wake-up observed."
+    },
+    {
+      "article": "journeys/custom-journey.md",
+      "section": {
+        "es": "Derivaci\u00f3n humana",
+        "en": "Human handoff"
+      },
+      "planned_figure_ids": [],
+      "status": "visual_gap_retained",
+      "remaining_gap": "No configured journey handoff, stop/assignment rule or resulting conversation route."
+    },
+    {
+      "article": "journeys/custom-journey.md",
+      "section": {
+        "es": "Guarda y publica",
+        "en": "Save and publish"
+      },
+      "planned_figure_ids": [],
+      "status": "visual_gap_retained",
+      "remaining_gap": "No Save/Publish/deactivation actions; original prose preserved, not recertified by these read-only images."
+    }
+  ],
+  "candidate_ids": [
+    "catalog-route-vs-agent",
+    "catalog-builder-choice",
+    "journey-trigger-menu"
+  ],
+  "selected_figure_ids": [
+    "catalog-route-vs-agent",
+    "catalog-builder-choice",
+    "journey-trigger-menu"
+  ],
+  "integrated_figure_blocks": 6,
+  "catalog_nonredundancy": "Conversion comparison and DIY entry points are distinct native sections and support separate anchors.",
+  "final_local_qa_sha256": "b6d29cb46e61d30e31c5bc976f3f1017686803847026a5d8e02512e179d0dbba"
+}

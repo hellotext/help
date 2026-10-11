@@ -1,0 +1,64 @@
+--- a/_i18n/en/journeys/custom-journey.md
++++ b/_i18n/en/journeys/custom-journey.md
+@@ -56,12 +56,12 @@
+ 
+ ### Human handoff
+ 
+-Use handoff rules when the journey should stop and a person should take over the conversation.
++Configure an assignment step when a person or team should take over the conversation. Assignment does not stop the journey by itself: it continues to the next step. If the flow should end after handoff, review its connection to the end and the end configuration. **Return to AI routing** controls what happens when the journey ends; it does not select a person or team.
+ 
+ This is especially important for support questions, refunds, complex product questions, or unhappy customers.
+ 
+ ## Save and publish
+ 
+-Click **Save Changes** while you work. Custom journeys stay inactive until you publish them.
++Click **Save changes** while you work (**Save** on mobile). Saving a new journey without publishing creates a draft. Saving changes to an active journey does not make it inactive.
+ 
+-When you are ready, click **Publish**. To stop the journey later, make it inactive.
++When you are ready, click **Publish**. To make an active journey inactive, click **Make inactive**.
+--- a/_i18n/en/journeys/getting-started-with-journeys.md
++++ b/_i18n/en/journeys/getting-started-with-journeys.md
+@@ -93,9 +93,9 @@
+ - Links, coupons, and personalization tags work.
+ - Any handoff to a human team is clear.
+ 
+-Click **Save Changes** while you work. The journey remains inactive until you publish it.
++Click **Save changes** while you work (**Save** on mobile). Saving a new journey without publishing creates a draft. Saving changes to an active journey does not make it inactive.
+ 
+-When you are ready, click **Publish**. To stop it later, make it inactive.
++When you are ready, click **Publish**. To make an active journey inactive, click **Make inactive**.
+ 
+ ## Next steps
+ 
+--- a/_i18n/es/journeys/custom-journey.md
++++ b/_i18n/es/journeys/custom-journey.md
+@@ -56,12 +56,12 @@
+ 
+ ### Derivación humana
+ 
+-Usa reglas de derivación cuando la ruta debería detenerse y una persona debería tomar la conversación.
++Configura un paso de asignación cuando una persona o equipo deba tomar la conversación. La asignación no detiene la ruta por sí sola: después continúa al siguiente paso. Si el flujo debe terminar tras derivar, revisa la conexión al final y su configuración. La opción **Regresar a la ruta de IA** controla qué ocurre al terminar; no selecciona a una persona o equipo.
+ 
+ Esto es especialmente importante para preguntas de soporte, reembolsos, preguntas complejas de producto o clientes insatisfechos.
+ 
+ ## Guarda y publica
+ 
+-Haz clic en **Guardar cambios** mientras trabajas. Las rutas personalizadas permanecen inactivas hasta que las publicas.
++Haz clic en **Guardar** mientras trabajas. Al guardar una ruta nueva sin publicarla, queda como borrador. Guardar cambios en una ruta ya activa no la desactiva.
+ 
+-Cuando esté lista, haz clic en **Publicar**. Para detener la ruta más adelante, desactívala.
++Cuando esté lista, haz clic en **Publicar**. Para dejar una ruta activa en estado inactivo, haz clic en **Desactivar**.
+--- a/_i18n/es/journeys/getting-started-with-journeys.md
++++ b/_i18n/es/journeys/getting-started-with-journeys.md
+@@ -93,9 +93,9 @@
+ - Los links, cupones y etiquetas de personalización funcionen.
+ - Cualquier derivación a un equipo humano sea clara.
+ 
+-Haz clic en **Guardar cambios** mientras trabajas. La ruta permanece inactiva hasta que la publiques.
++Haz clic en **Guardar** mientras trabajas. Al guardar una ruta nueva sin publicarla, queda como borrador. Guardar cambios en una ruta ya activa no la desactiva.
+ 
+-Cuando esté lista, haz clic en **Publicar**. Para detenerla más adelante, desactívala.
++Cuando esté lista, haz clic en **Publicar**. Para dejar una ruta activa en estado inactivo, haz clic en **Desactivar**.
+ 
+ ## Próximos pasos
+ 

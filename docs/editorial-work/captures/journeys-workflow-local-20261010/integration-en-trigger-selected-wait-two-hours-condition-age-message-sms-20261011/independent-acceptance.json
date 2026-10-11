@@ -1,0 +1,300 @@
+{
+  "reviewer": "/root/draft_audit/next_candidate",
+  "updated_at": "2026-10-11T00:35:04.099357+00:00",
+  "status": "selected_pngs_independently_pixel_passed",
+  "review_sha256": "fa537fd50ea9e94830d42a73e61efc00e3b6dd10c8accb2bf465c101655ec81f",
+  "scope": "Saved original EN PNG pixel review and read-only sidecar/hash/dimensions/ICC corroboration only. No browser, app, DB, publication or source-image changes.",
+  "records": [
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-trigger-selected-en-desktop.png",
+      "sha256": "5e20b6b79465457274449daef048de4e7a866e3d515b9200bac89c6162a119a7",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-trigger-selected-en-desktop.json",
+      "metadata_sha256": "f46dcdf0ac5b2be535a519ad2a44bfb5f1a34ab8b6249544b0aae7780af61d0a",
+      "id": "custom-trigger-selected",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        1024,
+        0,
+        576,
+        760
+      ],
+      "pixelSize": [
+        2304,
+        3040
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Journey Begins heading and Viewed a product selected control are complete.",
+        "Entry policy, restart policy and channel sections are collapsed.",
+        "Confirm and Cancel are visible in both layouts."
+      ],
+      "limits": [
+        "Pixels show the reopened configuration; they do not independently prove a new confirmation, persistence, entry-policy values or publication."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-trigger-selected-en-mobile.png",
+      "sha256": "cd270caa11a9193787e198a5843240697fb31680511f70f2c33c123cec2f00c7",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-trigger-selected-en-mobile.json",
+      "metadata_sha256": "0813bd3a2d6d7b78e571c2977390abcd58947f79060db2f87db4964a0e267891",
+      "id": "custom-trigger-selected",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "pixelSize": [
+        1560,
+        3376
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Journey Begins heading and Viewed a product selected control are complete.",
+        "Entry policy, restart policy and channel sections are collapsed.",
+        "Confirm and Cancel are visible in both layouts."
+      ],
+      "limits": [
+        "Pixels show the reopened configuration; they do not independently prove a new confirmation, persistence, entry-policy values or publication."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-wait-two-hours-en-desktop-compact.png",
+      "sha256": "0e8540e7ddbd8d3fb7e49a44179a04e6cb30b1e3aa00310b426bc1e914786717",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-wait-two-hours-en-desktop-compact.json",
+      "metadata_sha256": "a98b4dce01c46a006baaa1e0a1dc3a5c04942bd706d05c184214299797de11d7",
+      "id": "custom-wait-two-hours",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        1024,
+        0,
+        576,
+        230
+      ],
+      "pixelSize": [
+        2304,
+        920
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Wait heading, duration 2 and Hours unit are complete and legible."
+      ],
+      "limits": [
+        "Compact native capture ends below duration controls; Save is not in the capture.",
+        "This proves visible configuration only, not elapsed wait time or execution."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-wait-two-hours-en-mobile-compact.png",
+      "sha256": "c6c95c01d7d032ee61f0eae9719dd35dd5b0f77ee619d17ef009e75ed6c51e46",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-wait-two-hours-en-mobile-compact.json",
+      "metadata_sha256": "c28c11d5c2fc7db4877c613cda89768c9bd9c4f98fef983ef274820f3e6169cf",
+      "id": "custom-wait-two-hours",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        260
+      ],
+      "pixelSize": [
+        1560,
+        1040
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Wait heading, duration 2 and Hours unit are complete and legible."
+      ],
+      "limits": [
+        "Compact native capture ends below duration controls; Save is not in the capture.",
+        "This proves visible configuration only, not elapsed wait time or execution."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-condition-age-en-desktop.png",
+      "sha256": "cfe6be1313ee676700092abde0f66c60f0ad9243481a2e5dd2cbca637f605c46",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-condition-age-en-desktop.json",
+      "metadata_sha256": "f908e42c141fdb0c9461e345ac71fd368ae354b9aaff5a3803fb5d86bc2123c4",
+      "id": "custom-condition-age",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        1024,
+        0,
+        576,
+        580
+      ],
+      "pixelSize": [
+        2304,
+        2320
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Condition / BRANCH 1 displays Meets, Age, Above, 18.",
+        "Add branch and Do not wait until a condition is met are visible."
+      ],
+      "limits": [
+        "Mobile category label uses native ellipsis; Age, Above and 18 remain complete.",
+        "Save is outside the capture; pixels do not prove evaluation of the condition."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-condition-age-en-mobile.png",
+      "sha256": "d5e8bf2842384166477fa509cf185c3dc6f2af537cd5eb1a97f44aa201557963",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-condition-age-en-mobile.json",
+      "metadata_sha256": "5979b5c182a005b3ee3779fe9a6ad2d22809090e104a4408f2f2206a31d5ffa2",
+      "id": "custom-condition-age",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        610
+      ],
+      "pixelSize": [
+        1560,
+        2440
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Condition / BRANCH 1 displays Meets, Age, Above, 18.",
+        "Add branch and Do not wait until a condition is met are visible."
+      ],
+      "limits": [
+        "Mobile category label uses native ellipsis; Age, Above and 18 remain complete.",
+        "Save is outside the capture; pixels do not prove evaluation of the condition."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-message-sms-en-desktop.png",
+      "sha256": "efc08a36673731a509a3a328379d97241037b1c0e644c8fb76fc02037701c34e",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-message-sms-en-desktop.json",
+      "metadata_sha256": "386f93e076d7e312df61742e96d1a7b8fae42d779755bd43661884e718f4b212",
+      "id": "custom-message-sms",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        1024,
+        0,
+        576,
+        640
+      ],
+      "pixelSize": [
+        2304,
+        2560
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed_for_message_and_channel_configuration",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Message text is the intentional fictional bilingual Vista Studio example.",
+        "SMS alone is checked; Any channel available, Webchat and Email are unchecked.",
+        "The section below reads Send message anytime."
+      ],
+      "limits": [
+        "Mobile title uses native ellipsis; message body and channel selections remain complete.",
+        "EN counter shows 160, 1 SMS; accepted ES mobile shows 17, 1 SMS for the same visible text. Do not use these captures to establish SMS count/length accuracy.",
+        "Save is outside the capture. Neither sending nor delivery is demonstrated."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-message-sms-en-mobile.png",
+      "sha256": "403eb0922683d0173d151a3df860286cfd786f3a6d5b0069f9823401d6689a60",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-message-sms-en-mobile.json",
+      "metadata_sha256": "a571fa1b6fedfcbd6258277815b0bc3cc39c565681cef22824c8eb6447c6c990",
+      "id": "custom-message-sms",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        650
+      ],
+      "pixelSize": [
+        1560,
+        2600
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed_for_message_and_channel_configuration",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Message text is the intentional fictional bilingual Vista Studio example.",
+        "SMS alone is checked; Any channel available, Webchat and Email are unchecked.",
+        "The section below reads Send message anytime."
+      ],
+      "limits": [
+        "Mobile title uses native ellipsis; message body and channel selections remain complete.",
+        "EN counter shows 160, 1 SMS; accepted ES mobile shows 17, 1 SMS for the same visible text. Do not use these captures to establish SMS count/length accuracy.",
+        "Save is outside the capture. Neither sending nor delivery is demonstrated."
+      ]
+    }
+  ],
+  "authorization": "Root authorized incremental local Help integration after independent per-PNG pixel PASS; no publication."
+}

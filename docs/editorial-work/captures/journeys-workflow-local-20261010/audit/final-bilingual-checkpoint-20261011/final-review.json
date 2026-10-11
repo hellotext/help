@@ -1,0 +1,279 @@
+{
+  "recorded_at": "2026-10-11T01:13:27.862860+00:00",
+  "status": "custom_bilingual_checks_passed_getting_mobile_source_recapture_pending",
+  "publication": false,
+  "inventory_modified": false,
+  "verifying_commit": null,
+  "custom_pair": {
+    "status": "source_copy_build_http_geometry_and_complete_visual_review_passed",
+    "locales": [
+      "es",
+      "en"
+    ],
+    "figures_per_locale": 11
+  },
+  "getting_pair": {
+    "status": "one_source_defect_pending",
+    "locales": [
+      "es",
+      "en"
+    ],
+    "figures_per_locale": 6,
+    "open_finding": "EN_MOBILE_CART_CATALOG_SCROLLBAR",
+    "affected_source": "images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-mobile-compact.png",
+    "affected_render_widths": [
+      580,
+      390
+    ],
+    "next_check": "Accept a genuine native replacement, preserve rejected source as local evidence, integrate only that mobile source, rebuild/export/HTTP checks and review affected Getting EN views. Reuse all unaffected evidence only with matching hashes and geometry."
+  },
+  "source_png_count": 68,
+  "selected_workflow_png_count": 56,
+  "historical_png_count": 12,
+  "build_comparisons": 136,
+  "http_byte_exact_resources": 144,
+  "http_excluded_404": 7,
+  "complete_page_views": 12,
+  "complete_page_capture_files": 18,
+  "fresh_detail_capture_files": 54,
+  "all_current_review_pngs_inspected": 72,
+  "previous_es_detail_instances_reused": 33,
+  "shared_detail_instances_verified": 15,
+  "native_review_density": 2,
+  "native_review_icc": "Display P3",
+  "long_page_review": "Six Custom views each have two consecutive native PNG segments with100CSS overlap and full coordinate coverage; no stitching.",
+  "capture_route_incidents": "One rejected blank canvas detail and the rejected full-page PNG without ICC remain preserved. The first blank Template detail was not preserved; no image was reconstructed to replace its missing evidence.",
+  "frozen_files_preserved": 85,
+  "own_services_stopped": true,
+  "evidence": {
+    "checkpoint.json": "bb8f46e6994b21c904350f8d41a0bd08ed7fb6090e4dc45df15d91a17ed64616",
+    "build-execution.json": "243c4052064ba25d0606224c5f07c60dd8dbecb65d7a7fe1f61608c6a2b55c5a",
+    "http-verification.json": "d26021217618ed469ff2366e103c9dc90ed049d57d950323429ab5b118e04108",
+    "visual-review/capture-receipt-final.json": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a",
+    "integrator-pixel-review.json": "2d9e993f0b2adaa3bffaf98cff868b5dac787f009212a3b677a2a0d7ed6226fc",
+    "root-pixel-review.json": "ed59f9dbf4d8a8766aae7c2becfb431bc1a3a846cf65712c3835ba1864b0d8df",
+    "independent-review.json": "c3d4e2d65062af9defbca712ae8c97b3a10ac263627e71d487a0fdd96e910809",
+    "post-review-integrity.json": "e93b7d8d533b7a13c93b307a58f7198fa200462f8daeb959185a440cfb8c6acf",
+    "cleanup.json": "4840a5ca26547f00f5b04876b34f896f697030c1cfa347d872f50fb1d5a7df74",
+    "scope-review.json": "455b88dee1360b9ea2dd172efef2ef4458de64566c13ec6b679a00a6b7aabdf9"
+  },
+  "pixel_review_coverage": {
+    "custom-journey-es-1440-custom-canvas-start.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-es-1440-custom-canvas-end.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-es-580-custom-canvas-start.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-es-580-custom-canvas-end.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-es-390-custom-canvas-start.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-es-390-custom-canvas-end.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-1440-custom-trigger-selected.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-1440-custom-canvas-start-viewport.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-1440-custom-message-sms.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-1440-custom-condition-age.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-1440-custom-wait-two-hours.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-1440-custom-assignment-sofia.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-1440-custom-canvas-end.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-1440-custom-end-policy.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-580-custom-trigger-selected.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-580-custom-canvas-start.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-580-custom-message-sms.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-580-custom-condition-age.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-580-custom-wait-two-hours.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-580-custom-assignment-sofia.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-580-custom-canvas-end.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-580-custom-end-policy.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-390-custom-trigger-selected.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-390-custom-canvas-start.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-390-custom-message-sms.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-390-custom-condition-age.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-390-custom-wait-two-hours.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-390-custom-assignment-sofia.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-390-custom-canvas-end.png": [
+      "integrator-pixel-review.json"
+    ],
+    "custom-journey-en-390-custom-end-policy.png": [
+      "integrator-pixel-review.json"
+    ],
+    "getting-started-with-journeys-en-1440-template-cart-selected-viewport.png": [
+      "integrator-pixel-review.json",
+      "independent-review.json"
+    ],
+    "custom-journey-en-1440-full-part1.png": [
+      "root-pixel-review.json"
+    ],
+    "custom-journey-en-1440-full-part2.png": [
+      "root-pixel-review.json"
+    ],
+    "custom-journey-en-390-full-part1.png": [
+      "root-pixel-review.json"
+    ],
+    "custom-journey-en-390-full-part2.png": [
+      "root-pixel-review.json"
+    ],
+    "custom-journey-en-580-full-part1.png": [
+      "root-pixel-review.json"
+    ],
+    "custom-journey-en-580-full-part2.png": [
+      "root-pixel-review.json"
+    ],
+    "custom-journey-es-1440-full-part1.png": [
+      "root-pixel-review.json"
+    ],
+    "custom-journey-es-1440-full-part2.png": [
+      "root-pixel-review.json"
+    ],
+    "custom-journey-es-390-full-part1.png": [
+      "root-pixel-review.json"
+    ],
+    "custom-journey-es-390-full-part2.png": [
+      "root-pixel-review.json"
+    ],
+    "custom-journey-es-580-full-part1.png": [
+      "root-pixel-review.json"
+    ],
+    "custom-journey-es-580-full-part2.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-en-1440-custom-active.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-en-1440-custom-inactive.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-en-390-custom-active.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-en-390-custom-inactive.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-en-580-custom-active.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-en-580-custom-inactive.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-es-1440-custom-active.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-es-1440-custom-inactive.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-es-390-custom-active.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-es-390-custom-inactive.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-es-580-custom-active.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-es-580-custom-inactive.png": [
+      "root-pixel-review.json"
+    ],
+    "getting-started-with-journeys-es-1440-full.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-es-580-full.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-es-390-full.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-1440-full.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-1440-catalog-route-vs-agent.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-1440-catalog-builder-choice.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-1440-custom-saved-draft.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-580-full.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-580-catalog-route-vs-agent.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-580-template-cart-selected.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-580-catalog-builder-choice.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-580-custom-saved-draft.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-390-full.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-390-catalog-route-vs-agent.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-390-template-cart-selected.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-390-catalog-builder-choice.png": [
+      "independent-review.json"
+    ],
+    "getting-started-with-journeys-en-390-custom-saved-draft.png": [
+      "independent-review.json"
+    ]
+  }
+}

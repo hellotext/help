@@ -1,0 +1,43 @@
+--- a/_i18n/en/journeys/custom-journey.md
++++ b/_i18n/en/journeys/custom-journey.md
+@@ -197,3 +197,17 @@
+ <!-- journeys-workflow:custom-active:end -->
+ 
+ To make an active journey inactive, click **Make inactive**.
++
++<!-- journeys-workflow:custom-inactive:start -->
++<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-inactive" aria-label="Fictional journey in Inactive">
++  <div class="ht-editorial-visual__stage">
++    <div class="ht-editorial-visual__image-frame" style="max-width: 432px; width: fit-content; margin: 0 auto;">
++      <picture>
++        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-inactive-en-mobile.png 4x" width="1560" height="1028" />
++        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png 4x" width="1656" height="952" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Journey list with Inactive selected and the fictional journey with its Viewed a product trigger." />
++      </picture>
++    </div>
++  </div>
++  <figcaption class="ht-editorial-visual__caption">The same fictional journey appears under Inactive after choosing Make inactive.</figcaption>
++</figure>
++<!-- journeys-workflow:custom-inactive:end -->
+--- a/_i18n/en/journeys/getting-started-with-journeys.md
++++ b/_i18n/en/journeys/getting-started-with-journeys.md
+@@ -141,6 +141,20 @@
+ 
+ To make an active journey inactive, click **Make inactive**.
+ 
++<!-- journeys-workflow:custom-inactive:start -->
++<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-inactive" aria-label="Fictional journey in Inactive">
++  <div class="ht-editorial-visual__stage">
++    <div class="ht-editorial-visual__image-frame" style="max-width: 432px; width: fit-content; margin: 0 auto;">
++      <picture>
++        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-inactive-en-mobile.png 4x" width="1560" height="1028" />
++        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png 4x" width="1656" height="952" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Journey list with Inactive selected and the fictional journey with its Viewed a product trigger." />
++      </picture>
++    </div>
++  </div>
++  <figcaption class="ht-editorial-visual__caption">The same fictional journey appears under Inactive after choosing Make inactive.</figcaption>
++</figure>
++<!-- journeys-workflow:custom-inactive:end -->
++
+ ## Next steps
+ 
+ If your flow needs an AI agent, review [how to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %}).

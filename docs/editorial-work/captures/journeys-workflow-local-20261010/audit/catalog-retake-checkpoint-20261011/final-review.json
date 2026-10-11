@@ -1,0 +1,97 @@
+{
+  "recorded_at": "2026-10-11T01:30:24.808899+00:00",
+  "status": "both_bilingual_pairs_checks_passed_pending_verifying_commit",
+  "custom_pair": {
+    "locales": [
+      "es",
+      "en"
+    ],
+    "figures_per_locale": 11,
+    "checks": "passed"
+  },
+  "getting_pair": {
+    "locales": [
+      "es",
+      "en"
+    ],
+    "figures_per_locale": 6,
+    "checks": "passed"
+  },
+  "resolved_findings": [
+    "EN_MOBILE_CART_CATALOG_SCROLLBAR"
+  ],
+  "open_findings": [],
+  "selected_workflow_png_count": 56,
+  "historical_png_count": 12,
+  "source_png_count": 68,
+  "source_to_built_comparisons": 136,
+  "exported_js_comparisons": 4,
+  "http_byte_exact_resources": 144,
+  "http_excluded_404": 9,
+  "complete_page_views": 12,
+  "delta_complete_views": 3,
+  "delta_details": 2,
+  "prior_unchanged_review_reused": true,
+  "native_review_density": 2,
+  "native_review_icc": "Display P3",
+  "own_services_stopped": true,
+  "inventory_status": "in_progress",
+  "inventory_modified": false,
+  "verifying_commit": null,
+  "publication": false,
+  "evidence": [
+    {
+      "file": "audit/catalog-retake-checkpoint-20261011/checkpoint.json",
+      "sha256": "1e73ec5928d887fbbf80e79dbfb22519054b5d49a884317906372b1df59b027c"
+    },
+    {
+      "file": "audit/catalog-retake-checkpoint-20261011/build-execution.json",
+      "sha256": "91c2704bec7d15dc86d0fa780534de9bb62a93ae69e5188b8f98b2608dae86f6"
+    },
+    {
+      "file": "audit/catalog-retake-checkpoint-20261011/http-verification.json",
+      "sha256": "665b9381e811bdb0598d4db5d06481ffca163809087b7b9d32a6f51e58eac466"
+    },
+    {
+      "file": "audit/catalog-retake-checkpoint-20261011/visual-review/capture-receipt.json",
+      "sha256": "ef8aa289a8042658532eff58f01b40cfe8a8070f5644880753b30b035e40e784"
+    },
+    {
+      "file": "audit/catalog-retake-checkpoint-20261011/independent-review.json",
+      "sha256": "9f8c0426a1e31674d73bff2dfa66512be1840cb3d53809caca10a76d180b441b"
+    },
+    {
+      "file": "audit/catalog-retake-checkpoint-20261011/reuse-and-integrity.json",
+      "sha256": "648e2dca08f19bef3abfdcf73ecb3fa7fa59fc16562673afae231b1de4635a6e"
+    },
+    {
+      "file": "audit/catalog-retake-checkpoint-20261011/cleanup.json",
+      "sha256": "af86a19b4a3e3beb3a88f77c3ce6b7c9bbf6c5ccc6433635146884e7880fe350"
+    },
+    {
+      "file": "audit/final-bilingual-checkpoint-20261011/final-review.json",
+      "sha256": "fe908d6afef7d6cff9d1fa924b7ced3e74ec8be56426f3c1c778e1c052346daf"
+    },
+    {
+      "file": "final-bilingual-preparation-20261011/article-coherence-final.json",
+      "sha256": "d0210f9fbbcdde8d670f89b01868ae9ab801357ff2e724c7bcc8751000d6f126"
+    },
+    {
+      "file": "final-bilingual-preparation-20261011/source-selection-final.json",
+      "sha256": "19ff89e36c9f4b967e470ad85c990847d620364061ad10d0f08a3f8e995484cf"
+    },
+    {
+      "file": "integration-en-catalog-retake-20261011/receipt.json",
+      "sha256": "985424dea37a39c1cbdc0bd7a95b14439909c0177d4a398760e2ccce1d4734b5"
+    },
+    {
+      "file": "integration-en-catalog-retake-20261011/final-state-verification.json",
+      "sha256": "a16a33101b3bb3110bda087aa0aebb03b9a96a80c679e1e3aefe59c504b17014"
+    },
+    {
+      "file": "integration-en-catalog-retake-20261011/runtime-shutdown.json",
+      "sha256": "d7001c8111e0a81d20fe181850a3f023da21027b64bfd491eb836049d576996a"
+    }
+  ],
+  "scope": "All four pages are covered at 1440/580/390 by the prior complete review plus this three-view Getting EN delta. Only the changed catalog source was replaced; no global CSS, prose or application behavior changed. The local preparation is ready for a real verifying commit; this receipt does not close the inventory or publish anything."
+}

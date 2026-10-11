@@ -1,0 +1,53 @@
+{
+  "status": "capture_completed_and_sources_accepted_for_local_integration",
+  "source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "scoped_comparison_revision": "4eece183a68b1bf3d480ff403e0f39eca4be507d",
+  "environment": "production",
+  "final_tables_exact": 538,
+  "locale_fields_restored": 1,
+  "source_files_unchanged": 10939,
+  "allowed_browser_methods": [
+    "GET"
+  ],
+  "websocket_forwarding": false,
+  "all_proxy_non_get_requests_denied": true,
+  "database_read_only": true,
+  "runner_performed_jobs": 0,
+  "jobs_limit": "TestAdapter and Sidekiq fake; execution disabled by process guard, no worker started. Runner zero performed jobs is not a census of Puma queues.",
+  "shutdown_status": "owned_services_closed",
+  "scope": "Catalog and unsaved trigger menu only. No journeys created, configured, saved or activated.",
+  "limits": [
+    "Spanish mobile AI card title partly obscured by native ribbon; visible AI description supports recognizing the option.",
+    "Trigger menu captures show opening and initial options, not the complete scrollable list or a selected/confirmed trigger.",
+    "Catalog comparison and DIY builder scenes are separate useful native sections.",
+    "No journey created, configured, saved or published; no automation or delivery result asserted.",
+    "This acceptance permits local insertion and QA only. Complete guide coverage and publication are not claimed."
+  ],
+  "source_records": [
+    {
+      "file": "database-final.json",
+      "sha256": "d3f9d1ef27ad79368461ac5a99ed44b8b464fa07f9590390c6b9dd9f0dfe9b25"
+    },
+    {
+      "file": "source-final.json",
+      "sha256": "a300da3e27c8a57d5fb8a0c0b70b3144757a84230b0523e463f135f4394fc875"
+    },
+    {
+      "file": "preflight-final.json",
+      "sha256": "ab261073164fa7a5edb13ce077b1ad36ff216de116d490c82bb8f88ef2ae2bdf"
+    },
+    {
+      "file": "capture-completion.json",
+      "sha256": "a951deca326a0e8f82683217abdfa44a48e2439eb6e4eb52985e762e61026bfd"
+    },
+    {
+      "file": "shutdown-result.json",
+      "sha256": "8740f077a2fca39462bb76cbfdfe37730b519b0a945c5a53b5061cbd3096ba50"
+    }
+  ],
+  "independent_review": {
+    "record": "independent-source-guards-review.json",
+    "sha256": "d19c86d2ad1ceccec0f8b8e64c52515d8d2704cc9bbc5f79523cc5fde7b6b52d"
+  },
+  "publication_performed": false
+}

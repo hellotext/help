@@ -1,0 +1,49 @@
+{
+  "reviewed_at": "2026-10-10T23:46:56.147808+00:00",
+  "status": "exact_native_graph_semantics_verified",
+  "journey_id": 10,
+  "state": "draft",
+  "version": 1,
+  "locale": "es",
+  "tables": 541,
+  "original_rows_preserved_with_only_authorized_locale_projection": true,
+  "step_count": 6,
+  "trigger_action_id": 13,
+  "wait": "2 hours",
+  "condition": "Age > 18, no internal wait",
+  "message_technology_ids": [
+    2
+  ],
+  "message_body_exact": true,
+  "assignment_user_id": 1,
+  "end_policy": "end_journey",
+  "topology": "Wait → Condition; positive Branch → Message → Assignment → route end; Else → route end",
+  "performed_jobs": 0,
+  "retained_jobs": {
+    "Template::Propagatable::PropagationJob": 1,
+    "Elasticsearch::IndexJob": 1,
+    "Automation::Relay::Job": 1
+  },
+  "legacy_technology_columns": "Legacy target_technology_ids columns retain default all. Effective channel selection and WhatsApp sync use the target_technologies association, verified as SMS2 only for Message and Template; see TargetsTechnologies concern.",
+  "limits": "Persistence and graph configuration only; native reload pixels checked separately. No entry event, rule evaluation, elapsed wait, assignment execution or message delivery demonstrated.",
+  "source_semantic_receipt_sha256": "f5f645e84f8bb8f71288c1f2cf58a6127cae5c36cfb9626186d3a14b3e20021e",
+  "private_evidence_references": {
+    "before-rows": {
+      "sha256": "f77846d93b11c8e20482bec730c462ba0a0a3795145fc8fca80a271efec7d9f7",
+      "copied": false
+    },
+    "after-rows": {
+      "sha256": "46c934848f4e8665e71c53d8e64f63c5208e5b60e2dd13eb39fe4254846ca33a",
+      "copied": false
+    },
+    "result": {
+      "sha256": "2302cc7547ea4c6f8ff4c73184b1c77913246a06f3be864748079f0b8047e997",
+      "copied": false
+    },
+    "final": {
+      "sha256": "e787566039a0a6b918c97e45650e87925f0119c26d4528586677f366f1f8ab95",
+      "copied": false
+    }
+  },
+  "curation": "Root semantic summary only; nonce and private paths omitted. No DB snapshots or native request bodies copied."
+}

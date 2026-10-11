@@ -1,0 +1,180 @@
+{
+  "started_at": "2026-10-11T01:07:08.757Z",
+  "status": "native_viewport_detail_recapture_passed_pixel_review_pending",
+  "checkpoint_sha256": "bb8f46e6994b21c904350f8d41a0bd08ed7fb6090e4dc45df15d91a17ed64616",
+  "capture_route": "Native Chrome Page.captureScreenshot PNG, Display P3 D65, DPR 2; no post-processing",
+  "origin": "http://127.0.0.1:4306",
+  "browser_pid": 11168,
+  "server_pid": 11167,
+  "views": [
+    {
+      "target": {
+        "slug": "custom-journey",
+        "id": "custom-canvas-start"
+      },
+      "geometry": {
+        "id": "custom-canvas-start",
+        "figure": {
+          "x": 375.9921875,
+          "y": 2091.828125,
+          "width": 774.4140625,
+          "height": 876,
+          "right": 1150.40625,
+          "bottom": 2967.828125
+        },
+        "stage": {
+          "x": 375.9921875,
+          "y": 2091.828125,
+          "width": 774.4140625,
+          "height": 876,
+          "right": 1150.40625,
+          "bottom": 2967.828125
+        },
+        "stageStyle": {
+          "padding": [
+            "28px",
+            "28px",
+            "28px",
+            "28px"
+          ],
+          "border": [
+            "1px",
+            "solid",
+            "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+          ],
+          "radius": "24px",
+          "background": "color(display-p3 0.9333 0.898 1)",
+          "display": "block",
+          "position": "static",
+          "visibility": "visible"
+        },
+        "frame": {
+          "x": 534.1953125,
+          "y": 2120.828125,
+          "width": 458,
+          "height": 818,
+          "right": 992.1953125,
+          "bottom": 2938.828125
+        },
+        "frameStyle": {
+          "padding": [
+            "8px",
+            "8px",
+            "8px",
+            "8px"
+          ],
+          "border": [
+            "1px",
+            "solid",
+            "color(display-p3 0.9059 0.898 0.9176)"
+          ],
+          "radius": "16px",
+          "background": "rgb(255, 255, 255)",
+          "display": "block",
+          "position": "static",
+          "visibility": "visible"
+        },
+        "image": {
+          "x": 543.1953125,
+          "y": 2129.828125,
+          "width": 440,
+          "height": 800,
+          "right": 983.1953125,
+          "bottom": 2929.828125
+        },
+        "imageStyle": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "border": [
+            "0px",
+            "none",
+            "color(display-p3 0.0784 0.0157 0.2039)"
+          ],
+          "radius": "8px",
+          "background": "rgba(0, 0, 0, 0)",
+          "display": "block",
+          "position": "static",
+          "visibility": "visible"
+        },
+        "currentSrc": "http://127.0.0.1:4306/images/editorial/journeys-workflow-20261010/custom-canvas-start-en-desktop.png",
+        "naturalSize": [
+          440,
+          800
+        ],
+        "loaded": true,
+        "alt": "Saved fictional journey fragment: Viewed a product, a 2-hour wait and a condition with Age above 18 and else branches.",
+        "caption": "Saved fictional example: Viewed a product connects to a two-hour wait and a condition with Age above 18 and else branches.",
+        "captionStyle": {
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "border": [
+            "0px",
+            "none",
+            "color(display-p3 0.0784 0.0157 0.2039)"
+          ],
+          "radius": "0px",
+          "background": "rgba(0, 0, 0, 0)",
+          "display": "block",
+          "position": "absolute",
+          "visibility": "visible"
+        },
+        "interactiveCount": 0,
+        "ancestorsLinked": false
+      },
+      "capture": {
+        "file": "custom-journey-en-1440-custom-canvas-start-viewport.png",
+        "clip": {
+          "x": 363,
+          "y": 2079,
+          "width": 800,
+          "height": 901
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1802
+        ],
+        "icc": "Display P3",
+        "sha256": "f7a08cdd8d8b661cf197343360304fab87658532a922106d2d524a02a5237221",
+        "page_state": {
+          "url": "http://127.0.0.1:4306/custom-journey.html",
+          "title": "Custom journey | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            1930
+          ]
+        },
+        "replaces_capture": "custom-journey-en-1440-custom-canvas-start.png",
+        "replaces_sha256": "509e029203e41d995953a1ed51d08e23dc7f40badc62c9b107f27c3559f0b036"
+      }
+    }
+  ],
+  "blocked_requests": [
+    {
+      "origin": "https://www.googletagmanager.com",
+      "method": "GET",
+      "resourceType": "Script"
+    }
+  ],
+  "runtime_errors": [],
+  "finished_at": "2026-10-11T01:07:10.523Z"
+}

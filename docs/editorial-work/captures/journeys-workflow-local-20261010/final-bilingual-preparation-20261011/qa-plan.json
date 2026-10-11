@@ -1,0 +1,161 @@
+{
+  "updated_at": "2026-10-11T00:39:04.772238+00:00",
+  "status": "plan_only_waiting_for_final_sources_and_freeze",
+  "sources_at_planning": {
+    "_i18n/es/journeys/custom-journey.md": {
+      "sha256": "cd7682875a7572e3bef7f22c8ca38f314273f20173e15c3bb1cd8121077eb00c",
+      "headings": [
+        "## Selecciona un disparador",
+        "## Agrega pasos",
+        "### Enviar un mensaje",
+        "### Condición",
+        "### Esperar",
+        "### Derivación humana",
+        "## Guarda y publica"
+      ],
+      "liquid_links": [],
+      "figures": [
+        "custom-trigger-selected",
+        "custom-canvas-start",
+        "custom-message-sms",
+        "custom-condition-age",
+        "custom-wait-two-hours",
+        "custom-assignment-sofia",
+        "custom-canvas-end",
+        "custom-end-policy",
+        "custom-saved-draft"
+      ]
+    },
+    "_i18n/es/journeys/getting-started-with-journeys.md": {
+      "sha256": "391d503cee8745da726610ab76ed87974e1bdc5516360be58fe0818c21d07546",
+      "headings": [
+        "## Cuándo usar una ruta",
+        "## Cuándo usar otro tipo de misión",
+        "## Cómo funcionan las rutas",
+        "## Empieza desde una plantilla de ruta",
+        "## Revisa antes de publicar",
+        "## Próximos pasos"
+      ],
+      "liquid_links": [
+        "_journeys/smart-recommender-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/cart-saver-route.md",
+        "_journeys/cart-saver-route.md",
+        "_journeys/abandoned-cart-route-vs-ai-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/playbooks-overview.md",
+        "_journeys/custom-journey.md",
+        "_journeys/how-to-write-a-great-prompt.md"
+      ],
+      "figures": [
+        "catalog-route-vs-agent",
+        "template-cart-selected",
+        "catalog-builder-choice",
+        "custom-saved-draft"
+      ]
+    },
+    "_i18n/en/journeys/custom-journey.md": {
+      "sha256": "d55d08d44aa6bc5162030b7dd9d63e832a457c91606fe0c045e2bfb255f22eb5",
+      "headings": [
+        "## Select a trigger",
+        "## Add steps",
+        "### Send a message",
+        "### Condition",
+        "### Wait",
+        "### Human handoff",
+        "## Save and publish"
+      ],
+      "liquid_links": [],
+      "figures": [
+        "custom-trigger-selected",
+        "custom-message-sms",
+        "custom-condition-age",
+        "custom-wait-two-hours",
+        "custom-assignment-sofia",
+        "custom-end-policy",
+        "custom-saved-draft"
+      ]
+    },
+    "_i18n/en/journeys/getting-started-with-journeys.md": {
+      "sha256": "2ab7cde7457f4374b06423ffef78584c7593fa3c5ea55d90f2f7b3372b987699",
+      "headings": [
+        "## When to use a journey",
+        "## When to use another playbook type",
+        "## How journeys work",
+        "## Start from a journey template",
+        "## Review before publishing",
+        "## Next steps"
+      ],
+      "liquid_links": [
+        "_journeys/smart-recommender-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/cart-saver-route.md",
+        "_journeys/cart-saver-route.md",
+        "_journeys/abandoned-cart-route-vs-ai-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/playbooks-overview.md",
+        "_journeys/custom-journey.md",
+        "_journeys/how-to-write-a-great-prompt.md"
+      ],
+      "figures": [
+        "catalog-route-vs-agent",
+        "template-cart-selected",
+        "catalog-builder-choice",
+        "custom-saved-draft"
+      ]
+    }
+  },
+  "complete_page_views": {
+    "locales": [
+      "es",
+      "en"
+    ],
+    "guides": [
+      "custom-journey",
+      "getting-started-with-journeys"
+    ],
+    "widths": [
+      1440,
+      580,
+      390
+    ],
+    "count": 12
+  },
+  "checks_all_figures": [
+    "Native source bytes and both built copies.",
+    "Full-column stage, border, separate insets, native size caps, static no-links and no horizontal overflow.",
+    "Current source locale and pixel dimensions; no stale build receipts."
+  ],
+  "reuse_previous_es20_evidence": {
+    "checkpoint": "audit/es-group-checkpoint-20261011/final-review.json",
+    "capture_receipt": "audit/es-group-checkpoint-20261011/visual-review/capture-receipt-final.json",
+    "requirements": [
+      "Exact same PNG source SHA and CSS SHA.",
+      "Same width/height, relative frame/image inset geometry, border/radius/background and responsive source.",
+      "Any discrepancy requires fresh native detail and review only for affected figure."
+    ],
+    "preserve_previous_receipts": true
+  },
+  "new_details": [
+    "All accepted EN sources not covered by previous evidence.",
+    "ES and EN canvas fragments.",
+    "ES and EN active/inactive states once accepted."
+  ],
+  "shared_state_deduplication": "Review once per locale/viewport only when source hash and relative rendered geometry match across both full pages; retain composition review for each page.",
+  "pixel_review_distribution": {
+    "inbox_article": "EN configuration panels and canvas details; evidence integrity and reuse validation.",
+    "integration_review": "EN compact catalogs, template and draft details;6 complete-page compositions assigned at freeze.",
+    "root": "Active/inactive state details;6 remaining complete-page compositions assigned at freeze."
+  },
+  "capture_readiness": "Decode all source images and fonts. For each detail, native scroll into view and wait for compositor; record exact viewport/zoom/scroll before and after. Retain failed attempts. No DOM/CSS or PNG repair.",
+  "inventory": "Remain in_progress until final coverage/QA and actual verifying local commit supplied by root; no fabricated commit/hash.",
+  "build_performed": false,
+  "browser_performed": false,
+  "publication": false
+}

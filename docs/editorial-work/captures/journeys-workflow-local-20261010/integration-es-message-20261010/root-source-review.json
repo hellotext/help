@@ -1,0 +1,29 @@
+{
+  "reviewed_at": "2026-10-10T23:27:36.033798+00:00",
+  "status": "accepted_native_message_configuration_candidates_persistence_not_yet_proven",
+  "reviewer": "root",
+  "files": [
+    {
+      "path": "journeys-workflow-capture-20261010/captures/custom-message-sms-es-desktop.png",
+      "sha256": "4b3479b775a5f50f073beee26c83d15d5af62e68e9ce92273ffc2d949be7a348",
+      "metadata_path": "journeys-workflow-capture-20261010/captures/custom-message-sms-es-desktop.json",
+      "metadata_sha256": "4453d196e34329fdd75903e88d76304b0d94cad29eaa635466c6d1b56ef78c1e"
+    },
+    {
+      "path": "journeys-workflow-capture-20261010/captures/custom-message-sms-es-mobile.png",
+      "sha256": "d9cac0b5cc16141be9287db3fe68aad4be45f861dd5a546cf465259671e6de87",
+      "metadata_path": "journeys-workflow-capture-20261010/captures/custom-message-sms-es-mobile.json",
+      "metadata_sha256": "b764f55ea47a0d2d559e57796a11d021e7c69267aa003ba8ab6b6c073c30ae8a"
+    }
+  ],
+  "pixels_reviewed": {
+    "locale": "es",
+    "body": "¡Hola! / Hello! Vista Studio está aquí para ayudarte.",
+    "technology": "SMS checked; Cualquier canal disponible, Webchat and Email unchecked.",
+    "legibility": "Body and technology choices readable in desktop and mobile crops.",
+    "native_mobile_limit": "Header title is naturally ellipsized to Enviar un me…; retained unchanged. Adjacent article heading and message editor body identify the panel.",
+    "pointer": "No pointer overlay observed."
+  },
+  "coverage_limit": "Configuration only, no preview, test send, delivery or persisted values proven. Native title truncation does not affect the illustrated controls.",
+  "integration_caption": "Ejemplo ficticio de un mensaje de Vista Studio con SMS seleccionado."
+}

@@ -1,0 +1,84 @@
+{
+  "reviewed_at": "2026-10-10T22:42:41.844811+00:00",
+  "status": "partial_checkpoint_reviewed_with_desktop_legibility_pending",
+  "complete_visual_coverage": false,
+  "publish_ready": false,
+  "capture_receipt_sha256": "c315b3c6c3890fcf44e7a8d722fc159dc663a498a486f42668b3e3f6ba15a0b3",
+  "checkpoint_sha256": "0c3bd040cb1fa16b8d89a31e9bc6457b9bd928590c6d79c8afda302f25f05e13",
+  "independent_review_sha256": "1e9456cc736ef92129b59b6832a3d8c6f86fe3e81c6cbbb634fe10e832fe023d",
+  "post_review_integrity_sha256": "6eb81084d645a71febabefc98c438fd3a43a4a9db332f84989fac41a97059191",
+  "cleanup_sha256": "fb54be957ddd65a980c3fe34dfad11a74d4ef190da8cf13eac4a11e2d2ca74f5",
+  "pages": 4,
+  "viewports": [
+    1440,
+    580,
+    390
+  ],
+  "rendered_views": 12,
+  "review_pngs": 30,
+  "full_page_pngs": 12,
+  "figure_detail_pngs": 18,
+  "native_review_density": 2,
+  "native_review_icc": "Display P3",
+  "pixel_review_scope": "All twelve complete-page compositions and twelve mobile/tablet figure details inspected by primary reviewer; six desktop details and four full desktop pages independently inspected. Full-page previews are downscaled for composition; fine typography is assessed from native detail PNGs plus actual CSS geometry, not from full-page thumbnails.",
+  "pass_findings": [
+    "All twelve views remain within their article columns without page horizontal overflow.",
+    "Stages fill the column with lavender background, 1px border, rounded corners and separate stage/frame insets.",
+    "All eighteen rendered figure instances remain static, with no links or open controls; localized source selection and native-size caps pass.",
+    "Four article bodies, stubs, original twelve PNGs, configuration, dependencies and ledger preserve their checkpoint hashes.",
+    "Four served pages, twenty-four served PNG copies and four served JS copies equal built bytes. Seven excluded paths return 404.",
+    "No runtime JavaScript exceptions; each page external analytics request blocked before network forwarding."
+  ],
+  "findings": [
+    {
+      "id": "desktop-legibility",
+      "status": "pending_native_recapture",
+      "scope": "All three figure concepts, ES and EN, at1440.",
+      "evidence": "A1600CSS native view is rendered at698.40625CSS (43.65%). Small catalog descriptions and trigger labels are too small for comfortable inline reading; trigger pane occupies only the right third of a mostly empty canvas.",
+      "required_action": "Capture the relevant two catalog cards or trigger pane with necessary native context in a tighter compositor crop. Inspect the real inline result. Preserve original12PNGs; no upscaling, fabricated UI, global CSS expansion or image-opening controls."
+    },
+    {
+      "id": "spanish-mobile-ai-ribbon",
+      "status": "existing_native_limitation",
+      "scope": "catalog-route-vs-agent ES mobile source at580/390.",
+      "evidence": "A Pedido ribbon covers the end of the AI card title. The body still says con IA.",
+      "required_action": "Do not claim an unobscured title. Prefer a later native layout/crop that keeps both comparison labels complete if feasible."
+    },
+    {
+      "id": "trigger-picker-not-result",
+      "status": "coverage_pending",
+      "scope": "journey-trigger-menu ES/EN all views.",
+      "evidence": "Select/Seleccionar remains shown and the list scrolls internally with its last visible option partial. No chosen/confirmed trigger or saved state is demonstrated.",
+      "required_action": "Keep selector recognition distinct from actual selection, configuration and save/activation evidence."
+    }
+  ],
+  "capture_correction": "The first QA pass captured before native smooth scrolling settled. Final QA uses instant native scrolling and verifies scroll[0,0] before/after each screenshot. The earlier displaced skip-link is absent and is not a product defect. Article DOM/CSS and image pixels were not altered.",
+  "remaining_coverage": [
+    "A genuine template opened with its trigger and connected steps.",
+    "Actual trigger selection and connected step insertion.",
+    "Message, condition, wait, human assignment and separate end-policy configuration.",
+    "Actual Save/reload persistence; saved draft, Publish/active and Make inactive states of the same owned journey.",
+    "Accepted new ES/EN desktop/mobile native screenshots and complete rendered-page review after integration."
+  ],
+  "inventory": {
+    "unresolved_pairs": 42,
+    "pair_status": "in_progress",
+    "ledger_modified": false,
+    "pairs_closed": 0
+  },
+  "activities": {
+    "help_review_browser": true,
+    "new_app_source_captures": 0,
+    "app_or_database_calls": 0,
+    "save_publish_or_send_actions": 0,
+    "article_or_asset_edits_during_QA": 0,
+    "configuration_edits": 0,
+    "external_publication": false,
+    "commit": false,
+    "own_services_stopped": true,
+    "own_pids": [
+      49925,
+      49926
+    ]
+  }
+}

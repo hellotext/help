@@ -1,0 +1,65 @@
+--- a/_i18n/en/journeys/custom-journey.md
++++ b/_i18n/en/journeys/custom-journey.md
+@@ -138,4 +138,18 @@
+ 
+ Click **Save changes** while you work (**Save** on mobile). Saving a new journey without publishing creates a draft. Saving changes to an active journey does not make it inactive.
+ 
++<!-- journeys-workflow:custom-saved-draft:start -->
++<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-saved-draft" aria-label="Fictional journey saved as a draft">
++  <div class="ht-editorial-visual__stage">
++    <div class="ht-editorial-visual__image-frame" style="max-width: 432px; width: fit-content; margin: 0 auto;">
++      <picture>
++        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-mobile.png 4x" width="1560" height="1028" />
++        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png 4x" width="1656" height="952" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Journey list with Draft selected and the saved fictional journey with the Viewed a product trigger." />
++      </picture>
++    </div>
++  </div>
++  <figcaption class="ht-editorial-visual__caption">The saved fictional journey appears under Draft.</figcaption>
++</figure>
++<!-- journeys-workflow:custom-saved-draft:end -->
++
+ When you are ready, click **Publish**. To make an active journey inactive, click **Make inactive**.
+--- a/_i18n/en/journeys/getting-started-with-journeys.md
++++ b/_i18n/en/journeys/getting-started-with-journeys.md
+@@ -64,6 +64,20 @@
+ 
+ To create one, go to the automation area in Hellotext, choose a journey template, review the trigger and steps, and adjust the copy, timing, channel, conditions, and handoff rules before publishing.
+ 
++<!-- journeys-workflow:template-cart-selected:start -->
++<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="template-cart-selected" aria-label="Initial fragment of a journey template">
++  <div class="ht-editorial-visual__stage">
++    <div class="ht-editorial-visual__image-frame" style="max-width: 818px; width: fit-content; margin: 0 auto;">
++      <picture>
++        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/template-cart-selected-en-mobile.png 4x" width="1560" height="2200" />
++        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/template-cart-selected-en-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/template-cart-selected-en-desktop.png 4x" width="3200" height="2440" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Initial fragment of a template in the journey editor, with the beginning connected to a 2-hour wait step." />
++      </picture>
++    </div>
++  </div>
++  <figcaption class="ht-editorial-visual__caption">Beginning of the Cart Saver #1 template, with a two-hour wait connected to the start of the journey.</figcaption>
++</figure>
++<!-- journeys-workflow:template-cart-selected:end -->
++
+ If no template fits what you need, create a [custom journey]({% link _journeys/custom-journey.md %}).
+ 
+ <!-- journeys-entry:catalog-builder-choice:start -->
+@@ -95,6 +109,20 @@
+ 
+ Click **Save changes** while you work (**Save** on mobile). Saving a new journey without publishing creates a draft. Saving changes to an active journey does not make it inactive.
+ 
++<!-- journeys-workflow:custom-saved-draft:start -->
++<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-saved-draft" aria-label="Fictional journey saved as a draft">
++  <div class="ht-editorial-visual__stage">
++    <div class="ht-editorial-visual__image-frame" style="max-width: 432px; width: fit-content; margin: 0 auto;">
++      <picture>
++        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-mobile.png 4x" width="1560" height="1028" />
++        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png 4x" width="1656" height="952" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Journey list with Draft selected and the saved fictional journey with the Viewed a product trigger." />
++      </picture>
++    </div>
++  </div>
++  <figcaption class="ht-editorial-visual__caption">The saved fictional journey appears under Draft.</figcaption>
++</figure>
++<!-- journeys-workflow:custom-saved-draft:end -->
++
+ When you are ready, click **Publish**. To make an active journey inactive, click **Make inactive**.
+ 
+ ## Next steps

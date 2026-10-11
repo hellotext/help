@@ -1,0 +1,279 @@
+{
+  "status": "local_batch_verified",
+  "completed_at": "2026-10-10T20:22:24.420654+00:00",
+  "help_base": "85518c21cd4ec676c5566c4967b6bf6121812ce2",
+  "branch": "codex/journeys-visuals-local-20261010",
+  "guide_pairs": 2,
+  "localized_articles": 4,
+  "concepts": 3,
+  "localized_figures": 6,
+  "source_pngs": 12,
+  "built_png_copies": 24,
+  "build": {
+    "status": "passed",
+    "elapsed_seconds": 8.9,
+    "security_headers": "passed",
+    "log_sha256": "176adda7f82306853a1c22774184fa829f66e87185d274dd8dba2d64a4477cb7"
+  },
+  "responsive_views": 12,
+  "page_review_pngs": 42,
+  "all_saved_page_review_pngs_inspected": true,
+  "viewports": [
+    1440,
+    580,
+    390
+  ],
+  "page_summary_sha256": "e95f67f2a34634409c0b988cdbf1a69ac2104fe39c265affde3084f569c3079b",
+  "source_and_build_hashes_stable": true,
+  "manifest_sha256": "81e60c35968b0806b8758e0920f4dad6fba1bf93ac4db38c41fa27fe0c11b903",
+  "insertion_plan_sha256": "c26700399e6ab3debd913cd7ff44de334f5e5d6fa40bd141371053ba4b71fc26",
+  "originals_sha256": "9d6b2590d34674cfc3f71ba142fb80bb4b157e751f0967123edc78782a0e5c55",
+  "articles": [
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "847acddf30092da26322a14acdaa1c372b7f9e1f248a1be2c4de51310a4988e3",
+      "route": "es/primeros-pasos-con-rutas.html",
+      "figure_ids": [
+        "catalog-route-vs-agent",
+        "catalog-builder-choice"
+      ],
+      "built_html_sha256": "86925cfadfe808d2f5618df67abf43fed8ceeae81745add85ab0bab79d079dcf",
+      "article_content_sha256": "9fa224dac9c3e355d9c74b956cab71bb2b47c9b7c685f81002c7abe0373d6eb4"
+    },
+    {
+      "source": "_i18n/es/journeys/custom-journey.md",
+      "source_sha256": "ab821897f05127f0c127a56c0b3c1ecf8b12eba8e9d68d0b32a1fbeab6b29e39",
+      "route": "es/ruta-personalizada.html",
+      "figure_ids": [
+        "journey-trigger-menu"
+      ],
+      "built_html_sha256": "114224e3622fba71cc4f4357339d40920d27489eb1762eccb308a7b1a6732554",
+      "article_content_sha256": "fe3a1b0e454e956be8efaabf2e2a6fdfa078b91cb8680074b7d9a1b93a6db346"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "source_sha256": "3d5d455ae501e509f5896e1dab0fa5f793469980267e31289f874ed08ed33f2a",
+      "route": "getting-started-with-journeys.html",
+      "figure_ids": [
+        "catalog-route-vs-agent",
+        "catalog-builder-choice"
+      ],
+      "built_html_sha256": "fe3aefd9ad2377d76b3e8703f32e640d18f383af11f47baf21358b81d3fe76f4",
+      "article_content_sha256": "55b0ae60568e88e5052a4d8c7935545dece159e3d6ea11e81707bf18efe6bdf8"
+    },
+    {
+      "source": "_i18n/en/journeys/custom-journey.md",
+      "source_sha256": "e00e7027b85c3e33868900e147f0e5362663a5b84b674979cefb338fb51c3e72",
+      "route": "custom-journey.html",
+      "figure_ids": [
+        "journey-trigger-menu"
+      ],
+      "built_html_sha256": "fafca3c5f36b4fbad810080ef84da285a606440c6409db0cf99ef4c9b911b53d",
+      "article_content_sha256": "400f4c8bc798f87e19c92a0fa82ec9cd019aa65ce1fede9f6fb560d55ab31fa3"
+    }
+  ],
+  "source_assets": [
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-desktop.png",
+      "sha256": "94c81e4ca9401ecb4d3e766bd2bbe81f69331dcfa46b58f786e9315a0df7d89e",
+      "pixel_size": [
+        6400,
+        4000
+      ],
+      "native_css_size": [
+        1600,
+        1000
+      ],
+      "source_file": "catalog-route-vs-agent-es-desktop-v2.png"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-mobile.png",
+      "sha256": "d6d2170a478446e2f999fbca07000deb9e0a9c7df61df4449c441567dff4bd6b",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "native_css_size": [
+        390,
+        1000
+      ],
+      "source_file": "catalog-route-vs-agent-es-mobile.png"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-desktop.png",
+      "sha256": "e6914c42a864e9e04ed9032a3b1ebd0dac964b75b8dfeaabe7ca77cf2a150294",
+      "pixel_size": [
+        6400,
+        4000
+      ],
+      "native_css_size": [
+        1600,
+        1000
+      ],
+      "source_file": "catalog-route-vs-agent-en-desktop.png"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-mobile.png",
+      "sha256": "58df8a2f574017be737a899f3f01a48e9a239b05b9266db6ae41ff110694823c",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "native_css_size": [
+        390,
+        1000
+      ],
+      "source_file": "catalog-route-vs-agent-en-mobile.png"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-builder-choice-es-desktop.png",
+      "sha256": "345bda0516550574d36aad75f73032c6737b324ebefabcb4853eeb2451b179ac",
+      "pixel_size": [
+        6400,
+        4000
+      ],
+      "native_css_size": [
+        1600,
+        1000
+      ],
+      "source_file": "catalog-builder-choice-es-desktop.png"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-builder-choice-es-mobile.png",
+      "sha256": "16fe9d232203a852a42b511ef93109616cb2fb3e5a1f1a0695c34d754afd6984",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "native_css_size": [
+        390,
+        1000
+      ],
+      "source_file": "catalog-builder-choice-es-mobile.png"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-builder-choice-en-desktop.png",
+      "sha256": "564cbc065809555bb9a2b4f500e8700407dd1417ddf743e1e768a6743e02502e",
+      "pixel_size": [
+        6400,
+        4000
+      ],
+      "native_css_size": [
+        1600,
+        1000
+      ],
+      "source_file": "catalog-builder-choice-en-desktop.png"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/catalog-builder-choice-en-mobile.png",
+      "sha256": "67075cd9e52b089412ca184675f123e37b7d617f7de16c8b7fdfc106e032e9e2",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "native_css_size": [
+        390,
+        1000
+      ],
+      "source_file": "catalog-builder-choice-en-mobile.png"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/journey-trigger-menu-es-desktop.png",
+      "sha256": "dfe9bc526dfa1a6b454c6252c86f3abab0be7ba8417a22b15438a1a1690c1e1d",
+      "pixel_size": [
+        6400,
+        4000
+      ],
+      "native_css_size": [
+        1600,
+        1000
+      ],
+      "source_file": "journey-trigger-menu-es-desktop.png"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/journey-trigger-menu-es-mobile.png",
+      "sha256": "e6a798310618be12b423f4b498e1380c791b3d3d51744977b9aa4c5ed303fc79",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "native_css_size": [
+        390,
+        1000
+      ],
+      "source_file": "journey-trigger-menu-es-mobile.png"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/journey-trigger-menu-en-desktop.png",
+      "sha256": "2d59cf1d794f3411d4c745523532f39b102362279127f6dda79cb66adaf6b668",
+      "pixel_size": [
+        6400,
+        4000
+      ],
+      "native_css_size": [
+        1600,
+        1000
+      ],
+      "source_file": "journey-trigger-menu-en-desktop.png"
+    },
+    {
+      "path": "images/editorial/journeys-entry-20261010/journey-trigger-menu-en-mobile.png",
+      "sha256": "eaf738a3ac917d891e90001d84e2e9cea68919199fa3097cff7577436b466e18",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "native_css_size": [
+        390,
+        1000
+      ],
+      "source_file": "journey-trigger-menu-en-mobile.png"
+    }
+  ],
+  "evidence": {
+    "build-verification.json": "2ecc5839bad485db9d40199b2515a1f271c5c8fc9ccb898602ab0f036b06de37",
+    "sources-verification.json": "431787c8c4c8ee61eed61d77efeaa84f32a950f99e2cc7aa505ab1db78b3627b",
+    "acceptance.json": "15e8004b18726726efc604cab7f018ce107df7ce3c0ec9f58681575ae8a235d3",
+    "independent-source-guards-review.json": "d19c86d2ad1ceccec0f8b8e64c52515d8d2704cc9bbc5f79523cc5fde7b6b52d",
+    "independent-integration-review.json": "bb42d9038f259aebe89332d8be7a0f9f5d1e8b1400c81b77a99a9d0d1627d23d",
+    "root-helper-review.json": "013351b525529700bd97fe1936311327b5df2b1d101341ef8f6cc0b67c5550cb",
+    "preview-shutdown.json": "6ce8dd39a37e9f025af3e3b9975f841bdd67e1b1deb25742f23d8a7207194955",
+    "browser-reset.json": "ea703e1b0abda25d8f0754ef7b4bf36cc5599936fbb947f78b76dd4b8f1f450f",
+    "pixel-review-es.json": "4922ffc1a93bcd417646eccef6d38226c0baada6cb2b261d858038c20fa6bc84",
+    "pixel-review-en-custom.json": "ce67f5a261e0397f98bc528b0cc5af719b5bc7448f1ae7b10aba58e5fc3bbd1a",
+    "pixel-review-en-getting-started.json": "7dac200df1423ed8acec537e6068addeb2c8c1a5ee50feae819369838e199a24",
+    "main-final.json": "b0d40ed84b1394863c680267e622274188d53ff3e12e85bb4823dbfe178f257f",
+    "open-prs-final.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "inventory": {
+    "pairs": 154,
+    "statuses": {
+      "local_verified": 108,
+      "pending": 33,
+      "out_of_scope": 1,
+      "in_progress": 11,
+      "visual_pending": 1
+    },
+    "unresolved": 45,
+    "target_pairs": "in_progress",
+    "open_help_prs": 0
+  },
+  "commit_performed": false,
+  "publication_performed": false,
+  "publication_authorized_for_this_batch": false,
+  "capture_guards": {
+    "all_538_tables_restored_exactly": true,
+    "application_source_files_unchanged": 10939,
+    "owned_capture_services_closed": true,
+    "own_help_preview_closed": true,
+    "review_browser_reset": "about:blank"
+  },
+  "limits": [
+    "Spanish mobile AI-card title is partly obscured by native ribbon; visible description identifies AI.",
+    "Open trigger dropdown shows initial choices and internal scroll, not a complete list or a selected/confirmed option.",
+    "Full-context desktop source is small in Help column; main subjects identifiable, not every secondary UI string is claimed comfortably legible.",
+    "Focused header/figure/adjacent-prose review, not an exhaustive footer/navigation audit.",
+    "These two guide pairs remain incomplete for configured topology, Message/Condition/Wait/handoff, saved and activated states.",
+    "No journey creation/configuration/activation or customer send/event was exercised."
+  ]
+}

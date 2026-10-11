@@ -1,0 +1,157 @@
+{
+  "reviewer": "/root/draft_audit/next_candidate",
+  "updated_at": "2026-10-11T00:41:34.167626+00:00",
+  "status": "selected_pngs_independently_pixel_passed",
+  "review_sha256": "9a794a6059c071d6482efe9cc700b7f05bc0fe1d6a0a793a2df9fa6279e9166a",
+  "records": [
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-canvas-start-en-desktop.png",
+      "sha256": "e5325efc3ebec13b7136df9e1dc5f9cc7690846f9a121716e79cad2e74d01f26",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-canvas-start-en-desktop.json",
+      "metadata_sha256": "766779d86514841ede2211812fa75d59754b0a0223ea9c5e75d5820a7b1f0a6b",
+      "id": "custom-canvas-start",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        580,
+        100,
+        440,
+        800
+      ],
+      "pixelSize": [
+        1760,
+        3200
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Viewed a product connects to Wait / 2 Hours, then Condition.",
+        "Both branches are visible: BRANCH 1 / Age is greater than 18 and else.",
+        "Target text, icons and branch split are complete at native canvas scale."
+      ],
+      "limits": [
+        "Lower outgoing branch connectors intentionally continue outside this start fragment.",
+        "This is configuration topology, not evidence of a triggered event, elapsed wait or evaluated condition."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-canvas-start-en-mobile.png",
+      "sha256": "c1797d51edd6036834f813960ba83d7ef482e3824695984d00e4330186937378",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-canvas-start-en-mobile.json",
+      "metadata_sha256": "f1046e96b4b789b1663674e6972bda3a03af30a6131bab33630224229c208ff6",
+      "id": "custom-canvas-start",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        80,
+        390,
+        820
+      ],
+      "pixelSize": [
+        1560,
+        3280
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Viewed a product connects to Wait / 2 Hours, then Condition.",
+        "Both branches are visible: BRANCH 1 / Age is greater than 18 and else.",
+        "Target text, icons and branch split are complete at native canvas scale."
+      ],
+      "limits": [
+        "Lower outgoing branch connectors intentionally continue outside this start fragment.",
+        "This is configuration topology, not evidence of a triggered event, elapsed wait or evaluated condition."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-canvas-end-en-desktop.png",
+      "sha256": "ae321079c6af283e9441c4aa4bc430c35a57da72695be30329cc3d93570467e9",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-canvas-end-en-desktop.json",
+      "metadata_sha256": "07295c97c756f0393e0872f947ecb98f3cd92163e8ee20b1cc43cdfe35140e4a",
+      "id": "custom-canvas-end",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        580,
+        80,
+        440,
+        940
+      ],
+      "pixelSize": [
+        1760,
+        3760
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Send a text message shows the complete intentional bilingual Vista Studio preview.",
+        "Assignment / Assign conversation to Sofía connects to the merged end path.",
+        "Journey Ends label and icon are complete."
+      ],
+      "limits": [
+        "Incoming connectors intentionally enter at the top edge; start and end are two separate native clips, not a composited full canvas.",
+        "This is configuration topology, not evidence of SMS delivery, assignment execution or completed journey."
+      ]
+    },
+    {
+      "file": "journeys-workflow-capture-20261010/captures/custom-canvas-end-en-mobile.png",
+      "sha256": "962f31eca2054ed7935d074b867809189d0f15e93d1597ef7e3577b026045ff9",
+      "metadata_file": "journeys-workflow-capture-20261010/captures/custom-canvas-end-en-mobile.json",
+      "metadata_sha256": "0b8bb58fbb59d32ce945afc3aca9a76651b5e6e2584fe73acaf76658e6c14db3",
+      "id": "custom-canvas-end",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        176,
+        390,
+        940
+      ],
+      "pixelSize": [
+        1560,
+        3760
+      ],
+      "nativeDensity": 4,
+      "actual_icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "74c3e151ec18674d07ce767ea3241a996a5d26fe2db15cae667c41dc61e119fc",
+      "view_image_inspected": true,
+      "view_image_detail_requested": "original",
+      "pixel_review": "passed",
+      "metadata_consistency": "passed",
+      "material_findings": [],
+      "observed": [
+        "Send a text message shows the complete intentional bilingual Vista Studio preview.",
+        "Assignment / Assign conversation to Sofía connects to the merged end path.",
+        "Journey Ends label and icon are complete."
+      ],
+      "limits": [
+        "Incoming connectors intentionally enter at the top edge; start and end are two separate native clips, not a composited full canvas.",
+        "This is configuration topology, not evidence of SMS delivery, assignment execution or completed journey."
+      ]
+    }
+  ],
+  "authorization": "Root authorized incremental local integration after independent saved-pixel PASS. No publication."
+}

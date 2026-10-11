@@ -1,0 +1,23 @@
+--- before/_i18n/es/journeys/custom-journey.md
++++ after/_i18n/es/journeys/custom-journey.md
+@@ -41,6 +41,20 @@
+ Usa este paso para enviar un mensaje al cliente.
+ 
+ Los mensajes pueden incluir links cortos, etiquetas, cupones e información de producto cuando el disparador incluye contexto de producto.
++
++<!-- journeys-workflow:custom-message-sms:start -->
++<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-journey-figure="custom-message-sms" aria-label="Ejemplo de mensaje con SMS seleccionado">
++  <div class="ht-editorial-visual__stage">
++    <div class="ht-editorial-visual__image-frame" style="max-width: 594px; width: fit-content; margin: 0 auto;">
++      <picture>
++        <source media="(max-width: 600px)" srcset="/images/editorial/journeys-workflow-20261010/custom-message-sms-es-mobile.png 4x" width="1560" height="2600" />
++        <img class="ht-editorial-visual__image" src="/images/editorial/journeys-workflow-20261010/custom-message-sms-es-desktop.png" srcset="/images/editorial/journeys-workflow-20261010/custom-message-sms-es-desktop.png 4x" width="2304" height="2560" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Editor de Enviar un mensaje con un saludo ficticio de Vista Studio y SMS seleccionado entre las opciones de canal." />
++      </picture>
++    </div>
++  </div>
++  <figcaption class="ht-editorial-visual__caption">Ejemplo ficticio de un mensaje de Vista Studio con SMS seleccionado.</figcaption>
++</figure>
++<!-- journeys-workflow:custom-message-sms:end -->
+ 
+ ### Condición
+ 

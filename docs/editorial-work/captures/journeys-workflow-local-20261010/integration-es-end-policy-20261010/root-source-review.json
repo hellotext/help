@@ -1,0 +1,28 @@
+{
+  "reviewed_at": "2026-10-10T23:36:15.994949+00:00",
+  "status": "accepted_native_end_policy_configuration_candidates",
+  "reviewer": "root",
+  "files": [
+    {
+      "path": "journeys-workflow-capture-20261010/captures/custom-end-policy-es-desktop-v2.png",
+      "sha256": "1ebb6c8ed489940e1c103a160f16d35c8a4cca27ecacb34af54b6bdcd89db511",
+      "metadata_path": "journeys-workflow-capture-20261010/captures/custom-end-policy-es-desktop-v2.json",
+      "metadata_sha256": "eb73f8fd3083452c6e478d0ee1163c0e0184a04c773f6cef919834bd0036416f"
+    },
+    {
+      "path": "journeys-workflow-capture-20261010/captures/custom-end-policy-es-mobile.png",
+      "sha256": "ee424c870bd87a9cec418b82d7540707fd110ba0cf2e2af58b4efc9428bf6ddc",
+      "metadata_path": "journeys-workflow-capture-20261010/captures/custom-end-policy-es-mobile.json",
+      "metadata_sha256": "3712e6921064b77dbcfd04a6d36afeb57fb7a14e5436686b862d4dc88539921b"
+    }
+  ],
+  "pixels_reviewed": {
+    "locale": "es",
+    "heading": "Fin de ruta",
+    "control": "Regresar a la ruta de IA",
+    "toggle": "off, thumb left",
+    "legibility": "Complete title, toggle label and help text visible at both native crops; no pointer overlay."
+  },
+  "coverage_limit": "Configuration only; persistence and actual assignment-to-end connection require Save payload and persisted graph verification. No execution demonstrated.",
+  "integration_caption": "En este ejemplo, Regresar a la ruta de IA está desactivado en Fin de ruta."
+}

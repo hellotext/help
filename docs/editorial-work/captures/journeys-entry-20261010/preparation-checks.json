@@ -1,0 +1,45 @@
+{
+  "status": "preparation_passed",
+  "help_base": "85518c21cd4ec676c5566c4967b6bf6121812ce2",
+  "body_count": 4,
+  "stub_count": 2,
+  "body_and_stub_bytes_unchanged": true,
+  "original_snapshots_reused": 3,
+  "original_snapshots_new": 3,
+  "accepted_new_png": 0,
+  "article_figures_inserted": 0,
+  "ledger_before_sha256": "d0f124e7582ab049a80eac01d7274815d59bad531d1eb38c7a4abb232df2c11b",
+  "ledger_after_sha256": "be06a37d6f412b74c9c63f98861f2d192541246f67f62442c545610ca5a5d36a",
+  "ledger_changed_rows": [
+    "journeys/getting-started-with-journeys.md",
+    "journeys/custom-journey.md"
+  ],
+  "ledger_counts": {
+    "local_verified": 108,
+    "pending": 33,
+    "out_of_scope": 1,
+    "in_progress": 11,
+    "visual_pending": 1
+  },
+  "unresolved_pairs": 45,
+  "publication": false,
+  "browser_app_db_calls_by_preparation_agent": false,
+  "final_checks": {
+    "six_snapshots_equal_current_bodies_and_stubs": true,
+    "six_unique_anchors": true,
+    "selected_concepts": 0,
+    "only_two_ledger_rows_changed": true,
+    "tracked_diff_only_ledger": true,
+    "unresolved": 45
+  },
+  "artifact_hashes": {
+    "README.md": "618ccf478fae8610a6b26bc4983d7e1f7110b7a395e746edbc6eeb23c716bafe",
+    "insertion-plan.json": "f752e42f90ef2718f08b64764627f5238c6a17c952d12e1c046ed2c8fe118ad7",
+    "originals/_i18n/en/journeys/custom-journey.md": "72c01bbec890ab367f88f6f369cd82f0b93ebb0d91d51d0f835ffdb608f8f436",
+    "originals/_i18n/es/journeys/custom-journey.md": "a6a4fc285453ebba937703adf02168e58937c6447c0f60bac0cf4cd3fdf96f2a",
+    "originals/_journeys/custom-journey.md": "210cbc505b58d858800902f033264d0ed7bab82cff3bf742133c66826a17982e",
+    "originals.json": "9d6b2590d34674cfc3f71ba142fb80bb4b157e751f0967123edc78782a0e5c55",
+    "section-coverage.json": "3ec23d6091e9837745d632773df188387d0272a4a4be775b248a933e08e1a81d",
+    "source-preparation.json": "d8206883357fe96fe16294495e42a3d87b492ee1e91c667c837aab231435b46e"
+  }
+}

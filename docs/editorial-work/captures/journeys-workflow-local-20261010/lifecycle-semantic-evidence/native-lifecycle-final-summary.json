@@ -1,0 +1,148 @@
+{
+  "status": "native_local_workflow_and_locale_verified",
+  "completed_at": "2026-10-11T00:59:43.068442+00:00",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "scope": "Local fictional Journey only; does not publish Help articles or demonstrate customer execution.",
+  "owned_journey_id": 10,
+  "owned_workflow_id": 12,
+  "native_operations": [
+    {
+      "native_operation": "Save",
+      "locale": "es",
+      "state": "draft",
+      "version": 1,
+      "journey_id": 10,
+      "performed_jobs": 0,
+      "semantic_receipt_sha256": "f5f645e84f8bb8f71288c1f2cf58a6127cae5c36cfb9626186d3a14b3e20021e"
+    },
+    {
+      "native_operation": "Publish",
+      "locale": "en",
+      "state": "active",
+      "version": 2,
+      "journey_id": 10,
+      "performed_jobs": 0,
+      "semantic_receipt_sha256": "145241b5edf414edfa7a698139567bc4a3602b2d2dd384aab75ba9f7913df0a5"
+    },
+    {
+      "native_operation": "Make inactive",
+      "locale": "en",
+      "state": "disabled",
+      "version": 3,
+      "journey_id": 10,
+      "performed_jobs": 0,
+      "semantic_receipt_sha256": "3988693f8108c51e15df5e8e9d70963981466e376fb50fc65af0424694d3dc95"
+    },
+    {
+      "native_operation": "Publish",
+      "locale": "es",
+      "state": "active",
+      "version": 4,
+      "journey_id": 10,
+      "performed_jobs": 0,
+      "semantic_receipt_sha256": "e54786917abcf446285fdca7bb6d89613aa82b43c89fbbeaa7ee4747c60c312e"
+    },
+    {
+      "native_operation": "Make inactive",
+      "locale": "es",
+      "state": "disabled",
+      "version": 5,
+      "journey_id": 10,
+      "performed_jobs": 0,
+      "semantic_receipt_sha256": "6a35f3ebe1c5f5f08f7bf333e3185cef16253bf58f84806fd8e86527efd1ea93"
+    }
+  ],
+  "final_state": "disabled",
+  "final_version": 5,
+  "final_locale": "es",
+  "locale_final_verification": {
+    "sha256": "a41569ed292397b28c4f3eda941aee6e4b11a31c33586b224e202e1389f6df34",
+    "status": "locale_verified",
+    "locale": "es",
+    "tables": 541,
+    "table_hashes_sha256": "ac87b77acac7cc1a4b6b74e5120eaa4d330eb15019aea65cb1b5785b67a07298",
+    "writes": 0
+  },
+  "final_database_receipt": {
+    "file": "final-runtime-state-verification.json",
+    "sha256": "4cb1b54a5fb536aa9cebbdbd3d26e55ebcb4e4567aaea245a989b2710f2bffe1"
+  },
+  "graph": {
+    "step_count": 6,
+    "trigger": "Viewed a product / Visitó un producto",
+    "wait": "2 hours",
+    "condition": "Age greater than 18, no additional internal wait",
+    "effective_message_technology": "SMS",
+    "message_body": "¡Hola! / Hello! Vista Studio está aquí para ayudarte.",
+    "assignment": "Fictional teammate Sofía (User1)",
+    "end_policy": "end_journey",
+    "topology": "Trigger → Wait → Condition; matching branch → Message → Assignment → End; Else → End"
+  },
+  "native_normalization": "The first Publish normalized the existing condition branch position from 2 to 0 and updated two step timestamps; parent links and configured values remained intact. Later lifecycle writes changed only the owned Journey and Workflow state/version/timestamps.",
+  "isolation": {
+    "tables_compared_after_each_native_action": 541,
+    "original_rows_preserved": true,
+    "exactly_one_new_fictional_journey": true,
+    "performed_jobs": 0,
+    "jobs": "Native callbacks retained test/fake jobs; none performed. Final Puma held 4 Relay jobs. Earlier Save process also retained propagation/index/relay jobs without execution. No claim of zero jobs enqueued.",
+    "entry_events_invoked": false,
+    "send_invoked": false,
+    "shared_or_production_automation_changed": false,
+    "database_read_only_restored_after_each_action": true
+  },
+  "pixel_evidence": [
+    {
+      "review": "saved-draft-es-candidates-root-review.json",
+      "sha256": "79d21c6cddfbb3491334bccd94ef137790d76e81c52e5a1adfacd09c150e743d",
+      "sources": [
+        "custom-saved-draft-es-desktop-v2.png",
+        "custom-saved-draft-es-mobile.png"
+      ]
+    },
+    {
+      "review": "active-en-candidates-root-review.json",
+      "sha256": "b03f743506fd0b05ebb16f062ed46d31fdec9418af7f6fb3ff99b45862bc9f39",
+      "sources": [
+        "custom-active-en-desktop.png",
+        "custom-active-en-mobile.png"
+      ]
+    },
+    {
+      "review": "inactive-en-candidates-root-review.json",
+      "sha256": "74ea967342d83a1713c0940ed8ca6dcb6149f5357cf0d7b8a7555c464a8ba46a",
+      "sources": [
+        "custom-inactive-en-desktop.png",
+        "custom-inactive-en-mobile.png"
+      ]
+    },
+    {
+      "review": "active-es-candidates-root-review.json",
+      "sha256": "9b26cc400c7a68b702fc8803d38e248208ce7ee4c511c2485a3f3bd146eb19ce",
+      "sources": [
+        "custom-active-es-desktop.png",
+        "custom-active-es-mobile.png"
+      ]
+    },
+    {
+      "review": "inactive-es-candidates-root-review.json",
+      "sha256": "90025980e89b1689109e7d12d3bc83e5bd3495820af1008e6e66aba14d1cc5d1",
+      "sources": [
+        "custom-inactive-es-desktop.png",
+        "custom-inactive-es-mobile.png"
+      ]
+    }
+  ],
+  "english_configuration_review": {
+    "review": "raw-en-independent-review.json",
+    "sha256": "9a794a6059c071d6482efe9cc700b7f05bc0fe1d6a0a793a2df9fa6279e9166a",
+    "accepted_pngs": 24,
+    "scope": "Visible configuration only; message counter calculation is explicitly not validated."
+  },
+  "recovery": "Two Publish responses requested optional confetti, which stayed blocked. Same-code CDP restarts after verified about:blank allowed already-approved GETs. No POST replay, asset allowance expansion or contract change. One earlier Puma-only cache restart corrected a stale localized list row.",
+  "limits": [
+    "Configuration persistence and native list state only; no entry event, condition evaluation, elapsed wait, assignment execution or message delivery tested.",
+    "Same local source and existing CSS-minification workaround; no full production pixel parity claim.",
+    "Article build and final rendered-page review are tracked separately.",
+    "Runtime shutdown is tracked separately."
+  ]
+}

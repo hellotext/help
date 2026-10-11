@@ -1,0 +1,452 @@
+{
+  "recorded_at": "2026-10-11T01:30:24.808899+00:00",
+  "status": "passed",
+  "preserved_snapshot_files": [
+    "_i18n/es/journeys/getting-started-with-journeys.md",
+    "_i18n/es/journeys/custom-journey.md",
+    "_i18n/en/journeys/custom-journey.md",
+    "_journeys/custom-journey.md",
+    "_journeys/getting-started-with-journeys.md",
+    "assets/editorial/editorial_visuals.css",
+    "assets/editorial/editorial_visuals.js",
+    "assets/editorial/editorial_tabs.js",
+    "docs/editorial-work/progress.csv",
+    "_config.yml",
+    "netlify.toml",
+    "script/verify_security_headers.rb",
+    "Gemfile",
+    "Gemfile.lock",
+    "package.json",
+    "yarn.lock",
+    "images/editorial/journeys-entry-20261010/catalog-builder-choice-en-desktop.png",
+    "images/editorial/journeys-entry-20261010/catalog-builder-choice-en-mobile.png",
+    "images/editorial/journeys-entry-20261010/catalog-builder-choice-es-desktop.png",
+    "images/editorial/journeys-entry-20261010/catalog-builder-choice-es-mobile.png",
+    "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-desktop.png",
+    "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-mobile.png",
+    "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-desktop.png",
+    "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-mobile.png",
+    "images/editorial/journeys-entry-20261010/journey-trigger-menu-en-desktop.png",
+    "images/editorial/journeys-entry-20261010/journey-trigger-menu-en-mobile.png",
+    "images/editorial/journeys-entry-20261010/journey-trigger-menu-es-desktop.png",
+    "images/editorial/journeys-entry-20261010/journey-trigger-menu-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-desktop-compact.png",
+    "images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-mobile-compact.png",
+    "images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-desktop-compact.png",
+    "images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-mobile-compact.png",
+    "images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-desktop-compact.png",
+    "images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-desktop-compact-v2.png",
+    "images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-mobile-compact.png",
+    "images/editorial/journeys-workflow-20261010/custom-active-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-active-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-active-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-active-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-assignment-sofia-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-assignment-sofia-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-end-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-end-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-end-es-desktop-v2.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-end-es-mobile-v3.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-start-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-start-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-start-es-desktop-v2.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-start-es-mobile-v3.png",
+    "images/editorial/journeys-workflow-20261010/custom-condition-age-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-condition-age-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-condition-age-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-condition-age-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-end-policy-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-end-policy-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-end-policy-es-desktop-v2.png",
+    "images/editorial/journeys-workflow-20261010/custom-end-policy-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-inactive-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-inactive-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-inactive-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-message-sms-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-message-sms-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-message-sms-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-message-sms-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-saved-draft-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-saved-draft-es-desktop-v2.png",
+    "images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-trigger-selected-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-trigger-selected-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-wait-two-hours-en-desktop-compact.png",
+    "images/editorial/journeys-workflow-20261010/custom-wait-two-hours-en-mobile-compact.png",
+    "images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-desktop-compact.png",
+    "images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-mobile-compact.png",
+    "images/editorial/journeys-workflow-20261010/template-cart-selected-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/template-cart-selected-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/template-cart-selected-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/template-cart-selected-es-mobile.png"
+  ],
+  "unchanged_article_and_html_count": 3,
+  "unchanged_articles": [
+    {
+      "source": "_i18n/es/journeys/getting-started-with-journeys.md",
+      "source_sha256": "6a51a31b11d6fb37b66c49d69dce14855d8f27ea096bb34dd43d636e2018ed99",
+      "built_html": "_site/es/primeros-pasos-con-rutas.html",
+      "built_html_sha256": "dcdbdeebdfe45ce9154d8fc66a139db365087a757d5c3aacc6715851b62447e6",
+      "preserved_figure_structures_exported": 6,
+      "figure_sources": {
+        "catalog-route-vs-agent": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-desktop-compact-v2.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-mobile-compact.png"
+        },
+        "template-cart-selected": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/template-cart-selected-es-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/template-cart-selected-es-mobile.png"
+        },
+        "catalog-builder-choice": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-desktop-compact.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-mobile-compact.png"
+        },
+        "custom-saved-draft": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-desktop-v2.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png"
+        },
+        "custom-active": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-active-es-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-active-es-mobile.png"
+        },
+        "custom-inactive": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-inactive-es-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-inactive-es-mobile.png"
+        }
+      }
+    },
+    {
+      "source": "_i18n/es/journeys/custom-journey.md",
+      "source_sha256": "2a5d2400a98e507093fac4a12ff123d58f83875d4183ef45632e2e0d361b8287",
+      "built_html": "_site/es/ruta-personalizada.html",
+      "built_html_sha256": "1d50837c00d922770da84f3c640c415db5caa6f2a84d165df738081f3a62d87b",
+      "preserved_figure_structures_exported": 11,
+      "figure_sources": {
+        "custom-trigger-selected": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-mobile.png"
+        },
+        "custom-canvas-start": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-canvas-start-es-desktop-v2.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-canvas-start-es-mobile-v3.png"
+        },
+        "custom-message-sms": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-message-sms-es-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-message-sms-es-mobile.png"
+        },
+        "custom-condition-age": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-condition-age-es-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-condition-age-es-mobile.png"
+        },
+        "custom-wait-two-hours": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-desktop-compact.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-mobile-compact.png"
+        },
+        "custom-assignment-sofia": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-mobile.png"
+        },
+        "custom-canvas-end": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-canvas-end-es-desktop-v2.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-canvas-end-es-mobile-v3.png"
+        },
+        "custom-end-policy": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-end-policy-es-desktop-v2.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-end-policy-es-mobile.png"
+        },
+        "custom-saved-draft": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-desktop-v2.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png"
+        },
+        "custom-active": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-active-es-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-active-es-mobile.png"
+        },
+        "custom-inactive": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-inactive-es-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-inactive-es-mobile.png"
+        }
+      }
+    },
+    {
+      "source": "_i18n/en/journeys/custom-journey.md",
+      "source_sha256": "a240738827796e95511a97866a9e467dfa6c39329ec38516baf596c6a60ce99c",
+      "built_html": "_site/custom-journey.html",
+      "built_html_sha256": "928da9389af704c091ee96334c3dfd470d55511630f407a1014a7f919639decc",
+      "preserved_figure_structures_exported": 11,
+      "figure_sources": {
+        "custom-trigger-selected": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-trigger-selected-en-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-trigger-selected-en-mobile.png"
+        },
+        "custom-canvas-start": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-canvas-start-en-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-canvas-start-en-mobile.png"
+        },
+        "custom-message-sms": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-message-sms-en-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-message-sms-en-mobile.png"
+        },
+        "custom-condition-age": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-condition-age-en-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-condition-age-en-mobile.png"
+        },
+        "custom-wait-two-hours": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-wait-two-hours-en-desktop-compact.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-wait-two-hours-en-mobile-compact.png"
+        },
+        "custom-assignment-sofia": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-assignment-sofia-en-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-assignment-sofia-en-mobile.png"
+        },
+        "custom-canvas-end": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-canvas-end-en-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-canvas-end-en-mobile.png"
+        },
+        "custom-end-policy": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-end-policy-en-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-end-policy-en-mobile.png"
+        },
+        "custom-saved-draft": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-saved-draft-en-mobile.png"
+        },
+        "custom-active": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-active-en-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-active-en-mobile.png"
+        },
+        "custom-inactive": {
+          "desktop": "/images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png",
+          "mobile": "/images/editorial/journeys-workflow-20261010/custom-inactive-en-mobile.png"
+        }
+      }
+    }
+  ],
+  "unchanged_public_png_count": 67,
+  "unchanged_public_pngs": [
+    "images/editorial/journeys-entry-20261010/catalog-builder-choice-en-desktop.png",
+    "images/editorial/journeys-entry-20261010/catalog-builder-choice-en-mobile.png",
+    "images/editorial/journeys-entry-20261010/catalog-builder-choice-es-desktop.png",
+    "images/editorial/journeys-entry-20261010/catalog-builder-choice-es-mobile.png",
+    "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-desktop.png",
+    "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-en-mobile.png",
+    "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-desktop.png",
+    "images/editorial/journeys-entry-20261010/catalog-route-vs-agent-es-mobile.png",
+    "images/editorial/journeys-entry-20261010/journey-trigger-menu-en-desktop.png",
+    "images/editorial/journeys-entry-20261010/journey-trigger-menu-en-mobile.png",
+    "images/editorial/journeys-entry-20261010/journey-trigger-menu-es-desktop.png",
+    "images/editorial/journeys-entry-20261010/journey-trigger-menu-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-desktop-compact.png",
+    "images/editorial/journeys-workflow-20261010/catalog-builder-choice-en-mobile-compact.png",
+    "images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-desktop-compact.png",
+    "images/editorial/journeys-workflow-20261010/catalog-builder-choice-es-mobile-compact.png",
+    "images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-en-desktop-compact.png",
+    "images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-desktop-compact-v2.png",
+    "images/editorial/journeys-workflow-20261010/catalog-route-vs-agent-es-mobile-compact.png",
+    "images/editorial/journeys-workflow-20261010/custom-active-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-active-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-active-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-active-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-assignment-sofia-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-assignment-sofia-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-assignment-sofia-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-end-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-end-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-end-es-desktop-v2.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-end-es-mobile-v3.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-start-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-start-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-start-es-desktop-v2.png",
+    "images/editorial/journeys-workflow-20261010/custom-canvas-start-es-mobile-v3.png",
+    "images/editorial/journeys-workflow-20261010/custom-condition-age-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-condition-age-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-condition-age-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-condition-age-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-end-policy-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-end-policy-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-end-policy-es-desktop-v2.png",
+    "images/editorial/journeys-workflow-20261010/custom-end-policy-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-inactive-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-inactive-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-inactive-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-inactive-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-message-sms-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-message-sms-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-message-sms-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-message-sms-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-saved-draft-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-saved-draft-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-saved-draft-es-desktop-v2.png",
+    "images/editorial/journeys-workflow-20261010/custom-saved-draft-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-trigger-selected-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-trigger-selected-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/custom-trigger-selected-es-mobile.png",
+    "images/editorial/journeys-workflow-20261010/custom-wait-two-hours-en-desktop-compact.png",
+    "images/editorial/journeys-workflow-20261010/custom-wait-two-hours-en-mobile-compact.png",
+    "images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-desktop-compact.png",
+    "images/editorial/journeys-workflow-20261010/custom-wait-two-hours-es-mobile-compact.png",
+    "images/editorial/journeys-workflow-20261010/template-cart-selected-en-desktop.png",
+    "images/editorial/journeys-workflow-20261010/template-cart-selected-en-mobile.png",
+    "images/editorial/journeys-workflow-20261010/template-cart-selected-es-desktop.png",
+    "images/editorial/journeys-workflow-20261010/template-cart-selected-es-mobile.png"
+  ],
+  "workflow_sources_unchanged": 55,
+  "historical_sources_unchanged": 12,
+  "unchanged_getting_en_figure_instances": [
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 1440,
+      "id": "catalog-route-vs-agent",
+      "source_sha256": "d12ee04566193f2b6a63eb056c45c862691934ec81ffaf2799d506f10f6d79b4",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 1440,
+      "id": "template-cart-selected",
+      "source_sha256": "20927f6314f117eb6e80f7d7cee9143221871526b91ab25f30f5925d4c60e395",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 1440,
+      "id": "catalog-builder-choice",
+      "source_sha256": "4311e0a61ce56f510ddb10b04030642759738932b9f68b2dc3a529cb8b71878c",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 1440,
+      "id": "custom-saved-draft",
+      "source_sha256": "5084c16b5c374e4275b1c954f3ebbe1595ee86b2dba83480ccafe9b3fd745e8d",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 1440,
+      "id": "custom-active",
+      "source_sha256": "1782de5bff08c5e19b47a4706454e86d67445ba5744e3acc3f70b22d0ffd84d2",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 1440,
+      "id": "custom-inactive",
+      "source_sha256": "23f239716dc20dae6fe8ca0737c8b4b6f98d838677c18c2dc011efaf99fd2700",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 580,
+      "id": "template-cart-selected",
+      "source_sha256": "1bfc749bd561c36e9febc96a974776cae3a6b2b5c9ac064598a6a7a9385008a4",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 580,
+      "id": "catalog-builder-choice",
+      "source_sha256": "026c43c6058a5c82f9a483f117ed281c36039290be6ce0b177ba7d182d9aa8f9",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 580,
+      "id": "custom-saved-draft",
+      "source_sha256": "dcfe4883d72fd9f02421ebd7fea27f619915080a6d39db5f4fa51d903a3b8e7f",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 580,
+      "id": "custom-active",
+      "source_sha256": "e4f482a59c0639415df68dbddb3c33693bdbf3d8ef647d28e77a4271746d591b",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 580,
+      "id": "custom-inactive",
+      "source_sha256": "d8c930026245e2854f78dc3deff5d55e9edadb5e13f5e22195e9c23c450056ba",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 390,
+      "id": "template-cart-selected",
+      "source_sha256": "1bfc749bd561c36e9febc96a974776cae3a6b2b5c9ac064598a6a7a9385008a4",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 390,
+      "id": "catalog-builder-choice",
+      "source_sha256": "026c43c6058a5c82f9a483f117ed281c36039290be6ce0b177ba7d182d9aa8f9",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 390,
+      "id": "custom-saved-draft",
+      "source_sha256": "dcfe4883d72fd9f02421ebd7fea27f619915080a6d39db5f4fa51d903a3b8e7f",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 390,
+      "id": "custom-active",
+      "source_sha256": "e4f482a59c0639415df68dbddb3c33693bdbf3d8ef647d28e77a4271746d591b",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    },
+    {
+      "source": "_i18n/en/journeys/getting-started-with-journeys.md",
+      "width": 390,
+      "id": "custom-inactive",
+      "source_sha256": "d8c930026245e2854f78dc3deff5d55e9edadb5e13f5e22195e9c23c450056ba",
+      "relative_geometry_equal": true,
+      "prior_receipt_sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+    }
+  ],
+  "prior_review_png_hashes_revalidated": 72,
+  "prior_final_review": {
+    "file": "audit/final-bilingual-checkpoint-20261011/final-review.json",
+    "sha256": "fe908d6afef7d6cff9d1fa924b7ced3e74ec8be56426f3c1c778e1c052346daf"
+  },
+  "prior_page_receipt": {
+    "file": "audit/final-bilingual-checkpoint-20261011/visual-review/capture-receipt-final.json",
+    "sha256": "424166cf21a420c97227db45e18e67855a80cd131e41af96cd18be0751e3ca9a"
+  },
+  "delta_page_receipt": {
+    "file": "audit/catalog-retake-checkpoint-20261011/visual-review/capture-receipt.json",
+    "sha256": "ef8aa289a8042658532eff58f01b40cfe8a8070f5644880753b30b035e40e784"
+  },
+  "independent_delta_review": {
+    "file": "audit/catalog-retake-checkpoint-20261011/independent-review.json",
+    "sha256": "9f8c0426a1e31674d73bff2dfa66512be1840cb3d53809caca10a76d180b441b"
+  },
+  "inventory_sha256": "afedaf9372c09806d76483b325304b9284aeca138bba3e10954b073ba077e18c",
+  "scope": "No repeated visual judgments. Prior sources, styles and three complete built pages are unchanged; the changed page has fresh composition review and sixteen identical source/relative-geometry instances."
+}

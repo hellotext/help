@@ -1,0 +1,72 @@
+{
+  "status": "catalog_retake_final_readonly_comparison_passed",
+  "at": "2026-10-11T01:25:15.833591+00:00",
+  "helper_sha256": "b7c302a49e867c47884736ad2dc79eac306ad963b736f82b118d2e860e636981",
+  "database_comparisons": {
+    "original": {
+      "tables": 541,
+      "all_rows_types_values_unchanged": true,
+      "sql_jsonb_hashes_unchanged": true,
+      "sequences_and_schema_unchanged": true
+    },
+    "retake": {
+      "tables": 541,
+      "all_rows_types_values_unchanged": true,
+      "sql_jsonb_hashes_unchanged": true,
+      "sequences_and_schema_unchanged": true
+    }
+  },
+  "network_capture_observations": {
+    "allowed_get_requests": 58,
+    "post_requests_forwarded_by_cdp": 0,
+    "websocket_attempts_recorded": 22,
+    "ledger_sha256": "cd2c34056e7241d789a164c480a13681a899805e59895097218ce1c136a09eb8",
+    "limitation": "Native analytics and cable attempts occurred and were blocked; this does not claim zero attempted background requests.",
+    "blocked_nonread_attempts": 1,
+    "blocked_nonread_details": [
+      {
+        "method": "POST",
+        "origin": "https://api-js.mixpanel.com",
+        "path": "/track/",
+        "forwarded": false,
+        "classification": "external origin denied; native analytics attempt"
+      }
+    ],
+    "classification_note": "The CDP blockedAnalytics flag is false because the external-origin rejection handled this request. Count derives from method and allowed=false, not that specialized flag."
+  },
+  "final_fixture": {
+    "journey_and_workflow_state": "disabled",
+    "journey_version": 5,
+    "user_locale": "es"
+  },
+  "original_contract_and_read_policy_unchanged": true,
+  "original_closed_journal_preserved": {
+    "preboot_hash_verified": true,
+    "retake_sandbox_denies_writes_to_original_root": true,
+    "reopened_or_modified": false
+  },
+  "source_files_checked": 17691,
+  "source_files_unchanged": true,
+  "database_writes_by_this_verifier": 0,
+  "original_database_writes_in_retake": 0,
+  "new_clone_authorized_difference_restored": "User1.locale",
+  "bindings": {
+    "clone-catalog-result.json": "68e1bc9536675d88578df5faa880343943ec92914e5c65cc0cb35d2a7f3a7d4a",
+    "prepare-en-result.json": "92e232c0654435571b5b48852df6bd28ec99d3e14d8d7d94ab577cb624105de4",
+    "preflight-result.json": "2a36cc9296881dfa80028189e8cf5e2558b61fefa8259b039350bf121fccec29",
+    "native-session-bootstrap-result.json": "30f02b268a11bbd2f4254f036574d2739f496b7fa9efc312b42cdc5ac31e182f",
+    "restore-result.json": "1e22876e39045d41138b09334de3a294dcdb641f7b96c72b0ec8b2970a0b6412",
+    "verify-final-result.json": "4d9bc972faa118e7831561ea2df8fd32e6e24fc3344a6a475f5e75f17b9c445b",
+    "contract.json": "2cd48a6d558e19124666fc555c02c6955c3cd00ec7bc37c08fcfe518d95a167a",
+    "read-contract.json": "11aac20b845ce7b023e58cddbcc88397ebd47a2f356e07ef607fe4566e9190bb"
+  },
+  "scope": "No journey actions, entry events, sends or workers. Queue assertions in helper receipts apply to their named processes; no global queue census inferred.",
+  "receipt_amendment": {
+    "at": "2026-10-11T01:27:02.734094+00:00",
+    "superseded_receipt_sha256": "9ee278d26d7bbe2cfde53615f2bb515d37114516519f60f2d439549ea50902df",
+    "scope": "Derived network classification only. Database/source verification was not repeated or changed.",
+    "executed_helper_preserved_as": "verify-catalog-closure-before-network-counter-fix.py",
+    "corrected_helper_sha256": "af490e58f328b677b36e245fe1ca9969aee1ac53c6372e8c9ca73cd483e93ae6",
+    "corrected_helper_executed": false
+  }
+}
