@@ -1,0 +1,523 @@
+{
+  "checked_at": "2026-10-11T06:09:11.689247+00:00",
+  "status": "passed",
+  "scope": "Owned loopback static Help server; GET only; no public deployment check",
+  "checkpoint_sha256": "a3ac38485e08be6e937414aa0828aa6ae2a8d9122a70a70f7467444500bfdf27",
+  "resources": [
+    {
+      "url": "http://127.0.0.1:4306/assets/editorial/editorial_tabs.js",
+      "kind": "js",
+      "status": 200,
+      "sha256": "39e1533fa19b21d927b5172e41156317a3bca29a3366348d36870147e53b2287",
+      "bytes": 3032
+    },
+    {
+      "url": "http://127.0.0.1:4306/assets/editorial/editorial_visuals.css",
+      "kind": "css",
+      "status": 200,
+      "sha256": "648ad42d28fa176b2b3403528204016c138df7acae3b31549e6b46f1e6399e03",
+      "bytes": 31334
+    },
+    {
+      "url": "http://127.0.0.1:4306/assets/editorial/editorial_visuals.js",
+      "kind": "js",
+      "status": 200,
+      "sha256": "cea90dc15466e55016ac00bb5420b966022270a95f93380a7485a0982bb6a07d",
+      "bytes": 184
+    },
+    {
+      "url": "http://127.0.0.1:4306/css/style.css",
+      "kind": "css",
+      "status": 200,
+      "sha256": "1d796fd4fb6e9b3d8636315b460e29fce80b5844c67db5ab2a9228b7b5c8eeeb",
+      "bytes": 52338
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/assets/editorial/editorial_tabs.js",
+      "kind": "js",
+      "status": 200,
+      "sha256": "39e1533fa19b21d927b5172e41156317a3bca29a3366348d36870147e53b2287",
+      "bytes": 3032
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/assets/editorial/editorial_visuals.js",
+      "kind": "js",
+      "status": 200,
+      "sha256": "cea90dc15466e55016ac00bb5420b966022270a95f93380a7485a0982bb6a07d",
+      "bytes": 184
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/captures/property-collector/channels-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+      "bytes": 118689
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/captures/property-collector/channels-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+      "bytes": 116561
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/captures/property-collector/channels-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+      "bytes": 128538
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/captures/property-collector/channels-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+      "bytes": 121281
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/captures/property-collector/handoff-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "bytes": 49298
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/captures/property-collector/handoff-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "bytes": 50940
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/captures/property-collector/handoff-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "bytes": 52936
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/captures/property-collector/handoff-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "bytes": 56126
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/captures/property-collector/tone-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+      "bytes": 73895
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/captures/property-collector/tone-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+      "bytes": 76919
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/captures/property-collector/tone-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+      "bytes": 79226
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/captures/property-collector/tone-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+      "bytes": 80141
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+      "bytes": 47204
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/developers/products-and-inventory-with-api/identity-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+      "bytes": 49486
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+      "bytes": 51266
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/developers/products-and-inventory-with-api/identity-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+      "bytes": 54664
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+      "bytes": 47154
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e",
+      "bytes": 50861
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+      "bytes": 49083
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19",
+      "bytes": 54571
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+      "bytes": 56243
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+      "bytes": 58756
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+      "bytes": 57275
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+      "bytes": 58944
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "61a0d21c1723fc520232f1245b1a95fe4eb24e95866609f7b95de15d1e1fd4ca",
+      "bytes": 37686
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "4336ad08637c31a36fcf67e92368c567e618fe96d135feabff8d2737764e04c7",
+      "bytes": 39821
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "364ff829a380fb4a643dbcd9f7027781b0aac3aa5ce56bc073d4cf44f88395d2",
+      "bytes": 37239
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "88c9fed5e13991d0f77cfd6acf51bc618a671f0dae2c90fb1754ecc01c54937f",
+      "bytes": 40291
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/recomendador-inteligente.html",
+      "kind": "article",
+      "status": 200,
+      "sha256": "1603f3b529980aed7ce60b27e64a808c107089f88428ff5bf9a425aa8c3a8b4d",
+      "bytes": 44994
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/captures/property-collector/channels-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+      "bytes": 118689
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/captures/property-collector/channels-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+      "bytes": 116561
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/captures/property-collector/channels-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+      "bytes": 128538
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/captures/property-collector/channels-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+      "bytes": 121281
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/captures/property-collector/handoff-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "bytes": 49298
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/captures/property-collector/handoff-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "bytes": 50940
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/captures/property-collector/handoff-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "bytes": 52936
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/captures/property-collector/handoff-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "bytes": 56126
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/captures/property-collector/tone-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+      "bytes": 73895
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/captures/property-collector/tone-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+      "bytes": 76919
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/captures/property-collector/tone-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+      "bytes": 79226
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/captures/property-collector/tone-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+      "bytes": 80141
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+      "bytes": 47204
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/developers/products-and-inventory-with-api/identity-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+      "bytes": 49486
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+      "bytes": 51266
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/developers/products-and-inventory-with-api/identity-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+      "bytes": 54664
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+      "bytes": 47154
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e",
+      "bytes": 50861
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+      "bytes": 49083
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19",
+      "bytes": 54571
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+      "bytes": 56243
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+      "bytes": 58756
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+      "bytes": 57275
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+      "bytes": 58944
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "61a0d21c1723fc520232f1245b1a95fe4eb24e95866609f7b95de15d1e1fd4ca",
+      "bytes": 37686
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "4336ad08637c31a36fcf67e92368c567e618fe96d135feabff8d2737764e04c7",
+      "bytes": 39821
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "364ff829a380fb4a643dbcd9f7027781b0aac3aa5ce56bc073d4cf44f88395d2",
+      "bytes": 37239
+    },
+    {
+      "url": "http://127.0.0.1:4306/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+      "kind": "png",
+      "status": 200,
+      "sha256": "88c9fed5e13991d0f77cfd6acf51bc618a671f0dae2c90fb1754ecc01c54937f",
+      "bytes": 40291
+    },
+    {
+      "url": "http://127.0.0.1:4306/js/article-feedback.js",
+      "kind": "js",
+      "status": 200,
+      "sha256": "0250b7e52d7b8e8feddeb8a96127ac3066dbd27e130a97aed47faf4fb3b65273",
+      "bytes": 1370
+    },
+    {
+      "url": "http://127.0.0.1:4306/js/article-navigation.js",
+      "kind": "js",
+      "status": 200,
+      "sha256": "c0260998cbb894527ac52f331887ed2befe24968663e39d1a3059ea60cb99544",
+      "bytes": 8459
+    },
+    {
+      "url": "http://127.0.0.1:4306/js/gtm.js",
+      "kind": "js",
+      "status": 200,
+      "sha256": "28eb3cdc4f2c58dd1949a9ea76fc8aa973db6a7a863b14001193f3fa592b561e",
+      "bytes": 333
+    },
+    {
+      "url": "http://127.0.0.1:4306/js/search.js",
+      "kind": "js",
+      "status": 200,
+      "sha256": "0a7f51662e9bd3d22bb47c68e123a1a5b6d7fc4e592be540154ae964c1638218",
+      "bytes": 4166
+    },
+    {
+      "url": "http://127.0.0.1:4306/smart-recommender-playbook.html",
+      "kind": "article",
+      "status": 200,
+      "sha256": "966e4173425839bbcf47793c668ffe429bf7c3af6004228b8c10f050b506fc83",
+      "bytes": 42605
+    }
+  ],
+  "excluded_paths": [
+    {
+      "url": "http://127.0.0.1:4306/docs",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/docs",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:4306/AGENTS.md",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/AGENTS.md",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:4306/audit",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:4306/es/audit",
+      "status": 404
+    },
+    {
+      "url": "http://127.0.0.1:4306/script/verify_security_headers.rb",
+      "status": 404
+    }
+  ],
+  "counts": {
+    "article": 2,
+    "png": 56,
+    "js": 8,
+    "css": 2
+  },
+  "production_security_headers": "Validated by normal production build; Python static HTTP server does not implement deployment headers",
+  "external_requests": 0,
+  "mutating_requests": 0
+}

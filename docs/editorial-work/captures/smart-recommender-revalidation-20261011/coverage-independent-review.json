@@ -1,0 +1,528 @@
+{
+  "status": "conceptual_coverage_review_complete_source_and_visual_acceptance_pending",
+  "reviewer": "/root/inbox_article/guide_review",
+  "reviewed_at": "2026-10-11T05:56:14.895008+00:00",
+  "worktree": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-smart-recommender-20261011",
+  "head": "438e30b531e539fca07ad5c62686b0e97201d6d4",
+  "scope": "Complete ES/EN Smart Recommender articles, existing work record, historical provenance, seven-figure conceptual coverage, and minimal canonical-link changes. No app-source or Routes review.",
+  "read_sources": [
+    {
+      "path": "_i18n/es/journeys/smart-recommender-playbook.md",
+      "sha256": "2029b98e63130320b7c4569d3cacfc056b33ec36ce166c792c3882fd7b8482d9"
+    },
+    {
+      "path": "_i18n/en/journeys/smart-recommender-playbook.md",
+      "sha256": "3308c43394f9ea7d97b692450c9cb91df8705b0106f05801d73d6cb7b8a07bd3"
+    },
+    {
+      "path": "docs/editorial-work/smart-recommender-playbook.md",
+      "sha256": "f5e33e8e21b4c3d8fe622442ad5d0bd30674500a96a69d0c4a9b12c915f8aaa5"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-playbook/capture-provenance.json",
+      "sha256": "3dbdebdeae730e855277e766c50c6760a5c0a3acddd85fa9e7b82f8eaab55796"
+    }
+  ],
+  "baseline_structure": [
+    {
+      "locale": "es",
+      "headings": 9,
+      "figures": 7,
+      "liquid_links": 24,
+      "follow_up_fragment": "personaliza-el-seguimiento"
+    },
+    {
+      "locale": "en",
+      "headings": 9,
+      "figures": 7,
+      "liquid_links": 24,
+      "follow_up_fragment": "customize-follow-up"
+    }
+  ],
+  "inventory_correction": "The historical work record names 23 original Liquid links per locale. This baseline has 24 because the Follow-up canonical link is already present. Preserve original historical records rather than rewriting their old count.",
+  "existing_figures": [
+    {
+      "number": 1,
+      "concept": "product_identity",
+      "placement": "Prerequisites / Qué necesita antes del lanzamiento",
+      "reader_question": "Where do I recognize the source product record?",
+      "covers": "Fictional draft product name, reference, SKU and source.",
+      "does_not_prove": "Catalog readiness, live stock, Meta availability, eligibility, a recommendation or purchase."
+    },
+    {
+      "number": 2,
+      "concept": "knowledge_upload",
+      "placement": "Configuration / Qué puedes configurar",
+      "reader_question": "Which shared field accepts supporting documents?",
+      "covers": "Empty native Custom Agent upload control, without a chosen file.",
+      "does_not_prove": "A saved document, provider acceptance, processing completion or ready searchable knowledge."
+    },
+    {
+      "number": 3,
+      "concept": "incoming_channels",
+      "placement": "Configuration / Qué puedes configurar",
+      "reader_question": "How is automatic versus manual incoming-channel selection recognized?",
+      "covers": "Independent unsaved Property Collector shared incoming-channel control.",
+      "does_not_prove": "A connected channel, usable outbound destination, supported rich format, consent or delivery."
+    },
+    {
+      "number": 4,
+      "concept": "tone",
+      "placement": "Configuration / Qué puedes configurar",
+      "reader_question": "How does the shared tone choice look?",
+      "covers": "Three native tone selections in an independent unsaved draft.",
+      "does_not_prove": "A generated response, new capability, saved playbook or complete tone catalog."
+    },
+    {
+      "number": 5,
+      "concept": "escalation",
+      "placement": "Configuration / Qué puedes configurar",
+      "reader_question": "Where is the handoff destination team selected?",
+      "covers": "Native shared escalation toggle and fictional destination-team selector.",
+      "does_not_prove": "Conversation assignment, team capacity, human availability, a delivered handoff or reply."
+    },
+    {
+      "number": 6,
+      "concept": "web_search",
+      "placement": "Configuration / Qué puedes configurar",
+      "reader_question": "Where are approved search domains configured?",
+      "covers": "Empty Custom Agent domain control with a placeholder URL.",
+      "does_not_prove": "A saved site, performed search, specific live page, fresh content or commerce integration."
+    },
+    {
+      "number": 7,
+      "concept": "prompt",
+      "placement": "Write a useful prompt / Escribe un prompt útil",
+      "reader_question": "Where do the agent instructions go?",
+      "covers": "Native shared empty Prompt editor and placeholder.",
+      "does_not_prove": "Saved instructions, a Recommender answer, connected catalog, permissions or expanded tools."
+    }
+  ],
+  "section_coverage": [
+    {
+      "section": "Purpose and capabilities",
+      "decision": "Prose",
+      "reason": "Explains scope and grounded behavior; an illustrative product-card result would add an unexecuted outcome rather than evidence."
+    },
+    {
+      "section": "When to use it",
+      "decision": "Prose and existing related guides",
+      "reason": "Decision criteria between product discovery and support operations are conceptual."
+    },
+    {
+      "section": "Prerequisites",
+      "decision": "Existing product identity figure",
+      "reason": "Locates the record while the checklist describes additional readiness checks."
+    },
+    {
+      "section": "Configuration",
+      "decision": "Five complementary shared-control figures plus canonical links",
+      "reason": "Each existing control resolves a distinct recognition task; optional audience breadth does not need a complete filter-builder tutorial here."
+    },
+    {
+      "section": "Prompt",
+      "decision": "Existing editor figure plus prompt-writing canonical guide",
+      "reason": "The image locates the field; prose teaches recommendation boundaries and grounding."
+    },
+    {
+      "section": "Missing responses and handoff",
+      "decision": "Prose and decision-model canonical guide",
+      "reason": "Clarification, scope, capacity and protocol distinctions are not proved by a staged error screenshot."
+    },
+    {
+      "section": "Testing",
+      "decision": "Scenario checklist",
+      "reason": "Current figures do not execute scenarios. No Playground, search, message or provider action is needed for conceptual coverage."
+    },
+    {
+      "section": "Postlaunch review",
+      "decision": "Measurement checklist and canonical reporting/attribution guides",
+      "reason": "No isolated configuration figure establishes performance or causal attribution; no report or revenue is invented."
+    },
+    {
+      "section": "Related guides",
+      "decision": "Preserve navigation",
+      "reason": "Additional screenshots would repeat already explained controls."
+    }
+  ],
+  "canonical_link_changes": {
+    "follow_up": {
+      "current": "Already linked once in each configuration list.",
+      "es_fragment": "personaliza-el-seguimiento",
+      "en_fragment": "customize-follow-up",
+      "recommendation": "Retain the concise list entry and canonical link. Do not duplicate the configuration tutorial, add another screenshot to meet a count, or introduce unstated defaults or execution guarantees.",
+      "new_figures_required": 0
+    },
+    "discounts": {
+      "authorization_reported_by_parent": "Root permits a minimal Discounts/Descuentos list entry if the current app-source owner confirms store_only support.",
+      "status": "Await current_app_capture confirmation and exact bilingual canonical fragment.",
+      "recommendation": "If confirmed, add only the concise component entry linked to its canonical tutorial. Keep discount creation, eligibility and execution claims within the verified source; do not add local steps, coupon fixtures, screenshots or operational tests.",
+      "new_figures_required": 0,
+      "expected_link_count_if_one_new_discount_link_added": 25
+    }
+  },
+  "conceptual_findings": [],
+  "acceptance": {
+    "seven_figures_have_distinct_adjacent_purposes": true,
+    "no_minimum_figure_quota": true,
+    "historical_28_asset_hashes_match": true,
+    "current_app_source_pass_claimed": false,
+    "new_capture_claimed": false,
+    "new_pixel_review_claimed": false,
+    "fresh_build_or_browser_review_claimed": false,
+    "publication_authorization_claimed": false
+  },
+  "historical_assets": [
+    {
+      "path": "images/developers/products-and-inventory-with-api/identity-es.png",
+      "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+      "locale": "es",
+      "mobile": false,
+      "historical_logical_size": [
+        503.0,
+        393.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+      "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+      "locale": "es",
+      "mobile": true,
+      "historical_logical_size": [
+        389.0,
+        393.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+      "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+      "locale": "es",
+      "mobile": false,
+      "historical_logical_size": [
+        628.0,
+        366.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+      "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+      "locale": "es",
+      "mobile": true,
+      "historical_logical_size": [
+        422.0,
+        402.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/captures/property-collector/channels-es.png",
+      "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+      "locale": "es",
+      "mobile": false,
+      "historical_logical_size": [
+        575.0,
+        590.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/captures/property-collector/channels-es-mobile.png",
+      "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+      "locale": "es",
+      "mobile": true,
+      "historical_logical_size": [
+        390.0,
+        760.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/captures/property-collector/tone-es.png",
+      "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+      "locale": "es",
+      "mobile": false,
+      "historical_logical_size": [
+        575.0,
+        515.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/captures/property-collector/tone-es-mobile.png",
+      "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+      "locale": "es",
+      "mobile": true,
+      "historical_logical_size": [
+        390.0,
+        485.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/captures/property-collector/handoff-es.png",
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "locale": "es",
+      "mobile": false,
+      "historical_logical_size": [
+        575.0,
+        330.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/captures/property-collector/handoff-es-mobile.png",
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "locale": "es",
+      "mobile": true,
+      "historical_logical_size": [
+        390.0,
+        340.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+      "sha256": "88c9fed5e13991d0f77cfd6acf51bc618a671f0dae2c90fb1754ecc01c54937f",
+      "locale": "es",
+      "mobile": false,
+      "historical_logical_size": [
+        628.0,
+        192.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+      "sha256": "364ff829a380fb4a643dbcd9f7027781b0aac3aa5ce56bc073d4cf44f88395d2",
+      "locale": "es",
+      "mobile": true,
+      "historical_logical_size": [
+        422.0,
+        204.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+      "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19",
+      "locale": "es",
+      "mobile": false,
+      "historical_logical_size": [
+        628.0,
+        554.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+      "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+      "locale": "es",
+      "mobile": true,
+      "historical_logical_size": [
+        422.0,
+        478.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/developers/products-and-inventory-with-api/identity-en.png",
+      "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+      "locale": "en",
+      "mobile": false,
+      "historical_logical_size": [
+        503.0,
+        393.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+      "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+      "locale": "en",
+      "mobile": true,
+      "historical_logical_size": [
+        389.0,
+        393.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+      "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+      "locale": "en",
+      "mobile": false,
+      "historical_logical_size": [
+        628.0,
+        366.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+      "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+      "locale": "en",
+      "mobile": true,
+      "historical_logical_size": [
+        422.0,
+        402.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/captures/property-collector/channels-en.png",
+      "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+      "locale": "en",
+      "mobile": false,
+      "historical_logical_size": [
+        575.0,
+        590.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/captures/property-collector/channels-en-mobile.png",
+      "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+      "locale": "en",
+      "mobile": true,
+      "historical_logical_size": [
+        390.0,
+        760.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/captures/property-collector/tone-en.png",
+      "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+      "locale": "en",
+      "mobile": false,
+      "historical_logical_size": [
+        575.0,
+        515.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/captures/property-collector/tone-en-mobile.png",
+      "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+      "locale": "en",
+      "mobile": true,
+      "historical_logical_size": [
+        390.0,
+        485.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/captures/property-collector/handoff-en.png",
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "locale": "en",
+      "mobile": false,
+      "historical_logical_size": [
+        575.0,
+        330.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/captures/property-collector/handoff-en-mobile.png",
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "locale": "en",
+      "mobile": true,
+      "historical_logical_size": [
+        390.0,
+        340.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+      "sha256": "4336ad08637c31a36fcf67e92368c567e618fe96d135feabff8d2737764e04c7",
+      "locale": "en",
+      "mobile": false,
+      "historical_logical_size": [
+        628.0,
+        216.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+      "sha256": "61a0d21c1723fc520232f1245b1a95fe4eb24e95866609f7b95de15d1e1fd4ca",
+      "locale": "en",
+      "mobile": true,
+      "historical_logical_size": [
+        422.0,
+        204.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+      "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e",
+      "locale": "en",
+      "mobile": false,
+      "historical_logical_size": [
+        628.0,
+        554.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    },
+    {
+      "path": "images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+      "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+      "locale": "en",
+      "mobile": true,
+      "historical_logical_size": [
+        422.0,
+        478.0
+      ],
+      "historical_source_density": 2,
+      "historical_consumer_reuse": true
+    }
+  ],
+  "remaining_checks": [
+    "Current app-source owner resolves component currency, store_only Discounts and canonical anchors.",
+    "Parent freezes final ES/EN copy and source evidence before build and final QA.",
+    "Review supplied Help desktop PNGs for the complete article and all seven figures; no browser will be operated by this reviewer.",
+    "Publishing owner verifies native size, current rendered width, responsive sources and required mobile coverage separately."
+  ],
+  "operations": {
+    "network_requests": 0,
+    "browser_operations": 0,
+    "app_source_reads": 0,
+    "app_or_database_operations": 0,
+    "worktree_writes": 0,
+    "new_assets": 0,
+    "output_written": "audit/help-smart-recommender-20261011/coverage-independent-review.json only"
+  }
+}

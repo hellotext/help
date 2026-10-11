@@ -1,0 +1,142 @@
+{
+  "verified_at": "2026-10-11T06:12:51.243753+00:00",
+  "status": "passed",
+  "scope": "Complete local Smart Recommender ES/EN source, build, HTTP and rendered-page verification",
+  "articles": [
+    {
+      "source": "_i18n/es/journeys/smart-recommender-playbook.md",
+      "sha256": "bac68256630eea15366edc280fba474a00d3cab20491419ddd27ec6dbe851c71",
+      "built_html": "_site/es/recomendador-inteligente.html",
+      "built_html_sha256": "1603f3b529980aed7ce60b27e64a808c107089f88428ff5bf9a425aa8c3a8b4d",
+      "headings_preserved": 9,
+      "original_liquid_links_preserved": 24,
+      "liquid_links_now": 25,
+      "original_static_figures_preserved": 7
+    },
+    {
+      "source": "_i18n/en/journeys/smart-recommender-playbook.md",
+      "sha256": "c2d5c5d47c1312f0040b5f445001dc3f56a460e38e06cebbe5aaf8b7880b3641",
+      "built_html": "_site/smart-recommender-playbook.html",
+      "built_html_sha256": "966e4173425839bbcf47793c668ffe429bf7c3af6004228b8c10f050b506fc83",
+      "headings_preserved": 9,
+      "original_liquid_links_preserved": 24,
+      "liquid_links_now": 25,
+      "original_static_figures_preserved": 7
+    }
+  ],
+  "evidence": [
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/preparation.json",
+      "sha256": "33343c7ce195d0ec863ec83a5dc325b197d2cc4feb88f80f904b52dd0d368493"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/copy-changes.json",
+      "sha256": "39f7195737e69cc630ce40d031529d29c5cf0f0a8f93f20a4ed1c445bff5c3fe"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/copy.patch",
+      "sha256": "df8eafb628f09b8781aad77ba1fcf73d86f553c07bf8dd2cf1288bea4a9775df"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/plan.md",
+      "sha256": "83a957b8662831c842770f440254d56ef6f572f5a1f846fad99178845dc834b1"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/source-admission.json",
+      "sha256": "abcaf039afb9090ffa50ce67bfb4119738b37ffc2c11804ae3a2b711f92131b7"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/source-currency-review.json",
+      "sha256": "8052bb8b5a73935dd3594a2a2ef70bf8351a635ec8b4e2c45b1067d9c0727113"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/semantic-source-review.json",
+      "sha256": "ccd4fae36a3eb1aec741342334c2d1b0bccb53c49fb20a8e4010eeda14eaf9e7"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/coverage-independent-review.json",
+      "sha256": "37e9ffd36e816c103ec0f11850b51ebca14e441999e7ee14cf90d1cf49cd9905"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/audit/checkpoint.json",
+      "sha256": "a3ac38485e08be6e937414aa0828aa6ae2a8d9122a70a70f7467444500bfdf27"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/audit/build-execution.json",
+      "sha256": "bb692a680789b634096848f2f499c8553be8c88d9e7c3f7b7b4b0d32a1f6ee21"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/audit/build.log",
+      "sha256": "9d12f8e87c5e0b41e5aae923179ca033a16250004564d3503d50fb15291ac33f"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/audit/input-snapshot.json",
+      "sha256": "a12f0c3da4234d7683b99a87c2f899eb809cdc18e56465e21aa311c4bb8e5a14"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/audit/visual-review/capture-receipt.json",
+      "sha256": "ffa53230e28d77cbf63e6abbac446c1af45be18c3775258154de550b5086d538"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/audit/local-http-verification.json",
+      "sha256": "00068557b7978193c18b8ffcdee76fb797306e071d20e42c7d03a5249b8c6fe3"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/audit/visual-review/cleanup.json",
+      "sha256": "0611772700ca9a2480013444a77321b0fb9f75aa2e9a13e49aa52620a60e16c6"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/audit/es-composition-review.json",
+      "sha256": "fa6070d8d4c5c4074e780964cbd12c446dfac5131171bbd5a7538665136b4212"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/audit/es-detail-review.json",
+      "sha256": "3240d61313fb07d4783085c68bb06208bd2e8252ee32488abf26f44849be0e52"
+    },
+    {
+      "path": "docs/editorial-work/captures/smart-recommender-revalidation-20261011/audit/independent-en-review.json",
+      "sha256": "4f8156de29cae16312927270263fdab84161346abf7ba243fc96c17b79383a12"
+    }
+  ],
+  "source_png_count": 28,
+  "new_app_captures": 0,
+  "native_source_density": 2,
+  "native_source_profile": "Display P3",
+  "source_to_build_png_comparisons": 56,
+  "http_counts": {
+    "article": 2,
+    "png": 56,
+    "js": 8,
+    "css": 2
+  },
+  "docs_and_internal_paths_404": 7,
+  "security_headers_and_exported_module_integrity": "passed by normal Ruby 3.3.6 production build",
+  "rendered_views": 6,
+  "widths_css": [
+    1440,
+    580,
+    390
+  ],
+  "rendered_png_count": 62,
+  "native_full_page_segments": 20,
+  "native_figure_details": 42,
+  "segment_overlap_css": 100,
+  "native_review_density": 2,
+  "native_review_profile": "Display P3",
+  "stitched_or_modified_pngs": false,
+  "pixel_reviews_complete": true,
+  "findings": [],
+  "services_closed": true,
+  "inventory_modified": false,
+  "inventory_counts": {
+    "local_verified": 113,
+    "pending": 33,
+    "out_of_scope": 1,
+    "in_progress": 6,
+    "visual_pending": 1
+  },
+  "verifying_commit": null,
+  "commit_and_inventory_closure_pending": true,
+  "external_writes": false,
+  "publication_verified": false
+}

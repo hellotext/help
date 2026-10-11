@@ -1,0 +1,769 @@
+{
+  "schema_version": 1,
+  "reviewer": "integration_review",
+  "review_date_utc": "2026-10-11",
+  "status": "passed",
+  "scope": "Independent final English Smart Recommender prose and pixel review; frozen local Help rendering only",
+  "capture_receipt": {
+    "path": "help-smart-recommender-20261011/docs/editorial-work/captures/smart-recommender-revalidation-20261011/audit/visual-review/capture-receipt.json",
+    "sha256": "ffa53230e28d77cbf63e6abbac446c1af45be18c3775258154de550b5086d538"
+  },
+  "source": {
+    "path": "_i18n/en/journeys/smart-recommender-playbook.md",
+    "sha256": "c2d5c5d47c1312f0040b5f445001dc3f56a460e38e06cebbe5aaf8b7880b3641"
+  },
+  "built_html": {
+    "path": "_site/smart-recommender-playbook.html",
+    "sha256": "966e4173425839bbcf47793c668ffe429bf7c3af6004228b8c10f050b506fc83"
+  },
+  "prior_semantic_review": {
+    "path": "audit/help-next-batches-20261011/smart-semantic-source-review.json",
+    "sha256": "ccd4fae36a3eb1aec741342334c2d1b0bccb53c49fb20a8e4010eeda14eaf9e7",
+    "scope": "Prior source audit reused; no application source audit repeated in this pixel review"
+  },
+  "coverage": {
+    "locales": [
+      "en"
+    ],
+    "widths": [
+      1440,
+      580,
+      390
+    ],
+    "unique_pngs_visually_inspected": 31,
+    "complete_page_native_segments": 10,
+    "figure_details": 21,
+    "figures_per_view": 7,
+    "stitched": false,
+    "overlap_css": 100,
+    "views": [
+      {
+        "width": 1440,
+        "documentHeight": 12173,
+        "coverage": [
+          [
+            0,
+            5000
+          ],
+          [
+            4900,
+            9900
+          ],
+          [
+            9800,
+            12173
+          ]
+        ],
+        "figureCount": 7,
+        "captureCount": 10,
+        "source_sha256": "c2d5c5d47c1312f0040b5f445001dc3f56a460e38e06cebbe5aaf8b7880b3641",
+        "built_html_sha256": "966e4173425839bbcf47793c668ffe429bf7c3af6004228b8c10f050b506fc83"
+      },
+      {
+        "width": 580,
+        "documentHeight": 13798,
+        "coverage": [
+          [
+            0,
+            5000
+          ],
+          [
+            4900,
+            9900
+          ],
+          [
+            9800,
+            13798
+          ]
+        ],
+        "figureCount": 7,
+        "captureCount": 10,
+        "source_sha256": "c2d5c5d47c1312f0040b5f445001dc3f56a460e38e06cebbe5aaf8b7880b3641",
+        "built_html_sha256": "966e4173425839bbcf47793c668ffe429bf7c3af6004228b8c10f050b506fc83"
+      },
+      {
+        "width": 390,
+        "documentHeight": 15707,
+        "coverage": [
+          [
+            0,
+            5000
+          ],
+          [
+            4900,
+            9900
+          ],
+          [
+            9800,
+            14800
+          ],
+          [
+            14700,
+            15707
+          ]
+        ],
+        "figureCount": 7,
+        "captureCount": 11,
+        "source_sha256": "c2d5c5d47c1312f0040b5f445001dc3f56a460e38e06cebbe5aaf8b7880b3641",
+        "built_html_sha256": "966e4173425839bbcf47793c668ffe429bf7c3af6004228b8c10f050b506fc83"
+      }
+    ]
+  },
+  "findings": [],
+  "visual_observations": [
+    "All three page sequences cover header, article sections, all seven figures, related guides and footer. Segment boundaries overlap by 100 CSS pixels and show no missing interval.",
+    "Desktop and narrow layouts have coherent spacing and order, readable headings and text flow, and no visible page overflow, blank figures, or overlaid capture artifacts.",
+    "Product identity, upload, incoming channels, tone, escalation, empty web search and empty prompt are legible in all 21 detail captures. The static frames contain the panels and controls without clipping, scrollbars or unrelated UI fragments.",
+    "The visible fictional product identity and destination team match the adjacent prose. The empty upload, web search and prompt controls are described as unconfigured draft states, and selected tones or destination are not represented as saved runtime success.",
+    "Details use the actual desktop or responsive source selected in the frozen receipt. All 21 recorded figures are loaded, unlinked and noninteractive, are contained within the page/frame, and are not upscaled beyond their recorded native CSS width."
+  ],
+  "prose_review": {
+    "full_english_body_read": true,
+    "discount_correction": "Discounts links to existing store offers only, qualified by component availability; it does not claim automatic coupon creation or universal availability.",
+    "custom_agent_correction": "Crosslink now limits Custom Agent to informational tasks grounded in authorized sources; it explicitly states that intents do not enable product recommendations or add tools.",
+    "retained_limits": [
+      "The guide distinguishes shared controls from independent fictional drafts and does not present these figures as a saved/running Smart Recommender.",
+      "Catalog grounding, unknown or stale stock/prices, promotions, channel eligibility, consent and delivery remain conditional.",
+      "Prompt instructions supplement the fixed contract and do not grant tools or broader operations.",
+      "Testing and reporting prose states operational side effects and availability limits; the images do not claim recommendations, replies, sends, purchase execution or live account verification."
+    ]
+  },
+  "byte_verification": {
+    "status": "passed",
+    "capture_receipt_unchanged": true,
+    "all_31_png_sha256_matched": true,
+    "all_31_png_ihdr_dimensions_matched": true,
+    "all_31_embedded_icc_display_p3": true,
+    "all_31_capture_density": 2,
+    "source_and_built_html_hashes_matched": true,
+    "coverage_and_geometry_checked_from_frozen_receipt": true
+  },
+  "files": [
+    {
+      "file": "smart-recommender-playbook-en-1440-full-part1.png",
+      "sha256": "7e831a22cd99aeb41ce2a0c0af658ce002de30790411e5403c19bf54c46084b5",
+      "pixelSize": [
+        2880,
+        10000
+      ],
+      "kind": "native_page_segment",
+      "width_css": 1440,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 5000
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-1440-full-part2.png",
+      "sha256": "265be8b34f0a40824b9a1df1af917820b47b62b0163bad86cf82b8a468a72385",
+      "pixelSize": [
+        2880,
+        10000
+      ],
+      "kind": "native_page_segment",
+      "width_css": 1440,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 0,
+        "y": 4900,
+        "width": 1440,
+        "height": 5000
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-1440-full-part3.png",
+      "sha256": "feae5a7d187cee76fa57c47d816a91972bf8c84a49c3c9f81a22369a4244fc3d",
+      "pixelSize": [
+        2880,
+        4746
+      ],
+      "kind": "native_page_segment",
+      "width_css": 1440,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 0,
+        "y": 9800,
+        "width": 1440,
+        "height": 2373
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-1440-product.png",
+      "sha256": "f49d69586a9654299096cdb876a5c14068622da05d21617b4816027ea4659588",
+      "pixelSize": [
+        1600,
+        988
+      ],
+      "kind": "figure_detail",
+      "width_css": 1440,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 363,
+        "y": 3051,
+        "width": 800,
+        "height": 494
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-1440-upload.png",
+      "sha256": "ae8cf3d13f60645f03ff19dc2264449ef60bbbf517877a44c88627d59a9daf97",
+      "pixelSize": [
+        1600,
+        934
+      ],
+      "kind": "figure_detail",
+      "width_css": 1440,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 363,
+        "y": 4274,
+        "width": 800,
+        "height": 467
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-1440-incoming.png",
+      "sha256": "b1f90be9d10a80b747c2705b4efac8fbfebd01001033c48d7dd6d73adedece20",
+      "pixelSize": [
+        1600,
+        1382
+      ],
+      "kind": "figure_detail",
+      "width_css": 1440,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 363,
+        "y": 4860,
+        "width": 800,
+        "height": 691
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-1440-tone.png",
+      "sha256": "3a0a7b464b54b2556ecd52a1eaf5612aeeb74ed5ed912bcf455998834870ef0d",
+      "pixelSize": [
+        1600,
+        1232
+      ],
+      "kind": "figure_detail",
+      "width_css": 1440,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 363,
+        "y": 5670,
+        "width": 800,
+        "height": 616
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-1440-handoff.png",
+      "sha256": "660caa64050c1c0b5c0cfd1f0d7c07ccd8ac60c7a62c23ec28b817967b8c354c",
+      "pixelSize": [
+        1600,
+        862
+      ],
+      "kind": "figure_detail",
+      "width_css": 1440,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 363,
+        "y": 6453,
+        "width": 800,
+        "height": 431
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-1440-web.png",
+      "sha256": "25f1e7a9d6774c41a6534970cbbe02d1677bfa24bb47441f4bf6e37d87848338",
+      "pixelSize": [
+        1600,
+        634
+      ],
+      "kind": "figure_detail",
+      "width_css": 1440,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 363,
+        "y": 7003,
+        "width": 800,
+        "height": 317
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-1440-prompt.png",
+      "sha256": "ae10e325b2d003bf5e20100a8cbf74e792791def2a91b89378d9877a63631739",
+      "pixelSize": [
+        1600,
+        1310
+      ],
+      "kind": "figure_detail",
+      "width_css": 1440,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 363,
+        "y": 7729,
+        "width": 800,
+        "height": 655
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-580-full-part1.png",
+      "sha256": "bf872c4b643881ba65ab14313e1c5d7a2661b3d176e5310ad231234045db0df3",
+      "pixelSize": [
+        1160,
+        10000
+      ],
+      "kind": "native_page_segment",
+      "width_css": 580,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 580,
+        "height": 5000
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-580-full-part2.png",
+      "sha256": "35fde97ea540137753dc06c5ed4dd6186f038262a32ae9373b12aba78e9fbef6",
+      "pixelSize": [
+        1160,
+        10000
+      ],
+      "kind": "native_page_segment",
+      "width_css": 580,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 0,
+        "y": 4900,
+        "width": 580,
+        "height": 5000
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-580-full-part3.png",
+      "sha256": "617442743afd7fda7f61d4ebff8fdc3b7452e5cbc57010a8d61e4119c692f54b",
+      "pixelSize": [
+        1160,
+        7996
+      ],
+      "kind": "native_page_segment",
+      "width_css": 580,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 0,
+        "y": 9800,
+        "width": 580,
+        "height": 3998
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-580-product.png",
+      "sha256": "dcc6f22c475b2fb443e1c0b55ae825dcf9145401e80c362f89dca80fb12a733b",
+      "pixelSize": [
+        1144,
+        986
+      ],
+      "kind": "figure_detail",
+      "width_css": 580,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 3436,
+        "width": 572,
+        "height": 493
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-580-upload.png",
+      "sha256": "16f2b69697df265a885374133fa4073cc2a2afff0111fca5aa51452e403a0a31",
+      "pixelSize": [
+        1144,
+        1004
+      ],
+      "kind": "figure_detail",
+      "width_css": 580,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 4833,
+        "width": 572,
+        "height": 502
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-580-incoming.png",
+      "sha256": "b5cdc95cb0868e89d96371fdefd46538b05a1ce467f551112c76275aa176ee3c",
+      "pixelSize": [
+        1144,
+        1720
+      ],
+      "kind": "figure_detail",
+      "width_css": 580,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 5503,
+        "width": 572,
+        "height": 860
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-580-tone.png",
+      "sha256": "292b459275eb2462bacfa4c45645141232004791432cc3bceabcfa1dc84b21e6",
+      "pixelSize": [
+        1144,
+        1170
+      ],
+      "kind": "figure_detail",
+      "width_css": 580,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 6507,
+        "width": 572,
+        "height": 585
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-580-handoff.png",
+      "sha256": "ffaa2336fcb7016a2ecaf3651c254e0e7d724651bc8cb8c652f1d66dc0cd4fc6",
+      "pixelSize": [
+        1144,
+        880
+      ],
+      "kind": "figure_detail",
+      "width_css": 580,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 7332,
+        "width": 572,
+        "height": 440
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-580-web.png",
+      "sha256": "3df22157a81b6fb4e7542f4346ccba5818349f03f89a874144e5b54c60efcf11",
+      "pixelSize": [
+        1144,
+        608
+      ],
+      "kind": "figure_detail",
+      "width_css": 580,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 7940,
+        "width": 572,
+        "height": 304
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-580-prompt.png",
+      "sha256": "4a7ee1bc12b7e80d4b1c47672be74ca5c7b81e7e3de2ada325d73204d145fc38",
+      "pixelSize": [
+        1144,
+        1156
+      ],
+      "kind": "figure_detail",
+      "width_css": 580,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 8732,
+        "width": 572,
+        "height": 578
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-390-full-part1.png",
+      "sha256": "8db91ecf0de585f27826047c6a1df82009b0e13dc88ed8c13ee79ebc4b385e9c",
+      "pixelSize": [
+        780,
+        10000
+      ],
+      "kind": "native_page_segment",
+      "width_css": 390,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 5000
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-390-full-part2.png",
+      "sha256": "c43fa007ce3493ee9050bdc86e128c6edb14cfd114449366618dcaaf267a303d",
+      "pixelSize": [
+        780,
+        10000
+      ],
+      "kind": "native_page_segment",
+      "width_css": 390,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 0,
+        "y": 4900,
+        "width": 390,
+        "height": 5000
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-390-full-part3.png",
+      "sha256": "28424127656aa186d799722aa45d6f072691541b6e7f1f08d9215932160b48de",
+      "pixelSize": [
+        780,
+        10000
+      ],
+      "kind": "native_page_segment",
+      "width_css": 390,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 0,
+        "y": 9800,
+        "width": 390,
+        "height": 5000
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-390-full-part4.png",
+      "sha256": "a4e0fb46c4bb16582ea1479b1e3ecc9a4bc9b5750da9386bd3adeaf9dbcd61f9",
+      "pixelSize": [
+        780,
+        2014
+      ],
+      "kind": "native_page_segment",
+      "width_css": 390,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 0,
+        "y": 14700,
+        "width": 390,
+        "height": 1007
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-390-product.png",
+      "sha256": "9c331e190774707e5628c74e82d6c40a7191dda914d3c43dc987d62c09c9d237",
+      "pixelSize": [
+        764,
+        788
+      ],
+      "kind": "figure_detail",
+      "width_css": 390,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 4470,
+        "width": 382,
+        "height": 394
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-390-upload.png",
+      "sha256": "165e2f86437f531f2244cd346d0d6126633d5a4ae164746727d81def34205956",
+      "pixelSize": [
+        764,
+        752
+      ],
+      "kind": "figure_detail",
+      "width_css": 390,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 6043,
+        "width": 382,
+        "height": 376
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-390-incoming.png",
+      "sha256": "4e0f8d93f478fe0baffaeffdd925776fb45d81d2401c9c2772929216745d7c73",
+      "pixelSize": [
+        764,
+        1382
+      ],
+      "kind": "figure_detail",
+      "width_css": 390,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 6634,
+        "width": 382,
+        "height": 691
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-390-tone.png",
+      "sha256": "00c8a22f872e3febd94a8a289743c828f4d8a6e618ae32b6cd6b1719591ef353",
+      "pixelSize": [
+        764,
+        936
+      ],
+      "kind": "figure_detail",
+      "width_css": 390,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 7492,
+        "width": 382,
+        "height": 468
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-390-handoff.png",
+      "sha256": "9769685b490828d5d1a2c0083e5dd16e89985aff545a7fd0b0bd8aa7e717e530",
+      "pixelSize": [
+        764,
+        700
+      ],
+      "kind": "figure_detail",
+      "width_css": 390,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 8295,
+        "width": 382,
+        "height": 350
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-390-web.png",
+      "sha256": "374a7abdd659f2a8652a97823b3693e1c5298ac21472b96fc1bc4eba49c0b0cf",
+      "pixelSize": [
+        764,
+        456
+      ],
+      "kind": "figure_detail",
+      "width_css": 390,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 8836,
+        "width": 382,
+        "height": 228
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    },
+    {
+      "file": "smart-recommender-playbook-en-390-prompt.png",
+      "sha256": "5cd6930ab8038effd30fb82a6750fe3b1c7724523fdaabb3861961491b7ab96f",
+      "pixelSize": [
+        764,
+        866
+      ],
+      "kind": "figure_detail",
+      "width_css": 390,
+      "icc": "Display P3",
+      "dpr": 2,
+      "clip": {
+        "x": 4,
+        "y": 9719,
+        "width": 382,
+        "height": 433
+      },
+      "visually_inspected": true,
+      "result": "passed"
+    }
+  ],
+  "limits": [
+    "This receipt approves the assigned EN local pixel/prose scope only. ES review and publication/deployment checks belong to their assigned owners.",
+    "The image tool displayed long native segments downscaled. Those segments support composition/order and full-page coverage; figure legibility was assessed separately in all 21 detail PNGs. No pixel-perfect claim is made for every body-text glyph at the downscaled segment display size.",
+    "No browser, app runtime, database, live recommendation, send, build, external write or publication was performed by this reviewer.",
+    "Existing source currency/provenance and build checks are not re-executed here; this review binds the exact final local article, built HTML, frozen receipt and inspected PNGs."
+  ]
+}

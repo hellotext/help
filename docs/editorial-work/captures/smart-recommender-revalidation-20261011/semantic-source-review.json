@@ -1,0 +1,160 @@
+{
+  "reviewer": "integration_review",
+  "status": "review_complete_bilingual_scope_clarification_required",
+  "scope": "Six requested Smart prompt/context/search diffs ed4b9a87→8e27a524; changed prompt sections and introduction/analysis fragments; current ES/EN Smart prose; narrow Custom Agent contract check. Read-only source review.",
+  "drift": [
+    {
+      "area": "Smart prompt/AI Context",
+      "change": "Adds prompt_analysis and conditional label_conversation. Prompt analysis must match the actual body digest; label tool omitted without labeling rules.",
+      "article_impact": "No contradiction with current general prompt guidance; no claim that labels always execute."
+    },
+    {
+      "area": "Introduction and locale",
+      "change": "Business-supplied first-reply opening now takes precedence over default greeting behavior; translate to customer language, including tool-message bodies; do not repeat on later replies.",
+      "article_impact": "Existing tone/prompt guidance remains valid; no exact greeting promise in the guide."
+    },
+    {
+      "area": "Product and image search",
+      "change": "Uses PricingLookup/live_discount_lookup and narrows child-variant preloads.",
+      "article_impact": "Grounding and freshness limits remain valid. This does not establish universal live inventory, branch availability, reservation, purchase or checkout."
+    },
+    {
+      "area": "Bundles",
+      "change": "Applies scheduled_at, playbook bundle enable/disable overrides and recurrence; unconditional regular-bundle exclusion removed.",
+      "article_impact": "Generic promotion wording remains compatible. Never carry forward a claim that all regular bundles are excluded or every globally active bundle is offered; current prose makes neither claim."
+    },
+    {
+      "area": "Promotions/discounts",
+      "change": "Smart tools retrieve existing products/bundles, without a coupon-creation tool in its definition. Discount store_only explicitly forbids new AI-driven incentives.",
+      "article_impact": "Current no-invented-discount/no-prompt-created-coupon wording is compatible. Source/UI owner separately covers the newly present Discount component; this review does not claim that UI coverage."
+    }
+  ],
+  "required_clarification": {
+    "id": "CUSTOM_AGENT_NOT_A_CUSTOM_PRODUCT_RECOMMENDER",
+    "classification": "Existing cross-reference is too broad; not introduced by the six-file drift.",
+    "reason": "The paragraph suggests Custom Agent for different product missions. In this recommendation context it can imply custom recommenders. Custom Agent contract explicitly forbids product recommendation and its tool definition lacks product-search tools.",
+    "source_lines": {
+      "app/prompts/custom.agent.txt": [
+        275,
+        276,
+        277
+      ],
+      "app/prompts/prompt/custom_agent.rb": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    "proposed_replacements": {
+      "es": "Esta misión tiene una intención interna de recomendación de productos. Normalmente no necesitas crear intenciones manuales para ella. Para otras tareas informativas respaldadas por fuentes autorizadas, consulta [Agente personalizado]({% link _journeys/custom-agent-playbook.md %}) y define intenciones dentro de su alcance. Las intenciones no habilitan recomendaciones de productos ni agregan herramientas.",
+      "en": "This playbook has an internal product-recommendation intent. You usually do not need to create manual intents for it. For other informational tasks grounded in authorized sources, see [Custom Agent]({% link _journeys/custom-agent-playbook.md %}) and define intents within its scope. Intents do not enable product recommendations or add tools."
+    },
+    "applied_by_reviewer": false
+  },
+  "conclusion": "Smart drift itself does not require broader prose changes or recapture. Apply the narrow Custom Agent clarification before marking this guide complete; Discount UI coverage belongs to the source/UI owner.",
+  "limits": [
+    "Static diff/contract review, not actual recommendation execution, account capability, delivery or reporting validation.",
+    "No pixels, runtime, DB, browser, tests or Help edits.",
+    "Latest afac continuity uses the previously frozen GitHub compare receipt because that object is not present in the read-only local application object database; no git fetch performed."
+  ],
+  "operations": {
+    "application": 0,
+    "database": 0,
+    "browser": 0,
+    "external_writes": 0,
+    "help_edits": 0
+  },
+  "source_bindings": [
+    {
+      "path": "app/prompts/prompt/smart_recommender.rb",
+      "before_sha256": "c961746a80f1556525e9bdc61fe575d641d98433f53e5ce2c8e08ccff12b3290",
+      "after_sha256": "00000cdde9796b6bfe6aecb55807538e2e2cf7c5c21cca6ce6334bfc5f0c6700",
+      "diff_sha256": "1a28e7a5602bf975d9b85c708c70018b62b3717b40016e3e0be6970032de6e2c"
+    },
+    {
+      "path": "app/prompts/product.recommender.txt",
+      "before_sha256": "116c7c562f73de60a55fbb19ffb6ecb480dd8934bd5aa38e932156c9f4cc0eff",
+      "after_sha256": "47f5af4ab7b786a30289003b1f1ff7fe853c7b62fd522256ca95cb994fba28dc",
+      "diff_sha256": "e304fd662f115b2d460d9fcf3990f50df1368053a9bc0e3af7e2bf5a36c8e1d0"
+    },
+    {
+      "path": "app/models/ai/context.rb",
+      "before_sha256": "3790ea2df2e8b2479393e12a7caee910d4028b37726ed00e31027eb13e6d154c",
+      "after_sha256": "0da2ae8666f87b706d8f9968e01d3d15c2d5beb4ef11f460f6f304c6e4af1d55",
+      "diff_sha256": "c631f248f9ef476c089582448de74a73ad284d5a053bdf90259bee3dfe08f720"
+    },
+    {
+      "path": "app/integrations/ai/openai/function/search_products.rb",
+      "before_sha256": "25d3ce62cfe30ace630aee058eb25f1d549850f81d3a10ae62df08e8d5b4b277",
+      "after_sha256": "1d98c23efb6a42369c81921d6dd65dfe2a9dfc1a4d0eb91c8bd31b677a2df03f",
+      "diff_sha256": "afd355cfba9326bdeb2a01950772f52180034c312b4c23be507c62da56abff52"
+    },
+    {
+      "path": "app/integrations/ai/openai/function/search_products_by_image.rb",
+      "before_sha256": "7ea728eebbe0ba3a1a3bb6a9dbe54420cb4d352638c5e86bf303956db0434131",
+      "after_sha256": "e4e9f001bb657c7d3df18b35d7fea41b9fed3dcaffe7ffa7ebfae44d06c5d2a7",
+      "diff_sha256": "d3b34f3f625c24d13bd91cfd21670263bbe864e068179ac83b2965b72fef49d0"
+    },
+    {
+      "path": "app/integrations/ai/openai/function/search_bundles.rb",
+      "before_sha256": "07094892b2c5a49f064827b6845722ec09d26ed20252d684b9395380a9befc4a",
+      "after_sha256": "9a97b6de0b6815ddc7b7634d1d1534c74820b0c187d293ef3bd3b9703f33bcfd",
+      "diff_sha256": "63bc7d87741a2666a71a245cea76e62e1191167dfcec202d0d19fbef7213cdc5"
+    }
+  ],
+  "support_bindings": [
+    {
+      "path": "app/prompts/fragments/agent_introduction.txt",
+      "revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "sha256": "9da3cb1fae3b5c63298fe148ec7a8dd05d7213214faf8007ef6e2f1b8ce6ea64"
+    },
+    {
+      "path": "app/prompts/fragments/playbook_prompt_analysis.txt",
+      "revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "sha256": "f4dc2f7ce9bd3a3e7971dbc092f0031927058afd57897b26daf3807d0f1b4288"
+    },
+    {
+      "path": "app/models/playbook/component/discount.rb",
+      "revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "sha256": "0d92144a588114ecda0a23c3b04a178db9e45018ab8ca54f3adf89b6282cfe79"
+    },
+    {
+      "path": "app/prompts/custom.agent.txt",
+      "revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "sha256": "6cf3dfa6c452a31865dacb4962afe49e82a4b5fc85e5c1810fde20ef2d6353c4"
+    },
+    {
+      "path": "app/prompts/prompt/custom_agent.rb",
+      "revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "sha256": "bebccfef9bc7ad24cd1cde9651b10554e491675dd0e01d76b60f9661e1d8418a"
+    }
+  ],
+  "source_revisions": {
+    "before": "ed4b9a87cfba95431f5ffe0987a6413d4d538835",
+    "reviewed": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+    "latest": "afacda5636225888e44666da2e6d76fdd6a1425f",
+    "latest_continuity": {
+      "path": "audit/journeys-workflow-local-20261010/scoped-currency-compare.json",
+      "sha256": "7c6e23bc24c5e0e6e03bbbf3bf18fedbdb865d4b9f8b288358c2cb5e5c19e81c",
+      "changed_files": 16,
+      "intersection_with_reviewed_paths": []
+    }
+  },
+  "article_bindings": [
+    {
+      "path": "help-journeys-workflow-local-20261010/_i18n/es/journeys/smart-recommender-playbook.md",
+      "sha256": "2029b98e63130320b7c4569d3cacfc056b33ec36ce166c792c3882fd7b8482d9"
+    },
+    {
+      "path": "help-journeys-workflow-local-20261010/_i18n/en/journeys/smart-recommender-playbook.md",
+      "sha256": "3308c43394f9ea7d97b692450c9cb91df8705b0106f05801d73d6cb7b8a07bd3"
+    }
+  ],
+  "reviewed_at": "2026-10-11T05:57:26.975956+00:00"
+}
