@@ -1,5 +1,9 @@
 # Smart Recommender playbook
 
+## Commit closure — 2026-10-11
+
+The real local verifying commit is `5c25235e38e1defe08c17359a5de5d3a7e5872bf`. The inventory now marks this bilingual pair `local_verified` and points here; all other 153 rows are preserved. There are 39 unresolved pairs. The [committed verification closure](captures/smart-recommender-revalidation-20261011/local-verification-committed.json) binds the immutable review receipts below. Publication remains separately verified after the authorized PR and deployment. The following revalidation section records the state before this commit closure.
+
 ## Current local revalidation — 2026-10-11
 
 The ES and EN guides pass the current source review, normal production build, local HTTP byte checks and complete rendered-page review. The inventory remains `in_progress` until a real verifying commit is created. This continuation does not claim publication.
