@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "logs": [
+    {
+      "file": "proxy.log",
+      "sha256": "9385d0bf1aea1c95ba836d6f9df32827d7f9844d355456679ca09a1e43d6e931",
+      "recorded_response_headers_or_denials": 224
+    },
+    {
+      "file": "proxy-v2.log",
+      "sha256": "8072ba6762ad54197c9aad2f98a2dc4282e1461b8fbba56bad090a9ba4031737",
+      "recorded_response_headers_or_denials": 2812
+    }
+  ],
+  "observed_methods_status_counts": [
+    {
+      "method": "CONNECT",
+      "status": 403,
+      "count": 664
+    },
+    {
+      "method": "GET",
+      "status": 200,
+      "count": 2353
+    },
+    {
+      "method": "GET",
+      "status": 403,
+      "count": 15
+    },
+    {
+      "method": "GET",
+      "status": 502,
+      "count": 4
+    }
+  ],
+  "observed_forwarded_non_read_methods": 0,
+  "interpretation": "Proxy logs report headers/denials, not a proof that every response body completed. All non-GET/HEAD methods default-denied; automatic sightings were also blocked in CDP before proxy. No external connection forwarded.",
+  "privacy": "No request bodies, cookies, headers or raw queries copied.",
+  "controller_observation_receipt": "capture-network-observations.json",
+  "controller_observation_sha256": "8d75ddda1bf5dadee6f470cb441e04604e1d9b293050ef52bdbd9913e5345dd5",
+  "scope": "No claim of zero web-process enqueued jobs, read-cursor changes or notification delivery."
+}

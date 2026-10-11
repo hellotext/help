@@ -1,0 +1,487 @@
+{
+  "status": "passed_all_8_en_source_pixels_and_metadata",
+  "reviewed_at": "2026-10-11T07:12:38.810258+00:00",
+  "reviewer": "integration_review",
+  "scope": "Independent visual review of all eight new EN source PNGs, exact final manifest bindings and native metadata. No new ES/legacy review or browser/app/DB action.",
+  "manifest": {
+    "path": "conversation-lifecycle-capture-20261011/captures/manifest.json",
+    "sha256": "e6e95ce65a521f666563de153b2f2383174ad0da40588e1211d20bb1de39cb7b",
+    "status": "frozen_sources_pending_final_admission",
+    "total_source_records": 16,
+    "en_reviewed_records": 8
+  },
+  "prior_group_reviews": [
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/source-en-mentioned-context-review.json",
+      "sha256": "56745b0c9d2c099630af0e822ddaa3c9c3c37089a04d221caa9b4f5b08378064"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/source-en-conversation-labels-review.json",
+      "sha256": "3e984cfb2b93ab432080a4a586834b09fdc1551d61b21954bef55a9e0f9dad0e"
+    }
+  ],
+  "new_individual_pixel_inspections_this_turn": 4,
+  "individual_pixel_inspections_total": 8,
+  "findings": [],
+  "files": [
+    {
+      "file": "conversation-lifecycle-capture-20261011/captures/custom-reminder-en-desktop.png",
+      "id": "custom-reminder",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "f46073e3be6a1dc4a296c9caabe8284b446440ac8a540014913ce8e03b1396c7",
+      "sidecar_sha256": "0a264fcd09a8f684c60fd4bf7bb2e9d1b5f9314c64e4e49a1e4892674eb53567",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "1d6a56407c3513e136893c28c488839093b81f601205d86e213f4239dac7a151",
+      "viewport_css": [
+        1600,
+        1000
+      ],
+      "clip_css": [
+        551,
+        371,
+        498,
+        258
+      ],
+      "native_logical_size": [
+        498,
+        258
+      ],
+      "pixel_size": [
+        1992,
+        1032
+      ],
+      "device_pixel_ratio": 2,
+      "capture_scale": 2,
+      "native_density": 4,
+      "display_p3_embedded": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "document_scroll": [
+        0,
+        0
+      ],
+      "zoom": 1,
+      "fonts": "loaded",
+      "pixel_inspection_method": "original PNG individually opened with view_image in this final review",
+      "visual_status": "passed",
+      "observations": {
+        "visible": "Complete Snooze conversation dialog with 15 Oct 2026, 10:00, Snooze and Cancel; complete fields, panel corners and balanced real-app margin.",
+        "limits": [
+          "Values are an unsubmitted draft; no new saved reminder, expiry/wakeup or notification implied.",
+          "Mobile candidate comes from app540x844, not app390. Help390 readability remains a later gate."
+        ]
+      },
+      "sidecar_network_summary": {
+        "allowed_count": 848,
+        "allowed_only_local_get_head": true,
+        "websocket_upgrades_denied": true
+      },
+      "transformations": "none"
+    },
+    {
+      "file": "conversation-lifecycle-capture-20261011/captures/custom-reminder-en-mobile-540.png",
+      "id": "custom-reminder",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "667e5a9d0955fee232fcdac5de36256ad0290146802223bdf61bb5b137d6c28b",
+      "sidecar_sha256": "dc64e3678f4d41e4bcdd91c5b9fa65dcbb09beb18ef8c71341de441cfcc8da55",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "1d6a56407c3513e136893c28c488839093b81f601205d86e213f4239dac7a151",
+      "viewport_css": [
+        540,
+        844
+      ],
+      "clip_css": [
+        21,
+        295,
+        498,
+        254
+      ],
+      "native_logical_size": [
+        498,
+        254
+      ],
+      "pixel_size": [
+        1992,
+        1016
+      ],
+      "device_pixel_ratio": 2,
+      "capture_scale": 2,
+      "native_density": 4,
+      "display_p3_embedded": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "document_scroll": [
+        0,
+        0
+      ],
+      "zoom": 1,
+      "fonts": "loaded",
+      "pixel_inspection_method": "original PNG individually opened with view_image in this final review",
+      "visual_status": "passed",
+      "observations": {
+        "visible": "Complete Snooze conversation dialog with 15 Oct 2026, 10:00, Snooze and Cancel; complete fields, panel corners and balanced real-app margin.",
+        "limits": [
+          "Values are an unsubmitted draft; no new saved reminder, expiry/wakeup or notification implied.",
+          "Mobile candidate comes from app540x844, not app390. Help390 readability remains a later gate."
+        ]
+      },
+      "sidecar_network_summary": {
+        "allowed_count": 848,
+        "allowed_only_local_get_head": true,
+        "websocket_upgrades_denied": true
+      },
+      "transformations": "none"
+    },
+    {
+      "file": "conversation-lifecycle-capture-20261011/captures/note-mention-draft-en-desktop.png",
+      "id": "note-mention-draft",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "08dd3a9e909f15239a436c687c9d3be5bb7d2bbba40cff83fdee6b6d3e49bf03",
+      "sidecar_sha256": "0580ea32682515cca90ee91463dc3c4f3ff0cfadd16239aa408eed3d420a3258",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "1d6a56407c3513e136893c28c488839093b81f601205d86e213f4239dac7a151",
+      "viewport_css": [
+        1600,
+        1000
+      ],
+      "clip_css": [
+        421,
+        601,
+        787,
+        305
+      ],
+      "native_logical_size": [
+        787,
+        305
+      ],
+      "pixel_size": [
+        3148,
+        1220
+      ],
+      "device_pixel_ratio": 2,
+      "capture_scale": 2,
+      "native_density": 4,
+      "display_p3_embedded": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "document_scroll": [
+        0,
+        0
+      ],
+      "zoom": 1,
+      "fonts": "loaded",
+      "pixel_inspection_method": "original PNG individually opened with view_image in this final review",
+      "visual_status": "passed",
+      "observations": {
+        "visible": "Complete native teammate picker with Lucía Méndez and Lucía Navarro; English unsaved note text, close control, and entire private-note notice. Mobile text is Ask @Lucía; desktop is Check availability with @Lucía.",
+        "limits": [
+          "Picker rows are candidates: no teammate selection or saved draft inferred.",
+          "Persisted prepared note is partly occluded by native picker; not the draft result.",
+          "Native text insertion caret may be visible; no mouse pointer/overlay is present."
+        ]
+      },
+      "sidecar_network_summary": {
+        "allowed_count": 669,
+        "allowed_only_local_get_head": true,
+        "websocket_upgrades_denied": true
+      },
+      "transformations": "none"
+    },
+    {
+      "file": "conversation-lifecycle-capture-20261011/captures/note-mention-draft-en-mobile.png",
+      "id": "note-mention-draft",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "c2812d29537f9bcf699cc4004019018d34263435f0e390eb2af269889ad32cc5",
+      "sidecar_sha256": "ae5831ef9036b3d515d701adf5bf99dbe49715bc3ab2ff9512e51c48ae0c24fd",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "1d6a56407c3513e136893c28c488839093b81f601205d86e213f4239dac7a151",
+      "viewport_css": [
+        390,
+        844
+      ],
+      "clip_css": [
+        0,
+        436,
+        390,
+        312
+      ],
+      "native_logical_size": [
+        390,
+        312
+      ],
+      "pixel_size": [
+        1560,
+        1248
+      ],
+      "device_pixel_ratio": 2,
+      "capture_scale": 2,
+      "native_density": 4,
+      "display_p3_embedded": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "document_scroll": [
+        0,
+        0
+      ],
+      "zoom": 1,
+      "fonts": "loaded",
+      "pixel_inspection_method": "original PNG individually opened with view_image in this final review",
+      "visual_status": "passed",
+      "observations": {
+        "visible": "Complete native teammate picker with Lucía Méndez and Lucía Navarro; English unsaved note text, close control, and entire private-note notice. Mobile text is Ask @Lucía; desktop is Check availability with @Lucía.",
+        "limits": [
+          "Picker rows are candidates: no teammate selection or saved draft inferred.",
+          "Persisted prepared note is partly occluded by native picker; not the draft result.",
+          "Native text insertion caret may be visible; no mouse pointer/overlay is present."
+        ]
+      },
+      "sidecar_network_summary": {
+        "allowed_count": 839,
+        "allowed_only_local_get_head": true,
+        "websocket_upgrades_denied": true
+      },
+      "transformations": "none"
+    },
+    {
+      "file": "conversation-lifecycle-capture-20261011/captures/mentioned-context-en-desktop.png",
+      "id": "mentioned-context",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "0af5f662ed2263b7bd598e78420e726de80149a840d1ebd027014b9f071fd9db",
+      "sidecar_sha256": "9e24ebc5a5619c741c7620192d7d61c0c731fe5ee8b4ee223b81d51729925ef1",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "1d6a56407c3513e136893c28c488839093b81f601205d86e213f4239dac7a151",
+      "viewport_css": [
+        1600,
+        1000
+      ],
+      "clip_css": [
+        417,
+        96,
+        787,
+        676
+      ],
+      "native_logical_size": [
+        787,
+        676
+      ],
+      "pixel_size": [
+        3148,
+        2704
+      ],
+      "device_pixel_ratio": 2,
+      "capture_scale": 2,
+      "native_density": 4,
+      "display_p3_embedded": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "document_scroll": [
+        0,
+        0
+      ],
+      "zoom": 1,
+      "fonts": "loaded",
+      "pixel_inspection_method": "carried forward from exact-hash individual pixel review; not re-viewed",
+      "visual_status": "passed",
+      "observations": {
+        "visible": "Complete control, S owner avatar, historical timeline and complete English @Lucía internal-note mention.",
+        "limits": [
+          "Mentioned filter label is outside crop; its selection is admission evidence, not visible evidence. Truncated contact name on mobile is native and not needed for the instruction."
+        ]
+      },
+      "sidecar_network_summary": {
+        "allowed_count": 165,
+        "allowed_only_local_get_head": true,
+        "websocket_upgrades_denied": true
+      },
+      "transformations": "none"
+    },
+    {
+      "file": "conversation-lifecycle-capture-20261011/captures/mentioned-context-en-mobile.png",
+      "id": "mentioned-context",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "6e075df8777e278eb98a9b1965b8d6c46c73e1a16478a749ce39669a97fc8f0c",
+      "sidecar_sha256": "e091445c8cfb4cd406cb9bb363331f2385619b9953c25e3aa775c7a63ac2b320",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "1d6a56407c3513e136893c28c488839093b81f601205d86e213f4239dac7a151",
+      "viewport_css": [
+        390,
+        844
+      ],
+      "clip_css": [
+        0,
+        64,
+        390,
+        548
+      ],
+      "native_logical_size": [
+        390,
+        548
+      ],
+      "pixel_size": [
+        1560,
+        2192
+      ],
+      "device_pixel_ratio": 2,
+      "capture_scale": 2,
+      "native_density": 4,
+      "display_p3_embedded": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "document_scroll": [
+        0,
+        0
+      ],
+      "zoom": 1,
+      "fonts": "loaded",
+      "pixel_inspection_method": "carried forward from exact-hash individual pixel review; not re-viewed",
+      "visual_status": "passed",
+      "observations": {
+        "visible": "Complete control, S owner avatar, historical timeline and complete English @Lucía internal-note mention.",
+        "limits": [
+          "Mentioned filter label is outside crop; its selection is admission evidence, not visible evidence. Truncated contact name on mobile is native and not needed for the instruction."
+        ]
+      },
+      "sidecar_network_summary": {
+        "allowed_count": 330,
+        "allowed_only_local_get_head": true,
+        "websocket_upgrades_denied": true
+      },
+      "transformations": "none"
+    },
+    {
+      "file": "conversation-lifecycle-capture-20261011/captures/conversation-labels-en-desktop.png",
+      "id": "conversation-labels",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "c76d28fcbb6538690a37b097478a874ac0fc43b08912a9de17e0318c345eb361",
+      "sidecar_sha256": "d9e09cdf3f0144d41abdb495f0c85100476a405ff236b066550c269aecb71982",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "1d6a56407c3513e136893c28c488839093b81f601205d86e213f4239dac7a151",
+      "viewport_css": [
+        1600,
+        1000
+      ],
+      "clip_css": [
+        900,
+        96,
+        465,
+        414
+      ],
+      "native_logical_size": [
+        465,
+        414
+      ],
+      "pixel_size": [
+        1860,
+        1656
+      ],
+      "device_pixel_ratio": 2,
+      "capture_scale": 2,
+      "native_density": 4,
+      "display_p3_embedded": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "document_scroll": [
+        0,
+        0
+      ],
+      "zoom": 1,
+      "fonts": "loaded",
+      "pixel_inspection_method": "carried forward from exact-hash individual pixel review; not re-viewed",
+      "visual_status": "passed",
+      "observations": {
+        "visible": "Native Actions > Labels submenu shows Priority checked, Returns, Sales and Add; Complete and S owner avatar remain visible. Entire label submenu, controls and shadow are included.",
+        "limits": [
+          "Underlying fictional chat/profile is partly occluded or cropped as expected behind menus; no applied/toggled label action is inferred."
+        ]
+      },
+      "sidecar_network_summary": {
+        "allowed_count": 501,
+        "allowed_only_local_get_head": true,
+        "websocket_upgrades_denied": true
+      },
+      "transformations": "none"
+    },
+    {
+      "file": "conversation-lifecycle-capture-20261011/captures/conversation-labels-en-mobile.png",
+      "id": "conversation-labels",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "09cfa543fe824589111611ef634547f2ba83f78093f4cf55b697299ca5fb1686",
+      "sidecar_sha256": "553b01200e5beb4a670b2a212df0ec17ea14bd25b1599510b788e8fb88b0e5ef",
+      "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "read_contract_sha256": "1d6a56407c3513e136893c28c488839093b81f601205d86e213f4239dac7a151",
+      "viewport_css": [
+        390,
+        844
+      ],
+      "clip_css": [
+        0,
+        64,
+        390,
+        502
+      ],
+      "native_logical_size": [
+        390,
+        502
+      ],
+      "pixel_size": [
+        1560,
+        2008
+      ],
+      "device_pixel_ratio": 2,
+      "capture_scale": 2,
+      "native_density": 4,
+      "display_p3_embedded": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "document_scroll": [
+        0,
+        0
+      ],
+      "zoom": 1,
+      "fonts": "loaded",
+      "pixel_inspection_method": "carried forward from exact-hash individual pixel review; not re-viewed",
+      "visual_status": "passed",
+      "observations": {
+        "visible": "Native Actions > Labels submenu shows Priority checked, Returns, Sales and Add; Complete and S owner avatar remain visible. Entire label submenu, controls and shadow are included.",
+        "limits": [
+          "Underlying fictional chat/profile is partly occluded or cropped as expected behind menus; no applied/toggled label action is inferred."
+        ]
+      },
+      "sidecar_network_summary": {
+        "allowed_count": 333,
+        "allowed_only_local_get_head": true,
+        "websocket_upgrades_denied": true
+      },
+      "transformations": "none"
+    }
+  ],
+  "group_limits": {
+    "custom-reminder": [
+      "Values are an unsubmitted draft; no new saved reminder, expiry/wakeup or notification implied.",
+      "Mobile candidate comes from app540x844, not app390. Help390 readability remains a later gate."
+    ],
+    "note-mention-draft": [
+      "Picker rows are candidates: no teammate selection or saved draft inferred.",
+      "Persisted prepared note is partly occluded by native picker; not the draft result.",
+      "Native text insertion caret may be visible; no mouse pointer/overlay is present."
+    ],
+    "mentioned-context": [
+      "Mentioned filter label is outside crop; native filter admission is receipt evidence, not visible pixels.",
+      "Prepared fictional persisted Note/Mention; owner S retained. No browser save, delivery, read cursor update or notification delivery claim."
+    ],
+    "conversation-labels": [
+      "Priority already checked from fixture; no toggle/apply/new-label action.",
+      "English Priority, Returns, Sales and Add are complete; ES secondary-label truncation in shared manifest does not apply to the reviewed EN pixels."
+    ]
+  },
+  "pending_separate_gates": [
+    "Capture owner final restoration/admission and parent approval of that evidence.",
+    "Final Help EN complete-page and figure-detail QA at1440/580/390, especially the custom-reminder app540 crop at Help390.",
+    "Built/served copy hashes and actual source-to-display native caps; this source receipt is not publication or full article validation."
+  ],
+  "review_limits": [
+    "Tool may resize originals for display; source bytes, dimensions and embedded profile are checked independently. No transformed images were produced.",
+    "Sidecar request records support local GET/HEAD-only transport for allowed requests and denied WebSocket upgrades. This review does not assert zero queued background jobs or independently rerun any guard.",
+    "Source screenshot context cannot demonstrate provider outcomes, new lifecycle execution, notifications or unsubmitted actions."
+  ]
+}

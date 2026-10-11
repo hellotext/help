@@ -1,0 +1,11 @@
+{
+  "status": "source_only_control_entry_check; capture_visibility_pending",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "source_file": {
+    "path": "app/components/conversation/footer_component.rb",
+    "sha256": "43e80de4cb6c5b957b7c60654b943ca6ee22e4235163c27c27eeb4f919a7662c"
+  },
+  "assessment": "Footer compose_include_options has note:true; compose? checks private conversation and messageability/webchat. Native visible access remains a capture check.",
+  "prior_independent_review_input_preserved": true,
+  "mutations": "No app or database access; read-only source inspection."
+}

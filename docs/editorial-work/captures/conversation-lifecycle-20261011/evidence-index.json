@@ -1,0 +1,998 @@
+{
+  "schema": "conversation-lifecycle-evidence-index-v1",
+  "created_at": "2026-10-11T07:38:00.559237+00:00",
+  "status": "frozen_before_verifying_commit",
+  "files": [
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/base-integration.json",
+      "sha256": "e580e0595e481cb43b5e78d78d26c386873edf756c02f7712d2ca6a56967e7e1",
+      "bytes": 605
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/browser-proxy-shutdown.json",
+      "sha256": "d84cc1576e3bdda255b7adb62a828fcf7f4c22c7ae604750a0bff3d0dbacb402",
+      "bytes": 747
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/capture-closure.json",
+      "sha256": "ff03a1c71b0c0d92fbf2904f607b9507518df597054e2596930fa52949183bc4",
+      "bytes": 1357
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/capture-network-observations.json",
+      "sha256": "8d75ddda1bf5dadee6f470cb441e04604e1d9b293050ef52bdbd9913e5345dd5",
+      "bytes": 6512
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/capture-runtime-final.json",
+      "sha256": "7d9c973c71c76783e811f33444e8edf9f96cb6a46486c09ee899d2cbbfd95bec",
+      "bytes": 5634
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/copy-corrections.json",
+      "sha256": "05d43a07df69c6a30b6f7c85df6e2fdbb56ade7d7e990ad6d2f888501f405483",
+      "bytes": 8126
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/copy-independent-review.json",
+      "sha256": "71cda855a207878792cfc8e54d2b3881d838b329486e37d7da1535c60cd0ec81",
+      "bytes": 9894
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/custom-reminder-source-limitation.json",
+      "sha256": "f7a08f3046bfaad2c08218a82d69154f3ea1161b397d7ebe2f914c1ecc10c56a",
+      "bytes": 1839
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/figure-plan.json",
+      "sha256": "5446d490ea6b3b3adb737e08bdfd1fd4dc27e99c4a493f69d42332da0a2173ac",
+      "bytes": 4809
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/final-figure-copy-independent-review.json",
+      "sha256": "5a6f9d6c2330ff51b8053e83c62c36eb07d64b3c7cb6ba6306a78cd576b240b7",
+      "bytes": 10693
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/final-review.json",
+      "sha256": "b6833ce81043e6c56668c2cd2e30b3dccc3a09d428ea51e7bfb511f5d91671e0",
+      "bytes": 24519
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/fixture-preparation-result.json",
+      "sha256": "c89b1f41e1ac0f723aa2bb321b28cc88f304deeed01feebec32a399b87473786",
+      "bytes": 2589
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/integrations/custom-reminder-es-candidate.json",
+      "sha256": "5cb49f40062d48952c22171064db70f312b5b70e00494ede9db8dfb45de32abe",
+      "bytes": 4126
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/integrations/final-figure-integration.json",
+      "sha256": "752ba2605313de78f983a272c7e9927fbadbc75c00f120785413902dc2f24967",
+      "bytes": 1324
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/integrations/retained-mobile-presentation.json",
+      "sha256": "5a3d696a35a6e0807d2c5a4b801551209f77c561fdd1ab1af1fa7aedfae35b05",
+      "bytes": 6031
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/local-verification.json",
+      "sha256": "10d56c52e4376e1498e67b282605ecafcb36d2bd060e28923cfa0ea6cb437b36",
+      "bytes": 1166
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/locale-cache-restart-result.json",
+      "sha256": "b82f4d35a69a0c935341a90abb8f8a09b87199a1bc22c3cbec9eb9bd85d7d7b7",
+      "bytes": 1377
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/manifest.json",
+      "sha256": "e6e95ce65a521f666563de153b2f2383174ad0da40588e1211d20bb1de39cb7b",
+      "bytes": 14627
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/new-figure-copy-proposal.json",
+      "sha256": "59abfc73e5d9aa8d0b34ca3b61a84aff50f102925e323cb15f6731ce76ec5def",
+      "bytes": 4005
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/note-entry-source-supplement.json",
+      "sha256": "e9ee0178104218ab8ee064d17770193e731ecd72eddfa0899635eb322a4ac644",
+      "bytes": 614
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/original-source-final-preservation.json",
+      "sha256": "282e1aa3c88fbdfceab12c565c029cfa53ad9f46806ac7aa921cab4cb16a125e",
+      "bytes": 592
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/originals/en.md",
+      "sha256": "56c2c5fc36c66f4b168e38e9ee16c393e618fcf004757eba3547da824746fe39",
+      "bytes": 12012
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/originals/es.md",
+      "sha256": "4976ccdacbdbbd077f1307b4861beb43b7ed37cac8e024039430623533e836c8",
+      "bytes": 12848
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/originals/progress.csv",
+      "sha256": "e9e8e996cb6821d4fcbe07f20d3616ad2a4da78e5c5d70d37e9f9d63ddf9eaf3",
+      "bytes": 18102
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/originals/stub.md",
+      "sha256": "3cddf5f365559a1e48c30e5d1b61590053fb9857903bce332cf537267e538aea",
+      "bytes": 582
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/originals/workrecord.md",
+      "sha256": "547a4c3e1aa63a4237e0fb773707ba10059007ce9a7b19f7ec40b3b323b29626",
+      "bytes": 1263
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/preparation.json",
+      "sha256": "d6b69e97f25461ba9e05740d82f3e7bcf4e68d190dbe6cd318a5ef3de6775e91",
+      "bytes": 1609
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/prepublication-remote-readonly-check.json",
+      "sha256": "eda69ef7a0f469f45c9a2e43b3b10ee4127ffb35e5f6316c207f09bd52223859",
+      "bytes": 456
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/prior-draft-readonly-review.json",
+      "sha256": "596fa20da2ce19c20f3ca856126ce007ecb957c49e9e36e215b91ef3493ecdbe",
+      "bytes": 2774
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/retained-source-register.json",
+      "sha256": "5ac2efb2fb81f45115399089c7dfc7f09c8a59e9d3c0865438dc8ba5f217afbb",
+      "bytes": 12527
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/root-es-frozen-manifest-binding.json",
+      "sha256": "41d0997aae87b8fee52ad1d2f61bf2198d93a0aaa7f816423c7358c107cfe27a",
+      "bytes": 678
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/root-es-source-pixel-review.json",
+      "sha256": "2724218026b4c936761f4ecfc83066d01cadb7f18b5fc3217bf2f928479c28a2",
+      "bytes": 9766
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/root-es-source-review-progress-v2.json",
+      "sha256": "fb1c477c6b4368ec120950c6037f933a57ae897596ab4c016c3c7865805614da",
+      "bytes": 5769
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/root-legacy-readability-decision.json",
+      "sha256": "f29a4b7461fba53c5a07c35fa1b18773c3ec55ca67847a81c7e0c4214ef4cf95",
+      "bytes": 2276
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/runtime-shutdown.json",
+      "sha256": "3832e9334f2b7f45466150e0c2a217d44c0fb51c89be28d17ebd581ef0574a56",
+      "bytes": 1023
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/semantic-source-review.json",
+      "sha256": "74d3ac89866913b2149bb7dcbb21220f093b01ae410d2c98c5faca87afe164dd",
+      "bytes": 6429
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/source-admission.json",
+      "sha256": "a59acb106ca58c1dd2107ed4742e1586b5c61f8fbffee82ad1ed53a488a1ff14",
+      "bytes": 3342
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/source-en-pixel-review.json",
+      "sha256": "930c96c4e7d38b68f8f170b38415912494da40723487ba0f79921cce5b9de941",
+      "bytes": 18335
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/source-register.json",
+      "sha256": "d584342dbd290bcec1af431b18e86a984bab2c367a3e8d4a1421c9f2b196c320",
+      "bytes": 45154
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/transport-final-summary.json",
+      "sha256": "a961a80906d4c9b19abe231f4b0ebf2472304388b77d75f2ff2a2603dab79328",
+      "bytes": 1380
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/build-execution.json",
+      "sha256": "cc2121687de3d65f59b883491147d09c843716ac016f7033bffe4907afa50f7a",
+      "bytes": 340
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/build.log",
+      "sha256": "211c62881368ef43146f90e24d8a7774811dc1bae50a4317ad2c148ccc10bbd7",
+      "bytes": 1619
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/checkpoint.json",
+      "sha256": "0bd6cb163addafb1b9aec4223fbb752ae92d83f95df58191b8c18c45a45f917c",
+      "bytes": 32682
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es-detail-pixel-review-1440.json",
+      "sha256": "510beca6e39715e96dc08de6f11df6adb7abc2b55d9f65575a472f0469a73b20",
+      "bytes": 8805
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es-detail-pixel-review-390.json",
+      "sha256": "48b85177b735dbb6d9a32a4cfd47c2d79095fda937dfba69edfe14bbbc487314",
+      "bytes": 8829
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es-detail-pixel-review-580.json",
+      "sha256": "c48f47c899dfd214290aa5fa4150b18fbaeb1358abae342c1cdabedd3913dd88",
+      "bytes": 8781
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es-detail-pixel-review.json",
+      "sha256": "5b6e679470b6226968c00ad6cf01201a934e9dbb4462a9ceef9eb878a914825b",
+      "bytes": 1232
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es580-full-page-independent-review.json",
+      "sha256": "56b06a3194c87b5ce6e75d66aa615960e9a1ca56e3ee3b346f9799b8d589152f",
+      "bytes": 13012
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/helper-bindings.json",
+      "sha256": "5c0b3927d18096af782c1b927f563e5b3e13bafbb9ecb06b936d5bff7b311635",
+      "bytes": 1645
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/http-checks.json",
+      "sha256": "49f3a2e46b69bcfbeb1c26979234cd3195428dcdc1a1fd4bfb569c55482561e1",
+      "bytes": 23127
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/local-scope-checks.json",
+      "sha256": "58c537991c59db38866315a282e424b470b6a7ccd4e913ebdb8ffe1c98d6beec",
+      "bytes": 986
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-1440-independent-review.json",
+      "sha256": "2bfc83c3c8bf3f9e3e05310fef53fcc79319877fda9a40aa908b508ffc6cdc42",
+      "bytes": 21934
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-390-independent-review.json",
+      "sha256": "59d4330c2940a6d3fa97434aae8afb5631318306afa7d49e4bb6d624ec45c41c",
+      "bytes": 22009
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-580-independent-review.json",
+      "sha256": "509e40b8bfa7dca26ba3e05d7ed471c5ab21c97bb7fefe8438839e8ac5fa387e",
+      "bytes": 21839
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-independent-review.json",
+      "sha256": "b8e175ee662708640b7bdfdc1b4b35256cc7b6697e3d82f7fea12779cae4b2b9",
+      "bytes": 30476
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/capture-receipt.json",
+      "sha256": "eb17ff65e3ce907125cd9c08059ad6cf187600080d2c53f8e0f4dee294191868",
+      "bytes": 311160
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-closed-result.png",
+      "sha256": "1bf35676e0989459f23fe9aa03a3baabafd53e7ae0d5dc54e0f5453b60d47027",
+      "bytes": 209316
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-conversation-labels.png",
+      "sha256": "5e0e4c018d133e41a9fa06cdf53bf41050c3930374475bbbe5d98b72fd087ddf",
+      "bytes": 72870
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-custom-reminder.png",
+      "sha256": "32eb67463c48e2908fd178ea66cdc58efd01f8ef84caed663de32cfedaefad38",
+      "bytes": 59478
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-full-part1.png",
+      "sha256": "b186997292b0848fc97f7e409ac9ed0dbc3e7876d549fee583cf76b831d36cd4",
+      "bytes": 654590
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-full-part10.png",
+      "sha256": "394f98756af888e15f010d4b0f03c9a6c16cc34f291dcc371e6def00b1134cfe",
+      "bytes": 548699
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-full-part11.png",
+      "sha256": "a672fa94aa0bb0560d8d061f9190ad202d073a0e21667550a5f263e850ce1e45",
+      "bytes": 592089
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-full-part12.png",
+      "sha256": "57aa4f9e9ccd9fd927875ae6a9e7c761cf5126bc14f890424070a3d5edf94e68",
+      "bytes": 566536
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-full-part2.png",
+      "sha256": "c2f62acf041d670b72d4c1b0a8b32f6ef5aa0dda48b68e656c6e9a6a6d7e1f69",
+      "bytes": 713473
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-full-part3.png",
+      "sha256": "d2ca6500728dcbf094fce39395e8c327fa4246847096f9766a09467fa05b0fb9",
+      "bytes": 488038
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-full-part4.png",
+      "sha256": "819ef375a65917a62adeca451a0c5b3c0c7f8bb176c6a2c549f213166097235c",
+      "bytes": 527864
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-full-part5.png",
+      "sha256": "263e484fd2008863f554ccd25625c3d78584ada651493ad2edb62b3fd9ffaa99",
+      "bytes": 522986
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-full-part6.png",
+      "sha256": "c2444b6a208083599355d38c34c5f21dbcc98335bf2278f7b6feaa1d8ab12c5d",
+      "bytes": 558325
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-full-part7.png",
+      "sha256": "b58db5688a5ace1f759ba9156f1d6131e6ede31696317aceeafd19665242306f",
+      "bytes": 513433
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-full-part8.png",
+      "sha256": "7e50dd0abdab1c3c332ea45045e1f9caff018132d685c385e3297e336bf595cf",
+      "bytes": 669591
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-full-part9.png",
+      "sha256": "f5b440c1a928083fb1a36aa9d45fc8f41bc0547eec6a17b72d46e3cf2ff7bcec",
+      "bytes": 619026
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-mentioned-context.png",
+      "sha256": "030bbf0e7a7cec4d7da220523ee0da3048e548abd7fed07b07198952aaf904e8",
+      "bytes": 187640
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-note-mention-draft.png",
+      "sha256": "368cef8adb6f70a423cf11717c35b45f40c4d4abcf5a2b3fa9d7f3bb5fa27255",
+      "bytes": 89686
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-reopened-result.png",
+      "sha256": "3031e22058a177d092fd0185c96061e9466fa646d6c2f2912a4787d08aef7933",
+      "bytes": 210939
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-snooze-options.png",
+      "sha256": "1ba6c4c754782aef0cac48298e13cee1d4cda33f92e40b1ed577fddf127a6b61",
+      "bytes": 171318
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-1440-snoozed-result.png",
+      "sha256": "5e3c97e397eca7b5383197f7e2a936e9629f1a7c219ee89450b65d4e89a27a7e",
+      "bytes": 197111
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-closed-result.png",
+      "sha256": "cd31650acbc79a2f92b482104ca46eb551ef6197ec4af35e21f2b743e1afc94a",
+      "bytes": 194114
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-conversation-labels.png",
+      "sha256": "30f7642415bf0d64d678948067356767b612e4e4b80d26b57349042d79e4a3bd",
+      "bytes": 88901
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-custom-reminder.png",
+      "sha256": "79d5b12d6126c354520b0d4d9a1de5fb6fccac4585206168f72091faefc7f49d",
+      "bytes": 50254
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part1.png",
+      "sha256": "b554932613d6f5601aeee14438ddb72564d14fb903e2e01b1b56c2fe2a56f95a",
+      "bytes": 293597
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part10.png",
+      "sha256": "7c84fb50b026f0c00191e4e185e9cbb98d8c11847a49d0e9177d699d17024615",
+      "bytes": 248413
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part11.png",
+      "sha256": "3b8321520bfe7fd744bba82e1511d5eb3f3048b2c6359f56e32fd153d392b4dd",
+      "bytes": 327271
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part12.png",
+      "sha256": "d813a47f60aacdaa518154a4539a3da26cb272651bbe62680afb9e65023241d6",
+      "bytes": 213558
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part2.png",
+      "sha256": "23f6daa0d75516acc70e3f2321dd4c1d3c89756401aee433b8e782ac17661d6d",
+      "bytes": 343932
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part3.png",
+      "sha256": "1d7f4b69e1dbd8021c1749c7b60e8404c288f7cba23186eb5dd3b02126d36b89",
+      "bytes": 306277
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part4.png",
+      "sha256": "5912ae0414250b262bac1b36c46530c0926d6ba5767fd7f721cd7a745a0e12f8",
+      "bytes": 263110
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part5.png",
+      "sha256": "2d96ccf0326f17176d65744ce5c5b244735bf4a8f951a6fe96376f11ed00b97a",
+      "bytes": 270162
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part6.png",
+      "sha256": "6c56c67256a580abbd870b6ea74336af82547731e462747b86715feae4609676",
+      "bytes": 297436
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part7.png",
+      "sha256": "d7d8d6a0057bb8d94b0c79110348df21097eaffd8f3be94f6db84343c8405e05",
+      "bytes": 273789
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part8.png",
+      "sha256": "fb0e5445f3c48c68ffcdc7ce41953b01fab703641e62e19a9fac47ae31d9ba2f",
+      "bytes": 306753
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part9.png",
+      "sha256": "915054eb70cd1def41fb4a0ab4aa019344928009ad6cd7a23a66090c9cba472f",
+      "bytes": 285753
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-mentioned-context.png",
+      "sha256": "241d1d920ed36ec1727d3280dcd09b9b2bab236d071d95a80769e1381f874fdf",
+      "bytes": 111788
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-note-mention-draft.png",
+      "sha256": "ebc248818f086b3101149773e7f62c32b10e71dcc4b90b09bafa4e45ba60e0c2",
+      "bytes": 57408
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-reopened-result.png",
+      "sha256": "fa473e94a1a3114d9f4cac88d5ee0e363665fddf6beb235064d300ca645de303",
+      "bytes": 195603
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-snooze-options.png",
+      "sha256": "fab1fa40285f4498c5dd71c59cabec990e5ed56b7085332e2c2856682109bec3",
+      "bytes": 158248
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-snoozed-result.png",
+      "sha256": "a8430c68c8c920533e50045dad5de7c02b053d8f04be284ceb448100a1284000",
+      "bytes": 184714
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-closed-result.png",
+      "sha256": "2cc88e62a929814bd6b0950e16e89dbb85b1a2fcd7f60c3a8c818eeb99443da0",
+      "bytes": 200572
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-conversation-labels.png",
+      "sha256": "1355f3ba67e65da688efeee53e7a1eb56c3cafd38081c3198262586a8065b334",
+      "bytes": 96556
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-custom-reminder.png",
+      "sha256": "a4938d9a68d7864e2382fb60e8965f8a1249f1f2222a52d392df5c30b9d4d53e",
+      "bytes": 78929
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-full-part1.png",
+      "sha256": "ec96fb72ccb9c9eb028d755ad3d87a94b9bca228a0166ef2fe051ea3ddf5a576",
+      "bytes": 368844
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-full-part10.png",
+      "sha256": "b6b115f804542c3f29c0e24d8b24d7108e100c6012d33241cdc67b4dea5f562a",
+      "bytes": 238828
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-full-part11.png",
+      "sha256": "4d21e7dfd89ad8f979fced6560c3548f2a3ca1b7af93818b42544a44a9488ecd",
+      "bytes": 363020
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-full-part12.png",
+      "sha256": "73579cdedb2a173f0e8f34db17bcdafe95a185b1f9bdf819d1a4e1111ede4c75",
+      "bytes": 237528
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-full-part2.png",
+      "sha256": "b0582054ad3c0c659b7003f29714c2150951757d21deaee1efdc5278e31f5fcd",
+      "bytes": 373175
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-full-part3.png",
+      "sha256": "5f240991b4198d89efe3b51435e06ba91a1fa8951043966dabfd28f1e32f514c",
+      "bytes": 187024
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-full-part4.png",
+      "sha256": "c3a592951a2e23536e06834155935a10ee51a337db6191964cc64a21bbcdb4e3",
+      "bytes": 261458
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-full-part5.png",
+      "sha256": "e0134b87760f9c0096d3a88077525b3dbe6ba2d92742e37a1428d9e161658656",
+      "bytes": 226576
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-full-part6.png",
+      "sha256": "e6edf3a13bbb229cdc844f6973bd6c1f5931e03d1137081378d6d15751404c55",
+      "bytes": 265039
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-full-part7.png",
+      "sha256": "147172fd8be75bfac935e9891a1ef8e5ee59292b9ea0981a8a64680dfb2f1dca",
+      "bytes": 226126
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-full-part8.png",
+      "sha256": "a0663576f4ae37d43aece5094a6691799df7c1f147bfd4c0feb9c1f4647ee028",
+      "bytes": 310449
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-full-part9.png",
+      "sha256": "f890ce7ef737d3f2ef99c99f83c2e664b9168ba6408bb00a4e94658bc715f8b3",
+      "bytes": 286084
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-mentioned-context.png",
+      "sha256": "fe81d74132a22c49a73d99c8561168919e5499f5fa7d9e40978e86fb313b82cc",
+      "bytes": 119705
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-note-mention-draft.png",
+      "sha256": "c3be9c3901bc55948f212c67b533053817ac3d6c46634cb151f29f9eb52406a2",
+      "bytes": 62469
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-reopened-result.png",
+      "sha256": "b177761ab069104d0fec91fd2749234229b96ecce0f97d9f0c7fa56734572d39",
+      "bytes": 202043
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-snooze-options.png",
+      "sha256": "57af2fe5db1da26077a4385aff8f0e1ed95c6c0b195567fffacfafdbb1304ab4",
+      "bytes": 163934
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-580-snoozed-result.png",
+      "sha256": "65d1f2e8884dc029dc4d9675c01f4e153d711c5adbaf1d0524d7c385942f4d1c",
+      "bytes": 188260
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-closed-result.png",
+      "sha256": "f21996b7cf0a6d137987511db60f3961e0c3af8c7faabe5ef37f194a3395bc72",
+      "bytes": 206704
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-conversation-labels.png",
+      "sha256": "5b69c9ab0b95c799323d10cf014a73bfc2bd0b419d6c5a4e25a7111e781a38e1",
+      "bytes": 80037
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-custom-reminder.png",
+      "sha256": "b1701dc8911ff47ed3fa66cf60c25be841f0d5984a174a5a2af3e041eba60ceb",
+      "bytes": 61853
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-full-part1.png",
+      "sha256": "d92f19bbb57e5057f63bd6b7f786e5d2834606c559f12f597b47da6bbddba0cf",
+      "bytes": 713627
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-full-part10.png",
+      "sha256": "2db8387762b8f65048f9c2c4ee67b0c9978d5491ca173cf91519fb5a7aed3210",
+      "bytes": 586396
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-full-part11.png",
+      "sha256": "cbef93a708d41bd25d3b25bedab50c35a95e48109aa3bd66edbdc54b9ef5d9fb",
+      "bytes": 665604
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-full-part12.png",
+      "sha256": "ace29b3f765170121caf85ad0fc881ac4b9ee59f9b7748051da46442c9ecab87",
+      "bytes": 602892
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-full-part2.png",
+      "sha256": "eabe3f1d8d9f005997e13fda5fd4edc95f54726184a7578c99ed5a207e97da7a",
+      "bytes": 780301
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-full-part3.png",
+      "sha256": "b6f6950a331db281351288260fcbc13ba82e0a01ecf52d5307ebf88bfc7be800",
+      "bytes": 553431
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-full-part4.png",
+      "sha256": "5dbd8c474e8fb878c416c27b79f2473cf0b1b0855a8515ca926d610454350662",
+      "bytes": 567721
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-full-part5.png",
+      "sha256": "1bc4e083ccf7ae085dc265b5ff58d4365d2c8b06212b2974d9456e058bce9057",
+      "bytes": 565641
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-full-part6.png",
+      "sha256": "41f155f303cc0e1f0f06e6cff4531f60d7f251ae321512990a2896d0f6a25dbf",
+      "bytes": 604817
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-full-part7.png",
+      "sha256": "69803e3b778c713cd9adfc828668059e8b165a48165681b91a39c36276ee8b86",
+      "bytes": 553292
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-full-part8.png",
+      "sha256": "7a42a35427305763b734021b7fb75476a97dde480b6f6afa0653f57e3b33b48a",
+      "bytes": 706963
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-full-part9.png",
+      "sha256": "c7a9a2d5aa125763c00758b89619aedd0453074cdcae54989a01ac70369cf016",
+      "bytes": 703757
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-mentioned-context.png",
+      "sha256": "309133a0bfe2e30c2fd15233edd1b6a5b2ab657fe840f62f8103a0e21eef27ce",
+      "bytes": 190906
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-note-mention-draft.png",
+      "sha256": "c8a736fc3f293163ae5852284617f89f50c985554ac8443378acbd0c24f844dc",
+      "bytes": 99211
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-reopened-result.png",
+      "sha256": "6aa3408edef808227ccd71c6505da2a10ec94f6e0eb7fa0f145b8aa72095b61b",
+      "bytes": 208398
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-snooze-options.png",
+      "sha256": "e2d9575f120e1921d35bd52a62cf032b176f1a3767cc26c0d6985280b4dee032",
+      "bytes": 178386
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-1440-snoozed-result.png",
+      "sha256": "f56441188bf9843b320a087a79022f74caef2f514ab45276c214664907c7f38e",
+      "bytes": 192147
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-closed-result.png",
+      "sha256": "6e215c97868b5ec983b340b35a9d52783b39a64a9f9ed751f5991585dca18079",
+      "bytes": 196252
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-conversation-labels.png",
+      "sha256": "543e0e77b4ac1d2fc59968fa949e0fd682f0710174b3d2c10002b535428dfce2",
+      "bytes": 97348
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-custom-reminder.png",
+      "sha256": "2b6661f00fd9469e20df70c337567306a248ce50db85eaafb1e28208860bceff",
+      "bytes": 57234
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part1.png",
+      "sha256": "d39fab0f2298067414de6a8a36e4860ea7ac9fca4affbc388f4644e88b7292c1",
+      "bytes": 295079
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part10.png",
+      "sha256": "6e1dccca5bd2dc4f9cbc6a3e817dddc7a682ab9843a85a5f0d03e1160889d4ba",
+      "bytes": 274435
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part11.png",
+      "sha256": "eba03a92ca5dc23c0cd1bd91c5adaaf77bf0afc2cb5d76fc64046b94f7d5a18a",
+      "bytes": 318869
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part12.png",
+      "sha256": "ba5fa6b0221f01455b12e4fbae903e45e0c6e829975ab6f939abfcd7475ee507",
+      "bytes": 229842
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part13.png",
+      "sha256": "2df14663bd7ca337be002e65a3b95404fb448e5d6280503516b425c65f258cfd",
+      "bytes": 229623
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part2.png",
+      "sha256": "31920354392c767dc5c5727e913bd82ffd0f34c98051ed2caeea684b5106bdd4",
+      "bytes": 355114
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part3.png",
+      "sha256": "64e0fe38ebd3445eff6a3f2c6bc9abbbca4bda755eb27c47d17751c428d3af7a",
+      "bytes": 322345
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part4.png",
+      "sha256": "45115e184384ec924f0fa0189fb7a1abf882ab6d0ad33640eebc0302332e59bc",
+      "bytes": 281067
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part5.png",
+      "sha256": "1ee140fc20aa98e2cb0d2c27dfa5f30c5fdc5c9190e547d8ef891b7b868d35dd",
+      "bytes": 269271
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part6.png",
+      "sha256": "7cc03af35a7f61dbea754d18174681e9311c3fac7b826de73cce9dc2d77e8ebf",
+      "bytes": 297548
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part7.png",
+      "sha256": "8429102d95b5c8f0d45509bd18c3d25624997d74a952caa18611055d5d43033c",
+      "bytes": 304762
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part8.png",
+      "sha256": "45d6b5b8285a66b21234b28c1e70ce773252ea60b0fb0379237b348b958e9943",
+      "bytes": 308491
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-full-part9.png",
+      "sha256": "c962c9dd4e52b92c52579d34963b0c93f4d7991b9fa089b065053c363f5286e4",
+      "bytes": 300905
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-mentioned-context.png",
+      "sha256": "66bc17a5a2bddce1d2748a276d302e17a5eae96ecf35a105393b00507265acdf",
+      "bytes": 107264
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-note-mention-draft.png",
+      "sha256": "35fcab5180980ebe47be573dcb3aaf64a43c916ba34d06474a999ed4c6fb0177",
+      "bytes": 70961
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-reopened-result.png",
+      "sha256": "980769ca66c406f5640798fc05589ff07ca297592544cd7a3cf62f735c800b31",
+      "bytes": 197092
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-snooze-options.png",
+      "sha256": "7bbcd7e12f22ce620a57bdb583bf387c0ae50790f828e0497e1620c7eec66e87",
+      "bytes": 166963
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-390-snoozed-result.png",
+      "sha256": "7bbdd89fc13aae22956cf3d501b03a252df6044c0d734701aeabe223cd4dce96",
+      "bytes": 183382
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-closed-result.png",
+      "sha256": "5c4c73cc2e79c29a77214e5551795b5a54f938465e9c27b8e7289bae5a20452b",
+      "bytes": 198140
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-conversation-labels.png",
+      "sha256": "94f3f1ee8bfc5d2cac9e5c3988a82d5a7fa14e93a32def4ba1a66d8416e3116d",
+      "bytes": 105568
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-custom-reminder.png",
+      "sha256": "2dc3c01a8a537b602a7409a7593eece9d36d3aae74ce90dd05daa644e3d3b71c",
+      "bytes": 90321
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part1.png",
+      "sha256": "4c2e91ae74eb618fafe3edaf7dbb1a4ce1047172f9ea81256fd81bae6870cb8b",
+      "bytes": 334184
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part10.png",
+      "sha256": "64af5b1b6770586ab7208fd6331d6456431254226289ee851b9069f1e9b4c64e",
+      "bytes": 282753
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part11.png",
+      "sha256": "494c7730caaf6bd93901223f8af947ce1b531601b0097c74eb2450397ac5e0f9",
+      "bytes": 335557
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part12.png",
+      "sha256": "b2e761ef786e8b73920eeef9ab19a504f0d71a69f19346615d8913a657e0d410",
+      "bytes": 249860
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part2.png",
+      "sha256": "c0ae61f951590e304cb065a5fddd55cc08e75a757df9207db7a4b27c1781bb4b",
+      "bytes": 420247
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part3.png",
+      "sha256": "21212ec419f600a3be87fbf2c52453488e2eaf13059513b5f60c4ec42e80ccbf",
+      "bytes": 239099
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part4.png",
+      "sha256": "6acbaca808b0e5aff07b594081800a31da75ef2edc1759df6fc933c5fd7543a0",
+      "bytes": 277416
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part5.png",
+      "sha256": "db1c8d6c33bf28723dd2e2a03352af9cc4075222b791482d9fa1731abdc1ab9e",
+      "bytes": 236839
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part6.png",
+      "sha256": "f87d0f2e5e5c19d7f19d774a17a510b46288ba00db170b4e44c09ef8e3df5ca6",
+      "bytes": 238771
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part7.png",
+      "sha256": "dc97c45aa2711884f8297d575f468b233d20da21eab887495b3078d429523a75",
+      "bytes": 263694
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part8.png",
+      "sha256": "d4b6fa144f2103291749fc82db91d7562a5a0e8ca6d122a29cb764e2166f6e46",
+      "bytes": 313352
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part9.png",
+      "sha256": "7c75c19045e13c085e993119a0ec276d3a80d14c09f927157f9048c48150eadb",
+      "bytes": 272991
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-mentioned-context.png",
+      "sha256": "ad4d7f7f348039444eeb9bb3c896f86740abd081678e3d3e7f556b113d6187ac",
+      "bytes": 113376
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-note-mention-draft.png",
+      "sha256": "ac37cc285a57b353d7490b30a8ac59dcd59f4676aeae051c684c34364b14e4c3",
+      "bytes": 73284
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-reopened-result.png",
+      "sha256": "d48d601ac6bc05fdb66d0f53334f580786c49b1bbff0ba739111e0b00b4d770e",
+      "bytes": 199924
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-snooze-options.png",
+      "sha256": "d468dcd74f9f4fb213c265f0f9db5795832b7afafb30f0d78f548c331e7135b9",
+      "bytes": 170852
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-snoozed-result.png",
+      "sha256": "ced860aa66f79fbab7520558d4f065096652f500eb32c57bf77fdb02d2e773d0",
+      "bytes": 182817
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/en-1440.json",
+      "sha256": "750fa06c80fc77a63df32a61b3025e38915fa1d336ac2cb6d0b42cecf3f58de1",
+      "bytes": 48496
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/en-390.json",
+      "sha256": "6a14d4ec4d8fbecd0b8f9598ee5b439e773f0d030ebb7f3a900611844afe1124",
+      "bytes": 47802
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/en-580.json",
+      "sha256": "9d3efbcc3dbcf9ffa6c675762c45767e7089557d31006ae56069448fac1d4227",
+      "bytes": 47533
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/es-1440.json",
+      "sha256": "8316e38554c5952a3393cfabd2e0d324b822be8aaf69235b4a68d761c770c9d1",
+      "bytes": 49031
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/es-390.json",
+      "sha256": "134bb68810e978a638fd01d6fd7472b29c916c37d38bf363f9c39a3c09c32ad8",
+      "bytes": 49384
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/es-580.json",
+      "sha256": "bf284132cf2484a9a1ff50741f4c9190aee9706945550cf35738ba455a332654",
+      "bytes": 48074
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/preliminary-custom-reminder/build.json",
+      "sha256": "979452547111320bd0fb6c33b1b6df91d132e9a0aaac9a6d62677df9b584a2dc",
+      "bytes": 423
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/preliminary-custom-reminder/capture-receipt.json",
+      "sha256": "f06cc218533d2e468d731f436b702aea96efa2c0927eccf7adbaeddcdd50c687",
+      "bytes": 21676
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/preliminary-custom-reminder/checkpoint.json",
+      "sha256": "8dcab35c21f3a79013d914b0a0aa282ccabe8cec80375eba94c4fca21d0e7e08",
+      "bytes": 1278
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/preliminary-custom-reminder/custom-reminder-es-help390-context.png",
+      "sha256": "718322645e418f399ded06570b4a72a638d87ddf1984a2c575bb094c680f6e51",
+      "bytes": 261839
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/preliminary-custom-reminder/custom-reminder-es-help390-detail.png",
+      "sha256": "50d10978f4e09639bc187b0d1b4de6e29577862bde535c6b07e1d0afb4cfb8ca",
+      "bytes": 56981
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/preliminary-custom-reminder/integrator-pixel-review.json",
+      "sha256": "212579a6bb09923c2cae068ea61107a205ef4108ad5f3d296839379cebcbc10f",
+      "bytes": 2944
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/root-es1440-full-page-review.json",
+      "sha256": "e1c250748c9058700d38008db6edf6c40a785fd29b072860377d355f4731e78c",
+      "bytes": 4840
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/root-es390-full-page-review.json",
+      "sha256": "6b7987214cce077b1a99f53067a6b6794672d0adcf87559138102eb301bb8f48",
+      "bytes": 5000
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/static-review-shutdown.json",
+      "sha256": "bfc3ad67193b8c3f1f6f1b7d3f6b46d63a8370a5bd9525477f20c79e4563cf70",
+      "bytes": 999
+    }
+  ],
+  "external_helpers": [
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/integrate-approved-figures.py",
+      "sha256": "1a5e44bff60d645d1fe49ff8f8ea8e46c3aa521a861071a49623ef36ff6b902c"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/build-and-check.py",
+      "sha256": "79c4f4bf28b1ff64763d0b8e749bbf2712869cd84d1d7cc5e13b25ba8f5ec8b4"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/review-pages.mjs",
+      "sha256": "3c24a388ce149f723189a710e80b12479519a87d8ae43e3fffa3c8fde28da71e"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/check-local-http.py",
+      "sha256": "6215da3b509ab8c4c551b6c8ce8655756421382ec1039f1d1b8fe73695c16e3f"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/freeze-view-packets.py",
+      "sha256": "0ff14741d4d542450da148e5fadbc305d5811b828d9ec01dacbbc078dd68f833"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/record-es-detail-review.py",
+      "sha256": "20672556ed719df6b79ca8b9ee9946749a08fa6c4c7b0a24b685e27294dcd3a1"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/owned-review-processes.py",
+      "sha256": "ddafa7520876e33078a325eaf602d68b18bd1c11fb82694babf1009648f0d0fd"
+    }
+  ],
+  "scope": "Curated authoring evidence only; application profiles, databases, cookies, raw traffic and rejected diagnostics remain outside Help."
+}

@@ -9,11 +9,11 @@ Una conversación puede aparecer cuando:
 - Un cliente escribe por WhatsApp, SMS, Webchat, Instagram, Messenger u otro canal entrante conectado.
 - Un cliente responde a un mensaje de una campaña, misión o ruta.
 - Una misión o un agente de IA deriva la conversación a una persona o equipo.
-- Un step de Asignación (Assignment) de una ruta abre o asigna la conversación.
-- Una nueva actividad del cliente, pedido o negocio crea trabajo que necesita atención.
+- Un step de Asignación (Assignment) de una ruta ejecuta una acción para abrir la conversación. Asignar un responsable desde ese step no siempre la abre.
+- Una automatización abre o deriva una conversación para atender actividad del cliente, un pedido o el negocio.
 - Una conversación cerrada o pospuesta recibe actividad que la vuelve a abrir.
 
-El timeline reúne mensajes del cliente, respuestas del equipo, actividad de automatización, asignaciones, notas, etiquetas, cierres y reaperturas para que la próxima persona pueda entender qué pasó.
+El timeline reúne los mensajes del cliente, respuestas del equipo y cambios registrados, como asignaciones, notas, etiquetas y cierres, para que la próxima persona pueda entender qué pasó.
 
 ## Entiende los estados principales
 
@@ -33,23 +33,23 @@ No asumas que todas las conversaciones sin asignar están disponibles para cualq
 
 ### Asignadas
 
-Una conversación asignada tiene un responsable claro para la próxima acción. Una persona puede asignársela o reasignarla cuando alguien más debería continuar.
+El filtro **Asignados** reúne conversaciones con un responsable para la próxima acción, que puede ser una persona o un agente de IA. Una persona puede asignársela o reasignarla cuando alguien más debería continuar.
 
-Responder una conversación sin asignar normalmente la asigna a la persona que envía la respuesta, siempre que esa conversación esté disponible para que la tome.
+Cuando se registra una respuesta en el Inbox, una conversación sin asignar puede asignarse a quien responde. Si está esperando a un equipo específico, esta autoasignación requiere pertenecer a ese equipo. Registrar la respuesta no confirma que el cliente ya la recibió.
 
 Sigue leyendo: [Asigna conversaciones]({% link _team/assigning-conversations.md %}).
 
 ### Recordatorios
 
-Usa **Posponer** cuando la conversación no necesita acción ahora, pero debería volver más adelante. Hellotext ofrece tiempos comunes como una hora, cuatro horas, mañana o una fecha y hora personalizada.
+Usa **Posponer** cuando la conversación no necesita acción ahora, pero debería volver más adelante. Abre **Acciones** y elige **Posponer** para seleccionar **1 Hora**, **4 Horas**, **Hasta mañana** o **Personalizado**.
 
 <!-- inbox-actions:snooze-options:start -->
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="snooze-options" aria-label="Elige cuándo volver a la conversación">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 408px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/snooze-options-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/snooze-options-es-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/snooze-options-es-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Posponer abierto en una conversación del Inbox, con las opciones de tiempo disponibles." />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/snooze-options-es-mobile.png" srcset="/images/editorial/inbox-actions-continuation-20261010/snooze-options-es-mobile.png 4x" width="1560" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Posponer abierto en una conversación del Inbox, con las opciones de tiempo disponibles." />
       </picture>
     </div>
   </div>
@@ -57,15 +57,31 @@ Usa **Posponer** cuando la conversación no necesita acción ahora, pero deberí
 </figure>
 <!-- inbox-actions:snooze-options:end -->
 
-Las conversaciones pospuestas aparecen en **Recordatorios** en lugar de la lista activa de Abiertas. Cuando llega el momento del recordatorio, la conversación vuelve a su responsable anterior si esa asignación sigue siendo válida; de lo contrario, vuelve sin asignar. Una nueva actividad del cliente también puede hacerla volver antes.
+Para elegir otro momento, selecciona **Personalizado**, establece la fecha y la hora y confirma con **Snooze**.
+
+<!-- conversation-lifecycle:custom-reminder:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="custom-reminder" aria-label="Elige un recordatorio personalizado">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 516px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/conversation-lifecycle-20261011/custom-reminder-es-mobile-540.png 4x" width="1992" height="1016" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/conversation-lifecycle-20261011/custom-reminder-es-desktop.png" srcset="/images/editorial/conversation-lifecycle-20261011/custom-reminder-es-desktop.png 4x" width="1992" height="1032" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Diálogo Posponer conversación con los campos de fecha y hora y el botón Snooze." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. La fecha y la hora están elegidas; este recordatorio todavía no se ha guardado.</figcaption>
+</figure>
+<!-- conversation-lifecycle:custom-reminder:end -->
+
+Las conversaciones pospuestas aparecen en **Recordatorios** en lugar de la lista activa de Abiertas. Cuando se procesa el recordatorio programado, la conversación vuelve a la persona que conservaba asignada si todavía pertenece al negocio; de lo contrario, vuelve sin asignar. Una nueva actividad del cliente también puede hacerla volver antes.
 
 <!-- inbox-actions:snoozed-result:start -->
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="snoozed-result" aria-label="Comprueba la conversación pospuesta">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 408px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación pospuesta en el Inbox, con Reabrir y el registro de Posponer visibles." />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-mobile.png" srcset="/images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-mobile.png 4x" width="1560" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación pospuesta en el Inbox, con Reabrir y el registro de Posponer visibles." />
       </picture>
     </div>
   </div>
@@ -77,15 +93,15 @@ Pospone el trabajo que realmente está esperando. Cierra el trabajo que ya termi
 
 ### Cerradas
 
-Cierra una conversación cuando ya no requiere ninguna acción del equipo. El cierre la quita del trabajo activo y limpia la atención vigente, pero no elimina la conversación ni su timeline.
+Cierra una conversación cuando ya no requiere ninguna acción del equipo. Selecciona **Completo** en el encabezado cuando aparezca ese control. El cierre la quita del trabajo activo y limpia la atención vigente, pero no elimina la conversación ni su timeline.
 
 <!-- inbox-actions:closed-result:start -->
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="closed-result" aria-label="Comprueba la conversación cerrada">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 408px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/closed-result-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/closed-result-es-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/closed-result-es-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación cerrada en el Inbox, con Reabrir y el registro de cierre visibles." />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/closed-result-es-mobile.png" srcset="/images/editorial/inbox-actions-continuation-20261010/closed-result-es-mobile.png 4x" width="1560" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación cerrada en el Inbox, con Reabrir y el registro de cierre visibles." />
       </picture>
     </div>
   </div>
@@ -93,17 +109,17 @@ Cierra una conversación cuando ya no requiere ninguna acción del equipo. El ci
 </figure>
 <!-- inbox-actions:closed-result:end -->
 
-Las conversaciones cerradas siguen disponibles mediante el filtro **Cerradas**. Una persona puede reabrirlas manualmente. Una respuesta del cliente o una nueva actividad también puede reabrirlas y aplicar las reglas actuales de asignación del negocio.
+Las conversaciones cerradas siguen disponibles mediante el filtro **Cerrados**. Una persona puede reabrirlas manualmente. Una respuesta del cliente o una nueva actividad también puede reabrirlas y aplicar las reglas actuales de asignación del negocio.
 
 Cuando reabres una conversación manualmente, Hellotext conserva al responsable humano que todavía tenga asignado. Si no tiene uno, vuelve sin asignar. Revisa el responsable antes de continuar.
 
 <!-- inbox-actions:reopened-result:start -->
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="reopened-result" aria-label="Comprueba la conversación reabierta">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 408px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/reopened-result-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/reopened-result-es-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/reopened-result-es-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación reabierta en el Inbox, con su responsable humano y los controles activos visibles." />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/reopened-result-es-mobile.png" srcset="/images/editorial/inbox-actions-continuation-20261010/reopened-result-es-mobile.png 4x" width="1560" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación reabierta en el Inbox, con su responsable humano y los controles activos visibles." />
       </picture>
     </div>
   </div>
@@ -123,27 +139,73 @@ Los indicadores de salud de respuesta pueden agregar contexto sobre cuánto tiem
 
 ### Mencionados
 
-El filtro **Mencionados** ayuda a encontrar conversaciones donde una persona fue mencionada en una nota interna u otro evento de colaboración compatible.
+El filtro **Mencionados** muestra conversaciones con menciones en notas internas. Usa el filtro de integrantes para elegir de quién quieres revisar las menciones.
 
 Una mención llama la atención sobre la conversación, pero no cambia al responsable por sí sola. Confirma quién debería enviar la próxima respuesta visible para el cliente.
+
+<!-- conversation-lifecycle:mentioned-context:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="mentioned-context" aria-label="Reconoce una mención sin cambiar al responsable">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 805px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/conversation-lifecycle-20261011/mentioned-context-es-mobile.png 4x" width="1560" height="2112" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/conversation-lifecycle-20261011/mentioned-context-es-desktop.png" srcset="/images/editorial/conversation-lifecycle-20261011/mentioned-context-es-desktop.png 4x" width="3148" height="2704" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Nota interna con una mención en una conversación del Inbox." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios preparados antes de la captura. La nota y la mención ya existen; el responsable de la conversación se conserva.</figcaption>
+</figure>
+<!-- conversation-lifecycle:mentioned-context:end -->
 
 ## Usa notas y etiquetas sin cambiar el responsable
 
 Agrega una nota interna cuando el equipo necesita contexto que no debería enviarse al cliente. Las notas pueden documentar una decisión, resumir una acción realizada fuera de Hellotext o mencionar a otra persona.
 
+Selecciona **Agregar nota privada** en la barra del editor. Escribe `@` y elige al integrante que quieres mencionar.
+
+<!-- conversation-lifecycle:note-mention-draft:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="note-mention-draft" aria-label="Escribe una nota interna con una mención">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 805px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/conversation-lifecycle-20261011/note-mention-draft-es-mobile.png 4x" width="1560" height="1248" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/conversation-lifecycle-20261011/note-mention-draft-es-desktop.png" srcset="/images/editorial/conversation-lifecycle-20261011/note-mention-draft-es-desktop.png 4x" width="3148" height="1220" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Borrador de nota privada con el selector de integrantes para agregar una mención." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. Borrador de una nota interna y selector de mención; la nota todavía no se ha guardado.</figcaption>
+</figure>
+<!-- conversation-lifecycle:note-mention-draft:end -->
+
 Las notas no cuentan como respuestas para el cliente ni cumplen un tiempo de respuesta. Asigna también la conversación cuando la persona mencionada debería hacerse responsable.
 
 Usa etiquetas para organizar conversaciones mediante una categoría operativa duradera, como un problema de producto, oportunidad de venta, revisión de reembolso o tipo de seguimiento. Las etiquetas permiten filtrar conversaciones relacionadas sin cambiar su estado ni responsable.
 
+Abre **Acciones** y selecciona **Etiquetas** para revisar las etiquetas de la conversación.
+
+<!-- conversation-lifecycle:conversation-labels:start -->
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="conversation-labels" aria-label="Revisa las etiquetas de la conversación">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 483px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/conversation-lifecycle-20261011/conversation-labels-es-mobile.png 4x" width="1560" height="2008" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/conversation-lifecycle-20261011/conversation-labels-es-desktop.png" srcset="/images/editorial/conversation-lifecycle-20261011/conversation-labels-es-desktop.png 4x" width="1860" height="1656" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Etiquetas de una conversación con una etiqueta seleccionada." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. La etiqueta ya estaba aplicada antes de la captura; no se cambió ninguna opción en este menú.</figcaption>
+</figure>
+<!-- conversation-lifecycle:conversation-labels:end -->
+
 ## Filtra el Inbox de forma deliberada
 
-El Inbox ofrece filtros de estado para:
+El Inbox ofrece filtros para:
 
 - **Abiertas**
 - **Necesita atención**
-- **Asignadas**
+- **Asignados**
 - **Sin asignar**
-- **Cerradas**
+- **Cerrados**
 - **Recordatorios**
 - **Mencionados**
 

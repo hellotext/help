@@ -1,0 +1,132 @@
+{
+  "status": "root_authorized_legibility_fix_integrated; final_page_QA_pending",
+  "reason": "Native1600 desktop screenshot rendered698.406CSS in article; original-size1x diagnostic confirmed menu labels too small. Root independently concurred. Native390 variants retain readable controls without pixel edits or reenacting historical actions.",
+  "diagnostic": {
+    "path": "audit/conversation-lifecycle-next-20261011/legacy-desktop-css-size-diagnostic/snooze-options-es-help1440-detail.png",
+    "sha256": "bfe772689b5fb0fe58bb81daa0e370a393dd106fea4035bc3610536894b9c5ae",
+    "pixel_size": [
+      800,
+      538
+    ],
+    "dpr": 1,
+    "diagnostic_only_not_selected_source": true
+  },
+  "retained_original_sources": 16,
+  "retained_selected_sources": 8,
+  "retained_unselected_desktop_sources": 8,
+  "all_source_bytes_unchanged": true,
+  "changes": [
+    {
+      "locale": "es",
+      "id": "snooze-options",
+      "before_block_sha256": "78ca526da8a7f1a86d46de839837fd6e78a95da92cf5e1e918b12c8c0246216c",
+      "after_block_sha256": "49fbe641655e8d77c1698ac9cbb7251506d902a7cc1d77955de3d40d828c3647",
+      "native_source": "images/editorial/inbox-actions-continuation-20261010/snooze-options-es-mobile.png",
+      "source_css_width": 390,
+      "frame_cap_css": 408,
+      "selected_help_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "change": "Existing native mobile PNG used at both Help viewport classes; same bytes, aria, alt, caption, source density and wrapper."
+    },
+    {
+      "locale": "es",
+      "id": "snoozed-result",
+      "before_block_sha256": "5d186e5285f228cd5c893381d2b77899b746c0e6de9608bf40e7ec84fb6aeccd",
+      "after_block_sha256": "8795507e8c5d3d7cef06c4b475c15d5c9765ba793a395ae9c42095471e7af2ee",
+      "native_source": "images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-mobile.png",
+      "source_css_width": 390,
+      "frame_cap_css": 408,
+      "selected_help_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "change": "Existing native mobile PNG used at both Help viewport classes; same bytes, aria, alt, caption, source density and wrapper."
+    },
+    {
+      "locale": "es",
+      "id": "closed-result",
+      "before_block_sha256": "bc6b36fb2f4d63c0b58406e667908c4b9254daf80bfcf5105e481d83339b98e9",
+      "after_block_sha256": "43606c9e7904c2e124d3674a9dc05f0a8683085177d4f290405a1515146cf7ef",
+      "native_source": "images/editorial/inbox-actions-continuation-20261010/closed-result-es-mobile.png",
+      "source_css_width": 390,
+      "frame_cap_css": 408,
+      "selected_help_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "change": "Existing native mobile PNG used at both Help viewport classes; same bytes, aria, alt, caption, source density and wrapper."
+    },
+    {
+      "locale": "es",
+      "id": "reopened-result",
+      "before_block_sha256": "4ebf4f16d771aa65eda5d2143d99aa7f16f068de2eab7bb146a699e0682ced0f",
+      "after_block_sha256": "18dd138245833e3c9277e21ecba5c0975847a53ee76033243f7702cec9c68164",
+      "native_source": "images/editorial/inbox-actions-continuation-20261010/reopened-result-es-mobile.png",
+      "source_css_width": 390,
+      "frame_cap_css": 408,
+      "selected_help_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "change": "Existing native mobile PNG used at both Help viewport classes; same bytes, aria, alt, caption, source density and wrapper."
+    },
+    {
+      "locale": "en",
+      "id": "snooze-options",
+      "before_block_sha256": "143a9b97e27017b667d3012dbf2841824de7c166fc8ec1adadaa7dfa7df7d93c",
+      "after_block_sha256": "945f538162cbeec855809923cda702ab3d0e9924e1cd82501a6bf2e09304ce6b",
+      "native_source": "images/editorial/inbox-actions-continuation-20261010/snooze-options-en-mobile.png",
+      "source_css_width": 390,
+      "frame_cap_css": 408,
+      "selected_help_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "change": "Existing native mobile PNG used at both Help viewport classes; same bytes, aria, alt, caption, source density and wrapper."
+    },
+    {
+      "locale": "en",
+      "id": "snoozed-result",
+      "before_block_sha256": "e7646a83ffc57b3c41e089499b018ff06cd328900946226d08ce4c242277ba1f",
+      "after_block_sha256": "0c15c48ecee916390e973e934f433124d1e95ab2fe70ab046dbe421c67e3c46e",
+      "native_source": "images/editorial/inbox-actions-continuation-20261010/snoozed-result-en-mobile.png",
+      "source_css_width": 390,
+      "frame_cap_css": 408,
+      "selected_help_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "change": "Existing native mobile PNG used at both Help viewport classes; same bytes, aria, alt, caption, source density and wrapper."
+    },
+    {
+      "locale": "en",
+      "id": "closed-result",
+      "before_block_sha256": "c8709be70341b7175fd97652065c9c3d57e4649e2dbd418470d39a504349a089",
+      "after_block_sha256": "12ac72bf8deec83c49110ff2e5942edfc9029f1d5c95f1f79ac8c7ceb1d521e2",
+      "native_source": "images/editorial/inbox-actions-continuation-20261010/closed-result-en-mobile.png",
+      "source_css_width": 390,
+      "frame_cap_css": 408,
+      "selected_help_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "change": "Existing native mobile PNG used at both Help viewport classes; same bytes, aria, alt, caption, source density and wrapper."
+    },
+    {
+      "locale": "en",
+      "id": "reopened-result",
+      "before_block_sha256": "03079d711e29b874c006efa0a68d530b2a3097e499809e96b47b0faa718749c5",
+      "after_block_sha256": "fb6f4868296b795a6e5b659149de3548f685f4694be0228157c6f3d700d706ef",
+      "native_source": "images/editorial/inbox-actions-continuation-20261010/reopened-result-en-mobile.png",
+      "source_css_width": 390,
+      "frame_cap_css": 408,
+      "selected_help_viewports": [
+        "desktop",
+        "mobile"
+      ],
+      "change": "Existing native mobile PNG used at both Help viewport classes; same bytes, aria, alt, caption, source density and wrapper."
+    }
+  ]
+}

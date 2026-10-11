@@ -1,0 +1,26 @@
+{
+  "status": "owned_runtime_shutdown_verified",
+  "at": "2026-10-11T07:15:06.218148+00:00",
+  "processes": {
+    "3304": {
+      "pid": 33351,
+      "owner": "pel",
+      "exact_command_and_owned_log_or_working_directory_verified": true
+    },
+    "6421": {
+      "pid": 19593,
+      "owner": "pel",
+      "exact_command_and_owned_log_or_working_directory_verified": true
+    }
+  },
+  "signal": "SIGTERM",
+  "database_preserved": true,
+  "artifacts_preserved": true,
+  "other_services_touched": false,
+  "preliminary_check": "First validation stopped before any signal because Redis does not retain its logfile descriptor; exact Redis command, listener, prior ready receipt and owned cwd subsequently verified.",
+  "verified_at": "2026-10-11T07:15:21.839944+00:00",
+  "pids_absent": true,
+  "ports_free": true,
+  "browser_proxy_shutdown_sha256": "d84cc1576e3bdda255b7adb62a828fcf7f4c22c7ae604750a0bff3d0dbacb402",
+  "final_fixture_verification_sha256": "218b3bfc05a062e9bfdbcffa3424b7e69e76d40c0ab7928ffa933e7576609f0b"
+}

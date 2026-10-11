@@ -1,0 +1,131 @@
+{
+  "status": "source_review_passed_for_scoped_copy",
+  "at": "2026-10-11T06:08:07.615432+00:00",
+  "app_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "comparison_head": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "comparison_scope": "16 changed paths inspected; marketing/shared icon changes, no Inbox/model/control path changes. Full production CSS pixel parity is not claimed. Parent performs final currency check.",
+  "source_files": [
+    {
+      "path": "app/models/concerns/reopens_conversations.rb",
+      "sha256": "d9b27d86eb1d5c3b9c81489f17950ad4fc43b948357483e791130cdfffffdcc3"
+    },
+    {
+      "path": "app/actors/journey/process_step/assignment/assign.rb",
+      "sha256": "c07d59aecfb0c79cf4fc289556bc8d2a99bcd2b0e29f941a8889e7836b5171ff"
+    },
+    {
+      "path": "app/models/dashboard/message.rb",
+      "sha256": "235ae9c5b9115617925ecaf5fc53a30e2ecec59bead0444dc1a31813d4ac8d4b"
+    },
+    {
+      "path": "app/models/track/event/recordable.rb",
+      "sha256": "c7a866d6617ac7c4839ef03941683324cffd8d2de31458cedece188c8a8cb28b"
+    },
+    {
+      "path": "app/models/conversation/filter.rb",
+      "sha256": "40b72804eb89d01716e2dcc08493e164621f0325484403cbcd215c5338188405"
+    },
+    {
+      "path": "app/models/conversation/assignable.rb",
+      "sha256": "68617f1e3c728b7552aff8f3a44483888dd09388d43e02ec048de43b6a327ebe"
+    },
+    {
+      "path": "app/models/conversation/closeable.rb",
+      "sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49"
+    },
+    {
+      "path": "app/models/conversation/labelable.rb",
+      "sha256": "2992a6ba08c5638029ee6f57f69a87013d2ad502b22ba1e407ad05eb6382fd4b"
+    },
+    {
+      "path": "app/models/note.rb",
+      "sha256": "1d0bdf7c1157b50d7502c8120ad9e20b1ee66ea5d28c18762abea05ff233aa60"
+    },
+    {
+      "path": "app/models/concerns/acts_as_mentioner.rb",
+      "sha256": "bc684387d4b946104ca0c4121b3dfba609acffcbbdb9d440f60e759ae76dd972"
+    },
+    {
+      "path": "app/controllers/conversation/notes_controller.rb",
+      "sha256": "07c8c97bfc98371367780cd5d917d7578d9a15297218abdf4e83d932f1253156"
+    },
+    {
+      "path": "app/models/workload/handle_touchpoint.rb",
+      "sha256": "4547bb493264f75ccd67690b5d8fa2dfaa72ff7293880b3fb076fd24be46b68d"
+    },
+    {
+      "path": "config/locales/es.yml",
+      "sha256": "68e86e6dc8aec0918a940b9d047d29d1b0cedac42ed50407b1dc8bcd9f2ca2c7"
+    },
+    {
+      "path": "app/views/conversation/snooze_options/_index.html.erb",
+      "sha256": "af174150e2491af45baa3021b2f853e15dcd8cd8abac6530ca80f7238f2637bc"
+    },
+    {
+      "path": "app/components/compose/note_icon.html.erb",
+      "sha256": "bda31aa2cf07c14f1a60f969513d18067af01d234dec4a773963a5d54f1f9dc8"
+    },
+    {
+      "path": "app/views/inbox/partials/_header.html.erb",
+      "sha256": "d5022b532cb2d0df02a249815e1a03760caf6fbb57f56c668ca30e73b42a8e2e"
+    },
+    {
+      "path": "config/locales/views/compose/tools/es.yml",
+      "sha256": "828e52ceb4a21379570a4b40d3863df5f9aef0f02912bb60af9712c1ad94e435"
+    },
+    {
+      "path": "config/locales/views/compose/tools/en.yml",
+      "sha256": "3ac54ab7acf93f7facd23c93ca2a8d06981278b8aafd5d5f776379fe66843a8d"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Assignment steps distinguish explicit open from assign-only",
+      "evidence": "Assignment::Assign#open creates/reopens; #assign quiet-assigns a new conversation with state closed and retains non-open state.",
+      "copy": "Qualify the entry bullet: an Assignment step configured to open the conversation."
+    },
+    {
+      "claim": "Activity alone is not evidence of opening or attention",
+      "evidence": "Track::Event::Recordable#record requires an existing conversation and inserts timeline history; it does not open a conversation.",
+      "copy": "Attribute opening/escalation for customer/order/business activity to automation."
+    },
+    {
+      "claim": "Reply claim is recorded-reply behavior, not delivery",
+      "evidence": "Dashboard::Message#record_in_conversation calls claim_pending_team_assignment; guard requires unassigned, Current.user and pending-team membership; no delivered-state prerequisite.",
+      "copy": "Use when a reply is recorded and keep the availability qualification."
+    },
+    {
+      "claim": "Scheduled and manual reopening differ",
+      "evidence": "#awaken checks assigned_user and kept business privilege. #manual_reopen_params retains assigned_user_id without eligibility reassessment; absent user becomes unassigned.",
+      "copy": "Scheduled processing checks ongoing business membership; retain existing manual owner wording."
+    },
+    {
+      "claim": "Mentioned scopes actual mention rows, not arbitrary collaboration events",
+      "evidence": "Conversation::Filter#by_state joins mentions; #by_member filters mentionee User IDs. Notes include ActsAsMentioner, whose parser materializes attachment users.",
+      "copy": "Say internal-note mentions; member filter selects mentioned people."
+    },
+    {
+      "claim": "Spanish filter labels",
+      "evidence": "config/locales/es.yml conversations.filters assigned=Asignados, closed=Cerrados; conceptual headings can remain Asignadas/Cerradas.",
+      "copy": "Correct filter control references only."
+    },
+    {
+      "claim": "Notes and labels do not reassign ownership",
+      "evidence": "NotesController#create records Note and note workload touchpoint; Labelable records labeling timeline and index/count refresh. Neither invokes assignment.",
+      "copy": "Retain narrow owner/state and customer-reply assertions; never claim no metrics or no effects."
+    },
+    {
+      "claim": "Closure clears active attention before deferred cleanup",
+      "evidence": "Conversation::Closeable#close persists closed state then clear_attention before complete_closure_later. Deferred job can send CSAT.",
+      "copy": "Retain source-backed explanation, clearly separate screenshot proof from unexecuted deferred work."
+    }
+  ],
+  "runtime_actions": 0,
+  "execution_scope": "Read-only source review; no app calls, DB access, jobs or messages.",
+  "native_control_references": {
+    "note_es": "Agregar nota privada",
+    "note_en": "Add private note",
+    "snooze_custom": "Actions → Snooze → Custom; date/hour fields; native confirmation remains unpressed during capture",
+    "labels": "Actions → Labels; option toggles persist immediately, no separate Save button"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "status": "owned_puma_restarted_same_bindings",
+  "reason": "Observed native Note3 fragment still Spanish after verified English localization; private MemoryStore only. Browser owner confirmed about:blank and controller exit before shutdown.",
+  "requested_at": "2026-10-11T07:01:44.521892+00:00",
+  "old_pid": 22029,
+  "port": 3304,
+  "signal": "SIGTERM",
+  "other_services_untouched": true,
+  "database_or_timestamp_writes": false,
+  "bindings": {
+    "contract.json": "6f386997b061d53168711eeb004b0cc99a720e7b0fdcbd51619f29b0965c1d79",
+    "read-contract.json": "1d6a56407c3513e136893c28c488839093b81f601205d86e213f4239dac7a151",
+    "register-runtime-guard.rb": "0a1f21186c17ee8425fc2cfaceb1fb7ed4dfb68bb020ccbac94d7ef7709e7b0e",
+    "conversation-fixture.rb": "526993ef7676d8f5b508e00704f896ce7fe83c2e227babbbbb4f135ac9913ed3",
+    "fixture-journal.json": "f91c00f07f88642a35278ff28c8f0c18625c5b280fb807b7b3c7810aa89c2b86",
+    "locale-en-result.json": "89f7855ec895213468cb27237764a21fcce3e05b91be4bd7d72f0d56803be678"
+  },
+  "new_pid": 33351,
+  "completed_at": "2026-10-11T07:02:29.096195+00:00",
+  "old_process_exit_code": 143,
+  "old_listener_confirmed_absent_before_start": true,
+  "new_listener_logged": true,
+  "database_phase": "English fixture verified before restart; all subsequent HTTP remains read-only",
+  "pixel_confirmation": "pending browser owner"
+}

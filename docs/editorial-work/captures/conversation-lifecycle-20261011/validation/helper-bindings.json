@@ -1,0 +1,36 @@
+{
+  "status": "helper_sources_bound_for_local_validation",
+  "at": "2026-10-11T07:26:44.502600+00:00",
+  "helpers": [
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/integrate-approved-figures.py",
+      "sha256": "1a5e44bff60d645d1fe49ff8f8ea8e46c3aa521a861071a49623ef36ff6b902c"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/build-and-check.py",
+      "sha256": "79c4f4bf28b1ff64763d0b8e749bbf2712869cd84d1d7cc5e13b25ba8f5ec8b4"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/review-pages.mjs",
+      "sha256": "3c24a388ce149f723189a710e80b12479519a87d8ae43e3fffa3c8fde28da71e"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/check-local-http.py",
+      "sha256": "6215da3b509ab8c4c551b6c8ce8655756421382ec1039f1d1b8fe73695c16e3f"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/freeze-view-packets.py",
+      "sha256": "0ff14741d4d542450da148e5fadbc305d5811b828d9ec01dacbbc078dd68f833"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/record-es-detail-review.py",
+      "sha256": "20672556ed719df6b79ca8b9ee9946749a08fa6c4c7b0a24b685e27294dcd3a1"
+    },
+    {
+      "path": "audit/conversation-lifecycle-next-20261011/owned-review-processes.py",
+      "sha256": "ddafa7520876e33078a325eaf602d68b18bd1c11fb82694babf1009648f0d0fd"
+    }
+  ],
+  "scope": "Local static Help build, byte/link checks and owned loopback browser QA only; these helpers do not operate the app database or publish.",
+  "source_capture_helpers": "Bound separately by source admission and owner runtime receipts; not copied into Help."
+}

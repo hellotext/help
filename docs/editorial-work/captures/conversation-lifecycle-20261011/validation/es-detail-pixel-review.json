@@ -1,0 +1,30 @@
+{
+  "status": "passed_all_24_spanish_figure_details",
+  "at": "2026-10-11T07:24:23.246632+00:00",
+  "reviewer": "conversation_article",
+  "reviews": [
+    {
+      "file": "validation/es-detail-pixel-review-1440.json",
+      "sha256": "510beca6e39715e96dc08de6f11df6adb7abc2b55d9f65575a472f0469a73b20",
+      "viewport": 1440,
+      "details": 8
+    },
+    {
+      "file": "validation/es-detail-pixel-review-580.json",
+      "sha256": "c48f47c899dfd214290aa5fa4150b18fbaeb1358abae342c1cdabedd3913dd88",
+      "viewport": 580,
+      "details": 8
+    },
+    {
+      "file": "validation/es-detail-pixel-review-390.json",
+      "sha256": "48b85177b735dbb6d9a32a4cfd47c2d79095fda937dfba69edfe14bbbc487314",
+      "viewport": 390,
+      "details": 8
+    }
+  ],
+  "source_sha256": "c3509b86c6186e1c9cf6dc5a8b28dc9c4659eb4c7c2f9ad9c615c0a9ad5350f7",
+  "built_html_sha256": "9e75b1eedad65a58512a11863274d2f1716f1bf1befff073e5deb0514e0b4e1a",
+  "scope": "All eight figures at1440/580/390 individually opened as native2x P3 PNGs; separate full-page and EN review remains required.",
+  "help390_custom_reminder": "pass_complete_and_readable; native app source540, clip498, rendered315.9921875CSS; no app390 claim",
+  "unresolved_findings": []
+}

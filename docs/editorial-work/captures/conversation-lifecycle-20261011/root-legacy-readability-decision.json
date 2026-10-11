@@ -1,0 +1,39 @@
+{
+  "reviewed_at": "2026-10-11T07:03:40.901140+00:00",
+  "reviewer": "root",
+  "status": "readability_defect_confirmed_doc_layout_remedy_approved_final_qa_pending",
+  "evidence": [
+    {
+      "kind": "native_dpr2",
+      "path": "audit/conversation-lifecycle-next-20261011/legacy-desktop-review/snooze-options-es-help1440-detail.png",
+      "sha256": "80e92206a1cf87f749d85e0540c5a6c86eae93249e551c0a52e9b7debfb0e367",
+      "pixel_size": [
+        1600,
+        1076
+      ],
+      "root_viewed": true,
+      "public_source": false
+    },
+    {
+      "kind": "native_dpr1_diagnostic_only",
+      "path": "audit/conversation-lifecycle-next-20261011/legacy-desktop-css-size-diagnostic/snooze-options-es-help1440-detail.png",
+      "sha256": "bfe772689b5fb0fe58bb81daa0e370a393dd106fea4035bc3610536894b9c5ae",
+      "pixel_size": [
+        800,
+        538
+      ],
+      "root_viewed": true,
+      "public_source": false
+    }
+  ],
+  "observed": "The legacy1600 CSS-wide desktop screenshot is rendered at698.4 CSS. Native-size DPR1 diagnostic shows Actions/Snooze presets too small for comfortable instructional reading. A2x evidence image enlarges the page and cannot close actual-size readability alone.",
+  "remedy": "Reuse the unchanged native390 CSS mobile screenshot for each of the four legacy steps in both article viewport layouts, cap image390/frame408. No pixel edits or historical action reenactment.",
+  "scope": "All16 historical PNG preserved. Eight old desktop sources remain historical references but are no longer selected by these figures. Eight legacy mobile plus16new sources are the24selected sources;32total originals remain preserved.",
+  "claims": "Do not call reused mobile sources new desktop app screenshots. New desktop scenes remain real desktop captures. DPR1 artifact is an excluded diagnostic, never a published source.",
+  "required": [
+    "Explicit selected-source mapping in source register/checkpoint and publication verifier.",
+    "Review all four legacy figures at actual article widths in both languages.",
+    "Final build and full-page visual QA after the figure-block changes."
+  ],
+  "authorization": "Existing authority for completing and publishing verified article batches includes this reversible documentation correction."
+}

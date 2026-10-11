@@ -1,0 +1,53 @@
+{
+  "reviewed_at": "2026-10-11T06:57:12.785051+00:00",
+  "status": "read_only_historical_preparation_reviewed",
+  "records": [
+    {
+      "path": "help-assignment-local/docs/editorial-work/captures/inbox-lifecycle-preparation/capture-plan.md",
+      "sha256": "b6d8b36b827a0d03db98e70dedcd8b446c62a48995063e7fd5f333bbdeabb7f4",
+      "bytes": 12776
+    },
+    {
+      "path": "help-assignment-local/docs/editorial-work/captures/inbox-lifecycle-preparation/source-audit.json",
+      "sha256": "3c0b0f20ca8ef08954f1fc4939f6f13ea94cea7d97662fd36ad5860f5bebba58",
+      "bytes": 23119
+    },
+    {
+      "path": "help-assignment-local/docs/editorial-work/captures/inbox-lifecycle-preparation/originals/es.md",
+      "sha256": "e306dca15c1f838c9b3f58074364a1eaaf2bab17d3311a4cb6dd4a26818217ba",
+      "bytes": 8028
+    },
+    {
+      "path": "help-assignment-local/docs/editorial-work/captures/inbox-lifecycle-preparation/originals/en.md",
+      "sha256": "866bd7a5e2ea4b1648dc77b31d70cad4ce47c3484d077083ce3a55da731461fc",
+      "bytes": 7292
+    },
+    {
+      "path": "help-assignment-local/docs/editorial-work/captures/inbox-lifecycle-preparation/originals/stub.md",
+      "sha256": "3cddf5f365559a1e48c30e5d1b61590053fb9857903bce332cf537267e538aea",
+      "bytes": 582
+    },
+    {
+      "path": "help-assignment-local/docs/editorial-work/captures/inbox-lifecycle-preparation/proposed/es.md",
+      "sha256": "28b67141270ef445a9ae04ed258abfa2ea4ae8b136fcc8994734544bcf25a55e",
+      "bytes": 9004
+    },
+    {
+      "path": "help-assignment-local/docs/editorial-work/captures/inbox-lifecycle-preparation/proposed/en.md",
+      "sha256": "c14a98359930b7461b4ae46e8f523df6ceb9b03cff19392518144a3ba5936c8b",
+      "bytes": 8136
+    }
+  ],
+  "prior_source_revision": "9a52fd2baf2b28689ff9a89a327c14826d3d04f7",
+  "decisions": [
+    "Prior semantic findings were rechecked at current scoped source before integrating the23 minimal bilingual corrections; the earlier proposal is not itself current approval.",
+    "Four already published PR398 figures supply the genuine historical transitions; their16 source PNGs remain byte-identical.",
+    "Custom submission, new closure/reopening and queue execution proposed in the old plan are not repeated. The current scoped continuation uses an unsubmitted custom dialog and note draft, plus separately prepared fictional Note/Mention/Label model state.",
+    "The four genuine remaining scenes are covered by the current figure-plan; no typed @draft is substituted for a persisted Mentioned result."
+  ],
+  "files_modified_in_prior_preparation": false,
+  "private_source_bodies_copied": false,
+  "pngs_in_prior_preparation": 0,
+  "current_source_review": "semantic-source-review.json",
+  "current_coverage_plan": "figure-plan.json"
+}

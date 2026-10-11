@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "reviewer": "/root/inbox_article",
+  "reviewed_at_utc": "2026-10-11T07:28:39.695965+00:00",
+  "scope": "Independent complete Spanish page composition and general copy coherence at 580 CSS pixels. Exactly 12 consecutive native full-page segments were opened individually; figure-detail review is owned separately by the article writer.",
+  "packet": {
+    "path": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/es-580.json",
+    "sha256": "bf284132cf2484a9a1ff50741f4c9190aee9706945550cf35738ba455a332654",
+    "immutable_view_packet_only": true,
+    "aggregate_receipt_used": false
+  },
+  "source": {
+    "path": "help-conversation-lifecycle-20261011/_i18n/es/team/conversation-lifecycle.md",
+    "sha256": "c3509b86c6186e1c9cf6dc5a8b28dc9c4659eb4c7c2f9ad9c615c0a9ad5350f7",
+    "complete_prose_alt_and_captions_read": true
+  },
+  "built_html": {
+    "path": "help-conversation-lifecycle-20261011/_site/es/ciclo-conversacion-inbox.html",
+    "sha256": "9e75b1eedad65a58512a11863274d2f1716f1bf1befff073e5deb0514e0b4e1a"
+  },
+  "view": {
+    "locale": "es",
+    "viewport_css": [
+      580,
+      1200
+    ],
+    "document_height_css": 13278,
+    "document_width_css": 580,
+    "dpr": 2,
+    "zoom": 1,
+    "article_width_css": 548,
+    "article_bounds_x_css": [
+      16,
+      564
+    ],
+    "figure_count": 8
+  },
+  "coverage": {
+    "from_css": 0,
+    "through_css": 13278,
+    "percent": 100,
+    "segments": 12,
+    "minimum_overlap_css": 100,
+    "last_overlap_css": 122,
+    "no_gaps": true,
+    "header_through_footer_seen": true,
+    "no_stitching_or_pixel_modification": true
+  },
+  "checks": {
+    "all_12_final_png_hashes_revalidated_after_pixel_review": true,
+    "png_crc_dimensions_and_embedded_display_p3_verified": true,
+    "all_12_native_dimensions": [
+      1160,
+      2400
+    ],
+    "all_page_prose_readable": true,
+    "all_eight_stages_within_article_column": true,
+    "white_frames_insets_and_borders_visible": true,
+    "no_blank_or_missing_figures": true,
+    "no_new_rendered_horizontal_overflow": true,
+    "native_size_caps_respected_by_recorded_geometry": true,
+    "static_figures_no_interactive_descendants_or_link_ancestors_in_recorded_geometry": true,
+    "copy_and_figure_sequence_coherent": true,
+    "source_and_html_hashes_still_match_packet": true
+  },
+  "pixel_review_notes": [
+    "view_image delivered each 1160×2400 PNG individually; its display resized to 990×2048. All prose and composition were legible at that display size. Original files were neither resized nor altered.",
+    "Segment boundaries cross content only as normal native viewport cuts; overlaps cover the continuation. They do not represent article clipping.",
+    "Native source details remain visible: initials, ellipsized contact/label names, notification permission notice, the English Snooze button in the Spanish dialog, and scroll-clipped older timeline context. Relevant current controls and instructional content remain legible.",
+    "Captions correctly distinguish configured-but-unsaved custom reminder and draft note from existing note/mention/label fixtures and previously performed lifecycle actions."
+  ],
+  "findings": [],
+  "files": [
+    {
+      "order": 1,
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part1.png",
+      "sha256": "4c2e91ae74eb618fafe3edaf7dbb1a4ce1047172f9ea81256fd81bae6870cb8b",
+      "clip_css": {
+        "x": 0,
+        "y": 0,
+        "width": 580,
+        "height": 1200
+      },
+      "scroll_css": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "opened_and_visually_reviewed": true,
+      "result": "passed",
+      "observation": "Header, breadcrumbs, title, introduction and arrival list are legible and stay inside the viewport."
+    },
+    {
+      "order": 2,
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part2.png",
+      "sha256": "c0ae61f951590e304cb065a5fddd55cc08e75a757df9207db7a4b27c1781bb4b",
+      "clip_css": {
+        "x": 0,
+        "y": 1100,
+        "width": 580,
+        "height": 1200
+      },
+      "scroll_css": [
+        0,
+        1100
+      ],
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "opened_and_visually_reviewed": true,
+      "result": "passed",
+      "observation": "Open, unassigned and assigned explanations are legible; paragraph and link wrapping remain inside the article column."
+    },
+    {
+      "order": 3,
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part3.png",
+      "sha256": "21212ec419f600a3be87fbf2c52453488e2eaf13059513b5f60c4ec42e80ccbf",
+      "clip_css": {
+        "x": 0,
+        "y": 2200,
+        "width": 580,
+        "height": 1200
+      },
+      "scroll_css": [
+        0,
+        2200
+      ],
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "opened_and_visually_reviewed": true,
+      "result": "passed",
+      "observation": "Reminder instructions and native Snooze submenu are legible; all four time choices are visible with conversation context."
+    },
+    {
+      "order": 4,
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part4.png",
+      "sha256": "6acbaca808b0e5aff07b594081800a31da75ef2edc1759df6fc933c5fd7543a0",
+      "clip_css": {
+        "x": 0,
+        "y": 3300,
+        "width": 580,
+        "height": 1200
+      },
+      "scroll_css": [
+        0,
+        3300
+      ],
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "opened_and_visually_reviewed": true,
+      "result": "passed",
+      "observation": "Snooze figure ends cleanly; custom date/time dialog and both buttons are complete; next figure begins within its stage."
+    },
+    {
+      "order": 5,
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part5.png",
+      "sha256": "db1c8d6c33bf28723dd2e2a03352af9cc4075222b791482d9fa1731abdc1ab9e",
+      "clip_css": {
+        "x": 0,
+        "y": 4400,
+        "width": 580,
+        "height": 1200
+      },
+      "scroll_css": [
+        0,
+        4400
+      ],
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "opened_and_visually_reviewed": true,
+      "result": "passed",
+      "observation": "Snoozed result, recorded event and end of frame are visible; transition into Closed explanation is clear."
+    },
+    {
+      "order": 6,
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part6.png",
+      "sha256": "f87d0f2e5e5c19d7f19d774a17a510b46288ba00db170b4e44c09ef8e3df5ca6",
+      "clip_css": {
+        "x": 0,
+        "y": 5500,
+        "width": 580,
+        "height": 1200
+      },
+      "scroll_css": [
+        0,
+        5500
+      ],
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "opened_and_visually_reviewed": true,
+      "result": "passed",
+      "observation": "Closed-result figure is complete inside the lavender stage, including Reopen control and close event."
+    },
+    {
+      "order": 7,
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part7.png",
+      "sha256": "dc97c45aa2711884f8297d575f468b233d20da21eab887495b3078d429523a75",
+      "clip_css": {
+        "x": 0,
+        "y": 6600,
+        "width": 580,
+        "height": 1200
+      },
+      "scroll_css": [
+        0,
+        6600
+      ],
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "opened_and_visually_reviewed": true,
+      "result": "passed",
+      "observation": "Reopening explanation and reopened-result header are coherent; active control and owner initial are visible."
+    },
+    {
+      "order": 8,
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part8.png",
+      "sha256": "d4b6fa144f2103291749fc82db91d7562a5a0e8ca6d122a29cb764e2166f6e46",
+      "clip_css": {
+        "x": 0,
+        "y": 7700,
+        "width": 580,
+        "height": 1200
+      },
+      "scroll_css": [
+        0,
+        7700
+      ],
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "opened_and_visually_reviewed": true,
+      "result": "passed",
+      "observation": "Reopened figure ends cleanly; attention and mention explanations remain readable; mention figure starts below its instruction."
+    },
+    {
+      "order": 9,
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part9.png",
+      "sha256": "7c75c19045e13c085e993119a0ec276d3a80d14c09f927157f9048c48150eadb",
+      "clip_css": {
+        "x": 0,
+        "y": 8800,
+        "width": 580,
+        "height": 1200
+      },
+      "scroll_css": [
+        0,
+        8800
+      ],
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "opened_and_visually_reviewed": true,
+      "result": "passed",
+      "observation": "Existing internal mention and owner context are visible; note instructions and both member choices in the draft selector are legible."
+    },
+    {
+      "order": 10,
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part10.png",
+      "sha256": "64af5b1b6770586ab7208fd6331d6456431254226289ee851b9069f1e9b4c64e",
+      "clip_css": {
+        "x": 0,
+        "y": 9900,
+        "width": 580,
+        "height": 1200
+      },
+      "scroll_css": [
+        0,
+        9900
+      ],
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "opened_and_visually_reviewed": true,
+      "result": "passed",
+      "observation": "Draft-note figure ends cleanly; label instructions and complete Labels submenu remain within the frame; selected Priority state is visible."
+    },
+    {
+      "order": 11,
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part11.png",
+      "sha256": "494c7730caaf6bd93901223f8af947ce1b531601b0097c74eb2450397ac5e0f9",
+      "clip_css": {
+        "x": 0,
+        "y": 11000,
+        "width": 580,
+        "height": 1200
+      },
+      "scroll_css": [
+        0,
+        11000
+      ],
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "opened_and_visually_reviewed": true,
+      "result": "passed",
+      "observation": "Seven filter names, daily workflow and automation section are legible with consistent spacing and no horizontal overflow."
+    },
+    {
+      "order": 12,
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-es-580-full-part12.png",
+      "sha256": "b2e761ef786e8b73920eeef9ab19a504f0d71a69f19346615d8913a657e0d410",
+      "clip_css": {
+        "x": 0,
+        "y": 12078,
+        "width": 580,
+        "height": 1200
+      },
+      "scroll_css": [
+        0,
+        12078
+      ],
+      "pixel_size": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "dpr": 2,
+      "opened_and_visually_reviewed": true,
+      "result": "passed",
+      "observation": "Automation conclusion, related links, feedback/contact area and entire footer are visible without missing content."
+    }
+  ],
+  "limits": [
+    "No new application source audit, runtime action or database check was performed by this reviewer.",
+    "No browser, build, article/asset edit, inventory status change, commit or publication was performed.",
+    "This receipt covers ES580 composition and general coherence only; it does not replace the separately assigned figure-detail, other viewport, English, source or publication checks."
+  ]
+}

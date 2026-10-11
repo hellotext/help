@@ -1,0 +1,1804 @@
+{
+  "status": "final_native_view_capture_pixel_review_pending",
+  "checkpoint_sha256": "0bd6cb163addafb1b9aec4223fbb752ae92d83f95df58191b8c18c45a45f917c",
+  "capture_route": "Native Chrome Page.captureScreenshot PNG, Display P3 D65, DPR 2; no post-processing",
+  "view": {
+    "source": "_i18n/es/team/conversation-lifecycle.md",
+    "source_sha256": "c3509b86c6186e1c9cf6dc5a8b28dc9c4659eb4c7c2f9ad9c615c0a9ad5350f7",
+    "built_html": "_site/es/ciclo-conversacion-inbox.html",
+    "built_html_sha256": "9e75b1eedad65a58512a11863274d2f1716f1bf1befff073e5deb0514e0b4e1a",
+    "geometry": {
+      "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+      "title": "Ciclo de una conversación en el Inbox | Hellotext",
+      "locale": "es",
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "documentWidth": 390,
+      "documentHeight": 13306,
+      "article": {
+        "x": 16,
+        "y": 497.421875,
+        "width": 358,
+        "height": 12236.9453125,
+        "right": 374,
+        "bottom": 12734.3671875
+      },
+      "headings": [
+        "Cómo llega una conversación al InboxEnlace copiado",
+        "Entiende los estados principalesEnlace copiado",
+        "AbiertasEnlace copiado",
+        "Sin asignarEnlace copiado",
+        "AsignadasEnlace copiado",
+        "RecordatoriosEnlace copiado",
+        "CerradasEnlace copiado",
+        "Señales de atención y mencionesEnlace copiado",
+        "Necesita atenciónEnlace copiado",
+        "MencionadosEnlace copiado",
+        "Usa notas y etiquetas sin cambiar el responsableEnlace copiado",
+        "Filtra el Inbox de forma deliberadaEnlace copiado",
+        "Cómo afecta la automatización al cicloEnlace copiado",
+        "Guías relacionadasEnlace copiado"
+      ],
+      "figures": [
+        {
+          "id": "snooze-options",
+          "figure": {
+            "x": 16,
+            "y": 3018.234375,
+            "width": 358,
+            "height": 860.25,
+            "right": 374,
+            "bottom": 3878.484375
+          },
+          "stage": {
+            "x": 16,
+            "y": 3018.234375,
+            "width": 358,
+            "height": 860.25,
+            "right": 374,
+            "bottom": 3878.484375
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 3037.234375,
+            "width": 328,
+            "height": 822.25,
+            "right": 359,
+            "bottom": 3859.484375
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 3043.234375,
+            "width": 315.9921875,
+            "height": 810.25,
+            "right": 352.9921875,
+            "bottom": 3853.484375
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:4312/images/editorial/inbox-actions-continuation-20261010/snooze-options-es-mobile.png",
+          "naturalSize": [
+            390,
+            1000
+          ],
+          "loaded": true,
+          "alt": "Menú Posponer abierto en una conversación del Inbox, con las opciones de tiempo disponibles.",
+          "caption": "Interfaz real con datos ficticios. Opciones para posponer una conversación antes de confirmar el recordatorio.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "custom-reminder",
+          "figure": {
+            "x": 16,
+            "y": 4022.484375,
+            "width": 358,
+            "height": 211.171875,
+            "right": 374,
+            "bottom": 4233.65625
+          },
+          "stage": {
+            "x": 16,
+            "y": 4022.484375,
+            "width": 358,
+            "height": 211.171875,
+            "right": 374,
+            "bottom": 4233.65625
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 4041.484375,
+            "width": 328,
+            "height": 173.171875,
+            "right": 359,
+            "bottom": 4214.65625
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 4047.484375,
+            "width": 315.9921875,
+            "height": 161.171875,
+            "right": 352.9921875,
+            "bottom": 4208.65625
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:4312/images/editorial/conversation-lifecycle-20261011/custom-reminder-es-mobile-540.png",
+          "naturalSize": [
+            498,
+            254
+          ],
+          "loaded": true,
+          "alt": "Diálogo Posponer conversación con los campos de fecha y hora y el botón Snooze.",
+          "caption": "Interfaz real con datos ficticios. La fecha y la hora están elegidas; este recordatorio todavía no se ha guardado.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "snoozed-result",
+          "figure": {
+            "x": 16,
+            "y": 4497.65625,
+            "width": 358,
+            "height": 860.25,
+            "right": 374,
+            "bottom": 5357.90625
+          },
+          "stage": {
+            "x": 16,
+            "y": 4497.65625,
+            "width": 358,
+            "height": 860.25,
+            "right": 374,
+            "bottom": 5357.90625
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 4516.65625,
+            "width": 328,
+            "height": 822.25,
+            "right": 359,
+            "bottom": 5338.90625
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 4522.65625,
+            "width": 315.9921875,
+            "height": 810.25,
+            "right": 352.9921875,
+            "bottom": 5332.90625
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:4312/images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-mobile.png",
+          "naturalSize": [
+            390,
+            1000
+          ],
+          "loaded": true,
+          "alt": "Conversación pospuesta en el Inbox, con Reabrir y el registro de Posponer visibles.",
+          "caption": "Interfaz real con datos ficticios después de posponer una conversación.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "closed-result",
+          "figure": {
+            "x": 16,
+            "y": 5708.109375,
+            "width": 358,
+            "height": 860.25,
+            "right": 374,
+            "bottom": 6568.359375
+          },
+          "stage": {
+            "x": 16,
+            "y": 5708.109375,
+            "width": 358,
+            "height": 860.25,
+            "right": 374,
+            "bottom": 6568.359375
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 5727.109375,
+            "width": 328,
+            "height": 822.25,
+            "right": 359,
+            "bottom": 6549.359375
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 5733.109375,
+            "width": 315.9921875,
+            "height": 810.25,
+            "right": 352.9921875,
+            "bottom": 6543.359375
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:4312/images/editorial/inbox-actions-continuation-20261010/closed-result-es-mobile.png",
+          "naturalSize": [
+            390,
+            1000
+          ],
+          "loaded": true,
+          "alt": "Conversación cerrada en el Inbox, con Reabrir y el registro de cierre visibles.",
+          "caption": "Interfaz real con datos ficticios después de cerrar una conversación.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "reopened-result",
+          "figure": {
+            "x": 16,
+            "y": 6920.359375,
+            "width": 358,
+            "height": 860.25,
+            "right": 374,
+            "bottom": 7780.609375
+          },
+          "stage": {
+            "x": 16,
+            "y": 6920.359375,
+            "width": 358,
+            "height": 860.25,
+            "right": 374,
+            "bottom": 7780.609375
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 6939.359375,
+            "width": 328,
+            "height": 822.25,
+            "right": 359,
+            "bottom": 7761.609375
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 6945.359375,
+            "width": 315.9921875,
+            "height": 810.25,
+            "right": 352.9921875,
+            "bottom": 7755.609375
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:4312/images/editorial/inbox-actions-continuation-20261010/reopened-result-es-mobile.png",
+          "naturalSize": [
+            390,
+            1000
+          ],
+          "loaded": true,
+          "alt": "Conversación reabierta en el Inbox, con su responsable humano y los controles activos visibles.",
+          "caption": "Interfaz real con datos ficticios tras reabrir manualmente una conversación cerrada.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "mentioned-context",
+          "figure": {
+            "x": 16,
+            "y": 8681.015625,
+            "width": 358,
+            "height": 477.8125,
+            "right": 374,
+            "bottom": 9158.828125
+          },
+          "stage": {
+            "x": 16,
+            "y": 8681.015625,
+            "width": 358,
+            "height": 477.8125,
+            "right": 374,
+            "bottom": 9158.828125
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 8700.015625,
+            "width": 328,
+            "height": 439.8125,
+            "right": 359,
+            "bottom": 9139.828125
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 8706.015625,
+            "width": 315.9921875,
+            "height": 427.8125,
+            "right": 352.9921875,
+            "bottom": 9133.828125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:4312/images/editorial/conversation-lifecycle-20261011/mentioned-context-es-mobile.png",
+          "naturalSize": [
+            390,
+            528
+          ],
+          "loaded": true,
+          "alt": "Nota interna con una mención en una conversación del Inbox.",
+          "caption": "Interfaz real con datos ficticios preparados antes de la captura. La nota y la mención ya existen; el responsable de la conversación se conserva.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "note-mention-draft",
+          "figure": {
+            "x": 16,
+            "y": 9570.828125,
+            "width": 358,
+            "height": 302.796875,
+            "right": 374,
+            "bottom": 9873.625
+          },
+          "stage": {
+            "x": 16,
+            "y": 9570.828125,
+            "width": 358,
+            "height": 302.796875,
+            "right": 374,
+            "bottom": 9873.625
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 9589.828125,
+            "width": 328,
+            "height": 264.796875,
+            "right": 359,
+            "bottom": 9854.625
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 9595.828125,
+            "width": 315.9921875,
+            "height": 252.796875,
+            "right": 352.9921875,
+            "bottom": 9848.625
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:4312/images/editorial/conversation-lifecycle-20261011/note-mention-draft-es-mobile.png",
+          "naturalSize": [
+            390,
+            312
+          ],
+          "loaded": true,
+          "alt": "Borrador de nota privada con el selector de integrantes para agregar una mención.",
+          "caption": "Interfaz real con datos ficticios. Borrador de una nota interna y selector de mención; la nota todavía no se ha guardado.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "conversation-labels",
+          "figure": {
+            "x": 16,
+            "y": 10313.625,
+            "width": 358,
+            "height": 456.7421875,
+            "right": 374,
+            "bottom": 10770.3671875
+          },
+          "stage": {
+            "x": 16,
+            "y": 10313.625,
+            "width": 358,
+            "height": 456.7421875,
+            "right": 374,
+            "bottom": 10770.3671875
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 10332.625,
+            "width": 328,
+            "height": 418.7421875,
+            "right": 359,
+            "bottom": 10751.3671875
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 10338.625,
+            "width": 315.9921875,
+            "height": 406.7421875,
+            "right": 352.9921875,
+            "bottom": 10745.3671875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:4312/images/editorial/conversation-lifecycle-20261011/conversation-labels-es-mobile.png",
+          "naturalSize": [
+            390,
+            502
+          ],
+          "loaded": true,
+          "alt": "Menú Etiquetas de una conversación con una etiqueta seleccionada.",
+          "caption": "Interfaz real con datos ficticios. La etiqueta ya estaba aplicada antes de la captura; no se cambió ninguna opción en este menú.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        }
+      ]
+    },
+    "captures": [
+      {
+        "file": "conversation-lifecycle-es-390-full-part1.png",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "d39fab0f2298067414de6a8a36e4860ea7ac9fca4affbc388f4644e88b7292c1",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 0
+      },
+      {
+        "file": "conversation-lifecycle-es-390-full-part2.png",
+        "clip": {
+          "x": 0,
+          "y": 1100,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            1100
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "31920354392c767dc5c5727e913bd82ffd0f34c98051ed2caeea684b5106bdd4",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 100
+      },
+      {
+        "file": "conversation-lifecycle-es-390-full-part3.png",
+        "clip": {
+          "x": 0,
+          "y": 2200,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            2200
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "64e0fe38ebd3445eff6a3f2c6bc9abbbca4bda755eb27c47d17751c428d3af7a",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 100
+      },
+      {
+        "file": "conversation-lifecycle-es-390-full-part4.png",
+        "clip": {
+          "x": 0,
+          "y": 3300,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            3300
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "45115e184384ec924f0fa0189fb7a1abf882ab6d0ad33640eebc0302332e59bc",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 100
+      },
+      {
+        "file": "conversation-lifecycle-es-390-full-part5.png",
+        "clip": {
+          "x": 0,
+          "y": 4400,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4400
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "1ee140fc20aa98e2cb0d2c27dfa5f30c5fdc5c9190e547d8ef891b7b868d35dd",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 100
+      },
+      {
+        "file": "conversation-lifecycle-es-390-full-part6.png",
+        "clip": {
+          "x": 0,
+          "y": 5500,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5500
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "7cc03af35a7f61dbea754d18174681e9311c3fac7b826de73cce9dc2d77e8ebf",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 100
+      },
+      {
+        "file": "conversation-lifecycle-es-390-full-part7.png",
+        "clip": {
+          "x": 0,
+          "y": 6600,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6600
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "8429102d95b5c8f0d45509bd18c3d25624997d74a952caa18611055d5d43033c",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 100
+      },
+      {
+        "file": "conversation-lifecycle-es-390-full-part8.png",
+        "clip": {
+          "x": 0,
+          "y": 7700,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7700
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "45d6b5b8285a66b21234b28c1e70ce773252ea60b0fb0379237b348b958e9943",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 100
+      },
+      {
+        "file": "conversation-lifecycle-es-390-full-part9.png",
+        "clip": {
+          "x": 0,
+          "y": 8800,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8800
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "c962c9dd4e52b92c52579d34963b0c93f4d7991b9fa089b065053c363f5286e4",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 100
+      },
+      {
+        "file": "conversation-lifecycle-es-390-full-part10.png",
+        "clip": {
+          "x": 0,
+          "y": 9900,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9900
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "6e1dccca5bd2dc4f9cbc6a3e817dddc7a682ab9843a85a5f0d03e1160889d4ba",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 100
+      },
+      {
+        "file": "conversation-lifecycle-es-390-full-part11.png",
+        "clip": {
+          "x": 0,
+          "y": 11000,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            11000
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "eba03a92ca5dc23c0cd1bd91c5adaaf77bf0afc2cb5d76fc64046b94f7d5a18a",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 100
+      },
+      {
+        "file": "conversation-lifecycle-es-390-full-part12.png",
+        "clip": {
+          "x": 0,
+          "y": 12100,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            12100
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "ba5fa6b0221f01455b12e4fbae903e45e0c6e829975ab6f939abfcd7475ee507",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 100
+      },
+      {
+        "file": "conversation-lifecycle-es-390-full-part13.png",
+        "clip": {
+          "x": 0,
+          "y": 12106.5,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            12106.5
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "2df14663bd7ca337be002e65a3b95404fb448e5d6280503516b425c65f258cfd",
+        "complete_page_segment": true,
+        "documentHeight": 13306,
+        "overlap_css": 1193.5
+      },
+      {
+        "file": "conversation-lifecycle-es-390-snooze-options.png",
+        "clip": {
+          "x": 4,
+          "y": 3006,
+          "width": 382,
+          "height": 885
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            2848.5
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          1770
+        ],
+        "icc": "Display P3",
+        "sha256": "7bbcd7e12f22ce620a57bdb583bf387c0ae50790f828e0497e1620c7eec66e87"
+      },
+      {
+        "file": "conversation-lifecycle-es-390-custom-reminder.png",
+        "clip": {
+          "x": 4,
+          "y": 4010,
+          "width": 382,
+          "height": 236
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            3528
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          472
+        ],
+        "icc": "Display P3",
+        "sha256": "2b6661f00fd9469e20df70c337567306a248ce50db85eaafb1e28208860bceff"
+      },
+      {
+        "file": "conversation-lifecycle-es-390-snoozed-result.png",
+        "clip": {
+          "x": 4,
+          "y": 4485,
+          "width": 382,
+          "height": 885
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4328
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          1770
+        ],
+        "icc": "Display P3",
+        "sha256": "7bbdd89fc13aae22956cf3d501b03a252df6044c0d734701aeabe223cd4dce96"
+      },
+      {
+        "file": "conversation-lifecycle-es-390-closed-result.png",
+        "clip": {
+          "x": 4,
+          "y": 5696,
+          "width": 382,
+          "height": 885
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5538
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          1770
+        ],
+        "icc": "Display P3",
+        "sha256": "6e215c97868b5ec983b340b35a9d52783b39a64a9f9ed751f5991585dca18079"
+      },
+      {
+        "file": "conversation-lifecycle-es-390-reopened-result.png",
+        "clip": {
+          "x": 4,
+          "y": 6908,
+          "width": 382,
+          "height": 885
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6750.5
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          1770
+        ],
+        "icc": "Display P3",
+        "sha256": "980769ca66c406f5640798fc05589ff07ca297592544cd7a3cf62f735c800b31"
+      },
+      {
+        "file": "conversation-lifecycle-es-390-mentioned-context.png",
+        "clip": {
+          "x": 4,
+          "y": 8669,
+          "width": 382,
+          "height": 502
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8320
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          1004
+        ],
+        "icc": "Display P3",
+        "sha256": "66bc17a5a2bddce1d2748a276d302e17a5eae96ecf35a105393b00507265acdf"
+      },
+      {
+        "file": "conversation-lifecycle-es-390-note-mention-draft.png",
+        "clip": {
+          "x": 4,
+          "y": 9558,
+          "width": 382,
+          "height": 328
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9122
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          656
+        ],
+        "icc": "Display P3",
+        "sha256": "35fcab5180980ebe47be573dcb3aaf64a43c916ba34d06474a999ed4c6fb0177"
+      },
+      {
+        "file": "conversation-lifecycle-es-390-conversation-labels.png",
+        "clip": {
+          "x": 4,
+          "y": 10301,
+          "width": 382,
+          "height": 482
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+          "title": "Ciclo de una conversación en el Inbox | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9942
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          964
+        ],
+        "icc": "Display P3",
+        "sha256": "543e0e77b4ac1d2fc59968fa949e0fd682f0710174b3d2c10002b535428dfce2"
+      }
+    ]
+  }
+}

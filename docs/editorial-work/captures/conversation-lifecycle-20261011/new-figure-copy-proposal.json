@@ -1,0 +1,67 @@
+{
+  "status": "native_controls_and_source_pixels_verified",
+  "scenes": {
+    "custom-reminder": {
+      "es": {
+        "lead": "Para elegir otro momento, selecciona **Personalizado**, establece la fecha y la hora y confirma con **Snooze**.",
+        "aria": "Elige un recordatorio personalizado",
+        "alt": "Diálogo Posponer conversación con los campos de fecha y hora y el botón Snooze.",
+        "caption": "Interfaz real con datos ficticios. La fecha y la hora están elegidas; este recordatorio todavía no se ha guardado."
+      },
+      "en": {
+        "lead": "To choose another time, select **Custom**, set the date and time, and confirm with **Snooze**.",
+        "aria": "Choose a custom reminder",
+        "alt": "Snooze conversation dialog with date and time fields and the Snooze button.",
+        "caption": "Real interface with fictional data. A date and time have been selected; this reminder has not been saved."
+      }
+    },
+    "note-mention-draft": {
+      "es": {
+        "lead": "Selecciona **Agregar nota privada** en la barra del editor. Escribe `@` y elige al integrante que quieres mencionar.",
+        "aria": "Escribe una nota interna con una mención",
+        "alt": "Borrador de nota privada con el selector de integrantes para agregar una mención.",
+        "caption": "Interfaz real con datos ficticios. Borrador de una nota interna y selector de mención; la nota todavía no se ha guardado."
+      },
+      "en": {
+        "lead": "Select **Add private note** in the editor toolbar. Type `@` and choose the teammate you want to mention.",
+        "aria": "Write an internal note with a mention",
+        "alt": "Private-note draft with the teammate picker for adding a mention.",
+        "caption": "Real interface with fictional data. An internal-note draft and mention picker; the note has not been saved."
+      }
+    },
+    "mentioned-context": {
+      "es": {
+        "lead": "",
+        "aria": "Reconoce una mención sin cambiar al responsable",
+        "alt": "Nota interna con una mención en una conversación del Inbox.",
+        "caption": "Interfaz real con datos ficticios preparados antes de la captura. La nota y la mención ya existen; el responsable de la conversación se conserva."
+      },
+      "en": {
+        "lead": "",
+        "aria": "Recognize a mention without changing ownership",
+        "alt": "An internal note with a mention in an Inbox conversation.",
+        "caption": "Real interface with fictional data prepared before capture. The note and mention already exist; the conversation owner is retained."
+      }
+    },
+    "conversation-labels": {
+      "es": {
+        "lead": "Abre **Acciones** y selecciona **Etiquetas** para revisar las etiquetas de la conversación.",
+        "aria": "Revisa las etiquetas de la conversación",
+        "alt": "Menú Etiquetas de una conversación con una etiqueta seleccionada.",
+        "caption": "Interfaz real con datos ficticios. La etiqueta ya estaba aplicada antes de la captura; no se cambió ninguna opción en este menú."
+      },
+      "en": {
+        "lead": "Open **Actions** and select **Labels** to review the conversation’s labels.",
+        "aria": "Review the conversation labels",
+        "alt": "A conversation’s Labels menu with a selected label.",
+        "caption": "Real interface with fictional data. The label was applied before capture; no option in this menu was changed."
+      }
+    }
+  },
+  "pending_access_check": "Resolved: native Agregar nota privada / Add private note toolbar entry verified in ES/EN by capture owner and independent native pixel reviews; Trix draft/teammate picker not submitted.",
+  "observed_native_control_delta": {
+    "source": "custom-reminder-es-desktop.png (root raw pixels accepted; complete admission pending)",
+    "finding": "The Spanish dialog title is Posponer conversación while its native submit label is Snooze. Prose must quote Snooze when referring to that exact button.",
+    "ui_changed": false
+  }
+}
