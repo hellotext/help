@@ -1,9 +1,10 @@
 # Customize a playbook safely — visual completion
 
-Status: **ready for verifying commit; local build and complete rendered Help review passed**.
+Status: **locally verified at `76dfd6364331a16100696ade6d44e27ce60dc9c3`; publication remains separate**.
 This record covers only `journeys/how-to-customize-a-playbook-safely.md` in ES and EN,
-based on Help `046e27c78f8431ad46f87a8e31048907b2d34d56`. The inventory remains
-unchanged. The earlier shared preparation record, `playbook-followup.md`, remains
+based on Help `046e27c78f8431ad46f87a8e31048907b2d34d56`. The inventory now cites
+that real verifying commit. The earlier shared preparation record,
+`playbook-followup.md`, remains
 intact and is also preserved with the original article bodies in this batch.
 
 ## Integrated scope
@@ -116,9 +117,13 @@ errors and zero runtime exceptions. That later check does not relabel the old
 receipt or substitute for the individual pixel reviews. No article, CSS, source
 image or captured pixel changed to resolve the control.
 
-`local-verification.json` binds this final review and the frozen evidence index.
-Historical preparation, integration and failed-capture receipts keep their
-original meanings. The CSV remains `in_progress` until the independent precommit
-review and a real verifying commit. A separate closure receipt and inventory
-update will cite that actual commit; neither a commit nor publication is claimed
-by this pre-commit record.
+`local-verification.json` preserves the pre-commit verification and its original
+work-record hash. The independent precommit review passed before verifying commit
+`76dfd6364331a16100696ade6d44e27ce60dc9c3`. The separate
+`local-verification-committed.json` binds that actual commit to the unchanged
+final review, article bodies, source images and evidence index.
+
+Only this guide's inventory row is now `local_verified`; the other 153 rows are
+unchanged. The earlier preparation, integration and failed-capture receipts keep
+their original meanings. This is a local editorial closure, not a claim of
+publication or deployment.

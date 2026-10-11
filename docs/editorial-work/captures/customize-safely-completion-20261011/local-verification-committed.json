@@ -1,0 +1,107 @@
+{
+  "schema": "customize-local-verification-committed-v1",
+  "status": "passed",
+  "recorded_at": "2026-10-11T13:17:11.807333+00:00",
+  "article_key": "journeys/how-to-customize-a-playbook-safely.md",
+  "verifying_commit": "76dfd6364331a16100696ade6d44e27ce60dc9c3",
+  "remaining_blockers": [],
+  "final_review": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/final-review.json",
+    "sha256": "3d7aaad079aa1c660fe69e4e7826616906dc2455706b33f917c5fe9aa347de5e"
+  },
+  "evidence_index": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/evidence-index.json",
+    "sha256": "b46f085c780ecadc896fd0edc07a9766c400394e899e5dd3252c6816f9713496"
+  },
+  "precommit_verification": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/local-verification.json",
+    "sha256": "1f86f6596eb2e784c9b4359466a7e128f4e5dd9962572f8a3334e1246670cd8e",
+    "scope": "Historical pre-A receipt; its work-record hash names the version preserved in verifying commit A."
+  },
+  "work_record": {
+    "path": "docs/editorial-work/customize-safely-completion.md",
+    "sha256": "55a201399c16f1e86e04192ccd7dc755064f62c96b59bd22cd9acb3dbbbf5b39"
+  },
+  "source_register": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/source-register.json",
+    "sha256": "5c65bed637ba25db1a52391a146c57f7b57de8c44aace0bbdfa97b43b2a94282"
+  },
+  "articles": [
+    {
+      "path": "_i18n/es/journeys/how-to-customize-a-playbook-safely.md",
+      "sha256": "fbcf73ac6ab8bbc90abc0e7ae643bfc9c2cb790d30085971622199bc3232dc7b",
+      "built_html": "_site/es/como-personalizar-una-mision.html",
+      "built_html_sha256": "dac1f461609e091eb45b39089798a50d4dcca6120445cf68fa7d2a6bc353fcb0",
+      "figures": 17
+    },
+    {
+      "path": "_i18n/en/journeys/how-to-customize-a-playbook-safely.md",
+      "sha256": "39fc8f3d15c875e405a2ab7997026cf685f09ddfb1f88c33def4089167d6cd61",
+      "built_html": "_site/how-to-customize-a-playbook-safely.html",
+      "built_html_sha256": "8450efe78e5bbf42dc8dc232797e42fa9f987c5602c95c170f76fd96faf31a14",
+      "figures": 17
+    }
+  ],
+  "checks": {
+    "source_pngs": 68,
+    "new_source_pngs": 28,
+    "retained_source_pngs": 40,
+    "selected_source_pngs": 66,
+    "localized_built_png_copies": 136,
+    "complete_page_views": 6,
+    "page_segments": 162,
+    "figure_details": 102,
+    "table_scroll_images": 12,
+    "http_resources": 144,
+    "article_links": 58,
+    "authoring_absence_probes": 7,
+    "owned_services_closed": true
+  },
+  "historical_capture": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/page-review/capture-receipt.json",
+    "sha256": "509abb3c2384a4255cacec44d77195997a98095de2fab8c775c1efad25a415f0",
+    "status_preserved": "failed",
+    "cause": "Unknown and not reproduced; no retrospective request attribution."
+  },
+  "current_load_control": {
+    "path": "docs/editorial-work/captures/customize-safely-completion-20261011/validation/render-load-root-closure.json",
+    "sha256": "85e9fec4d169657e25aeaad186cc217c83d458617c801b75271988f76e2b18bf"
+  },
+  "inventory": {
+    "path": "docs/editorial-work/progress.csv",
+    "before_sha256": "a7fbdb265a30990d3083eda5f47963014842921b38c0576875c5acd2d45fad57",
+    "after_sha256": "30be6b995f1747eb9e1a100c6fdd861b812326498719076470ae28135db50612",
+    "before_row": {
+      "article_key": "journeys/how-to-customize-a-playbook-safely.md",
+      "editorial_status": "in_progress",
+      "local_verified_commit": "1586f106f91e3e3b62f24ced8181d53c28e9a292",
+      "work_record": "docs/editorial-work/playbook-followup.md"
+    },
+    "after_row": {
+      "article_key": "journeys/how-to-customize-a-playbook-safely.md",
+      "editorial_status": "local_verified",
+      "local_verified_commit": "76dfd6364331a16100696ade6d44e27ce60dc9c3",
+      "work_record": "docs/editorial-work/customize-safely-completion.md"
+    },
+    "row_count": 154,
+    "other_rows_preserved_byte_exact": 153,
+    "status_counts": {
+      "local_verified": 118,
+      "pending": 32,
+      "out_of_scope": 1,
+      "in_progress": 2,
+      "visual_pending": 1
+    },
+    "unresolved_pairs": 35
+  },
+  "preserved_from_verifying_commit": [
+    "article bodies",
+    "all68sourcePNGs",
+    "pre-Averificationreceipt",
+    "final-review",
+    "evidence-index",
+    "source-register"
+  ],
+  "closure_commit_created_by_this_action": false,
+  "publication": false
+}
