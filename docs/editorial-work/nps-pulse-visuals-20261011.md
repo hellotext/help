@@ -1,3 +1,11 @@
+# NPS Pulse — commit closure
+
+The actual local verifying commit is `c38c69518c0b80cac09f7c85db53db58d3e38679`. The bilingual pair is now `local_verified`; the other 153 inventory rows are unchanged and 37 pairs remain unresolved. The [committed verification receipt](captures/nps-pulse-visuals-20261011/local-verification-committed.json) binds the source, build and complete pixel review. No local blockers remain. Publication checks and deployment are tracked separately by the publication owner.
+
+## Preserved local verification record
+
+The following section records the state before the real verifier commit and inventory closure.
+
 # NPS Pulse — completed local visual review
 
 All local controls passed; the real verifying commit and inventory closure are the next step. No publication is claimed by this work record.
