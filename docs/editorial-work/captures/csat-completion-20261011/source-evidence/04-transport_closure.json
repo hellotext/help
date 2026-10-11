@@ -1,0 +1,38 @@
+{
+  "status": "closed_transport_verified",
+  "cdp_allowed_requests": {
+    "GET": 691
+  },
+  "cdp_blocked_requests": {
+    "POST": 8
+  },
+  "cdp_blocked_native_cable_attempts": 55,
+  "proxy_status_counts": [
+    {
+      "method": "CONNECT",
+      "status": 403,
+      "count": 237
+    },
+    {
+      "method": "GET",
+      "status": 200,
+      "count": 691
+    },
+    {
+      "method": "GET",
+      "status": 403,
+      "count": 9
+    }
+  ],
+  "non_read_requests_forwarded": 0,
+  "tunnels_forwarded": 0,
+  "proxy502": 0,
+  "blank_verified_after_each_locale": true,
+  "sidecar_network_scope": "Two final per-session cumulative ledgers, each counted once. Browser native push initialization and cable attempts were denied, not omitted.",
+  "private_ledger_sha256": [
+    "ce319702113664d8a6cab12689e807e58aeae023f62382b468b43ef7826a9c93",
+    "e48090fabd9ad969b31c6a6e2c4612b451cbd45f42421e47b4120bbe4a3b97a5"
+  ],
+  "private_proxy_log_sha256": "00d4329a71f497657edc1416a2e769661fb5d9ab04307111e1aa79c174c5b58f",
+  "limits": "This counts this owned capture transport only; no claim about systemwide network activity. Browser background CONNECT and GET requests denied by proxy are included."
+}

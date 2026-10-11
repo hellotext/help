@@ -1,0 +1,30 @@
+{
+  "status": "closed_and_verified",
+  "at": "2026-10-11T14:49:00.264702+00:00",
+  "checkpoint_sha256": "5e87fb5f2c20530354e4c1abb55946752a64eb16a46716e78e4275b015b33943",
+  "scope_sha256": "2dc5d11213bc43358703482dae199fe190266508b96f88f7615e7a93a30d5963",
+  "process_receipt": {
+    "path": "docs/editorial-work/captures/csat-completion-20261011/validation/help-processes-stopped.json",
+    "sha256": "8e4435c6ba3a4aff4e51e8edd7d3d052ef7ede68f6415557101c7ebcd420f608"
+  },
+  "supervisor_exit_code": 0,
+  "server_pid": 29436,
+  "browser_pid": 29437,
+  "only_owned_process_groups_terminated": true,
+  "owned_processes_absent": true,
+  "profile_processes_absent": true,
+  "listeners": [
+    {
+      "port": 3361,
+      "listener_present": false,
+      "connect_ex": 61
+    },
+    {
+      "port": 9542,
+      "listener_present": false,
+      "connect_ex": 61
+    }
+  ],
+  "external_writes": false,
+  "capture_source_bytes_changed": false
+}

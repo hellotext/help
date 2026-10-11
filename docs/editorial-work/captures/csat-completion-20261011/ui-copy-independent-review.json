@@ -1,0 +1,212 @@
+{
+  "schema": "csat-ui-copy-independent-review-v1",
+  "at": "2026-10-11T14:23:44.284979+00:00",
+  "status": "passed",
+  "reviewer": "/root/runtime_isolation",
+  "scope": "Read-only review of exactly four declared UI-copy adjustments in each locale against immutable native templates/localizations and four actual ES desktop sources. Baseline for subsequent integration; no Help edits.",
+  "worktree": "help-csat-completion-20261011",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "bindings": {
+    "ui_copy_adjustment": {
+      "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/ui-copy-adjustment.json",
+      "sha256": "a2e88cc2ae6107688aca49a683206f6cb3b79941ba6518e43fe5c7a13e569014"
+    },
+    "prior_report_review": {
+      "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/report-integration-independent-review.json",
+      "sha256": "c0a6a018821871de2581b8ec92a4942a991070441410d3d4fb4a6ae4d51e3aed"
+    },
+    "prior_behavior_copy_review": {
+      "path": "audit/csat-completion-20261011/copy-independent-review.json",
+      "sha256": "76b996f734d8d0e5dac924949be31a5315a01c22a0c09ccd44aafe107a173201"
+    }
+  },
+  "source_bindings": [
+    {
+      "path": "config/locales/views/playbooks/es.yml",
+      "sha256": "2e76381965fdd69a0c5b939ac47bf99e4ad0c8a109e6171db69572fa697d5a6d",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "config/locales/views/playbooks/en.yml",
+      "sha256": "0cd46ff6498f9b50d0cca7372e575bcaba911b3d8ddf54a4b0c4d7e84486fc02",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "app/views/playbook/component/messages/_form.html.erb",
+      "sha256": "d24cc792e64dd9b40c0bce10c6aabe9d9f36c00ee7bd5b44e47f6f5d267c4f30",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "app/views/playbook/component/messages/_reply.html.erb",
+      "sha256": "56fde2bac22783ad277e31cfd4e0ec5533fec856c7911cbe6da2ad430f94215f",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "app/views/playbook/previews/_csat.html.erb",
+      "sha256": "c2ef303b8f767b28f84a1e19e96a7d60f6d044a7bb9d8d7451a90d29e4a02505",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "config/locales/models/playbook/component/message/es.yml",
+      "sha256": "232e5147262c102764dbbd10f078fe009efbeeea04e6ff088124d43291d49df8",
+      "snapshot_matches_git_object": true
+    },
+    {
+      "path": "config/locales/models/playbook/component/message/en.yml",
+      "sha256": "dc76ee13543b5af2d3b5246d70554620cfab7988f2c2fbab4d8d68b9d1a3127d",
+      "snapshot_matches_git_object": true
+    }
+  ],
+  "records": [
+    {
+      "locale": "es",
+      "article": "_i18n/es/journeys/csat-pulse-playbook.md",
+      "article_sha256": "4426575f7c7b37c1a3cf1cc8d8e722b2b56cb649473b337651bb4692519a167f",
+      "before": {
+        "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/before-ui-copy/es.md",
+        "sha256": "403eec6fdeea4cfedfa0a75bb63ba59035e98aa5b0a1ae1e552e77965036113a"
+      },
+      "four_declared_replacements_reproduce_exact_current_bytes": true,
+      "headings_preserved": 12,
+      "ordered_links_preserved": 24,
+      "report_section_byte_equal": true,
+      "report_section_sha256": "1405ab284c43eb58c0ae7f12824f1caa9b36e3593d26535dcdd1a4e3981c88e5",
+      "report_png_preserved": {
+        "path": "help-csat-completion-20261011/images/analytics-reporting-attribution/service-quality-report-guide/resolution-csat-es.png",
+        "sha256": "dd80835c1f99f63dfcc8b15c4a8d80d472966dffe1b0cf8c3fb95763c713c4be"
+      },
+      "report_provenance_preserved": {
+        "path": "help-csat-completion-20261011/docs/editorial-work/captures/service-quality-report-guide/resolution-csat-es.json",
+        "sha256": "60ba229bbebcccb1fa28f22ac7c77344fd37354254a9cd72d23b686361ab4d98"
+      },
+      "full_current_body_read": true,
+      "status": "passed"
+    },
+    {
+      "locale": "en",
+      "article": "_i18n/en/journeys/csat-pulse-playbook.md",
+      "article_sha256": "52298916a16a86e9fed1b769a7fb8b882b7c73489402295c2efa275496f4ac69",
+      "before": {
+        "path": "help-csat-completion-20261011/docs/editorial-work/captures/csat-completion-20261011/before-ui-copy/en.md",
+        "sha256": "84b1585b1d32b952ae89ef7b5bf9499389cce214f8d8c1845eb761d5a8386b64"
+      },
+      "four_declared_replacements_reproduce_exact_current_bytes": true,
+      "headings_preserved": 12,
+      "ordered_links_preserved": 24,
+      "report_section_byte_equal": true,
+      "report_section_sha256": "90cc5f8a0ef585ba14255b3e9426615adbfa1b958b4d45bc14698d0c0fa9b86a",
+      "report_png_preserved": {
+        "path": "help-csat-completion-20261011/images/analytics-reporting-attribution/service-quality-report-guide/resolution-csat-en.png",
+        "sha256": "1620c7d798175ee51e4047d471731c40304c0705e6615c2b176ef1e7f1757eeb"
+      },
+      "report_provenance_preserved": {
+        "path": "help-csat-completion-20261011/docs/editorial-work/captures/service-quality-report-guide/resolution-csat-en.json",
+        "sha256": "9ddd0e56077c862b8ec26e1e199a9fccad5c89ce4c373141527d4dc54232ead1"
+      },
+      "full_current_body_read": true,
+      "status": "passed"
+    }
+  ],
+  "checks": [
+    {
+      "topic": "native_message_name",
+      "status": "passed",
+      "es": "Mensaje de CSAT",
+      "en": "CSAT Message",
+      "evidence": "views/playbooks locales lines 223 and 230 and native _form title lookup."
+    },
+    {
+      "topic": "positive_heading_and_location",
+      "status": "passed",
+      "es": "Responder cuando sea positivo",
+      "en": "Reply with when positive",
+      "evidence": "Native message form renders the question followed by csat_positive and csat_negative replies, with exact localized headings; scrolling to the positive follow-up is supported."
+    },
+    {
+      "topic": "negative_heading_and_reasons",
+      "status": "passed",
+      "es": "Responder cuando sea negativo",
+      "en": "Reply with when negative",
+      "evidence": "Native reply partial renders reply body and quick-reply buttons; negative defaults provide reason options in both locales."
+    },
+    {
+      "topic": "static_preview_and_send_claims",
+      "status": "passed",
+      "evidence": "Native _csat preview renders question and both response labels with noninteractive response buttons. Added copy directs review before enabling; no claim that this fixture sent a prompt or received an answer."
+    }
+  ],
+  "native_ES_visual_bindings": [
+    {
+      "path": "csat-capture-20261011/sources/question-controls-es-desktop.png",
+      "sha256": "d3dc1e1324eb56eeb138e47f9c0f86de05c6d0329ca6283ef8d6e1ed7c7b477c",
+      "scene": "question-controls",
+      "locale": "es",
+      "individually_viewed": true,
+      "observation": "Mensaje de CSAT title and the native question with Sí/No controls are visible.",
+      "viewing_limit": "view_image requested original; tool presentation resized to width 2048. Review confirms copy/labels only, not rendered Help layout acceptance."
+    },
+    {
+      "path": "csat-capture-20261011/sources/positive-response-es-desktop.png",
+      "sha256": "166188450b4b1da745bd6010f3e351fc499f63a77b596abbacbdbd2c5d6dda41",
+      "scene": "positive-response",
+      "locale": "es",
+      "individually_viewed": true,
+      "observation": "Responder cuando sea positivo title and configured follow-up editor are visible.",
+      "viewing_limit": "view_image requested original; tool presentation resized to width 2048. Review confirms copy/labels only, not rendered Help layout acceptance."
+    },
+    {
+      "path": "csat-capture-20261011/sources/negative-reasons-es-desktop.png",
+      "sha256": "f9c7334635951988d0c4b1a1a67844f42ae834215c358ec9773542ec24a447eb",
+      "scene": "negative-reasons",
+      "locale": "es",
+      "individually_viewed": true,
+      "observation": "Responder cuando sea negativo title, follow-up, and three reason options are visible.",
+      "viewing_limit": "view_image requested original; tool presentation resized to width 2048. Review confirms copy/labels only, not rendered Help layout acceptance."
+    },
+    {
+      "path": "csat-capture-20261011/sources/static-preview-es-desktop.png",
+      "sha256": "40ab11666cfb43794712bee4c63e78e24b7182bbb39dc167ef2388c0053aa3a2",
+      "scene": "static-preview",
+      "locale": "es",
+      "individually_viewed": true,
+      "observation": "The native static preview shows the question and its two response options; it is not a sent-message result.",
+      "viewing_limit": "view_image requested original; tool presentation resized to width 2048. Review confirms copy/labels only, not rendered Help layout acceptance."
+    }
+  ],
+  "preserved_files": [
+    {
+      "path": "_journeys/csat-pulse-playbook.md",
+      "sha256": "9f601f0fe423be41e4ca47d749b1863ea61807b409b234d10ae6105e217c3aea",
+      "matches_current_HEAD": true,
+      "matches_preparation_original": true
+    },
+    {
+      "path": "docs/editorial-work/progress.csv",
+      "sha256": "30be6b995f1747eb9e1a100c6fdd861b812326498719076470ae28135db50612",
+      "matches_current_HEAD": true,
+      "matches_preparation_original": true
+    },
+    {
+      "path": "docs/editorial-work/inventory.csv",
+      "sha256": "9e25ee375509dce1c03c79c52a7be4d3f87d4a22708033d2f3062a6d2b01abf6",
+      "matches_current_HEAD": true,
+      "matches_preparation_original": null
+    }
+  ],
+  "findings": [],
+  "remaining_copy_blockers": [],
+  "limitations": [
+    "EN labels and behavior validated against exact 8e Git objects and templates; EN screenshot pixels are not accepted by this receipt.",
+    "Full source admission, runtime closure and six-view rendered Help QA remain separate gates.",
+    "The preserved report section is bound to its prior independent review; report SQL/data were not re-audited here."
+  ],
+  "operations": {
+    "help_edits": false,
+    "app_edits": false,
+    "db_access": false,
+    "services_started": false,
+    "network_requests": false,
+    "runtime_helpers_executed": false,
+    "publication": false
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "status": "passed",
+  "locale": "es",
+  "width": 1440,
+  "reviewer": "conversation_article",
+  "at": "2026-10-11T14:46:51.163830+00:00",
+  "packet": {
+    "path": "docs/editorial-work/captures/csat-completion-20261011/validation/page-review/views/es-1440.json",
+    "sha256": "13b5fe2770ef953abaac1572306e54d82e7ae63f43caaa9a80da38208e6dd49d"
+  },
+  "checkpoint_sha256": "5e87fb5f2c20530354e4c1abb55946752a64eb16a46716e78e4275b015b33943",
+  "source": "_i18n/es/journeys/csat-pulse-playbook.md",
+  "source_sha256": "a42463f21184135700ff05d91d7668b297c80012f78711749a3f11617a2f320d",
+  "built_html": "_site/es/pulso-csat.html",
+  "built_html_sha256": "aa9f1736f207636bd10bd0d3ff0277968c4bca6a727cc8269f8a0128095012e2",
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 9,
+    "coverage_start_css": 0,
+    "coverage_end_css": 8985.5,
+    "document_height_css": 8985,
+    "end_tolerance_css": 1,
+    "minimum_overlap_css": 100,
+    "notes": [
+      "Every full-part PNG opened individually and reviewed in reading order, from header/title through all 12 sections, related links, feedback area and final footer.",
+      "Question, static preview, positive/negative replies, escalation and report remain adjacent to their explanatory prose. No text wrapping alongside figures, missing article content, horizontal clipping, scrollbar or stray overlay observed.",
+      "Prospective testing and launch checklists remain clearly instructions to the reader; the figures show configuration or explicitly fictional aggregate data."
+    ]
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 6,
+    "notes": [
+      "Each of the six figure detail PNGs opened individually. The five new UI figures have readable target controls, complete borders, balanced white-frame/lavender-stage insets and preserved proportions.",
+      "The report is accepted contextually with its immediately adjacent explanation, as allowed by docs/editorial/guide.md; this acceptance does not claim every small report label is comfortably readable inline."
+    ],
+    "report_contextual_acceptance": {
+      "native_width_css": 1207,
+      "rendered_image_width_css": 698.4140625,
+      "small_label_limitation": true,
+      "essential_information_in_adjacent_prose": [
+        "right card: 81% CSAT de agentes de IA and75% CSAT de colaboradores",
+        "fictional period11–24 September2026",
+        "left card measures resolution rather than CSAT",
+        "response-date period and positive/(positive+negative) calculation"
+      ],
+      "new_capture_or_upscale_used": false
+    }
+  },
+  "method": "Individual view_image calls requesting detail original for every listed PNG; no mosaic or metadata-only acceptance. PNG hashes, signatures, dimensions, every chunk CRC, embedded native Display P3 ICC and actual2x geometry checked independently after pixel review. Files and Help source were not modified.",
+  "files": [
+    {
+      "file": "csat-es-1440-full-part1.png",
+      "sha256": "731afb09db47c5048193ef09eb18ad4c3f37871f3f008b48cd73960b8831d18a",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "csat-es-1440-full-part2.png",
+      "sha256": "14d67bf44adb623382b47ea66411141c13aaced582e45c563da54213a7916c75",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "csat-es-1440-full-part3.png",
+      "sha256": "5cccd9a14df1864a42c4704294ec08d52758629283b57c6244048c8d6c332e60",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "csat-es-1440-full-part4.png",
+      "sha256": "89a0bc939fd14b3439ecefa7461c5d5ab9711795f5baa03686fef1c31a59a87a",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "csat-es-1440-full-part5.png",
+      "sha256": "430a89c418d96a2fd0c76f1fcde96d47b9a9aa41fdd79a9d7e6566ff6d5216de",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "csat-es-1440-full-part6.png",
+      "sha256": "6586a017709c1b9169ccff3948e6c928aeac081b32ed43a8e9c80567a14a99f8",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "csat-es-1440-full-part7.png",
+      "sha256": "2dcb0e6d1e62d493dc1c4133522609b9e95e2d649f80dbc7763537294222e70f",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "csat-es-1440-full-part8.png",
+      "sha256": "5ef0aabb1b03144fc408e4b0896a70810c1d447619ba8036299eb2e474511585",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "csat-es-1440-full-part9.png",
+      "sha256": "9604d67949accca3a45e0023983b35de43b5b6b3880f2f3ae30ee0c313f4a041",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 7785.5,
+        "width": 1440,
+        "height": 1200
+      },
+      "pixel_size": [
+        2880,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true
+    },
+    {
+      "file": "csat-es-1440-question-controls.png",
+      "sha256": "6900873cf3faba7b5e0f4e297c93610adba26c58dd6324b35aa8e8c1562b636d",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 3009,
+        "width": 800,
+        "height": 476
+      },
+      "pixel_size": [
+        1600,
+        952
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "figure_id": "question-controls",
+      "notes": "Exact title Mensaje de CSAT, default question, Sí/No options and editor toolbar visible; complete rounded white frame and lavender stage."
+    },
+    {
+      "file": "csat-es-1440-static-preview.png",
+      "sha256": "bf615ba5a8e656cbd90ab6db318e9738d6e5cdc15c949dad02b2d112f00bc6e7",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 3636,
+        "width": 800,
+        "height": 297
+      },
+      "pixel_size": [
+        1600,
+        594
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "figure_id": "static-preview",
+      "notes": "Complete question bubble and both native fixed answer buttons visible after the preview lead-in; no representation of delivery or a received answer."
+    },
+    {
+      "file": "csat-es-1440-positive-response.png",
+      "sha256": "7edd2921a6e3b85094cb7435bd541bd8af12fe8f9522b36b64f2b362c8a848ea",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 4854,
+        "width": 800,
+        "height": 318
+      },
+      "pixel_size": [
+        1600,
+        636
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "figure_id": "positive-response",
+      "notes": "Positive reply title and complete thank-you/follow-up text readable, with native editor toolbar; gray hand is the native toolbar icon."
+    },
+    {
+      "file": "csat-es-1440-negative-reasons.png",
+      "sha256": "edbdff95a03f7223f6b961ce69a1fa79779fa0a3d7e6ec4d4a9c69f7cabb23e1",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 5355,
+        "width": 800,
+        "height": 352
+      },
+      "pixel_size": [
+        1600,
+        704
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "figure_id": "negative-reasons",
+      "notes": "Negative reply title, complete follow-up and all three choices No resuelto / Info incorrecta / Otro visible; mobile choices wrap without clipping."
+    },
+    {
+      "file": "csat-es-1440-escalation-configuration.png",
+      "sha256": "cee0aecf01a104ec17bc3a1d90651dd89e8d834e0e703bfa763e7eca3c30c53d",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 5778,
+        "width": 800,
+        "height": 345
+      },
+      "pixel_size": [
+        1600,
+        690
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "figure_id": "escalation-configuration",
+      "notes": "Derivación title, component toggle and empty Selecciona persona o equipo control readable; native focus/caret in desktop retained, no selected destination claimed."
+    },
+    {
+      "file": "csat-es-1440-report.png",
+      "sha256": "97d1b4f0eb0fc53f9e8ed9326ec7ca81b0c7cea1d574900eeab20cd4f0c446c4",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 363,
+        "y": 6520,
+        "width": 800,
+        "height": 371
+      },
+      "pixel_size": [
+        1600,
+        742
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "figure_id": "report",
+      "notes": "Both complete report cards, 81% / 75% CSAT and 59% / 41% resolution values, shapes and green comparison indicators distinguishable. Small labels are not certified as comfortably readable at every inline width; adjacent prose explicitly names CSAT groups, right-versus-left cards, values, period and distinct measures."
+    }
+  ],
+  "findings": []
+}

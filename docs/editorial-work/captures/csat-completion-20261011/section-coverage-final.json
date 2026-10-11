@@ -1,0 +1,117 @@
+{
+  "status": "passed_final_section_coverage",
+  "at": "2026-10-11T14:55:17.302664+00:00",
+  "initial_plan_sha256": "846b57cc0b2c6bfb7ade0425f29a407615b8ac22d29679d67ead9da4feebe857",
+  "sections": [
+    {
+      "heading_es": "Qué hace Pulso CSAT",
+      "decision": "Conceptual purpose and supported behavior; native editor and branch figures in later sections avoid duplication.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Cuándo usarla",
+      "decision": "Use-case decisions need prose, not a distinct UI state.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Cómo convive con otros feedbacks",
+      "decision": "Comparison and canonical links; unrelated mission editors would repeat published guides.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Qué necesita antes de lanzarla",
+      "decision": "Prerequisites and channel consent must be verified by the reader. This batch cannot demonstrate external connected-channel or delivery outcomes.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Edita el mensaje CSAT",
+      "decision": "Question controls and resulting static preview cover configuration. Opening the catalog is a routine navigation step already described in text and canonical enable guide; no duplicate catalog screenshot needed.",
+      "status": "integrated_and_reviewed",
+      "figures": [
+        "question-controls",
+        "static-preview"
+      ]
+    },
+    {
+      "heading_es": "Elige cuándo debería dispararse",
+      "decision": "The resolved-interaction trigger is a fixed source-backed eligibility event, not a configurable schedule/control in this CSAT editor. Do not invent a trigger selector or a sent outcome.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Entiende elegibilidad",
+      "decision": "Rules are backend admission conditions; avoid an invented validation/result panel. Adjacent precise text carries the 14-day and audience/channel conditions.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Maneja respuestas positivas y negativas",
+      "decision": "Three complementary configuration states show each reply and the escalation target field. Empty destination is explicit; no performed response or assignment is implied.",
+      "status": "integrated_and_reviewed",
+      "figures": [
+        "positive-response",
+        "negative-reasons",
+        "escalation-configuration"
+      ]
+    },
+    {
+      "heading_es": "Revisa Satisfacción del cliente",
+      "decision": "Unchanged historical native report in both locale articles. Adjacent prose explicitly states synthetic period, AI81/team75 CSAT and separates resolution59/41; small report labels need not carry those concepts alone on mobile.",
+      "status": "integrated_and_reviewed",
+      "figures": [
+        "report"
+      ]
+    },
+    {
+      "heading_es": "Cómo probarla",
+      "decision": "Prospective reader checklist; no executed customer reply, send, or feedback outcome in this batch.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Qué revisar después del lanzamiento",
+      "decision": "Prospective operations and report links; report figure already covers relevant aggregate UI.",
+      "status": "prose"
+    },
+    {
+      "heading_es": "Guías relacionadas",
+      "decision": "Keep all existing canonical links; no visual needed for navigation list.",
+      "status": "prose"
+    }
+  ],
+  "new_source_count": 20,
+  "reused_report_source_count": 2,
+  "figures_per_locale": 6,
+  "remaining": [],
+  "full_guide_reviews": [
+    {
+      "path": "docs/editorial-work/captures/csat-completion-20261011/validation/page-es-1440-independent-review.json",
+      "sha256": "cadb9cbf93e5474c2684763cbd321a23320a1825e0760230912206fecb16eaba"
+    },
+    {
+      "path": "docs/editorial-work/captures/csat-completion-20261011/validation/page-es-580-independent-review.json",
+      "sha256": "c445cee998cb329db512c1b0314668bd7c87d61d34a28760d92d979cbad194c0"
+    },
+    {
+      "path": "docs/editorial-work/captures/csat-completion-20261011/validation/page-es-390-independent-review.json",
+      "sha256": "de291a124ce0de8c5e1806ef0092914e0c87e9a143823aacbc23175f74f2a497"
+    },
+    {
+      "path": "docs/editorial-work/captures/csat-completion-20261011/validation/page-en-1440-independent-review.json",
+      "sha256": "c5a0351ae4d0bc7fb8c67a8ea5dfcee70e836f5dad53d41bd0ea85fed3c72c08"
+    },
+    {
+      "path": "docs/editorial-work/captures/csat-completion-20261011/validation/page-en-580-independent-review.json",
+      "sha256": "35b7e8c4adc3bf6f8108d820cf55d02291e1e812159049a9e62d2d0927e598ef"
+    },
+    {
+      "path": "docs/editorial-work/captures/csat-completion-20261011/validation/page-en-390-independent-review.json",
+      "sha256": "eb4aed3ffd37d44585d07bf2e5f53060b4945ed8d04affdcf85d351c2a470571"
+    }
+  ],
+  "root_details": {
+    "path": "docs/editorial-work/captures/csat-completion-20261011/validation/root-figure-detail-review.json",
+    "sha256": "980f05790292eae52544f36d4d91f78585d2acc67a2afef94c716a6a2aa13b8e"
+  },
+  "segments": 56,
+  "details": 36,
+  "findings": [],
+  "report_mobile_limitation": "Historical full report has small labels at 390 CSS viewport. Immediate prose explains essential CSAT and resolution values/cards; contextual acceptance under shared adjacent-text rule, not standalone microtext readability."
+}

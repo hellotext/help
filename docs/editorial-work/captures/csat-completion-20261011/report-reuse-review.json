@@ -1,0 +1,165 @@
+{
+  "schema": "csat-report-reuse-review-v1",
+  "at": "2026-10-11T13:48:58.772892+00:00",
+  "status": "source_and_synthetic_calculation_passed_inline_review_pending",
+  "reviewer": "root",
+  "records": [
+    {
+      "locale": "es",
+      "image": "images/analytics-reporting-attribution/service-quality-report-guide/resolution-csat-es.png",
+      "sha256": "dd80835c1f99f63dfcc8b15c4a8d80d472966dffe1b0cf8c3fb95763c713c4be",
+      "provenance": "docs/editorial-work/captures/service-quality-report-guide/resolution-csat-es.json",
+      "provenance_sha256": "60ba229bbebcccb1fa28f22ac7c77344fd37354254a9cd72d23b686361ab4d98",
+      "new_capture": false,
+      "original_date": "2026-09-27",
+      "capture_route": "Historical native2x ScreenCaptureKit",
+      "source_pixels": {
+        "width": 2414,
+        "height": 932
+      },
+      "native_logical_width": 1207,
+      "source_metadata": [
+        "  format: png",
+        "  pixelWidth: 2414",
+        "  pixelHeight: 932",
+        "  profile: Display P3"
+      ],
+      "individually_viewed": true,
+      "pixel_review": "passed: complete two card borders,81/75CSAT with green+13/+2comparisons,59/41resolution context; correct locale, no pointer/private data; final inline readability remains pending",
+      "scope": "Actual historical native UI from synthetic aggregates; not new survey execution or delivery evidence."
+    },
+    {
+      "locale": "en",
+      "image": "images/analytics-reporting-attribution/service-quality-report-guide/resolution-csat-en.png",
+      "sha256": "1620c7d798175ee51e4047d471731c40304c0705e6615c2b176ef1e7f1757eeb",
+      "provenance": "docs/editorial-work/captures/service-quality-report-guide/resolution-csat-en.json",
+      "provenance_sha256": "9ddd0e56077c862b8ec26e1e199a9fccad5c89ce4c373141527d4dc54232ead1",
+      "new_capture": false,
+      "original_date": "2026-09-27",
+      "capture_route": "Historical native2x ScreenCaptureKit",
+      "source_pixels": {
+        "width": 2414,
+        "height": 940
+      },
+      "native_logical_width": 1207,
+      "source_metadata": [
+        "  format: png",
+        "  pixelWidth: 2414",
+        "  pixelHeight: 940",
+        "  profile: Display P3"
+      ],
+      "individually_viewed": true,
+      "pixel_review": "passed: complete two card borders,81/75CSAT with green+13/+2comparisons,59/41resolution context; correct locale, no pointer/private data; final inline readability remains pending",
+      "scope": "Actual historical native UI from synthetic aggregates; not new survey execution or delivery evidence."
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "app/models/report/widget/service_quality/customer_satisfaction.rb",
+      "source_8e_sha256": "947f861605f2edfda1d4195c5acdf1710634dab50012173937368979702353b0",
+      "matches_8e_git_object": true,
+      "equal_to_6ea_review_source": true,
+      "delta_review": "No widget change"
+    },
+    {
+      "path": "app/models/report/widget/service_quality/resolution_path.rb",
+      "source_8e_sha256": "62c9a792423948057fb7390baafb5976aecf3d5488665312f625b8448fabbe0a",
+      "matches_8e_git_object": true,
+      "equal_to_6ea_review_source": true,
+      "delta_review": "No widget change"
+    },
+    {
+      "path": "app/views/report/widgets/service_quality/_customer_satisfaction.html.erb",
+      "source_8e_sha256": "47e3e047cb0fb6fc406a4546022e281797c1c1aeb013c3335af3f1379be8addc",
+      "matches_8e_git_object": true,
+      "equal_to_6ea_review_source": true,
+      "delta_review": "No widget change"
+    },
+    {
+      "path": "app/views/report/widgets/service_quality/_customer_satisfaction_results.html.erb",
+      "source_8e_sha256": "b4a156fb4591fb0262cca7533aa34311f078c8e75c0e17ddc0a6591e4ca572f1",
+      "matches_8e_git_object": true,
+      "equal_to_6ea_review_source": true,
+      "delta_review": "No widget change"
+    },
+    {
+      "path": "app/views/report/widgets/service_quality/_customer_satisfaction_expression.html.erb",
+      "source_8e_sha256": "e2b0758f7af0bd9a068ac48b53f2560a861b0e09fab70a7b8cb80d31badf72d1",
+      "matches_8e_git_object": true,
+      "equal_to_6ea_review_source": true,
+      "delta_review": "No widget change"
+    },
+    {
+      "path": "config/locales/views/reports/es.yml",
+      "source_8e_sha256": "a170e1d2bb387b4ed2e6a4208e6a125eb4377e8ae7130161b4c0ab6a409f442b",
+      "matches_8e_git_object": true,
+      "equal_to_6ea_review_source": false,
+      "delta_review": "Complete locale diff read; changed operational-pressure, proactive messages, campaign short titles and agent workload tooltips. Resolution/CSAT labels unchanged."
+    },
+    {
+      "path": "config/locales/views/reports/en.yml",
+      "source_8e_sha256": "b1af8a2317d6ca3f56857894cbe1b48205a39b778eb6f9033171d8a220d986d5",
+      "matches_8e_git_object": true,
+      "equal_to_6ea_review_source": false,
+      "delta_review": "Complete locale diff read; changed operational-pressure, proactive messages, campaign short titles and agent workload tooltips. Resolution/CSAT labels unchanged."
+    }
+  ],
+  "currency_limit": "Focused render/calculator/locale review. No global CSS/font pixel parity or deployment revision inference. Current masterafac freshness is independently bound by remote-status and existing16-path8e→afac delta.",
+  "closed_snapshot": {
+    "path": "conversation-lifecycle-capture-20261011/private/verify-final-after-rows.json",
+    "sha256": "7c1ac6620033e514705d576f4689434558bbf584af560b72394ab2e833e7fb7d",
+    "total_attempts": 590,
+    "business_ids": [
+      5
+    ],
+    "playbook_ids": [
+      35
+    ],
+    "delivered_at_non_null": 0,
+    "prompt_message_non_null": 0,
+    "answer_message_non_null": 0,
+    "periods": [
+      {
+        "period": "current",
+        "from": "2026-09-11",
+        "to": "2026-09-24",
+        "cohorts": [
+          {
+            "cohort": "ai_agents",
+            "positive": 68,
+            "negative": 16,
+            "rate": 80.95238095238095
+          },
+          {
+            "cohort": "teammates",
+            "positive": 42,
+            "negative": 14,
+            "rate": 75.0
+          }
+        ]
+      },
+      {
+        "period": "previous",
+        "from": "2026-08-28",
+        "to": "2026-09-10",
+        "cohorts": [
+          {
+            "cohort": "ai_agents",
+            "positive": 60,
+            "negative": 24,
+            "rate": 71.42857142857143
+          },
+          {
+            "cohort": "teammates",
+            "positive": 41,
+            "negative": 15,
+            "rate": 73.21428571428571
+          }
+        ]
+      }
+    ],
+    "date_scope": "Counts from saved answered_at dates, timestamps lie well inside days; no live DB call. Captured native route/provenance supplies the original period.",
+    "interpretation": "Synthetic answered aggregates intentionally have no survey message/delivery lineage. Rates match81%/+13% and75%/+2%, no external customer result implied."
+  },
+  "acceptance_scope": "Two reused historical sources, no image editing. Render complete new guide before completion."
+}

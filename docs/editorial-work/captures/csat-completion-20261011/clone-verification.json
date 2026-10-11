@@ -1,0 +1,24 @@
+{
+  "status": "clone_verified_phase1_proposed",
+  "source_tables": 541,
+  "source_and_target_sequences": 536,
+  "original_source_preserved": true,
+  "new_owned_copy_exact": true,
+  "source_writes": 0,
+  "migrations_run": 0,
+  "global_roles_or_configuration_changed": false,
+  "runtime_started": false,
+  "fixture_rows_created": 0,
+  "private_evidence_sha256": {
+    "clone-csat-result.json": "244a03e793a08a674e045bb05b08cf017648cf94fe3e2f3bc2c3a4df7a1b2e38",
+    "clone-binding-result.json": "98f3f583e448afd2eedc71f1c224d9270310314ad27bdf866720a960ed5f0eac",
+    "contract.json": "0c6987488a21cc1f4261c5e3cdd799654542f7104babc130ac571abe2970c0d2",
+    "boot-readiness-phase1-proposed.json": "dc4dbb559b503c41818aae02c4c1ea0653540ab12640fd3c799f75261f1aa90e"
+  },
+  "preparation_sha256": "a0b21ffd3bee481621dd4107254fb60320abab8783a1781a9aaec3591d33f148",
+  "initial_sandbox_denial": {
+    "path": "audit/csat-completion-20261011/clone-initial-sandbox-denial.json",
+    "sha256": "5b2f723b70d4d22a59b9449ae199e9433207817052bd73ade629dd1ce9c8cde7"
+  },
+  "next_gate": "Root review of actual clone binding and pending prepare-fixture/preflight ticket. No Redis, Rails, fixture mutation, session or capture executed."
+}

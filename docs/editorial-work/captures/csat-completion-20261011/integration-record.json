@@ -1,0 +1,126 @@
+{
+  "status": "integrated_sources_and_preservation_passed_local_qa_pending",
+  "at": "2026-10-11T14:36:37.960732+00:00",
+  "base": "c8ecc56b0518c258f7e8511d6153ac9f685888eb",
+  "inputs_sha256": "b3abce8bdbf2e2c4ca91e0e731544c9b4cecaf05657e2a96fc07f2e83a4fc4b5",
+  "insertion_plan_sha256": "e783e2e4fe63db391ae0eefa6f7ad323d70d7633ba20b58a1abae16a942645e6",
+  "admission_sha256": "759ada7ea29e55523c3ff372c4403b384b3bb54cbd299bc9425066b87043a9ac",
+  "accepted_manifest_sha256": "d3bd1bb7386c93c2265658cffbeed61d587e2c3785277fee9332ac3409b32d44",
+  "source_register_sha256": "34c6945bb66f18536afc6a0829a43ca6e8c17e994273eb75baabb421be1cdfbc",
+  "retained_register_sha256": "f2c3cf4a27df3ce4bd79992abff81eea767832c40ea74d4a7fe737d4641ca500",
+  "baseline_review_sha256": "60b27c9d60517e04b42d5e15ec330b828ec37a89f7ee6a894bbebe1b8d9b64cd",
+  "counts": {
+    "retained": 2,
+    "new": 20,
+    "sources": 22,
+    "selected": 22,
+    "figures_per_locale": {
+      "es": 6,
+      "en": 6
+    }
+  },
+  "articles": [
+    {
+      "locale": "es",
+      "source": "_i18n/es/journeys/csat-pulse-playbook.md",
+      "source_sha256": "a42463f21184135700ff05d91d7668b297c80012f78711749a3f11617a2f320d",
+      "before_integration_sha256": "4426575f7c7b37c1a3cf1cc8d8e722b2b56cb649473b337651bb4692519a167f",
+      "headings_preserved": 12,
+      "ordered_links_preserved": 24,
+      "figure_count": 6,
+      "figure_order": [
+        "question-controls",
+        "static-preview",
+        "positive-response",
+        "negative-reasons",
+        "escalation-configuration",
+        "report"
+      ],
+      "retained_report_preserved_byte_exact": true
+    },
+    {
+      "locale": "en",
+      "source": "_i18n/en/journeys/csat-pulse-playbook.md",
+      "source_sha256": "96cbd80de177b9a91dfe8f47ce7353dd9065a3346f0955fbf252f490d793db41",
+      "before_integration_sha256": "52298916a16a86e9fed1b769a7fb8b882b7c73489402295c2efa275496f4ac69",
+      "headings_preserved": 12,
+      "ordered_links_preserved": 24,
+      "figure_count": 6,
+      "figure_order": [
+        "question-controls",
+        "static-preview",
+        "positive-response",
+        "negative-reasons",
+        "escalation-configuration",
+        "report"
+      ],
+      "retained_report_preserved_byte_exact": true
+    }
+  ],
+  "source_evidence": [
+    {
+      "role": "native_ui_proof",
+      "path": "docs/editorial-work/captures/csat-completion-20261011/source-evidence/01-native_ui_proof.json",
+      "sha256": "96406ac45fdc88dd1be4f123d13d826bfdc9c63e576eb56db4636a3ef556be30",
+      "original": {
+        "role": "native_ui_proof",
+        "path": "audit/csat-completion-20261011/native-ui-proof.json",
+        "sha256": "96406ac45fdc88dd1be4f123d13d826bfdc9c63e576eb56db4636a3ef556be30"
+      }
+    },
+    {
+      "role": "source_pixel_review",
+      "path": "docs/editorial-work/captures/csat-completion-20261011/source-evidence/02-source_pixel_review.json",
+      "sha256": "5a99eb996f7cce0c8418ad881a9c1f66258037c420aeb75e89edf65a309da09b",
+      "original": {
+        "role": "source_pixel_review",
+        "path": "audit/csat-completion-20261011/root-source-pixel-review.json",
+        "sha256": "5a99eb996f7cce0c8418ad881a9c1f66258037c420aeb75e89edf65a309da09b"
+      }
+    },
+    {
+      "role": "runtime_closure",
+      "path": "docs/editorial-work/captures/csat-completion-20261011/source-evidence/03-runtime_closure.json",
+      "sha256": "a9639dd2795fde650d485968d8421d665cefdd0be69b3ee301151eff0feeac62",
+      "original": {
+        "role": "runtime_closure",
+        "path": "audit/csat-completion-20261011/capture-runtime-final.json",
+        "sha256": "a9639dd2795fde650d485968d8421d665cefdd0be69b3ee301151eff0feeac62"
+      }
+    },
+    {
+      "role": "transport_closure",
+      "path": "docs/editorial-work/captures/csat-completion-20261011/source-evidence/04-transport_closure.json",
+      "sha256": "d904250183c153a26de789cd4e0fc38383a7fe8f798c0d529feaf83e1536c44f",
+      "original": {
+        "role": "transport_closure",
+        "path": "audit/csat-completion-20261011/transport-summary.json",
+        "sha256": "d904250183c153a26de789cd4e0fc38383a7fe8f798c0d529feaf83e1536c44f"
+      }
+    },
+    {
+      "role": "resource_closure",
+      "path": "docs/editorial-work/captures/csat-completion-20261011/source-evidence/05-resource_closure.json",
+      "sha256": "f36fe82bda0955dcf3b8bb867dd46596a67773a43f2197c6d1be1f1e25047064",
+      "original": {
+        "role": "resource_closure",
+        "path": "audit/csat-completion-20261011/runtime-shutdown.json",
+        "sha256": "f36fe82bda0955dcf3b8bb867dd46596a67773a43f2197c6d1be1f1e25047064"
+      }
+    },
+    {
+      "role": "icc_metadata_correction",
+      "path": "docs/editorial-work/captures/csat-completion-20261011/source-evidence/06-icc_metadata_correction.json",
+      "sha256": "bf2e8eaf6065d47b2c2af9cec565221ae213fef86e928000355cd47547093367",
+      "original": {
+        "role": "icc_metadata_correction",
+        "path": "audit/csat-completion-20261011/icc-description-normalization.json",
+        "sha256": "bf2e8eaf6065d47b2c2af9cec565221ae213fef86e928000355cd47547093367"
+      }
+    }
+  ],
+  "rendered_qa": "pending",
+  "inventory_unchanged": true,
+  "commits_created": false,
+  "external_writes": false
+}

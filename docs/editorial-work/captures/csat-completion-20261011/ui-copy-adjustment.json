@@ -1,0 +1,67 @@
+{
+  "status": "source_and_ES_pixel_based_copy_pending_independent_review",
+  "prior_report_review_sha256": "c0a6a018821871de2581b8ec92a4942a991070441410d3d4fb4a6ae4d51e3aed",
+  "records": [
+    {
+      "locale": "es",
+      "article": "_i18n/es/journeys/csat-pulse-playbook.md",
+      "before_sha256": "403eec6fdeea4cfedfa0a75bb63ba59035e98aa5b0a1ae1e552e77965036113a",
+      "article_sha256": "4426575f7c7b37c1a3cf1cc8d8e722b2b56cb649473b337651bb4692519a167f",
+      "changes": [
+        {
+          "before": "Abre **Mensaje CSAT**",
+          "after": "Abre **Mensaje de CSAT**"
+        },
+        {
+          "before": "Evita hacer varias preguntas a la vez. CSAT funciona mejor cuando la primera respuesta es simple.",
+          "after": "Evita hacer varias preguntas a la vez. CSAT funciona mejor cuando la primera respuesta es simple.\n\nLa vista previa muestra la pregunta y sus dos opciones. Revísalas antes de habilitar la misión."
+        },
+        {
+          "before": "Cuando el cliente responde positivamente, Pulso CSAT registra la respuesta y envía la respuesta positiva configurada.",
+          "after": "Cuando el cliente responde positivamente, Pulso CSAT registra la respuesta y envía la respuesta positiva configurada. En **Mensaje de CSAT**, desplázate hasta **Responder cuando sea positivo** para revisar ese seguimiento."
+        },
+        {
+          "before": "Para el comportamiento de derivación, usa [Derivación de IA al Inbox]",
+          "after": "En **Responder cuando sea negativo**, revisa el seguimiento y las opciones de motivo.\n\nPara el comportamiento de derivación, usa [Derivación de IA al Inbox]"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "article": "_i18n/en/journeys/csat-pulse-playbook.md",
+      "before_sha256": "84b1585b1d32b952ae89ef7b5bf9499389cce214f8d8c1845eb761d5a8386b64",
+      "article_sha256": "52298916a16a86e9fed1b769a7fb8b882b7c73489402295c2efa275496f4ac69",
+      "changes": [
+        {
+          "before": "Open **CSAT message**",
+          "after": "Open **CSAT Message**"
+        },
+        {
+          "before": "Avoid asking multiple questions at once. CSAT works best when the first response is simple.",
+          "after": "Avoid asking multiple questions at once. CSAT works best when the first response is simple.\n\nThe preview shows the question and its two options. Review them before enabling the playbook."
+        },
+        {
+          "before": "When the customer responds positively, CSAT Pulse records the response and sends the configured positive reply.",
+          "after": "When the customer responds positively, CSAT Pulse records the response and sends the configured positive reply. In **CSAT Message**, scroll to **Reply with when positive** to review that follow-up."
+        },
+        {
+          "before": "For handoff behavior, use [AI handoff to Inbox]",
+          "after": "In **Reply with when negative**, review the follow-up and reason options.\n\nFor handoff behavior, use [AI handoff to Inbox]"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "config/locales/views/playbooks/es.yml",
+      "sha256": "2e76381965fdd69a0c5b939ac47bf99e4ad0c8a109e6171db69572fa697d5a6d"
+    },
+    {
+      "path": "config/locales/views/playbooks/en.yml",
+      "sha256": "0cd46ff6498f9b50d0cca7372e575bcaba911b3d8ddf54a4b0c4d7e84486fc02"
+    }
+  ],
+  "scope": "Exact native control names and short explanations for actual editor/preview figures; no new send or response result claim.",
+  "figures_changed": false,
+  "headings_links_stub_inventory_unchanged": true
+}

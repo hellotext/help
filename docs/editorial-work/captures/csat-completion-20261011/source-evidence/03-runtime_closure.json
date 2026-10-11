@@ -1,0 +1,83 @@
+{
+  "schema": "csat-capture-runtime-final-v1",
+  "status": "passed_restored_and_closed",
+  "source_manifest": {
+    "path": "csat-capture-20261011/source-manifest.json",
+    "sha256": "d3bd1bb7386c93c2265658cffbeed61d587e2c3785277fee9332ac3409b32d44"
+  },
+  "source_count": 20,
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "new_native_rows_retained": {
+    "playbook_component_channels": 1,
+    "playbook_component_messages": 3,
+    "playbook_component_audiences": 1,
+    "automation_assignments": 1,
+    "playbook_components": 4
+  },
+  "new_row_total": 10,
+  "all_original_target_rows_preserved": true,
+  "existing_disabled_playbook_and590_synthetic_report_attempts_preserved": true,
+  "locale_cycle": {
+    "initial": "es",
+    "capture_second": "en",
+    "final": "es",
+    "only_changed_field": "existing fictional actor locale",
+    "restored_verified": true
+  },
+  "final_target_tables_compared": 541,
+  "final_target_rows_equal_prepared": true,
+  "final_target_sequences_unchanged": true,
+  "original_source": {
+    "tables_compared": 541,
+    "sequences_compared": 536,
+    "types_values_hashes_schema_sequences_equal": true,
+    "writes": 0
+  },
+  "jobs": {
+    "runner_phase_jobs_enqueued": 0,
+    "runner_phase_jobs_performed": 0,
+    "web_queue_mode": "test/fake nonperforming; no workers started or draining",
+    "web_enqueue_total_observed": null,
+    "limitation": "Web process in-memory enqueue count was not exported; do not claim a measured zero for all web enqueues. No worker execution/send/provider route permitted."
+  },
+  "no_survey_prompt_answer_delivery_or_assignment_execution": true,
+  "evidence": {
+    "native_ui_proof": {
+      "path": "audit/csat-completion-20261011/native-ui-proof.json",
+      "sha256": "96406ac45fdc88dd1be4f123d13d826bfdc9c63e576eb56db4636a3ef556be30"
+    },
+    "transport": {
+      "path": "audit/csat-completion-20261011/transport-summary.json",
+      "sha256": "d904250183c153a26de789cd4e0fc38383a7fe8f798c0d529feaf83e1536c44f"
+    },
+    "shutdown": {
+      "path": "audit/csat-completion-20261011/runtime-shutdown.json",
+      "sha256": "f36fe82bda0955dcf3b8bb867dd46596a67773a43f2197c6d1be1f1e25047064"
+    },
+    "root_source_pixels": {
+      "path": "audit/csat-completion-20261011/root-source-pixel-review.json",
+      "sha256": "5a99eb996f7cce0c8418ad881a9c1f66258037c420aeb75e89edf65a309da09b"
+    },
+    "fixture_preflight": {
+      "path": "audit/csat-completion-20261011/fixture-and-preflight-verification.json",
+      "sha256": "953f954958656c3fbfd2652cd6320c68e02738e77994dc5931a91693a40acea3"
+    }
+  },
+  "private_receipt_sha256": {
+    "fixture-preparation-result.json": "e440100b2e7d06ca40e8426a6a098934574b83d473f490f8cc0a5adef82b9b37",
+    "preflight-result.json": "b99f6e7167dda757211b34addb682d0b9783b7d9c337e40a964e3cf10e9f2a20",
+    "locale-en-result.json": "b4254b3e5a5192bce0903e87a168cf73f6be35b21f55a2887a18a8055793e2fa",
+    "locale-es-result.json": "cb1f32e9284ebae9e429da4f43b8397242bbc2c63570e376e1af9e9031c3532e",
+    "verify-final-result.json": "a92a3ad9b0ac3d764ba9f365b83f730e12dc4f92be991cfa100b5dd380893807",
+    "source-unchanged-final.json": "97ff71f3b6272bbe0a26d0b8a071e34caa1f4ae737bc88f7b8ec4213c80b08e2",
+    "native-session-bootstrap-result.json": "a07bbecdbb6e1ddcbb214df4d102ad8e41506c6facd5ebee539998f2308adfa2",
+    "phase2-binding-result.json": "9fa32552d49ddcf167427ec5d840f66e5bebcb8f285e22b3d84e53a33bdb8031"
+  },
+  "limitations": [
+    "No source pixels were edited, resized, recolored or regenerated.",
+    "ICC profile-name correction changed metadata text only; original profile bytes and PNGs remain identical.",
+    "Source capture acceptance is not Help build, article visual acceptance or publication.",
+    "Initial tool sandbox blocked the first source metadata connection; separately approved local-socket escalation completed the exact clone helper.",
+    "No protected drafts, main app, billing, commissions, guides or monitoring configuration was changed."
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "schema": "csat-rendered-page-independent-review-v1",
+  "recorded_at": "2026-10-11T14:53:38.582803+00:00",
+  "reviewer": "/root/inbox_article/guide_review",
+  "status": "passed",
+  "locale": "en",
+  "width": 390,
+  "packet": {
+    "path": "docs/editorial-work/captures/csat-completion-20261011/validation/page-review/views/en-390.json",
+    "sha256": "91e8c9ba69a5dcd7ad8134c1cd929340f22df384a34e98ec424ea881e31fdcbc"
+  },
+  "checkpoint_sha256": "5e87fb5f2c20530354e4c1abb55946752a64eb16a46716e78e4275b015b33943",
+  "source": {
+    "path": "_i18n/en/journeys/csat-pulse-playbook.md",
+    "sha256": "96cbd80de177b9a91dfe8f47ce7353dd9065a3346f0955fbf252f490d793db41"
+  },
+  "build": {
+    "path": "_site/csat-pulse-playbook.html",
+    "sha256": "563f54a9a221cb06e4edee366f45233addd79f8b4a880f5a2ef66eab9491587c"
+  },
+  "findings": [],
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 10,
+    "document_height_css": 10803,
+    "coverage_end_css": 10802.5,
+    "subpixel_rounding_css": 0.5,
+    "footer_individually_viewed": true
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 6
+  },
+  "observations": [
+    "All16 PNGs individually opened using view_image; no mosaic substituted.",
+    "All sections, native mobile editor figures, figure adjacency and footer reviewed. No clipping, distortion, overlap or locale mismatch found.",
+    "Report accepted contextually, not as independently legible microtext: immediate prose identifies81% AI agents CSAT,75% teammates CSAT, right-hand satisfaction card and distinct left-hand resolution measure.",
+    "PNG hashes, dimensions, CRC, DisplayP3 ICC and2x density match packet; source/build/checkpoint remain exact."
+  ],
+  "report_contextual_acceptance": {
+    "status": "passed",
+    "rendered_image_css": [
+      316,
+      123.046875
+    ],
+    "microtext_independently_legible": false,
+    "essential_details_explained_in_adjacent_visible_prose": true,
+    "criteria": [
+      {
+        "path": "docs/editorial/guide.md",
+        "sha256": "a9e3c7e787fa77986e9170d7d00ab6a466824429852baddfb2603cf85dfe0419",
+        "lines": [
+          38,
+          40
+        ],
+        "rule": "Essential details may be explained in prose when the complete interface cannot stay legible inline."
+      },
+      {
+        "path": "docs/editorial/screenshots.md",
+        "sha256": "b2acb0e02a0335f8abcee233580630eb7746d45b6bc9df28b18976fdfb93ae02",
+        "lines": [
+          152,
+          155
+        ],
+        "rule": "Improve crop or adjacent explanation if essential labels are too small; do not rely on an enlargement link."
+      }
+    ]
+  },
+  "shots": [
+    {
+      "file": "csat-en-390-full-part1.png",
+      "sha256": "54dc575f7f61cd002f49e8e2fcda03dfe42bac6aa091ebbcae37ea36e50c73ee",
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Responsive header, wrapping breadcrumbs/title, introduction and opening section fit without clipping."
+    },
+    {
+      "file": "csat-en-390-full-part2.png",
+      "sha256": "ee149ffb07f183798b1439f5141c59b7c5c729dde575099026763c0b608eb709",
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 390,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Opening capabilities and usage lists readable."
+    },
+    {
+      "file": "csat-en-390-full-part3.png",
+      "sha256": "d082fb0790aba2edc01f05ac56fe7c48f6faaac81ae0592533d3f7e8370fc767",
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 390,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Other-feedback guidance and prerequisite transition wrap naturally."
+    },
+    {
+      "file": "csat-en-390-full-part4.png",
+      "sha256": "63d9503cfcffb23f0c29b1883d57cb860eb3b4635bb573cafee4e3e749b771f1",
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 390,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Prerequisites, editor instructions and complete question editor are readable and adjacent."
+    },
+    {
+      "file": "csat-en-390-full-part5.png",
+      "sha256": "1f80b57d3f24b77017f7f3a93293a9315f0004d6587e2c5ee1136cb4f598b7e9",
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 390,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Complete static preview, trigger guidance and eligibility beginning fit correctly."
+    },
+    {
+      "file": "csat-en-390-full-part6.png",
+      "sha256": "3bcfa7225e40310feb8faba2823dcb522cf045b1c666fd4a0e4fb3d04b640a7e",
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 390,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Eligibility and positive follow-up complete; negative follow-up lead-in adjacent."
+    },
+    {
+      "file": "csat-en-390-full-part7.png",
+      "sha256": "136b2653ceff34cc118c96ac34fd08ad8908152fa99cbb07a921f79f85cea1af",
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 390,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Complete negative reply with three reasons, escalation controls and report lead-in readable."
+    },
+    {
+      "file": "csat-en-390-full-part8.png",
+      "sha256": "da15dfc122e490949342c64884c58c0080fbc19e1b9f0db5b54dede5164daf09",
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 390,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Both report cards complete; adjacent paragraph explains 81/75 and left/right meaning. Report microtext is not accepted as independently legible. Test section follows coherently."
+    },
+    {
+      "file": "csat-en-390-full-part9.png",
+      "sha256": "f54662d5561c8e905c0dd65c900d955ef2e43ec41eb938e01f9c977df20a2f4d",
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 8800,
+        "width": 390,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Testing/post-launch guidance and related-guide transition complete."
+    },
+    {
+      "file": "csat-en-390-full-part10.png",
+      "sha256": "e5216f13fa640dea3bbd22e904d42c316568cb3579a5d5e28888fc636b130916",
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "clip": {
+        "x": 0,
+        "y": 9602.5,
+        "width": 390,
+        "height": 1200
+      },
+      "kind": "page_segment",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Related guides, feedback/contact controls and entire footer with English selector visible."
+    },
+    {
+      "file": "csat-en-390-question-controls.png",
+      "sha256": "e251d2d4275726871f7eae81009583073c0526958a35151cd3a3f049c351ec3b",
+      "pixelSize": [
+        764,
+        804
+      ],
+      "clip": {
+        "x": 4,
+        "y": 3967,
+        "width": 382,
+        "height": 402
+      },
+      "kind": "figure_detail",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Complete question editor, Yes/No controls and toolbar."
+    },
+    {
+      "file": "csat-en-390-static-preview.png",
+      "sha256": "bca132af3248ea146818d3a27b06147d49e98f4225bb50807b321edb45b415be",
+      "pixelSize": [
+        764,
+        474
+      ],
+      "clip": {
+        "x": 4,
+        "y": 4616,
+        "width": 382,
+        "height": 237
+      },
+      "kind": "figure_detail",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Complete root-question preview with both options."
+    },
+    {
+      "file": "csat-en-390-positive-response.png",
+      "sha256": "119103391fc8e74299a5a84f0848960874fdd4c3340341bd59618f2ae3778203",
+      "pixelSize": [
+        764,
+        510
+      ],
+      "clip": {
+        "x": 4,
+        "y": 6152,
+        "width": 382,
+        "height": 255
+      },
+      "kind": "figure_detail",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Positive follow-up body and toolbar readable."
+    },
+    {
+      "file": "csat-en-390-negative-reasons.png",
+      "sha256": "099fd710fd8f3952328797365c71b5e663d15379e41b157910aade463ea6925e",
+      "pixelSize": [
+        764,
+        680
+      ],
+      "clip": {
+        "x": 4,
+        "y": 6686,
+        "width": 382,
+        "height": 340
+      },
+      "kind": "figure_detail",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Negative follow-up and all three naturally wrapped reasons readable."
+    },
+    {
+      "file": "csat-en-390-escalation-configuration.png",
+      "sha256": "3ab349a21c68e4ac85aad1c44626d55b7de054e478db838c1f526a4f1838a75f",
+      "pixelSize": [
+        764,
+        610
+      ],
+      "clip": {
+        "x": 4,
+        "y": 7097,
+        "width": 382,
+        "height": 305
+      },
+      "kind": "figure_detail",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Component toggle and empty teammate/team selector readable."
+    },
+    {
+      "file": "csat-en-390-report.png",
+      "sha256": "edf89e855244477fdae5142f8f043c98b75a34841112bb58a589f0ce7f65799a",
+      "pixelSize": [
+        764,
+        396
+      ],
+      "clip": {
+        "x": 4,
+        "y": 7985,
+        "width": 382,
+        "height": 198
+      },
+      "kind": "figure_detail",
+      "individually_viewed": true,
+      "status": "passed",
+      "observation": "Both report cards intact at316x123.046875CSS. Immediate prose identifies main metrics; microtext is not independently readable at normal mobile size. Accepted with that context under explicit editorial rule."
+    }
+  ],
+  "limitations": [
+    "Acceptance covers this immutable EN390 packet and explanatory context; no independent readability claim for report microtext.",
+    "Final aggregate/runtime/service closure remain separate checks.",
+    "view_image presentation resized page tiles from780x2400 to666x2048; every detail inspected individually."
+  ]
+}
