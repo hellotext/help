@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-11T10:50:24.735004+00:00",
+  "status": "bilingual_article_local_verified",
+  "article_key": "team/assigning-conversations.md",
+  "verifying_commit": "2c38d2f90748564ef859e8f5e3d0b84d2f78b310",
+  "verifying_commit_parent": "ab872f20847db302c6b06c7160680ec16583d685",
+  "final_review": {
+    "path": "docs/editorial-work/captures/assigning-completion-20261011/final-review.json",
+    "sha256": "b8ddc4f9405f98e857125817e1a2734fadc7da8e2b80ecb347598f94892088a4"
+  },
+  "local_verification_before_commit": {
+    "path": "docs/editorial-work/captures/assigning-completion-20261011/local-verification.json",
+    "sha256": "5644e3db45708ec5ab502bfd70612461444e96d0721a12122245bd2b52283697"
+  },
+  "evidence_index_at_verifying_commit": {
+    "path": "docs/editorial-work/captures/assigning-completion-20261011/evidence-index.json",
+    "sha256": "38c64c40f414ef1885432e54ea97e275d26c162d51c4a1a6c3cf972f8d73e342"
+  },
+  "remaining_blockers": [],
+  "inventory": {
+    "before_row": "team/assigning-conversations.md,in_progress,,docs/editorial-work/assigning-conversations.md",
+    "after_row": "team/assigning-conversations.md,local_verified,2c38d2f90748564ef859e8f5e3d0b84d2f78b310,docs/editorial-work/assigning-conversations.md",
+    "rows": 154,
+    "unrelated_rows_preserved": 153,
+    "before_counts": {
+      "local_verified": 116,
+      "pending": 32,
+      "out_of_scope": 1,
+      "in_progress": 4,
+      "visual_pending": 1
+    },
+    "after_counts": {
+      "local_verified": 117,
+      "pending": 32,
+      "out_of_scope": 1,
+      "in_progress": 3,
+      "visual_pending": 1
+    },
+    "unresolved_before": 37,
+    "unresolved_after": 36,
+    "before_sha256": "aaf5b1ee7e8d6518dfe25430b8f4cbe81a328718d8d1cd060e88cc25f808daaf",
+    "after_sha256": "a7fbdb265a30990d3083eda5f47963014842921b38c0576875c5acd2d45fad57"
+  },
+  "immutable_receipts_preserved": true,
+  "publication_verified": false,
+  "whitespace_check": {
+    "all_candidate_paths_exit_code": 2,
+    "only_reported_path": "docs/editorial-work/captures/assigning-completion-20261011/validation/build.log:10",
+    "all_other_paths_exit_code": 0,
+    "explanation": "The native Generating line has trailing whitespace. The exact build output and hash were preserved."
+  },
+  "limits": [
+    "This closure records the real local verifying commit, not a remote deployment.",
+    "Sixteen new native 4x P3 screenshots and eight retained originals remain unchanged. One native human assignment completed; AI and batch choosers were not submitted.",
+    "This closure changes only its receipt, the work record and one inventory row; article sources, PNGs and QA evidence remain exact."
+  ]
+}
