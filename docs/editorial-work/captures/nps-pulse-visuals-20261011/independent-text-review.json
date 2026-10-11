@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-11T08:26:03.874877+00:00",
+  "status": "pass_no_text_diff_blocker",
+  "scope": "Second reader of the two current NPS body diffs and text-decisions only; no new source/pixel/build/runtime review.",
+  "base": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+  "text_decisions": {
+    "path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/text-decisions.json",
+    "sha256": "06f9574b6574c23ef1c973180404c2777fa0f3b1025798520bfb09a5d3c1f371",
+    "source_corrections_match_prior_review": true
+  },
+  "prior_review": {
+    "path": "audit/help-next-batches-20261011/nps-text-task-coverage-review.json",
+    "sha256": "244763319760396c6154331b3591e77e5c945abc12667ba275808c6c9b066e27"
+  },
+  "articles": [
+    {
+      "path": "_i18n/es/journeys/nps-pulse-playbook.md",
+      "base_sha256": "273c52f713525448d05f40160169219bee0306dce4df6b9ca0f6f45974754a19",
+      "current_sha256": "311683ad718dfd84b8dc85781d0bac61c3cbce45c5de1f9f02908872bbc685c5",
+      "decisions_exactly_replay_to_current": true,
+      "outside_blocks_only_three_approved_replacements": true,
+      "headings_preserved": 13,
+      "ordered_liquid_links_preserved": 18,
+      "figures": [
+        {
+          "id": "header",
+          "figure_line": 66,
+          "caption": "Cabecera del editor con la misión apagada; el nombre se oculta en la vista móvil. Cuenta ficticia.",
+          "files": [
+            {
+              "path": "images/journeys/birthday-bash/header-es-mobile.png",
+              "sha256_from_prior_asset_binding": "7760df3b2604a8c6124e9de13d7b91ac60b02edc87e4cb34b4471bf800e91527",
+              "pixel_size": [
+                860,
+                234
+              ]
+            },
+            {
+              "path": "images/journeys/nps-pulse/header-es-desktop.png",
+              "sha256_from_prior_asset_binding": "fde93b393fdddc9c1ab099f98290d99981d22cb835af0b5db31e00d6f63115b7",
+              "pixel_size": [
+                1800,
+                194
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cards",
+          "figure_line": 82,
+          "caption": "Tarjetas Canales de salida, Mensaje de NPS y Audiencia; en móvil se muestran las dos primeras.",
+          "files": [
+            {
+              "path": "images/journeys/nps-pulse/cards-es-mobile.png",
+              "sha256_from_prior_asset_binding": "9d0b8ba3a68eaed1bea69dde43a7a4f6b3ed8ad1a252676842416cba4738b134",
+              "pixel_size": [
+                844,
+                872
+              ]
+            },
+            {
+              "path": "images/journeys/nps-pulse/cards-es-desktop.png",
+              "sha256_from_prior_asset_binding": "b23da78edc5eba7e5abcfb83c465c19d81f4db2910df3ca554b40dcad01ab18e",
+              "pixel_size": [
+                1256,
+                1024
+              ]
+            }
+          ]
+        },
+        {
+          "id": "message",
+          "figure_line": 104,
+          "caption": "Pregunta NPS predeterminada y diez botones fijos del 10 al 1, sin seleccionar, en el editor de una cuenta ficticia.",
+          "files": [
+            {
+              "path": "images/journeys/nps-pulse/message-es-mobile.png",
+              "sha256_from_prior_asset_binding": "cff82c79643fb8c36f6e7519fabe3533880b314ba0b62b1825f02373475e9d4b",
+              "pixel_size": [
+                844,
+                918
+              ]
+            },
+            {
+              "path": "images/journeys/nps-pulse/message-es-desktop.png",
+              "sha256_from_prior_asset_binding": "aae6ee695965af481ec0a2d7a443f4731793a8f965bc2c09889cc8670196a264",
+              "pixel_size": [
+                1256,
+                894
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel",
+          "figure_line": 124,
+          "caption": "Canales de salida con la opción automática seleccionada y Selección manual disponible. Se conserva el texto nativo de canales de entrada.",
+          "files": [
+            {
+              "path": "images/journeys/replenishment-driver/channel-es-mobile.png",
+              "sha256_from_prior_asset_binding": "5c0264c5db7f28be41edf305f0b60d91eb278386abf15cabc74001037ed716be",
+              "pixel_size": [
+                844,
+                1252
+              ]
+            },
+            {
+              "path": "images/journeys/replenishment-driver/channel-es-desktop.png",
+              "sha256_from_prior_asset_binding": "29d6a8fb56bf9b57478fb2f2b449042e0ac9616d124ed97c632dc73b0d221bbf",
+              "pixel_size": [
+                1256,
+                1028
+              ]
+            }
+          ]
+        },
+        {
+          "id": "audience",
+          "figure_line": 140,
+          "caption": "Selector de audiencia con Toda la audiencia y el campo Agrega audiencias en una cuenta ficticia.",
+          "files": [
+            {
+              "path": "images/journeys/birthday-bash/audience-es-mobile.png",
+              "sha256_from_prior_asset_binding": "40d24ed2510330c59a5cf97f1f8836f11597d0bf56da4f01a1578ad2c0639b41",
+              "pixel_size": [
+                844,
+                572
+              ]
+            },
+            {
+              "path": "images/journeys/birthday-bash/audience-es-desktop.png",
+              "sha256_from_prior_asset_binding": "23b39c4e353d1b4e4e0a383e390b2837aca1f50e099c533890f1db907bb1491a",
+              "pixel_size": [
+                1256,
+                456
+              ]
+            }
+          ]
+        }
+      ],
+      "timing_reply_followup_report_test_launch_sections_byte_exact": true
+    },
+    {
+      "path": "_i18n/en/journeys/nps-pulse-playbook.md",
+      "base_sha256": "cb4a4bd757b490cdbed25bf94c7e935711b70a55918def462fa055d23242037d",
+      "current_sha256": "05d45b3bf22e0336f3cbb9e655fcb487d4f038dda2018cafe53c23cdb1f773cf",
+      "decisions_exactly_replay_to_current": true,
+      "outside_blocks_only_three_approved_replacements": true,
+      "headings_preserved": 13,
+      "ordered_liquid_links_preserved": 18,
+      "figures": [
+        {
+          "id": "header",
+          "figure_line": 66,
+          "caption": "Editor header with the playbook off; the native mobile layout hides its name. Fictional account.",
+          "files": [
+            {
+              "path": "images/journeys/birthday-bash/header-en-mobile.png",
+              "sha256_from_prior_asset_binding": "e265168679352727c4da58ac998c9111afe708cd8bfbb4298a89095b929e3cae",
+              "pixel_size": [
+                860,
+                234
+              ]
+            },
+            {
+              "path": "images/journeys/nps-pulse/header-en-desktop.png",
+              "sha256_from_prior_asset_binding": "7bf95e8b916617c775fddf1e51432d431c50e5d06060b60847a0f4d8bd5e7749",
+              "pixel_size": [
+                1800,
+                194
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cards",
+          "figure_line": 82,
+          "caption": "Outgoing channels, NPS Message and Audience cards; mobile shows the first two.",
+          "files": [
+            {
+              "path": "images/journeys/nps-pulse/cards-en-mobile.png",
+              "sha256_from_prior_asset_binding": "3078a8132c846ab073abcd63184074afc3c41568fece52a3b1f3dc27decdf5e3",
+              "pixel_size": [
+                844,
+                872
+              ]
+            },
+            {
+              "path": "images/journeys/nps-pulse/cards-en-desktop.png",
+              "sha256_from_prior_asset_binding": "014278130ad1e10ae87f212f0917f0faba2bb4a39f313b9f940f51495ef27bdf",
+              "pixel_size": [
+                1256,
+                1032
+              ]
+            }
+          ]
+        },
+        {
+          "id": "message",
+          "figure_line": 104,
+          "caption": "Default NPS question and ten fixed, unselected buttons from 10 to 1 in a fictional account’s message editor.",
+          "files": [
+            {
+              "path": "images/journeys/nps-pulse/message-en-mobile.png",
+              "sha256_from_prior_asset_binding": "5ddd2f91bd0c06beadbb9b7c603e8a913ae0316c1d027fbf6852af3aa4ef0065",
+              "pixel_size": [
+                844,
+                870
+              ]
+            },
+            {
+              "path": "images/journeys/nps-pulse/message-en-desktop.png",
+              "sha256_from_prior_asset_binding": "25f4792a4120117ab6d23fc208c6381d7811962dd2c82f16bb222d19eb3270af",
+              "pixel_size": [
+                1256,
+                894
+              ]
+            }
+          ]
+        },
+        {
+          "id": "channel",
+          "figure_line": 124,
+          "caption": "Outgoing channels with the automatic option selected and Manual selection available. Native incoming-channel wording is preserved.",
+          "files": [
+            {
+              "path": "images/journeys/replenishment-driver/channel-en-mobile.png",
+              "sha256_from_prior_asset_binding": "7e7966e1bd76f051fa9e70c1cf17143ef864f8a0c4c3419600836082b455588f",
+              "pixel_size": [
+                844,
+                1156
+              ]
+            },
+            {
+              "path": "images/journeys/replenishment-driver/channel-en-desktop.png",
+              "sha256_from_prior_asset_binding": "2785524d732f62d940ac3729704d6b72a99175a591510391042ece3a7f6bdfc6",
+              "pixel_size": [
+                1256,
+                972
+              ]
+            }
+          ]
+        },
+        {
+          "id": "audience",
+          "figure_line": 140,
+          "caption": "Audience selector with All audience and the Add audiences field in a fictional account.",
+          "files": [
+            {
+              "path": "images/journeys/birthday-bash/audience-en-mobile.png",
+              "sha256_from_prior_asset_binding": "dbf4f0fe7ef4c21bec01c87a60463b5ae6857ce7c75acbbb11058958efc2bd2a",
+              "pixel_size": [
+                844,
+                480
+              ]
+            },
+            {
+              "path": "images/journeys/birthday-bash/audience-en-desktop.png",
+              "sha256_from_prior_asset_binding": "36cd6af1df49e293de75a6a82d6740315a8aa7eba4fcac63ac5bf26a5740622a",
+              "pixel_size": [
+                1256,
+                456
+              ]
+            }
+          ]
+        }
+      ],
+      "timing_reply_followup_report_test_launch_sections_byte_exact": true
+    }
+  ],
+  "conclusions": [
+    "Both languages add only five figure/lead-in blocks plus the three recorded corrections.",
+    "Native message title, conversation-end label versus delivered-order trigger, neutral score buckets and strict integer 1–10 wording match the previous source-backed review.",
+    "Both explicit no-dedicated-NPS-report paragraphs remain byte-exact from main; all eight test scenarios, timing rules, first-score behavior, no second question and independent detractor follow-up remain intact.",
+    "Header captions preserve hidden mobile name; cards limit mobile to the first two; Message describes all ten unselected buttons; Channel preserves incoming wording and does not claim eligibility/consent; Audience describes the visible default scope.",
+    "No new claim that a question was edited/saved, mission enabled, survey sent/delivered/answered or a result generated. Manual selection is described as available, not opened or applied.",
+    "Caption/asset identity and dimensions are consistent with the 20 historical bindings and parent-reported individual-pixel PASS. This reviewer has not independently viewed those pixels."
+  ],
+  "remaining_scope": [
+    "Build and rendered-page QA remain outside this review.",
+    "No publication or completion-status assertion is made."
+  ],
+  "findings": [],
+  "writes": [
+    "audit/help-next-batches-20261011/nps-integration-text-second-review.json"
+  ]
+}

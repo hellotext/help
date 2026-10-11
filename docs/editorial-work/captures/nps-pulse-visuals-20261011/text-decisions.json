@@ -1,0 +1,316 @@
+{
+  "base": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+  "independent_text_review_sha256": "244763319760396c6154331b3591e77e5c945abc12667ba275808c6c9b066e27",
+  "applied": [
+    {
+      "path": "_i18n/es/journeys/nps-pulse-playbook.md",
+      "operations": [
+        {
+          "id": "native-message-title",
+          "before": "Abre **Mensaje NPS** para editar la pregunta principal que reciben los clientes después de la entrega.",
+          "after": "Abre **Mensaje de NPS** para editar la pregunta principal que reciben los clientes después de la entrega.",
+          "reason": "Exact label in the captured/current native control; source-bound text review."
+        },
+        {
+          "id": "score-category",
+          "before": "| Puntaje | Grupo | Significado |\n| --- | --- | --- |\n| 9-10 | Promotor | El cliente probablemente recomendaría la marca. |\n| 7-8 | Pasivo | El cliente está suficientemente satisfecho, pero no muestra lealtad fuerte. |\n| 1-6 | Detractor | El cliente puede estar insatisfecho o en riesgo. |",
+          "after": "| Puntaje | Grupo |\n| --- | --- |\n| 9–10 | Promotor |\n| 7–8 | Pasivo |\n| 1–6 | Detractor |\n\nEl grupo describe el puntaje; por sí solo no explica el motivo de la respuesta.",
+          "reason": "Preserve every score/group, remove unsupported diagnosis of satisfaction/loyalty; explain limits of a numeric category."
+        },
+        {
+          "id": "integer-score",
+          "before": "Solo se guarda como puntaje NPS una respuesta numérica del 1 al 10.",
+          "after": "Solo se guarda como puntaje NPS un número entero del 1 al 10, sin texto adicional.",
+          "reason": "Responder accepts strict integer1–10 after whitespace squish; no new response was executed."
+        },
+        {
+          "id": "figures-header-cards",
+          "before": "Abre **Misiones**, haz clic en **Explorar misiones** y elige **Pulso NPS**.",
+          "after": "Abre **Misiones**, haz clic en **Explorar misiones** y elige **Pulso NPS**.\n\n<!-- nps-visual:header:start -->\nLa cabecera incluye el control para habilitar la misión. En móvil, el nombre se oculta y se conserva la pestaña **Configuración**. El ejemplo muestra la misión apagada.\n\n<figure class=\"ht-editorial-visual ht-editorial-visual--screenshot\" data-nps-figure=\"header\" aria-label=\"Cabecera del editor con la misión apagada; el nombre se oculta en la vista móvil. Cuenta ficticia.\">\n  <div class=\"ht-editorial-visual__stage\">\n    <div class=\"ht-editorial-visual__image-frame\" style=\"max-width: 918px; width: fit-content; margin: 0 auto;\">\n      <picture>\n        <source media=\"(max-width: 600px)\" srcset=\"/images/journeys/birthday-bash/header-es-mobile.png 2x\" width=\"860\" height=\"234\" />\n        <img class=\"ht-editorial-visual__image\" src=\"/images/journeys/nps-pulse/header-es-desktop.png\" srcset=\"/images/journeys/nps-pulse/header-es-desktop.png 2x\" width=\"1800\" height=\"194\" style=\"width: auto; margin: 0 auto;\" loading=\"lazy\" decoding=\"async\" alt=\"Cabecera del editor con la misión apagada; el nombre se oculta en la vista móvil. Cuenta ficticia.\" />\n      </picture>\n    </div>\n  </div>\n  <figcaption class=\"ht-editorial-visual__caption\">Cabecera del editor con la misión apagada; el nombre se oculta en la vista móvil. Cuenta ficticia.</figcaption>\n</figure>\n<!-- nps-visual:header:end -->\n\n<!-- nps-visual:cards:start -->\nEn **Configuración** encontrarás **Canales de salida**, **Mensaje de NPS** y **Audiencia**. La captura de escritorio muestra las tres tarjetas; la móvil muestra las dos primeras.\n\n<figure class=\"ht-editorial-visual ht-editorial-visual--screenshot\" data-nps-figure=\"cards\" aria-label=\"Tarjetas Canales de salida, Mensaje de NPS y Audiencia; en móvil se muestran las dos primeras.\">\n  <div class=\"ht-editorial-visual__stage\">\n    <div class=\"ht-editorial-visual__image-frame\" style=\"max-width: 646px; width: fit-content; margin: 0 auto;\">\n      <picture>\n        <source media=\"(max-width: 600px)\" srcset=\"/images/journeys/nps-pulse/cards-es-mobile.png 2x\" width=\"844\" height=\"872\" />\n        <img class=\"ht-editorial-visual__image\" src=\"/images/journeys/nps-pulse/cards-es-desktop.png\" srcset=\"/images/journeys/nps-pulse/cards-es-desktop.png 2x\" width=\"1256\" height=\"1024\" style=\"width: auto; margin: 0 auto;\" loading=\"lazy\" decoding=\"async\" alt=\"Tarjetas Canales de salida, Mensaje de NPS y Audiencia; en móvil se muestran las dos primeras.\" />\n      </picture>\n    </div>\n  </div>\n  <figcaption class=\"ht-editorial-visual__caption\">Tarjetas Canales de salida, Mensaje de NPS y Audiencia; en móvil se muestran las dos primeras.</figcaption>\n</figure>\n<!-- nps-visual:cards:end -->",
+          "reason": "Identify editor controls; preserve mobile identity/first-two-card limits."
+        },
+        {
+          "id": "figure-message",
+          "before": "En una escala del 1 al 10, ¿qué tan probable es que nos recomiendes a un amigo o colega?",
+          "after": "En una escala del 1 al 10, ¿qué tan probable es que nos recomiendes a un amigo o colega?\n\n<!-- nps-visual:message:start -->\nEl formulario dice «cuando termina una conversación», pero Pulso NPS se programa a partir de un evento de pedido entregado. Cerrar una conversación no es el disparador de esta misión.\n\n<figure class=\"ht-editorial-visual ht-editorial-visual--screenshot\" data-nps-figure=\"message\" aria-label=\"Pregunta NPS predeterminada y diez botones fijos del 10 al 1, sin seleccionar, en el editor de una cuenta ficticia.\">\n  <div class=\"ht-editorial-visual__stage\">\n    <div class=\"ht-editorial-visual__image-frame\" style=\"max-width: 646px; width: fit-content; margin: 0 auto;\">\n      <picture>\n        <source media=\"(max-width: 600px)\" srcset=\"/images/journeys/nps-pulse/message-es-mobile.png 2x\" width=\"844\" height=\"918\" />\n        <img class=\"ht-editorial-visual__image\" src=\"/images/journeys/nps-pulse/message-es-desktop.png\" srcset=\"/images/journeys/nps-pulse/message-es-desktop.png 2x\" width=\"1256\" height=\"894\" style=\"width: auto; margin: 0 auto;\" loading=\"lazy\" decoding=\"async\" alt=\"Pregunta NPS predeterminada y diez botones fijos del 10 al 1, sin seleccionar, en el editor de una cuenta ficticia.\" />\n      </picture>\n    </div>\n  </div>\n  <figcaption class=\"ht-editorial-visual__caption\">Pregunta NPS predeterminada y diez botones fijos del 10 al 1, sin seleccionar, en el editor de una cuenta ficticia.</figcaption>\n</figure>\n<!-- nps-visual:message:end -->",
+          "reason": "Complete native editor supplies question/ten choices; note native trigger-description mismatch explicitly."
+        },
+        {
+          "id": "figures-channel-audience",
+          "before": "Puedes editar el texto de la pregunta. Los botones de puntaje del 1 al 10 son fijos.",
+          "after": "Puedes editar el texto de la pregunta. Los botones de puntaje del 1 al 10 son fijos.\n\n<!-- nps-visual:channel:start -->\nEn **Canales de salida**, la opción automática conserva el texto **Todos los canales de entrada**. Esa selección no garantiza que un cliente tenga un canal elegible ni consentimiento para recibir la pregunta. **Selección manual** permite elegir canales específicos.\n\n<figure class=\"ht-editorial-visual ht-editorial-visual--screenshot\" data-nps-figure=\"channel\" aria-label=\"Canales de salida con la opción automática seleccionada y Selección manual disponible. Se conserva el texto nativo de canales de entrada.\">\n  <div class=\"ht-editorial-visual__stage\">\n    <div class=\"ht-editorial-visual__image-frame\" style=\"max-width: 646px; width: fit-content; margin: 0 auto;\">\n      <picture>\n        <source media=\"(max-width: 600px)\" srcset=\"/images/journeys/replenishment-driver/channel-es-mobile.png 2x\" width=\"844\" height=\"1252\" />\n        <img class=\"ht-editorial-visual__image\" src=\"/images/journeys/replenishment-driver/channel-es-desktop.png\" srcset=\"/images/journeys/replenishment-driver/channel-es-desktop.png 2x\" width=\"1256\" height=\"1028\" style=\"width: auto; margin: 0 auto;\" loading=\"lazy\" decoding=\"async\" alt=\"Canales de salida con la opción automática seleccionada y Selección manual disponible. Se conserva el texto nativo de canales de entrada.\" />\n      </picture>\n    </div>\n  </div>\n  <figcaption class=\"ht-editorial-visual__caption\">Canales de salida con la opción automática seleccionada y Selección manual disponible. Se conserva el texto nativo de canales de entrada.</figcaption>\n</figure>\n<!-- nps-visual:channel:end -->\n\n<!-- nps-visual:audience:start -->\nEn **Audiencia**, revisa a quién se aplicará la misión. El ejemplo mantiene **Toda la audiencia**; cada perfil todavía necesita una señal de entrega y elegibilidad de canal.\n\n<figure class=\"ht-editorial-visual ht-editorial-visual--screenshot\" data-nps-figure=\"audience\" aria-label=\"Selector de audiencia con Toda la audiencia y el campo Agrega audiencias en una cuenta ficticia.\">\n  <div class=\"ht-editorial-visual__stage\">\n    <div class=\"ht-editorial-visual__image-frame\" style=\"max-width: 646px; width: fit-content; margin: 0 auto;\">\n      <picture>\n        <source media=\"(max-width: 600px)\" srcset=\"/images/journeys/birthday-bash/audience-es-mobile.png 2x\" width=\"844\" height=\"572\" />\n        <img class=\"ht-editorial-visual__image\" src=\"/images/journeys/birthday-bash/audience-es-desktop.png\" srcset=\"/images/journeys/birthday-bash/audience-es-desktop.png 2x\" width=\"1256\" height=\"456\" style=\"width: auto; margin: 0 auto;\" loading=\"lazy\" decoding=\"async\" alt=\"Selector de audiencia con Toda la audiencia y el campo Agrega audiencias en una cuenta ficticia.\" />\n      </picture>\n    </div>\n  </div>\n  <figcaption class=\"ht-editorial-visual__caption\">Selector de audiencia con Toda la audiencia y el campo Agrega audiencias en una cuenta ficticia.</figcaption>\n</figure>\n<!-- nps-visual:audience:end -->",
+          "reason": "Illustrate channel and audience configuration referenced by eligibility; no permission or delivery outcome claimed."
+        }
+      ]
+    },
+    {
+      "path": "_i18n/en/journeys/nps-pulse-playbook.md",
+      "operations": [
+        {
+          "id": "native-message-title",
+          "before": "Open **NPS message** to edit the primary question customers receive after delivery.",
+          "after": "Open **NPS Message** to edit the primary question customers receive after delivery.",
+          "reason": "Exact label in the captured/current native control; source-bound text review."
+        },
+        {
+          "id": "score-category",
+          "before": "| Score | Bucket | Meaning |\n| --- | --- | --- |\n| 9-10 | Promoter | The customer is likely to recommend the brand. |\n| 7-8 | Passive | The customer is satisfied enough, but not strongly loyal. |\n| 1-6 | Detractor | The customer may be unhappy or at risk. |",
+          "after": "| Score | Bucket |\n| --- | --- |\n| 9–10 | Promoter |\n| 7–8 | Passive |\n| 1–6 | Detractor |\n\nThe bucket describes the score; it does not explain the reason for the answer.",
+          "reason": "Preserve every score/group, remove unsupported diagnosis of satisfaction/loyalty; explain limits of a numeric category."
+        },
+        {
+          "id": "integer-score",
+          "before": "Only a numeric reply from 1 to 10 is stored as an NPS score.",
+          "after": "Only an integer from 1 to 10, without additional text, is stored as an NPS score.",
+          "reason": "Responder accepts strict integer1–10 after whitespace squish; no new response was executed."
+        },
+        {
+          "id": "figures-header-cards",
+          "before": "Open **Playbooks**, click **Explore playbooks**, and choose **NPS Pulse**.",
+          "after": "Open **Playbooks**, click **Explore playbooks**, and choose **NPS Pulse**.\n\n<!-- nps-visual:header:start -->\nThe header includes the control for enabling the playbook. On mobile, the native layout hides its name and retains the **Configuration** tab. The example shows the playbook off.\n\n<figure class=\"ht-editorial-visual ht-editorial-visual--screenshot\" data-nps-figure=\"header\" aria-label=\"Editor header with the playbook off; the native mobile layout hides its name. Fictional account.\">\n  <div class=\"ht-editorial-visual__stage\">\n    <div class=\"ht-editorial-visual__image-frame\" style=\"max-width: 918px; width: fit-content; margin: 0 auto;\">\n      <picture>\n        <source media=\"(max-width: 600px)\" srcset=\"/images/journeys/birthday-bash/header-en-mobile.png 2x\" width=\"860\" height=\"234\" />\n        <img class=\"ht-editorial-visual__image\" src=\"/images/journeys/nps-pulse/header-en-desktop.png\" srcset=\"/images/journeys/nps-pulse/header-en-desktop.png 2x\" width=\"1800\" height=\"194\" style=\"width: auto; margin: 0 auto;\" loading=\"lazy\" decoding=\"async\" alt=\"Editor header with the playbook off; the native mobile layout hides its name. Fictional account.\" />\n      </picture>\n    </div>\n  </div>\n  <figcaption class=\"ht-editorial-visual__caption\">Editor header with the playbook off; the native mobile layout hides its name. Fictional account.</figcaption>\n</figure>\n<!-- nps-visual:header:end -->\n\n<!-- nps-visual:cards:start -->\nUnder **Configuration**, you will find **Outgoing channels**, **NPS Message**, and **Audience**. The desktop capture shows all three cards; mobile shows the first two.\n\n<figure class=\"ht-editorial-visual ht-editorial-visual--screenshot\" data-nps-figure=\"cards\" aria-label=\"Outgoing channels, NPS Message and Audience cards; mobile shows the first two.\">\n  <div class=\"ht-editorial-visual__stage\">\n    <div class=\"ht-editorial-visual__image-frame\" style=\"max-width: 646px; width: fit-content; margin: 0 auto;\">\n      <picture>\n        <source media=\"(max-width: 600px)\" srcset=\"/images/journeys/nps-pulse/cards-en-mobile.png 2x\" width=\"844\" height=\"872\" />\n        <img class=\"ht-editorial-visual__image\" src=\"/images/journeys/nps-pulse/cards-en-desktop.png\" srcset=\"/images/journeys/nps-pulse/cards-en-desktop.png 2x\" width=\"1256\" height=\"1032\" style=\"width: auto; margin: 0 auto;\" loading=\"lazy\" decoding=\"async\" alt=\"Outgoing channels, NPS Message and Audience cards; mobile shows the first two.\" />\n      </picture>\n    </div>\n  </div>\n  <figcaption class=\"ht-editorial-visual__caption\">Outgoing channels, NPS Message and Audience cards; mobile shows the first two.</figcaption>\n</figure>\n<!-- nps-visual:cards:end -->",
+          "reason": "Identify editor controls; preserve mobile identity/first-two-card limits."
+        },
+        {
+          "id": "figure-message",
+          "before": "On a scale from 1 to 10, how likely are you to recommend us to a friend or colleague?",
+          "after": "On a scale from 1 to 10, how likely are you to recommend us to a friend or colleague?\n\n<!-- nps-visual:message:start -->\nThe form says “after a conversation ends,” but NPS Pulse is scheduled from a delivered-order event. Closing a conversation is not this playbook’s trigger.\n\n<figure class=\"ht-editorial-visual ht-editorial-visual--screenshot\" data-nps-figure=\"message\" aria-label=\"Default NPS question and ten fixed, unselected buttons from 10 to 1 in a fictional account’s message editor.\">\n  <div class=\"ht-editorial-visual__stage\">\n    <div class=\"ht-editorial-visual__image-frame\" style=\"max-width: 646px; width: fit-content; margin: 0 auto;\">\n      <picture>\n        <source media=\"(max-width: 600px)\" srcset=\"/images/journeys/nps-pulse/message-en-mobile.png 2x\" width=\"844\" height=\"870\" />\n        <img class=\"ht-editorial-visual__image\" src=\"/images/journeys/nps-pulse/message-en-desktop.png\" srcset=\"/images/journeys/nps-pulse/message-en-desktop.png 2x\" width=\"1256\" height=\"894\" style=\"width: auto; margin: 0 auto;\" loading=\"lazy\" decoding=\"async\" alt=\"Default NPS question and ten fixed, unselected buttons from 10 to 1 in a fictional account’s message editor.\" />\n      </picture>\n    </div>\n  </div>\n  <figcaption class=\"ht-editorial-visual__caption\">Default NPS question and ten fixed, unselected buttons from 10 to 1 in a fictional account’s message editor.</figcaption>\n</figure>\n<!-- nps-visual:message:end -->",
+          "reason": "Complete native editor supplies question/ten choices; note native trigger-description mismatch explicitly."
+        },
+        {
+          "id": "figures-channel-audience",
+          "before": "You can edit the question text. The 1-10 score buttons are fixed.",
+          "after": "You can edit the question text. The 1-10 score buttons are fixed.\n\n<!-- nps-visual:channel:start -->\nIn **Outgoing channels**, the automatic option retains the label **All incoming channels**. That selection does not guarantee an eligible channel or consent for a particular customer. **Manual selection** lets you choose specific channels.\n\n<figure class=\"ht-editorial-visual ht-editorial-visual--screenshot\" data-nps-figure=\"channel\" aria-label=\"Outgoing channels with the automatic option selected and Manual selection available. Native incoming-channel wording is preserved.\">\n  <div class=\"ht-editorial-visual__stage\">\n    <div class=\"ht-editorial-visual__image-frame\" style=\"max-width: 646px; width: fit-content; margin: 0 auto;\">\n      <picture>\n        <source media=\"(max-width: 600px)\" srcset=\"/images/journeys/replenishment-driver/channel-en-mobile.png 2x\" width=\"844\" height=\"1156\" />\n        <img class=\"ht-editorial-visual__image\" src=\"/images/journeys/replenishment-driver/channel-en-desktop.png\" srcset=\"/images/journeys/replenishment-driver/channel-en-desktop.png 2x\" width=\"1256\" height=\"972\" style=\"width: auto; margin: 0 auto;\" loading=\"lazy\" decoding=\"async\" alt=\"Outgoing channels with the automatic option selected and Manual selection available. Native incoming-channel wording is preserved.\" />\n      </picture>\n    </div>\n  </div>\n  <figcaption class=\"ht-editorial-visual__caption\">Outgoing channels with the automatic option selected and Manual selection available. Native incoming-channel wording is preserved.</figcaption>\n</figure>\n<!-- nps-visual:channel:end -->\n\n<!-- nps-visual:audience:start -->\nIn **Audience**, review whom the playbook will apply to. The example keeps **All audience**; each profile still needs a delivery signal and channel eligibility.\n\n<figure class=\"ht-editorial-visual ht-editorial-visual--screenshot\" data-nps-figure=\"audience\" aria-label=\"Audience selector with All audience and the Add audiences field in a fictional account.\">\n  <div class=\"ht-editorial-visual__stage\">\n    <div class=\"ht-editorial-visual__image-frame\" style=\"max-width: 646px; width: fit-content; margin: 0 auto;\">\n      <picture>\n        <source media=\"(max-width: 600px)\" srcset=\"/images/journeys/birthday-bash/audience-en-mobile.png 2x\" width=\"844\" height=\"480\" />\n        <img class=\"ht-editorial-visual__image\" src=\"/images/journeys/birthday-bash/audience-en-desktop.png\" srcset=\"/images/journeys/birthday-bash/audience-en-desktop.png 2x\" width=\"1256\" height=\"456\" style=\"width: auto; margin: 0 auto;\" loading=\"lazy\" decoding=\"async\" alt=\"Audience selector with All audience and the Add audiences field in a fictional account.\" />\n      </picture>\n    </div>\n  </div>\n  <figcaption class=\"ht-editorial-visual__caption\">Audience selector with All audience and the Add audiences field in a fictional account.</figcaption>\n</figure>\n<!-- nps-visual:audience:end -->",
+          "reason": "Illustrate channel and audience configuration referenced by eligibility; no permission or delivery outcome claimed."
+        }
+      ]
+    }
+  ],
+  "not_imported": [
+    "Historical draft softened the absence of a dedicated NPS report; both main paragraphs retained byte-exact.",
+    "Historical implementation/retry/template-sync warnings not imported.",
+    "Optional save/timing expansion omitted; main rules and complete future test checklist retained."
+  ],
+  "source_corrections": [
+    {
+      "id": "native_message_title",
+      "priority": "required_when_integrating_configuration_figures",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          63,
+          63
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          91,
+          91
+        ]
+      },
+      "finding": "Main control label omits de in ES and differs in EN capitalization; draft matches current locale source.",
+      "suggested_es": "Abre **Mensaje de NPS** para revisar la pregunta y las diez respuestas fijas.",
+      "suggested_en": "Open **NPS Message** to review the question and ten fixed responses.",
+      "source_anchors": [
+        {
+          "path": "config/locales/views/playbooks/es.yml",
+          "lines": [
+            219,
+            228
+          ]
+        },
+        {
+          "path": "config/locales/views/playbooks/en.yml",
+          "lines": [
+            219,
+            228
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native_trigger_description_mismatch",
+      "priority": "required_when_showing_message_figure",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          63,
+          71
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          93,
+          93
+        ]
+      },
+      "finding": "Native form text still says after conversation ends. Do not edit screenshot text or let it override delivered-order semantics. Draft explanation is valid but can be shorter.",
+      "suggested_es": "El formulario dice «cuando termina una conversación», pero Pulso NPS se programa a partir de un evento de pedido entregado. Cerrar una conversación no es el disparador de esta misión.",
+      "suggested_en": "The form says “after a conversation ends,” but NPS Pulse is scheduled from a delivered-order event. Closing a conversation is not this playbook’s trigger.",
+      "source_anchors": [
+        {
+          "path": "config/locales/views/playbooks/es.yml",
+          "lines": [
+            225,
+            228
+          ]
+        },
+        {
+          "path": "config/locales/views/playbooks/en.yml",
+          "lines": [
+            225,
+            228
+          ]
+        },
+        {
+          "path": "app/models/supervisor/automation/order_delivered.rb",
+          "lines": [
+            21,
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "id": "score_is_category_not_diagnosis",
+      "priority": "required_copy_correction",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          94,
+          98
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          168,
+          174
+        ]
+      },
+      "finding": "Main table infers satisfaction/strong loyalty/churn risk from a score. Source only assigns score buckets. Recover neutral draft table or simplify to score and bucket.",
+      "suggested_es": "| Puntaje | Grupo |\n| --- | --- |\n| 9–10 | Promotor |\n| 7–8 | Pasivo |\n| 1–6 | Detractor |\n\nEl grupo describe el puntaje; por sí solo no explica el motivo de la respuesta.",
+      "suggested_en": "| Score | Bucket |\n| --- | --- |\n| 9–10 | Promoter |\n| 7–8 | Passive |\n| 1–6 | Detractor |\n\nThe bucket describes the score; it does not explain the reason for the answer.",
+      "source_anchors": [
+        {
+          "path": "app/models/playbook/nps/responder.rb",
+          "lines": [
+            63,
+            68
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strict_score_format",
+      "priority": "required_precision_if_recovering_draft_expansion",
+      "main_anchor": {
+        "revision": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          100,
+          100
+        ]
+      },
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          176,
+          176
+        ]
+      },
+      "finding": "Numeric 1–10 is correct but underspecified: parser accepts integer strings only after whitespace normalization, or valid quick-reply score. Draft precision is supported.",
+      "suggested_es": "Se acepta un número entero del **1 al 10**, sin texto adicional, o una respuesta rápida válida. Se permiten espacios alrededor del número. **0**, **11**, un decimal o una frase no son puntajes válidos. Pulso NPS no pide automáticamente corregir una respuesta inválida.",
+      "suggested_en": "An integer from **1 to 10**, without additional text, or a valid quick reply is accepted. Spaces around the number are allowed. **0**, **11**, a decimal or a sentence is not a valid score. NPS Pulse does not automatically ask the customer to correct an invalid reply.",
+      "source_anchors": [
+        {
+          "path": "app/models/playbook/nps/responder.rb",
+          "lines": [
+            50,
+            60
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/attempt.rb",
+          "lines": [
+            77,
+            79
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native_channel_wording",
+      "priority": "required_when_showing_shared_channel_figure",
+      "draft_anchor": {
+        "revision": "ab47a7925aceed11759e28b634c2c4000866bef1",
+        "paths": [
+          "_i18n/es/journeys/nps-pulse-playbook.md",
+          "_i18n/en/journeys/nps-pulse-playbook.md"
+        ],
+        "lines": [
+          111,
+          125
+        ]
+      },
+      "finding": "Incoming-channel labels appear inside Outgoing channels. Draft honestly retains them and limits their meaning. Do not infer connected integrations or eligible recipients from automatic selection.",
+      "suggested_es": "En **Canales de salida**, la opción automática conserva el texto **Todos los canales de entrada**. Esa selección no garantiza que un cliente tenga un canal elegible ni consentimiento para recibir la pregunta.",
+      "suggested_en": "In **Outgoing channels**, the automatic option retains the label **All incoming channels**. That selection does not guarantee an eligible channel or consent for a particular customer.",
+      "source_anchors": [
+        {
+          "path": "config/locales/views/playbooks/es.yml",
+          "lines": [
+            329,
+            346
+          ]
+        },
+        {
+          "path": "config/locales/views/playbooks/en.yml",
+          "lines": [
+            329,
+            346
+          ]
+        },
+        {
+          "path": "app/models/playbook/nps/schedule_attempt.rb",
+          "lines": [
+            89,
+            117
+          ]
+        }
+      ]
+    }
+  ]
+}

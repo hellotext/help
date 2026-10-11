@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-11T08:45:42.355615+00:00",
+  "status": "bilingual_article_local_verified",
+  "article_key": "journeys/nps-pulse-playbook.md",
+  "verifying_commit": "c38c69518c0b80cac09f7c85db53db58d3e38679",
+  "verifying_commit_parent": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+  "final_review": {
+    "path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/final-review.json",
+    "sha256": "80a063c7d050b0c40cb8d35a8651954ab6fc04b629e2e5d9c961f9b6140198a8"
+  },
+  "local_verification_before_commit": {
+    "path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/local-verification.json",
+    "sha256": "56da30d25c4f7af9174df49b5f61b7f5af22c3500e6edc79679426f725a9297f"
+  },
+  "evidence_index_at_verifying_commit": {
+    "path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/evidence-index.json",
+    "sha256": "d135ced38233b082fc2b36b542043b5a2bf6864104e5bf7be6aab234d5c688ba"
+  },
+  "remaining_blockers": [],
+  "inventory": {
+    "before_row": "journeys/nps-pulse-playbook.md,pending,,",
+    "after_row": "journeys/nps-pulse-playbook.md,local_verified,c38c69518c0b80cac09f7c85db53db58d3e38679,docs/editorial-work/nps-pulse-visuals-20261011.md",
+    "rows": 154,
+    "unrelated_rows_preserved": 153,
+    "before_counts": {
+      "local_verified": 115,
+      "pending": 33,
+      "out_of_scope": 1,
+      "in_progress": 4,
+      "visual_pending": 1
+    },
+    "after_counts": {
+      "local_verified": 116,
+      "pending": 32,
+      "out_of_scope": 1,
+      "in_progress": 4,
+      "visual_pending": 1
+    },
+    "unresolved_before": 38,
+    "unresolved_after": 37,
+    "before_sha256": "5636c9a89ea4f13a2cf766003e0e273524c5ff73d63651784013763f2c8c1406",
+    "after_sha256": "aaf5b1ee7e8d6518dfe25430b8f4cbe81a328718d8d1cd060e88cc25f808daaf"
+  },
+  "immutable_receipts_preserved": true,
+  "publication_verified": false,
+  "whitespace_check": {
+    "all_candidate_paths_exit_code": 2,
+    "only_reported_path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/validation/build.log:10",
+    "all_other_paths_exit_code": 0,
+    "explanation": "The original native Generating line has trailing whitespace. Its exact build output and hash were preserved. All other staged paths pass."
+  },
+  "limits": [
+    "This receipt records a real existing verifier commit and completed local controls, not a remote deployment.",
+    "Twenty historical PNGs are new additions to the articles; no new application captures or sends were performed.",
+    "The later closure changes only this receipt, the current work record and one inventory row; sources, PNGs and QA evidence remain byte exact."
+  ]
+}

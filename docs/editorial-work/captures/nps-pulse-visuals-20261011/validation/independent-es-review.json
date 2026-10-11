@@ -1,0 +1,52 @@
+{
+  "schema": "independent-spanish-page-review-v1",
+  "status": "passed",
+  "reviewer": "/root/inbox_article",
+  "reviewed_at_utc": "2026-10-11T08:37:49.855276+00:00",
+  "scope": "NPS Spanish complete pages at 1440/580/390 CSS and all 15 figure details.",
+  "views": [
+    {
+      "path": "audit/nps-help-qa-20261011/independent-es-1440-review.json",
+      "sha256": "622076fc40ade772c2d5436fffafcfc90fae823d355187a5a5515ba531789365",
+      "viewport_width": 1440,
+      "files_reviewed": 14,
+      "status": "passed"
+    },
+    {
+      "path": "audit/nps-help-qa-20261011/independent-es-580-review.json",
+      "sha256": "190d66edb312e285eae577507564ec81a3bcab657de70a17d2ab456fd1bd3a49",
+      "viewport_width": 580,
+      "files_reviewed": 14,
+      "status": "passed"
+    },
+    {
+      "path": "audit/nps-help-qa-20261011/independent-es-390-review.json",
+      "sha256": "e1c42d4c37501b45b0bef401d8411ee252a8c68908a6fad02db656ddeedcb730",
+      "viewport_width": 390,
+      "files_reviewed": 16,
+      "status": "passed"
+    }
+  ],
+  "totals": {
+    "native_pngs_individually_viewed": 44,
+    "complete_page_segments": 29,
+    "figure_details": 15,
+    "complete_responsive_views": 3
+  },
+  "findings": [],
+  "source_sha256": "311683ad718dfd84b8dc85781d0bac61c3cbce45c5de1f9f02908872bbc685c5",
+  "built_html_sha256": "8f63751c7832832b9d95e06561a80071cfc569cd78d91723cfc13933d63017a1",
+  "checkpoint_sha256": "723d7f36eae44d00b4790638dcfe730394661d80644e960d3e53c6d633873786",
+  "mutations": {
+    "articles": 0,
+    "images": 0,
+    "runtime_or_database": 0,
+    "browser_actions": 0,
+    "external_writes": 0
+  },
+  "not_covered": [
+    "English page review owned by conversation_article",
+    "Source-code semantic/currentness review owned by existing source reviewers",
+    "Publication and inventory decisions owned by parent"
+  ]
+}

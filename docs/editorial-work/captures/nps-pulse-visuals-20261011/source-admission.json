@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-11T08:37:35.833115+00:00",
+  "status": "accepted_sources_and_editorial_copy_pending_final_page_QA",
+  "reviewer": "root",
+  "article_key": "journeys/nps-pulse-playbook.md",
+  "base": "3e05601d63bc834182f71cd0d09747631bf2d2e2",
+  "articles": [
+    {
+      "path": "_i18n/es/journeys/nps-pulse-playbook.md",
+      "sha256": "311683ad718dfd84b8dc85781d0bac61c3cbce45c5de1f9f02908872bbc685c5"
+    },
+    {
+      "path": "_i18n/en/journeys/nps-pulse-playbook.md",
+      "sha256": "05d45b3bf22e0336f3cbb9e655fcb487d4f038dda2018cafe53c23cdb1f773cf"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/manifest.json",
+      "sha256": "cccbba6c3f7bf21797c5bb98603b1ba6fb45f747ff5d76b77025709b0a29f3b0"
+    },
+    {
+      "path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/source-review.json",
+      "sha256": "82e0cf32c48144a13ebbaa31c3c5878a963697ee4a28e5759f490dca052911e7"
+    },
+    {
+      "path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/source-pixel-review.json",
+      "sha256": "3472a320a1d98a574b5762123f596869d36cf7315a4b2addff18125fd204626f"
+    },
+    {
+      "path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/independent-text-review.json",
+      "sha256": "41ef58c8126b7bcea91cfebe9f1ba83ea6b64486e00884b7d3473f84414cec41"
+    },
+    {
+      "path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/figure-plan.json",
+      "sha256": "04599481fc7a8d7242eaf3bcc935393345d8a9949a2dd6568482e985f1970348"
+    },
+    {
+      "path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/text-decisions.json",
+      "sha256": "06f9574b6574c23ef1c973180404c2777fa0f3b1025798520bfb09a5d3c1f371"
+    },
+    {
+      "path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/verification-sources.json",
+      "sha256": "bca864442bff6dbf60144e76e54fd9ca052803b2b0f6a02eb77b3ccf4d3126fa"
+    },
+    {
+      "path": "docs/editorial-work/captures/nps-pulse-visuals-20261011/integration-record.json",
+      "sha256": "75f4165e9598906f786b1b3f2e6dd3433bbb13ed3f0e48bc68b7ed3a3f95dd66"
+    }
+  ],
+  "freeze_sha256": "e35a0bab78d057900e877f853b0ce3c90e0691fd22ee4bfc96622b7a85efe16d",
+  "assessment": {
+    "historic_PNGs_added_to_articles": 20,
+    "new_app_captures": 0,
+    "original_sources_individually_reviewed_by_draft_audit": 20,
+    "root_original_pixel_crosscheck": "ES desktop NPS Message original seen at original resolution; all ten fixed buttons, question and full native form visible. Remaining 19 individually reviewed by delegated source reviewer.",
+    "root_copy_review": "Both complete current ES and EN bodies read; the five illustrated configuration concepts match source evidence and captions. Existing timing, valid-response, independent follow-up and no-dedicated-report boundaries preserved.",
+    "current_scoped_source_bindings_verified": 22,
+    "headings_preserved_per_locale": 13,
+    "ordered_links_preserved_per_locale": 18,
+    "no_source_pixel_edits": true,
+    "no_new_runtime_or_sends": true
+  },
+  "limits": [
+    "Historical native UI sources admitted with their exact provenance; no new app capture or complete current deployed pixel parity claimed.",
+    "Native form conversation-end description and incoming-channel wording conflicts are explicitly explained in nearby article text.",
+    "Shared mobile header does not show an NPS name; caption preserves that boundary.",
+    "Desktop/mobile full article and figure-detail visual acceptance is a separate remaining check."
+  ],
+  "remaining_before_verifying_commit": [
+    "All six rendered views pass individual complete-page and five-detail pixel review.",
+    "Owned local Help review processes close cleanly and all bound hashes remain unchanged."
+  ]
+}
