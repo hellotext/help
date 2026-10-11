@@ -1,0 +1,47 @@
+{
+  "status": "bilingual_article_local_verified",
+  "recorded_at": "2026-10-11T17:19:47.178734+00:00",
+  "article_key": "numbers/email-channel-fundamentals.md",
+  "verifying_commit": "df2b62ca32f148d6058ee02a1ee1973a9c82d380",
+  "remaining_blockers": [],
+  "final_review": {
+    "path": "docs/editorial-work/captures/email-completion-20261011/final-review.json",
+    "sha256": "98598d5d1c554bd5673467bfb99ac396b3e04cff56e6b9146ca708f362b7775a"
+  },
+  "evidence_index_at_verifying_commit": {
+    "path": "docs/editorial-work/captures/email-completion-20261011/evidence-index.json",
+    "sha256": "dbc56cbb800c0f3c2b3155a127ebb8da2afae92ca1a78da7b7a5dbf5717e5bdc"
+  },
+  "source_pngs": 12,
+  "new_pngs": 12,
+  "retained_pngs": 0,
+  "reviewed_views": 6,
+  "full_page_segments": 84,
+  "figure_details": 18,
+  "supplemental_table_pngs": 2,
+  "inventory": {
+    "before": {
+      "local_verified": 119,
+      "pending": 31,
+      "out_of_scope": 1,
+      "in_progress": 2,
+      "visual_pending": 1
+    },
+    "after": {
+      "local_verified": 120,
+      "pending": 30,
+      "out_of_scope": 1,
+      "in_progress": 2,
+      "visual_pending": 1
+    },
+    "unresolved_before": 34,
+    "unresolved_after": 33,
+    "publication_state": "not_yet_published"
+  },
+  "limitations": [
+    "Spanish identity table uses native horizontal scrolling at 390 CSS px; both endpoints reviewed.",
+    "Scoped source continuity does not assert current production app pixels or global asset parity.",
+    "Immutable raw build log retains one trailing space at line 10; all other staged files pass diff --check."
+  ],
+  "publication": false
+}

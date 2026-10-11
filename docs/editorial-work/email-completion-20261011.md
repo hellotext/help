@@ -1,8 +1,8 @@
 # Email fundamentals completion
 
-Status: local source, copy, build, complete-page and figure reviews passed; ready for the real verifying commit. Inventory closure and publication remain separate later actions.
+Status: bilingual article locally verified at `df2b62ca32f148d6058ee02a1ee1973a9c82d380`; the inventory is closed by this separate follow-up change. Publication and public-resource verification remain separate later actions.
 
-This batch owns the Spanish and English Email channel fundamentals bodies and their capture evidence. It starts from Help `83709b00e107739ba3679d7ce8a80388f804eecf` with editorial submodule `d5319b02e1c6a85f3a6294f11763b9be8dd58a43`. Complete originals, route stub and inventory are preserved under `captures/email-completion-20261011/originals/`. All 22 headings and 20 ordered Liquid links per locale remain unchanged. The inventory row is still pending and no commit was created by the integration or QA helpers.
+This batch owns the Spanish and English Email channel fundamentals bodies and their capture evidence. It starts from Help `83709b00e107739ba3679d7ce8a80388f804eecf` with editorial submodule `d5319b02e1c6a85f3a6294f11763b9be8dd58a43`. Complete originals, route stub and inventory are preserved under `captures/email-completion-20261011/originals/`. All 22 headings and 20 ordered Liquid links per locale remain unchanged. The inventory remained pending in verifying commit `df2b62ca32f148d6058ee02a1ee1973a9c82d380`. The separate closure records that commit in the inventory and `local-verification-committed.json`; no commit was created by the integration or QA helpers.
 
 ## Copy and source
 
@@ -35,3 +35,5 @@ At 390 pixels, the Spanish identity table has a native scrollable width of 410 p
 Local HTTP checks passed for 32 exact resources, 40 article links and eight authoring-document exclusions. The local server's extensionless routing limitation is documented in that receipt; actual deployment routing remains a publication check. Both QA service groups were stopped, their processes and profile descendants were absent, and ports 3368 and 9549 were verified closed. `validation/help-process-closure.json` binds the actual shutdown receipt.
 
 `precommit-main-inventory-snapshot.json` records a read-only 17:09 UTC refresh: Help main remains `83709b00e107739ba3679d7ce8a80388f804eecf`, with no open PRs and 34 unresolved article pairs. It is a preparation-time inventory observation, not a merge or deployment gate. Earlier receipts keep their historical pending statuses; `final-review.json` and `evidence-index.json` consolidate the completed local evidence. A real verifying commit must precede the separate inventory-closing commit, and preview/production identity and exact public resources must be verified by the publication owner.
+
+The local inventory closure changes only this article pair: 119 to 120 locally verified pairs and 34 to 33 unresolved pairs across 154 rows. The preserved literal build log contains one trailing space at line 10; every other changed file passes `git diff --check`. The original log bytes were not rewritten.
