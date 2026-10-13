@@ -37,3 +37,23 @@ Open dependency: the 450 px desktop minimum height of the popup is implemented i
 - `campaigns/email-image-sizes.md` is a new article with no public original, so it has no row in `inventory.csv` or `progress.csv`; this record is its only ledger. Add it to both registers after it is published, with the observed public state.
 - The popup section is tracked from the `captures/website-popup.md` work record, which links here.
 - Do not merge or announce this change until the popup minimum height ships (hellotext/hellotext#6220). After it deploys, confirm the popup renders at 450 px or more on desktop, then publish and record the public check.
+
+## Follow-up: galleries, product blocks and logo (2026-10-13)
+
+- Originals preserved in `originals/email-image-sizes/{en,es,stub}.md` (SHA-256: EN `23561abf73cb7ea66c854d717a4cb8114dda863b0896fa5b02c3be04872903a8`, ES `7e9c2ed02c90134915b0ee6e06723251976f249911baf5ae53245d791b679a72`, stub `21cba15d31f061931733a4c2e25427dfa64d78b3ee0fd81f3bc4e1ef4f7d2a20`).
+- Correction: the published sizes used the 640 px email width as the display width. The renderer subtracts 24 px of content padding per side (`Mailing::Renderer::Html::CONTENT_PADDING`), so content is 592 px, and table cells subtract their own 12 px side padding (`CELL_STYLE`). All sizes were recalculated from those rules.
+- Added sections, checked against `app/models/mailing/renderer/html.rb` and `app/models/mailing/blocks/` on hellotext `origin/master`:
+
+| Claim | Source |
+| --- | --- |
+| No gallery block; tables allow 6 columns and 12 rows | `Mailing::Blocks::Table::MAX_COLUMNS`, `MAX_ROWS` |
+| Tables keep their columns on phones | `RESPONSIVE_CSS` only stacks `.mailing-product-column` |
+| Product grid is two columns, stacks on phones, image is card width minus the 20 px gap (276 px) | `Html#products`, `#product_card`, default `gap` 20 |
+| Grid custom image size and list thumbnail range 48–160 px, list default 88 px, image radius 0–40 px | `Mailing::Blocks::ProductStyle::NUMBERS`, `Html#product_style` |
+| Images keep natural proportions and never exceed their displayed width | `Html#image` (`height` from natural ratio, `max-width`) |
+| Logo shown at up to 200 px wide and 80 px tall | `Html#brand` |
+
+- The 300 KB target is guidance, not a product limit; the limit is 5 MB.
+- Local verification: production build and `script/verify_security_headers.rb` passed; `node_modules` restored afterwards. Built EN and ES pages inspected at 1280×720 and 390×844: no horizontal page overflow and every table fits its container. The Spanish product table first overflowed by 7 px at 390 px; shorter labels and a breakable `600 × 600 px` fixed it in both languages.
+- No screenshots added; the article describes values, not controls.
+- This is a local build, not public publication.
