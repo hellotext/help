@@ -43,21 +43,6 @@ En este paso, se te pedirá elegir el dominio principal de la tienda para tu apl
 
 Basado en el dominio que elijas, Hellotext construirá las URLs de Productos y SKUs para los Agentes de IA.
 
-#### Instalación del Pixel
-
-En este paso, se te pedirá instalar el píxel de Hellotext en tu cuenta de VTEX. Instalar el píxel desbloquea información de comportamiento sobre lo que hacen tus clientes en el sitio web, incluyendo:
-
-- Vistas de página
-- Vistas de productos
-- Modificaciones del carrito (agregados o eliminaciones)
-- Realización de pedidos
-
-#### Instalación automática de Push
-
-La integración de Hellotext con VTEX también instala y configura las notificaciones push mediante su píxel en la tienda. Push está disponible en Pro y Enterprise. Completa la instalación del píxel anterior; no necesitas subir otro worker ni agregar otra inicialización de Hellotext.js.
-
-Si instalaste el píxel antes de que Push estuviera disponible, asegúrate de que la app de Hellotext esté actualizada y espera a que el píxel actualizado llegue a la tienda publicada. Sigue [Configura las notificaciones push]({% link _integrations/setup-push-notifications.md %}) para agregar controles de suscripción y verificar la configuración.
-
 <a name="checkout"></a>
 
 #### Seguimiento del Embudo de Checkout
@@ -91,6 +76,63 @@ Haz clic en **Guardar**.
 Una vez guardado, Hellotext identificará a los compradores en cuanto ingresen su email o teléfono durante el checkout, incluso si no completan la compra.
 
 Para más información, consulta el código fuente de <a href="https://github.com/hellotext/vtex-checkout">vtex-checkout</a>.
+
+#### Instalación del Pixel
+
+En este paso, Hellotext detecta con qué tecnología está construida tu tienda VTEX y te muestra la instalación que le corresponde:
+
+- **Store Framework (VTEX IO)**: instalas la aplicación de Hellotext desde tu VTEX Admin.
+- **Legacy CMS**: pegas el script de Hellotext en las plantillas de tu tienda. Sigue los pasos de [Instalación en tiendas con Legacy CMS](#legacy-cms).
+
+Si el asistente muestra una instalación que no corresponde a tu tienda, usa el enlace que aparece debajo de los pasos para cambiar a la otra.
+
+Instalar el píxel desbloquea información de comportamiento sobre lo que hacen tus clientes en el sitio web, incluyendo:
+
+- Vistas de página
+- Vistas de productos
+- Modificaciones del carrito (agregados o eliminaciones)
+- Realización de pedidos
+
+<a name="legacy-cms"></a>
+
+#### Instalación en tiendas con Legacy CMS
+
+VTEX no carga aplicaciones en las tiendas construidas con Legacy CMS, así que la aplicación de Hellotext no llega a sus páginas aunque esté instalada. En su lugar, agrega el script de Hellotext a las plantillas de tu tienda:
+
+1. En tu VTEX Admin, ve a **Storefront** > **Layout** > **CMS** > **HTML Templates**.
+2. Abre el subtemplate que se incluye en todas las páginas, por ejemplo el header o el que carga los scripts de tu tienda. Si no tienes uno compartido, repite estos pasos en cada plantilla de página.
+3. Pega el siguiente código dentro del `<head>` o justo antes de `</body>`:
+
+```html
+<!-- Hellotext -->
+<script>
+  ;(function () {
+    var script = document.createElement('script')
+    script.src = 'https://cdn.jsdelivr.net/npm/@hellotext/vtex-legacy-cms@1/dist/storefront.js'
+    script.onload = function () {
+      HellotextLegacyCMS.initialize('YOUR_BUSINESS_ID')
+    }
+    document.head.appendChild(script)
+  })()
+</script>
+```
+
+4. Reemplaza `YOUR_BUSINESS_ID` con tu ID de negocio de Hellotext, que puedes encontrar en **Configuración** > **Negocio** en tu panel de Hellotext. El asistente de configuración te muestra el código con tu ID ya incluido.
+5. Guarda la plantilla.
+
+El script rastrea las vistas de página, las vistas de productos y los cambios en el carrito, e identifica a los clientes que inician sesión. También muestra las alertas de Hellotext, atribuye a Hellotext los pedidos que llegan desde tus campañas y permite agregar productos al carrito desde los carruseles del webchat.
+
+No pegues este script en el checkout. El checkout usa el script de [Seguimiento del Embudo de Checkout](#checkout).
+
+Para más información, consulta el código fuente de <a href="https://github.com/hellotext/vtex-legacy-cms">vtex-legacy-cms</a>.
+
+#### Instalación automática de Push
+
+La integración de Hellotext con VTEX también instala y configura las notificaciones push mediante su píxel en la tienda. Push está disponible en Pro y Enterprise. Completa la instalación del píxel anterior; no necesitas subir otro worker ni agregar otra inicialización de Hellotext.js.
+
+La instalación automática de Push funciona con la aplicación de Hellotext en tiendas con Store Framework. El script para tiendas con Legacy CMS no instala las notificaciones push.
+
+Si instalaste el píxel antes de que Push estuviera disponible, asegúrate de que la app de Hellotext esté actualizada y espera a que el píxel actualizado llegue a la tienda publicada. Sigue [Configura las notificaciones push]({% link _integrations/setup-push-notifications.md %}) para agregar controles de suscripción y verificar la configuración.
 
 <a name="affiliate"></a>
 

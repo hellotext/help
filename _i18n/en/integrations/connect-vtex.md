@@ -44,22 +44,6 @@ connected domains connected to your VTEX account. Make sure you choose the exact
 
 Based on the domain you chose, Hellotext will construct Product and SKU urls for the AI Agents.
 
-#### Pixel Installation
-
-In this step, you are asked to install the Hellotext pixel on your VTEX account. Installing the pixel
-unlocks insight into what your customers do on the website, including:
-
-- Page Views
-- Product Views
-- Cart Modifications (additions or removals)
-- Order Placement
-
-#### Automatic Push installation
-
-The Hellotext VTEX integration also installs and configures Push notifications through its storefront pixel. Push is available on Pro and Enterprise. Complete the pixel installation above; you do not need to upload a separate worker or add another Hellotext.js initialization.
-
-If the pixel was installed before Push became available, make sure the Hellotext app is up to date and wait for the updated pixel to reach the live storefront. Follow [Set up Push notifications]({% link _integrations/setup-push-notifications.md %}) for subscription controls and verification.
-
 <a name="checkout"></a>
 
 #### Checkout Funnel Tracking
@@ -93,6 +77,63 @@ Click Save.
 Once saved, Hellotext will identify shoppers as soon as they enter their email or phone during checkout, even if they do not complete the purchase.
 
 Fore more information. Checkout the source code of <a href="https://github.com/hellotext/vtex-checkout">vtex-checkout</a>.
+
+#### Pixel Installation
+
+In this step, Hellotext detects which technology your VTEX storefront is built on and shows you the matching installation:
+
+- **Store Framework (VTEX IO)**: you install the Hellotext app from your VTEX Admin.
+- **Legacy CMS**: you paste the Hellotext script into your store's templates. Follow the steps in [Legacy CMS installation](#legacy-cms).
+
+If the wizard shows an installation that doesn't match your store, use the link below the steps to switch to the other one.
+
+Installing the pixel unlocks insight into what your customers do on the website, including:
+
+- Page Views
+- Product Views
+- Cart Modifications (additions or removals)
+- Order Placement
+
+<a name="legacy-cms"></a>
+
+#### Legacy CMS installation
+
+VTEX doesn't load apps on storefronts built with Legacy CMS, so the Hellotext app never reaches their pages, even when it's installed. Add the Hellotext script to your store's templates instead:
+
+1. In your VTEX Admin, go to **Storefront** > **Layout** > **CMS** > **HTML Templates**.
+2. Open the subtemplate that every page includes, such as the header or the one that loads your store's scripts. If there isn't a shared one, repeat these steps for each page template.
+3. Paste the following code inside `<head>` or right before `</body>`:
+
+```html
+<!-- Hellotext -->
+<script>
+  ;(function () {
+    var script = document.createElement('script')
+    script.src = 'https://cdn.jsdelivr.net/npm/@hellotext/vtex-legacy-cms@1/dist/storefront.js'
+    script.onload = function () {
+      HellotextLegacyCMS.initialize('YOUR_BUSINESS_ID')
+    }
+    document.head.appendChild(script)
+  })()
+</script>
+```
+
+4. Replace `YOUR_BUSINESS_ID` with your Hellotext business ID, which you can find in Settings > Business on your Hellotext dashboard. The setup wizard shows the code with your ID already filled in.
+5. Save the template.
+
+The script tracks page views, product views and cart changes, and identifies shoppers who are logged in. It also shows Hellotext alerts, attributes orders from your Hellotext campaigns, and lets webchat product carousels add items to the cart.
+
+Don't paste this script into the checkout. The checkout uses the script from [Checkout Funnel Tracking](#checkout).
+
+For more information, check out the source code of <a href="https://github.com/hellotext/vtex-legacy-cms">vtex-legacy-cms</a>.
+
+#### Automatic Push installation
+
+The Hellotext VTEX integration also installs and configures Push notifications through its storefront pixel. Push is available on Pro and Enterprise. Complete the pixel installation above; you do not need to upload a separate worker or add another Hellotext.js initialization.
+
+Automatic Push installation works with the Hellotext app on Store Framework stores. The Legacy CMS script doesn't install Push notifications.
+
+If the pixel was installed before Push became available, make sure the Hellotext app is up to date and wait for the updated pixel to reach the live storefront. Follow [Set up Push notifications]({% link _integrations/setup-push-notifications.md %}) for subscription controls and verification.
 
 <a name="affiliate"></a>
 
