@@ -1,6 +1,6 @@
 # Campaign creation completion — 26 October 2026
 
-Status: both localized guides pass local build, source integrity, HTTP and complete visual review. Publication has not been performed by this worktree. The inventory remains at its original state until the actual verifying commit is created.
+Status: both localized guides are locally verified at commit `24fa15de997761230c2e483595dc805509d505ac`. Production build, source integrity, HTTP and complete visual review pass. The inventory now records Campaign as `local_verified`, leaving 32 unfinished article pairs. Publication has not been performed by this worktree.
 
 ## Changes
 
@@ -24,8 +24,8 @@ The real exports generated Spanish `custom-e5d0ebc899b77888` and English `custom
 
 The production build and security-header checks pass. All 36 source PNGs and their 72 built copies are byte-identical; native profiles, geometry and four signed module copies pass. Local HTTP checks verified 80 exact resources, 28 article links and eight excluded authoring paths.
 
-Independent reviewers inspected both complete guides at1440,580 and390 CSS pixels:91 page segments and66 individual figure details,157 native review PNGs in total. Every view passes with no findings, no horizontal overflow, no raster enlargement and the expected responsive source selection. Shared mobile controls are compact and complete, with exact instructions in adjacent HTML prose. EN580 ends at16600 against documentHeight16601, within the existing one-CSS-pixel coverage tolerance; the footer and bottom margin are visibly complete. No capture or coverage value was altered.
+Independent reviewers inspected both complete guides at 1440, 580 and 390 CSS pixels: 91 page segments and 66 individual figure details, 157 native review PNGs in total. Every view passes with no findings, no horizontal overflow, no raster enlargement and the expected responsive source selection. Shared mobile controls are compact and complete, with exact instructions in adjacent HTML prose. EN 580 ends at 16600 against documentHeight 16601, within the existing one-CSS-pixel coverage tolerance; the footer and bottom margin are visibly complete. No capture or coverage value was altered.
 
 The native examples render early, remain inert, preserve localized text and have no overflow. Authoring records remain excluded from the public site. Owned application capture and Help review services are closed; no permissions, automation, prospecting environment or protected worktree was modified.
 
-The capture directory contains immutable source manifests, pixel verdicts, copy and export reviews, runtime closure, build receipts, six view packets and complete visual evidence. Final inventory closure and the two local commits are recorded separately after consolidation. Remote publication and deployed-byte verification belong to the authorized publication owner.
+The capture directory contains immutable source manifests, pixel verdicts, copy and export reviews, runtime closure, build receipts, six view packets and complete visual evidence. The immutable evidence is committed at `24fa15de997761230c2e483595dc805509d505ac`; `local-verification-committed.json` records that actual commit and the subsequent inventory closure. Only the Campaign row changed: 121 pairs are locally verified and 32 remain unfinished (28 pending, three in progress and one awaiting visual completion); one separate pair is out of scope. All 153 unrelated rows remain exact. Remote publication and deployed-byte verification belong to the authorized publication owner.
