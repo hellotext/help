@@ -1,0 +1,34 @@
+{
+  "schema": "campaign-owned-browser-proxy-close-v1",
+  "closed_at": "2026-10-26T22:58:35.770359+00:00",
+  "ownership_checks": [
+    {
+      "pid": 53390,
+      "port": 9562,
+      "command_sha256": "ce572c09a6885cbc2a80641c7c2ba638bb7082371c3776c74f5b6d1aa958a72c",
+      "listener_identity_verified": true
+    },
+    {
+      "pid": 60524,
+      "port": 3376,
+      "command_sha256": "ddd27a4ffd08a48e1a58438f5709d36aa837a4d9af095d3e79746cd035f5c01d",
+      "listener_identity_verified": true
+    }
+  ],
+  "native_page_before_close": "about:blank",
+  "signal": "SIGTERM",
+  "closed_pids": [
+    53390,
+    60524
+  ],
+  "remaining_owned_listeners": [],
+  "success": true,
+  "untouched_services": [
+    "Rails33386",
+    "Redis19626",
+    "Help QA3378",
+    "Help QA9557"
+  ],
+  "profile_preserved": true,
+  "credentials_printed": false
+}

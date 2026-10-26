@@ -1,0 +1,290 @@
+{
+  "status": "copy_review_pass_no_open_findings",
+  "reviewed_at_utc": "2026-10-26T22:01:44.964615+00:00",
+  "help_base": "7cc05346c0234fc76ab94db0e914b47313d5edad",
+  "app_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "scope": "Independent ES/EN copy delta review against immutable current application source, originals, structure and routes. Pass applies only to the recorded article hashes. Screenshots, inserted message example, rendered page, build and publication are not validated by this report.",
+  "structure": [
+    {
+      "path": "_i18n/es/campaigns/creating-a-campaign.md",
+      "base_sha256": "e04e77ea289de870d61492693308ce4a4862254d8b83a499075fe1b4656a3904",
+      "reviewed_sha256": "77929dce37a39f484a18567e384ebc3f173a61e8bd8518d00d13e780732b3b0b",
+      "original_matches_base": true,
+      "headings": 14,
+      "ordered_headings_preserved": true,
+      "liquid_links": 14,
+      "ordered_links_preserved": true,
+      "byte_identical_to_base": false,
+      "initial_reviewed_sha256": "494b73d9278456a9911107e88108b9f264da563f7b5831a853d4414727f60cb5",
+      "before_selector_delta_sha256": "494b73d9278456a9911107e88108b9f264da563f7b5831a853d4414727f60cb5"
+    },
+    {
+      "path": "_i18n/en/campaigns/creating-a-campaign.md",
+      "base_sha256": "60e7f8935f4d8039c6d3935f138c1bf24407b3bbcd2a668c9e7949253ad094d2",
+      "reviewed_sha256": "a399c0d7169bfbcc57bda9b687a0198554116f5045f7a008a383fb4b81500667",
+      "original_matches_base": true,
+      "headings": 14,
+      "ordered_headings_preserved": true,
+      "liquid_links": 14,
+      "ordered_links_preserved": true,
+      "byte_identical_to_base": false,
+      "initial_reviewed_sha256": "0b73efa06af5326c743995a8d22693650a7094b3b05bdc82de653af4b6848b43",
+      "before_selector_delta_sha256": "0b73efa06af5326c743995a8d22693650a7094b3b05bdc82de653af4b6848b43"
+    },
+    {
+      "path": "_campaigns/creating-a-campaign.md",
+      "base_sha256": "b4b2ddfaf2d8989d88ef8ea3d09dfe5714be6b7d6be02d3776ce10266680bc19",
+      "reviewed_sha256": "b4b2ddfaf2d8989d88ef8ea3d09dfe5714be6b7d6be02d3776ce10266680bc19",
+      "original_matches_base": true,
+      "headings": 0,
+      "ordered_headings_preserved": true,
+      "liquid_links": 0,
+      "ordered_links_preserved": true,
+      "byte_identical_to_base": true,
+      "initial_reviewed_sha256": "b4b2ddfaf2d8989d88ef8ea3d09dfe5714be6b7d6be02d3776ce10266680bc19",
+      "before_selector_delta_sha256": "b4b2ddfaf2d8989d88ef8ea3d09dfe5714be6b7d6be02d3776ce10266680bc19"
+    }
+  ],
+  "routes": {
+    "en": "/creating-a-campaign.html",
+    "es": "/es/crear-una-campaña.html",
+    "stub_unchanged": true
+  },
+  "checks": [
+    {
+      "check": "Exact audience count before the recipient limit",
+      "result": "pass",
+      "evidence": "Campaign::AudienceCount inline/job calls Technology::Selection#reachable_count without a limit. Its default limit is 0. Contact::AudienceQuery filters active, kept, not-unsubscribed profiles; union/subquery selection deduplicates and applies exclusions before reachability counting."
+    },
+    {
+      "check": "Limited count at confirmation",
+      "result": "pass",
+      "evidence": "Campaign::Cache#calculate_target_contacts_count calls reachable_count(limit: campaign.limit). Confirm reads this cache; its fingerprint includes audience, technologies and limit. Technology::Selection uses min(count, limit) for a positive limit."
+    },
+    {
+      "check": "Count may take time / refresh",
+      "result": "pass",
+      "evidence": "AudienceCount returns nil for a reachability backlog or a 1500ms timeout and its job streams the exact count. The audience JS aborts superseded requests. Confirmation asks Cache::Job for a fresh count after its stream connects. Waiting wording is appropriate; it does not promise a fixed delay."
+    },
+    {
+      "check": "Choose maximum no higher than audience count",
+      "result": "pass",
+      "evidence": "campaign/audience_count_controller.js rejects nextLimit > countValue, sets input max and prevents progression while a saved limit exceeds the current count."
+    },
+    {
+      "check": "Review >=100 recipients or configured limit >=100",
+      "result": "pass",
+      "evidence": "ApprovalWorkflow syncs templates, calculates target_contacts_count(cache: false), persists contacts_count, then calls needs_review?. TargetsContactables#needs_review? tests positive limit >=100 OR contacts_count >=100. approved_by_whatsapp? is an earlier bypass requiring approved WhatsApp instances for every broadcast template. Existing cautious plural copy is consistent. Missing WhatsApp templates can be resubmitted before this decision."
+    },
+    {
+      "check": "Configure replies / person / team / unassigned / empty team",
+      "result": "pass after resolving campaign-copy-001",
+      "evidence": "ES/EN labels exactly match components/campaign/assignment locale files. ReplySettings opens an editor with AssignmentComponent; person/team choices exist. Empty teams are disabled and rejected by ReplyAssignable; blank selection removes override. UI locale descriptions explicitly describe normal Inbox rules when unassigned. Added behavior paragraph matches CampaignReply and ReplyWindow; original After sending wording restored byte-for-byte."
+    },
+    {
+      "check": "Wizard order",
+      "result": "pass",
+      "evidence": "Campaign::CreationWizard order remains technologies, audience, compose, delivery, confirm, done. The guide keeps its instructional preview/test subsection between composing and delivery, not an invented wizard page. Reply assignment is rendered inside confirmation after delivery summary."
+    },
+    {
+      "check": "Audience selector interaction and exact ES/EN labels",
+      "result": "pass",
+      "evidence": "CampaignAudienceController inherits PlaybookAudienceController. add() marks newly added groups excluded while allAudienceSelected; toggleStatus() returns early with All selected and otherwise toggles included/excluded. The chip name button invokes toggleStatus, its remove control invokes remove, and removeItem updates All=false. The form search placeholder uses campaign_audiences.form.select: Seleccionar audiencia / Select Audience; All chip uses informational.all_audience: Todas las Audiencias / All Audience. Excluded chip uses actions.exclude: Excluir / Exclude. Step2 count comes from campaigns.form.estimated_target: Alcance estimado / Estimated target; step1 separately retains wizard label Target estimado / Estimated target."
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "app/models/technology/selection.rb",
+      "sha256": "34db20a85c32440aed690378c4f7d2d2811a11057d72517b99acf4b5de20fab0"
+    },
+    {
+      "path": "app/models/contact/audience_query.rb",
+      "sha256": "45102641b87541f2e75b23844f68c230c8977f10260679e191cdd3f9cae50ac9"
+    },
+    {
+      "path": "app/models/contact/reachability_query.rb",
+      "sha256": "cf8791945027bd91c7f2a97751c2335121c2fc63e79680f9d6251e7f3a44d78e"
+    },
+    {
+      "path": "app/models/campaign/audience_count.rb",
+      "sha256": "917228b9360e906891e6287ceec781ebd62d9679b8d3fc77f39f3419d206e06b"
+    },
+    {
+      "path": "app/models/campaign/cache.rb",
+      "sha256": "642472e477a5998aa2d3c6d7f2ea7d3a136de2fd84dc47d7843086fc12023da7"
+    },
+    {
+      "path": "app/models/campaign/states.rb",
+      "sha256": "6cc074d74e09218ffe8b33604488a9206381a5adb211c20212fece8b6de59c87"
+    },
+    {
+      "path": "app/models/campaign/approval_workflow.rb",
+      "sha256": "e91608f993e4a0a7aa6998cfb217d4e15e9db089371598e02d4695222b3bef3f"
+    },
+    {
+      "path": "app/models/concerns/campaign/targets_contactables.rb",
+      "sha256": "32138a6432687aa6de2b2008451b850e9d2cd0e5f8934b986ac67387d4e6d332"
+    },
+    {
+      "path": "app/components/campaign/assignment_component.rb",
+      "sha256": "13f685d05e15e5056e0cdfe1dd8a79ca803204d0a12a4ff4d07eb61b31af740e"
+    },
+    {
+      "path": "app/components/campaign/assignment_component.html.erb",
+      "sha256": "b7b5666309ca7e02270dff44fbb5433290ad3fa2af610043aa5492dcef92b02a"
+    },
+    {
+      "path": "app/components/campaign/reply_settings_component.rb",
+      "sha256": "b4648a9d52e23c1a9acf859360a17025da0c291ffd66a65731a135f77c346e5e"
+    },
+    {
+      "path": "app/components/campaign/reply_settings_component.html.erb",
+      "sha256": "563efd56e9d9e8e86d88756f7aedcdaa2c96379ee67ec21d4f744ed2c7970586"
+    },
+    {
+      "path": "app/views/campaigns/wizard/confirm.html.erb",
+      "sha256": "c30756796849909b8c73d5d4b7e525debaaf63bb9bbf5fe5614380e716ab81d0"
+    },
+    {
+      "path": "app/views/campaigns/wizard/confirm/_audience_count.html.erb",
+      "sha256": "69298e6e6e1d64982b1de503e1e83b0c5b31f6b6e00b0000b36a207470468a65"
+    },
+    {
+      "path": "app/controllers/campaign/audience_count_refreshes_controller.rb",
+      "sha256": "89022753ea79dbdf6241a915785799dd6c6f377340ebdd00f70adfd0035b81b3"
+    },
+    {
+      "path": "app/javascript/controllers/campaign/audience_count_controller.js",
+      "sha256": "7c8d77cc05edb4fbd96cd980f1abb121f20a1a2e71c1086bfd9013bc576cb799"
+    },
+    {
+      "path": "app/javascript/controllers/campaign/audience_count_refresh_controller.js",
+      "sha256": "867e87cc8e208b97f1fc7adea862a6659216d140f879c26bdb6c4ca8c9ed70b6"
+    },
+    {
+      "path": "app/models/campaign/reply_assignable.rb",
+      "sha256": "c5efda5749896828b762e21a3ef92494d3771e68335d7a860883d239ec80e4e2"
+    },
+    {
+      "path": "app/models/campaign/reply_window.rb",
+      "sha256": "b850343847f0016a56e37588dc520c3f7b0ca9bb9a02e6e39a2fd470ca4e421f"
+    },
+    {
+      "path": "app/models/conversation/ownership/campaign_reply.rb",
+      "sha256": "76e16144275034644f2881330413ba370f97faf8ca3595f4252a689ac692f68e"
+    },
+    {
+      "path": "app/wizards/campaign/creation_wizard.rb",
+      "sha256": "4f655dd56e95080bceec48c863e9ca6d177bd6665dffa3131d39bac422486ab1"
+    },
+    {
+      "path": "config/locales/components/campaign/assignment/es.yml",
+      "sha256": "2fca0ca097730acfa18597bc1f4b732cf2fb69bf4e59a7db3699f1301ada5fe1"
+    },
+    {
+      "path": "config/locales/components/campaign/assignment/en.yml",
+      "sha256": "13c952f3983c90f0e87cadad4a10041ee59ee63a09efc72086faf617fdb4bdcb"
+    },
+    {
+      "path": "app/views/campaign_audiences/_form.html.erb",
+      "sha256": "07cfb88b8ed86bbfe626ba32bd609d60b3684c575888201cc53b24669c027934"
+    },
+    {
+      "path": "app/views/campaign_audiences/_item.html.erb",
+      "sha256": "caf4354bf3f077a29577be5ea25b814876ef7c7250447e7547b25eed73b240f4"
+    },
+    {
+      "path": "app/views/campaigns/_form.html.erb",
+      "sha256": "b4a9910df3c349256b46d2b5d247949b008ba1d0b6306293596472f71f92768c"
+    },
+    {
+      "path": "app/javascript/controllers/campaign/audience_controller.js",
+      "sha256": "ea9ce93037f9148470b039f1907088c8a9982ce658368ea1d8982c5f1c675fb5"
+    },
+    {
+      "path": "app/javascript/controllers/playbook/audience_controller.js",
+      "sha256": "480baff7b591ebd37bb91769f7a2cb4a820977c2723396639ea52dd0a9dec8a2"
+    },
+    {
+      "path": "config/locales/views/campaign_audiences/es.yml",
+      "sha256": "23243df869ffc62f21e2cceef6c331a54c4253744fa4d406aa8a0095bf861427"
+    },
+    {
+      "path": "config/locales/views/campaign_audiences/en.yml",
+      "sha256": "6bfe05860a91308fff59d2f108480b82d9fe643c3d643590ba4665e94f616e1d"
+    },
+    {
+      "path": "config/locales/informational/es.yml",
+      "sha256": "78ed9a39fc9d3fbc30357259f952f83db7a38dd681f74f8e7b3fdf3425836e0d"
+    },
+    {
+      "path": "config/locales/informational/en.yml",
+      "sha256": "0267da8379d4810b5dba5b403eb25df6abae45a4bd306684d10fa8729774a78f"
+    },
+    {
+      "path": "config/locales/views/campaigns/es.yml",
+      "sha256": "75d06c4ecc1f6ede65ea03458159e1f31d74cbf6ad8028fb8531119878b12d85"
+    },
+    {
+      "path": "config/locales/views/campaigns/en.yml",
+      "sha256": "e8a922bc23ff4a2b2c6946a908906686fab09330037df722c1381c8eb518b40a"
+    },
+    {
+      "path": "config/locales/views/campaigns/wizard/es.yml",
+      "sha256": "1d1e8d8b8cc00431d7ad78f27b4f66b185af8b91238628f54ad736a4b9b28ff6"
+    },
+    {
+      "path": "config/locales/views/campaigns/wizard/en.yml",
+      "sha256": "1f03787ba6decb7b6e5c5d9c241d50f2fc888f0626ede205d32d0ff53c89f3d5"
+    },
+    {
+      "path": "config/locales/actions/es.yml",
+      "sha256": "6e627c7a60c98ffa1869ebbf5e5f64d1ff934f9eb53317ea2042ce1e0de23225"
+    },
+    {
+      "path": "config/locales/actions/en.yml",
+      "sha256": "9e0aba07757db755048774dc13d887badc0b7713ac720b9fdb2ce9386a1f5914"
+    }
+  ],
+  "operations": "Read-only source/article inspection plus this report. No article edits, application changes, runtime, DB, services, helper execution or publication.",
+  "findings": [],
+  "resolved_findings": [
+    {
+      "id": "campaign-copy-001",
+      "priority": "P2",
+      "status": "resolved by integration owner and independently rechecked",
+      "title": "Qualify the new promise that every reply uses the selected campaign assignee",
+      "locations": [
+        {
+          "path": "_i18n/es/campaigns/creating-a-campaign.md",
+          "line": 151
+        },
+        {
+          "path": "_i18n/en/campaigns/creating-a-campaign.md",
+          "line": 151
+        }
+      ],
+      "issue": "The new After sending sentence says customer replies use the chosen assignment, falling back only when none was selected. The current implementation also falls back for replies outside the 24-hour campaign window, existing open ownership, and an ineligible assignee. A reader could incorrectly expect this setting to reassign an already-owned open conversation or every later reply.",
+      "evidence": [
+        "app/models/conversation/ownership/campaign_reply.rb:20-21 allows only reopened closed/snoozed conversations or unowned open conversations, with an open ReplyWindow and eligible assignee.",
+        "app/models/conversation/ownership/campaign_reply.rb:83-87 validates current user/team eligibility.",
+        "app/models/conversation/ownership/campaign_reply.rb:95-103 selects the most recent campaign message within WINDOW preceding the reply.",
+        "app/models/campaign/reply_window.rb sets DURATION = 24.hours and documents ordinary Inbox fallback when its window is closed."
+      ],
+      "proposed_insertion_after_configure_replies": {
+        "es": "Esta asignación puede aplicarse a respuestas recibidas dentro de las 24 horas del último mensaje de campaña, cuando se reabre una conversación cerrada o pospuesta, o cuando una conversación abierta no tiene asignación. Si no se cumplen esas condiciones o la persona o el equipo ya no están disponibles, se mantiene el comportamiento habitual del Inbox.",
+        "en": "This assignment can apply to replies received within 24 hours of the latest campaign message, when a closed or snoozed conversation reopens, or when an open conversation is unassigned. If those conditions are not met or the person or team is no longer available, the Inbox keeps its usual behavior."
+      },
+      "proposed_after_sending_sentence": {
+        "es": "Las respuestas de clientes continúan hacia el Inbox por el canal correspondiente. La asignación elegida se aplica cuando se cumplen las condiciones descritas antes; en los demás casos se mantiene el comportamiento habitual del Inbox.",
+        "en": "Customer replies continue into the Inbox through the corresponding channel. The selected assignment applies when the conditions described above are met; otherwise, the Inbox keeps its usual behavior."
+      },
+      "resolution": "Restored the original After sending paragraph. Added a qualified ES/EN paragraph under Configure replies: considered within 24 hours of the latest campaign message when reopening or unowned; does not replace the owner of an open conversation; ordinary Inbox fallback when it cannot apply."
+    }
+  ],
+  "prior_review": {
+    "path": "docs/editorial-work/captures/campaign-creation-completion-20261026/editorial-copy-independent-review-before-selector-delta.json",
+    "sha256": "32df698879a186d5d592e105d0ad3bc042c1247869e193b78ca19bc87fff17f7"
+  },
+  "selector_delta_scope_proof": "Reversing only the reviewed selector paragraph/capitalization/step2 ES label changes reproduces both prior approved article SHA256 values. No other copy delta was introduced."
+}

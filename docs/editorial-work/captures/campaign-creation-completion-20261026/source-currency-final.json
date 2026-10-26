@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-26T23:09:47.644Z",
+  "status": "relevant_capture_source_preserved",
+  "captured_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "observed_master": "b5706007e14106a1a255be07ef7704396e641b1f",
+  "committed_at": "2026-10-26T22:47:18Z",
+  "scope": "Only changed path list and shared routes diff reviewed. Later changes are scoped to admin prospecting. No active prospecting environment was accessed or modified. Captured app remains the isolated ef8a snapshot.",
+  "changed_paths": [
+    "app/controllers/admin/prospecting/imports_controller.rb",
+    "app/helpers/admin/prospecting_contact_selections_helper.rb",
+    "app/jobs/prospecting/contact_review_job.rb",
+    "app/jobs/prospecting/contact_selection_job.rb",
+    "app/models/prospecting/contact_review/internal_matches.rb",
+    "app/models/prospecting/contact_selection.rb",
+    "app/models/prospecting/contact_selection/apply.rb",
+    "app/models/prospecting/contact_selection/return_to_review.rb",
+    "app/views/admin/prospecting/imports/_contact_selection.html.erb",
+    "app/views/admin/prospecting/imports/show.html.erb",
+    "config/routes.rb",
+    "db/migrate/20261026212500_add_contact_selection_to_prospecting_import_rows.rb",
+    "db/structure.sql",
+    "docs/workstreams/prospecting-imports.md",
+    "spec/jobs/prospecting/contact_selection_job_spec.rb",
+    "spec/models/prospecting/contact_selection_apply_spec.rb",
+    "spec/models/prospecting/contact_selection_spec.rb",
+    "spec/requests/admin/prospecting_contact_selections_spec.rb",
+    "spec/system/admin/prospecting_contact_selection_spec.rb"
+  ],
+  "route_patch": "@@ -259,6 +259,8 @@\n           post :approve, on: :member\n           post :resume, on: :member\n           post :review_contacts, on: :member\n+          post :select_contacts, on: :member\n+          post :return_contact_to_review, on: :member\n         end\n         resources :sequences, only: %i[index new create show update]\n         resources :deliveries, only: %i[index show create] do"
+}

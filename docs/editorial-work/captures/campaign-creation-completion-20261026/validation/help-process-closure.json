@@ -1,0 +1,33 @@
+{
+  "status": "closed_and_verified",
+  "at": "2026-10-26T23:20:14.654798+00:00",
+  "checkpoint_sha256": "e37559e6907cf261a709a86b3df831b49abd6ac0716099ee0c9359783f58044c",
+  "scope_sha256": "52071e22d7feda332235ce512dedac5bb0bc546e9e4b99a434539ad726613cb9",
+  "only_owned_process_groups_terminated": true,
+  "owned_processes_absent": true,
+  "process_checks": [
+    {
+      "pid": 86871,
+      "absent": true
+    },
+    {
+      "pid": 86874,
+      "absent": true
+    }
+  ],
+  "owned_profile_processes_remaining": 0,
+  "listeners": [
+    {
+      "port": 3378,
+      "listener_present": false
+    },
+    {
+      "port": 9557,
+      "listener_present": false
+    }
+  ],
+  "process_receipt": {
+    "path": "docs/editorial-work/captures/campaign-creation-completion-20261026/validation/help-processes.json",
+    "sha256": "bf8b4f4e36bd414710dcabcc253019524dcba9517e0b586b84720b2bd0d527be"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "status": "current-source-reviewed proposal; 17 source files unchanged at ef8a2003; native export and browser QA pending",
+  "date": "2026-10-26",
+  "help_revision": "7cc05346c0234fc76ab94db0e914b47313d5edad",
+  "editorial_rules_revision": "d0ee357e45d2d14ae605081fc8fe20763b1bb4ba",
+  "app_source_reviewed": {
+    "current_deployed_revision_validation": "Root selected this immutable current source snapshot. The 17 renderer/export/catalog/style files below are byte-identical to the previously reviewed source. This is source currency verification, not a deployment check.",
+    "prior_path": "/Users/pel/Sites/hellotext",
+    "prior_revision": "5676d496bf96a5a285c70a933f24199df8c74206",
+    "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-app-campaign-current-20261026-ef8a2003/app",
+    "revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7"
+  },
+  "decision": {
+    "component": "messages",
+    "channel": "sms",
+    "case": "One fictional Luma campaign announcing a new collection, with its useful action in the first business message.",
+    "placement": "After the introductory paragraph and before Before you start / Antes de empezar, with adjacent prose identifying the example as illustrative.",
+    "existing_candidate": "_includes/editorial/{es,en}/channel-sms.html exists, but depicts a pickup conversation rather than the planned campaign. Prefer the supported custom payload below.",
+    "channel_reason": "SMS is supported by the existing Campaign guide and is the authorized capture exception while WhatsApp is disabled. This is illustrative copy, not a claim that a campaign was sent or delivered."
+  },
+  "native_contract": {
+    "validator": "app/presenters/editorial/custom_visual.rb: Editorial::CustomVisual.new(data: JSON.parse(...))",
+    "renderer": "Editorial::FigureComponent -> Marketing::PhoneComponent -> Editorial::ChannelPreviewComponent -> Editorial::MessageContentComponent -> Marketing::MessageBubbleComponent (variant: :editorial)",
+    "export_task": "lib/tasks/editorial_visuals.rake",
+    "schema": "version=1; root keys version,title,caption,panels (do not author type,id,locale). 1-2 panels; panel label,channel,business,messages; optional context. 1-20 messages; type=text, side=business, text, optional time. Unknown fields rejected. JSON file absolute, <=65536 bytes, nesting <=12. title/label/business <=120 chars; caption/context <=1000; message text <=4000.",
+    "generated_id": "custom- plus first 16 hex characters of SHA256 of the validator-normalized JSON; read the exporter output instead of guessing.",
+    "inertness": "Text is ERB-escaped inside span.ht-editorial-visual__message-text; it is not auto-linked. SMS chrome and composer use div/span/svg and no sending form. No actions, image, logo, buttons or carousel are included in the proposed payload.",
+    "english_opt_out_evidence": "config/locales/case_studies/en.yml:224 already uses 'Reply STOP to opt out' in an illustrative SMS. This verifies editorial text precedent, not production unsubscribe processing.",
+    "span_template": "app/components/marketing/message_bubble_component.html.erb",
+    "sms_shell_template": "app/components/editorial/channel_preview_component.html.erb:27-43"
+  },
+  "proposed_payloads": {
+    "es": {
+      "version": 1,
+      "title": "Una campaña SMS para presentar una nueva colección",
+      "caption": "SMS ilustrativo de la tienda ficticia Luma. Presenta una nueva colección con un enlace de demostración y la salida BAJA para salir. El enlace es inerte y no se envía ningún mensaje.",
+      "panels": [
+        {
+          "label": "Nueva colección",
+          "context": "Ejemplo de una campaña puntual dirigida a una audiencia que acepta SMS.",
+          "channel": "sms",
+          "business": "Luma",
+          "messages": [
+            {
+              "type": "text",
+              "side": "business",
+              "text": "Luma: descubre la nueva colección en example.com/novedades. BAJA para salir",
+              "time": "10:00"
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "version": 1,
+      "title": "An SMS campaign introducing a new collection",
+      "caption": "Illustrative SMS from the fictional store Luma. It introduces a new collection with a demonstration link and opt-out text. The link is inert and no message is sent.",
+      "panels": [
+        {
+          "label": "New collection",
+          "context": "An example of a one-time campaign for an audience that accepts SMS.",
+          "channel": "sms",
+          "business": "Luma",
+          "messages": [
+            {
+              "type": "text",
+              "side": "business",
+              "text": "Luma: explore the new collection at example.com/new. Reply STOP to opt out",
+              "time": "10:00"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "export_instructions_not_executed": {
+    "editable_sources": "Save each proposed_payloads locale object as its own JSON under the consuming Help article's docs/editorial-work record. Do not pass this entire report to VISUAL_FILE.",
+    "minimum_command": "VISUAL_FILE=/absolute/path/in/help/docs/editorial-work/creating-a-campaign/recipient-example.es.json LOCALE=es bin/rails editorial:export_help",
+    "execution_location": "Reviewed isolated Rails checkout with its Ruby environment and isolated application configuration, coordinated by root. Do not run in the protected app checkout.",
+    "two_locales": "The native task accepts one custom JSON per run and replaces tmp/editorial-help-bundle. Preserve the ES output before running EN. Import the ES generated include and es.yml from the ES bundle, and the EN generated include and en.yml from the EN bundle, without editing their bytes. Verify all common generated files are byte-identical between both runs from the same revision.",
+    "imports": "Use docs/editorial-integration.md: generated _includes/editorial/, _data/editorial/, editorial_visuals.css, editorial_visuals.js, editorial_tabs.js and images/editorial/. Do not import preview page/styles/fonts/README; do not alter generated markup or loosen CSP.",
+    "article_include": "Use the locale-specific custom include printed by the exporter on a line of its own. Keep adjacent prose explanatory and illustrative."
+  },
+  "remaining_checks": [
+    "Run the native validation/export in the isolated runtime; record generated IDs, module SRI and byte-preserving import.",
+    "Run normal Help build/security verification and inspect the complete ES and EN article at desktop and mobile sizes.",
+    "In browser, confirm one SMS panel, readable text, no overflow, correct locale, hidden accessible caption, early placement and no navigation or outbound action from example text."
+  ],
+  "operations": "Only source reads and this local report write. No Rails helper/exporter, DB, service, external publication or application edits.",
+  "current_source_comparison": {
+    "checked_at_utc": "2026-10-26T21:48:27.002264+00:00",
+    "files_compared": 17,
+    "changed_files": [],
+    "files": [
+      {
+        "path": "app/presenters/editorial/custom_visual.rb",
+        "sha256": "54be0160b18ef419979b44b6055142fc0e612d656c8c2d8b7083fb45028ff5bd",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "lib/tasks/editorial_visuals.rake",
+        "sha256": "159caa6b5a2aba4d82eb7fcbcd23ba933d31e2ba742b9e144a4a1495d2081904",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "app/components/editorial/figure_component.rb",
+        "sha256": "dd20f8e55e6133be85522bd9d22660eed33a6514df49f9232127a67acdc2a8a2",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "app/components/editorial/figure_component.html.erb",
+        "sha256": "1feca7c728d0a53f5ed26dc975da3db48bd1535cbbbb7bef91167d32a4b58066",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "app/components/editorial/channel_preview_component.rb",
+        "sha256": "9a4329aa676d4213928ccf81f79f906d5ab14f35b766d8bd5ea29edfb257e8bd",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "app/components/editorial/channel_preview_component.html.erb",
+        "sha256": "9e121ddf0024115e72bd3568176a25c679fd977cd958972e8663e7da59c4b631",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "app/components/editorial/message_content_component.rb",
+        "sha256": "d1bdce9e40b84fd4a0a1cbbccb8799bce952d0a63e06b82e07436ce698adfa68",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "app/components/editorial/message_content_component.html.erb",
+        "sha256": "c58032793d4c3d0737ebe550acbb6fa10ea44a4ee988dc777cca4ec3a28416ff",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "app/components/marketing/message_bubble_component.rb",
+        "sha256": "023e83bacf13121a5a6e5f5ca5bc456294f154510afc7c00a84765aacf59225a",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "app/components/marketing/message_bubble_component.html.erb",
+        "sha256": "d9976dbb9d08f0c1b2f18e78f04c9218945eb652925ba33deb10357c8bbcf043",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "app/components/marketing/phone_component.rb",
+        "sha256": "1db7af86acc3bc9137e8b9abce5fb68ee08c91534448ec506002a8fb5f4e6f5f",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "app/components/marketing/phone_component.html.erb",
+        "sha256": "6d659b3c5797264f9f9dd4ddc95de3c9912b66a484f6819164b53775e643b165",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "config/editorial/visuals.es.yml",
+        "sha256": "82f10f44e318b45ea47ed68b0b97b103d6f7c82db8927f116458be21866f0775",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "config/editorial/visuals.en.yml",
+        "sha256": "25d3c96acf0fa2a15a02a3784aa7d17ea22d8addd87e407f3160145282803587",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "app/javascript/entrypoints/stylesheets/editorial_visuals.scss",
+        "sha256": "e3bc8094f38d9e37899420b61947dd5ce7694506954a671ed5065a8fb0b9afbc",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "app/javascript/lib/editorial_tabs.js",
+        "sha256": "39e1533fa19b21d927b5172e41156317a3bca29a3366348d36870147e53b2287",
+        "identical_to_prior_5676d496": true
+      },
+      {
+        "path": "config/locales/case_studies/en.yml",
+        "sha256": "ecddd08b12bf2d36fc97e5fc29e4cc6a25a3bc195e657029e5d69bf42a9b1afd",
+        "identical_to_prior_5676d496": true
+      }
+    ]
+  },
+  "offline_native_validation": {
+    "executed": false,
+    "dependency_free": false,
+    "reason": "CustomVisual directly includes ActiveModel::Model, GlobalID::Identification and ActionText::Attachable at line 8; it also depends on ActiveSupport extensions (deep_dup, stringify_keys, blank?, in?, String#first) and references ActiveRecord::RecordNotFound. Therefore it is not a standalone standard-library Ruby class. No dependency stubs, extracted validator, Rails boot or runtime execution was used. Native validation remains part of the root-owned isolated exporter.",
+    "result": "Proposed payload unchanged; source compatibility reviewed against identical current validator. JSON syntax/size and illustrative URL/Spanish suffix checked locally."
+  }
+}

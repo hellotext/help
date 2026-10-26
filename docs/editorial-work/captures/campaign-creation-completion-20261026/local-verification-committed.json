@@ -1,0 +1,64 @@
+{
+  "recorded_at": "2026-10-26T23:29:39.800370+00:00",
+  "status": "bilingual_article_local_verified",
+  "article_key": "campaigns/creating-a-campaign.md",
+  "verifying_commit": "24fa15de997761230c2e483595dc805509d505ac",
+  "verifying_commit_parent": "7cc05346c0234fc76ab94db0e914b47313d5edad",
+  "final_review": {
+    "path": "docs/editorial-work/captures/campaign-creation-completion-20261026/final-review.json",
+    "sha256": "6b72fb98ecd541d336c05d69ac31f8373b531f82a5baf7d79746f30bf245e0a1"
+  },
+  "local_verification_before_commit": {
+    "path": "docs/editorial-work/captures/campaign-creation-completion-20261026/local-verification.json",
+    "sha256": "e88bd17dc1be63788fd11260bb8c707128e13df990900167a4019069e159e0a0"
+  },
+  "evidence_index_at_verifying_commit": {
+    "path": "docs/editorial-work/captures/campaign-creation-completion-20261026/evidence-index.json",
+    "sha256": "f797a25a2701268e925c2ce37eec5b6a8d45e2bbc7b9df2cb492410087b73460"
+  },
+  "remaining_blockers": [],
+  "inventory": {
+    "before_row": "campaigns/creating-a-campaign.md,pending,,",
+    "after_row": "campaigns/creating-a-campaign.md,local_verified,24fa15de997761230c2e483595dc805509d505ac,docs/editorial-work/campaign-creation-completion-20261026.md",
+    "rows": 154,
+    "unrelated_rows_preserved": 153,
+    "before_counts": {
+      "local_verified": 120,
+      "pending": 29,
+      "out_of_scope": 1,
+      "in_progress": 3,
+      "visual_pending": 1
+    },
+    "after_counts": {
+      "local_verified": 121,
+      "pending": 28,
+      "out_of_scope": 1,
+      "in_progress": 3,
+      "visual_pending": 1
+    },
+    "unresolved_before": 33,
+    "unresolved_after": 32,
+    "before_sha256": "dd0f52bad74a1dfbf7d0e9cdcd656f8ab537051b73b7514de5ec00b6617535c4",
+    "after_sha256": "92ab703230a9abc005b6882ba18162a6d817e60409976969fb5874936e3af466"
+  },
+  "immutable_receipts_preserved": true,
+  "publication_verified": false,
+  "whitespace_check": {
+    "all_candidate_paths_exit_code": 2,
+    "reported_paths": [
+      "_includes/editorial/en/custom-bcc29206ce14b1ed.html",
+      "_includes/editorial/es/custom-e5d0ebc899b77888.html",
+      "docs/editorial-work/captures/campaign-creation-completion-20261026/editorial-copy.patch",
+      "docs/editorial-work/captures/campaign-creation-completion-20261026/preliminary-native-example-build/build.log",
+      "docs/editorial-work/captures/campaign-creation-completion-20261026/validation/build.log"
+    ],
+    "all_other_paths_exit_code": 0,
+    "explanation": "Preserved native export blank-line whitespace in both includes, exact unified-diff context lines in the reviewed copy patch, and original Jekyll Generating lines in both immutable build logs. No authored article, YAML, JSON or work-record whitespace errors.",
+    "report_sha256": "752e3b5744544c67c7008b62aef7a0ccc4784311586988c71103ace31ec1bcfd"
+  },
+  "limits": [
+    "This receipt records an existing verifying commit and completed local controls, not a remote deployment.",
+    "Thirty-six current native screenshots use fictional isolated data. Campaigns remained drafts; no test or delivery requests were sent.",
+    "The closure changes only this receipt, the current work record and one inventory row; sources, PNGs and QA evidence remain byte exact."
+  ]
+}

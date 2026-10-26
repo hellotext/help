@@ -1,0 +1,124 @@
+{
+  "status": "bilingual_source_selection_and_Help_readability_passed",
+  "at": "2026-10-26T22:46:38.823363+00:00",
+  "checkpoint": {
+    "path": "help-campaign-current-capture-20261026/checkpoint-es.json",
+    "sha256": "e830f214b9e5f7e1fb851609101b5b81323ff576d55fbee900c6550e8cf1e476"
+  },
+  "selected_source_count_es": 18,
+  "selected_figure_count_es": 11,
+  "not_selected": [
+    {
+      "file": "references/campaign-channels-es-desktop.png",
+      "sha256": "4814b3204bfb020d3aed634fa6ffeeb366a67738aad27dce143e32e26b1e2c81",
+      "reason": "Wide layout recapture requested for Help legibility",
+      "selected": false
+    },
+    {
+      "file": "references/campaign-composer-preview-es-desktop.png",
+      "sha256": "8ba802fb1d3481bb447e3bf25b490b892549a814e6f25983f1894ec7710234d0",
+      "reason": "Wide layout replaced by separate editor and preview figures",
+      "selected": false
+    },
+    {
+      "file": "references/campaign-message-preview-es-desktop.png",
+      "sha256": "478406ee2e734b8fbf5ed17c8dc56ea4a1f1b907f24d06364bf6c59cc2f95df1",
+      "reason": "Pixel review rejected stale closed test popover in screenshot",
+      "selected": false
+    },
+    {
+      "file": "references/campaign-coupon-picker-es-mobile.png",
+      "sha256": "79e2960a4b688e3b5266ad61cf1fc79fb29836b55a10e7459b8c378cca3a1152",
+      "reason": "Toolbar top4CSS clipped; recapture with full toolbar",
+      "selected": false
+    },
+    {
+      "file": "references/campaign-audience-limit-es-mobile.png",
+      "sha256": "a7d5dddfe1e807d0065a21845a1a5c054178a24b151c8b78aa99ce5eff40437b",
+      "reason": "Native430 viewport truncates limit-option suffix inside panel; rejected by pixel reviewer",
+      "selected": false
+    },
+    {
+      "file": "references/unselected-current-preview/campaign-message-preview-es-desktop.png",
+      "sha256": "98b7764a01a78d7bb6878adc7ddbdae7d0a408fca2484c66f7deed6a7b20b8c1",
+      "reason": "Genuine complete preview omitted from Help selection: native SMS example already covers result, phone has excessive whitespace at mobile display size",
+      "selected": false
+    },
+    {
+      "file": "references/unselected-current-preview/campaign-message-preview-es-mobile.png",
+      "sha256": "b671af124331964b8694ba473fa1e411e13ab2044feed5bf8b38347956e4b5dd",
+      "reason": "Genuine complete preview omitted from Help selection: native SMS example already covers result, phone has excessive whitespace at mobile display size",
+      "selected": false
+    }
+  ],
+  "native_mobile_limitations": [
+    {
+      "id": "campaign-tracked-link-tool",
+      "viewport": [
+        430,
+        1050
+      ],
+      "native_rect": [
+        32,
+        414,
+        480,
+        216
+      ],
+      "result": "No mobile screenshot: native right edge512 exceeds430, desktop complete only."
+    },
+    {
+      "id": "campaign-personalization-tool",
+      "viewport": [
+        430,
+        1050
+      ],
+      "native_rect": [
+        32,
+        414,
+        480,
+        262
+      ],
+      "result": "No mobile screenshot: native right edge512 exceeds430, desktop complete only."
+    },
+    {
+      "id": "campaign-delivery-date",
+      "viewport": [
+        430,
+        1250
+      ],
+      "native_rect": [
+        397,
+        427.5,
+        307.875,
+        336.5
+      ],
+      "result": "Native open calendar outside viewport; mobile uses closed real date/time, desktop calendar fully open."
+    },
+    {
+      "id": "campaign-audience-limit",
+      "viewport": [
+        430,
+        1200
+      ],
+      "native_rect": [
+        16,
+        671,
+        390,
+        333
+      ],
+      "result": "Native suffix clipped within label. Rejected PNG preserved in references; selected desktop complete only."
+    }
+  ],
+  "Help_treatment": "Static, nonlinked lavender stage with white inset; desktop tools shared where native mobile UI clips. Exact tool labels and actions are explicit in surrounding prose. No raster resizing or application style changes.",
+  "final_readability": "Six complete Help views at1440/580/390 passed independent review. Mobile shared closeups remain complete; exact controls and actions are also named in readable article prose.",
+  "selected_source_count": 36,
+  "selected_figure_count": 22,
+  "selected_source_counts": {
+    "es": 18,
+    "en": 18
+  },
+  "selected_figure_counts": {
+    "es": 11,
+    "en": 11
+  }
+}

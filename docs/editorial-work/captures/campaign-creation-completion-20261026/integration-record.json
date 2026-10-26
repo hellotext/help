@@ -1,0 +1,63 @@
+{
+  "schema": "campaign-current-integration-v1",
+  "status": "native_sources_integrated; Help_QA_pending",
+  "admission_sha256": "5b6b3ec5090baf3d4acb1817bc93c122a5f1083145a030a68db60cf7e722c069",
+  "accepted_manifest_sha256": "bb30809c73856b6dc6b7381ad0748fcccb33d7022e84dcaa3b225bb1f95941ee",
+  "source_register_sha256": "30bf81f86489e5d0d162e3b65b08a70eec9899e306d2375393161caed548655c",
+  "shared_source_figures": {
+    "es": [
+      "campaign-audience-limit",
+      "campaign-personalization-tool",
+      "campaign-test-destination",
+      "campaign-tracked-link-tool"
+    ],
+    "en": [
+      "campaign-audience-limit",
+      "campaign-personalization-tool",
+      "campaign-test-destination",
+      "campaign-tracked-link-tool"
+    ]
+  },
+  "source_count": 36,
+  "figures_per_locale": {
+    "es": 11,
+    "en": 11
+  },
+  "figure_order": {
+    "es": [
+      "campaign-channels",
+      "campaign-audience",
+      "campaign-audience-limit",
+      "campaign-composer",
+      "campaign-tracked-link-tool",
+      "campaign-personalization-tool",
+      "campaign-coupon-picker",
+      "campaign-test-destination",
+      "campaign-delivery-date",
+      "campaign-reply-settings",
+      "campaign-confirmation"
+    ],
+    "en": [
+      "campaign-channels",
+      "campaign-audience",
+      "campaign-audience-limit",
+      "campaign-composer",
+      "campaign-tracked-link-tool",
+      "campaign-personalization-tool",
+      "campaign-coupon-picker",
+      "campaign-test-destination",
+      "campaign-delivery-date",
+      "campaign-reply-settings",
+      "campaign-confirmation"
+    ]
+  },
+  "article_sha256": {
+    "es": "1cd152ee59a45f65e56198c3b8cb3f4ef4d636b07029b641c21953e043aa2533",
+    "en": "71ae481d476c799e2a5c1ccff2475744e3c83a6ab66817e43d9222a4bc14042f"
+  },
+  "pixel_transformations": 0,
+  "native_message_example_integration": {
+    "path": "docs/editorial-work/captures/campaign-creation-completion-20261026/recipient-example-integration.json",
+    "sha256": "3b5fbb307a011782cf812678b48cc5cdd26763c7debeaa428a5a92b67ef4b7b0"
+  }
+}

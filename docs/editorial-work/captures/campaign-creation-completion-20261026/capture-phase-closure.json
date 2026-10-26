@@ -1,0 +1,227 @@
+{
+  "schema": "campaign-current-capture-closure-v1",
+  "status": "capture_complete_validation_passed_pending_help_render_QA",
+  "timestamp": "2026-10-26T22:56:13.687609+00:00",
+  "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "source_manifest": {
+    "file": "source-manifest.json",
+    "sha256": "bb30809c73856b6dc6b7381ad0748fcccb33d7022e84dcaa3b225bb1f95941ee",
+    "records": 36,
+    "locales": {
+      "es": 18,
+      "en": 18
+    }
+  },
+  "normalization_receipt": {
+    "file": "private/manifest-normalization.json",
+    "sha256": "d45380f8396a2d6928d1681add8d2e53717d0ffe7ddad044ac82dbcd0fc50ca1"
+  },
+  "source_validation": {
+    "png_crc": "pass36",
+    "source_sha256_matches_sidecars": "pass36",
+    "native_density4": "pass36",
+    "icc": "Display P3 Gamut with sRGB Transfer",
+    "icc_bytes": 520,
+    "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+    "stable_before_after_DOM": "pass36",
+    "pixel_transformations": 0
+  },
+  "browser": {
+    "pid": 53390,
+    "cdp": 9562,
+    "last_state": "about:blank",
+    "session_reused_for_EN": true,
+    "native_login_sequences": 1,
+    "cookie_injection": false,
+    "impersonation": false,
+    "controller_closed": true,
+    "browser_left_for_local_Help_QA": true
+  },
+  "proxy": {
+    "pid": 60524,
+    "port": 3376,
+    "origin": "http://127.0.0.1:33386",
+    "audit_log": "private/proxy-native-log.ndjson",
+    "audit_log_sha256": "a85f839742d8d52d52c718198f6a501d128314b02eaf44a5fbc3261d3e4203e7",
+    "records_at_closure": 3284,
+    "successful_non_read_requests": [
+      {
+        "origin": "http://127.0.0.1:33386",
+        "path": "/authentication/login",
+        "method": "POST",
+        "status": 302,
+        "count": 1
+      },
+      {
+        "origin": "http://127.0.0.1:33386",
+        "path": "/login",
+        "method": "POST",
+        "status": 302,
+        "count": 1
+      }
+    ],
+    "audience_count_refresh_posts": 0,
+    "campaign_writes": 0,
+    "send_test_or_delivery_requests": 0,
+    "websocket_upgrades_allowed": 0,
+    "native_sprockets_received_bytes": {
+      "/assets/signup/google-g-8a02a3a4e1cd828b42077013ebcb7ce2db553ca9de085004768ab4df128d3f0c.png": {
+        "sha256": "d1ce9c2af0b10a7333abc99bc706f9a6a199e5b65bf3e3009624f076b8638e6a",
+        "bytes": 33661
+      },
+      "/assets/brand-hellotext-tiger-2x-14f0d94994c2b2d1d0054347e7f3e16ef989b720cd179922d9558bfa85a5224f.png": {
+        "sha256": "15ac98399930771b2dd17222778e759dc6e448a22f929ff814ea03f0c0d61602",
+        "bytes": 6541
+      },
+      "/assets/brand-favicon-c392cd164833598dba0f9ec21fd96306a084437c66e5c4761427e069aede9e46.png": {
+        "sha256": "7880019750a973296c663a32da4f450a5b4b8361af174eae0a05b46f81b9fcc1",
+        "bytes": 2365
+      }
+    }
+  },
+  "sessions": [
+    {
+      "ledger": "private/network-ledger-20261026T221110225Z-53621-001.json",
+      "sha256": "b7ecec179890261992020ee8fe2a83e162d444e24aa19383a34b589872e408e5",
+      "session_id": "20261026T221110225Z-53621",
+      "requests": 30,
+      "blank_before_disconnect": {
+        "href": "about:blank",
+        "ready": "complete"
+      }
+    },
+    {
+      "ledger": "private/network-ledger-20261026T221521356Z-57070-003.json",
+      "sha256": "f053478c1094a80b5a27d38190a7c5aa5c3d577bb74858afe03471246856c11c",
+      "session_id": "20261026T221521356Z-57070",
+      "requests": 120,
+      "blank_before_disconnect": {
+        "href": "about:blank",
+        "ready": "complete"
+      }
+    },
+    {
+      "ledger": "private/network-ledger-20261026T222003909Z-60580-015.json",
+      "sha256": "36e53065cc893c3d543b93dc23e80517e07fd8d21981ac31068259b605f23b6e",
+      "session_id": "20261026T222003909Z-60580",
+      "requests": 566,
+      "blank_before_disconnect": {
+        "href": "about:blank",
+        "ready": "complete"
+      }
+    },
+    {
+      "ledger": "private/network-ledger-20261026T223148022Z-67836-002.json",
+      "sha256": "3829579e4fb95af1c364f269a27ccd95dcf9b97237eb0d7b500d1deed8b4d39e",
+      "session_id": "20261026T223148022Z-67836",
+      "requests": 68,
+      "blank_before_disconnect": {
+        "href": "about:blank",
+        "ready": "complete"
+      }
+    },
+    {
+      "ledger": "private/network-ledger-20261026T223252801Z-68240-015.json",
+      "sha256": "0f786163b828b7db8631e90512d0a49058c10937e8b95ad738214b83a8f900c8",
+      "session_id": "20261026T223252801Z-68240",
+      "requests": 1087,
+      "blank_before_disconnect": {
+        "href": "about:blank",
+        "ready": "complete"
+      }
+    },
+    {
+      "ledger": "private/network-ledger-20261026T224529536Z-75534-019.json",
+      "sha256": "2caa24abbaff11a1f431bb59e0831bc2e0f19f42afe61b6cc37048a3b4176d78",
+      "session_id": "20261026T224529536Z-75534",
+      "requests": 824,
+      "blank_before_disconnect": {
+        "href": "about:blank",
+        "ready": "complete"
+      }
+    }
+  ],
+  "blocked_request_summary": [
+    {
+      "method": "GET",
+      "path": "/recaptcha/api.js",
+      "origin": "https://www.google.com",
+      "count": 2
+    },
+    {
+      "method": "GET",
+      "path": "/assets/signup/google-g-8a02a3a4e1cd828b42077013ebcb7ce2db553ca9de085004768ab4df128d3f0c.png",
+      "origin": "http://127.0.0.1:33386",
+      "count": 1
+    },
+    {
+      "method": "GET",
+      "path": "/assets/brand-hellotext-tiger-2x-14f0d94994c2b2d1d0054347e7f3e16ef989b720cd179922d9558bfa85a5224f.png",
+      "origin": "http://127.0.0.1:33386",
+      "count": 1
+    },
+    {
+      "method": "GET",
+      "path": "/mini-profiler-resources/includes.js",
+      "origin": "http://127.0.0.1:33386",
+      "count": 1
+    },
+    {
+      "method": "GET",
+      "path": "/assets/signup/login-360ff43fab325ff93c10715b5647806b3c1fba223779a6a2299ab3239e4c7ece.png",
+      "origin": "http://127.0.0.1:33386",
+      "count": 1
+    },
+    {
+      "method": "GET",
+      "path": "/assets/brand-favicon-c392cd164833598dba0f9ec21fd96306a084437c66e5c4761427e069aede9e46.png",
+      "origin": "http://127.0.0.1:33386",
+      "count": 1
+    },
+    {
+      "method": "GET",
+      "path": "/my/businesses.turbo_stream",
+      "origin": "http://127.0.0.1:33386",
+      "count": 1
+    },
+    {
+      "method": "GET",
+      "path": "/npm/@emoji-mart/data@latest/i18n/es.json",
+      "origin": "https://cdn.jsdelivr.net",
+      "count": 6
+    }
+  ],
+  "websocket_attempts": 0,
+  "runtime_receipts": [
+    {
+      "file": "../audit/help-resume-20261026/fixture/private/runtime/prepare-result.json",
+      "sha256": "12c8566f383b5bfdd1ae353cb0ee28f12f3423f47ec8406f930ae242ec45e403"
+    },
+    {
+      "file": "../audit/help-resume-20261026/fixture/private/runtime/tidy-lists-en-01-result.json",
+      "sha256": "84439ff9e6c003c133892f42b92de07a303e75940c6a2e4f6e222dde5374f478"
+    },
+    {
+      "file": "../audit/help-resume-20261026/fixture/private/runtime/locale-en-result.json",
+      "sha256": "c312add7149dea935607663076d23393687541dd4c0764415c48d1ed188d528f"
+    }
+  ],
+  "fixture_addenda": [
+    "../audit/help-resume-20261026/fixture/tidy-lists-es-result.json",
+    "../audit/help-resume-20261026/fixture/timezone-diagnosis.json"
+  ],
+  "excluded_sources": "references/selection-decisions.json",
+  "native_mobile_limitations": "checkpoint-es.json",
+  "remaining_validation": [
+    "Independent pixel review EN final sources",
+    "Help rendered desktop/mobile readability",
+    "Fixture owner final DB and queue snapshot"
+  ],
+  "external_publications_performed": 0,
+  "publisher_selection": {
+    "file": "../audit/help-resume-20261026/campaign-help/selected-source-candidates.json",
+    "sha256": "3e3bd15b4edefc6470e907ba58069127f6cfaca485f2c62657c95b628b56f3d6",
+    "exact_36_record_filenames_and_hashes_match": true
+  },
+  "blocked_asset_limitations": "External reCAPTCHA and emoji-mart locale requests denied by egress; their features are not exercised or represented in selected figures. Initial missing local read-route requests were corrected before capture; no denied mutation was retried."
+}

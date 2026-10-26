@@ -1,0 +1,40 @@
+{
+  "status": "current_source_bounded_copy_independently_reviewed; visuals_and_build_pending",
+  "records": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/campaigns/creating-a-campaign.md",
+      "before_sha256": "e04e77ea289de870d61492693308ce4a4862254d8b83a499075fe1b4656a3904",
+      "after_sha256": "77929dce37a39f484a18567e384ebc3f173a61e8bd8518d00d13e780732b3b0b",
+      "headings_preserved": 14,
+      "ordered_liquid_links_preserved": 14
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/campaigns/creating-a-campaign.md",
+      "before_sha256": "60e7f8935f4d8039c6d3935f138c1bf24407b3bbcd2a668c9e7949253ad094d2",
+      "after_sha256": "a399c0d7169bfbcc57bda9b687a0198554116f5045f7a008a383fb4b81500667",
+      "headings_preserved": 14,
+      "ordered_liquid_links_preserved": 14
+    }
+  ],
+  "source_register_sha256": "4674954f874583e4aab3682c9865596808ddbf3e3115f930d7f59171c7462b9d",
+  "patch_sha256": "1992ed6377ee166f164fa7df457608d9f5701cf115befa41444055ff6d3ffa02",
+  "prior_20261011_copy_applied": false,
+  "changes": [
+    "Keep current eligibility-based audience count; wait for asynchronous update.",
+    "Explain audience count before limit and confirmation after saved limit.",
+    "Document Configure replies to person/team and default Inbox rules.",
+    "Clarify review may follow >=100 recipients or configured limit>=100 through current ApprovalWorkflow.",
+    "Bound reply assignment to recent campaign replies, reopened/unowned conversations and normal fallback rules; no promise of unconditional reassignment.",
+    "Replace obsolete add/toggle instruction with current audience search/chips, All Audience exclusions, exact localized labels and audience-step Alcance estimado."
+  ],
+  "unchanged_routes": {
+    "es": "/es/crear-una-campaña.html",
+    "en": "/creating-a-campaign.html"
+  },
+  "independent_review": {
+    "path": "editorial-copy-independent-review.json",
+    "sha256": "aa78354b1e06e95d1e0abd437b2baf5c2ef660443a1325518f930aa39bdf3d0d"
+  }
+}

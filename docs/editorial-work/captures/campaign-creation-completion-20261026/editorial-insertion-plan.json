@@ -1,0 +1,521 @@
+{
+  "schema": "campaign-editorial-insertion-plan-v1",
+  "status": "integrated_and_six_view_QA_passed",
+  "help_base": "7cc05346c0234fc76ab94db0e914b47313d5edad",
+  "worktree": "help-campaign-creation-completion-20261026",
+  "capture_dir": "docs/editorial-work/captures/campaign-creation-completion-20261026",
+  "figure_attribute": "data-campaign-figure",
+  "routes": {
+    "en": "/creating-a-campaign.html",
+    "es": "/es/crear-una-campaña.html"
+  },
+  "article_hashes": {
+    "es": "1cd152ee59a45f65e56198c3b8cb3f4ef4d636b07029b641c21953e043aa2533",
+    "en": "71ae481d476c799e2a5c1ccff2475744e3c83a6ab66817e43d9222a4bc14042f"
+  },
+  "candidate_concepts": 11,
+  "insertions": [
+    {
+      "id": "channels",
+      "locale": "es",
+      "section": "1. Inicia la campaña y elige cómo se enviará",
+      "placement": "after_paragraph",
+      "reader_goal": "Full native technology-choice cards, SMS selected; other options keep their actual disabled/readiness state. Draft edit, not a New→wizard transition.",
+      "native_entry_proposed": "campaign wizard edit, step technologies; native count frame",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-channels-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-channels-es-mobile.png"
+      },
+      "caption": "Selector real con datos ficticios. Solo SMS está seleccionado y las opciones de WhatsApp conservan su estado deshabilitado.",
+      "alt": "Opciones de envío de una campaña, con Solo SMS seleccionado y las opciones de WhatsApp deshabilitadas.",
+      "native_caps": {
+        "desktop": 682,
+        "mobile": 398
+      },
+      "historical_anchor": "El creador muestra estas opciones, pero elegir una no habilita por sí solo el envío: el negocio necesita acceso y un remitente listo para el canal elegido. El **Target estimado** es una aproximación del tamaño de la audiencia, no una confirmación de cuántos perfiles pueden recibir el mensaje.",
+      "current_anchor": "El creador muestra estas opciones, pero elegir una no habilita por sí solo el envío: el negocio necesita acceso y un remitente listo para el canal elegido. El **Target estimado** se actualiza para mostrar cuántos perfiles de cliente podrían contactarse con la opción elegida.",
+      "native_id": "campaign-channels"
+    },
+    {
+      "id": "channels",
+      "locale": "en",
+      "section": "1. Start the campaign and choose how it will be sent",
+      "placement": "after_paragraph",
+      "reader_goal": "Full native technology-choice cards, SMS selected; other options keep their actual disabled/readiness state. Draft edit, not a New→wizard transition.",
+      "native_entry_proposed": "campaign wizard edit, step technologies; native count frame",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-channels-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-channels-en-mobile.png"
+      },
+      "caption": "Delivery options for a fictional campaign. SMS is selected and WhatsApp options retain their unavailable state.",
+      "alt": "Campaign delivery options with SMS selected and WhatsApp options unavailable.",
+      "native_caps": {
+        "desktop": 682.0,
+        "mobile": 398.0
+      },
+      "historical_anchor": "The creator shows these options, but selecting one does not by itself enable sending: the business needs access and a ready sender for the chosen channel. The **Estimated target** is an approximation of audience size, not confirmation of how many profiles can receive the message.",
+      "current_anchor": "The creator shows these options, but selecting one does not by itself enable sending: the business needs access and a ready sender for the chosen channel. The **Estimated target** updates to show how many customer profiles may be reachable through the selected delivery option.",
+      "native_id": "campaign-channels"
+    },
+    {
+      "id": "audience",
+      "locale": "es",
+      "section": "2. Elige quién la recibirá",
+      "placement": "after_paragraph",
+      "reader_goal": "Included and excluded fictional audiences with the actual current eligibility count and native selector controls; no historical 3→2 estimator assertion.",
+      "native_entry_proposed": "campaign wizard edit, step audience; native collection and count GETs",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-audience-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-audience-es-mobile.png"
+      },
+      "caption": "Selector real con datos ficticios. Club está incluido y QA excluido; el menú de audiencias está abierto y el alcance muestra dos suscriptores.",
+      "alt": "Selector de audiencia abierto con Club incluido, QA excluido y un alcance estimado de dos suscriptores elegibles.",
+      "native_caps": {
+        "desktop": 984.0,
+        "mobile": 398.0
+      },
+      "historical_anchor": "Usa el botón de agregar para combinar varias reglas de audiencia. Cambia **Incluir** por **Excluir** cuando un grupo deba quedar fuera de la campaña.",
+      "current_anchor": "Con una selección específica, selecciona el nombre de un grupo agregado para alternar entre incluirlo y excluirlo. Los grupos excluidos muestran **Excluir** junto al nombre.",
+      "native_id": "campaign-audience"
+    },
+    {
+      "id": "audience",
+      "locale": "en",
+      "section": "2. Choose who will receive it",
+      "placement": "after_paragraph",
+      "reader_goal": "Included and excluded fictional audiences with the actual current eligibility count and native selector controls; no historical 3→2 estimator assertion.",
+      "native_entry_proposed": "campaign wizard edit, step audience; native collection and count GETs",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-audience-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-audience-en-mobile.png"
+      },
+      "caption": "Audience selector with fictional data. Club is included, QA is excluded, and the open menu shows audience choices.",
+      "alt": "Open audience selector with Club included, QA excluded and an estimated reach of two eligible subscribers.",
+      "native_caps": {
+        "desktop": 984.0,
+        "mobile": 398.0
+      },
+      "historical_anchor": "Use the add button to combine multiple audience rules. Change **Include** to **Exclude** when a group should be removed from the campaign.",
+      "current_anchor": "With a specific selection, select an added group's name to switch between including and excluding it. Excluded groups show **Exclude** beside their name.",
+      "native_id": "campaign-audience"
+    },
+    {
+      "id": "audience-limit",
+      "locale": "es",
+      "section": "2. Elige quién la recibirá",
+      "placement": "after_paragraph",
+      "reader_goal": "Native maximum-recipient popover showing configured limit2, without submitting the form.",
+      "native_entry_proposed": "DOM-only popover over same audience page",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-audience-limit-es-desktop.png"
+      },
+      "caption": "Control de límite de audiencia con un máximo de dos clientes.",
+      "alt": "Opciones de límite de audiencia: enviar a todos o limitar a dos clientes, con los botones Limitar y Cancelar.",
+      "native_caps": {
+        "desktop": 609.0
+      },
+      "historical_anchor": "Usa el control de ajustes junto al **Target estimado** cuando quieras limitar la campaña a una cantidad máxima de clientes elegibles de la audiencia seleccionada. Este límite no vuelve contactable a un perfil que no sea elegible.",
+      "current_anchor": "Usa el control de ajustes junto al **Alcance estimado** cuando quieras limitar la campaña a una cantidad máxima de clientes elegibles de la audiencia seleccionada. Este límite no vuelve contactable a un perfil que no sea elegible.",
+      "native_id": "campaign-audience-limit"
+    },
+    {
+      "id": "audience-limit",
+      "locale": "en",
+      "section": "2. Choose who will receive it",
+      "placement": "after_paragraph",
+      "reader_goal": "Native maximum-recipient popover showing configured limit2, without submitting the form.",
+      "native_entry_proposed": "DOM-only popover over same audience page",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-audience-limit-en-desktop.png"
+      },
+      "caption": "Audience limit control with a maximum of two customers.",
+      "alt": "Audience limit options: send to everyone or limit to two customers, with Limit and Cancel controls.",
+      "native_caps": {
+        "desktop": 609.0
+      },
+      "historical_anchor": "Use the settings control beside **Estimated target** when you want to limit the campaign to a maximum number of eligible customers from the selected audience. This limit does not make an ineligible profile contactable.",
+      "current_anchor": "Use the settings control beside **Estimated target** when you want to limit the campaign to a maximum number of eligible customers from the selected audience. This limit does not make an ineligible profile contactable.",
+      "native_id": "campaign-audience-limit"
+    },
+    {
+      "id": "composer-preview",
+      "locale": "es",
+      "section": "3. Redacta el mensaje",
+      "placement": "after_paragraph",
+      "reader_goal": "Localized native saved SMS draft and composition controls; mobile Preview entry is visible. The separate early native SMS example illustrates the recipient result.",
+      "native_entry_proposed": "new campaign broadcast GET resolves existing owned Broadcast",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-composer-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-composer-es-mobile.png"
+      },
+      "caption": "Borrador real con datos ficticios: etiqueta de nombre, link con tracking y salida BAJA para salir. En móvil, Vista previa abre la vista del canal.",
+      "alt": "Editor SMS de una campaña ficticia con la etiqueta name, un link con tracking, BAJA para salir y las herramientas de composición.",
+      "native_caps": {
+        "desktop": 682.0,
+        "mobile": 398.0
+      },
+      "historical_anchor": "Escribe un mensaje enfocado con una próxima acción clara. El editor muestra una vista previa del canal mientras redactas.",
+      "current_anchor": "Escribe un mensaje enfocado con una próxima acción clara. El editor muestra una vista previa del canal mientras redactas.",
+      "native_id": "campaign-composer"
+    },
+    {
+      "id": "composer-preview",
+      "locale": "en",
+      "section": "3. Compose the message",
+      "placement": "after_paragraph",
+      "reader_goal": "Localized native saved SMS draft and composition controls; mobile Preview entry is visible. The separate early native SMS example illustrates the recipient result.",
+      "native_entry_proposed": "new campaign broadcast GET resolves existing owned Broadcast",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-composer-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-composer-en-mobile.png"
+      },
+      "caption": "Fictional SMS draft with personalization and a tracked link. On mobile, Preview opens the channel view.",
+      "alt": "SMS editor for a fictional campaign with the name tag, a tracked link and composition tools.",
+      "native_caps": {
+        "desktop": 682.0,
+        "mobile": 398.0
+      },
+      "historical_anchor": "Write one focused message with a clear next action. The editor shows a channel preview while you compose.",
+      "current_anchor": "Write one focused message with a clear next action. The editor shows a channel preview while you compose.",
+      "native_id": "campaign-composer"
+    },
+    {
+      "id": "tracked-link-tool",
+      "locale": "es",
+      "section": "Agrega links con tracking",
+      "placement": "after_paragraph",
+      "reader_goal": "Native link tool/input; optional prepared Link already belongs to draft, but no Add/short-URL fetch.",
+      "native_entry_proposed": "DOM-only popover; create POST denied",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-tracked-link-tool-es-desktop.png"
+      },
+      "caption": "Formulario de URL para crear un enlace corto con tracking.",
+      "alt": "Herramienta Crear un enlace corto, con el campo de URL y los botones Agregar enlace corto y Cancelar.",
+      "native_caps": {
+        "desktop": 516.0
+      },
+      "historical_anchor": "Usa la herramienta de links del editor en lugar de pegar una URL larga. Hellotext crea un link corto `hello.link`, registra clics elegibles y conecta la visita con actividad rastreada posterior.",
+      "current_anchor": "Usa la herramienta de links del editor en lugar de pegar una URL larga. Hellotext crea un link corto `hello.link`, registra clics elegibles y conecta la visita con actividad rastreada posterior.",
+      "native_id": "campaign-tracked-link-tool",
+      "instruction_addendum": "En **Crear un enlace corto**, pega la URL de destino y selecciona **Agregar enlace corto**."
+    },
+    {
+      "id": "tracked-link-tool",
+      "locale": "en",
+      "section": "Add tracked links",
+      "placement": "after_paragraph",
+      "reader_goal": "Native link tool/input; optional prepared Link already belongs to draft, but no Add/short-URL fetch.",
+      "native_entry_proposed": "DOM-only popover; create POST denied",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-tracked-link-tool-en-desktop.png"
+      },
+      "caption": "URL form for creating a tracked short link.",
+      "alt": "Create a shortlink tool with the URL field and Add short link and Cancel controls.",
+      "native_caps": {
+        "desktop": 516.0
+      },
+      "historical_anchor": "Use the editor's link tool instead of pasting a long destination URL. Hellotext creates a short `hello.link` URL, records eligible clicks, and connects the visit with later tracked activity.",
+      "current_anchor": "Use the editor's link tool instead of pasting a long destination URL. Hellotext creates a short `hello.link` URL, records eligible clicks, and connects the visit with later tracked activity.",
+      "instruction_addendum": "In **Create a shortlink**, paste the destination URL and select **Add short link**.",
+      "native_id": "campaign-tracked-link-tool"
+    },
+    {
+      "id": "personalization-tool",
+      "locale": "es",
+      "section": "Agrega etiquetas de personalización",
+      "placement": "after_paragraph",
+      "reader_goal": "Native tag picker and existing {name} token; preview substitution is illustrative actor data, not sent recipient proof.",
+      "native_entry_proposed": "DOM-only tag menu",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-personalization-tool-es-desktop.png"
+      },
+      "caption": "Menú de etiquetas con propiedades estándar y una propiedad personalizada ficticia.",
+      "alt": "Menú Etiquetas del editor con propiedades como name, full_name, email y una propiedad personalizada ficticia.",
+      "native_caps": {
+        "desktop": 516.0
+      },
+      "historical_anchor": "Las etiquetas insertan propiedades del perfil de cliente en el mensaje entregado. Usa un valor alternativo cuando la propiedad pueda faltar, por ejemplo `{name|cliente}`.",
+      "current_anchor": "Las etiquetas insertan propiedades del perfil de cliente en el mensaje entregado. Usa un valor alternativo cuando la propiedad pueda faltar, por ejemplo `{name|cliente}`.",
+      "native_id": "campaign-personalization-tool",
+      "instruction_addendum": "Abre **Etiquetas** con el botón de llaves y selecciona la propiedad que quieres insertar, como `name`."
+    },
+    {
+      "id": "personalization-tool",
+      "locale": "en",
+      "section": "Add personalization tags",
+      "placement": "after_paragraph",
+      "reader_goal": "Native tag picker and existing {name} token; preview substitution is illustrative actor data, not sent recipient proof.",
+      "native_entry_proposed": "DOM-only tag menu",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-personalization-tool-en-desktop.png"
+      },
+      "caption": "Tags menu with standard properties and a fictional custom property.",
+      "alt": "Tags menu with properties such as name, full_name and email, plus a fictional custom property.",
+      "native_caps": {
+        "desktop": 516.0
+      },
+      "historical_anchor": "Tags insert customer profile properties into the delivered message. Use a fallback when the property may be missing, for example `{name|customer}`.",
+      "current_anchor": "Tags insert customer profile properties into the delivered message. Use a fallback when the property may be missing, for example `{name|customer}`.",
+      "instruction_addendum": "Open **Tags** with the braces button and select the property you want to insert, such as `name`.",
+      "native_id": "campaign-personalization-tool"
+    },
+    {
+      "id": "coupon-picker",
+      "locale": "es",
+      "section": "Agrega un cupón",
+      "placement": "after_paragraph",
+      "reader_goal": "Existing fictional Coupon2 in native selector; no assignment or new coupon creation.",
+      "native_entry_proposed": "compose coupon new GET, exact owned-business query",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-coupon-picker-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-coupon-picker-es-mobile.png"
+      },
+      "caption": "Selector real de cupones con datos ficticios. GUIA-QR-10 está disponible y todavía no se ha seleccionado.",
+      "alt": "Herramienta Cupones con el cupón ficticio GUIA-QR-10 disponible y Ninguno seleccionado.",
+      "native_caps": {
+        "desktop": 416.0,
+        "mobile": 414.0
+      },
+      "historical_anchor": "Usa la herramienta de cupones para hacer referencia a un cupón disponible en Hellotext. Esto mantiene el cupón conectado con la campaña y sus resultados en lugar de tratar un código escrito manualmente como texto común.",
+      "current_anchor": "Usa la herramienta de cupones para hacer referencia a un cupón disponible en Hellotext. Esto mantiene el cupón conectado con la campaña y sus resultados en lugar de tratar un código escrito manualmente como texto común.",
+      "native_id": "campaign-coupon-picker"
+    },
+    {
+      "id": "coupon-picker",
+      "locale": "en",
+      "section": "Add a coupon",
+      "placement": "after_paragraph",
+      "reader_goal": "Existing fictional Coupon2 in native selector; no assignment or new coupon creation.",
+      "native_entry_proposed": "compose coupon new GET, exact owned-business query",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-coupon-picker-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-coupon-picker-en-mobile.png"
+      },
+      "caption": "Coupon selector with fictional data. GUIA-QR-10 is available and no coupon has been selected.",
+      "alt": "Coupon tool with the fictional GUIA-QR-10 coupon available and no coupon selected.",
+      "native_caps": {
+        "desktop": 416.0,
+        "mobile": 414.0
+      },
+      "historical_anchor": "Use the coupon tool to reference a coupon already available in Hellotext. This keeps the coupon connected to the campaign and its results instead of treating a manually typed code as plain text.",
+      "current_anchor": "Use the coupon tool to reference a coupon already available in Hellotext. This keeps the coupon connected to the campaign and its results instead of treating a manually typed code as plain text.",
+      "native_id": "campaign-coupon-picker"
+    },
+    {
+      "id": "test-destination",
+      "locale": "es",
+      "section": "4. Revisa la vista previa y envía una prueba",
+      "placement": "after_paragraph",
+      "reader_goal": "Native SMS test destination form visible; no number submission, Enter or send.",
+      "native_entry_proposed": "DOM-only test popover; tests POST denied",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-test-destination-es-desktop.png"
+      },
+      "caption": "Formulario de prueba SMS con el campo de teléfono vacío y el botón de envío deshabilitado.",
+      "alt": "Formulario Enviar mensaje a este número, con selector de país, campo de teléfono vacío y envío deshabilitado.",
+      "native_caps": {
+        "desktop": 432.0
+      },
+      "historical_anchor": "Envía una prueba al destino que corresponda antes de continuar: un número que controles para SMS o WhatsApp, o una dirección propia para una campaña de solo correo. Una prueba por SMS puede entregarse directamente. Una prueba de WhatsApp con contenido nuevo puede quedar programada hasta que Meta apruebe la plantilla.",
+      "current_anchor": "Envía una prueba al destino que corresponda antes de continuar: un número que controles para SMS o WhatsApp, o una dirección propia para una campaña de solo correo. Una prueba por SMS puede entregarse directamente. Una prueba de WhatsApp con contenido nuevo puede quedar programada hasta que Meta apruebe la plantilla.",
+      "native_id": "campaign-test-destination",
+      "instruction_addendum": "Para una prueba SMS, en **Enviar mensaje a este número**, elige el país e ingresa un número que controles."
+    },
+    {
+      "id": "test-destination",
+      "locale": "en",
+      "section": "4. Preview and send a test",
+      "placement": "after_paragraph",
+      "reader_goal": "Native SMS test destination form visible; no number submission, Enter or send.",
+      "native_entry_proposed": "DOM-only test popover; tests POST denied",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-test-destination-en-desktop.png"
+      },
+      "caption": "SMS test form with an empty phone field and disabled send control.",
+      "alt": "Send message to this number form with a country selector, empty phone field and disabled send control.",
+      "native_caps": {
+        "desktop": 432.0
+      },
+      "historical_anchor": "Send a test to the appropriate destination before continuing: a number you control for SMS or WhatsApp, or your own address for an Email-only campaign. An SMS test can be delivered directly. A WhatsApp test with new template content can remain scheduled until Meta approves that template.",
+      "current_anchor": "Send a test to the appropriate destination before continuing: a number you control for SMS or WhatsApp, or your own address for an Email-only campaign. An SMS test can be delivered directly. A WhatsApp test with new template content can remain scheduled until Meta approves that template.",
+      "instruction_addendum": "For an SMS test, in **Send message to this number**, choose the country and enter a number you control.",
+      "native_id": "campaign-test-destination"
+    },
+    {
+      "id": "delivery-date",
+      "locale": "es",
+      "section": "5. Elige cuándo se enviará",
+      "placement": "after_paragraph",
+      "reader_goal": "Native Send later date/time and any real window constraints; future time is prepared while status stays draft.",
+      "native_entry_proposed": "campaign wizard edit, step delivery; DOM-only calendar",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-delivery-date-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-delivery-date-es-mobile.png"
+      },
+      "caption": "Fecha y hora ficticias de un borrador: 2 de noviembre de 2026 a las 12:00. El calendario está abierto en escritorio y cerrado en móvil.",
+      "alt": "Enviar más tarde seleccionado para el 2 de noviembre de 2026 a las 12:00; calendario abierto en escritorio y campos de fecha y hora en móvil.",
+      "native_caps": {
+        "desktop": 705.0,
+        "mobile": 398.0
+      },
+      "historical_anchor": "Hellotext aplica las ventanas de comunicación requeridas para el país de destino y los ajustes de horas nocturnas del negocio. Si el momento elegido no está permitido, la interfaz puede solicitar otro horario o mover la entrega a la siguiente ventana permitida.",
+      "current_anchor": "Hellotext aplica las ventanas de comunicación requeridas para el país de destino y los ajustes de horas nocturnas del negocio. Si el momento elegido no está permitido, la interfaz puede solicitar otro horario o mover la entrega a la siguiente ventana permitida.",
+      "native_id": "campaign-delivery-date"
+    },
+    {
+      "id": "delivery-date",
+      "locale": "en",
+      "section": "5. Choose when it will be sent",
+      "placement": "after_paragraph",
+      "reader_goal": "Native Send later date/time and any real window constraints; future time is prepared while status stays draft.",
+      "native_entry_proposed": "campaign wizard edit, step delivery; DOM-only calendar",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-delivery-date-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-delivery-date-en-mobile.png"
+      },
+      "caption": "Fictional draft date and time: November 2, 2026 at 12:00. The calendar is open on desktop and closed on mobile.",
+      "alt": "Send later selected for November 2, 2026 at 12:00; the calendar is open on desktop and date and time fields are shown on mobile.",
+      "native_caps": {
+        "desktop": 705.0,
+        "mobile": 398.0
+      },
+      "historical_anchor": "Hellotext applies the communication windows required for the destination country and the business's night-hour settings. If the selected time is not allowed, the interface can require another time or move delivery to the next allowed window.",
+      "current_anchor": "Hellotext applies the communication windows required for the destination country and the business's night-hour settings. If the selected time is not allowed, the interface can require another time or move delivery to the next allowed window.",
+      "native_id": "campaign-delivery-date"
+    },
+    {
+      "id": "confirmation",
+      "locale": "es",
+      "section": "6. Revisa y confirma",
+      "placement": "after_paragraph",
+      "reader_goal": "Current saved audience/limit, selected channel, preview, future date and reply assignment summary; no send action.",
+      "native_entry_proposed": "campaign wizard edit, step confirm",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-confirmation-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-confirmation-es-mobile.png"
+      },
+      "caption": "Revisión previa al envío de una campaña ficticia: dos clientes elegibles y la fecha elegida.",
+      "alt": "Confirmación de un borrador con dos clientes segmentados, Club incluido, QA excluido, Solo SMS, fecha 2 de noviembre a las 12:00 y respuestas sin asignación específica.",
+      "native_caps": {
+        "desktop": 682.0,
+        "mobile": 398.0
+      },
+      "historical_anchor": "La pantalla de confirmación es la última oportunidad de detectar una audiencia o mensaje incorrectos antes de que la campaña entre en aprobación y entrega.",
+      "current_anchor": "La pantalla de confirmación es la última oportunidad de detectar una audiencia o mensaje incorrectos antes de que la campaña entre en aprobación y entrega.",
+      "native_id": "campaign-confirmation"
+    },
+    {
+      "id": "confirmation",
+      "locale": "en",
+      "section": "6. Review and confirm",
+      "placement": "after_paragraph",
+      "reader_goal": "Current saved audience/limit, selected channel, preview, future date and reply assignment summary; no send action.",
+      "native_entry_proposed": "campaign wizard edit, step confirm",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-confirmation-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-confirmation-en-mobile.png"
+      },
+      "caption": "Review of a fictional campaign before sending: two eligible customers and the selected date.",
+      "alt": "Draft confirmation with two targeted customers, Club included, QA excluded, SMS selected, November 2 at 12:00 and no specific reply assignment.",
+      "native_caps": {
+        "desktop": 682.0,
+        "mobile": 398.0
+      },
+      "historical_anchor": "The confirmation screen is the last opportunity to catch a wrong audience or message before the campaign enters approval and delivery.",
+      "current_anchor": "The confirmation screen is the last opportunity to catch a wrong audience or message before the campaign enters approval and delivery.",
+      "native_id": "campaign-confirmation"
+    },
+    {
+      "id": "reply-settings",
+      "locale": "es",
+      "section": "6. Revisa y confirma",
+      "placement": "after_paragraph",
+      "current_anchor": "En **Configurar respuestas**, abre el botón de ajustes y usa **Asignar respuestas a** para elegir una persona o un equipo. Si mantienes **Sin asignación específica**, las respuestas siguen las reglas habituales de tu Inbox. Los equipos sin miembros no se pueden seleccionar.",
+      "reader_goal": "Real Configure replies editor with person/team dropdown visible; preserve actual empty-team and unassigned states; no unauthorized selection write.",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-reply-settings-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-reply-settings-es-mobile.png"
+      },
+      "caption": "Configuración real con personas y equipos ficticios. El menú de equipos está abierto y se conserva Sin asignación específica.",
+      "alt": "Configurar respuestas con Asignar respuestas a abierto, personas ficticias y los equipos Atención demo y Ventas demo; Sin asignación específica sigue activo.",
+      "native_caps": {
+        "desktop": 846.0,
+        "mobile": 398.0
+      },
+      "native_id": "campaign-reply-settings"
+    },
+    {
+      "id": "reply-settings",
+      "locale": "en",
+      "section": "6. Review and confirm",
+      "placement": "after_paragraph",
+      "current_anchor": "In **Configure replies**, open the settings button and use **Assign replies to** to choose a person or team. If you keep **No specific assignment**, replies follow your Inbox's usual assignment rules. Teams without members cannot be selected.",
+      "reader_goal": "Real Configure replies editor with person/team dropdown visible; preserve actual empty-team and unassigned states; no unauthorized selection write.",
+      "status": "native_sources_integrated_and_Help_QA_passed",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign/campaign-reply-settings-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign/campaign-reply-settings-en-mobile.png"
+      },
+      "caption": "Reply settings with fictional people and teams. The teams submenu is open and no specific assignment remains selected.",
+      "alt": "Configure replies with the person and team selector open, fictional people and demo teams, and no specific assignment active.",
+      "native_caps": {
+        "desktop": 846.0,
+        "mobile": 398.0
+      },
+      "native_id": "campaign-reply-settings"
+    }
+  ],
+  "final_source_count": 36,
+  "final_figures_per_locale": {
+    "es": 11,
+    "en": 11
+  },
+  "scope": "Editorial candidates, not an image quota or source acceptance. Actual UI geometry may require split crops or make a candidate unusable. No placeholder figures inserted.",
+  "acceptance": [
+    "Admit real localized UI PNGs with observed native DPR/scale, exact clip and Display P3 profile; never postprocess pixels or invent states.",
+    "Derive CSS caps from actual native logical size. Inspect individual sources, all six complete Help views and every detail at1440/580/390.",
+    "Static nonlinked figures retain the standard lavender stage and separate white inset.",
+    "Captions identify fictional data and actual state; provenance records direct draft entry and actions not performed.",
+    "Preserve real payment/readiness requirements; never imply test, approval, payment, scheduling or delivery happened."
+  ],
+  "pending": [
+    "inventory_closure_and_authorized_publication"
+  ],
+  "historical_plan": {
+    "path": "help-campaign-creation-completion-20261011/docs/editorial-work/captures/campaign-creation-completion-20261011/editorial-insertion-plan.json",
+    "sha256": "4b21e68ff70e70a2a86d44a00d17726c76764b75d8ec225711e758a8625bcbbc"
+  },
+  "recipient_example": {
+    "position": "after brief introduction and before first configuration section",
+    "channel": "sms",
+    "locales": [
+      "es",
+      "en"
+    ],
+    "component": "native Editorial::FigureComponent messages via VISUAL_FILE export",
+    "fictional_case": "Luma collection launch",
+    "status": "native_export_integrated_and_six_view_QA_passed",
+    "reason": "Shows the message result before teaching campaign configuration; SMS matches the real disabled WhatsApp state."
+  }
+}

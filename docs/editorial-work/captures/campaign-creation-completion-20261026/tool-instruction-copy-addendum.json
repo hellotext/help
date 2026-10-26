@@ -1,0 +1,87 @@
+{
+  "status": "six_tool_instruction_sentences_independently_reviewed",
+  "at": "2026-10-26T22:41:09.807107+00:00",
+  "app_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "reason": "Exact native labels make steps readable without depending on small screenshot text. Static figures and application styles remain unchanged.",
+  "records": [
+    {
+      "locale": "es",
+      "before_sha256": "020d7cf699bdc5d28d543ab1cfb5a899d2acee881464d8b06dd60d3da8188798",
+      "after_sha256": "c587736be65072866c4e379c7d660bb9cb87da62de078a218c4caa54ebee2e89",
+      "additions": {
+        "tracked-link-tool": "En **Crear un enlace corto**, pega la URL de destino y selecciona **Agregar enlace corto**.",
+        "personalization-tool": "Abre **Etiquetas** con el botón de llaves y selecciona la propiedad que quieres insertar, como `name`.",
+        "test-destination": "Para una prueba SMS, en **Enviar mensaje a este número**, elige el país e ingresa un número que controles."
+      }
+    },
+    {
+      "locale": "en",
+      "before_sha256": "bf626a08861cdb85cf39636af46bf9368872403b8b3cb8edc0f21f3153caf472",
+      "after_sha256": "5ef2796e21eb6bf0b8647f6eebd8b544fa9ad8b05688b8a8cbcf0b9ba9566651",
+      "additions": {
+        "tracked-link-tool": "In **Create a shortlink**, paste the destination URL and select **Add short link**.",
+        "personalization-tool": "Open **Tags** with the braces button and select the property you want to insert, such as `name`.",
+        "test-destination": "For an SMS test, in **Send message to this number**, choose the country and enter a number you control."
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "path": "config/locales/informational/es.yml",
+      "sha256": "78ed9a39fc9d3fbc30357259f952f83db7a38dd681f74f8e7b3fdf3425836e0d"
+    },
+    {
+      "path": "config/locales/informational/en.yml",
+      "sha256": "0267da8379d4810b5dba5b403eb25df6abae45a4bd306684d10fa8729774a78f"
+    },
+    {
+      "path": "config/locales/actions/es.yml",
+      "sha256": "6e627c7a60c98ffa1869ebbf5e5f64d1ff934f9eb53317ea2042ce1e0de23225"
+    },
+    {
+      "path": "config/locales/actions/en.yml",
+      "sha256": "9e0aba07757db755048774dc13d887badc0b7713ac720b9fdb2ce9386a1f5914"
+    },
+    {
+      "path": "config/locales/views/compose/tools/es.yml",
+      "sha256": "828e52ceb4a21379570a4b40d3863df5f9aef0f02912bb60af9712c1ad94e435"
+    },
+    {
+      "path": "config/locales/views/compose/tools/en.yml",
+      "sha256": "3ac54ab7acf93f7facd23c93ca2a8d06981278b8aafd5d5f776379fe66843a8d"
+    },
+    {
+      "path": "config/locales/views/campaign/broadcasts/es.yml",
+      "sha256": "1b86da106b4c1fb59fc94af596e1d94a27d236fd94e00cf56f60297cc63490a1"
+    },
+    {
+      "path": "config/locales/views/campaign/broadcasts/en.yml",
+      "sha256": "145f9f824d1cf23ae77634b1acae34178c4ca49953cd4ec976d3f8f459cc66f1"
+    },
+    {
+      "path": "app/components/compose/toolbar/link_component/link_component.html.erb",
+      "sha256": "cb75495cc60a95e8e056ed38e479fc2fe01b585c7a65fb42b6090373369a1029"
+    },
+    {
+      "path": "app/components/compose/link_form_component.html.erb",
+      "sha256": "f51c1ab04f59117fec5ddcfe680b21fe3580d7b5499caff09f5e4f0d20958d17"
+    },
+    {
+      "path": "app/components/compose/toolbar/tags_component/tags_component.html.erb",
+      "sha256": "cc7658fe3b0bd292f2cd71006f585b82723e3eff5f47e0f77c5fc21f13a0a3b6"
+    },
+    {
+      "path": "app/javascript/controllers/compose/toolbar/tags_controller.js",
+      "sha256": "b7a58a674be9d3b48cbcfd69be0d3205345386d5d40237671fa8b50554adcbef"
+    },
+    {
+      "path": "app/views/campaign/tests/_form.html.erb",
+      "sha256": "9b698de55d01629b5b4446073d340622252c8dab01ace5fa8650bf5cd52f7155"
+    }
+  ],
+  "headings_and_liquid_links_preserved": true,
+  "independent_review": {
+    "path": "tool-instruction-independent-review.json",
+    "sha256": "5bc6254da3791026f20f9ab725ae5a694798d7b907747be9cbfb2b854fadd280"
+  }
+}

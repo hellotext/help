@@ -1,0 +1,115 @@
+{
+  "schema": "campaign-native-recipient-examples-v1",
+  "status": "native_exports_imported; six_view_browser_review_pending",
+  "at": "2026-10-26T22:13:58.571107+00:00",
+  "app_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "exports": [
+    {
+      "locale": "es",
+      "receipt": "audit/help-resume-20261026/fixture/export-es-result.json",
+      "receipt_sha256": "22f56b2c1b48289d951d7f9152c79352efc15c45eb8ab4c3b7a00353dab2de79",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "file_count_verified": 47,
+      "native_custom_include": "editorial/es/custom-e5d0ebc899b77888.html",
+      "postgres_read_only": true
+    },
+    {
+      "locale": "en",
+      "receipt": "audit/help-resume-20261026/fixture/export-en-result.json",
+      "receipt_sha256": "ad66c4fb0db0d091c4d0c298c444b3a8884fde14c8c20b1aa36610418139d24d",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "file_count_verified": 47,
+      "native_custom_include": "editorial/en/custom-bcc29206ce14b1ed.html",
+      "postgres_read_only": true
+    }
+  ],
+  "imports": [
+    {
+      "path": "_includes/editorial/es/custom-e5d0ebc899b77888.html",
+      "before_sha256": null,
+      "sha256": "8e50f6fe1ece17fe3430be047f827f22429b331115d74896406fd0ac592f0d7d",
+      "bytes": 4044,
+      "export_locale": "es"
+    },
+    {
+      "path": "_data/editorial/es.yml",
+      "before_sha256": "2bb69248d8563b14153fa1e82c033f3b8e210a53278fd65589a4e2de6754c1f5",
+      "sha256": "678881ed43cd8e89a3515e06440724f15681b7cd6119321d80edbe35380e5395",
+      "bytes": 14746,
+      "export_locale": "es"
+    },
+    {
+      "path": "_includes/editorial/en/custom-bcc29206ce14b1ed.html",
+      "before_sha256": null,
+      "sha256": "606849572d90e9fc52fe0790b70a1b1e1672ae8469fe1bb690b093b298bccbef",
+      "bytes": 4000,
+      "export_locale": "en"
+    },
+    {
+      "path": "_data/editorial/en.yml",
+      "before_sha256": "bea00ed6c7bbc7eccaa036b18b249ca3030b0692c5f306dd5afdd0fa4b79b04c",
+      "sha256": "0d8d9d951f859acdd2425d83e198138dbeb2f21634436ef4de5324abc22e997e",
+      "bytes": 14063,
+      "export_locale": "en"
+    }
+  ],
+  "examples": [
+    {
+      "locale": "es",
+      "article": "_i18n/es/campaigns/creating-a-campaign.md",
+      "article_before_sha256": "77929dce37a39f484a18567e384ebc3f173a61e8bd8518d00d13e780732b3b0b",
+      "article_after_sha256": "6cec107a1cdca3e97ffc98f4bc5c96571294fd44bc5c6ef3b06b814564f8b3bf",
+      "binding": {
+        "definition": "docs/editorial-work/captures/campaign-creation-completion-20261026/recipient-example.es.json",
+        "definition_sha256": "cd70b5fd557d66bf7ebf7dda7e4c967d67bb15dc35dcbdfc1a4d2acf6d4a28d0",
+        "include": "_includes/editorial/es/custom-e5d0ebc899b77888.html",
+        "include_sha256": "8e50f6fe1ece17fe3430be047f827f22429b331115d74896406fd0ac592f0d7d",
+        "visual_id": "custom-e5d0ebc899b77888"
+      },
+      "visible_context": "Este SMS ilustrativo de la tienda ficticia Luma presenta una nueva colección y una acción clara para el cliente.",
+      "early_placement": true,
+      "native_parser_passed": true
+    },
+    {
+      "locale": "en",
+      "article": "_i18n/en/campaigns/creating-a-campaign.md",
+      "article_before_sha256": "a399c0d7169bfbcc57bda9b687a0198554116f5045f7a008a383fb4b81500667",
+      "article_after_sha256": "bf626a08861cdb85cf39636af46bf9368872403b8b3cb8edc0f21f3153caf472",
+      "binding": {
+        "definition": "docs/editorial-work/captures/campaign-creation-completion-20261026/recipient-example.en.json",
+        "definition_sha256": "05f78d37e8aa77188c9cb39318920f2c6e21db84e281cc17690beb5bd2bbe27c",
+        "include": "_includes/editorial/en/custom-bcc29206ce14b1ed.html",
+        "include_sha256": "606849572d90e9fc52fe0790b70a1b1e1672ae8469fe1bb690b093b298bccbef",
+        "visual_id": "custom-bcc29206ce14b1ed"
+      },
+      "visible_context": "This illustrative SMS from the fictional store Luma introduces a new collection and gives the customer a clear next step.",
+      "early_placement": true,
+      "native_parser_passed": true
+    }
+  ],
+  "generated_bytes_edited": false,
+  "shared_modules_preserved": true,
+  "module_sri": "sha256-zqkNwVRm5VAWrAC7VCC5ZgIicKlfkzgKdIWgmCu2oH0=",
+  "existing_stylesheet_sha256": "8266a7e11c516f7b747668f8fa5757124db4f94a5312cb975faae931b38fc860",
+  "exported_stylesheet_sha256": "e3bc8094f38d9e37899420b61947dd5ce7694506954a671ed5065a8fb0b9afbc",
+  "selective_import_reason": "Import only the two native custom includes and their locale data. Retain existing shared CSS and common includes: the new bundle replaces nonclickable screenshot frames with links/open controls and includes table/ActionText additions outside this Campaign batch. No SMS styling rule differs; verify compatibility in all six final browser views. Generated files were not edited.",
+  "omitted_common_includes": "All existing common includes retained, including segmentation-filters which would reintroduce an image link.",
+  "not_imported": [
+    "bundle preview HTML",
+    "preview.css",
+    "fonts",
+    "unrelated existing includes",
+    "shared stylesheet",
+    "unchanged modules and images"
+  ],
+  "pending": [
+    "current screenshot admission and integration",
+    "production Help build/security/bytes check",
+    "six full article browser views and pixel review",
+    "authorized publication verification"
+  ],
+  "independent_export_review": {
+    "path": "recipient-example-export-independent-review.json",
+    "sha256": "d53b2f2848ebfecd20763b488a1ffa3c9c661291f6daf6383d0ce0ed19f0a051"
+  }
+}
