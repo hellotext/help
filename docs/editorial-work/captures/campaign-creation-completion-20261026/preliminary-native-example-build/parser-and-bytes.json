@@ -1,0 +1,35 @@
+{
+  "status": "preliminary_native_message_build_checks_passed; screenshot_and_browser_qa_pending",
+  "articles": [
+    {
+      "locale": "es",
+      "route": "/es/crear-una-campaña.html",
+      "source_sha256": "6cec107a1cdca3e97ffc98f4bc5c96571294fd44bc5c6ef3b06b814564f8b3bf",
+      "built_html_sha256": "2f7797cb6858c15f1d4bae26dc1cfdbc951e62bb0c680a9f12d5868007c55a55",
+      "native_figure_id": "custom-e5d0ebc899b77888",
+      "native_figure_count": 1,
+      "screenshots_integrated": 0,
+      "source_build_message_equivalent": true
+    },
+    {
+      "locale": "en",
+      "route": "/creating-a-campaign.html",
+      "source_sha256": "bf626a08861cdb85cf39636af46bf9368872403b8b3cb8edc0f21f3153caf472",
+      "built_html_sha256": "d1ff31ee69222e628e90daf72781580ba06341756a8e7b1fe934a3c954e651e0",
+      "native_figure_id": "custom-bcc29206ce14b1ed",
+      "native_figure_count": 1,
+      "screenshots_integrated": 0,
+      "source_build_message_equivalent": true
+    }
+  ],
+  "shared_modules_byte_identical": true,
+  "css": {
+    "source_sha256": "8266a7e11c516f7b747668f8fa5757124db4f94a5312cb975faae931b38fc860",
+    "built_sha256": "648ad42d28fa176b2b3403528204016c138df7acae3b31549e6b46f1e6399e03",
+    "localized_built_copies_equal": true,
+    "note": "Existing Jekyll build minifies CSS. The initial auxiliary equality assertion incorrectly treated CSS like the excluded JS modules; the check was corrected without rebuilding or changing assets/configuration."
+  },
+  "authoring_excluded": true,
+  "native_parser_sha256": "6271483bfe36f0160faba6e3ea935fc64a558fc9cbd7a45eb0d9ac22ab6030cf",
+  "scope": "Build/parser evidence only. No current screenshot is integrated and no browser pixel acceptance is claimed."
+}

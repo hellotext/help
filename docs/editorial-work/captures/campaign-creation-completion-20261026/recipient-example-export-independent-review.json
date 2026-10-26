@@ -1,0 +1,146 @@
+{
+  "status": "actual_native_exports_and_minimal_import_pass_source_review; browser_QA_pending",
+  "reviewed_at_utc": "2026-10-26T22:15:47.320315+00:00",
+  "app_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "help_base": "7cc05346c0234fc76ab94db0e914b47313d5edad",
+  "parser_sha256": "6271483bfe36f0160faba6e3ea935fc64a558fc9cbd7a45eb0d9ac22ab6030cf",
+  "exports": [
+    {
+      "locale": "es",
+      "receipt": "audit/help-resume-20261026/fixture/export-es-result.json",
+      "receipt_sha256": "22f56b2c1b48289d951d7f9152c79352efc15c45eb8ab4c3b7a00353dab2de79",
+      "manifest_files_verified": 47,
+      "exact_file_set_verified": true,
+      "native_binding": "passed",
+      "catalog_delta": "Only the native custom case is appended to exact baseline catalog bytes."
+    },
+    {
+      "locale": "en",
+      "receipt": "audit/help-resume-20261026/fixture/export-en-result.json",
+      "receipt_sha256": "ad66c4fb0db0d091c4d0c298c444b3a8884fde14c8c20b1aa36610418139d24d",
+      "manifest_files_verified": 47,
+      "exact_file_set_verified": true,
+      "native_binding": "passed",
+      "catalog_delta": "Only the native custom case is appended to exact baseline catalog bytes."
+    }
+  ],
+  "message_examples": {
+    "es": {
+      "definition": "docs/editorial-work/captures/campaign-creation-completion-20261026/recipient-example.es.json",
+      "definition_sha256": "cd70b5fd557d66bf7ebf7dda7e4c967d67bb15dc35dcbdfc1a4d2acf6d4a28d0",
+      "include": "_includes/editorial/es/custom-e5d0ebc899b77888.html",
+      "include_sha256": "8e50f6fe1ece17fe3430be047f827f22429b331115d74896406fd0ac592f0d7d",
+      "visual_id": "custom-e5d0ebc899b77888"
+    },
+    "en": {
+      "definition": "docs/editorial-work/captures/campaign-creation-completion-20261026/recipient-example.en.json",
+      "definition_sha256": "05f78d37e8aa77188c9cb39318920f2c6e21db84e281cc17690beb5bd2bbe27c",
+      "include": "_includes/editorial/en/custom-bcc29206ce14b1ed.html",
+      "include_sha256": "606849572d90e9fc52fe0790b70a1b1e1672ae8469fe1bb690b093b298bccbef",
+      "visual_id": "custom-bcc29206ce14b1ed"
+    }
+  },
+  "four_byte_identical_imports_observed": [
+    {
+      "export_locale": "es",
+      "source": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/help-resume-20261026/fixture/private/runtime/export-es/_includes/editorial/es/custom-e5d0ebc899b77888.html",
+      "help_path": "_includes/editorial/es/custom-e5d0ebc899b77888.html",
+      "sha256": "8e50f6fe1ece17fe3430be047f827f22429b331115d74896406fd0ac592f0d7d",
+      "bytes": 4044,
+      "current_help_bytes_equal": true
+    },
+    {
+      "export_locale": "es",
+      "source": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/help-resume-20261026/fixture/private/runtime/export-es/_data/editorial/es.yml",
+      "help_path": "_data/editorial/es.yml",
+      "sha256": "678881ed43cd8e89a3515e06440724f15681b7cd6119321d80edbe35380e5395",
+      "bytes": 14746,
+      "current_help_bytes_equal": true
+    },
+    {
+      "export_locale": "en",
+      "source": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/help-resume-20261026/fixture/private/runtime/export-en/_includes/editorial/en/custom-bcc29206ce14b1ed.html",
+      "help_path": "_includes/editorial/en/custom-bcc29206ce14b1ed.html",
+      "sha256": "606849572d90e9fc52fe0790b70a1b1e1672ae8469fe1bb690b093b298bccbef",
+      "bytes": 4000,
+      "current_help_bytes_equal": true
+    },
+    {
+      "export_locale": "en",
+      "source": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/help-resume-20261026/fixture/private/runtime/export-en/_data/editorial/en.yml",
+      "help_path": "_data/editorial/en.yml",
+      "sha256": "0d8d9d951f859acdd2425d83e198138dbeb2f21634436ef4de5324abc22e997e",
+      "bytes": 14063,
+      "current_help_bytes_equal": true
+    }
+  ],
+  "preserved_shared_assets": [
+    {
+      "path": "assets/editorial/editorial_visuals.css",
+      "retained_help_sha256": "8266a7e11c516f7b747668f8fa5757124db4f94a5312cb975faae931b38fc860",
+      "export_sha256": "e3bc8094f38d9e37899420b61947dd5ce7694506954a671ed5065a8fb0b9afbc",
+      "exports_equal": true,
+      "help_equals_export": false,
+      "help_unchanged_from_base": true
+    },
+    {
+      "path": "assets/editorial/editorial_visuals.js",
+      "retained_help_sha256": "cea90dc15466e55016ac00bb5420b966022270a95f93380a7485a0982bb6a07d",
+      "export_sha256": "cea90dc15466e55016ac00bb5420b966022270a95f93380a7485a0982bb6a07d",
+      "exports_equal": true,
+      "help_equals_export": true,
+      "help_unchanged_from_base": true
+    },
+    {
+      "path": "assets/editorial/editorial_tabs.js",
+      "retained_help_sha256": "39e1533fa19b21d927b5172e41156317a3bca29a3366348d36870147e53b2287",
+      "export_sha256": "39e1533fa19b21d927b5172e41156317a3bca29a3366348d36870147e53b2287",
+      "exports_equal": true,
+      "help_equals_export": true,
+      "help_unchanged_from_base": true
+    }
+  ],
+  "css_review": {
+    "full_diff": "audit/help-resume-20261026/campaign-help/actual-export-css.diff",
+    "diff_sha256": "471f748a20ee6afd8816a213784cb36ead61970a71b090de263e65d6984f1613",
+    "sms_rule_changes": false,
+    "complete_diff_findings": [
+      "Screenshot image-frame selectors are replaced by image-link href selectors plus enlarge/focus styles. A global replacement would remove the existing static screenshot frame presentation.",
+      "New table frame, cell, column-width and responsive rules target classes absent from the actual SMS markup.",
+      "The hidden caption selector gains table-caption; the existing figcaption selector and declarations stay identical.",
+      "The added ActionText attachment wrapper rule does not match either Help SMS include, which contains no ActionText wrapper.",
+      "SMS-relevant figure variables, channel stage colors, phone shell, header/composer/bubbles, text/time and mobile container rules are unchanged."
+    ],
+    "decision": "Keep existing Help stylesheet byte-for-byte. It supports both actual native SMS includes. No generated markup or CSS edits are needed. This source comparison does not replace browser visual QA."
+  },
+  "common_includes": {
+    "count": 28,
+    "retained_from_base": true,
+    "normalized_structural_equal_to_export": 26,
+    "material_export_differences": [
+      "_includes/editorial/en/segmentation-filters.html",
+      "_includes/editorial/es/segmentation-filters.html"
+    ],
+    "finding": "Both segmentation-filters includes change the static image-frame div to an anchor target=_blank with an expand indicator; preserve them. The other 26 differ only in whitespace/comments under normalized parsed-event comparison."
+  },
+  "cross_export": {
+    "common_files": 46,
+    "changed_common_files": [
+      "README.md",
+      "_data/editorial/en.yml",
+      "_data/editorial/es.yml",
+      "index.html"
+    ],
+    "unique_es": [
+      "_includes/editorial/es/custom-e5d0ebc899b77888.html"
+    ],
+    "unique_en": [
+      "_includes/editorial/en/custom-bcc29206ce14b1ed.html"
+    ]
+  },
+  "remaining": [
+    "Run normal Help build and complete ES/EN desktop/mobile visual review with retained stylesheet: readable/inert SMS, early placement, hidden accessible caption and correct article flow.",
+    "Freeze matching message_examples in QA/publication mappings and final hashes after all integration changes."
+  ],
+  "operations": "Read-only export/source/import inspection plus this local receipt and CSS diff. Integration owner copied four files concurrently; this reviewer performed no import, generated-file edit, app/runtime, HTTP or publication."
+}

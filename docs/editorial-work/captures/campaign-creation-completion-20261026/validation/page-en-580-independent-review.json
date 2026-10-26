@@ -1,0 +1,1165 @@
+{
+  "status": "passed",
+  "findings": [],
+  "reviewer": "/root/resume_capture_audit_20261026/help_en_render_review_20261026",
+  "locale": "en",
+  "width": 580,
+  "packet": {
+    "path": "docs/editorial-work/captures/campaign-creation-completion-20261026/validation/page-review/views/en-580.json",
+    "sha256": "6c8a083ec4d04ea55784a7d52cc405fa9feb3b529b32b73ada72e11bcc22778a"
+  },
+  "checkpoint_sha256": "e37559e6907cf261a709a86b3df831b49abd6ac0716099ee0c9359783f58044c",
+  "source": {
+    "path": "_i18n/en/campaigns/creating-a-campaign.md",
+    "sha256": "71ae481d476c799e2a5c1ccff2475744e3c83a6ab66817e43d9222a4bc14042f"
+  },
+  "built_html": {
+    "path": "_site/creating-a-campaign.html",
+    "sha256": "e2a0d5787f50729f69be7f715b08e948e2af8908f2ddd3864c9f506801822fcb"
+  },
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 15,
+    "individually_viewed": true,
+    "coverage_css": [
+      0,
+      16600
+    ],
+    "document_height_css": 16601,
+    "observations": [
+      "All 15 original native 2x Display P3 scroll segments were individually viewed, from header and introductory Luma example through the article, related links, feedback controls and footer.",
+      "Continuous overlap covers CSS y=0 through y=16600. The packet reports documentHeight=16601: a 1 CSS px difference remains at the final numeric boundary, with no verified cause asserted. The complete footer, language selector and lower whitespace are visibly present; no content is visibly cut off.",
+      "The 548 CSS px article column fits within the 580 CSS px viewport with 16 CSS px side margins. Prose, lists and figures remain legible, with no horizontal overflow or overlap.",
+      "Lavender screenshot stages, subtle rounded borders, white frames and separate image insets remain visible and consistent. Figures occupy their own rows with appropriate section spacing.",
+      "The early illustrative Luma SMS with opt-out text is visually distinct from the later fictional campaign draft, whose composer shows a name tag and tracked link without STOP or an opt-out footer."
+    ]
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 11,
+    "individually_viewed": true,
+    "observations": [
+      "All 11 original native 2x Display P3 figure detail PNGs were individually viewed: channels, audience, audience limit, composer, tracked link, tags, coupon, test destination, delivery date, reply settings and confirmation.",
+      "English UI, alt text and captions correspond to the depicted controls. Spanish custom property and team names are fictional data. The native partial final row inside the scrollable audience menu retains its complete outer menu frame.",
+      "SMS remains selected with WhatsApp unavailable. Audience and confirmation retain two customers. Delivery date and confirmation agree on 2 November 2026 at 12:00.",
+      "The mobile composer shows the name tag, tracked link, composition toolbar and complete Preview button. Its description does not claim an opt-out footer.",
+      "Shared desktop sources remain readable and bounded at 471.9921875 CSS px for audience limit, tracked link and tags, below their native logical maxima of 609, 516 and 516 CSS px. Test destination renders at its native maximum of 432 CSS px with full number field, Send Message and Cancel controls.",
+      "Mobile sources remain at or below their natural logical widths. Stage padding, white frame inset, all popup boundaries and intended native controls remain complete.",
+      "Packet evidence records loaded images, English currentSrc assets, interactiveCount=0 and ancestorsLinked=false for every figure. No image link or open control appears on the screenshots. Excluded preview figures and the rejected truncated mobile audience-limit source are absent."
+    ]
+  },
+  "records": [
+    {
+      "file": "campaign-en-580-full-part1.png",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "6f805c009d36a3512268a1440216bf30c31bdb7c220d5a39919794354cc9f7fd",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 0,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part2.png",
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          1100
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "3f9b681e10c54fedc226b7958edc86aeb89bb03055b774458adddfe88fa13e3f",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part3.png",
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          2200
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "08184e9bb22d230ce11596cbfae235c7e8e42bee3b0161b5d2fd26642b0d1df7",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part4.png",
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          3300
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "bd7576953487132802edfdf4324354aebce6f033f17e7232920a5526666cf22f",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part5.png",
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          4400
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "583cba13d30ebf395800eeb9c5ab40f23da22856864d22c3a291cbfcdae0e77e",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part6.png",
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          5500
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "cafb0b0808ac336e6acec4af05b6ebb60f9e98494e775d659bd15451b0587a0b",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part7.png",
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          6600
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "cdd1315ebd0d5571166719d810c87494b35ab3470851e1582bff0a1f8ed2dc55",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part8.png",
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          7700
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "1e01e65d69dc89bf5b3b16e291139c2b7dbcc80d85b94f381bdb799e0e461753",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part9.png",
+      "clip": {
+        "x": 0,
+        "y": 8800,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          8800
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "90e1682b1474f74c13c87b29072ee6096571863ab800cda83230cc1f481dbbf7",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part10.png",
+      "clip": {
+        "x": 0,
+        "y": 9900,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          9900
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "2bfa7c8bc91138de72c4413a77dfa2e177039f1bbcbb76752992c564205a0f63",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part11.png",
+      "clip": {
+        "x": 0,
+        "y": 11000,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          11000
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "17d842e8b5c1fcf32a7d1fdc6cab062efa0db9f61edc789a61e1336f0d01ee24",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part12.png",
+      "clip": {
+        "x": 0,
+        "y": 12100,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          12100
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "4ced42ca833fff034bbbff8b2ebb6a1f3df2bbbc9b7aa69ac86e5277096b5904",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part13.png",
+      "clip": {
+        "x": 0,
+        "y": 13200,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          13200
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "8d8af12e6d0041982a40efa9f72872b88364e9718c9061fe9dbeee35652af5e5",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part14.png",
+      "clip": {
+        "x": 0,
+        "y": 14300,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          14300
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "44e0a1bc602e44669aee563fdad4b22d32bab8a9fbb95e427e94e72a584da9d4",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-full-part15.png",
+      "clip": {
+        "x": 0,
+        "y": 15400,
+        "width": 580,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          15400
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1160,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "93af59a735f00ba58a0a690f49057cad9cd2e66af93a30a603d9859859030a30",
+      "complete_page_segment": true,
+      "documentHeight": 16601,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-campaign-channels.png",
+      "clip": {
+        "x": 4,
+        "y": 2346,
+        "width": 572,
+        "height": 954
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          2223
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1144,
+        1908
+      ],
+      "icc": "Display P3",
+      "sha256": "031faa2f552175a3b9c5823fb8bc9e64650b41d2c448c55bc582bff944a6c0b0",
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-campaign-audience.png",
+      "clip": {
+        "x": 4,
+        "y": 3916,
+        "width": 572,
+        "height": 1190
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          3911
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1144,
+        2380
+      ],
+      "icc": "Display P3",
+      "sha256": "d0ac6f33ea7f35c88dcd756c7e27731b3cbe2d6cdce7a0cde47287e75af45716",
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-campaign-audience-limit.png",
+      "clip": {
+        "x": 4,
+        "y": 5386,
+        "width": 572,
+        "height": 404
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          4987.5
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1144,
+        808
+      ],
+      "icc": "Display P3",
+      "sha256": "4f4872cb241215b6ecaae05ad87b80855359cf838696391514aeaf4382e1dc41",
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-campaign-composer.png",
+      "clip": {
+        "x": 4,
+        "y": 6093,
+        "width": 572,
+        "height": 565
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          5775
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1144,
+        1130
+      ],
+      "icc": "Display P3",
+      "sha256": "1782bfce1dfb291b54c354d977c41d9b66f8e38f0f984ffd61914a5d31eb134c",
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-campaign-tracked-link-tool.png",
+      "clip": {
+        "x": 4,
+        "y": 7269,
+        "width": 572,
+        "height": 395
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          6866.5
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1144,
+        790
+      ],
+      "icc": "Display P3",
+      "sha256": "aa6d251c4a40864138a5ca428f1a1ba3c157b702480b156396c53d6498115693",
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-campaign-personalization-tool.png",
+      "clip": {
+        "x": 4,
+        "y": 8007,
+        "width": 572,
+        "height": 416
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          7615
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1144,
+        832
+      ],
+      "icc": "Display P3",
+      "sha256": "1c094dc64b1a91d51148e48ff9f391706bf6a70f4818867e564684c9ae693760",
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-campaign-coupon-picker.png",
+      "clip": {
+        "x": 4,
+        "y": 8790,
+        "width": 572,
+        "height": 356
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          8367.5
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1144,
+        712
+      ],
+      "icc": "Display P3",
+      "sha256": "55c2d78fb32b9df9069ef65f270cdc5dac5d35641d77de37ebf54878ecbee767",
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-campaign-test-destination.png",
+      "clip": {
+        "x": 4,
+        "y": 9741,
+        "width": 572,
+        "height": 374
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          9327.5
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1144,
+        748
+      ],
+      "icc": "Display P3",
+      "sha256": "59baad476fa23cdb57f5c8971b2e5879eebe0cc006ad00705407aef7937c0501",
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-campaign-delivery-date.png",
+      "clip": {
+        "x": 4,
+        "y": 10606,
+        "width": 572,
+        "height": 841
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          10426
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1144,
+        1682
+      ],
+      "icc": "Display P3",
+      "sha256": "78ce1472414a119b85aad99de5745de7dec3a34cb1b04e1cf3124b3c9132d473",
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-campaign-reply-settings.png",
+      "clip": {
+        "x": 4,
+        "y": 12066,
+        "width": 572,
+        "height": 864
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          11897.5
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1144,
+        1728
+      ],
+      "icc": "Display P3",
+      "sha256": "3ac1cf31a289467b84f3c1238a3cb27694af1834479af6a58ae6b7ad51a79342",
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    },
+    {
+      "file": "campaign-en-580-campaign-confirmation.png",
+      "clip": {
+        "x": 4,
+        "y": 13225,
+        "width": 572,
+        "height": 1101
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3378/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          580,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          13175
+        ]
+      },
+      "viewport": [
+        580,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1144,
+        2202
+      ],
+      "icc": "Display P3",
+      "sha256": "4004cd482d83d09627c5c68be2f098503271c51950f90bbb697b28cdfa48c77e",
+      "individually_viewed": true,
+      "status": "passed",
+      "hash_verified": true,
+      "png_dimensions_and_display_p3_verified": true
+    }
+  ],
+  "scope": "Read-only review of existing Help render packets and PNGs. No browser, app, database, service, source-image modification, capture or publication was performed."
+}

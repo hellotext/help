@@ -1,0 +1,2373 @@
+{
+  "checkpoint_sha256": "e37559e6907cf261a709a86b3df831b49abd6ac0716099ee0c9359783f58044c",
+  "view": {
+    "source": "_i18n/es/campaigns/creating-a-campaign.md",
+    "source_sha256": "1cd152ee59a45f65e56198c3b8cb3f4ef4d636b07029b641c21953e043aa2533",
+    "built_html": "_site/es/crear-una-campaña.html",
+    "built_html_sha256": "1139e7c8c6990c907a7f2729a2faeb2a221336c1951cbc18ec37c3cc483daf4b",
+    "geometry": {
+      "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+      "title": "Crea una campaña | Hellotext",
+      "locale": "es",
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "documentWidth": 1440,
+      "documentHeight": 15285,
+      "article": {
+        "x": 375.9921875,
+        "y": 563.828125,
+        "width": 774.4140625,
+        "height": 14284.65625,
+        "right": 1150.40625,
+        "bottom": 14848.484375
+      },
+      "headings": [
+        "Antes de empezarEnlace copiado",
+        "1. Inicia la campaña y elige cómo se enviaráEnlace copiado",
+        "2. Elige quién la recibiráEnlace copiado",
+        "3. Redacta el mensajeEnlace copiado",
+        "Agrega links con trackingEnlace copiado",
+        "Agrega etiquetas de personalizaciónEnlace copiado",
+        "Agrega un cupónEnlace copiado",
+        "4. Revisa la vista previa y envía una pruebaEnlace copiado",
+        "5. Elige cuándo se enviaráEnlace copiado",
+        "6. Revisa y confirmaEnlace copiado",
+        "Entiende la revisión de campañasEnlace copiado",
+        "Después de enviarEnlace copiado",
+        "Checklist antes de enviarEnlace copiado",
+        "Guías relacionadasEnlace copiado"
+      ],
+      "message_examples": [
+        {
+          "id": "custom-e5d0ebc899b77888",
+          "title": "Una campaña SMS para presentar una nueva colección",
+          "figure": {
+            "x": 375.9921875,
+            "y": 735.828125,
+            "width": 774.4140625,
+            "height": 714,
+            "right": 1150.40625,
+            "bottom": 1449.828125
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 735.828125,
+            "width": 774.4140625,
+            "height": 714,
+            "right": 1150.40625,
+            "bottom": 1449.828125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 1 0.8707 0.9531)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "caption": "SMS ilustrativo de la tienda ficticia Luma. Presenta una nueva colección con un enlace de demostración y la salida BAJA para salir. El enlace es inerte y no se envía ningún mensaje.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "panelChannels": [
+            "sms"
+          ],
+          "businessMessages": [
+            "Luma: descubre la nueva colección en example.com/novedades. BAJA para salir"
+          ],
+          "otherMessages": 0,
+          "actions": 0,
+          "beforeFirstHeading": true,
+          "scrollOverflow": false
+        }
+      ],
+      "figures": [
+        {
+          "id": "campaign-channels",
+          "figure": {
+            "x": 375.9921875,
+            "y": 2365.828125,
+            "width": 774.4140625,
+            "height": 884,
+            "right": 1150.40625,
+            "bottom": 3249.828125
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 2365.828125,
+            "width": 774.4140625,
+            "height": 884,
+            "right": 1150.40625,
+            "bottom": 3249.828125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 413.1953125,
+            "y": 2394.828125,
+            "width": 700,
+            "height": 826,
+            "right": 1113.1953125,
+            "bottom": 3220.828125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 422.1953125,
+            "y": 2403.828125,
+            "width": 682,
+            "height": 808,
+            "right": 1104.1953125,
+            "bottom": 3211.828125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3378/images/campaigns/creating-a-campaign/campaign-channels-es-desktop.png",
+          "naturalSize": [
+            682,
+            808
+          ],
+          "loaded": true,
+          "alt": "Opciones de envío de una campaña, con Solo SMS seleccionado y las opciones de WhatsApp deshabilitadas.",
+          "caption": "Selector real con datos ficticios. Solo SMS está seleccionado y las opciones de WhatsApp conservan su estado deshabilitado.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-audience",
+          "figure": {
+            "x": 375.9921875,
+            "y": 3859.828125,
+            "width": 774.4140625,
+            "height": 597.6796875,
+            "right": 1150.40625,
+            "bottom": 4457.5078125
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 3859.828125,
+            "width": 774.4140625,
+            "height": 597.6796875,
+            "right": 1150.40625,
+            "bottom": 4457.5078125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 404.9921875,
+            "y": 3888.828125,
+            "width": 716.4140625,
+            "height": 539.6796875,
+            "right": 1121.40625,
+            "bottom": 4428.5078125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 413.9921875,
+            "y": 3897.828125,
+            "width": 698.40625,
+            "height": 521.6796875,
+            "right": 1112.3984375,
+            "bottom": 4419.5078125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3378/images/campaigns/creating-a-campaign/campaign-audience-es-desktop.png",
+          "naturalSize": [
+            984,
+            735
+          ],
+          "loaded": true,
+          "alt": "Selector de audiencia abierto con Club incluido, QA excluido y un alcance estimado de dos suscriptores elegibles.",
+          "caption": "Selector real con datos ficticios. Club está incluido y QA excluido; el menú de audiencias está abierto y el alcance muestra dos suscriptores.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-audience-limit",
+          "figure": {
+            "x": 375.9921875,
+            "y": 4737.5078125,
+            "width": 774.4140625,
+            "height": 467,
+            "right": 1150.40625,
+            "bottom": 5204.5078125
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 4737.5078125,
+            "width": 774.4140625,
+            "height": 467,
+            "right": 1150.40625,
+            "bottom": 5204.5078125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 449.6953125,
+            "y": 4766.5078125,
+            "width": 627,
+            "height": 409,
+            "right": 1076.6953125,
+            "bottom": 5175.5078125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 458.6953125,
+            "y": 4775.5078125,
+            "width": 609,
+            "height": 391,
+            "right": 1067.6953125,
+            "bottom": 5166.5078125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3378/images/campaigns/creating-a-campaign/campaign-audience-limit-es-desktop.png",
+          "naturalSize": [
+            609,
+            391
+          ],
+          "loaded": true,
+          "alt": "Opciones de límite de audiencia: enviar a todos o limitar a dos clientes, con los botones Limitar y Cancelar.",
+          "caption": "Control de límite de audiencia con un máximo de dos clientes.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-composer",
+          "figure": {
+            "x": 375.9921875,
+            "y": 5526.5078125,
+            "width": 774.4140625,
+            "height": 476,
+            "right": 1150.40625,
+            "bottom": 6002.5078125
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 5526.5078125,
+            "width": 774.4140625,
+            "height": 476,
+            "right": 1150.40625,
+            "bottom": 6002.5078125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 413.1953125,
+            "y": 5555.5078125,
+            "width": 700,
+            "height": 418,
+            "right": 1113.1953125,
+            "bottom": 5973.5078125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 422.1953125,
+            "y": 5564.5078125,
+            "width": 682,
+            "height": 400,
+            "right": 1104.1953125,
+            "bottom": 5964.5078125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3378/images/campaigns/creating-a-campaign/campaign-composer-es-desktop.png",
+          "naturalSize": [
+            682,
+            400
+          ],
+          "loaded": true,
+          "alt": "Editor SMS de una campaña ficticia con la etiqueta name, un link con tracking, BAJA para salir y las herramientas de composición.",
+          "caption": "Borrador real con datos ficticios: etiqueta de nombre, link con tracking y salida BAJA para salir. En móvil, Vista previa abre la vista del canal.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-tracked-link-tool",
+          "figure": {
+            "x": 375.9921875,
+            "y": 6672.5078125,
+            "width": 774.4140625,
+            "height": 374,
+            "right": 1150.40625,
+            "bottom": 7046.5078125
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 6672.5078125,
+            "width": 774.4140625,
+            "height": 374,
+            "right": 1150.40625,
+            "bottom": 7046.5078125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 496.1953125,
+            "y": 6701.5078125,
+            "width": 534,
+            "height": 316,
+            "right": 1030.1953125,
+            "bottom": 7017.5078125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 505.1953125,
+            "y": 6710.5078125,
+            "width": 516,
+            "height": 298,
+            "right": 1021.1953125,
+            "bottom": 7008.5078125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3378/images/campaigns/creating-a-campaign/campaign-tracked-link-tool-es-desktop.png",
+          "naturalSize": [
+            516,
+            298
+          ],
+          "loaded": true,
+          "alt": "Herramienta Crear un enlace corto, con el campo de URL y los botones Agregar enlace corto y Cancelar.",
+          "caption": "Formulario de URL para crear un enlace corto con tracking.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-personalization-tool",
+          "figure": {
+            "x": 375.9921875,
+            "y": 7408.5078125,
+            "width": 774.4140625,
+            "height": 420,
+            "right": 1150.40625,
+            "bottom": 7828.5078125
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 7408.5078125,
+            "width": 774.4140625,
+            "height": 420,
+            "right": 1150.40625,
+            "bottom": 7828.5078125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 496.1953125,
+            "y": 7437.5078125,
+            "width": 534,
+            "height": 362,
+            "right": 1030.1953125,
+            "bottom": 7799.5078125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 505.1953125,
+            "y": 7446.5078125,
+            "width": 516,
+            "height": 344,
+            "right": 1021.1953125,
+            "bottom": 7790.5078125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3378/images/campaigns/creating-a-campaign/campaign-personalization-tool-es-desktop.png",
+          "naturalSize": [
+            516,
+            344
+          ],
+          "loaded": true,
+          "alt": "Menú Etiquetas del editor con propiedades como name, full_name, email y una propiedad personalizada ficticia.",
+          "caption": "Menú de etiquetas con propiedades estándar y una propiedad personalizada ficticia.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-coupon-picker",
+          "figure": {
+            "x": 375.9921875,
+            "y": 8174.5078125,
+            "width": 774.4140625,
+            "height": 334,
+            "right": 1150.40625,
+            "bottom": 8508.5078125
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 8174.5078125,
+            "width": 774.4140625,
+            "height": 334,
+            "right": 1150.40625,
+            "bottom": 8508.5078125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 546.1953125,
+            "y": 8203.5078125,
+            "width": 434,
+            "height": 276,
+            "right": 980.1953125,
+            "bottom": 8479.5078125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 555.1953125,
+            "y": 8212.5078125,
+            "width": 416,
+            "height": 258,
+            "right": 971.1953125,
+            "bottom": 8470.5078125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3378/images/campaigns/creating-a-campaign/campaign-coupon-picker-es-desktop.png",
+          "naturalSize": [
+            416,
+            258
+          ],
+          "loaded": true,
+          "alt": "Herramienta Cupones con el cupón ficticio GUIA-QR-10 disponible y Ninguno seleccionado.",
+          "caption": "Selector real de cupones con datos ficticios. GUIA-QR-10 está disponible y todavía no se ha seleccionado.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-test-destination",
+          "figure": {
+            "x": 375.9921875,
+            "y": 9162.5078125,
+            "width": 774.4140625,
+            "height": 349,
+            "right": 1150.40625,
+            "bottom": 9511.5078125
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 9162.5078125,
+            "width": 774.4140625,
+            "height": 349,
+            "right": 1150.40625,
+            "bottom": 9511.5078125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 538.1953125,
+            "y": 9191.5078125,
+            "width": 450,
+            "height": 291,
+            "right": 988.1953125,
+            "bottom": 9482.5078125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 547.1953125,
+            "y": 9200.5078125,
+            "width": 432,
+            "height": 273,
+            "right": 979.1953125,
+            "bottom": 9473.5078125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3378/images/campaigns/creating-a-campaign/campaign-test-destination-es-desktop.png",
+          "naturalSize": [
+            432,
+            273
+          ],
+          "loaded": true,
+          "alt": "Formulario Enviar mensaje a este número, con selector de país, campo de teléfono vacío y envío deshabilitado.",
+          "caption": "Formulario de prueba SMS con el campo de teléfono vacío y el botón de envío deshabilitado.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-delivery-date",
+          "figure": {
+            "x": 375.9921875,
+            "y": 9933.5078125,
+            "width": 774.4140625,
+            "height": 700.109375,
+            "right": 1150.40625,
+            "bottom": 10633.6171875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 9933.5078125,
+            "width": 774.4140625,
+            "height": 700.109375,
+            "right": 1150.40625,
+            "bottom": 10633.6171875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 404.9921875,
+            "y": 9962.5078125,
+            "width": 716.4140625,
+            "height": 642.109375,
+            "right": 1121.40625,
+            "bottom": 10604.6171875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 413.9921875,
+            "y": 9971.5078125,
+            "width": 698.40625,
+            "height": 624.109375,
+            "right": 1112.3984375,
+            "bottom": 10595.6171875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3378/images/campaigns/creating-a-campaign/campaign-delivery-date-es-desktop.png",
+          "naturalSize": [
+            705,
+            630
+          ],
+          "loaded": true,
+          "alt": "Enviar más tarde seleccionado para el 2 de noviembre de 2026 a las 12:00; calendario abierto en escritorio y campos de fecha y hora en móvil.",
+          "caption": "Fecha y hora ficticias de un borrador: 2 de noviembre de 2026 a las 12:00. El calendario está abierto en escritorio y cerrado en móvil.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-reply-settings",
+          "figure": {
+            "x": 375.9921875,
+            "y": 11271.6171875,
+            "width": 774.4140625,
+            "height": 672.8671875,
+            "right": 1150.40625,
+            "bottom": 11944.484375
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 11271.6171875,
+            "width": 774.4140625,
+            "height": 672.8671875,
+            "right": 1150.40625,
+            "bottom": 11944.484375
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 404.9921875,
+            "y": 11300.6171875,
+            "width": 716.4140625,
+            "height": 614.8671875,
+            "right": 1121.40625,
+            "bottom": 11915.484375
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 413.9921875,
+            "y": 11309.6171875,
+            "width": 698.40625,
+            "height": 596.8671875,
+            "right": 1112.3984375,
+            "bottom": 11906.484375
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3378/images/campaigns/creating-a-campaign/campaign-reply-settings-es-desktop.png",
+          "naturalSize": [
+            846,
+            723
+          ],
+          "loaded": true,
+          "alt": "Configurar respuestas con Asignar respuestas a abierto, personas ficticias y los equipos Atención demo y Ventas demo; Sin asignación específica sigue activo.",
+          "caption": "Configuración real con personas y equipos ficticios. El menú de equipos está abierto y se conserva Sin asignación específica.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-confirmation",
+          "figure": {
+            "x": 375.9921875,
+            "y": 12240.484375,
+            "width": 774.4140625,
+            "height": 1012,
+            "right": 1150.40625,
+            "bottom": 13252.484375
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 12240.484375,
+            "width": 774.4140625,
+            "height": 1012,
+            "right": 1150.40625,
+            "bottom": 13252.484375
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 413.1953125,
+            "y": 12269.484375,
+            "width": 700,
+            "height": 954,
+            "right": 1113.1953125,
+            "bottom": 13223.484375
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 422.1953125,
+            "y": 12278.484375,
+            "width": 682,
+            "height": 936,
+            "right": 1104.1953125,
+            "bottom": 13214.484375
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3378/images/campaigns/creating-a-campaign/campaign-confirmation-es-desktop.png",
+          "naturalSize": [
+            682,
+            936
+          ],
+          "loaded": true,
+          "alt": "Confirmación de un borrador con dos clientes segmentados, Club incluido, QA excluido, Solo SMS, fecha 2 de noviembre a las 12:00 y respuestas sin asignación específica.",
+          "caption": "Revisión previa al envío de una campaña ficticia: dos clientes elegibles y la fecha elegida.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        }
+      ]
+    },
+    "captures": [
+      {
+        "file": "campaign-es-1440-full-part1.png",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "1d6d3afb6cd4cd35d39768ec3cc786b4dc7f164be13d000bcc063e04b75c77ef",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 0
+      },
+      {
+        "file": "campaign-es-1440-full-part2.png",
+        "clip": {
+          "x": 0,
+          "y": 1100,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            1100
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "a0044d30a44f6a3d6bdd6a7ad4c35613efb0080970be7f302eac656507a16d42",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-es-1440-full-part3.png",
+        "clip": {
+          "x": 0,
+          "y": 2200,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            2200
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "0824fb94768609f86b094af6b2f3d236f2aca6b1f189237ac90658b4f3144b43",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-es-1440-full-part4.png",
+        "clip": {
+          "x": 0,
+          "y": 3300,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            3300
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "00c4d53129d6246f125474dd013fe44b9b481f5f4fa4e36edff86195a322ef2f",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-es-1440-full-part5.png",
+        "clip": {
+          "x": 0,
+          "y": 4400,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4400
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "30d826a758e16dbe20270697ba383c37b1d642116f23222150580b8d27507d9c",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-es-1440-full-part6.png",
+        "clip": {
+          "x": 0,
+          "y": 5500,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5500
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "ef30b01132e0d7b66d793510bc9eb05b39560740e484bac3860e53bb7f47a997",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-es-1440-full-part7.png",
+        "clip": {
+          "x": 0,
+          "y": 6600,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6600
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "94209fda57697364624dbafb2308b87f5ef68597ebc81d741796eebbd0fcb7ef",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-es-1440-full-part8.png",
+        "clip": {
+          "x": 0,
+          "y": 7700,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7700
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "8179c639ea4ad76a125798d83f5c769d276a4246c537abb51bde1cf8a43bef1e",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-es-1440-full-part9.png",
+        "clip": {
+          "x": 0,
+          "y": 8800,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8800
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "85baa9bd428a4b8b83f93c482550e91f54b9703786011e12056d3e8b26674846",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-es-1440-full-part10.png",
+        "clip": {
+          "x": 0,
+          "y": 9900,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9900
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "d29f728f2170cf26624ad42bc66e6b892b4df931adcc5324633582122b5a000d",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-es-1440-full-part11.png",
+        "clip": {
+          "x": 0,
+          "y": 11000,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            11000
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "9ad590f40439b3525a94e641ed9d12a4e0cd5131e286086389c15ebe1cbd207e",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-es-1440-full-part12.png",
+        "clip": {
+          "x": 0,
+          "y": 12100,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            12100
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "1368a6ca35d977c699cb0871d0795f339f73ff4e07b53e53c1432f41ccb35024",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-es-1440-full-part13.png",
+        "clip": {
+          "x": 0,
+          "y": 13200,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            13200
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "d8fae56517d89a3891f37ae2db05a5ab52f1d482dc2c395b3d645a55033f0e99",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-es-1440-full-part14.png",
+        "clip": {
+          "x": 0,
+          "y": 14085.5,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            14085.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "c6b69fa377d3ba942c49d3c6b59d8ad5914b4427da591eb1793c49dc3e9aa0b3",
+        "complete_page_segment": true,
+        "documentHeight": 15285,
+        "overlap_css": 314.5
+      },
+      {
+        "file": "campaign-es-1440-campaign-channels.png",
+        "clip": {
+          "x": 363,
+          "y": 2353,
+          "width": 800,
+          "height": 909
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            2208
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1818
+        ],
+        "icc": "Display P3",
+        "sha256": "6597764faf658c329626898c7c0e9e7b38fa36f1287a9300c7c4bc52fb76755a"
+      },
+      {
+        "file": "campaign-es-1440-campaign-audience.png",
+        "clip": {
+          "x": 363,
+          "y": 3847,
+          "width": 800,
+          "height": 623
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            3558.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1246
+        ],
+        "icc": "Display P3",
+        "sha256": "cc84ae73c18faf3eadc16a947372944b25aa14866377e30693e51b003c9e7bea"
+      },
+      {
+        "file": "campaign-es-1440-campaign-audience-limit.png",
+        "clip": {
+          "x": 363,
+          "y": 4725,
+          "width": 800,
+          "height": 492
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4371
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          984
+        ],
+        "icc": "Display P3",
+        "sha256": "fd4b951316609ab6d8a0208e9a08baf366065642183ea3a5382e2b4974af479d"
+      },
+      {
+        "file": "campaign-es-1440-campaign-composer.png",
+        "clip": {
+          "x": 363,
+          "y": 5514,
+          "width": 800,
+          "height": 501
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5164.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1002
+        ],
+        "icc": "Display P3",
+        "sha256": "58a7f5751e4e3dfa67663cade8474a7f618301330b5184a79bd69df6bb434572"
+      },
+      {
+        "file": "campaign-es-1440-campaign-tracked-link-tool.png",
+        "clip": {
+          "x": 363,
+          "y": 6660,
+          "width": 800,
+          "height": 399
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6259.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          798
+        ],
+        "icc": "Display P3",
+        "sha256": "c0d47c694708a9c5027cbaee8b986dce698d669f04066043ecfb444b3dfb1f74"
+      },
+      {
+        "file": "campaign-es-1440-campaign-personalization-tool.png",
+        "clip": {
+          "x": 363,
+          "y": 7396,
+          "width": 800,
+          "height": 445
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7018.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          890
+        ],
+        "icc": "Display P3",
+        "sha256": "9f870a58b6751e674a28154adebf6520d60ec2367bbba973a632eb0b7a01be42"
+      },
+      {
+        "file": "campaign-es-1440-campaign-coupon-picker.png",
+        "clip": {
+          "x": 363,
+          "y": 8162,
+          "width": 800,
+          "height": 359
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7741.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          718
+        ],
+        "icc": "Display P3",
+        "sha256": "4e52fdb4aec7ecb8dffafe8e38da9a0e55a526fdd5b81716de62a921421942da"
+      },
+      {
+        "file": "campaign-es-1440-campaign-test-destination.png",
+        "clip": {
+          "x": 363,
+          "y": 9150,
+          "width": 800,
+          "height": 374
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8737
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          748
+        ],
+        "icc": "Display P3",
+        "sha256": "4a1861a1faa14d9d764dce8d1bf4484cdb42a1a773a35e700871aa6316e567aa"
+      },
+      {
+        "file": "campaign-es-1440-campaign-delivery-date.png",
+        "clip": {
+          "x": 363,
+          "y": 9921,
+          "width": 800,
+          "height": 725
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9683.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1450
+        ],
+        "icc": "Display P3",
+        "sha256": "fbb3fb2ac5d4dcb5b7e020c72be932b7d9516f1a40904ff60208fd2bf5e3c0ad"
+      },
+      {
+        "file": "campaign-es-1440-campaign-reply-settings.png",
+        "clip": {
+          "x": 363,
+          "y": 11259,
+          "width": 800,
+          "height": 698
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            11008
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1396
+        ],
+        "icc": "Display P3",
+        "sha256": "4b007acaeaeb3583d92373fa22362a9ffad2beaa42857141ef6e477e364d17ca"
+      },
+      {
+        "file": "campaign-es-1440-campaign-confirmation.png",
+        "clip": {
+          "x": 363,
+          "y": 12228,
+          "width": 800,
+          "height": 1037
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3378/es/crear-una-campa%C3%B1a.html",
+          "title": "Crea una campaña | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            12146.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          2074
+        ],
+        "icc": "Display P3",
+        "sha256": "9a0a663f311228d7a2ea29b0fb8eecb4ce08fff6a8c33fb49b1efde7324b8b04"
+      }
+    ]
+  }
+}

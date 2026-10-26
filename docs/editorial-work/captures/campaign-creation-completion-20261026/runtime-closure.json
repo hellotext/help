@@ -1,0 +1,135 @@
+{
+  "status": "campaign_runtime_closed_and_preserved",
+  "recorded_at": "2026-10-26T23:09:23.714137+00:00",
+  "app_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "database": "hellotext_help_campaign_current_20261026",
+  "snapshot": {
+    "status": "final_snapshot_verified",
+    "identity": {
+      "database": "hellotext_help_campaign_current_20261026",
+      "timezone": "UTC",
+      "isolation": "repeatable read",
+      "read_only": "on",
+      "server_version": "15.19 (Postgres.app)",
+      "socket_connection": true
+    },
+    "tables": 610,
+    "sequences": 602,
+    "schema_migrations": 2066,
+    "changed_tables_since_post_preparation": [
+      "authentication_login_attempts",
+      "compliance_fingerprints",
+      "compliance_user_fingerprints",
+      "lists",
+      "users"
+    ],
+    "unchanged_protected_tables": [
+      "action_text_rich_texts",
+      "campaigns",
+      "campaign_audiences",
+      "list_contacts",
+      "privileges"
+    ],
+    "rows_sha256": "0f1e260bfa580c3741623847d918d116c8f52c3e1ee1bdea078e3268e1a3bc6b",
+    "sequences_sha256": "08c570cd10453193b7c749cd514279ba8e7dc9d2dee6a6bc8500fdbb45685734"
+  },
+  "campaigns": [
+    {
+      "id": 17,
+      "status": "draft",
+      "state": "pending",
+      "limit": 2,
+      "scheduled_at_utc": "2026-11-02T15:00:00Z",
+      "cached_count": 2,
+      "reachable_count": 2,
+      "audiences": [
+        [
+          "List",
+          21,
+          "excluded"
+        ],
+        [
+          "List",
+          20,
+          "included"
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "status": "draft",
+      "state": "pending",
+      "limit": 2,
+      "scheduled_at_utc": "2026-11-02T15:00:00Z",
+      "cached_count": 2,
+      "reachable_count": 2,
+      "audiences": [
+        [
+          "List",
+          21,
+          "excluded"
+        ],
+        [
+          "List",
+          20,
+          "included"
+        ]
+      ]
+    }
+  ],
+  "BAJA_preserved": true,
+  "actor_locale": "en",
+  "retained_jobs": 2,
+  "retained_jobs_identical_to_pre_capture": true,
+  "workers": 0,
+  "processed_jobs": 0,
+  "failed_jobs": 0,
+  "puma": {
+    "pid": 55873,
+    "port": 33386,
+    "status": "owned_puma_stopped_no_listener"
+  },
+  "redis": {
+    "status": "owned_redis_saved_and_stopped_no_listener",
+    "pid": 44282,
+    "port": 19626,
+    "workers": 0,
+    "processed_jobs": 0,
+    "retained_jobs": 2,
+    "rdb": {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/help-resume-20261026/fixture/private/runtime/redis/dump.rdb",
+      "sha256": "bc3caa6731b5a3570abcf34ad4f13ab66b1c46a4739cbfcd5274cb07c506915c",
+      "bytes": 1176834,
+      "mode": "0600"
+    },
+    "configuration_changed": false,
+    "jobs_consumed": false
+  },
+  "source_campaign_database_preserved": true,
+  "fixture_mutations_replayed": false,
+  "external_writes": false,
+  "evidence": [
+    {
+      "path": "audit/help-resume-20261026/fixture/campaign-final-snapshot-result.json",
+      "sha256": "7c6731d60a0e3dcdfffdb2d7f3b458555754e7d812aab2dae64426fd918faea6"
+    },
+    {
+      "path": "audit/help-resume-20261026/fixture/private/runtime/final-readback-result.json",
+      "sha256": "a79b7923e20ee21420878499398701643bcffd6e736d94a33e9f7d50837a3104"
+    },
+    {
+      "path": "audit/help-resume-20261026/fixture/private/runtime/final-readback-queues-after.json",
+      "sha256": "7e8b5ad1bbcae5c7506ef4c4704737e54fd42c2f6f9e69618667a2976eaa4f02"
+    },
+    {
+      "path": "audit/help-resume-20261026/fixture/campaign-redis-closure-result.json",
+      "sha256": "ec8eb4c89a73d693089a6156d050f9ab589cc20ee464da01947c2c9dd9db8184"
+    }
+  ],
+  "residual_schema_divergence": {
+    "missing_migration_source": "20261022180000",
+    "version_stamped": false,
+    "missing_column": "campaigns.progressed_at",
+    "executable_use_in_capture_routes_found": false
+  }
+}

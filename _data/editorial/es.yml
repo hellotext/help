@@ -395,3 +395,22 @@ channel-webchat:
       actions:
       - Ver seguimiento
   id: channel-webchat
+custom-e5d0ebc899b77888:
+  version: 1
+  title: Una campaña SMS para presentar una nueva colección
+  caption: SMS ilustrativo de la tienda ficticia Luma. Presenta una nueva colección
+    con un enlace de demostración y la salida BAJA para salir. El enlace es inerte
+    y no se envía ningún mensaje.
+  panels:
+  - label: Nueva colección
+    context: Ejemplo de una campaña puntual dirigida a una audiencia que acepta SMS.
+    channel: sms
+    business: Luma
+    messages:
+    - type: text
+      side: business
+      text: 'Luma: descubre la nueva colección en example.com/novedades. BAJA para
+        salir'
+      time: '10:00'
+  id: custom-e5d0ebc899b77888
+  type: messages

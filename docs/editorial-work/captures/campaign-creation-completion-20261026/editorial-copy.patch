@@ -1,0 +1,108 @@
+diff --git a/_i18n/en/campaigns/creating-a-campaign.md b/_i18n/en/campaigns/creating-a-campaign.md
+index 62626f6d..aa64f381 100644
+--- a/_i18n/en/campaigns/creating-a-campaign.md
++++ b/_i18n/en/campaigns/creating-a-campaign.md
+@@ -29,7 +29,7 @@ Select **Next** to continue. Give the campaign a clear internal name in the head
+ 
+ ## 2. Choose who will receive it
+ 
+-The audience step starts with **All audience**. You can keep it when every eligible customer profile should be considered, or replace it with a more focused selection.
++The audience step starts with **All Audience**. You can keep it when every eligible customer profile should be considered, or replace it with a more focused selection.
+ 
+ You can include or exclude:
+ 
+@@ -37,12 +37,16 @@ You can include or exclude:
+ - Segments.
+ - Audiences from previously scheduled or delivered campaigns.
+ 
+-Use the add button to combine multiple audience rules. Change **Include** to **Exclude** when a group should be removed from the campaign.
++Use **Select Audience** to search for and add groups. To include specific groups, first remove **All Audience** with its remove button. If you keep **All Audience**, groups you add are excluded from that audience.
+ 
+-Hellotext deduplicates overlapping groups and updates the estimated target automatically. The estimate considers the selected channels, subscription state, contactability, inclusions, and exclusions, so it can be smaller than the total size of the selected lists or segments.
++With a specific selection, select an added group's name to switch between including and excluding it. Excluded groups show **Exclude** beside their name.
++
++Hellotext deduplicates overlapping groups and updates the estimated target automatically. The count considers the selected channels, subscription state, contactability, inclusions, and exclusions, so it can be smaller than the total size of the selected lists or segments. Wait for it to finish updating after changing the selection.
+ 
+ Use the settings control beside **Estimated target** when you want to limit the campaign to a maximum number of eligible customers from the selected audience. This limit does not make an ineligible profile contactable.
+ 
++The count at this step shows the eligible audience before applying the limit. Choose a maximum that does not exceed that count, and check the limited total at confirmation.
++
+ Keep reading: [Lists vs. segments]({% link _audience/lists-and-segments.md %}).
+ 
+ ## 3. Compose the message
+@@ -120,13 +124,20 @@ Before selecting **Send**, verify:
+ - Message preview for every channel.
+ - Tracked links, tags, coupon, and WhatsApp content.
+ - Delivery date and time.
++- The person or team who will handle replies.
+ - Estimated Meta cost when WhatsApp applies.
+ 
++In **Configure replies**, open the settings button and use **Assign replies to** to choose a person or team. If you keep **No specific assignment**, replies follow your Inbox's usual assignment rules. Teams without members cannot be selected.
++
++This assignment is considered when the customer replies within 24 hours of their most recent campaign message and the conversation reopens or has no owner yet. It does not replace the owner of an open conversation. If it cannot be applied, the Inbox's usual assignment rules apply.
++
++Wait for the targeted customer count to finish updating: confirmation applies the recipient limit you saved.
++
+ The confirmation screen is the last opportunity to catch a wrong audience or message before the campaign enters approval and delivery.
+ 
+ ## Understand campaign review
+ 
+-Campaigns targeting at least 100 customers may require editorial review. An already approved WhatsApp template can bypass that review even at this audience size. A WhatsApp campaign can also wait for Meta when its template has not already been approved.
++Campaigns with at least 100 recipients or a configured limit of 100 or more may require editorial review. The limit can trigger that review even when fewer recipients are eligible. Already approved WhatsApp templates can allow it to be skipped. A WhatsApp campaign can also wait for Meta when its template has not already been approved.
+ 
+ While review is pending, the campaign appears **In review** or **WhatsApp in review**. Once approved, it follows the selected delivery time. If a reviewer or Meta rejects the content, open the campaign, review the feedback, make the requested changes, and submit it again.
+ 
+diff --git a/_i18n/es/campaigns/creating-a-campaign.md b/_i18n/es/campaigns/creating-a-campaign.md
+index 467f5cc4..c7a1d715 100644
+--- a/_i18n/es/campaigns/creating-a-campaign.md
++++ b/_i18n/es/campaigns/creating-a-campaign.md
+@@ -29,7 +29,7 @@ Selecciona **Siguiente** para continuar. Dale a la campaña un nombre interno cl
+ 
+ ## 2. Elige quién la recibirá
+ 
+-El paso de audiencia empieza con **Todas las audiencias**. Puedes mantenerlo cuando todos los perfiles de cliente elegibles deberían considerarse o reemplazarlo por una selección más específica.
++El paso de audiencia empieza con **Todas las Audiencias**. Puedes mantenerlo cuando todos los perfiles de cliente elegibles deberían considerarse o reemplazarlo por una selección más específica.
+ 
+ Puedes incluir o excluir:
+ 
+@@ -37,11 +37,15 @@ Puedes incluir o excluir:
+ - Segmentos.
+ - Audiencias de campañas programadas o enviadas anteriormente.
+ 
+-Usa el botón de agregar para combinar varias reglas de audiencia. Cambia **Incluir** por **Excluir** cuando un grupo deba quedar fuera de la campaña.
++Usa **Seleccionar audiencia** para buscar y agregar grupos. Para incluir grupos concretos, primero quita **Todas las Audiencias** con su botón de quitar. Si mantienes **Todas las Audiencias**, los grupos que agregues se excluyen de esa audiencia.
+ 
+-Hellotext elimina duplicados entre grupos superpuestos y actualiza el target estimado automáticamente. La estimación considera los canales seleccionados, el estado de suscripción, la contactabilidad, las inclusiones y las exclusiones, por lo que puede ser menor que el tamaño total de las listas o segmentos elegidos.
++Con una selección específica, selecciona el nombre de un grupo agregado para alternar entre incluirlo y excluirlo. Los grupos excluidos muestran **Excluir** junto al nombre.
+ 
+-Usa el control de ajustes junto al **Target estimado** cuando quieras limitar la campaña a una cantidad máxima de clientes elegibles de la audiencia seleccionada. Este límite no vuelve contactable a un perfil que no sea elegible.
++Hellotext elimina duplicados entre grupos superpuestos y actualiza el target estimado automáticamente. El conteo considera los canales seleccionados, el estado de suscripción, la contactabilidad, las inclusiones y las exclusiones, por lo que puede ser menor que el tamaño total de las listas o segmentos elegidos. Espera a que termine de actualizarse después de cambiar la selección.
++
++Usa el control de ajustes junto al **Alcance estimado** cuando quieras limitar la campaña a una cantidad máxima de clientes elegibles de la audiencia seleccionada. Este límite no vuelve contactable a un perfil que no sea elegible.
++
++El conteo de este paso muestra la audiencia elegible antes de aplicar el límite. Elige un máximo que no supere esa cantidad y revisa el total limitado en la confirmación.
+ 
+ Sigue leyendo: [Listas vs. segmentos]({% link _audience/lists-and-segments.md %}).
+ 
+@@ -120,13 +124,20 @@ Antes de seleccionar **Enviar**, verifica:
+ - La vista previa del mensaje para cada canal.
+ - Los links con tracking, etiquetas, cupón y contenido de WhatsApp.
+ - La fecha y hora de entrega.
++- La persona o el equipo que atenderá las respuestas.
+ - El costo estimado de Meta cuando aplique WhatsApp.
+ 
++En **Configurar respuestas**, abre el botón de ajustes y usa **Asignar respuestas a** para elegir una persona o un equipo. Si mantienes **Sin asignación específica**, las respuestas siguen las reglas habituales de tu Inbox. Los equipos sin miembros no se pueden seleccionar.
++
++Esta asignación se considera cuando el cliente responde dentro de las 24 horas siguientes a su mensaje de campaña más reciente y la conversación se reabre o todavía no tiene responsable. No reemplaza al responsable de una conversación abierta. Si no puede aplicarse, se usan las reglas habituales del Inbox.
++
++Espera a que termine de actualizarse la cantidad de clientes segmentados: la confirmación aplica el límite de destinatarios que guardaste.
++
+ La pantalla de confirmación es la última oportunidad de detectar una audiencia o mensaje incorrectos antes de que la campaña entre en aprobación y entrega.
+ 
+ ## Entiende la revisión de campañas
+ 
+-Las campañas dirigidas a por lo menos 100 clientes pueden requerir revisión editorial. Una plantilla de WhatsApp ya aprobada puede omitir esa revisión incluso con esa cantidad de destinatarios. Una campaña de WhatsApp también puede esperar a Meta cuando su plantilla todavía no fue aprobada.
++Las campañas con por lo menos 100 destinatarios o un límite configurado de 100 o más pueden requerir revisión editorial. El límite puede activar esa revisión aunque haya menos destinatarios elegibles. Las plantillas de WhatsApp ya aprobadas pueden permitir omitirla. Una campaña de WhatsApp también puede esperar a Meta cuando su plantilla todavía no fue aprobada.
+ 
+ Mientras la revisión está pendiente, la campaña aparece como **En revisión** o **WhatsApp en revisión**. Una vez aprobada, sigue el horario de entrega elegido. Si el equipo de revisión o Meta rechazan el contenido, abre la campaña, revisa el feedback, realiza los cambios solicitados y vuelve a enviarla.
+ 

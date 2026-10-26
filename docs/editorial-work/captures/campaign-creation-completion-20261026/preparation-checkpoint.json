@@ -1,0 +1,84 @@
+{
+  "at": "2026-10-26T23:25:17.048855+00:00",
+  "status": "36_native_sources_and_six_Help_views_passed; final_consolidation_pending",
+  "worktree": "help-campaign-creation-completion-20261026",
+  "branch": "codex/help-campaign-creation-completion-20261026",
+  "help_base": "7cc05346c0234fc76ab94db0e914b47313d5edad",
+  "editorial_pin": "d0ee357e45d2d14ae605081fc8fe20763b1bb4ba",
+  "app_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "copy": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/campaigns/creating-a-campaign.md",
+      "before_sha256": "e04e77ea289de870d61492693308ce4a4862254d8b83a499075fe1b4656a3904",
+      "after_sha256": "77929dce37a39f484a18567e384ebc3f173a61e8bd8518d00d13e780732b3b0b",
+      "headings_preserved": 14,
+      "ordered_liquid_links_preserved": 14
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/campaigns/creating-a-campaign.md",
+      "before_sha256": "60e7f8935f4d8039c6d3935f138c1bf24407b3bbcd2a668c9e7949253ad094d2",
+      "after_sha256": "a399c0d7169bfbcc57bda9b687a0198554116f5045f7a008a383fb4b81500667",
+      "headings_preserved": 14,
+      "ordered_liquid_links_preserved": 14
+    }
+  ],
+  "copy_review_sha256": "aa78354b1e06e95d1e0abd437b2baf5c2ef660443a1325518f930aa39bdf3d0d",
+  "screenshot_concepts": 11,
+  "localized_anchors": 22,
+  "native_pngs_admitted": 36,
+  "message_definitions": {
+    "es": "cd70b5fd557d66bf7ebf7dda7e4c967d67bb15dc35dcbdfc1a4d2acf6d4a28d0",
+    "en": "05f78d37e8aa77188c9cb39318920f2c6e21db84e281cc17690beb5bd2bbe27c"
+  },
+  "qa_helpers": "audit/campaign-help-qa-20261026",
+  "public_verifier": "audit/help-publication-campaign-20261026",
+  "local_inventory_counts": {
+    "local_verified": 120,
+    "in_progress": 4,
+    "pending": 28,
+    "out_of_scope": 1,
+    "visual_pending": 1
+  },
+  "unfinished_pairs": 33,
+  "checks_passed": [
+    "git diff --check",
+    "14 headings and 14 ordered Liquid links preserved per locale",
+    "route stub bytes unchanged",
+    "independent current-copy source review",
+    "Ruby 3.3.6 and bundle check",
+    "Python and Node helper syntax",
+    "74 offline bounded native-message/public-verifier probes by reviewer",
+    "final production build and security headers",
+    "36 source PNGs and72 built copies byte-identical",
+    "80 local HTTP resources,28 article links and8 excluded authoring paths",
+    "six complete Help views independently passed:91 segments and66 details",
+    "owned Help and application capture services closed"
+  ],
+  "not_executed": [
+    "Git push/PR/merge/deploy"
+  ],
+  "public_state": "unchanged by this worktree",
+  "native_example_integration": {
+    "path": "recipient-example-integration.json",
+    "sha256": "3b5fbb307a011782cf812678b48cc5cdd26763c7debeaa428a5a92b67ef4b7b0"
+  },
+  "preliminary_build": {
+    "result": "preliminary-native-example-build/result.json",
+    "checks": "preliminary-native-example-build/parser-and-bytes.json",
+    "exit_code": 0,
+    "native_examples": 2
+  },
+  "native_pngs_integrated": 36,
+  "localized_screenshot_figures_integrated": 22,
+  "current_article_hashes": {
+    "es": "1cd152ee59a45f65e56198c3b8cb3f4ef4d636b07029b641c21953e043aa2533",
+    "en": "71ae481d476c799e2a5c1ccff2475744e3c83a6ab66817e43d9222a4bc14042f"
+  },
+  "partial_source_integration": "partial-source-integration.json",
+  "source_manifest": {
+    "path": "source-manifest.json",
+    "sha256": "bb30809c73856b6dc6b7381ad0748fcccb33d7022e84dcaa3b225bb1f95941ee"
+  }
+}

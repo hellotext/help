@@ -390,3 +390,22 @@ channel-webchat:
       actions:
       - View tracking
   id: channel-webchat
+custom-bcc29206ce14b1ed:
+  version: 1
+  title: An SMS campaign introducing a new collection
+  caption: Illustrative SMS from the fictional store Luma. It introduces a new collection
+    with a demonstration link and opt-out text. The link is inert and no message is
+    sent.
+  panels:
+  - label: New collection
+    context: An example of a one-time campaign for an audience that accepts SMS.
+    channel: sms
+    business: Luma
+    messages:
+    - type: text
+      side: business
+      text: 'Luma: explore the new collection at example.com/new. Reply STOP to opt
+        out'
+      time: '10:00'
+  id: custom-bcc29206ce14b1ed
+  type: messages

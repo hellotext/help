@@ -1,0 +1,34 @@
+{
+  "status": "passed_awaiting_actual_verifying_commit",
+  "recorded_at": "2026-10-26T23:25:54.312602+00:00",
+  "article_key": "campaigns/creating-a-campaign.md",
+  "final_review": {
+    "path": "docs/editorial-work/captures/campaign-creation-completion-20261026/final-review.json",
+    "sha256": "6b72fb98ecd541d336c05d69ac31f8373b531f82a5baf7d79746f30bf245e0a1"
+  },
+  "checkpoint": {
+    "path": "docs/editorial-work/captures/campaign-creation-completion-20261026/validation/checkpoint.json",
+    "sha256": "e37559e6907cf261a709a86b3df831b49abd6ac0716099ee0c9359783f58044c"
+  },
+  "capture_receipt": {
+    "path": "docs/editorial-work/captures/campaign-creation-completion-20261026/validation/page-review/capture-receipt.json",
+    "sha256": "edec485a2fa5ea76c93fdad5ec2f38837c5c246ada90d7ab2a4d1ac35394b6e0"
+  },
+  "remaining_local_blockers": [],
+  "verifying_commit": null,
+  "inventory_unchanged": true,
+  "publication_verified": false,
+  "whitespace_check": {
+    "all_candidate_paths_exit_code": 2,
+    "reported_paths": [
+      "_includes/editorial/en/custom-bcc29206ce14b1ed.html",
+      "_includes/editorial/es/custom-e5d0ebc899b77888.html",
+      "docs/editorial-work/captures/campaign-creation-completion-20261026/editorial-copy.patch",
+      "docs/editorial-work/captures/campaign-creation-completion-20261026/preliminary-native-example-build/build.log",
+      "docs/editorial-work/captures/campaign-creation-completion-20261026/validation/build.log"
+    ],
+    "all_other_paths_exit_code": 0,
+    "explanation": "Preserved native export blank-line whitespace in both includes, exact unified-diff context lines in the reviewed copy patch, and original Jekyll Generating lines in both immutable build logs. No authored article, YAML, JSON or work-record whitespace errors.",
+    "report_sha256": "752e3b5744544c67c7008b62aef7a0ccc4784311586988c71103ace31ec1bcfd"
+  }
+}
