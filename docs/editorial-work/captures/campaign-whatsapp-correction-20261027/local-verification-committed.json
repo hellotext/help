@@ -1,0 +1,62 @@
+{
+  "recorded_at": "2026-10-27T02:24:28.420656+00:00",
+  "status": "bilingual_article_local_verified",
+  "article_key": "campaigns/creating-a-campaign.md",
+  "verifying_commit": "0c5a46c61ca3eff5eb2ea61b855a779cccbc3b9c",
+  "verifying_commit_parent": "7eaa9c049c7f4dc939184b1d739a72f7ff9aa47a",
+  "final_review": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/final-review.json",
+    "sha256": "9093adb2f1b4b865857376d03b9be96dc8bb69fa999152c70a4ef2a7417330a5"
+  },
+  "local_verification_before_commit": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/local-verification.json",
+    "sha256": "8d2412dcc81b6b6ae8d6b43b7eb939896976b3d998d67bc0ab0631627f2d1622"
+  },
+  "evidence_index_at_verifying_commit": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/evidence-index.json",
+    "sha256": "3b7f158c3eb6303628315cc669fe95951303d45e8b251ba4ed044c11cabad54f"
+  },
+  "remaining_blockers": [],
+  "inventory": {
+    "before_row": "campaigns/creating-a-campaign.md,local_verified,24fa15de997761230c2e483595dc805509d505ac,docs/editorial-work/campaign-creation-completion-20261026.md",
+    "after_row": "campaigns/creating-a-campaign.md,local_verified,0c5a46c61ca3eff5eb2ea61b855a779cccbc3b9c,docs/editorial-work/campaign-whatsapp-correction-20261027.md",
+    "rows": 154,
+    "unrelated_rows_preserved": 153,
+    "before_counts": {
+      "local_verified": 121,
+      "pending": 28,
+      "out_of_scope": 1,
+      "in_progress": 3,
+      "visual_pending": 1
+    },
+    "after_counts": {
+      "local_verified": 121,
+      "pending": 28,
+      "out_of_scope": 1,
+      "in_progress": 3,
+      "visual_pending": 1
+    },
+    "unresolved_before": 32,
+    "unresolved_after": 32,
+    "before_sha256": "92ab703230a9abc005b6882ba18162a6d817e60409976969fb5874936e3af466",
+    "after_sha256": "1afecd9656ba221d8168e5b8b23e49eeb4035186cb36bbbfae6f91ae3754ea23"
+  },
+  "immutable_receipts_preserved": true,
+  "publication_verified": false,
+  "whitespace_check": {
+    "all_candidate_paths_exit_code": 2,
+    "reported_paths": [
+      "_includes/editorial/en/custom-8c762f8c1e7828a2.html",
+      "_includes/editorial/es/custom-e5e9a9e137eaff6e.html",
+      "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/build.log"
+    ],
+    "all_other_paths_exit_code": 0,
+    "explanation": "Native exported include blank-line whitespace and immutable Jekyll build-log whitespace are preserved byte-exact. All authored article, YAML, JSON and work-record paths pass.",
+    "report_sha256": "3166003bfa8960e3b09fbe919b5453afdbc16bc5c01cf55312d9bae18a3e8503"
+  },
+  "limits": [
+    "This receipt records the existing verifying commit and completed local checks; it is not a deployment claim.",
+    "The selected sources comprise28 new native WhatsApp PNGs and14 unchanged historical sources with current applicability evidence. No test or delivery requests were sent.",
+    "This closure changes only this receipt and the Campaign inventory reference/work-record field. Articles, source images, generated includes and QA evidence remain byte-exact."
+  ]
+}
