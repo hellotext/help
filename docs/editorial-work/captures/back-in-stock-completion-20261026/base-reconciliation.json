@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-26T23:50:39.656478+00:00",
+  "status": "current_main_incorporated_preparation_preserved",
+  "original_preparation_base": "7cc05346c0234fc76ab94db0e914b47313d5edad",
+  "current_main_base": "7eaa9c049c7f4dc939184b1d739a72f7ff9aa47a",
+  "preserved_stash": "b06868792047c79d7211376e749adb4590c823c0",
+  "preserved_files": 25,
+  "preserved_manifest_sha256": "0cc5767641ae72ca409f052610402db22a99646bb62d400b824a669985026bec",
+  "catalog_resolutions": [
+    {
+      "path": "_data/editorial/en.yml",
+      "new_main_sha256": "0d8d9d951f859acdd2425d83e198138dbeb2f21634436ef4de5324abc22e997e",
+      "preserved_native_BIS_block_sha256": "d820073dd83ef25ff9ef3b12443c680451207812f6816cabbf3f9da165fe9e4d",
+      "resolved_sha256": "0b36345641bddf79c6b20f21a3332db03bf89ae1df8f98860fa1878e5d14a8bb",
+      "resolution": "Append the exact prepared BIS block to complete current main; preserve Campaign and all previous catalog bytes."
+    },
+    {
+      "path": "_data/editorial/es.yml",
+      "new_main_sha256": "678881ed43cd8e89a3515e06440724f15681b7cd6119321d80edbe35380e5395",
+      "preserved_native_BIS_block_sha256": "050bcbc34000859629ebe4bb3281d8eed2d026eec8c5168eb2bea2f483548d1f",
+      "resolved_sha256": "63bd0db63ff71a03bd283a4ea1dde6b4dd7c4f86dad1b368c23cc2b8c4e4c927",
+      "resolution": "Append the exact prepared BIS block to complete current main; preserve Campaign and all previous catalog bytes."
+    }
+  ],
+  "unchanged_prepared_files": 22,
+  "inventory": "Current main Campaign verified row retained; only BIS remains in_progress. All previous CAP evidence and original snapshots are unchanged.",
+  "new_main_inventory_sha256": "92ab703230a9abc005b6882ba18162a6d817e60409976969fb5874936e3af466",
+  "current_inventory_sha256": "309ae56890a2a5966c6a737dafd1a126504a0fd29c3dbf616e33137b971ecba4",
+  "originals_note": "The original 7cc snapshots retain their original meaning; originals-after-base-update/progress.csv supplies the new main inventory baseline."
+}

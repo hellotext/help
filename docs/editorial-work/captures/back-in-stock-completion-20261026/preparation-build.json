@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-26T22:08:21.761578+00:00",
+  "scope": "Preparation build of recovered and refined article copy; no new screenshot or recipient component integrated yet. Repeat after final integration.",
+  "command": "yarn build",
+  "ruby": "3.3.6",
+  "exit_code": 0,
+  "jekyll_build_passed": true,
+  "security_headers_passed": true,
+  "duration_seconds": 10.42,
+  "routes": [
+    "back-in-stock-pounce.html",
+    "es/vuelta-a-stock.html"
+  ],
+  "docs_and_agents_excluded": true,
+  "built_asset_checks": [
+    {
+      "path": "assets/editorial/editorial_visuals.js",
+      "built_matches_source": true,
+      "sha256": "cea90dc15466e55016ac00bb5420b966022270a95f93380a7485a0982bb6a07d"
+    },
+    {
+      "path": "assets/editorial/editorial_tabs.js",
+      "built_matches_source": true,
+      "sha256": "39e1533fa19b21d927b5172e41156317a3bca29a3366348d36870147e53b2287"
+    },
+    {
+      "path": "images/editorial/assets/homepage/proposals/crocs-classic-clog-malva-ecuador-cutout.png",
+      "built_matches_source": true,
+      "sha256": "e398217cf498057fd0b06a879c3ce95e27c48a73ab46fee428bb1e55fdd51076"
+    }
+  ],
+  "browser_QA_performed": false,
+  "new_recipient_export_performed": false,
+  "new_capture_performed": false,
+  "log": "audit/help-resume-20261026/next-pairs/help-preparation-build.log",
+  "notes": [
+    "Existing Browserslist dataset warning; no dependency updates performed.",
+    "Yarn global-folder warning; build completed successfully."
+  ]
+}

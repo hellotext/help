@@ -1,0 +1,75 @@
+{
+  "status": "partial_source_review_passed_help_render_pending",
+  "reviewer": "/root/bis_resume_readonly/bis_en_pixels",
+  "created_at": "2026-10-27T03:00:33.326630+00:00",
+  "locale": "en",
+  "records": [
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-whatsapp-1-en-desktop.png",
+      "sha256": "46a9350ce409576adde1e164235e60f61905760d8eac1feb39f4d0e874be3737",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-whatsapp-1-en-desktop.json",
+        "sha256": "5f959f90ab3c160144f8988fa762a70900ecc3bb9ee5ac6e46fb96d316a9c8a5"
+      },
+      "id": "bis-whatsapp-1",
+      "layout": "desktop",
+      "pixel_dimensions": [
+        1552,
+        3264
+      ],
+      "logical_crop": [
+        902,
+        113,
+        388,
+        816
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "passed",
+      "observations": [
+        "Complete native WhatsApp selector, phone shell, attached product image, English message, View product action and all four sample dots are visible.",
+        "Same prepared native example is active in both layouts; no image/text editing or inferred delivery.",
+        "Balanced native background around phone and selector; no clipped required controls, pointer, tooltip or debug overlay.",
+        "Gray avatar/name geometry belongs to the native phone shell; the actual image and body are fully loaded."
+      ],
+      "unresolved_findings": []
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-whatsapp-1-en-mobile.png",
+      "sha256": "b29234a501b9deb344e4dd5177c131c2d8d7cd4ac84f611a59a67909b4a8e03a",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-whatsapp-1-en-mobile.json",
+        "sha256": "18660de9ac5aa4a4c1e36c8c092252cf109b6ee1ca857d02ab7f3abb07562390"
+      },
+      "id": "bis-whatsapp-1",
+      "layout": "mobile",
+      "pixel_dimensions": [
+        1552,
+        3264
+      ],
+      "logical_crop": [
+        21,
+        133,
+        388,
+        816
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "passed",
+      "observations": [
+        "Complete native WhatsApp selector, phone shell, attached product image, English message, View product action and all four sample dots are visible.",
+        "Same prepared native example is active in both layouts; no image/text editing or inferred delivery.",
+        "Balanced native background around phone and selector; no clipped required controls, pointer, tooltip or debug overlay.",
+        "Gray avatar/name geometry belongs to the native phone shell; the actual image and body are fully loaded."
+      ],
+      "unresolved_findings": []
+    }
+  ],
+  "limits": [
+    "Only the two named original PNGs have been visually inspected in this receipt.",
+    "Source logical width is 388 CSS px; no enlargement approval.",
+    "Full Help rendering remains a separate pending gate."
+  ]
+}

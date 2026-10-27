@@ -1,0 +1,210 @@
+{
+  "schema": "back-in-stock-independent-copy-review-v1",
+  "reviewed_at": "2026-10-26T22:12:03.282382+00:00",
+  "reviewer": "/root/resume_inventory_20261026/back_in_stock_copy_review",
+  "status": "copy_and_payload_source_review_passed; native_export_captures_and_rendered_QA_pending",
+  "help_base": "7cc05346c0234fc76ab94db0e914b47313d5edad",
+  "editorial_pin": "d0ee357e45d2d14ae605081fc8fe20763b1bb4ba",
+  "app_source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "scope": "Current complete ES/EN copy and delta against main, unchanged stub, early recipient payloads and plan; bounded current-source verification of changed claims. Not a full application or fixture review.",
+  "findings": [],
+  "article_checks": [
+    {
+      "path": "_i18n/es/journeys/back-in-stock-pounce.md",
+      "sha256": "fd0a1381947881f925ccc8c6e5c3a76e12366570bcd20ed0ccba670a2c55f22d",
+      "main_sha256": "839df66f8b4eb498a5b14879d98121dae75f856d8b49d5353df72df2219cb7c6",
+      "ordered_liquid_links_preserved": 29,
+      "missing_link_targets": [],
+      "headings_preserved": 9,
+      "original_snapshot_matches_main": true,
+      "new_images_or_generated_includes_present": false
+    },
+    {
+      "path": "_i18n/en/journeys/back-in-stock-pounce.md",
+      "sha256": "fc5a90d67eaf2468d8fb8881a2f0f18b2d658c6966ff395e9a6ece2292fbc0b1",
+      "main_sha256": "1919212de7c7aacbc82e68cd6fbba0ce1fe22988ddbc65350266bbb33363dd1e",
+      "ordered_liquid_links_preserved": 29,
+      "missing_link_targets": [],
+      "headings_preserved": 9,
+      "original_snapshot_matches_main": true,
+      "new_images_or_generated_includes_present": false
+    }
+  ],
+  "stub": {
+    "path": "_journeys/back-in-stock-pounce.md",
+    "sha256": "deddddfb011d2040350ef9018d4d774e7a3a17fc519e556ae8696d0a9d3653c9",
+    "unchanged_from_main": true,
+    "titles_slugs_navigation_publication_state_preserved": true
+  },
+  "payloads": [
+    {
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/recipient-example.es.json",
+      "sha256": "0b41188be0792019be3d7909aacd4dd5d8679b5a20d7a9546d8388f78c800d4e",
+      "bytes": 1086,
+      "version": 1,
+      "channel": "whatsapp",
+      "messages": 1,
+      "message_type": "image",
+      "action_labels": [
+        "Ver producto"
+      ],
+      "native_validation_executed": false
+    },
+    {
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/recipient-example.en.json",
+      "sha256": "37265c0c1b5ba01dd1411117075145fbd560d5a4f481e06d33ba1af9c2d0aa41",
+      "bytes": 1058,
+      "version": 1,
+      "channel": "whatsapp",
+      "messages": 1,
+      "message_type": "image",
+      "action_labels": [
+        "View product"
+      ],
+      "native_validation_executed": false
+    }
+  ],
+  "source_observations": [
+    {
+      "claim": "Interest can be inferred from a specific-product search that records wishlisted interest.",
+      "evidence": [
+        "app/models/supervisor/recommendation/engine/runner.rb:234",
+        "app/models/contact/interest.rb:33",
+        "app/models/artifact/product/restock_fanout.rb:119"
+      ],
+      "assessment": "Supported. Only rejected out-of-stock candidates with lexical_identity_anchor true are recorded/refreshed; the article explicitly qualifies search as recorded interest rather than any search."
+    },
+    {
+      "claim": "Supported exact-product signals include inferred/direct wishlist, cart and product view; a generic restock-request form is not sufficient.",
+      "evidence": [
+        "app/models/artifact/product/restock_fanout.rb:95",
+        "app/models/artifact/product/restock_fanout.rb:162",
+        "app/models/artifact/product/restock_fanout.rb:187",
+        "app/models/artifact/product/restock_fanout.rb:214"
+      ],
+      "assessment": "Supported; current ES/EN qualifications correct earlier overly broad form/waitlist wording."
+    },
+    {
+      "claim": "The native configuration has outgoing Channel, Audience, Discount and Tone; Tone allows up to three options.",
+      "evidence": [
+        "db/seeds/playbooks.rb:408",
+        "app/javascript/controllers/playbook/tone_controller.js:40",
+        "app/views/playbook/component/tones/_form.html.erb:43"
+      ],
+      "assessment": "Supported. No assignment or product-scope card promised in the revised configuration."
+    },
+    {
+      "claim": "No dedicated Back-in-Stock report panel is available in the current registry.",
+      "evidence": [
+        "app/models/playbook/report.rb:2"
+      ],
+      "assessment": "Supported. BackInStockPouncer is absent; copy avoids borrowing other report populations."
+    },
+    {
+      "claim": "Illustrative WhatsApp message has one product, complete text and an inert product action.",
+      "evidence": [
+        "app/models/cg/composer/profile/back_in_stock_pouncer.rb:7",
+        "app/models/cg/matrix/posture/back_in_stock_pouncer.rb:35",
+        "app/presenters/editorial/custom_visual.rb:178",
+        "app/components/marketing/message_bubble_component.html.erb:9"
+      ],
+      "assessment": "Supported schema and editorial shape. The examples do not assert recipient surveillance, explicit request, reservation, deadline, sent/generated outcome or inventory count. Actions are labels rendered as spans; actual native export and browser behavior remain unverified."
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "app/models/artifact/product/restock_fanout.rb",
+      "sha256": "7392b8b31182ad4c56d46f5330107998b320691a26e5c2568e826e147b844a1a"
+    },
+    {
+      "path": "app/models/contact/interest.rb",
+      "sha256": "9ffcd2ed22bda221c7f7f1059a48c9791e161d0af1edf6b10c4a8442c3a73a86"
+    },
+    {
+      "path": "app/models/supervisor/recommendation/engine/runner.rb",
+      "sha256": "9dd53ec69fdff8835bb13fc0f285f798ac97ca2a9693ef00f1966466fa1ead91"
+    },
+    {
+      "path": "db/seeds/playbooks.rb",
+      "sha256": "460fbeb8b0f3154a5fc9f2f947a1ed31b914b9558a2aed6d3e0f4f9b6db3f5c3"
+    },
+    {
+      "path": "app/models/playbook/report.rb",
+      "sha256": "da2dbbea32fc08e2ffe7c5eed3239c907bb463f51f24af177c65935a23762573"
+    },
+    {
+      "path": "app/models/playbook/preview.rb",
+      "sha256": "c23bca136cdaade6968eb20dd0483961f1de98b76c606b10fc28207cf10c8510"
+    },
+    {
+      "path": "app/models/cg/composer/profile/back_in_stock_pouncer.rb",
+      "sha256": "e77fa46bd469eff1d9fbf6ea57803b8adab7babb96f19885858a239be49521d8"
+    },
+    {
+      "path": "app/models/cg/matrix/posture/back_in_stock_pouncer.rb",
+      "sha256": "14ea3c8c0c40d605b14f57ef6f7420b0c88d8ffa97109017a31a4e6a04e91835"
+    },
+    {
+      "path": "app/models/playbook/component/tone.rb",
+      "sha256": "2da5d3c95ac5baca586fc88e46db51376a2fbee03df518226cef77171b1a5288"
+    },
+    {
+      "path": "app/javascript/controllers/playbook/tone_controller.js",
+      "sha256": "32b498e45b8e1f702a91f854d48a227fa4e49f198f9a66627f1718ba6e4d279b"
+    },
+    {
+      "path": "app/views/playbook/component/tones/_form.html.erb",
+      "sha256": "41d3676610285f484a05f699538ed717af6c574ed15ad0e59dbeeba9791da182"
+    },
+    {
+      "path": "config/locales/views/playbooks/es.yml",
+      "sha256": "395302af54a97ffe1ac09160e46c8c4251ea1f63c172800888479b334bc32a9c"
+    },
+    {
+      "path": "app/presenters/editorial/custom_visual.rb",
+      "sha256": "54be0160b18ef419979b44b6055142fc0e612d656c8c2d8b7083fb45028ff5bd"
+    },
+    {
+      "path": "app/components/editorial/message_content_component.html.erb",
+      "sha256": "c58032793d4c3d0737ebe550acbb6fa10ea44a4ee988dc777cca4ec3a28416ff"
+    },
+    {
+      "path": "app/components/marketing/message_bubble_component.html.erb",
+      "sha256": "d9976dbb9d08f0c1b2f18e78f04c9218945eb652925ba33deb10357c8bbcf043"
+    }
+  ],
+  "reviewed_record_hashes": [
+    {
+      "path": "docs/editorial-work/back-in-stock-completion-20261026.md",
+      "sha256": "7d58b24ed7bc7077ed4877d2ed9ac6d995fca5fbbe6e2f87a3618054dbf705ac"
+    },
+    {
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/recipient-example-contract.json",
+      "sha256": "d4b730f1b1adcdc6f541c54ad4c4587f532edea6848fa6d387a2d6e1ab50e6c5"
+    },
+    {
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/preservation.json",
+      "sha256": "85b88f4e09eabc880e1590970a57eb5ff426b400b297e968c30400e1906266a8"
+    },
+    {
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/preparation-checks.json",
+      "sha256": "22275b2531bdcb13eaad1b5b4d56e97f82dcc3ad7a28231b29fdfc24b2d3f15a"
+    },
+    {
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/preparation-build.json",
+      "sha256": "aabe6c86069b428393a94ecce35e8483b0e5aa873e1e9e8230ab7528fa19fe36"
+    }
+  ],
+  "pending_checks": [
+    "Native CustomVisual validation/export and byte-preserving import",
+    "Insert generated locale includes and planned adjacent illustrative prose at the documented introduction anchors",
+    "Current real UI captures and complete desktop/mobile ES/EN visual QA",
+    "Final integrated Help build/security checks and approved publication verification"
+  ],
+  "limits": [
+    "Did not execute Rails, exporter, app, DB, browser, build, sends, or network calls.",
+    "Did not repeat image pixel or public-URL verification; existing successful image evidence was reviewed as supplied.",
+    "Current article has no new image/generated include yet; this review cannot close the pair or certify publication readiness.",
+    "Only this audit JSON was written; worktree and historical drafts were not modified."
+  ]
+}

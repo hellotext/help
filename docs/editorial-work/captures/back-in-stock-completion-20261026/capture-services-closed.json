@@ -1,0 +1,58 @@
+{
+  "at": "2026-10-27T03:16:13.871606+00:00",
+  "status": "all_owned_capture_and_runtime_services_closed",
+  "services": {
+    "chrome": {
+      "pid": 9268,
+      "port": 9563,
+      "owned_profile_verified": true,
+      "blank_before_close": true,
+      "signal": "SIGTERM",
+      "closed": true,
+      "profile_preserved": true
+    },
+    "proxy": {
+      "exec_session": 12847,
+      "port": 3377,
+      "command": "node help-bis-current-capture-20261026/capture-http-proxy.mjs --start",
+      "termination": "Ctrl-C",
+      "exit_code": 0,
+      "closed": true
+    },
+    "puma": {
+      "pid": 26521,
+      "exec_session": 88328,
+      "port": 33387,
+      "termination": "Ctrl-C graceful shutdown",
+      "exit_code": 0,
+      "closed": true
+    },
+    "redis": {
+      "pid": 97108,
+      "port": 19627,
+      "closed": true,
+      "receipt": {
+        "path": "audit/bis-en-resume-20261027/redis-closure.json",
+        "sha256": "61ee9fe63d45fccd84c7d15010c73ddef2ba491c8e28a859f9ac6354b09c8bbd"
+      }
+    },
+    "controllers": [
+      {
+        "exec_session": 37359,
+        "exit_code": 0,
+        "parked": true
+      },
+      {
+        "exec_session": 71525,
+        "exit_code": 0,
+        "parked": true
+      }
+    ],
+    "listeners": {
+      "33387": "absent",
+      "3377": "absent",
+      "9563": "absent",
+      "19627": "absent"
+    }
+  }
+}

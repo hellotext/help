@@ -1,0 +1,47 @@
+{
+  "status": "corrected_source_review_passed_help_render_pending",
+  "reviewer": "/root/bis_resume_readonly/bis_en_pixels",
+  "created_at": "2026-10-27T03:11:26.038015+00:00",
+  "locale": "en",
+  "records": [
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-contact-activity-en-desktop.png",
+      "sha256": "bc8003edd78ec4a6b82542cd9ad5189f5ab7d45000ed269fe4978696d5c16d05",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-contact-activity-en-desktop.json",
+        "sha256": "b878550e3a807321d940e43b89b863226389bdc32a61b07f22cac3bfdfe535a9"
+      },
+      "id": "bis-contact-activity",
+      "layout": "desktop",
+      "pixel_dimensions": [
+        1488,
+        800
+      ],
+      "logical_crop": [
+        1068,
+        774,
+        372,
+        200
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "passed",
+      "observations": [
+        "The new native capture retains both complete English event rows, their dates and the Activity tab.",
+        "The lower-right floating control no longer intersects the capture; adequate native white margin remains below the visible date.",
+        "No pointer, tooltip, debug overlay, customer identifier or unsupported delivery result."
+      ],
+      "unresolved_findings": []
+    }
+  ],
+  "resolved_finding": {
+    "original_sha256": "f2fdf02ed94f0f96e3de08ee5f69bb3d1f0a8e46bbdb30a0c67c1789598f60f8",
+    "code": "floating_control_intersects_lower_right_crop",
+    "resolution": "Fresh native Chrome compositor capture with CSS clip height 200 instead of 212; original rejected bytes preserved separately.",
+    "pixel_edits": false
+  },
+  "limits": [
+    "Source review only; complete rendered Help review remains pending."
+  ]
+}

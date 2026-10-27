@@ -1,0 +1,79 @@
+{
+  "status": "one_source_passed_one_rejected_pending_native_recapture",
+  "reviewer": "/root/bis_resume_readonly/bis_en_pixels",
+  "created_at": "2026-10-27T03:09:19.400904+00:00",
+  "locale": "en",
+  "records": [
+    {
+      "file_at_review": "help-bis-current-capture-20261026/sources/bis-contact-activity-en-desktop.png",
+      "file": "help-bis-current-capture-20261026/sources/bis-contact-activity-en-desktop.png",
+      "sha256": "f2fdf02ed94f0f96e3de08ee5f69bb3d1f0a8e46bbdb30a0c67c1789598f60f8",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-contact-activity-en-desktop.json",
+        "sha256": "6e120fa7e3915f0718379b5e369b8771f7e1d10982954c1fb97afbc79753808c"
+      },
+      "id": "bis-contact-activity",
+      "layout": "desktop",
+      "pixel_dimensions": [
+        1488,
+        848
+      ],
+      "logical_crop": [
+        1068,
+        774,
+        372,
+        212
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "rejected",
+      "observations": [
+        "Complete Activity tab and two fictional product events are visible; English event labels and relative dates remain readable.",
+        "No customer identifier, pointer, tooltip or message-send evidence appears."
+      ],
+      "unresolved_findings": [
+        {
+          "code": "floating_control_intersects_lower_right_crop",
+          "detail": "A partial gray semicircle from a floating native control is visible at the lower-right edge. Preserve this candidate as rejected and recapture natively; do not edit pixels.",
+          "suggestion": "Check a 200 CSS px height as in the accepted ES layout, retaining complete event bounds, or adjust the actual viewport/clip."
+        }
+      ]
+    },
+    {
+      "file_at_review": "help-bis-current-capture-20261026/sources/bis-contact-activity-en-mobile.png",
+      "file": "help-bis-current-capture-20261026/sources/bis-contact-activity-en-mobile.png",
+      "sha256": "4253f178d77b78fb3f52dcd080d75d2dc6748a383448914557c4e7b02d4a44ca",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-contact-activity-en-mobile.json",
+        "sha256": "1973df35b4d45170587af3de341649fee6088215ca491248f1e349db52fba502"
+      },
+      "id": "bis-contact-activity",
+      "layout": "mobile",
+      "pixel_dimensions": [
+        1720,
+        848
+      ],
+      "logical_crop": [
+        0,
+        765,
+        430,
+        212
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "passed",
+      "observations": [
+        "Complete Activity tab and two fictional product events are visible; English event labels and relative dates remain readable.",
+        "No customer identifier, pointer, tooltip or message-send evidence appears.",
+        "Both event rows, their dates and the surrounding native background are complete; no floating control intersects the crop."
+      ],
+      "unresolved_findings": []
+    }
+  ],
+  "limits": [
+    "Source review only; complete rendered Help review remains pending.",
+    "Rejected desktop bytes are identified by immutable SHA even if later preserved under references."
+  ]
+}

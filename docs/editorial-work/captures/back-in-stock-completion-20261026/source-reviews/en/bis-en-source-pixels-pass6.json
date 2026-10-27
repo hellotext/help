@@ -1,0 +1,74 @@
+{
+  "status": "partial_source_review_passed_help_render_pending",
+  "reviewer": "/root/bis_resume_readonly/bis_en_pixels",
+  "created_at": "2026-10-27T03:06:47.456509+00:00",
+  "locale": "en",
+  "records": [
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-tone-en-desktop.png",
+      "sha256": "bcee67110326d61179b717f1263219d807f21a0d2ce3af703c15fe386309ea75",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-tone-en-desktop.json",
+        "sha256": "ac34412a29e031fee371eb100b0fe3102a0d87242f88575f4c2996fdb0b2f6d6"
+      },
+      "id": "bis-tone",
+      "layout": "desktop",
+      "pixel_dimensions": [
+        2944,
+        2152
+      ],
+      "logical_crop": [
+        48,
+        121,
+        736,
+        538
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "passed",
+      "observations": [
+        "Complete Tone heading, up-to-three instruction, playbook-specific badge and reset control are visible in both layouts.",
+        "All six native tone cards and labels are complete, with clear unselected borders and bottom margin.",
+        "Mobile includes the useful header context while keeping card names readable at its 430 CSS px native width; final 316 CSS px Help rendering remains a separate gate.",
+        "No pointer, tooltip, debug overlay, changed selections or private customer data."
+      ],
+      "unresolved_findings": []
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-tone-en-mobile.png",
+      "sha256": "7a29614767c605f3430e67d347d414f4f997e42c4badf460e76b6a6ea305a165",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-tone-en-mobile.json",
+        "sha256": "36720ae0f6ee1cb17c438bb176ce00e278e5f0609aec5ab3aafb7ea8877aba21"
+      },
+      "id": "bis-tone",
+      "layout": "mobile",
+      "pixel_dimensions": [
+        1720,
+        3640
+      ],
+      "logical_crop": [
+        0,
+        117,
+        430,
+        910
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "passed",
+      "observations": [
+        "Complete Tone heading, up-to-three instruction, playbook-specific badge and reset control are visible in both layouts.",
+        "All six native tone cards and labels are complete, with clear unselected borders and bottom margin.",
+        "Mobile includes the useful header context while keeping card names readable at its 430 CSS px native width; final 316 CSS px Help rendering remains a separate gate.",
+        "No pointer, tooltip, debug overlay, changed selections or private customer data."
+      ],
+      "unresolved_findings": []
+    }
+  ],
+  "limits": [
+    "Only these original source PNGs were reviewed; full Help layout and final article text remain separate gates.",
+    "The longer mobile crop is a native capture, not a fabricated extension or bitmap enlargement."
+  ]
+}

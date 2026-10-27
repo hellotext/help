@@ -1,10 +1,14 @@
-Use this guide when customers asked to be notified about an unavailable product and you want Hellotext to notify them automatically when that product or variant is available again.
+Use this guide when customers showed interest in an unavailable product and you want Hellotext to notify them automatically when that product or variant is available again.
 
 Back-in-Stock Pounce is an autonomous conversion playbook. It connects inventory signals with the customer profiles that showed interest, checks that the opportunity still makes sense, and sends a relevant alert to those people without your team manually checking lists, matching stock, or building campaigns.
 
-Its value is operational simplicity: Hellotext communicates the restock automatically and intelligently to the customers waiting for that product, with the context they need to come back and buy.
+Its value is operational simplicity: Hellotext communicates the restock to customers with interest signals for that product, with the context they need to come back and buy. That interest can come from a wishlist, a search for the specific product recorded as interest, a product view, or a cart; it does not always mean the customer explicitly requested an alert.
 
 It is not a journey route or a broad restock campaign. It is a prebuilt playbook with its own configuration.
+
+This illustrative example shows how an alert from the fictional store Luma could appear. It helps the reader check the product and its availability; it does not imply reserved stock or that a notification was sent.
+
+{% include editorial/en/custom-f7a216b444d71195.html %}
 
 ## What Back-in-Stock Pounce does
 
@@ -13,7 +17,7 @@ Back-in-Stock Pounce helps convert demand that was blocked by inventory.
 It can:
 
 - Start when Hellotext receives a back-in-stock or availability signal for a product or variant.
-- Use a waiting-list, notify-me, product-interest, or capture signal when that data is available.
+- Use supported interest signals for the same product, such as a wishlist, cart, product view, or recorded inferred interest. If a form collects restock requests, verify how those requests become supported signals in Hellotext.
 - Send a notification with product context and a product link when the customer can be reached.
 - Check whether the product or variant is still available before the message goes out.
 - Stop when the product is unavailable again, the customer already bought, the customer is not reachable, or no more follow-up is needed.
@@ -47,27 +51,108 @@ Check that:
 - Product and variant IDs match the product-interest, waitlist, or notify-me signal.
 - Out-of-stock and back-in-stock states are reliable at the level you plan to message about.
 - Product names, images, prices, stock, and product links are current.
-- The customer profiles that asked to be notified are subscribed, identifiable, and reachable.
+- The customer profiles with interest signals are subscribed, identifiable, and reachable.
 - The channel is connected and ready.
 - Customers have consent and are eligible for the channel.
 - Purchase or order signals are available if the playbook should avoid messaging customers who already bought.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
 
-After enabling the playbook, use the automatically generated reports to review entries, sends, skips, clicks, purchases, attributed revenue, and failures.
+After enabling the playbook, review the activity of test customer profiles, messages, and available purchase signals. Back-in-Stock Pounce does not yet have a dedicated report panel; do not assume all these metrics will appear together in one report.
 
 ## How to configure it
 
 Go to **Playbooks**, click **Explore playbooks**, and choose **Back-in-Stock Pounce**.
 
-Review the playbook cards available in your account before enabling it. The configuration can include:
+Review the playbook cards before enabling it:
 
-- **Outgoing channels:** where Hellotext can send the stock alert.
-- **Tone or Playground feedback:** how the generated notification should fit your business.
-- **Assignment or handoff:** who should handle replies when a customer needs a person.
-- **Product scope, when exposed:** which products, variants, categories, or collections can participate.
+- **Outgoing channels:** use automatic selection or choose the allowed channels. This setting does not connect a channel or replace customer consent.
+- **Audience:** include or exclude the customer groups that can participate.
+- **Discounts:** choose whether the playbook can use store offers, AI incentives, a configured coupon, or no discount strategy.
+- **Tone:** select up to three tones to guide the voice of the message.
 
-Hellotext handles the stock trigger, customer-interest matching, send timing, availability recheck, purchase check, and reporting automatically. Back-in-Stock Pounce does not require a prompt, intents, journey steps, waits, or exit conditions.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-bis-figure="bis-overview" aria-label="Back-in-Stock Pounce configuration cards">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 674px); width: fit-content; margin: 0 auto;">
+      <picture>
+        <img class="ht-editorial-visual__image" src="/images/journeys/back-in-stock-pounce/bis-overview-en-desktop.png" srcset="/images/journeys/back-in-stock-pounce/bis-overview-en-desktop.png 4x" width="2624" height="2564" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Back-in-Stock Pounce configuration cards" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. The configuration brings together Outgoing channels, Audience, Discounts, and Tone. Open the card you want to review.</figcaption>
+</figure>
+
+To review the available groups, open **Audience** and click **Add audiences**.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-bis-figure="bis-audience" aria-label="Audience selector with the group list open">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 674px); width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/back-in-stock-pounce/bis-audience-en-mobile.png 4x" width="1688" height="3868" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/back-in-stock-pounce/bis-audience-en-desktop.png" srcset="/images/journeys/back-in-stock-pounce/bis-audience-en-desktop.png 4x" width="2624" height="3652" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Audience selector with the group list open" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. Open Add audiences to review the available groups. The current selection and estimated reach appear in the same panel.</figcaption>
+</figure>
+
+In **Discounts**, the combined strategy allows store offers and AI incentives within your selected limit. You can also use existing store offers only, AI incentives only, or a coupon created in Hellotext. **No discount strategy** prevents incentives from being offered.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-bis-figure="bis-discounts" aria-label="Combined discount strategy with a ten percent limit">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 674px); width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/back-in-stock-pounce/bis-discounts-en-mobile.png 4x" width="1720" height="2728" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/back-in-stock-pounce/bis-discounts-en-desktop.png" srcset="/images/journeys/back-in-stock-pounce/bis-discounts-en-desktop.png 4x" width="2624" height="1992" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Combined discount strategy with a ten percent limit" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. The example combined strategy has a 10% limit selected. The settings button opens store promotions.</figcaption>
+</figure>
+
+For a strategy that uses store offers, open the **Configure store promotions** settings button to review imported promotions. The panel shows their status and dates; store schedules still apply.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-bis-figure="bis-store-promotions" aria-label="Store promotions panel with statuses and dates">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 590px); width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/back-in-stock-pounce/bis-store-promotions-en-mobile.png 4x" width="1656" height="4108" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/back-in-stock-pounce/bis-store-promotions-en-desktop.png" srcset="/images/journeys/back-in-stock-pounce/bis-store-promotions-en-desktop.png 4x" width="2288" height="3684" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Store promotions panel with statuses and dates" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. Review each promotion’s status, days, and dates. The playbook toggle is separate from the promotion’s store status.</figcaption>
+</figure>
+
+In **Tone**, you can select up to three options to guide the voice of the message.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-bis-figure="bis-tone" aria-label="Message tone options">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 754px); width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/back-in-stock-pounce/bis-tone-en-mobile.png 4x" width="1720" height="3640" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/back-in-stock-pounce/bis-tone-en-desktop.png" srcset="/images/journeys/back-in-stock-pounce/bis-tone-en-desktop.png 4x" width="2944" height="2152" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Message tone options" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. Select up to three tones to guide the message. The mobile view shows all six options.</figcaption>
+</figure>
+
+Review the result in **Playground**: check the product name and image, the message, and its action to the product page. A preview helps you review the content; it does not confirm a send or reserve inventory.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-bis-figure="bis-whatsapp-1" aria-label="Native WhatsApp preview in Playground">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 406px); width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/back-in-stock-pounce/bis-whatsapp-1-en-mobile.png 4x" width="1552" height="3264" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/back-in-stock-pounce/bis-whatsapp-1-en-desktop.png" srcset="/images/journeys/back-in-stock-pounce/bis-whatsapp-1-en-desktop.png 4x" width="1552" height="3264" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Native WhatsApp preview in Playground" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. In Playground, review the product, text, and View product action. The dots let you browse the variants; this preview does not confirm a send.</figcaption>
+</figure>
+
+Hellotext handles the stock trigger, customer-interest matching, send timing, availability recheck, and purchase check automatically. Back-in-Stock Pounce does not require a prompt, intents, journey steps, waits, or exit conditions.
 
 ## How it works with nearby playbooks
 
@@ -90,8 +175,8 @@ Test with a small, realistic case before enabling it broadly.
 Use a test customer profile that has channel consent, then:
 
 - Create or identify a product or variant that is unavailable.
-- Create a waitlist, notify-me, capture, or product-interest signal for that test profile.
-- Confirm the product-interest signal appears on the right customer profile.
+- Record a supported interest signal for that test profile and product, such as adding it to a wishlist. If you use a restock-request form, confirm which signal its integration records.
+- When the signal is an event, review the recorded activity to confirm it belongs to the right customer profile and product. Inferred interest does not always have a visible event in that activity.
 - Send or simulate the stock or availability update that makes the item sellable again.
 - Confirm the playbook detects that update and creates an eligible back-in-stock opportunity.
 - Confirm the message uses the right product, variant, image, price, and link.
@@ -99,6 +184,20 @@ Use a test customer profile that has channel consent, then:
 - Confirm the playbook does not send if the test customer already bought the product.
 - Send a reply and confirm it reaches the Inbox if your team should handle replies.
 - Review sent, skipped, failed, clicked, and converted examples after launch.
+
+To check recorded signals, review the profile activity and confirm the product and date. Interest and restock events alone do not establish that a message was sent.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-bis-figure="bis-contact-activity" aria-label="Recorded product activity in the profile">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 448px); width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/back-in-stock-pounce/bis-contact-activity-en-mobile.png 4x" width="1720" height="848" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/back-in-stock-pounce/bis-contact-activity-en-desktop.png" srcset="/images/journeys/back-in-stock-pounce/bis-contact-activity-en-desktop.png 4x" width="1488" height="800" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Recorded product activity in the profile" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. The activity shows interest and restock for the same product with relative dates. These events do not establish that a message was sent.</figcaption>
+</figure>
 
 If tracking is custom, confirm that product identifiers, variant identifiers, stock status, timestamps, and customer identifiers match what Hellotext expects.
 
@@ -109,7 +208,7 @@ Enabling the playbook does not guarantee every restock produces a message.
 The playbook may not send when:
 
 - The stock or availability signal did not arrive.
-- The product-interest, waitlist, or notify-me signal is missing.
+- A supported interest signal for that product is missing or falls outside the window the playbook evaluates.
 - The product or variant IDs do not match across the stock update and customer signal.
 - The product is still unavailable, hidden, archived, missing a price, or missing a usable link.
 - The customer already bought the item.
@@ -134,7 +233,7 @@ During the first days, review:
 - Purchases, attributed revenue, and missed opportunities.
 - Whether the playbook overlaps with campaigns, Browse Recovery, cart recovery, or Smart Recommender.
 
-Tune one thing at a time among the cards the playbook exposes: product scope, channel, tone, Playground feedback, or assignment.
+Tune one thing at a time among the playbook cards: outgoing channels, audience, discounts, or tone. Review the preview after your changes.
 
 ## Related guides
 

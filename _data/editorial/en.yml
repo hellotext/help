@@ -430,3 +430,28 @@ custom-8c762f8c1e7828a2:
       - Unsubscribe
   id: custom-8c762f8c1e7828a2
   type: messages
+custom-f7a216b444d71195:
+  version: 1
+  title: A back-in-stock alert
+  caption: 'Illustrative WhatsApp example from the fictional store Luma: a restocked
+    product and an inert action to review its details. It does not represent a message
+    generated, sent, or received by a real customer.'
+  panels:
+  - label: Back in stock
+    context: A product is available again; the example does not imply reserved stock
+      or an explicit restock request.
+    channel: whatsapp
+    business: Luma
+    messages:
+    - type: image
+      side: business
+      text: The mauve Crocs Classic Clog is available again. Check the product details
+        and current stock before you buy.
+      time: '10:00'
+      image:
+        src: https://help.hellotext.com/images/editorial/assets/homepage/proposals/crocs-classic-clog-malva-ecuador-cutout.png
+        alt: Mauve Crocs Classic Clog
+      actions:
+      - View product
+  id: custom-f7a216b444d71195
+  type: messages

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "title": "Una alerta de vuelta a stock",
+  "caption": "Ejemplo ilustrativo de WhatsApp de la tienda ficticia Luma: un producto repuesto y una acción inerte para revisar sus detalles. No representa un mensaje generado, enviado ni recibido por un cliente real.",
+  "panels": [
+    {
+      "label": "Vuelta a stock",
+      "context": "Un producto vuelve a estar disponible; el ejemplo no implica una reserva ni una solicitud expresa de aviso.",
+      "channel": "whatsapp",
+      "business": "Luma",
+      "messages": [
+        {
+          "type": "image",
+          "side": "business",
+          "text": "Los Crocs Classic Clog Malva volvieron a estar disponibles. Revisa los detalles y el stock actual antes de comprar.",
+          "image": {
+            "src": "https://help.hellotext.com/images/editorial/assets/homepage/proposals/crocs-classic-clog-malva-ecuador-cutout.png",
+            "alt": "Crocs Classic Clog en color malva"
+          },
+          "actions": [
+            "Ver producto"
+          ],
+          "time": "10:00"
+        }
+      ]
+    }
+  ]
+}

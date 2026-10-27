@@ -1,0 +1,290 @@
+{
+  "schema": "bis-final-copy-review-v1",
+  "status": "passed",
+  "reviewed_at": "2026-10-27T03:15:37.930940+00:00",
+  "reviewer": "/root/bis_help_resume/qa_delta_review",
+  "scope": "Final bilingual text, figure descriptions, planned placement and preservation at the bound article hashes; source pixels rely on the admitted independent reviews, and full rendered Help review remains separate.",
+  "findings": [],
+  "articles": [
+    {
+      "locale": "es",
+      "article": "_i18n/es/journeys/back-in-stock-pounce.md",
+      "article_sha256": "faee50331d36f36b1d58acc7bff487ee9cda81bf33e2e9f0b67e82e28a869aca",
+      "heading_count": 9,
+      "ordered_headings_preserved": true,
+      "link_count": 29,
+      "ordered_links_preserved": true,
+      "missing_link_targets": [],
+      "figures": [
+        {
+          "id": "bis-overview",
+          "alt": "Tarjetas de configuración de Vuelta a Stock",
+          "caption": "Interfaz real con datos ficticios. La configuración reúne Canales de salida, Audiencia, Descuentos y Tono. Abre la tarjeta que quieras revisar.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-overview-es-desktop.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        },
+        {
+          "id": "bis-audience",
+          "alt": "Selector de audiencias con la lista de grupos abierta",
+          "caption": "Interfaz real con datos ficticios. Abre Agrega audiencias para revisar los grupos disponibles. La selección actual y el alcance estimado aparecen en el mismo panel.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-audience-es-desktop.png",
+            "/images/journeys/back-in-stock-pounce/bis-audience-es-mobile.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        },
+        {
+          "id": "bis-discounts",
+          "alt": "Estrategia combinada de descuentos con un límite del diez por ciento",
+          "caption": "Interfaz real con datos ficticios. La estrategia combinada del ejemplo tiene seleccionado un límite del 10 %. El botón de ajustes abre las promociones de la tienda.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-discounts-es-desktop.png",
+            "/images/journeys/back-in-stock-pounce/bis-discounts-es-mobile.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        },
+        {
+          "id": "bis-store-promotions",
+          "alt": "Panel de promociones de la tienda con estados y fechas",
+          "caption": "Interfaz real con datos ficticios. Revisa el estado, los días y las fechas de cada promoción. El interruptor de la misión y el estado de la promoción en la tienda son datos distintos.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-store-promotions-es-desktop.png",
+            "/images/journeys/back-in-stock-pounce/bis-store-promotions-es-mobile.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        },
+        {
+          "id": "bis-tone",
+          "alt": "Opciones de tono del mensaje",
+          "caption": "Interfaz real con datos ficticios. Selecciona hasta tres tonos para orientar el mensaje. La vista móvil muestra el detalle de las seis opciones.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-tone-es-desktop.png",
+            "/images/journeys/back-in-stock-pounce/bis-tone-es-mobile.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        },
+        {
+          "id": "bis-whatsapp-1",
+          "alt": "Vista previa nativa de WhatsApp en Playground",
+          "caption": "Interfaz real con datos ficticios. En Playground, revisa el producto, el texto y la acción Ver producto. Los puntos permiten recorrer las variantes; esta vista previa no confirma un envío.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-whatsapp-1-es-desktop.png",
+            "/images/journeys/back-in-stock-pounce/bis-whatsapp-1-es-mobile.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        },
+        {
+          "id": "bis-contact-activity",
+          "alt": "Actividad del perfil con interés y reposición del mismo producto",
+          "caption": "Interfaz real con datos ficticios. La actividad muestra el interés y la reposición del mismo producto, con sus fechas relativas. Estos eventos no prueban que se haya enviado un mensaje.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-contact-activity-es-desktop.png",
+            "/images/journeys/back-in-stock-pounce/bis-contact-activity-es-mobile.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        }
+      ],
+      "source_pngs_used": 13,
+      "native_example": {
+        "include": "_includes/editorial/es/custom-1d37399b8498476e.html",
+        "include_sha256": "bf4b2fc36e001bd37379d5bf0df268818d06ab3df28cc9bf73d5c6084e507f96",
+        "payload": "docs/editorial-work/captures/back-in-stock-completion-20261026/recipient-example.es.json",
+        "payload_sha256": "0b41188be0792019be3d7909aacd4dd5d8679b5a20d7a9546d8388f78c800d4e",
+        "early_placement": true,
+        "previous_export_bytes_preserved": true
+      },
+      "ES_previously_reviewed_article_byte_identical": true
+    },
+    {
+      "locale": "en",
+      "article": "_i18n/en/journeys/back-in-stock-pounce.md",
+      "article_sha256": "c4a7feb508f98440e62df4c3cc5f0ca773fb7ec5defc829b84c6e05ae3196114",
+      "heading_count": 9,
+      "ordered_headings_preserved": true,
+      "link_count": 29,
+      "ordered_links_preserved": true,
+      "missing_link_targets": [],
+      "figures": [
+        {
+          "id": "bis-overview",
+          "alt": "Back-in-Stock Pounce configuration cards",
+          "caption": "Real interface with fictional data. The configuration brings together Outgoing channels, Audience, Discounts, and Tone. Open the card you want to review.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-overview-en-desktop.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        },
+        {
+          "id": "bis-audience",
+          "alt": "Audience selector with the group list open",
+          "caption": "Real interface with fictional data. Open Add audiences to review the available groups. The current selection and estimated reach appear in the same panel.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-audience-en-desktop.png",
+            "/images/journeys/back-in-stock-pounce/bis-audience-en-mobile.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        },
+        {
+          "id": "bis-discounts",
+          "alt": "Combined discount strategy with a ten percent limit",
+          "caption": "Real interface with fictional data. The example combined strategy has a 10% limit selected. The settings button opens store promotions.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-discounts-en-desktop.png",
+            "/images/journeys/back-in-stock-pounce/bis-discounts-en-mobile.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        },
+        {
+          "id": "bis-store-promotions",
+          "alt": "Store promotions panel with statuses and dates",
+          "caption": "Real interface with fictional data. Review each promotion’s status, days, and dates. The playbook toggle is separate from the promotion’s store status.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-store-promotions-en-desktop.png",
+            "/images/journeys/back-in-stock-pounce/bis-store-promotions-en-mobile.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        },
+        {
+          "id": "bis-tone",
+          "alt": "Message tone options",
+          "caption": "Real interface with fictional data. Select up to three tones to guide the message. The mobile view shows all six options.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-tone-en-desktop.png",
+            "/images/journeys/back-in-stock-pounce/bis-tone-en-mobile.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        },
+        {
+          "id": "bis-whatsapp-1",
+          "alt": "Native WhatsApp preview in Playground",
+          "caption": "Real interface with fictional data. In Playground, review the product, text, and View product action. The dots let you browse the variants; this preview does not confirm a send.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-whatsapp-1-en-desktop.png",
+            "/images/journeys/back-in-stock-pounce/bis-whatsapp-1-en-mobile.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        },
+        {
+          "id": "bis-contact-activity",
+          "alt": "Recorded product activity in the profile",
+          "caption": "Real interface with fictional data. The activity shows interest and restock for the same product with relative dates. These events do not establish that a message was sent.",
+          "images": [
+            "/images/journeys/back-in-stock-pounce/bis-contact-activity-en-desktop.png",
+            "/images/journeys/back-in-stock-pounce/bis-contact-activity-en-mobile.png"
+          ],
+          "immediately_after_planned_instruction": true,
+          "noninteractive_static_markup": true
+        }
+      ],
+      "source_pngs_used": 13,
+      "native_example": {
+        "include": "_includes/editorial/en/custom-f7a216b444d71195.html",
+        "include_sha256": "787821873ca98381d8f5ea77ec6d6d9e9f156381791d1754f4b45fb7f5d57745",
+        "payload": "docs/editorial-work/captures/back-in-stock-completion-20261026/recipient-example.en.json",
+        "payload_sha256": "37265c0c1b5ba01dd1411117075145fbd560d5a4f481e06d33ba1af9c2d0aa41",
+        "early_placement": true,
+        "previous_export_bytes_preserved": true
+      },
+      "EN_prefigure_article_sha256": "63ee8280e2a611432078a394c0887f9847a99369d80ea0d77588b4dd97c352a5",
+      "ES_previously_reviewed_article_byte_identical": false
+    }
+  ],
+  "source_manifest": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/source-manifest.json",
+    "sha256": "9d0a578aae7e07dc6264333b2fc3989efc05ad5f0a6a6fb41eb2eeb44330dc6a"
+  },
+  "source_admission": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/source-admission.json",
+    "sha256": "a6525a6c5c2ad59394768333ae6083e3d24786ad1b0d7fde867dc91efb9350b0"
+  },
+  "source_pixel_reviews": [
+    {
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/source-pixels-es.json",
+      "sha256": "2bf3f1ea5e68ac0c82a93d8577e4ac037f94d99bae07dbab033c9510c569c890"
+    },
+    {
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/source-pixels-en.json",
+      "sha256": "825f69f768d24c1d0d69fc7199c44cf8f2bee015575cc5bddf47337fea5bdd01"
+    }
+  ],
+  "prior_copy_reviews": [
+    {
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/copy-independent-review.json",
+      "sha256": "b2d73f845ab252e16a7b67edc444b030c9e137de36fceac359096c187b0b520b"
+    },
+    {
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/integrated-copy-review.json",
+      "sha256": "b26cf7fc832cdc048655776d062fffc1f4ce805a09ba4c5575962e51a92f7d73"
+    }
+  ],
+  "instruction_addendum": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/figure-instruction-copy-addendum.json",
+    "sha256": "7b40afd7191ef0e18c72a06143b85221f2bf83bd6153d1b5b401e103cc559c9d"
+  },
+  "assessment": [
+    "Overview captions identify the four configuration cards only. The native All incoming channels badge is not used as proof of outgoing filtering, channel connection, availability, or delivery.",
+    "Audience prose names the observed Add audiences / Agrega audiencias control and captions describe the open list and current estimate without claiming saved changes.",
+    "The selected combined discount limit is 10% in the admitted EN/ES sources. Promotions copy distinguishes the playbook toggle from store status and describes schedules without claiming that this view changes provider state.",
+    "Tone copy states the native limit of three selected options; the admitted mobile sources show all six choices.",
+    "The early exported WhatsApp example is explicitly fictional and unsent. Playground captions name the product action and sample dots; they do not claim that a preview was sent or stock reserved.",
+    "Recorded interest and restock activity is distinguished from a send. The rejected EN desktop activity capture is absent from the manifest; the admitted native recapture supports the unchanged caption.",
+    "All seven EN figure descriptions match the prepared translation and their admitted source-review observations. Existing narrative capabilities and exported example bytes retain their previous review lineage."
+  ],
+  "EN_source_review_basis": [
+    {
+      "path": "audit/bis-en-resume-20261027/bis-en-source-pixels-pass1.json",
+      "sha256": "e9e85bdb74fdff8cf59ed89676983ac8804fc91be1886b58dcc63a04c8c64eea"
+    },
+    {
+      "path": "audit/bis-en-resume-20261027/bis-en-source-pixels-pass2.json",
+      "sha256": "be8fe5565d42f072087de0cc700c87b8154be2459fb4e958412528ed44c81e06"
+    },
+    {
+      "path": "audit/bis-en-resume-20261027/bis-en-source-pixels-pass3.json",
+      "sha256": "b677162ec4bd116fabbbe0987d1622da2673607a10d6dc5aed2ed33bcd80b7d6"
+    },
+    {
+      "path": "audit/bis-en-resume-20261027/bis-en-source-pixels-pass4.json",
+      "sha256": "624b93cee6099504b00c14def081f327731813518adf21756c8fe2d562bb8379"
+    },
+    {
+      "path": "audit/bis-en-resume-20261027/bis-en-source-pixels-pass5.json",
+      "sha256": "aff56511f9338278e89e445287137c1076b086254baf863a7450e4eff721480a"
+    },
+    {
+      "path": "audit/bis-en-resume-20261027/bis-en-source-pixels-pass6.json",
+      "sha256": "467dfc25e5d6cb3496b34de9b85e72d90465a4b1574303eb4f92d105d3cb4793"
+    },
+    {
+      "path": "audit/bis-en-resume-20261027/bis-en-source-pixels-pass8.json",
+      "sha256": "243acfd59b04b98cece4efdd30a29ee908aa1f6ca3175a15d1e285af9ac58293"
+    }
+  ],
+  "not_performed": [
+    "source pixel review repeated",
+    "article edits",
+    "new app source capability audit",
+    "build/security execution",
+    "browser or page capture",
+    "publication"
+  ],
+  "pending": [
+    "Complete rendered Help review at1440,580,390 in both locales",
+    "Build/HTTP/runtime closure and immutable candidate gates owned by parent/root"
+  ]
+}

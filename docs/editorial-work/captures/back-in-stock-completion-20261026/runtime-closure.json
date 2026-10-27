@@ -1,0 +1,75 @@
+{
+  "status": "BIS_runtime_closed_verified",
+  "at": "2026-10-27T03:16:13.872752+00:00",
+  "database": "hellotext_help_bis_current_20261026",
+  "database_preserved": true,
+  "app_source_unchanged": true,
+  "fixture_phases_completed": 5,
+  "fixture_new_rows": 59,
+  "original_retained_jobs": 2,
+  "fixture_new_jobs_retained": 7,
+  "retained_jobs": 9,
+  "workers": 0,
+  "performed_jobs": 0,
+  "failed_jobs": 0,
+  "playbook_disabled": true,
+  "actor_locale": "en",
+  "contacts_and_consent_preserved": true,
+  "source_and_private_credentials_not_changed": true,
+  "since_EN_fixture": {
+    "rows_changed": 0,
+    "sequences_changed": 0,
+    "schema_changed": 0,
+    "queues_changed": 0
+  },
+  "tables": 610,
+  "sequences": 602,
+  "migrations": 2066,
+  "native_cache_changes_documented": true,
+  "final_capture_delta": {
+    "path": "audit/bis-en-resume-20261027/final-capture-delta.json",
+    "sha256": "3ec7d0f6097334895991da1226aa12cefe967c3bf8e6afc4db0eb6b09aa4f968"
+  },
+  "final_snapshot": {
+    "path": "audit/help-resume-20261026/bis-runtime/private/runtime/final-readback.json",
+    "sha256": "ef06850567dd8c79ed4a8a659a57a08f48ab52b1abd31f7cc096024619c3d58e"
+  },
+  "final_result": {
+    "path": "audit/help-resume-20261026/bis-runtime/private/runtime/final-readback-result.json",
+    "sha256": "9288caa1efda77282d85eba535cf97048bf2b1a97ce1685790529900f5565207"
+  },
+  "final_readback_history": {
+    "path": "audit/bis-en-resume-20261027/final-readback-history.json",
+    "sha256": "275c443e8f70238a8c16e5a72f0131e42073862f307bb3f5257582937b4db58f"
+  },
+  "final_readback_after_last_capture": true,
+  "final_RDB": {
+    "path": "audit/help-resume-20261026/bis-runtime/private/runtime/redis/dump.rdb",
+    "sha256": "045146af469b1ec8894a6b9ea708ddf91ba9dfd9ff64edc70b0bc944e25ecae6",
+    "bytes": 2357596
+  },
+  "initial_RDB_preserved": {
+    "path": "audit/help-resume-20261026/bis-runtime/private/runtime/redis/initial-before-final-save.rdb",
+    "sha256": "bc3caa6731b5a3570abcf34ad4f13ab66b1c46a4739cbfcd5274cb07c506915c"
+  },
+  "source_campaign_RDB_unchanged": true,
+  "storage": {
+    "root": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/help-resume-20261026/bis-runtime/private/runtime/storage",
+    "files": 1,
+    "own_image_sha256": "f585e4c8487e13636bed5f1c396ec216b2dfeb2cf4b806ad908edce535b49643",
+    "preserved": true
+  },
+  "services_closed": {
+    "path": "audit/bis-en-resume-20261027/capture-services-closed.json",
+    "sha256": "221908911635e76240290318922a8b199356d94dcaad048fabba0386c4cacbfe"
+  },
+  "capture_closure": {
+    "path": "audit/bis-en-resume-20261027/capture-closure.json",
+    "sha256": "f47d98f6b914d5f30f675744a538f4de855b1686387e7c95b364e8d5934ed084"
+  },
+  "limits": [
+    "Current native cache changed during allowed UI GETs; these are not business-row or queue changes.",
+    "Final snapshot/result before recapture were preserved byte-for-byte in the historical subdirectory. A second read with the identical frozen runner confirmed stopped-service state after the accepted replacement PNG; both snapshots happen to have identical bytes.",
+    "No final Help page rendering or public publication is claimed by runtime/capture closure."
+  ]
+}

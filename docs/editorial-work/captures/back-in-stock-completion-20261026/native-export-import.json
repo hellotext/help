@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-10-26T22:19:28.914299+00:00",
+  "status": "native_examples_imported_without_editing_generated_bytes",
+  "app_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "imports": [
+    {
+      "locale": "es",
+      "source_receipt": "audit/help-resume-20261026/fixture/export-back-in-stock-es-result.json",
+      "source_receipt_sha256": "59125ddf13337ef66449734e808dfb62665b178855f172f63452aee1f91431b4",
+      "source_bundle_files_verified": 47,
+      "payload_sha256": "0b41188be0792019be3d7909aacd4dd5d8679b5a20d7a9546d8388f78c800d4e",
+      "native_include": "_includes/editorial/es/custom-1d37399b8498476e.html",
+      "native_include_sha256": "bf4b2fc36e001bd37379d5bf0df268818d06ab3df28cc9bf73d5c6084e507f96",
+      "catalog_custom_id": "custom-1d37399b8498476e",
+      "generated_catalog_block_sha256": "050bcbc34000859629ebe4bb3281d8eed2d026eec8c5168eb2bea2f483548d1f",
+      "previous_catalog_entries_preserved": 14,
+      "native_include_and_data_entry_unchanged": true,
+      "article_sha256": "5609b2407dd6753f271ccbe8b2c976f6f381171048feaa14b06cfeaedeaa4f51"
+    },
+    {
+      "locale": "en",
+      "source_receipt": "audit/help-resume-20261026/fixture/export-back-in-stock-en-result.json",
+      "source_receipt_sha256": "e7cc8773b4a7e6aae0d69122207bcc556b45b8835e9c5bac4a388f8eb2b097c7",
+      "source_bundle_files_verified": 47,
+      "payload_sha256": "37265c0c1b5ba01dd1411117075145fbd560d5a4f481e06d33ba1af9c2d0aa41",
+      "native_include": "_includes/editorial/en/custom-f7a216b444d71195.html",
+      "native_include_sha256": "787821873ca98381d8f5ea77ec6d6d9e9f156381791d1754f4b45fb7f5d57745",
+      "catalog_custom_id": "custom-f7a216b444d71195",
+      "generated_catalog_block_sha256": "d820073dd83ef25ff9ef3b12443c680451207812f6816cabbf3f9da165fe9e4d",
+      "previous_catalog_entries_preserved": 14,
+      "native_include_and_data_entry_unchanged": true,
+      "article_sha256": "ac27e4c976a686453d46ef6951df9ad4e12f2c24fdbcc7eb86b5fdfb65f1b8c7"
+    }
+  ],
+  "shared_javascript": [
+    {
+      "path": "assets/editorial/editorial_visuals.js",
+      "matches_native_export": true,
+      "sha256": "cea90dc15466e55016ac00bb5420b966022270a95f93380a7485a0982bb6a07d"
+    },
+    {
+      "path": "assets/editorial/editorial_tabs.js",
+      "matches_native_export": true,
+      "sha256": "39e1533fa19b21d927b5172e41156317a3bca29a3366348d36870147e53b2287"
+    }
+  ],
+  "css": {
+    "action": "Preserved existing Help stylesheet byte for byte. Imported no CSS.",
+    "help_sha256": "8266a7e11c516f7b747668f8fa5757124db4f94a5312cb975faae931b38fc860",
+    "native_sha256": "e3bc8094f38d9e37899420b61947dd5ce7694506954a671ed5065a8fb0b9afbc",
+    "review": "Full diff is limited to screenshot link/frame/expand rules, tables, Action Text attachment wrapper and table caption selector; message/phone/image-message/action styling is unchanged. Preserve static screenshot behavior of existing Help figures.",
+    "diff_evidence": "audit/help-resume-20261026/next-pairs/native-vs-help-editorial-css.patch"
+  },
+  "no_fonts_preview_or_other_examples_imported": true,
+  "native_export_owner": "resume_fixture_audit_20261026 under root authorization",
+  "new_fixture_executed": false,
+  "browser_review_pending": true
+}

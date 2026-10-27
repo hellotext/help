@@ -1,0 +1,276 @@
+{
+  "status": "passed_source_pending_help_render",
+  "reviewer": "/root/resume_capture_audit_20261026",
+  "created_at": "2026-10-27T00:02:09.182637+00:00",
+  "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "records": [
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-audience-es-desktop.png",
+      "sha256": "50720f715b957f867b9b282fcba5278ada0703dff23f565ed633b9b31d96b4c8",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-audience-es-desktop.json",
+        "sha256": "408b17079d2a8bca9f603104937b51916e47c983c3d90c30346c4f22d0837dee"
+      },
+      "id": "bis-audience",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        48,
+        121,
+        656,
+        913
+      ],
+      "pixelSize": [
+        2624,
+        3652
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "crc_valid": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": [
+        "Original PNG individually viewed. Complete audience heading, explanatory text, all-audience chip, add-audience input, open dropdown frame and TARGET ESTIMADO / 133 suscriptores are visible.",
+        "The last partially visible list row belongs to the native scrolling dropdown, whose outer frame is complete; it is not clipped by the screenshot boundary. Fictitious list names contain inherited English and Spanish names, distinct from translated Spanish UI labels.",
+        "The visible estimate is not evidence of delivery or an actual send. Dropdown highlight does not supersede the visible all-audience chip.",
+        "Native source width is 656 CSS pixels. Do not upscale beyond that width; final Help readability and responsive selection remain pending actual rendered-page review.",
+        "Sidecar records unchanged before/after state, both playbook enabled values false, native density 4 and no transformations. PNG dimensions, all chunk CRCs, actual SHA256 and embedded Display P3 profile independently verified."
+      ]
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-audience-es-mobile.png",
+      "sha256": "6f0089a7f386941cb1fd190dddd38e509697a6b1670494bd30d67cfed6d1e7c5",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-audience-es-mobile.json",
+        "sha256": "29f6861e26f21cbba6e1173e0b37da62d15caaa00ba72c9b61460f200fad94e7"
+      },
+      "id": "bis-audience",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        8,
+        117,
+        422,
+        967
+      ],
+      "pixelSize": [
+        1688,
+        3868
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "crc_valid": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": [
+        "Original PNG individually viewed. Complete audience heading, explanatory text, all-audience chip, add-audience input, open dropdown frame and TARGET ESTIMADO / 133 suscriptores are visible.",
+        "The last partially visible list row belongs to the native scrolling dropdown, whose outer frame is complete; it is not clipped by the screenshot boundary. Fictitious list names contain inherited English and Spanish names, distinct from translated Spanish UI labels.",
+        "The visible estimate is not evidence of delivery or an actual send. Dropdown highlight does not supersede the visible all-audience chip.",
+        "Native source width is 422 CSS pixels. Do not upscale beyond that width; final Help readability and responsive selection remain pending actual rendered-page review.",
+        "Sidecar records unchanged before/after state, both playbook enabled values false, native density 4 and no transformations. PNG dimensions, all chunk CRCs, actual SHA256 and embedded Display P3 profile independently verified."
+      ]
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-discounts-es-desktop.png",
+      "sha256": "c3004e15220253bb4aa1826866ac98478d507507db413953bd22c96f20e01857",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-discounts-es-desktop.json",
+        "sha256": "28ef31ce9ac4fb2a868e1dfabc9cfee991cb005a6c4acb88b7c2999fdbebbdec"
+      },
+      "id": "bis-discounts",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        48,
+        121,
+        656,
+        526
+      ],
+      "pixelSize": [
+        2624,
+        2104
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "crc_valid": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": [
+        "Original PNG individually viewed. Complete Define tu estrategia de oferta heading and description, combined strategy card, recommended badge and selected check mark.",
+        "All four rate controls 5%, 10%, 15%, 20% and the promotions gear are complete; 10% is selected. Mobile controls wrap natively without truncation.",
+        "The crop intentionally shows the selected combined strategy only, not every available strategy. Rounded card boundaries and native white margins are intact.",
+        "Native source width is 656 CSS pixels. Do not upscale beyond that width; final Help readability and responsive selection remain pending actual rendered-page review.",
+        "Sidecar records unchanged before/after state, both playbook enabled values false, native density 4 and no transformations. PNG dimensions, all chunk CRCs, actual SHA256 and embedded Display P3 profile independently verified."
+      ]
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-discounts-es-mobile.png",
+      "sha256": "68f7d7a17b2b7eb59f5763c726baa112aac898692d8d6483f09901e6e0caa831",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-discounts-es-mobile.json",
+        "sha256": "9361521c4e773e8297f165871aefeffa3eac262da4f4b252fa26c0edac35cc2f"
+      },
+      "id": "bis-discounts",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        0,
+        117,
+        430,
+        658
+      ],
+      "pixelSize": [
+        1720,
+        2632
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "crc_valid": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": [
+        "Original PNG individually viewed. Complete Define tu estrategia de oferta heading and description, combined strategy card, recommended badge and selected check mark.",
+        "All four rate controls 5%, 10%, 15%, 20% and the promotions gear are complete; 10% is selected. Mobile controls wrap natively without truncation.",
+        "The crop intentionally shows the selected combined strategy only, not every available strategy. Rounded card boundaries and native white margins are intact.",
+        "Native source width is 430 CSS pixels. Do not upscale beyond that width; final Help readability and responsive selection remain pending actual rendered-page review.",
+        "Sidecar records unchanged before/after state, both playbook enabled values false, native density 4 and no transformations. PNG dimensions, all chunk CRCs, actual SHA256 and embedded Display P3 profile independently verified."
+      ]
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-store-promotions-es-desktop.png",
+      "sha256": "eb3fd454d4220f808520a075ebca4f171e13fc2ec42745ce9af161a49ea2006a",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-store-promotions-es-desktop.json",
+        "sha256": "8f76cc27f5ee6ea6935bed6df6e7860172c41256e44303592fbe471c3c844481"
+      },
+      "id": "bis-store-promotions",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        16,
+        113,
+        572,
+        921
+      ],
+      "pixelSize": [
+        2288,
+        3684
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "crc_valid": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": [
+        "Original PNG individually viewed. Complete Promociones de la tienda heading, close button, store-hours explanation, search field and filter icon; all four prepared fictitious promotion rows are complete.",
+        "Regalo con tu compra and Conjunto de bienvenida are store-enabled with their mission toggles on. 3 por 2 en accesorios is store-disabled and off. Descuento de temporada is store-enabled with its mission toggle off. Preserve the distinction between store status and mission selection.",
+        "Every row includes complete day and date information, from 1 October 09:00 through 30 November 20:00; Friday is visible on the disabled 3-for-2 row. Mobile date wrapping remains complete, including the final 20:00.",
+        "These are fixture rows displayed by the real UI; the screenshot does not prove an external import was run during capture.",
+        "Native source width is 572 CSS pixels. Do not upscale beyond that width; final Help readability and responsive selection remain pending actual rendered-page review.",
+        "Sidecar records unchanged before/after state, both playbook enabled values false, native density 4 and no transformations. PNG dimensions, all chunk CRCs, actual SHA256 and embedded Display P3 profile independently verified."
+      ]
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-store-promotions-es-mobile.png",
+      "sha256": "0b05d1e5e7374ce700edd2f495d80b67e55da2b2130655fdef51db5c6c64f396",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-store-promotions-es-mobile.json",
+        "sha256": "9af1428bc79a1054d6c3868aee46ec1d017bf6cef8f38170a295a75f659d95da"
+      },
+      "id": "bis-store-promotions",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        8,
+        125,
+        414,
+        1027
+      ],
+      "pixelSize": [
+        1656,
+        4108
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "crc_valid": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": [
+        "Original PNG individually viewed. Complete Promociones de la tienda heading, close button, store-hours explanation, search field and filter icon; all four prepared fictitious promotion rows are complete.",
+        "Regalo con tu compra and Conjunto de bienvenida are store-enabled with their mission toggles on. 3 por 2 en accesorios is store-disabled and off. Descuento de temporada is store-enabled with its mission toggle off. Preserve the distinction between store status and mission selection.",
+        "Every row includes complete day and date information, from 1 October 09:00 through 30 November 20:00; Friday is visible on the disabled 3-for-2 row. Mobile date wrapping remains complete, including the final 20:00.",
+        "These are fixture rows displayed by the real UI; the screenshot does not prove an external import was run during capture.",
+        "Native source width is 414 CSS pixels. Do not upscale beyond that width; final Help readability and responsive selection remain pending actual rendered-page review.",
+        "Sidecar records unchanged before/after state, both playbook enabled values false, native density 4 and no transformations. PNG dimensions, all chunk CRCs, actual SHA256 and embedded Display P3 profile independently verified."
+      ]
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-tone-es-desktop.png",
+      "sha256": "28cc8f39df2d5940e9fb5a591e56dcc346d1404c25ad26708cb19d9f88059a89",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-tone-es-desktop.json",
+        "sha256": "14e67ba1ad3f6c3c6d66d08fa25b09034e4bd760e66c2153a588c2af449563bd"
+      },
+      "id": "bis-tone",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        48,
+        121,
+        736,
+        538
+      ],
+      "pixelSize": [
+        2944,
+        2152
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "crc_valid": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": [
+        "Original PNG individually viewed. All six native tone cards and labels are complete: Amigable, Juguetón, Exclusivo, Conversacional, Formal, Minimalista. No tone is visibly selected.",
+        "Card borders and icons are intact with native white margins; mobile uses one column and desktop two columns.",
+        "Desktop includes Tono heading, up-to-three instruction, Tono de la misión badge and reset control, all complete.",
+        "Native source width is 736 CSS pixels. Do not upscale beyond that width; final Help readability and responsive selection remain pending actual rendered-page review.",
+        "Sidecar records unchanged before/after state, both playbook enabled values false, native density 4 and no transformations. PNG dimensions, all chunk CRCs, actual SHA256 and embedded Display P3 profile independently verified."
+      ]
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-tone-es-mobile.png",
+      "sha256": "410f308d24b7ba156a1af422541c15c82026c3cefa80817d54b34dd295063001",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-tone-es-mobile.json",
+        "sha256": "d9c247508553dfeb621b035e11b948cae8ae6cfbfbc9ab259f271853e09b7ee6"
+      },
+      "id": "bis-tone",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        0,
+        307,
+        430,
+        720
+      ],
+      "pixelSize": [
+        1720,
+        2880
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "crc_valid": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": [
+        "Original PNG individually viewed. All six native tone cards and labels are complete: Amigable, Juguetón, Exclusivo, Conversacional, Formal, Minimalista. No tone is visibly selected.",
+        "Card borders and icons are intact with native white margins; mobile uses one column and desktop two columns.",
+        "Mobile intentionally frames six options only. The heading, up-to-three instruction and reset control are outside this native crop; use as a detail of available options, not evidence that those excluded controls are visible.",
+        "Native source width is 430 CSS pixels. Do not upscale beyond that width; final Help readability and responsive selection remain pending actual rendered-page review.",
+        "Sidecar records unchanged before/after state, both playbook enabled values false, native density 4 and no transformations. PNG dimensions, all chunk CRCs, actual SHA256 and embedded Display P3 profile independently verified."
+      ]
+    }
+  ],
+  "findings": [],
+  "scope": "Read-only individual visual source review. No browser navigation, UI action, DB mutation, image modification or external write."
+}
