@@ -1,8 +1,8 @@
 Use a campaign when you want to send a planned, one-time message to a selected audience. You choose the channels, audience, message, and delivery time; Hellotext determines which eligible customer profiles can actually be reached through those channels.
 
-This illustrative SMS from the fictional store Luma introduces a new collection and gives the customer a clear next step.
+This illustrative WhatsApp example from the fictional store Luma follows the campaign preview for the Club’s new arrivals. It does not represent a sent message.
 
-{% include editorial/en/custom-bcc29206ce14b1ed.html %}
+{% include editorial/en/custom-8c762f8c1e7828a2.html %}
 
 ## Before you start
 
@@ -29,16 +29,16 @@ Keep reading: [Who can I message?]({% link _audience/consent-and-subscriber-stat
 
 The creator shows these options, but selecting one does not by itself enable sending: the business needs access and a ready sender for the chosen channel. The **Estimated target** updates to show how many customer profiles may be reachable through the selected delivery option.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-campaign-figure="campaign-channels" aria-label="Choose the campaign channels">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-campaign-figure="campaign-channels" aria-label="Choose the campaign channel">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 700px); width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/campaigns/creating-a-campaign/campaign-channels-en-mobile.png 4x" width="1592" height="3416" />
-        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign/campaign-channels-en-desktop.png" srcset="/images/campaigns/creating-a-campaign/campaign-channels-en-desktop.png 4x" width="2728" height="3344" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Campaign delivery options with SMS selected and WhatsApp options unavailable." />
+        <source media="(max-width: 600px)" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-channels-en-mobile.png 4x" width="1592" height="3416" />
+        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign-whatsapp/campaign-channels-en-desktop.png" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-channels-en-desktop.png 4x" width="2728" height="3344" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Four campaign delivery options, with the WhatsApp only option enabled and selected." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Delivery options for a fictional campaign. SMS is selected and WhatsApp options retain their unavailable state.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. The “WhatsApp only” option is enabled and selected among the four delivery options.</figcaption>
 </figure>
 
 Select **Next** to continue. Give the campaign a clear internal name in the header so teammates can recognize it later in Draft, Scheduled, Delivered, and reporting views.
@@ -92,16 +92,16 @@ Keep reading: [Lists vs. segments]({% link _audience/lists-and-segments.md %}).
 
 Write one focused message with a clear next action. The editor shows a channel preview while you compose.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-campaign-figure="campaign-composer" aria-label="Compose the campaign message">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-campaign-figure="campaign-composer" aria-label="Compose the WhatsApp message">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 700px); width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/campaigns/creating-a-campaign/campaign-composer-en-mobile.png 4x" width="1592" height="1856" />
-        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign/campaign-composer-en-desktop.png" srcset="/images/campaigns/creating-a-campaign/campaign-composer-en-desktop.png 4x" width="2728" height="1600" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="SMS editor for a fictional campaign with the name tag, a tracked link and composition tools." />
+        <source media="(max-width: 600px)" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-composer-en-mobile.png 4x" width="1592" height="1988" />
+        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign-whatsapp/campaign-composer-en-desktop.png" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-composer-en-desktop.png 4x" width="2728" height="1604" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="WhatsApp editor with the name tag, a tracked link and composition tools." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Fictional SMS draft with personalization and a tracked link. On mobile, Preview opens the channel view.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. The WhatsApp draft includes personalization and a tracked link. On mobile, Preview opens the channel view.</figcaption>
 </figure>
 
 Available tools depend on the delivery option. A campaign can include:
@@ -123,13 +123,13 @@ Use the editor's link tool instead of pasting a long destination URL. Hellotext 
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-campaign-figure="campaign-tracked-link-tool" aria-label="Add a tracked link">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 534px); width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 530px); width: fit-content; margin: 0 auto;">
       <picture>
-        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign/campaign-tracked-link-tool-en-desktop.png" srcset="/images/campaigns/creating-a-campaign/campaign-tracked-link-tool-en-desktop.png 4x" width="2064" height="1288" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Create a shortlink tool with the URL field and Add short link and Cancel controls." />
+        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign-whatsapp/campaign-tracked-link-tool-en-desktop.png" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-tracked-link-tool-en-desktop.png 4x" width="2048" height="1276" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Create a shortlink tool with the URL field, Add short link and Cancel controls, and the WhatsApp editor toolbar." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">URL form for creating a tracked short link.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. URL form for creating a tracked short link in the WhatsApp editor.</figcaption>
 </figure>
 
 In **Create a shortlink**, paste the destination URL and select **Add short link**.
@@ -144,13 +144,13 @@ Tags insert customer profile properties into the delivered message. Use a fallba
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-campaign-figure="campaign-personalization-tool" aria-label="Choose a personalization tag">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 534px); width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 566px); width: fit-content; margin: 0 auto;">
       <picture>
-        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign/campaign-personalization-tool-en-desktop.png" srcset="/images/campaigns/creating-a-campaign/campaign-personalization-tool-en-desktop.png 4x" width="2064" height="1376" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Tags menu with properties such as name, full_name and email, plus a fictional custom property." />
+        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign-whatsapp/campaign-personalization-tool-en-desktop.png" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-personalization-tool-en-desktop.png 4x" width="2192" height="1364" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="WhatsApp editor Tags menu with properties such as name, full_name and email, plus a fictional custom property." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Tags menu with standard properties and a fictional custom property.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. WhatsApp Tags menu with standard properties and a fictional custom property.</figcaption>
 </figure>
 
 Open **Tags** with the braces button and select the property you want to insert, such as `name`.
@@ -165,14 +165,14 @@ Use the coupon tool to reference a coupon already available in Hellotext. This k
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-campaign-figure="campaign-coupon-picker" aria-label="Choose an available coupon">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 434px); width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 558px); width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/campaigns/creating-a-campaign/campaign-coupon-picker-en-mobile.png 4x" width="1656" height="1020" />
-        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign/campaign-coupon-picker-en-desktop.png" srcset="/images/campaigns/creating-a-campaign/campaign-coupon-picker-en-desktop.png 4x" width="1664" height="1032" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Coupon tool with the fictional GUIA-QR-10 coupon available and no coupon selected." />
+        <source media="(max-width: 600px)" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-en-mobile.png 4x" width="1656" height="1004" />
+        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-en-desktop.png" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-en-desktop.png 4x" width="2160" height="1020" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="WhatsApp editor Coupon tool with the fictional GUIA-QR-10 coupon available and no coupon selected." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Coupon selector with fictional data. GUIA-QR-10 is available and no coupon has been selected.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. GUIA-QR-10 is available in the WhatsApp editor and no coupon has been selected.</figcaption>
 </figure>
 
 Confirm that the coupon rules, expiration, and eligible products match the selected audience before sending.
@@ -188,20 +188,33 @@ Use the preview to check the message in every selected channel. Review:
 - WhatsApp attachments, buttons, footer, or location.
 - SMS length and the message-part estimate shown by the editor.
 
-Send a test to the appropriate destination before continuing: a number you control for SMS or WhatsApp, or your own address for an Email-only campaign. An SMS test can be delivered directly. A WhatsApp test with new template content can remain scheduled until Meta approves that template.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-campaign-figure="campaign-test-destination" aria-label="Choose the SMS test destination">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-campaign-figure="campaign-message-preview" aria-label="Review the WhatsApp preview">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 450px); width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 448px); width: fit-content; margin: 0 auto;">
       <picture>
-        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign/campaign-test-destination-en-desktop.png" srcset="/images/campaigns/creating-a-campaign/campaign-test-destination-en-desktop.png 4x" width="1728" height="1092" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Send message to this number form with a country selector, empty phone field and disabled send control." />
+        <source media="(max-width: 600px)" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-en-mobile.png 4x" width="1720" height="3864" />
+        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-en-desktop.png" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-en-desktop.png 4x" width="1536" height="3632" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Native WhatsApp preview with Sofía’s name, the Club’s new arrivals, a tracked link and the Unsubscribe control." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">SMS test form with an empty phone field and disabled send control.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. The WhatsApp preview shows the content and the Unsubscribe control; it does not demonstrate sending or delivery.</figcaption>
 </figure>
 
-For an SMS test, in **Send message to this number**, choose the country and enter a number you control.
+Send a test to the appropriate destination before continuing: a number you control for SMS or WhatsApp, or your own address for an Email-only campaign. An SMS test can be delivered directly. A WhatsApp test with new template content can remain scheduled until Meta approves that template.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-campaign-figure="campaign-test-destination" aria-label="Choose the WhatsApp test destination">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 666px); width: 100%; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-en-mobile.png 4x" width="1728" height="1092" />
+        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-en-desktop.png" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-en-desktop.png 4x" width="1728" height="1092" style="width: 100%; margin: 0 auto;" loading="lazy" decoding="async" alt="Send message to this number form with a country selector, empty phone field, disabled send control and the Send me a test message trigger." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. WhatsApp test form with an empty phone field and disabled send control.</figcaption>
+</figure>
+
+For a WhatsApp test, open **Send me a test message**. In **Send message to this number**, choose the country and enter a number you control.
 
 A test lets you review the message at the chosen number or address. It does not prove that every customer profile in the final audience is eligible.
 
@@ -261,16 +274,16 @@ Wait for the targeted customer count to finish updating: confirmation applies th
 
 The confirmation screen is the last opportunity to catch a wrong audience or message before the campaign enters approval and delivery.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-campaign-figure="campaign-confirmation" aria-label="Review the campaign before sending">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-campaign-figure="campaign-confirmation" aria-label="Review the WhatsApp campaign before sending">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: min(100%, 700px); width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/campaigns/creating-a-campaign/campaign-confirmation-en-mobile.png 4x" width="1592" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign/campaign-confirmation-en-desktop.png" srcset="/images/campaigns/creating-a-campaign/campaign-confirmation-en-desktop.png 4x" width="2728" height="3648" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Draft confirmation with two targeted customers, Club included, QA excluded, SMS selected, November 2 at 12:00 and no specific reply assignment." />
+        <source media="(max-width: 600px)" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-en-mobile.png 4x" width="1592" height="4000" />
+        <img class="ht-editorial-visual__image" src="/images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-en-desktop.png" srcset="/images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-en-desktop.png 4x" width="2728" height="3648" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Draft confirmation with two targeted customers, Club included, QA excluded, WhatsApp only, November 2 at 12:00 and no specific reply assignment." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Review of a fictional campaign before sending: two eligible customers and the selected date.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. Review before sending: two eligible customers, WhatsApp only and the selected date.</figcaption>
 </figure>
 
 ## Understand campaign review

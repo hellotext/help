@@ -1,0 +1,57 @@
+{
+  "schema": "campaign-whatsapp-bilingual-source-selection-gate-v1",
+  "status": "pass_for_source_selection",
+  "reviewer": "/root/campaign_wa_pixels",
+  "reviewed_at": "2026-10-27T01:44:55.381572+00:00",
+  "new_sources_count": 28,
+  "retained_historical_sources_count": 14,
+  "total_selected_sources": 42,
+  "locale_counts": {
+    "es": {
+      "new": 14,
+      "retained": 7,
+      "total": 21
+    },
+    "en": {
+      "new": 14,
+      "retained": 7,
+      "total": 21
+    }
+  },
+  "source_review_bindings": [
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pixels-es.json",
+      "sha256": "72a2b7fe1db97b60a5a9f148b9615706b0d7984c4113feb043e55a00d504bbc0",
+      "records": 14
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pixels-en.json",
+      "sha256": "265b1aacc601d376287fefb75e29845c50926a489fef84f88effa4eff487b164",
+      "records": 14
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/retained-pixels.json",
+      "sha256": "b8d854cab1d400652a99fab831fe53963be09c0c1b090298f8a5898e7e9e6d3a",
+      "records": 14
+    }
+  ],
+  "manifest": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/source-manifest.json",
+    "sha256": "358eaf360c47f35208c3cdd99b23db2c5ee1ef5eb9f5cce3c835024c7e1931ed"
+  },
+  "retained_register": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retained-source-register.json",
+    "sha256": "4cc5d789066043c076b29406bac0e8e4b0014c97a458a80680d79649e427172d"
+  },
+  "review_scope": "Every selected PNG individually viewed:28 current captures by campaign_wa_pixels and14 historical retained sources by retained_es_pixels. Historical dates and provenance remain original. Binding does not repeat or simulate visual inspection.",
+  "resolved_findings": [
+    "ES coupon-mobile partial sender fixed using new native430CSS capture; rejected450CSS version excluded.",
+    "Historical list-population/order and calendar-date limitations are explicit, without full current pixel/data parity claims."
+  ],
+  "remaining": [
+    "Help six-view rendered-page review including scoped test-dialog enlargement; this reviewer owns only1440ES/EN.",
+    "Build, links, integration and authorized publication checks."
+  ],
+  "runtime_mutations_by_reviewers": 0,
+  "publication_approval": false
+}

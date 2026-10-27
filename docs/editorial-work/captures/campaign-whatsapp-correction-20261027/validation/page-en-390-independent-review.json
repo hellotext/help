@@ -1,0 +1,1492 @@
+{
+  "status": "passed",
+  "findings": [],
+  "reviewer": "/root/campaign_help_mobile_review",
+  "reviewed_at": "2026-10-27T02:18:55.278855+00:00",
+  "locale": "en",
+  "width": 390,
+  "packet": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/en-390.json",
+    "sha256": "9ba47d784d791db32a92b620f6c34443136b5e5e8b31735c2f7c2f578cf75adb"
+  },
+  "checkpoint_sha256": "e770d7793c427409cce801f0e64f822dbe7f809e57d89e8d57b5f356df3497f1",
+  "source_manifest_sha256": "358eaf360c47f35208c3cdd99b23db2c5ee1ef5eb9f5cce3c835024c7e1931ed",
+  "source": {
+    "path": "_i18n/en/campaigns/creating-a-campaign.md",
+    "sha256": "0169daac79dc25b5364287d9f48835519617c050c4d638855a206e763e3cf49a"
+  },
+  "built_html": {
+    "path": "_site/creating-a-campaign.html",
+    "sha256": "04c2326a9efae59e1afb792a902ba3fddbf2222fbb681b50fd4059ba7f794293"
+  },
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 16,
+    "individually_viewed": true,
+    "coverage_css": [
+      0,
+      17645
+    ],
+    "document_height_css": 17645,
+    "observations": [
+      "Viewed all 16 overlapping viewport segments from header through footer, continuously covering 0-17645 CSS.",
+      "English prose, headings, lists and contextual/related links wrap inside the 358 CSS article column without visible overlap or horizontal overflow. Header and footer are complete.",
+      "Early fictional Luma WhatsApp example is complete across segments 1-2, readable and explicitly introduced as unsent; message, time and Unsubscribe align with the native preview.",
+      "Twelve lavender stages align with the article column; stage padding is 18/14 CSS and white-frame padding 5 CSS. No visible image-opening affordance or broken image.",
+      "WhatsApp selection, compose, preview, test and confirmation form a coherent English flow. Fictional user-authored list, property and team names remain intact where Spanish; native interface labels are English."
+    ]
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 12,
+    "individually_viewed": true,
+    "observations": [
+      {
+        "id": "campaign-channels",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-channels-en-mobile.png",
+        "native_width_css": 398.0,
+        "scale_from_native": 0.7939502198492462,
+        "effective_source_density": 5.038099240982026,
+        "source_sha256": "da4e4448ed520a0412fa45eb340e5b042fc7e9c5346ef0dcfadb7042788109cd",
+        "observation": "Four delivery choices remain fully visible and readable. WhatsApp only is enabled and selected; descriptions, icons and card edges are complete.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "campaign-audience",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign/campaign-audience-en-mobile.png",
+        "native_width_css": 398.0,
+        "scale_from_native": 0.7939502198492462,
+        "effective_source_density": 5.038099240982026,
+        "source_sha256": "92feaa5a9a2deb9acb83f2eca68a22188cb07003d2503a3cada83be18c4afd84",
+        "observation": "Club included, QA excluded, open selector and 2 subscribers are readable. The final partial menu row is the native internal scroll boundary. Fictional list names may retain user-authored Spanish text; English interface labels are consistent.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "campaign-audience-limit",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign/campaign-audience-limit-en-desktop.png",
+        "native_width_css": 609.0,
+        "scale_from_native": 0.5188705870279147,
+        "effective_source_density": 7.7090513511508885,
+        "source_sha256": "b10da63ab8dc9137e5d9952ef1b97ff0a3d5f87e1f83fb378856f7d0f4ce7f30",
+        "observation": "Complete Audience limit options dialog shows both radio options, value 2, Limit and Cancel. Fine text remains sharp and readable with the adjacent explanatory prose.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "campaign-composer",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-composer-en-mobile.png",
+        "native_width_css": 398.0,
+        "scale_from_native": 0.7939502198492462,
+        "effective_source_density": 5.038099240982026,
+        "source_sha256": "fface0c38b00dae21edbf1807c48a5a5d864b892fbc84b8ba0fe2941c90bd085",
+        "observation": "WhatsApp composer shows the English Club message, name token, tracked link, footer placeholder, complete native toolbar and Preview. No SMS counter or clipped control.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "campaign-tracked-link-tool",
+        "rendered_width_css": 316,
+        "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-tracked-link-tool-en-desktop.png",
+        "native_width_css": 512.0,
+        "scale_from_native": 0.6171875,
+        "effective_source_density": 6.481012658227848,
+        "source_sha256": "959d0c9081d00693458570318ea735bdb9a920bf040ab4ea206add3e7438a990",
+        "observation": "Create a shortlink popover shows its complete URL field, More information, Add short link and Cancel; toolbar and fictional sender are intact.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "campaign-personalization-tool",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-personalization-tool-en-desktop.png",
+        "native_width_css": 548.0,
+        "scale_from_native": 0.5766280793795621,
+        "effective_source_density": 6.936880361955152,
+        "source_sha256": "6fe683d0d50ae932759e5e9cc137b850827957ef0aa231a332963523c1c5e6b5",
+        "observation": "Tags popover keeps all visible property chips including name, full_name and email, plus the fictional custom property Nivel de fidelidad. Small labels are sharp; edges and toolbar are complete.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "campaign-coupon-picker",
+        "rendered_width_css": 315.984375,
+        "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-en-mobile.png",
+        "native_width_css": 414.0,
+        "scale_from_native": 0.7632472826086957,
+        "effective_source_density": 5.240765465064531,
+        "source_sha256": "3752e21dd5cd209bffa351b19a1759ad3136b2ef76d2a66a730dd9ad4408c6f5",
+        "observation": "Coupons popover shows GUIA-QR-10 and None selected; dropdown arrow and toolbar remain complete with no truncated sender fragment.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "campaign-message-preview",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-en-mobile.png",
+        "native_width_css": 430.0,
+        "scale_from_native": 0.7348655523255814,
+        "effective_source_density": 5.443172546789626,
+        "source_sha256": "51889ee7679b4649c86abb197f15b2bbc50bc3c05a9f1f7d08e2186c1a106b19",
+        "observation": "Native mobile WhatsApp preview shows the full phone, channel chip, close control, Sofia message, tracked link, Unsubscribe and Send me a test message. Full message and controls fit without stretching or truncation.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "campaign-test-destination",
+        "rendered_width_css": 316,
+        "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-en-mobile.png",
+        "native_width_css": 432.0,
+        "scale_from_native": 0.7314814814814815,
+        "effective_source_density": 5.468354430379747,
+        "source_sha256": "0e2305d54e5673dbf37b9820d432e4c73e73baa8b5c2bcdb5bfe7984df5759a4",
+        "observation": "Test dialog is legible at 316 CSS px: full Send message to this number title, Uruguay selector, empty phone placeholder, disabled Send Message, Cancel and complete test trigger. No blurred enlargement or clipped edges. This viewport remains column-limited; no mobile width increase is claimed.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "campaign-delivery-date",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign/campaign-delivery-date-en-mobile.png",
+        "native_width_css": 398.0,
+        "scale_from_native": 0.7939502198492462,
+        "effective_source_density": 5.038099240982026,
+        "source_sha256": "d0c9572caecc0ff559293c0d3c7659494d2cfff74421401bb985fb97c6999a5f",
+        "observation": "Send now and selected Send later cards are complete; date 02 Nov 2026, time 12:00 and dropdown arrows are readable. Native mobile text wrapping fits within the card.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "campaign-reply-settings",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign/campaign-reply-settings-en-mobile.png",
+        "native_width_css": 398.0,
+        "scale_from_native": 0.7939502198492462,
+        "effective_source_density": 5.038099240982026,
+        "source_sha256": "f7561d7e01bb8e69b405d482035feb8b552bdf1d528a644abea033b0e55be2f6",
+        "observation": "Configure replies shows No specific assignment, the person selector and open Teams submenu. Fictional Atencion demo and Ventas demo team names remain fully visible; native overlap of person rows is intentional.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "campaign-confirmation",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-en-mobile.png",
+        "native_width_css": 398.0,
+        "scale_from_native": 0.7939502198492462,
+        "effective_source_density": 5.038099240982026,
+        "source_sha256": "a7dda045f2a310c6079f07a706367f50cc5c91e641cd18fc006f855308a3ca3c",
+        "observation": "Confirmation is coherent with the flow: 2 customers targeted, Club included, QA excluded, WhatsApp only, November 2 at 12:00 and No specific assignment. All visible cards and descriptions are complete.",
+        "alt_and_caption_match_visible_state": true
+      }
+    ]
+  },
+  "records": [
+    {
+      "file": "campaign-en-390-full-part1.png",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "2dd0732258a7247b66ccc3dfa06ceb2c7e7445f5579951453f0329a7ec1a181a",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 0,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part2.png",
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          1100
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "0ba2d09dff133d37720ab5cf62e2db6c6281c2da7fae62c030035370cfee4988",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part3.png",
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          2200
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "3c5a88ae778f133400f5e1c4b4e849d07b035ffa39c6a271ab1b5e2788bea7a5",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part4.png",
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          3300
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "7edfb6435f0555eefe91cb2be9c084589b150e3a3e75560cadda09e1346d1d1d",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part5.png",
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          4400
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "43513645b55ddb386ac2de8be2adce5511ec92e86c3cb756deb5008758a83fe2",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part6.png",
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          5500
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "6d1184acd51a82b4c2b834dac7160b885b8430be7167a2fe15d29d9c3048bb48",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part7.png",
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          6600
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "29391f4037cb2767398221eb6f2eb0e5eff46645b0e2aacb420e9bac01a03540",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part8.png",
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          7700
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "7b780da597f6adeb2759c8afb2ad1a83d42ce9f959897c135ce177ae4f4a1fd3",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part9.png",
+      "clip": {
+        "x": 0,
+        "y": 8800,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          8800
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "1836e7b276b47cf11ffa21eabf3199eb64a879f7a6d8e9d88589bd094dc17ff2",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part10.png",
+      "clip": {
+        "x": 0,
+        "y": 9900,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          9900
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "4c7c0f6b5036f0e246ff193bc40053faa8a77cb38203cf5e35983d278cc11983",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part11.png",
+      "clip": {
+        "x": 0,
+        "y": 11000,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          11000
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "84f53f18c45eed09627b5eab2df1f24bbca8498caa4fb2ea0ffeacc13454f472",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part12.png",
+      "clip": {
+        "x": 0,
+        "y": 12100,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          12100
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "6f106b2ad71c4c1c950a3a54e374c91db8bdcea788bfa254603d83c8644fae88",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part13.png",
+      "clip": {
+        "x": 0,
+        "y": 13200,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          13200
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "8727955257d9e5562874e2dc4e09c8e5051c9dba3f4065c6a65a2be219930f4f",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part14.png",
+      "clip": {
+        "x": 0,
+        "y": 14300,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          14300
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "bf2d2732a23d14713b89fc0e01ccc30229a2dc6e0848ccaa272100aca2609765",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part15.png",
+      "clip": {
+        "x": 0,
+        "y": 15400,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          15400
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "bb2908d1f635e4f3fd5a698a0ae9c9e7dfc25aa78315a6f08830fc4c193d431a",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-full-part16.png",
+      "clip": {
+        "x": 0,
+        "y": 16445,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          16445
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "0a3ed3d6c503c6de338b68631f67d57e690a7ff86ecf6660f86f50fa6346f4e6",
+      "complete_page_segment": true,
+      "documentHeight": 17645,
+      "overlap_css": 155,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-campaign-channels.png",
+      "clip": {
+        "x": 4,
+        "y": 2666,
+        "width": 382,
+        "height": 753
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          2442.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        1506
+      ],
+      "icc": "Display P3",
+      "sha256": "6ef0b125994b93ad6d2edb1002a68b3b1e7048d212fb3f70752d913604ac20b1",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-campaign-audience.png",
+      "clip": {
+        "x": 4,
+        "y": 4214,
+        "width": 382,
+        "height": 940
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          4084
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        1880
+      ],
+      "icc": "Display P3",
+      "sha256": "9fbf21f9f21c515f7460bd3547f174c35277ea3e6460aaf5dc16bacef6bfc4d8",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-campaign-audience-limit.png",
+      "clip": {
+        "x": 4,
+        "y": 5529,
+        "width": 382,
+        "height": 278
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          5068
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        556
+      ],
+      "icc": "Display P3",
+      "sha256": "eedd293ef8e37cc85954bd544e18ef6df0c506e86d0abe3d28b3bcdf68987ae3",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-campaign-composer.png",
+      "clip": {
+        "x": 4,
+        "y": 6194,
+        "width": 382,
+        "height": 470
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          5829
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        940
+      ],
+      "icc": "Display P3",
+      "sha256": "ddd553de6dd53891c65983d90d5bf6c0cc4f77d8e679dab78f4a43856035151b",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-campaign-tracked-link-tool.png",
+      "clip": {
+        "x": 4,
+        "y": 7419,
+        "width": 382,
+        "height": 272
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          6954.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        544
+      ],
+      "icc": "Display P3",
+      "sha256": "7743a1fab5108c4d215c5951e237a129815bc14159c34daf6246e8dcbce90d91",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-campaign-personalization-tool.png",
+      "clip": {
+        "x": 4,
+        "y": 8142,
+        "width": 382,
+        "height": 271
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          7677.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        542
+      ],
+      "icc": "Display P3",
+      "sha256": "d88c7f796ce95709c499b73801413ac4c302291795f5aaa46b9e452b391ba675",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-campaign-coupon-picker.png",
+      "clip": {
+        "x": 4,
+        "y": 8852,
+        "width": 382,
+        "height": 267
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          8385.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        534
+      ],
+      "icc": "Display P3",
+      "sha256": "be11b86962c1722ef73bcb925b5e6664997567b9b8dd187567aa952e0496d996",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-campaign-message-preview.png",
+      "clip": {
+        "x": 4,
+        "y": 9686,
+        "width": 382,
+        "height": 785
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          9478.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        1570
+      ],
+      "icc": "Display P3",
+      "sha256": "e91576fa49de775555772b5060ab0ab3fabc12e7d84e92d8a07341397f0103bc",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-campaign-test-destination.png",
+      "clip": {
+        "x": 4,
+        "y": 10686,
+        "width": 382,
+        "height": 274
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          10223
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        548
+      ],
+      "icc": "Display P3",
+      "sha256": "edfbb33aa3a079b6030fce7e85a8aea3094645131216b10ca2d06b584a4dc942",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-campaign-delivery-date.png",
+      "clip": {
+        "x": 4,
+        "y": 11631,
+        "width": 382,
+        "height": 663
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          11362.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        1326
+      ],
+      "icc": "Display P3",
+      "sha256": "c420ba024b106acb7f3b3e46ec8a929df43451771d43a18c44d5b24126b61dfd",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-campaign-reply-settings.png",
+      "clip": {
+        "x": 4,
+        "y": 13033,
+        "width": 382,
+        "height": 681
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          12773.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        1362
+      ],
+      "icc": "Display P3",
+      "sha256": "b19d2816fea81f3736b6b35536e6aac60e45d5a211a6d4bd4ffe8ce5c1094dc4",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "campaign-en-390-campaign-confirmation.png",
+      "clip": {
+        "x": 4,
+        "y": 14105,
+        "width": 382,
+        "height": 869
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+        "title": "Create a campaign | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          13939
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        1738
+      ],
+      "icc": "Display P3",
+      "sha256": "38acd7332918c922097a5fdb829ac861713ab2d36ae386d7a1790e5fbd9d0652",
+      "individually_viewed": true,
+      "status": "passed"
+    }
+  ],
+  "integrity_checks": [
+    {
+      "file": "campaign-en-390-full-part1.png",
+      "sha256": "2dd0732258a7247b66ccc3dfa06ceb2c7e7445f5579951453f0329a7ec1a181a",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part2.png",
+      "sha256": "0ba2d09dff133d37720ab5cf62e2db6c6281c2da7fae62c030035370cfee4988",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part3.png",
+      "sha256": "3c5a88ae778f133400f5e1c4b4e849d07b035ffa39c6a271ab1b5e2788bea7a5",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part4.png",
+      "sha256": "7edfb6435f0555eefe91cb2be9c084589b150e3a3e75560cadda09e1346d1d1d",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part5.png",
+      "sha256": "43513645b55ddb386ac2de8be2adce5511ec92e86c3cb756deb5008758a83fe2",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part6.png",
+      "sha256": "6d1184acd51a82b4c2b834dac7160b885b8430be7167a2fe15d29d9c3048bb48",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part7.png",
+      "sha256": "29391f4037cb2767398221eb6f2eb0e5eff46645b0e2aacb420e9bac01a03540",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part8.png",
+      "sha256": "7b780da597f6adeb2759c8afb2ad1a83d42ce9f959897c135ce177ae4f4a1fd3",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part9.png",
+      "sha256": "1836e7b276b47cf11ffa21eabf3199eb64a879f7a6d8e9d88589bd094dc17ff2",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part10.png",
+      "sha256": "4c7c0f6b5036f0e246ff193bc40053faa8a77cb38203cf5e35983d278cc11983",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part11.png",
+      "sha256": "84f53f18c45eed09627b5eab2df1f24bbca8498caa4fb2ea0ffeacc13454f472",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part12.png",
+      "sha256": "6f106b2ad71c4c1c950a3a54e374c91db8bdcea788bfa254603d83c8644fae88",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part13.png",
+      "sha256": "8727955257d9e5562874e2dc4e09c8e5051c9dba3f4065c6a65a2be219930f4f",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part14.png",
+      "sha256": "bf2d2732a23d14713b89fc0e01ccc30229a2dc6e0848ccaa272100aca2609765",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part15.png",
+      "sha256": "bb2908d1f635e4f3fd5a698a0ae9c9e7dfc25aa78315a6f08830fc4c193d431a",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-full-part16.png",
+      "sha256": "0a3ed3d6c503c6de338b68631f67d57e690a7ff86ecf6660f86f50fa6346f4e6",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-campaign-channels.png",
+      "sha256": "6ef0b125994b93ad6d2edb1002a68b3b1e7048d212fb3f70752d913604ac20b1",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-campaign-audience.png",
+      "sha256": "9fbf21f9f21c515f7460bd3547f174c35277ea3e6460aaf5dc16bacef6bfc4d8",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-campaign-audience-limit.png",
+      "sha256": "eedd293ef8e37cc85954bd544e18ef6df0c506e86d0abe3d28b3bcdf68987ae3",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-campaign-composer.png",
+      "sha256": "ddd553de6dd53891c65983d90d5bf6c0cc4f77d8e679dab78f4a43856035151b",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-campaign-tracked-link-tool.png",
+      "sha256": "7743a1fab5108c4d215c5951e237a129815bc14159c34daf6246e8dcbce90d91",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-campaign-personalization-tool.png",
+      "sha256": "d88c7f796ce95709c499b73801413ac4c302291795f5aaa46b9e452b391ba675",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-campaign-coupon-picker.png",
+      "sha256": "be11b86962c1722ef73bcb925b5e6664997567b9b8dd187567aa952e0496d996",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-campaign-message-preview.png",
+      "sha256": "e91576fa49de775555772b5060ab0ab3fabc12e7d84e92d8a07341397f0103bc",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-campaign-test-destination.png",
+      "sha256": "edfbb33aa3a079b6030fce7e85a8aea3094645131216b10ca2d06b584a4dc942",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-campaign-delivery-date.png",
+      "sha256": "c420ba024b106acb7f3b3e46ec8a929df43451771d43a18c44d5b24126b61dfd",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-campaign-reply-settings.png",
+      "sha256": "b19d2816fea81f3736b6b35536e6aac60e45d5a211a6d4bd4ffe8ce5c1094dc4",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "file": "campaign-en-390-campaign-confirmation.png",
+      "sha256": "38acd7332918c922097a5fdb829ac861713ab2d36ae386d7a1790e5fbd9d0652",
+      "png_crc": "passed",
+      "embedded_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    }
+  ],
+  "viewer_note": "Each of 28 actual PNGs was individually inspected via view_image at original resolution: 16 full-page segments and 12 details. CSS geometry informed mobile layout assessment. Artifacts were not resized or edited. Receipt covers only EN at 390 CSS px; ES has a separate completed receipt. No other widths, real sends or publication are attested here.",
+  "runtime_or_browser_mutations_by_reviewer": 0
+}

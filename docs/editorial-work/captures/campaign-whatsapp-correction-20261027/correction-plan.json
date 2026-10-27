@@ -1,0 +1,184 @@
+{
+  "status": "native_examples_and_all42_selected_sources_integrated; final_Help_QA_pending",
+  "created_at": "2026-10-27T00:19:40.293690+00:00",
+  "base": "7eaa9c049c7f4dc939184b1d739a72f7ff9aa47a",
+  "app_source": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "editorial_pin": "d0ee357e45d2d14ae605081fc8fe20763b1bb4ba",
+  "scope": "Only the published Campaign ES/EN guides, their current screenshots and early native message examples. BIS remains paused.",
+  "figures": [
+    {
+      "id": "campaign-channels",
+      "decision": "replace",
+      "requirement": "Select genuine WhatsApp-only with an actual ready isolated sender; no disabled-SMS exception.",
+      "locales": [
+        "es",
+        "en"
+      ]
+    },
+    {
+      "id": "campaign-audience",
+      "decision": "recapture_if_channel_changes_visible_state",
+      "requirement": "Confirm exact WhatsApp reachability, included/excluded groups and loaded count in the new runtime.",
+      "locales": [
+        "es",
+        "en"
+      ]
+    },
+    {
+      "id": "campaign-audience-limit",
+      "decision": "recapture_if_count_or_state_changes",
+      "requirement": "Limit must be coherent with current eligible WhatsApp count and confirmation.",
+      "locales": [
+        "es",
+        "en"
+      ]
+    },
+    {
+      "id": "campaign-composer",
+      "decision": "replace",
+      "requirement": "Show actual WhatsApp editor, meaningful content and supported tools; no SMS editor label or segment counter masquerading as WhatsApp.",
+      "locales": [
+        "es",
+        "en"
+      ]
+    },
+    {
+      "id": "campaign-message-preview",
+      "decision": "add_current_native_preview",
+      "requirement": "Show the complete WhatsApp recipient view alongside its native preview context; useful distinct figure near preview instruction.",
+      "locales": [
+        "es",
+        "en"
+      ]
+    },
+    {
+      "id": "campaign-tracked-link-tool",
+      "decision": "revalidate_before_retention",
+      "requirement": "Retain only if the generic complete control and any background remain semantically accurate for the new example.",
+      "locales": [
+        "es",
+        "en"
+      ]
+    },
+    {
+      "id": "campaign-personalization-tool",
+      "decision": "revalidate_before_retention",
+      "requirement": "Retain only if property choices and any visible editor background remain accurate.",
+      "locales": [
+        "es",
+        "en"
+      ]
+    },
+    {
+      "id": "campaign-coupon-picker",
+      "decision": "revalidate_before_retention",
+      "requirement": "Retain only if source control and fictional coupon state remain applicable without a contradictory SMS background.",
+      "locales": [
+        "es",
+        "en"
+      ]
+    },
+    {
+      "id": "campaign-test-destination",
+      "decision": "replace_and_resize_scoped",
+      "requirement": "Native WhatsApp test form, empty destination and disabled send; original trigger when useful; max1.5 logical only here.",
+      "locales": [
+        "es",
+        "en"
+      ]
+    },
+    {
+      "id": "campaign-delivery-date",
+      "decision": "revalidate_before_retention",
+      "requirement": "Date/time must remain consistent with the new WhatsApp draft confirmation.",
+      "locales": [
+        "es",
+        "en"
+      ]
+    },
+    {
+      "id": "campaign-reply-settings",
+      "decision": "revalidate_before_retention",
+      "requirement": "Reply routing is channel-independent, but visible summary/background must stay coherent.",
+      "locales": [
+        "es",
+        "en"
+      ]
+    },
+    {
+      "id": "campaign-confirmation",
+      "decision": "replace",
+      "requirement": "Show WhatsApp sender/channel, exact eligible count/limit, date and reply setting; actual template/cost state only, no invented Meta approval.",
+      "locales": [
+        "es",
+        "en"
+      ]
+    }
+  ],
+  "source_asset_policy": "Keep all36 published source files and their old evidence unchanged. New captures use a separate correction image directory. Retained sources require explicit pixel/copy applicability review; no historical source relabelled as newly captured.",
+  "new_asset_directory": "images/campaigns/creating-a-campaign-whatsapp",
+  "early_message": {
+    "decision": "Replace the early SMS include with one supported native WhatsApp example per locale, still immediately after the introduction.",
+    "format_candidate": "Native WhatsApp messages/buttons with the unchanged first-business text and useful URL, plus the single inert unsubscribe action synthesized by the native preview: Detener ES or Unsubscribe EN.",
+    "status": "Final version2 native preview-action examples imported byte-exact",
+    "old_generated_includes_and_catalog_entries": "All previously published generated examples and fifteen catalog entries per locale preserved. Unpublished version1 includes/catalog blocks preserved only in external audit.",
+    "imports": {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/native-example-import-v2.json",
+      "sha256": "4ec3fa6cb5bd7a4716d6a0fe04f8dcf230ea65899f49c39bb5131490d469b0ee"
+    }
+  },
+  "copy_changes": {
+    "es": [
+      {
+        "location": "intro",
+        "from": "Este SMS ilustrativo de la tienda ficticia Luma presenta una nueva colección y una acción clara para el cliente.",
+        "candidate": "Este ejemplo ilustrativo de WhatsApp de la tienda ficticia Luma se basa en la vista previa de la campaña para presentar las novedades del Club. No representa un mensaje enviado."
+      },
+      {
+        "location": "compose",
+        "candidate": "En el ejemplo de WhatsApp, revisa el contenido, la personalización y la acción antes de continuar.",
+        "condition": "Match actual rendered content and controls; use observed labels only."
+      },
+      {
+        "location": "test",
+        "from": "Para una prueba SMS, en **Enviar mensaje a este número**, elige el país e ingresa un número que controles.",
+        "candidate": "Para una prueba de WhatsApp, abre **Envíame un mensaje de prueba**. En **Enviar mensaje a este número**, elige el país e ingresa un número que controles.",
+        "condition": "Verify actual WhatsApp trigger and dialog labels first."
+      }
+    ],
+    "en": [
+      {
+        "location": "intro",
+        "from": "This illustrative SMS from the fictional store Luma introduces a new collection and gives the customer a clear next step.",
+        "candidate": "This illustrative WhatsApp example from the fictional store Luma follows the campaign preview for the Club’s new arrivals. It does not represent a sent message."
+      },
+      {
+        "location": "compose",
+        "candidate": "In the WhatsApp example, review the content, personalization and action before continuing.",
+        "condition": "Match actual rendered content and controls; use observed labels only."
+      },
+      {
+        "location": "test",
+        "from": "For an SMS test, in **Send message to this number**, choose the country and enter a number you control.",
+        "candidate": "For a WhatsApp test, open **Send me a test message**. In **Send message to this number**, choose the country and enter a number you control.",
+        "condition": "Verify actual WhatsApp trigger and dialog labels first."
+      }
+    ]
+  },
+  "preserve": [
+    "Existing route/slugs, titles, headings and ordered links",
+    "General SMS/email/fallback guidance remains valid and is not removed merely because example channel changes",
+    "Current source-backed audience/reply/approval explanations unless new evidence requires a specific correction"
+  ],
+  "checks": [
+    "Native exporter with exact generated bytes",
+    "PNG/ICC/native state/provenance admission",
+    "Production build/security headers",
+    "Both full guides1440/580/390 with exact-source geometry and independent pixels",
+    "Static frames and inert example actions",
+    "Commit/bindings/offline verification",
+    "Root-coordinated preview/publication and exact public-byte verification"
+  ],
+  "pending_pair_count": 32,
+  "publication": false
+}

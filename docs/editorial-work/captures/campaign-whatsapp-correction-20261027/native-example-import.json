@@ -1,0 +1,60 @@
+{
+  "status": "native_WhatsApp_examples_imported_byte_exact; screenshots_and_final_Help_QA_pending",
+  "recorded_at": "2026-10-27T00:53:52.338853+00:00",
+  "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "source_result": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/native-export-result.json",
+    "sha256": "a568977930354c739e425e2e2bb29a92e3b6a82203a15ffdf5926df13b9367a7"
+  },
+  "imports": [
+    {
+      "locale": "es",
+      "payload_sha256": "8e769859dc570a58fdca9365535da34c1efd077803ae6410ef497da546c60b62",
+      "native_include": "_includes/editorial/es/custom-b61000d43e039cfc.html",
+      "native_include_sha256": "36044d08ff1247e09558c578ba08891ead3bb61b62898ca8eaab532c155f129f",
+      "native_visual_id": "custom-b61000d43e039cfc",
+      "source_bundle_files_verified": 47,
+      "source_receipt_sha256": "1dbbb288418582a8eb4210bc7a4947fee3e2642d09d91d7cd10b38e4c4831918",
+      "generated_catalog_block_sha256": "906076eec9cfe29f3b14f9c8c696550b6dfaf187f7baac3a23065c79c07952dd",
+      "prior_catalog_sha256": "678881ed43cd8e89a3515e06440724f15681b7cd6119321d80edbe35380e5395",
+      "prior_catalog_entries_preserved": 15,
+      "after_catalog_sha256": "f124024bad7cce44b11b2a63d297f8731216c551c12ce7a7e51ffde77311ab78",
+      "before_article_sha256": "1cd152ee59a45f65e56198c3b8cb3f4ef4d636b07029b641c21953e043aa2533",
+      "after_article_sha256": "83fe5f12ecf0b1f7dc02379715b4b4f9469f3424f60a6d8d47c9e2a198abe565",
+      "native_parser_binding": "passed_actual_native_export",
+      "article_headings_and_links_preserved": true
+    },
+    {
+      "locale": "en",
+      "payload_sha256": "848d2b44d4a0ff9ffc01e52c20a56c52e126cab3923a234789182584ecfdff9b",
+      "native_include": "_includes/editorial/en/custom-6dcfa92eeb7d42e4.html",
+      "native_include_sha256": "e20f49464e981a8620b9f07a9f3ed9a0e34fa99295a484affcf8be4b7ae6121b",
+      "native_visual_id": "custom-6dcfa92eeb7d42e4",
+      "source_bundle_files_verified": 47,
+      "source_receipt_sha256": "d7fd12eb5b6db91ad1383e4f630f7f0b5655982567d3875816345be14662b2ce",
+      "generated_catalog_block_sha256": "22aa71391ea32cd5cbfcc50260bfbe004ed1f4af6e152594186498662d2bc82f",
+      "prior_catalog_sha256": "0d8d9d951f859acdd2425d83e198138dbeb2f21634436ef4de5324abc22e997e",
+      "prior_catalog_entries_preserved": 15,
+      "after_catalog_sha256": "3d1023ac7dbf4ea9ee60f5e87cf10c2cf760bafd3bae3844e0921c472d2b219b",
+      "before_article_sha256": "71ae481d476c799e2a5c1ccff2475744e3c83a6ab66817e43d9222a4bc14042f",
+      "after_article_sha256": "9e50eec16dd017fee6f4d36ef4de3dafb7aa466e5472a507ccc4dcd4deb8282a",
+      "native_parser_binding": "passed_actual_native_export",
+      "article_headings_and_links_preserved": true
+    }
+  ],
+  "generated_markup_edits": 0,
+  "shared_CSS_JS_changes": 0,
+  "css": {
+    "help_sha256": "8266a7e11c516f7b747668f8fa5757124db4f94a5312cb975faae931b38fc860",
+    "native_sha256": "e3bc8094f38d9e37899420b61947dd5ce7694506954a671ed5065a8fb0b9afbc",
+    "decision": "Do not import global CSS: same previously reviewed difference replaces static screenshot frames with image links/expand controls and changes table/attachment wrappers; WhatsApp message/phone rules match. Actual final six-view layout still required.",
+    "prior_same_bytes_review": {
+      "path": "help-back-in-stock-completion-20261026/docs/editorial-work/captures/back-in-stock-completion-20261026/native-export-import.json",
+      "sha256": "29f29c35acb3c63379c3e1ae183e705031256b84260d913d326381fa52742d3f"
+    }
+  },
+  "old_SMS_includes_and_entries_preserved": true,
+  "initial_superseded_ES_not_imported": true,
+  "private_files_copied": false,
+  "files_imported": "Only2 native includes and their2 exact catalog blocks; no fonts, preview, common examples or shared modules."
+}

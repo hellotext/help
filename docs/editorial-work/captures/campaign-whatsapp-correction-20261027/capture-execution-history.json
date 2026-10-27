@@ -1,0 +1,47 @@
+{
+  "status": "completed_after_preserved_diagnostic_and_interruption",
+  "recorded_at": "2026-10-27T02:19:13.457684+00:00",
+  "checkpoint_sha256": "e770d7793c427409cce801f0e64f822dbe7f809e57d89e8d57b5f356df3497f1",
+  "final_capture_receipt_sha256": "e4e5038ebc039f4fa35d7b486f3273f0d6d1ac770ccd995dd7c6830844679355",
+  "completed_views": 6,
+  "final_pngs": 169,
+  "segments": 97,
+  "figure_details": 72,
+  "first_failure": {
+    "path": "audit/campaign-whatsapp-help-qa-20261027/failed-browser-attempt-before-focus-fix/capture-receipt.json",
+    "sha256": "b5f1fcc94de08c8ab8302ef0124457759bfa94d832aa6cc51e7cf47da8f5e0b7",
+    "pngs": 0,
+    "observed_issue": "Native smooth focus left scrollY1 before first segment. Native focus preventScroll option corrected it; coverage was not relaxed.",
+    "diagnostic": {
+      "path": "audit/campaign-whatsapp-help-qa-20261027/focus-scroll-diagnostic.json",
+      "sha256": "04d9567fde28845c5d713a0343edea38cd354756acdc64649cd572d4ac43b7c1"
+    },
+    "root_reviewed_delta_sha256": "075db9b24c73d150313ec8609bf4f42b539105f92cf4aff41f32182a1851aa2b"
+  },
+  "interruption": {
+    "receipt": {
+      "path": "audit/campaign-whatsapp-help-qa-20261027/interrupted-run-es580/capture-receipt-interrupted.json",
+      "sha256": "74528a3966712b605c3014c2da0387959c1396a272f37199600c863a4ee4259b"
+    },
+    "completed_es1440_pngs_retained_unchanged": 27,
+    "incomplete_es580_pngs_preserved_outside_candidate_not_admitted": 20,
+    "cause_not_claimed": "Helper and original service controller were absent; children remained alive. No final metadata existed for incomplete images.",
+    "root_reviewed_resume_delta_sha256": "d0dc303907a6dfcabc34d09515586c249f25e132024c73654e763800225f4d7b",
+    "final_resume_records": [
+      {
+        "at": "2026-10-27T02:01:38.981Z",
+        "previous_receipt_sha256": "74528a3966712b605c3014c2da0387959c1396a272f37199600c863a4ee4259b",
+        "completed_views": [
+          "es-1440"
+        ],
+        "completed_pngs": 27
+      }
+    ]
+  },
+  "final_helper": {
+    "path": "audit/campaign-whatsapp-help-qa-20261027/review-pages.mjs",
+    "sha256": "cb373adab666ae1e46a1110d607a1bd04e3df3b9141ad2d2a4a01fc5bb20f564"
+  },
+  "source_build_article_changes_during_capture": false,
+  "publication": false
+}

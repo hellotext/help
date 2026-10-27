@@ -1,0 +1,340 @@
+{
+  "status": "source_selection_pending",
+  "base": "7eaa9c049c7f4dc939184b1d739a72f7ff9aa47a",
+  "article_hashes": {
+    "es": "d90c8aa0055195ff15644a9197e0bdff9465926dd3b82a70822db6346d88e755",
+    "en": "0169daac79dc25b5364287d9f48835519617c050c4d638855a206e763e3cf49a"
+  },
+  "insertions": [
+    {
+      "id": "campaign-channels",
+      "locale": "es",
+      "native_id": "campaign-channels",
+      "replace_existing_sha256": "55467d81f44784929a287c99ff27986b00bdf405ac6317b79bf69ef0cff1dc6a",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-channels-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign-whatsapp/campaign-channels-es-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 682.0,
+        "mobile": 398.0
+      },
+      "alt": "Cuatro opciones de envío de campaña, con la opción «Solo WhatsApp» habilitada y seleccionada.",
+      "caption": "Interfaz real con datos ficticios. La opción «Solo WhatsApp» está habilitada y seleccionada entre las cuatro opciones de envío."
+    },
+    {
+      "id": "campaign-audience",
+      "locale": "es",
+      "native_id": "campaign-audience",
+      "replace_existing_sha256": "2482d555b869a675622a820c77a5ef8cd04c0d2b5e7d1540c81c663c5a508672",
+      "status": "historical_source_retained_with_current_applicability; final_page_QA_pending",
+      "current_applicability_sha256": "9bdc86584ee5a6d957432faf81cdbbc9e428366d0ecb6e11fa9794a6a95e2b8a"
+    },
+    {
+      "id": "campaign-audience-limit",
+      "locale": "es",
+      "native_id": "campaign-audience-limit",
+      "replace_existing_sha256": "7c3e59737878eb081fb99b47da3d58bf6ef0fcc44127c23bd1206df2ac6180a2",
+      "status": "historical_source_retained_with_current_applicability; final_page_QA_pending",
+      "current_applicability_sha256": "9bdc86584ee5a6d957432faf81cdbbc9e428366d0ecb6e11fa9794a6a95e2b8a"
+    },
+    {
+      "id": "campaign-composer",
+      "locale": "es",
+      "native_id": "campaign-composer",
+      "replace_existing_sha256": "5bec49cc8dc5f7cd5adcd8afdb32f2a669fdd16768201deb50065bf6607ad2b6",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-composer-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign-whatsapp/campaign-composer-es-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 682.0,
+        "mobile": 398.0
+      },
+      "alt": "Editor de WhatsApp con etiqueta de nombre, enlace con tracking, texto BAJA para salir y herramientas de composición.",
+      "caption": "Interfaz real con datos ficticios. El borrador de WhatsApp conserva la personalización y el enlace. En móvil, Vista previa abre la vista del canal."
+    },
+    {
+      "id": "campaign-tracked-link-tool",
+      "locale": "es",
+      "native_id": "campaign-tracked-link-tool",
+      "replace_existing_sha256": "279a46b10e8f671569fab09125b9b6b9734ab1572a7ccb98770ff2b508aa7788",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-tracked-link-tool-es-desktop.png"
+      },
+      "native_caps": {
+        "desktop": 512.0
+      },
+      "alt": "Herramienta Crear un enlace corto, con el campo de URL, los botones Agregar enlace corto y Cancelar y la barra del editor de WhatsApp.",
+      "caption": "Interfaz real con datos ficticios. Formulario de URL para crear un enlace corto con tracking en el editor de WhatsApp."
+    },
+    {
+      "id": "campaign-personalization-tool",
+      "locale": "es",
+      "native_id": "campaign-personalization-tool",
+      "replace_existing_sha256": "3b10318756c3b778828e10fa5505d614d9dc77c8fb146b6ac9db642c9e8fa172",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-personalization-tool-es-desktop.png"
+      },
+      "native_caps": {
+        "desktop": 548.0
+      },
+      "alt": "Menú Etiquetas del editor de WhatsApp con propiedades como name, full_name, email y una propiedad personalizada ficticia.",
+      "caption": "Interfaz real con datos ficticios. Menú de etiquetas de WhatsApp con propiedades estándar y una propiedad personalizada ficticia."
+    },
+    {
+      "id": "campaign-coupon-picker",
+      "locale": "es",
+      "native_id": "campaign-coupon-picker",
+      "replace_existing_sha256": "5e6c1bbfa4a207573807e09da1290da97d5d25b518c0e64e967ec55bd8a53e7a",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-es-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 540.0,
+        "mobile": 414.0
+      },
+      "alt": "Herramienta Cupones del editor de WhatsApp con el cupón ficticio GUIA-QR-10 disponible y Ninguno seleccionado.",
+      "caption": "Interfaz real con datos ficticios. GUIA-QR-10 está disponible en el editor de WhatsApp y todavía no se ha seleccionado."
+    },
+    {
+      "id": "campaign-test-destination",
+      "locale": "es",
+      "native_id": "campaign-test-destination",
+      "replace_existing_sha256": "f53e519fdd8a05c6a60017f96a9c2fa8a39a1e4a0c64066c8fe362b3e8c0dc42",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-es-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 432.0,
+        "mobile": 432.0
+      },
+      "alt": "Formulario Enviar mensaje a este número con selector de país, campo de teléfono vacío, envío deshabilitado y el botón Envíame un mensaje de prueba.",
+      "caption": "Interfaz real con datos ficticios. Formulario de prueba de WhatsApp con el campo de teléfono vacío y el botón de envío deshabilitado."
+    },
+    {
+      "id": "campaign-delivery-date",
+      "locale": "es",
+      "native_id": "campaign-delivery-date",
+      "replace_existing_sha256": "1f4b7548d3103120277751fadc0a8674242f33b022990894cacc01b557eb2ec4",
+      "status": "historical_source_retained_with_current_applicability; final_page_QA_pending",
+      "current_applicability_sha256": "9bdc86584ee5a6d957432faf81cdbbc9e428366d0ecb6e11fa9794a6a95e2b8a"
+    },
+    {
+      "id": "campaign-reply-settings",
+      "locale": "es",
+      "native_id": "campaign-reply-settings",
+      "replace_existing_sha256": "c6f8d4198f49c6af7dcf642c2e5a51f151125fd1760b9ad1035ab432418adeb8",
+      "status": "historical_source_retained_with_current_applicability; final_page_QA_pending",
+      "current_applicability_sha256": "9bdc86584ee5a6d957432faf81cdbbc9e428366d0ecb6e11fa9794a6a95e2b8a"
+    },
+    {
+      "id": "campaign-confirmation",
+      "locale": "es",
+      "native_id": "campaign-confirmation",
+      "replace_existing_sha256": "3252887c9fcbfbe946df8a48b40adc16028ad7073bd87afd0db01b88c4aba6f8",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-es-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 682.0,
+        "mobile": 398.0
+      },
+      "alt": "Confirmación del borrador con dos clientes segmentados, Club incluido, QA excluido, Solo WhatsApp, 2 de noviembre a las 12:00 y sin asignación específica.",
+      "caption": "Interfaz real con datos ficticios. Revisión previa al envío: dos clientes elegibles, Solo WhatsApp y la fecha seleccionada."
+    },
+    {
+      "id": "campaign-message-preview",
+      "locale": "es",
+      "native_id": "campaign-message-preview",
+      "current_anchor": "- La longitud del SMS y la estimación de partes que muestra el editor.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-es-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-es-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 384.0,
+        "mobile": 430.0
+      },
+      "alt": "Vista previa nativa de WhatsApp con el nombre Sofía, las novedades del Club, enlace, BAJA para salir y control Detener.",
+      "caption": "Interfaz real con datos ficticios. La vista previa de WhatsApp muestra el contenido y el control Detener; no acredita un envío ni una entrega."
+    },
+    {
+      "id": "campaign-channels",
+      "locale": "en",
+      "native_id": "campaign-channels",
+      "replace_existing_sha256": "74687dedeccb74ef64520a9145cd4c69d66ad1a320967b071fa7a42b3b45d659",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-channels-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign-whatsapp/campaign-channels-en-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 682.0,
+        "mobile": 398.0
+      },
+      "alt": "Four campaign delivery options, with the WhatsApp only option enabled and selected.",
+      "caption": "Real interface with fictional data. The “WhatsApp only” option is enabled and selected among the four delivery options."
+    },
+    {
+      "id": "campaign-audience",
+      "locale": "en",
+      "native_id": "campaign-audience",
+      "replace_existing_sha256": "69f0bae674b561d0e7ae17cdd261e04c1e6b506769333e1a6c52eaaf0682b44a",
+      "status": "historical_source_retained_with_current_applicability; final_page_QA_pending",
+      "current_applicability_sha256": "c0b26d3a618c76e8eb7aa346bf3e54559f1ce43cd8bcbfd90b446beaf85ceef9"
+    },
+    {
+      "id": "campaign-audience-limit",
+      "locale": "en",
+      "native_id": "campaign-audience-limit",
+      "replace_existing_sha256": "d7736dd1257b658644d7b0b58d14c97606aba54f91c3749d9d879cba1f783aef",
+      "status": "historical_source_retained_with_current_applicability; final_page_QA_pending",
+      "current_applicability_sha256": "c0b26d3a618c76e8eb7aa346bf3e54559f1ce43cd8bcbfd90b446beaf85ceef9"
+    },
+    {
+      "id": "campaign-composer",
+      "locale": "en",
+      "native_id": "campaign-composer",
+      "replace_existing_sha256": "f3e7ac6bb06f874fc1a980719f3c4576a68e5e5113cc366d05deebdef7555974",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-composer-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign-whatsapp/campaign-composer-en-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 682.0,
+        "mobile": 398.0
+      },
+      "alt": "WhatsApp editor with the name tag, a tracked link and composition tools.",
+      "caption": "Real interface with fictional data. The WhatsApp draft includes personalization and a tracked link. On mobile, Preview opens the channel view."
+    },
+    {
+      "id": "campaign-tracked-link-tool",
+      "locale": "en",
+      "native_id": "campaign-tracked-link-tool",
+      "replace_existing_sha256": "020e420eebd1cd5d1de47c941f20109d9daea7757c1bfa4399686c740357be88",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-tracked-link-tool-en-desktop.png"
+      },
+      "native_caps": {
+        "desktop": 512.0
+      },
+      "alt": "Create a shortlink tool with the URL field, Add short link and Cancel controls, and the WhatsApp editor toolbar.",
+      "caption": "Real interface with fictional data. URL form for creating a tracked short link in the WhatsApp editor."
+    },
+    {
+      "id": "campaign-personalization-tool",
+      "locale": "en",
+      "native_id": "campaign-personalization-tool",
+      "replace_existing_sha256": "2b25dd5317d65948a47215109dde13965a6a101731cb8f7835ff018f79c1d9b3",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-personalization-tool-en-desktop.png"
+      },
+      "native_caps": {
+        "desktop": 548.0
+      },
+      "alt": "WhatsApp editor Tags menu with properties such as name, full_name and email, plus a fictional custom property.",
+      "caption": "Real interface with fictional data. WhatsApp Tags menu with standard properties and a fictional custom property."
+    },
+    {
+      "id": "campaign-coupon-picker",
+      "locale": "en",
+      "native_id": "campaign-coupon-picker",
+      "replace_existing_sha256": "538acb537355000a3ee61cf3a2cc3769b35e13305a8375221e4f6362c53cc941",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-en-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 540.0,
+        "mobile": 414.0
+      },
+      "alt": "WhatsApp editor Coupon tool with the fictional GUIA-QR-10 coupon available and no coupon selected.",
+      "caption": "Real interface with fictional data. GUIA-QR-10 is available in the WhatsApp editor and no coupon has been selected."
+    },
+    {
+      "id": "campaign-test-destination",
+      "locale": "en",
+      "native_id": "campaign-test-destination",
+      "replace_existing_sha256": "d9bb7ae14df9944186814ba3e6e8d2f57c57df4219b4dd4794d686d58aca7534",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-en-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 432.0,
+        "mobile": 432.0
+      },
+      "alt": "Send message to this number form with a country selector, empty phone field, disabled send control and the Send me a test message trigger.",
+      "caption": "Real interface with fictional data. WhatsApp test form with an empty phone field and disabled send control."
+    },
+    {
+      "id": "campaign-delivery-date",
+      "locale": "en",
+      "native_id": "campaign-delivery-date",
+      "replace_existing_sha256": "1271dccefa0f45968b0d32c8f154a6051e0ed3f5da2d0e779667db6fde397954",
+      "status": "historical_source_retained_with_current_applicability; final_page_QA_pending",
+      "current_applicability_sha256": "c0b26d3a618c76e8eb7aa346bf3e54559f1ce43cd8bcbfd90b446beaf85ceef9"
+    },
+    {
+      "id": "campaign-reply-settings",
+      "locale": "en",
+      "native_id": "campaign-reply-settings",
+      "replace_existing_sha256": "33af65694e8fd039cf948f23baec035ae6f7af69ba791aa675a16a5bff368d57",
+      "status": "historical_source_retained_with_current_applicability; final_page_QA_pending",
+      "current_applicability_sha256": "c0b26d3a618c76e8eb7aa346bf3e54559f1ce43cd8bcbfd90b446beaf85ceef9"
+    },
+    {
+      "id": "campaign-confirmation",
+      "locale": "en",
+      "native_id": "campaign-confirmation",
+      "replace_existing_sha256": "de5758858b652342ddd6d0f221312ebb1af4e0528f6361e9920f12fd88a05d18",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-en-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 682.0,
+        "mobile": 398.0
+      },
+      "alt": "Draft confirmation with two targeted customers, Club included, QA excluded, WhatsApp only, November 2 at 12:00 and no specific reply assignment.",
+      "caption": "Real interface with fictional data. Review before sending: two eligible customers, WhatsApp only and the selected date."
+    },
+    {
+      "id": "campaign-message-preview",
+      "locale": "en",
+      "native_id": "campaign-message-preview",
+      "current_anchor": "- SMS length and the message-part estimate shown by the editor.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "source_mapping": {
+        "desktop": "images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-en-desktop.png",
+        "mobile": "images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-en-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 384.0,
+        "mobile": 430.0
+      },
+      "alt": "Native WhatsApp preview with Sofía’s name, the Club’s new arrivals, a tracked link and the Unsubscribe control.",
+      "caption": "Real interface with fictional data. The WhatsApp preview shows the content and the Unsubscribe control; it does not demonstrate sending or delivery."
+    }
+  ],
+  "coverage": "Twelve figure concepts per locale, pending exact source applicability. Existing originals are retained outside this register until a current source decision.",
+  "new_capture_directory": "images/campaigns/creating-a-campaign-whatsapp"
+}

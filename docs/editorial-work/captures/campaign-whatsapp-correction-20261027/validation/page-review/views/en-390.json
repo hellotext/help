@@ -1,0 +1,2626 @@
+{
+  "checkpoint_sha256": "e770d7793c427409cce801f0e64f822dbe7f809e57d89e8d57b5f356df3497f1",
+  "view": {
+    "source": "_i18n/en/campaigns/creating-a-campaign.md",
+    "source_sha256": "0169daac79dc25b5364287d9f48835519617c050c4d638855a206e763e3cf49a",
+    "built_html": "_site/creating-a-campaign.html",
+    "built_html_sha256": "04c2326a9efae59e1afb792a902ba3fddbf2222fbb681b50fd4059ba7f794293",
+    "geometry": {
+      "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+      "title": "Create a campaign | Hellotext",
+      "locale": "en",
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "documentWidth": 390,
+      "documentHeight": 17645,
+      "article": {
+        "x": 16,
+        "y": 449,
+        "width": 358,
+        "height": 16624.1875,
+        "right": 374,
+        "bottom": 17073.1875
+      },
+      "headings": [
+        "Before you startLink copied",
+        "1. Start the campaign and choose how it will be sentLink copied",
+        "2. Choose who will receive itLink copied",
+        "3. Compose the messageLink copied",
+        "Add tracked linksLink copied",
+        "Add personalization tagsLink copied",
+        "Add a couponLink copied",
+        "4. Preview and send a testLink copied",
+        "5. Choose when it will be sentLink copied",
+        "6. Review and confirmLink copied",
+        "Understand campaign reviewLink copied",
+        "After sendingLink copied",
+        "Preflight checklistLink copied",
+        "Related guidesLink copied"
+      ],
+      "message_examples": [
+        {
+          "id": "custom-8c762f8c1e7828a2",
+          "title": "A WhatsApp campaign introducing new arrivals",
+          "figure": {
+            "x": 16,
+            "y": 765,
+            "width": 358,
+            "height": 649.265625,
+            "right": 374,
+            "bottom": 1414.265625
+          },
+          "stage": {
+            "x": 16,
+            "y": 765,
+            "width": 358,
+            "height": 649.265625,
+            "right": 374,
+            "bottom": 1414.265625
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.7882 1 0.7843)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "caption": "Illustrative WhatsApp example from Luma, aligned with a campaign preview using fictitious data. The new-arrivals link and Unsubscribe are inert. It does not establish a send, Meta approval or delivery.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "panelChannels": [
+            "whatsapp"
+          ],
+          "businessMessages": [
+            "Hi Sofía, explore the Club’s new arrivals and choose your favorite: https://example.com/campaign-fixture."
+          ],
+          "messageTimes": [
+            "10:00"
+          ],
+          "businessName": "Luma",
+          "otherMessages": 0,
+          "actionLabels": [
+            {
+              "tag": "SPAN",
+              "text": "Unsubscribe",
+              "tabIndex": -1,
+              "role": null,
+              "href": null
+            }
+          ],
+          "actions": 0,
+          "beforeFirstHeading": true,
+          "scrollOverflow": false,
+          "inert_action_and_keyboard_container": {
+            "before": "http://127.0.0.1:3382/creating-a-campaign.html",
+            "after": "http://127.0.0.1:3382/creating-a-campaign.html",
+            "focused": true,
+            "tabIndex": 0
+          }
+        }
+      ],
+      "figures": [
+        {
+          "id": "campaign-channels",
+          "figure": {
+            "x": 16,
+            "y": 2678.265625,
+            "width": 358,
+            "height": 728.046875,
+            "right": 374,
+            "bottom": 3406.3125
+          },
+          "stage": {
+            "x": 16,
+            "y": 2678.265625,
+            "width": 358,
+            "height": 728.046875,
+            "right": 374,
+            "bottom": 3406.3125
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 2697.265625,
+            "width": 328,
+            "height": 690.046875,
+            "right": 359,
+            "bottom": 3387.3125
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 2703.265625,
+            "width": 315.9921875,
+            "height": 678.046875,
+            "right": 352.9921875,
+            "bottom": 3381.3125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-channels-en-mobile.png",
+          "naturalSize": [
+            398,
+            854
+          ],
+          "loaded": true,
+          "alt": "Four campaign delivery options, with the WhatsApp only option enabled and selected.",
+          "caption": "Real interface with fictional data. The “WhatsApp only” option is enabled and selected among the four delivery options.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-audience",
+          "figure": {
+            "x": 16,
+            "y": 4226.3125,
+            "width": 358,
+            "height": 915.421875,
+            "right": 374,
+            "bottom": 5141.734375
+          },
+          "stage": {
+            "x": 16,
+            "y": 4226.3125,
+            "width": 358,
+            "height": 915.421875,
+            "right": 374,
+            "bottom": 5141.734375
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 4245.3125,
+            "width": 328,
+            "height": 877.421875,
+            "right": 359,
+            "bottom": 5122.734375
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 4251.3125,
+            "width": 315.9921875,
+            "height": 865.421875,
+            "right": 352.9921875,
+            "bottom": 5116.734375
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign/campaign-audience-en-mobile.png",
+          "naturalSize": [
+            398,
+            1090
+          ],
+          "loaded": true,
+          "alt": "Open audience selector with Club included, QA excluded and an estimated reach of two eligible subscribers.",
+          "caption": "Audience selector with fictional data. Club is included, QA is excluded, and the open menu shows audience choices.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-audience-limit",
+          "figure": {
+            "x": 16,
+            "y": 5541.734375,
+            "width": 358,
+            "height": 252.8828125,
+            "right": 374,
+            "bottom": 5794.6171875
+          },
+          "stage": {
+            "x": 16,
+            "y": 5541.734375,
+            "width": 358,
+            "height": 252.8828125,
+            "right": 374,
+            "bottom": 5794.6171875
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 5560.734375,
+            "width": 328,
+            "height": 214.8828125,
+            "right": 359,
+            "bottom": 5775.6171875
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 5566.734375,
+            "width": 315.9921875,
+            "height": 202.8828125,
+            "right": 352.9921875,
+            "bottom": 5769.6171875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign/campaign-audience-limit-en-desktop.png",
+          "naturalSize": [
+            609,
+            391
+          ],
+          "loaded": true,
+          "alt": "Audience limit options: send to everyone or limit to two customers, with Limit and Cancel controls.",
+          "caption": "Audience limit control with a maximum of two customers.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-composer",
+          "figure": {
+            "x": 16,
+            "y": 6206.6171875,
+            "width": 358,
+            "height": 444.6015625,
+            "right": 374,
+            "bottom": 6651.21875
+          },
+          "stage": {
+            "x": 16,
+            "y": 6206.6171875,
+            "width": 358,
+            "height": 444.6015625,
+            "right": 374,
+            "bottom": 6651.21875
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 6225.6171875,
+            "width": 328,
+            "height": 406.6015625,
+            "right": 359,
+            "bottom": 6632.21875
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 6231.6171875,
+            "width": 315.9921875,
+            "height": 394.6015625,
+            "right": 352.9921875,
+            "bottom": 6626.21875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-composer-en-mobile.png",
+          "naturalSize": [
+            398,
+            497
+          ],
+          "loaded": true,
+          "alt": "WhatsApp editor with the name tag, a tracked link and composition tools.",
+          "caption": "Real interface with fictional data. The WhatsApp draft includes personalization and a tracked link. On mobile, Preview opens the channel view.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-tracked-link-tool",
+          "figure": {
+            "x": 16,
+            "y": 7431.21875,
+            "width": 358,
+            "height": 246.8828125,
+            "right": 374,
+            "bottom": 7678.1015625
+          },
+          "stage": {
+            "x": 16,
+            "y": 7431.21875,
+            "width": 358,
+            "height": 246.8828125,
+            "right": 374,
+            "bottom": 7678.1015625
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 7450.21875,
+            "width": 328,
+            "height": 208.8828125,
+            "right": 359,
+            "bottom": 7659.1015625
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 7456.21875,
+            "width": 316,
+            "height": 196.8828125,
+            "right": 353,
+            "bottom": 7653.1015625
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-tracked-link-tool-en-desktop.png",
+          "naturalSize": [
+            512,
+            319
+          ],
+          "loaded": true,
+          "alt": "Create a shortlink tool with the URL field, Add short link and Cancel controls, and the WhatsApp editor toolbar.",
+          "caption": "Real interface with fictional data. URL form for creating a tracked short link in the WhatsApp editor.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-personalization-tool",
+          "figure": {
+            "x": 16,
+            "y": 8154.1015625,
+            "width": 358,
+            "height": 246.6328125,
+            "right": 374,
+            "bottom": 8400.734375
+          },
+          "stage": {
+            "x": 16,
+            "y": 8154.1015625,
+            "width": 358,
+            "height": 246.6328125,
+            "right": 374,
+            "bottom": 8400.734375
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 8173.1015625,
+            "width": 328,
+            "height": 208.6328125,
+            "right": 359,
+            "bottom": 8381.734375
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 8179.1015625,
+            "width": 315.9921875,
+            "height": 196.6328125,
+            "right": 352.9921875,
+            "bottom": 8375.734375
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-personalization-tool-en-desktop.png",
+          "naturalSize": [
+            548,
+            341
+          ],
+          "loaded": true,
+          "alt": "WhatsApp editor Tags menu with properties such as name, full_name and email, plus a fictional custom property.",
+          "caption": "Real interface with fictional data. WhatsApp Tags menu with standard properties and a fictional custom property.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-coupon-picker",
+          "figure": {
+            "x": 16,
+            "y": 8864.734375,
+            "width": 358,
+            "height": 241.578125,
+            "right": 374,
+            "bottom": 9106.3125
+          },
+          "stage": {
+            "x": 16,
+            "y": 8864.734375,
+            "width": 358,
+            "height": 241.578125,
+            "right": 374,
+            "bottom": 9106.3125
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 8883.734375,
+            "width": 328,
+            "height": 203.578125,
+            "right": 359,
+            "bottom": 9087.3125
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37.0078125,
+            "y": 8889.734375,
+            "width": 315.984375,
+            "height": 191.578125,
+            "right": 352.9921875,
+            "bottom": 9081.3125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-en-mobile.png",
+          "naturalSize": [
+            414,
+            251
+          ],
+          "loaded": true,
+          "alt": "WhatsApp editor Coupon tool with the fictional GUIA-QR-10 coupon available and no coupon selected.",
+          "caption": "Real interface with fictional data. GUIA-QR-10 is available in the WhatsApp editor and no coupon has been selected.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-message-preview",
+          "figure": {
+            "x": 16,
+            "y": 9698.3125,
+            "width": 358,
+            "height": 759.890625,
+            "right": 374,
+            "bottom": 10458.203125
+          },
+          "stage": {
+            "x": 16,
+            "y": 9698.3125,
+            "width": 358,
+            "height": 759.890625,
+            "right": 374,
+            "bottom": 10458.203125
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 9717.3125,
+            "width": 328,
+            "height": 721.890625,
+            "right": 359,
+            "bottom": 10439.203125
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 9723.3125,
+            "width": 315.9921875,
+            "height": 709.890625,
+            "right": 352.9921875,
+            "bottom": 10433.203125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-en-mobile.png",
+          "naturalSize": [
+            430,
+            966
+          ],
+          "loaded": true,
+          "alt": "Native WhatsApp preview with Sofía’s name, the Club’s new arrivals, a tracked link and the Unsubscribe control.",
+          "caption": "Real interface with fictional data. The WhatsApp preview shows the content and the Unsubscribe control; it does not demonstrate sending or delivery.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-test-destination",
+          "figure": {
+            "x": 16,
+            "y": 10698.203125,
+            "width": 358,
+            "height": 249.6875,
+            "right": 374,
+            "bottom": 10947.890625
+          },
+          "stage": {
+            "x": 16,
+            "y": 10698.203125,
+            "width": 358,
+            "height": 249.6875,
+            "right": 374,
+            "bottom": 10947.890625
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 10717.203125,
+            "width": 328,
+            "height": 211.6875,
+            "right": 359,
+            "bottom": 10928.890625
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 10723.203125,
+            "width": 316,
+            "height": 199.6875,
+            "right": 353,
+            "bottom": 10922.890625
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-en-mobile.png",
+          "naturalSize": [
+            432,
+            273
+          ],
+          "loaded": true,
+          "alt": "Send message to this number form with a country selector, empty phone field, disabled send control and the Send me a test message trigger.",
+          "caption": "Real interface with fictional data. WhatsApp test form with an empty phone field and disabled send control.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-delivery-date",
+          "figure": {
+            "x": 16,
+            "y": 11643.890625,
+            "width": 358,
+            "height": 637.53125,
+            "right": 374,
+            "bottom": 12281.421875
+          },
+          "stage": {
+            "x": 16,
+            "y": 11643.890625,
+            "width": 358,
+            "height": 637.53125,
+            "right": 374,
+            "bottom": 12281.421875
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 11662.890625,
+            "width": 328,
+            "height": 599.53125,
+            "right": 359,
+            "bottom": 12262.421875
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 11668.890625,
+            "width": 315.9921875,
+            "height": 587.53125,
+            "right": 352.9921875,
+            "bottom": 12256.421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign/campaign-delivery-date-en-mobile.png",
+          "naturalSize": [
+            398,
+            740
+          ],
+          "loaded": true,
+          "alt": "Send later selected for November 2, 2026 at 12:00; the calendar is open on desktop and date and time fields are shown on mobile.",
+          "caption": "Fictional draft date and time: November 2, 2026 at 12:00. The calendar is open on desktop and closed on mobile.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-reply-settings",
+          "figure": {
+            "x": 16,
+            "y": 13045.421875,
+            "width": 358,
+            "height": 655.796875,
+            "right": 374,
+            "bottom": 13701.21875
+          },
+          "stage": {
+            "x": 16,
+            "y": 13045.421875,
+            "width": 358,
+            "height": 655.796875,
+            "right": 374,
+            "bottom": 13701.21875
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 13064.421875,
+            "width": 328,
+            "height": 617.796875,
+            "right": 359,
+            "bottom": 13682.21875
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 13070.421875,
+            "width": 315.9921875,
+            "height": 605.796875,
+            "right": 352.9921875,
+            "bottom": 13676.21875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign/campaign-reply-settings-en-mobile.png",
+          "naturalSize": [
+            398,
+            763
+          ],
+          "loaded": true,
+          "alt": "Configure replies with the person and team selector open, fictional people and demo teams, and no specific assignment active.",
+          "caption": "Reply settings with fictional people and teams. The teams submenu is open and no specific assignment remains selected.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "campaign-confirmation",
+          "figure": {
+            "x": 16,
+            "y": 14117.21875,
+            "width": 358,
+            "height": 843.96875,
+            "right": 374,
+            "bottom": 14961.1875
+          },
+          "stage": {
+            "x": 16,
+            "y": 14117.21875,
+            "width": 358,
+            "height": 843.96875,
+            "right": 374,
+            "bottom": 14961.1875
+          },
+          "stageStyle": {
+            "padding": [
+              "18px",
+              "14px",
+              "18px",
+              "14px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "18px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 31,
+            "y": 14136.21875,
+            "width": 328,
+            "height": 805.96875,
+            "right": 359,
+            "bottom": 14942.1875
+          },
+          "frameStyle": {
+            "padding": [
+              "5px",
+              "5px",
+              "5px",
+              "5px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "12px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 37,
+            "y": 14142.21875,
+            "width": 315.9921875,
+            "height": 793.96875,
+            "right": 352.9921875,
+            "bottom": 14936.1875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3382/images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-en-mobile.png",
+          "naturalSize": [
+            398,
+            1000
+          ],
+          "loaded": true,
+          "alt": "Draft confirmation with two targeted customers, Club included, QA excluded, WhatsApp only, November 2 at 12:00 and no specific reply assignment.",
+          "caption": "Real interface with fictional data. Review before sending: two eligible customers, WhatsApp only and the selected date.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        }
+      ]
+    },
+    "captures": [
+      {
+        "file": "campaign-en-390-full-part1.png",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "2dd0732258a7247b66ccc3dfa06ceb2c7e7445f5579951453f0329a7ec1a181a",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 0
+      },
+      {
+        "file": "campaign-en-390-full-part2.png",
+        "clip": {
+          "x": 0,
+          "y": 1100,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            1100
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "0ba2d09dff133d37720ab5cf62e2db6c6281c2da7fae62c030035370cfee4988",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part3.png",
+        "clip": {
+          "x": 0,
+          "y": 2200,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            2200
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "3c5a88ae778f133400f5e1c4b4e849d07b035ffa39c6a271ab1b5e2788bea7a5",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part4.png",
+        "clip": {
+          "x": 0,
+          "y": 3300,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            3300
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "7edfb6435f0555eefe91cb2be9c084589b150e3a3e75560cadda09e1346d1d1d",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part5.png",
+        "clip": {
+          "x": 0,
+          "y": 4400,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4400
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "43513645b55ddb386ac2de8be2adce5511ec92e86c3cb756deb5008758a83fe2",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part6.png",
+        "clip": {
+          "x": 0,
+          "y": 5500,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5500
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "6d1184acd51a82b4c2b834dac7160b885b8430be7167a2fe15d29d9c3048bb48",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part7.png",
+        "clip": {
+          "x": 0,
+          "y": 6600,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6600
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "29391f4037cb2767398221eb6f2eb0e5eff46645b0e2aacb420e9bac01a03540",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part8.png",
+        "clip": {
+          "x": 0,
+          "y": 7700,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7700
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "7b780da597f6adeb2759c8afb2ad1a83d42ce9f959897c135ce177ae4f4a1fd3",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part9.png",
+        "clip": {
+          "x": 0,
+          "y": 8800,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8800
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "1836e7b276b47cf11ffa21eabf3199eb64a879f7a6d8e9d88589bd094dc17ff2",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part10.png",
+        "clip": {
+          "x": 0,
+          "y": 9900,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9900
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "4c7c0f6b5036f0e246ff193bc40053faa8a77cb38203cf5e35983d278cc11983",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part11.png",
+        "clip": {
+          "x": 0,
+          "y": 11000,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            11000
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "84f53f18c45eed09627b5eab2df1f24bbca8498caa4fb2ea0ffeacc13454f472",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part12.png",
+        "clip": {
+          "x": 0,
+          "y": 12100,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            12100
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "6f106b2ad71c4c1c950a3a54e374c91db8bdcea788bfa254603d83c8644fae88",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part13.png",
+        "clip": {
+          "x": 0,
+          "y": 13200,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            13200
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "8727955257d9e5562874e2dc4e09c8e5051c9dba3f4065c6a65a2be219930f4f",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part14.png",
+        "clip": {
+          "x": 0,
+          "y": 14300,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            14300
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "bf2d2732a23d14713b89fc0e01ccc30229a2dc6e0848ccaa272100aca2609765",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part15.png",
+        "clip": {
+          "x": 0,
+          "y": 15400,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            15400
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "bb2908d1f635e4f3fd5a698a0ae9c9e7dfc25aa78315a6f08830fc4c193d431a",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 100
+      },
+      {
+        "file": "campaign-en-390-full-part16.png",
+        "clip": {
+          "x": 0,
+          "y": 16445,
+          "width": 390,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            16445
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          780,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "0a3ed3d6c503c6de338b68631f67d57e690a7ff86ecf6660f86f50fa6346f4e6",
+        "complete_page_segment": true,
+        "documentHeight": 17645,
+        "overlap_css": 155
+      },
+      {
+        "file": "campaign-en-390-campaign-channels.png",
+        "clip": {
+          "x": 4,
+          "y": 2666,
+          "width": 382,
+          "height": 753
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            2442.5
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          1506
+        ],
+        "icc": "Display P3",
+        "sha256": "6ef0b125994b93ad6d2edb1002a68b3b1e7048d212fb3f70752d913604ac20b1"
+      },
+      {
+        "file": "campaign-en-390-campaign-audience.png",
+        "clip": {
+          "x": 4,
+          "y": 4214,
+          "width": 382,
+          "height": 940
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4084
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          1880
+        ],
+        "icc": "Display P3",
+        "sha256": "9fbf21f9f21c515f7460bd3547f174c35277ea3e6460aaf5dc16bacef6bfc4d8"
+      },
+      {
+        "file": "campaign-en-390-campaign-audience-limit.png",
+        "clip": {
+          "x": 4,
+          "y": 5529,
+          "width": 382,
+          "height": 278
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5068
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          556
+        ],
+        "icc": "Display P3",
+        "sha256": "eedd293ef8e37cc85954bd544e18ef6df0c506e86d0abe3d28b3bcdf68987ae3"
+      },
+      {
+        "file": "campaign-en-390-campaign-composer.png",
+        "clip": {
+          "x": 4,
+          "y": 6194,
+          "width": 382,
+          "height": 470
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5829
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          940
+        ],
+        "icc": "Display P3",
+        "sha256": "ddd553de6dd53891c65983d90d5bf6c0cc4f77d8e679dab78f4a43856035151b"
+      },
+      {
+        "file": "campaign-en-390-campaign-tracked-link-tool.png",
+        "clip": {
+          "x": 4,
+          "y": 7419,
+          "width": 382,
+          "height": 272
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6954.5
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          544
+        ],
+        "icc": "Display P3",
+        "sha256": "7743a1fab5108c4d215c5951e237a129815bc14159c34daf6246e8dcbce90d91"
+      },
+      {
+        "file": "campaign-en-390-campaign-personalization-tool.png",
+        "clip": {
+          "x": 4,
+          "y": 8142,
+          "width": 382,
+          "height": 271
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7677.5
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          542
+        ],
+        "icc": "Display P3",
+        "sha256": "d88c7f796ce95709c499b73801413ac4c302291795f5aaa46b9e452b391ba675"
+      },
+      {
+        "file": "campaign-en-390-campaign-coupon-picker.png",
+        "clip": {
+          "x": 4,
+          "y": 8852,
+          "width": 382,
+          "height": 267
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8385.5
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          534
+        ],
+        "icc": "Display P3",
+        "sha256": "be11b86962c1722ef73bcb925b5e6664997567b9b8dd187567aa952e0496d996"
+      },
+      {
+        "file": "campaign-en-390-campaign-message-preview.png",
+        "clip": {
+          "x": 4,
+          "y": 9686,
+          "width": 382,
+          "height": 785
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9478.5
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          1570
+        ],
+        "icc": "Display P3",
+        "sha256": "e91576fa49de775555772b5060ab0ab3fabc12e7d84e92d8a07341397f0103bc"
+      },
+      {
+        "file": "campaign-en-390-campaign-test-destination.png",
+        "clip": {
+          "x": 4,
+          "y": 10686,
+          "width": 382,
+          "height": 274
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            10223
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          548
+        ],
+        "icc": "Display P3",
+        "sha256": "edfbb33aa3a079b6030fce7e85a8aea3094645131216b10ca2d06b584a4dc942"
+      },
+      {
+        "file": "campaign-en-390-campaign-delivery-date.png",
+        "clip": {
+          "x": 4,
+          "y": 11631,
+          "width": 382,
+          "height": 663
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            11362.5
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          1326
+        ],
+        "icc": "Display P3",
+        "sha256": "c420ba024b106acb7f3b3e46ec8a929df43451771d43a18c44d5b24126b61dfd"
+      },
+      {
+        "file": "campaign-en-390-campaign-reply-settings.png",
+        "clip": {
+          "x": 4,
+          "y": 13033,
+          "width": 382,
+          "height": 681
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            12773.5
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          1362
+        ],
+        "icc": "Display P3",
+        "sha256": "b19d2816fea81f3736b6b35536e6aac60e45d5a211a6d4bd4ffe8ce5c1094dc4"
+      },
+      {
+        "file": "campaign-en-390-campaign-confirmation.png",
+        "clip": {
+          "x": 4,
+          "y": 14105,
+          "width": 382,
+          "height": 869
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3382/creating-a-campaign.html",
+          "title": "Create a campaign | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            13939
+          ]
+        },
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          764,
+          1738
+        ],
+        "icc": "Display P3",
+        "sha256": "38acd7332918c922097a5fdb829ac861713ab2d36ae386d7a1790e5fbd9d0652"
+      }
+    ]
+  }
+}

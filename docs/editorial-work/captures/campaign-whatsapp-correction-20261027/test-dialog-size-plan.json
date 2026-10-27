@@ -1,0 +1,110 @@
+{
+  "status": "scoped_user_requested_exception_authorized; new_WA_capture_and_render_pending",
+  "figure_id": "campaign-test-destination",
+  "reference": {
+    "path": "audit/campaign-whatsapp-correction-20261027/reference/user-campaign-size-reference.png",
+    "sha256": "63b26b976ec14261d8d79129a860e9193120a754d8c36eb6cc0f8a0b611a25b7",
+    "pixel_size": [
+      774,
+      536
+    ],
+    "identified_controls": [
+      "Enviar mensaje a este número",
+      "Envíame un mensaje de prueba"
+    ]
+  },
+  "pinned_rule": {
+    "path": "docs/editorial/screenshots.md",
+    "lines": "22–33",
+    "sha256": "b2acb0e02a0335f8abcee233580630eb7746d45b6bc9df28b18976fdfb93ae02",
+    "default": "Do not display above recorded native logical capture size."
+  },
+  "specific_user_instruction": "Improve the identified test-dialog readability; the current instruction authorizes a scoped capture/HTML size adjustment. Root confirmed a maximum of1.5 times logical size only for this figure, without another permission hold.",
+  "allowed_max_logical_factor": 1.5,
+  "minimum_effective_pixel_density": 2.6666666666666665,
+  "required_source_density": 4,
+  "proposed_max_if_new_crop_432_css": 648,
+  "image_width_policy": "min(available article image area, current source logical width ×1.5); each responsive currentSrc checked separately",
+  "other_figures_max_logical_factor": 1,
+  "unchanged": [
+    "PNG bytes and embedded P3",
+    "source provenance and native capture checks",
+    "aspect ratio",
+    "lavender stage, white inset and border",
+    "global CSS and static no-link behavior"
+  ],
+  "baseline_measured_views": [
+    {
+      "locale": "es",
+      "viewport_width": 1440,
+      "stage_width_css": 774.4140625,
+      "image_width_css": 432,
+      "source_width_px": 1728,
+      "source_native_width_css": 432,
+      "effective_pixel_density": 4.0,
+      "packet": "docs/editorial-work/captures/campaign-creation-completion-20261026/validation/page-review/views/es-1440.json",
+      "packet_sha256": "7dea0eb088d3d812625186813b478cbde4db099b288fbc39066a975422341b8f"
+    },
+    {
+      "locale": "es",
+      "viewport_width": 580,
+      "stage_width_css": 548,
+      "image_width_css": 432,
+      "source_width_px": 1728,
+      "source_native_width_css": 432,
+      "effective_pixel_density": 4.0,
+      "packet": "docs/editorial-work/captures/campaign-creation-completion-20261026/validation/page-review/views/es-580.json",
+      "packet_sha256": "82e8bc489b035eb1d789f19370e11e0de55539aa855fd2d3058d870347b98e0a"
+    },
+    {
+      "locale": "es",
+      "viewport_width": 390,
+      "stage_width_css": 358,
+      "image_width_css": 315.984375,
+      "source_width_px": 1728,
+      "source_native_width_css": 432,
+      "effective_pixel_density": 5.468624833110814,
+      "packet": "docs/editorial-work/captures/campaign-creation-completion-20261026/validation/page-review/views/es-390.json",
+      "packet_sha256": "adddb57e99002dd08f712632d8a1e1d7b41b83c2f59e98ffb282608a095166c6"
+    },
+    {
+      "locale": "en",
+      "viewport_width": 1440,
+      "stage_width_css": 774.4140625,
+      "image_width_css": 432,
+      "source_width_px": 1728,
+      "source_native_width_css": 432,
+      "effective_pixel_density": 4.0,
+      "packet": "docs/editorial-work/captures/campaign-creation-completion-20261026/validation/page-review/views/en-1440.json",
+      "packet_sha256": "f7f8c827a2fe2101becf4fa694e6b31ae0821b9bdbcbf9d1651c8e4bd13949c7"
+    },
+    {
+      "locale": "en",
+      "viewport_width": 580,
+      "stage_width_css": 548,
+      "image_width_css": 432,
+      "source_width_px": 1728,
+      "source_native_width_css": 432,
+      "effective_pixel_density": 4.0,
+      "packet": "docs/editorial-work/captures/campaign-creation-completion-20261026/validation/page-review/views/en-580.json",
+      "packet_sha256": "6c8a083ec4d04ea55784a7d52cc405fa9feb3b529b32b73ada72e11bcc22778a"
+    },
+    {
+      "locale": "en",
+      "viewport_width": 390,
+      "stage_width_css": 358,
+      "image_width_css": 315.984375,
+      "source_width_px": 1728,
+      "source_native_width_css": 432,
+      "effective_pixel_density": 5.468624833110814,
+      "packet": "docs/editorial-work/captures/campaign-creation-completion-20261026/validation/page-review/views/en-390.json",
+      "packet_sha256": "a786d7c20006005b50480f749dd40f8a6b068aae34f564feec971b48b7ce534d"
+    }
+  ],
+  "pending": [
+    "Native WhatsApp test-source desktop/mobile capture",
+    "Article-only markup implementation",
+    "Six exact-source render views and independent sharpness/readability review",
+    "Strict QA/public verifier delta limited to this ID/factor"
+  ]
+}

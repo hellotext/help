@@ -1,0 +1,109 @@
+{
+  "status": "native_preview_action_examples_imported_byte_exact; full_Help_QA_pending",
+  "recorded_at": "2026-10-27T00:21:41.173369+00:00",
+  "app_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "definitions": [
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/recipient-example.es.json",
+      "sha256": "23f5b5e1d38ff8f96af99e1b9ddad11b59950ee2ad34430a9fc32eb9bc4403c4",
+      "bytes": 871
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/recipient-example.en.json",
+      "sha256": "ff3ad7a4e1ed5c1467119cfade013e9185e56ff07d552fea860ae72441d22b1c",
+      "bytes": 843
+    }
+  ],
+  "supported_contract": {
+    "version": 1,
+    "channel": "whatsapp",
+    "message_type": "buttons",
+    "message_fields": [
+      "type",
+      "side",
+      "text",
+      "time",
+      "actions"
+    ],
+    "action_count": 1,
+    "action_semantics": "Exactly one inert native preview unsubscribe action per locale: Detener ES or Unsubscribe EN. The useful commercial URL remains in the unchanged first-message text. No actual sending or persisted template action is inferred.",
+    "first_business_send": "Same current Club campaign purpose/body, resolved fictional first name, and reserved example URL. ES retains its literal BAJA para salir; EN has no unobserved footer.",
+    "image_decision": "No specific product is selected; a generic collection campaign does not require an unrelated photo."
+  },
+  "sources": [
+    {
+      "path": "app/presenters/editorial/custom_visual.rb",
+      "sha256": "54be0160b18ef419979b44b6055142fc0e612d656c8c2d8b7083fb45028ff5bd"
+    },
+    {
+      "path": "app/components/editorial/message_content_component.html.erb",
+      "sha256": "c58032793d4c3d0737ebe550acbb6fa10ea44a4ee988dc777cca4ec3a28416ff"
+    },
+    {
+      "path": "app/components/marketing/message_bubble_component.html.erb",
+      "sha256": "d9976dbb9d08f0c1b2f18e78f04c9218945eb652925ba33deb10357c8bbcf043"
+    },
+    {
+      "path": "lib/tasks/editorial_visuals.rake",
+      "sha256": "159caa6b5a2aba4d82eb7fcbcd23ba933d31e2ba742b9e144a4a1495d2081904"
+    },
+    {
+      "path": "app/views/campaign/tests/_form.html.erb",
+      "sha256": "9b698de55d01629b5b4446073d340622252c8dab01ace5fa8650bf5cd52f7155"
+    },
+    {
+      "path": "config/locales/actions/es.yml",
+      "sha256": "6e627c7a60c98ffa1869ebbf5e5f64d1ff934f9eb53317ea2042ce1e0de23225"
+    },
+    {
+      "path": "config/locales/actions/en.yml",
+      "sha256": "9e0aba07757db755048774dc13d887badc0b7713ac720b9fdb2ce9386a1f5914"
+    },
+    {
+      "path": "config/locales/views/campaign/broadcasts/es.yml",
+      "sha256": "1b86da106b4c1fb59fc94af596e1d94a27d236fd94e00cf56f60297cc63490a1"
+    },
+    {
+      "path": "config/locales/views/campaign/broadcasts/en.yml",
+      "sha256": "145f9f824d1cf23ae77634b1acae34178c4ca49953cd4ec976d3f8f459cc66f1"
+    }
+  ],
+  "native_test_controls": {
+    "trigger": {
+      "es": "Envíame un mensaje de prueba",
+      "en": "Send me a test message"
+    },
+    "title": {
+      "es": "Enviar mensaje a este número",
+      "en": "Send message to this number"
+    },
+    "popover_width_css": 400,
+    "empty_user_test_phone_disables_submit": true,
+    "whatsapp_submit_behavior": "Opens a confirmation modal; final modal submit is POST. Neither step is used to send for capture."
+  },
+  "export": {
+    "executed": true,
+    "owner": "Root fixture/runtime owner",
+    "arguments": "VISUAL_FILE=<exact definition path> LOCALE=<locale> bin/rails editorial:export_help",
+    "policy": "Preserve and bind exact generated include/data bytes; do not manufacture renderer output, IDs, validation, or approval.",
+    "import_receipt": {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/native-example-import-v2.json",
+      "sha256": "4ec3fa6cb5bd7a4716d6a0fe04f8dcf230ea65899f49c39bb5131490d469b0ee"
+    },
+    "current_definition_exported": true
+  },
+  "pending": [
+    "Full Help keyboard/inert-action/overflow checks",
+    "Six complete guide views and final publication verification"
+  ],
+  "content_alignment": {
+    "receipt": "audit/help-resume-20261026/campaign-whatsapp-20261027/content-summary.json",
+    "sha256": "24693d9000ccca2da84860a66ecd1929a934bd6802bebaa6e9f383568eb5aee6",
+    "actual_app_bodies": "Templates270/271, text+tracked link, zero buttons/attachments/header; new isolated WhatsApp fixture preserves these bodies.",
+    "illustrative_differences": "Resolve name to Sofía and name fictional business Luma. The inert https://example.com/campaign-fixture URL now matches the verified destination of both original Link4 and Link5; the app displays its native tracked short link. Does not claim a sent message.",
+    "native_export_not_run": false,
+    "actual_link_destination": "https://example.com/campaign-fixture",
+    "link_destination_confirmed_by": "Runtime fixture owner read the actual snapshot; root confirmed same destination for Link4 and Link5 in both locales on2026-10-27.",
+    "export_status": "Final native version2 preview-action exports imported exactly; previous exports preserved outside final candidate."
+  }
+}

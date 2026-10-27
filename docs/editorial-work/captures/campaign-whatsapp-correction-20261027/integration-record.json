@@ -1,0 +1,72 @@
+{
+  "schema": "campaign-current-integration-v1",
+  "status": "native_sources_integrated; Help_QA_pending",
+  "admission_sha256": "aaba0d5d6f040c9b307ee27453e963e58bf72080252eae5a2d8e9c2a0b679893",
+  "accepted_manifest_sha256": "358eaf360c47f35208c3cdd99b23db2c5ee1ef5eb9f5cce3c835024c7e1931ed",
+  "source_register_sha256": "15f797468128646c006bd159288f837fc0cd7cf6ab266cd6b23519d83d06ff20",
+  "retained_register_sha256": "4cc5d789066043c076b29406bac0e8e4b0014c97a458a80680d79649e427172d",
+  "retained_pixels": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retained-pixels.json",
+    "sha256": "b8d854cab1d400652a99fab831fe53963be09c0c1b090298f8a5898e7e9e6d3a"
+  },
+  "bilingual_gate": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/bilingual-source-review-gate.json",
+    "sha256": "6053a66efcdbce0c70949442ad65c705cad7da5a06d9cebf83074fd06cf77634"
+  },
+  "shared_source_figures": {
+    "es": [
+      "campaign-audience-limit",
+      "campaign-personalization-tool",
+      "campaign-tracked-link-tool"
+    ],
+    "en": [
+      "campaign-audience-limit",
+      "campaign-personalization-tool",
+      "campaign-tracked-link-tool"
+    ]
+  },
+  "source_count": 42,
+  "figures_per_locale": {
+    "es": 12,
+    "en": 12
+  },
+  "figure_order": {
+    "es": [
+      "campaign-channels",
+      "campaign-audience",
+      "campaign-audience-limit",
+      "campaign-composer",
+      "campaign-tracked-link-tool",
+      "campaign-personalization-tool",
+      "campaign-coupon-picker",
+      "campaign-message-preview",
+      "campaign-test-destination",
+      "campaign-delivery-date",
+      "campaign-reply-settings",
+      "campaign-confirmation"
+    ],
+    "en": [
+      "campaign-channels",
+      "campaign-audience",
+      "campaign-audience-limit",
+      "campaign-composer",
+      "campaign-tracked-link-tool",
+      "campaign-personalization-tool",
+      "campaign-coupon-picker",
+      "campaign-message-preview",
+      "campaign-test-destination",
+      "campaign-delivery-date",
+      "campaign-reply-settings",
+      "campaign-confirmation"
+    ]
+  },
+  "article_sha256": {
+    "es": "d90c8aa0055195ff15644a9197e0bdff9465926dd3b82a70822db6346d88e755",
+    "en": "0169daac79dc25b5364287d9f48835519617c050c4d638855a206e763e3cf49a"
+  },
+  "pixel_transformations": 0,
+  "native_message_example_integration": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/native-example-import-v2.json",
+    "sha256": "4ec3fa6cb5bd7a4716d6a0fe04f8dcf230ea65899f49c39bb5131490d469b0ee"
+  }
+}

@@ -1,0 +1,809 @@
+{
+  "schema": "campaign-native-source-admission-v1",
+  "status": "approved_for_integration",
+  "recorded_at": "2026-10-27T01:36:35.479352+00:00",
+  "decision": "Root admits the 28 native WhatsApp sources after matching every independent ES/EN pixel verdict, source identity and unchanged integrated PNG bytes. Complete Help page QA remains required.",
+  "manifest": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/source-manifest.json",
+    "sha256": "358eaf360c47f35208c3cdd99b23db2c5ee1ef5eb9f5cce3c835024c7e1931ed"
+  },
+  "records": [
+    {
+      "id": "campaign-channels",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-channels-en-desktop.png",
+      "sha256": "d6d96c64c4513152a41ee5383bda80906bfb6aefef86015e1189ae2f26b1b926",
+      "pixelSize": [
+        2728,
+        3344
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 91,
+        "y": 128,
+        "width": 682,
+        "height": 836
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-channels",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "campaign-channels-en-mobile.png",
+      "sha256": "da4e4448ed520a0412fa45eb340e5b042fc7e9c5346ef0dcfadb7042788109cd",
+      "pixelSize": [
+        1592,
+        3416
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 32,
+        "width": 398,
+        "height": 854
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-channels",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "campaign-channels-es-desktop.png",
+      "sha256": "56f33cfbd05400143dd0159c186afb616365d39c82b19e2ec407620794086d04",
+      "pixelSize": [
+        2728,
+        3232
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 91,
+        "y": 128,
+        "width": 682,
+        "height": 808
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-channels",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "campaign-channels-es-mobile.png",
+      "sha256": "216a6b0f2454f5b1de1b91865fe2756b8c4d70b67f7297ec1bd1ed6d5fb03a46",
+      "pixelSize": [
+        1592,
+        3512
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 32,
+        "width": 398,
+        "height": 878
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-composer",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-composer-en-desktop.png",
+      "sha256": "245847d60e2f737d245272fc4426c4b79134e6a0f44af3db28736d969d17b924",
+      "pixelSize": [
+        2728,
+        1604
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 91,
+        "y": 128,
+        "width": 682,
+        "height": 401
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-composer",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "campaign-composer-en-mobile.png",
+      "sha256": "fface0c38b00dae21edbf1807c48a5a5d864b892fbc84b8ba0fe2941c90bd085",
+      "pixelSize": [
+        1592,
+        1988
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 32,
+        "width": 398,
+        "height": 497
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-composer",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "campaign-composer-es-desktop.png",
+      "sha256": "9a6d4910fd12dc582acd6410a35b795600bc14d0797cbcb4e99a1775c137e550",
+      "pixelSize": [
+        2728,
+        1604
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 91,
+        "y": 128,
+        "width": 682,
+        "height": 401
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-composer",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "campaign-composer-es-mobile.png",
+      "sha256": "c44daec9637674706a2b09737d35153e2a7f6e4cac607ffd2ff79ccd2f411fd6",
+      "pixelSize": [
+        1592,
+        1988
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 32,
+        "width": 398,
+        "height": 497
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-confirmation",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-confirmation-en-desktop.png",
+      "sha256": "12299e912bdc3d4a211f4e18fb53d14e3e66e325f3da02d260125304a5040378",
+      "pixelSize": [
+        2728,
+        3648
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 91,
+        "y": 128,
+        "width": 682,
+        "height": 912
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-confirmation",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "campaign-confirmation-en-mobile.png",
+      "sha256": "a7dda045f2a310c6079f07a706367f50cc5c91e641cd18fc006f855308a3ca3c",
+      "pixelSize": [
+        1592,
+        4000
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 32,
+        "width": 398,
+        "height": 1000
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-confirmation",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "campaign-confirmation-es-desktop.png",
+      "sha256": "699820022bd737ef1c5ec7eb3e1f45f1186a7bc60330c2c2d77bac3e23a3d1d4",
+      "pixelSize": [
+        2728,
+        3744
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 91,
+        "y": 128,
+        "width": 682,
+        "height": 936
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-confirmation",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "campaign-confirmation-es-mobile.png",
+      "sha256": "964552fa6c2c931036fe89b3b8d40575afd893e9425f22cb914d2687122665d1",
+      "pixelSize": [
+        1592,
+        4000
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 32,
+        "width": 398,
+        "height": 1000
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-coupon-picker",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-coupon-picker-en-desktop.png",
+      "sha256": "33c370b643b7d7737e637b053a1c806d1e96ff7b3382cc206521844e0f5a79af",
+      "pixelSize": [
+        2160,
+        1020
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 108,
+        "y": 450,
+        "width": 540,
+        "height": 255
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-coupon-picker",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "campaign-coupon-picker-en-mobile.png",
+      "sha256": "3752e21dd5cd209bffa351b19a1759ad3136b2ef76d2a66a730dd9ad4408c6f5",
+      "pixelSize": [
+        1656,
+        1004
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 388,
+        "width": 414,
+        "height": 251
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-coupon-picker",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "campaign-coupon-picker-es-desktop.png",
+      "sha256": "edd4ab0ca6b9b98519600660abc8e39dc2f39e2aedcf720c5f7aca04fecc7550",
+      "pixelSize": [
+        2160,
+        1020
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 108,
+        "y": 450,
+        "width": 540,
+        "height": 255
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-coupon-picker",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "campaign-coupon-picker-es-mobile.png",
+      "sha256": "56f5c24dfdadfce3c16e653c7ac9c94cf10c96ed5a8feb363ffaac86d5e451e1",
+      "pixelSize": [
+        1656,
+        1004
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 388,
+        "width": 414,
+        "height": 251
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-message-preview",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-message-preview-en-desktop.png",
+      "sha256": "d59d7d1c87a42e66c398906e25243eedf22554e5aaa6bd39dd65dcc902317bc8",
+      "pixelSize": [
+        1536,
+        3632
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 960,
+        "y": 120,
+        "width": 384,
+        "height": 908
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-message-preview",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "campaign-message-preview-en-mobile.png",
+      "sha256": "51889ee7679b4649c86abb197f15b2bbc50bc3c05a9f1f7d08e2186c1a106b19",
+      "pixelSize": [
+        1720,
+        3864
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 0,
+        "y": 16,
+        "width": 430,
+        "height": 966
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-message-preview",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "campaign-message-preview-es-desktop.png",
+      "sha256": "e6c0be34da7afa3187df5cedfd0509dfcd89f6dd9d6aafd4b27c14874dbc7a7b",
+      "pixelSize": [
+        1536,
+        3632
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 960,
+        "y": 120,
+        "width": 384,
+        "height": 908
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-message-preview",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "campaign-message-preview-es-mobile.png",
+      "sha256": "9af0929cb508439ace6cdd7287543f6e9767d3fe55ed9a91d116e0c9576d571c",
+      "pixelSize": [
+        1720,
+        3864
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 0,
+        "y": 16,
+        "width": 430,
+        "height": 966
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-personalization-tool",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-personalization-tool-en-desktop.png",
+      "sha256": "6fe683d0d50ae932759e5e9cc137b850827957ef0aa231a332963523c1c5e6b5",
+      "pixelSize": [
+        2192,
+        1364
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 108,
+        "y": 450,
+        "width": 548,
+        "height": 341
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-personalization-tool",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "campaign-personalization-tool-es-desktop.png",
+      "sha256": "0ea3fd0efae155d7b26f3b1040e0a623442cb78666491f23415180dd621b2396",
+      "pixelSize": [
+        2192,
+        1364
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 108,
+        "y": 450,
+        "width": 548,
+        "height": 341
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-test-destination",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-test-destination-en-desktop.png",
+      "sha256": "7597a8b35a2bde31a41af81f7446fbec90e12a46f6ea3a35b7a8906edb46f4bd",
+      "pixelSize": [
+        1728,
+        1092
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 936,
+        "y": 755,
+        "width": 432,
+        "height": 273
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-test-destination",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "campaign-test-destination-en-mobile.png",
+      "sha256": "0e2305d54e5673dbf37b9820d432e4c73e73baa8b5c2bcdb5bfe7984df5759a4",
+      "pixelSize": [
+        1728,
+        1092
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 8,
+        "y": 709,
+        "width": 432,
+        "height": 273
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-test-destination",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "campaign-test-destination-es-desktop.png",
+      "sha256": "e809f99c0ac252b1bbfbf8a4381863d5896c3daae39544fc884e1e9d14e48e54",
+      "pixelSize": [
+        1728,
+        1092
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 936,
+        "y": 755,
+        "width": 432,
+        "height": 273
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-test-destination",
+      "locale": "es",
+      "layout": "mobile",
+      "file": "campaign-test-destination-es-mobile.png",
+      "sha256": "65197563664390e7be60972f6bc527d5cf7ae45dcf47e20db6ac5a633f72e51d",
+      "pixelSize": [
+        1728,
+        1092
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 8,
+        "y": 709,
+        "width": 432,
+        "height": 273
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-tracked-link-tool",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-tracked-link-tool-en-desktop.png",
+      "sha256": "959d0c9081d00693458570318ea735bdb9a920bf040ab4ea206add3e7438a990",
+      "pixelSize": [
+        2048,
+        1276
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 104,
+        "y": 450,
+        "width": 512,
+        "height": 319
+      },
+      "new_capture": true
+    },
+    {
+      "id": "campaign-tracked-link-tool",
+      "locale": "es",
+      "layout": "desktop",
+      "file": "campaign-tracked-link-tool-es-desktop.png",
+      "sha256": "d9ca85349a3f9d191c2c97e2fd88c8e476105221fb3f1c616af665eaaf01ad5c",
+      "pixelSize": [
+        2048,
+        1180
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 104,
+        "y": 450,
+        "width": 512,
+        "height": 295
+      },
+      "new_capture": true
+    }
+  ],
+  "evidence": [
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/source-pixels-es.json",
+      "sha256": "72a2b7fe1db97b60a5a9f148b9615706b0d7984c4113feb043e55a00d504bbc0",
+      "role": "source_pixel_review"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/source-pixels-en.json",
+      "sha256": "265b1aacc601d376287fefb75e29845c50926a489fef84f88effa4eff487b164",
+      "role": "source_pixel_review"
+    }
+  ],
+  "scope": "New source admission only; retained sources, capture/runtime closure, complete Help rendering and publication are validated separately."
+}

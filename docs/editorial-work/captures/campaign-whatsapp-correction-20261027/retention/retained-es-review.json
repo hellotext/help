@@ -1,0 +1,287 @@
+{
+  "schema": "campaign-whatsapp-independent-retention-review-v1",
+  "reviewer": "/root/campaign_wa_pixels/retained_es_pixels",
+  "reviewed_at": "2026-10-27T01:15:26.805604+00:00",
+  "result": "pass_for_retention_with_documented_data_differences",
+  "scope": "Exactly7 historical Spanish sources;0 new screenshots reviewed or produced by this child. No final Help page QA or publication approval.",
+  "applicability_receipt": {
+    "path": "help-campaign-whatsapp-correction-capture-20261027/retention/es-applicability.json",
+    "sha256": "2dd1aba358a1f2165cca2b55c3ab45aa3a1538b3364112f4c250f2a97fa62406"
+  },
+  "review_method": [
+    "Viewed all7 original PNG files using view_image; viewer reductions did not modify source bytes.",
+    "Verified exact source/sidecar/current-observation SHA256, original capture dates, PNG signatures/chunkCRC, dimensions4×CSS crop and embedded ICC plus sips profile.",
+    "Read current DOM observation artifacts; no live browser or runtime accessed."
+  ],
+  "records": [
+    {
+      "id": "campaign-audience",
+      "locale": "es",
+      "layout": "desktop",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-audience-es-desktop.png",
+      "sha256": "9c74f1e1d6492944e9953f0f87f468906d09a20609dc8c0b2fdddfc99a314cc6",
+      "captured_at": "2026-10-26T22:37:58.622Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-audience-es-desktop.json",
+      "sidecar_sha256": "96ee29c153363e016469576bb716d0dc116d65e60a49a514dc0f8b17db2f71f7",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/audience-es-desktop-observed.json",
+      "current_observation_sha256": "2613408bf6e6debc87ca9283be1271497d0c3b55e5ff93c6333511578404b907",
+      "current_observed_at": "2026-10-27T01:06:00.912Z",
+      "pixel_size": [
+        3936,
+        2940
+      ],
+      "css_crop": [
+        24,
+        128,
+        984,
+        735
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "format_and_crc": "pass",
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "Visible Club inclusion, QA exclusion, open audience selector and count2 match the current intended WhatsApp audience.",
+        "No channel-specific SMS text is visible; the control remains applicable.",
+        "Bottom list row is partly visible inside the native scroll viewport; the menu outer border/shadow and all instructional controls remain complete.",
+        "Secondary fictional list names are Spanish in the historical image and English in the current observation; this documented difference is not claimed as current pixel/data parity."
+      ]
+    },
+    {
+      "id": "campaign-audience",
+      "locale": "es",
+      "layout": "mobile",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-audience-es-mobile.png",
+      "sha256": "5b98f2333421778ab1fc64e60fc785c8cca21aaff0da782c19d47e416e35ec8f",
+      "captured_at": "2026-10-26T22:39:20.938Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-audience-es-mobile.json",
+      "sidecar_sha256": "7d0b75bcdd2b76b1ec3466d71e5ee36619451063ad2065e88e7b4a35f2272d72",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/audience-es-mobile-observed.json",
+      "current_observation_sha256": "8391ea69484c372764a7d73450eb4246630439abf48b6f52ae5fa256fae6800c",
+      "current_observed_at": "2026-10-27T01:06:50.637Z",
+      "pixel_size": [
+        1592,
+        4360
+      ],
+      "css_crop": [
+        16,
+        32,
+        398,
+        1090
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "format_and_crc": "pass",
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "Visible Club inclusion, QA exclusion, open audience selector and count2 match the current intended WhatsApp audience.",
+        "No channel-specific SMS text is visible; the control remains applicable.",
+        "Bottom list row is partly visible inside the native scroll viewport; the menu outer border/shadow and all instructional controls remain complete.",
+        "Secondary fictional list names are Spanish in the historical image and English in the current observation; this documented difference is not claimed as current pixel/data parity."
+      ]
+    },
+    {
+      "id": "campaign-audience-limit",
+      "locale": "es",
+      "layout": "desktop",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-audience-limit-es-desktop.png",
+      "sha256": "59504305ea4dcfd2a65be1325b7639e63d85d3b68466848bbfa88ae79b1043e7",
+      "captured_at": "2026-10-26T22:38:37.385Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-audience-limit-es-desktop.json",
+      "sidecar_sha256": "d3777bd9bcdae7ef3f83e6bbf69a7252fe37eea24140b3e32455e0320a10f09d",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/audience-limit-es-desktop-observed.json",
+      "current_observation_sha256": "0c99caa2f9bb914d3258f366d30be403f572e9c3d039d29188a1f847085d5c33",
+      "current_observed_at": "2026-10-27T01:06:28.257Z",
+      "pixel_size": [
+        2436,
+        1564
+      ],
+      "css_crop": [
+        259,
+        365,
+        609,
+        391
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "format_and_crc": "pass",
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "Complete native dialog, limit2, selected radio, Limitar and Cancelar controls are visible.",
+        "No SMS label or channel-specific warning is present; current receipt confirms the same applicable limit2 state.",
+        "Partial background audience input at top-left is contextual; it does not truncate the target dialog."
+      ]
+    },
+    {
+      "id": "campaign-delivery-date",
+      "locale": "es",
+      "layout": "desktop",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-delivery-date-es-desktop.png",
+      "sha256": "8d796336f8bcb18bcffe0a3fec779b386bb02c008966f7f8ddc5ffa50a3d0d5d",
+      "captured_at": "2026-10-26T22:33:34.633Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-delivery-date-es-desktop.json",
+      "sidecar_sha256": "616da23dc4e9e03bac9de81bccf2979bd3be0d22d603e750a4b1958f15dac83d",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/delivery-date-es-desktop-observed.json",
+      "current_observation_sha256": "1b5d47fd73f8708a3b578203131b789e8c7479d442cb13cc5db348652acb82f4",
+      "current_observed_at": "2026-10-27T01:07:24.587Z",
+      "pixel_size": [
+        2820,
+        2520
+      ],
+      "css_crop": [
+        91,
+        128,
+        705,
+        630
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "format_and_crc": "pass",
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "Heading, native scheduling choice, November2,2026 and12:00 are coherent with current WhatsApp confirmation.",
+        "No SMS-specific content is visible.",
+        "Desktop calendar intentionally overlays background delivery copy; full calendar border, selected date and time control remain visible.",
+        "Original date is retained; no claim of unchanged today marker or new capture date."
+      ]
+    },
+    {
+      "id": "campaign-delivery-date",
+      "locale": "es",
+      "layout": "mobile",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-delivery-date-es-mobile.png",
+      "sha256": "9b8cca07b94d906083b9cd6e23735a454aca7d2972fa728fd6035be682771d83",
+      "captured_at": "2026-10-26T22:34:12.937Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-delivery-date-es-mobile.json",
+      "sidecar_sha256": "e3788008a9204e7f51bbe434491872c6e08309934a1228057c3279fda10d3ee4",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/delivery-date-es-mobile-observed.json",
+      "current_observation_sha256": "c29f6748a245064f27573b79c2972f4ebb023858587f72b48d4e6270c588a02f",
+      "current_observed_at": "2026-10-27T01:07:54.158Z",
+      "pixel_size": [
+        1592,
+        3168
+      ],
+      "css_crop": [
+        16,
+        32,
+        398,
+        792
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "format_and_crc": "pass",
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "Heading, native scheduling choice, November2,2026 and12:00 are coherent with current WhatsApp confirmation.",
+        "No SMS-specific content is visible.",
+        "Both mobile cards, selected later option, date and time controls fit the captured panel.",
+        "Original date is retained; no claim of unchanged today marker or new capture date."
+      ]
+    },
+    {
+      "id": "campaign-reply-settings",
+      "locale": "es",
+      "layout": "desktop",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-reply-settings-es-desktop.png",
+      "sha256": "2298b2948364551218a3bbc4f2da7ff696f35239f3622214ac074923ebfa89d6",
+      "captured_at": "2026-10-26T22:41:28.350Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-reply-settings-es-desktop.json",
+      "sidecar_sha256": "b4eef245cc2c13d02845fff97eb92201cbe3dd91c1dcd9f18e23f81bcb6e951f",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/reply-settings-es-desktop-observed.json",
+      "current_observation_sha256": "09e50fe1e62249fb0edc2836221fffef403fb4023dfd1b84baeecc983acdb72a",
+      "current_observed_at": "2026-10-27T01:05:16.003Z",
+      "pixel_size": [
+        3384,
+        2892
+      ],
+      "css_crop": [
+        91,
+        844,
+        846,
+        723
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "format_and_crc": "pass",
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "Unassigned state, assignment search, open Equipos menu and both Atención demo/Ventas demo choices are visible.",
+        "Crop excludes channel summary and has no contradictory SMS content.",
+        "Desktop and mobile target menus are complete; mobile native team submenu overlaps underlying person rows without clipping its own controls.",
+        "Historical person order differs from current DOM: oldPNG shows Sofía Castro before Lucía García, while current DOM includes Mateo Ruiz/Sara López/Tomás Pérez and puts Sofía last. Retention is applicable control illustration, not exact current list parity."
+      ]
+    },
+    {
+      "id": "campaign-reply-settings",
+      "locale": "es",
+      "layout": "mobile",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-reply-settings-es-mobile.png",
+      "sha256": "c78965360a348e6f9c16c1c0d5d10f5940debf0aec1a3b2ef75959fa0d2ded70",
+      "captured_at": "2026-10-26T22:42:20.840Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-reply-settings-es-mobile.json",
+      "sidecar_sha256": "41d43af04cdfd1f5f9873db65ee1fe83fd28134b4b2911fcc2786bedad12b2be",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/reply-settings-es-mobile-observed.json",
+      "current_observation_sha256": "d897a7b8f3462aa8e239e5341f075982f640b3792d6739e30272bf550124b0e6",
+      "current_observed_at": "2026-10-27T01:04:43.148Z",
+      "pixel_size": [
+        1592,
+        3052
+      ],
+      "css_crop": [
+        16,
+        782,
+        398,
+        763
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "format_and_crc": "pass",
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "Unassigned state, assignment search, open Equipos menu and both Atención demo/Ventas demo choices are visible.",
+        "Crop excludes channel summary and has no contradictory SMS content.",
+        "Desktop and mobile target menus are complete; mobile native team submenu overlaps underlying person rows without clipping its own controls.",
+        "Historical person order differs from current DOM: oldPNG shows Sofía Castro before Lucía García, while current DOM includes Mateo Ruiz/Sara López/Tomás Pérez and puts Sofía last. Retention is applicable control illustration, not exact current list parity."
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "severity": "documentary_nonblocking",
+      "ids": [
+        "campaign-reply-settings"
+      ],
+      "finding": "Current person list differs in order and membership from historical screenshot; reason wording must not imply identical current full list.",
+      "required_scope": "Retain as original dated generic assignment illustration; preserve this qualification in provenance."
+    }
+  ],
+  "remaining": [
+    "Complete source-selection manifest and English parity",
+    "Full Help desktop/mobile rendering and test-dialog scoped readability review",
+    "Build/integration and authorized publication checks"
+  ],
+  "mutations": [
+    "Only this local review receipt; no screenshots, application data, runtime, original artifacts or external state changed."
+  ]
+}

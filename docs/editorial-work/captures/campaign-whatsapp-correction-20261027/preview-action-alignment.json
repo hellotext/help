@@ -1,0 +1,28 @@
+{
+  "status": "version2_payloads_prepared; no app_DB_or_renderer_changes",
+  "recorded_at": "2026-10-27T01:02:04.299975+00:00",
+  "source_fact": "Root/source reviewer confirmed the native Campaign preview synthesizes a non-persisted quick_reply fallback: Detener ES, Unsubscribe EN. Existing templates still have zero persisted buttons; actual send serialization is not established by this observation.",
+  "root_decision": "Align the illustrative early component with the observed preview action only, preserving body/URL/time and keeping the action inert.",
+  "definitions": [
+    {
+      "locale": "es",
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/recipient-example.es.json",
+      "before_path": "audit/campaign-whatsapp-correction-20261027/before-preview-unsubscribe/recipient-example.es.json",
+      "before_sha256": "8e769859dc570a58fdca9365535da34c1efd077803ae6410ef497da546c60b62",
+      "after_sha256": "23f5b5e1d38ff8f96af99e1b9ddad11b59950ee2ad34430a9fc32eb9bc4403c4",
+      "body_URL_time_unchanged": true,
+      "action": "Detener"
+    },
+    {
+      "locale": "en",
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/recipient-example.en.json",
+      "before_path": "audit/campaign-whatsapp-correction-20261027/before-preview-unsubscribe/recipient-example.en.json",
+      "before_sha256": "848d2b44d4a0ff9ffc01e52c20a56c52e126cab3923a234789182584ecfdff9b",
+      "after_sha256": "ff3ad7a4e1ed5c1467119cfade013e9185e56ff07d552fea860ae72441d22b1c",
+      "body_URL_time_unchanged": true,
+      "action": "Unsubscribe"
+    }
+  ],
+  "previous_native_exports_and_import_preserved": true,
+  "new_native_exports_pending": true
+}

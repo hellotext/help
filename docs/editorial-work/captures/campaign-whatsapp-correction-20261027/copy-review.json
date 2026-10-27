@@ -1,0 +1,371 @@
+{
+  "schema": "campaign-whatsapp-final-copy-review-v1",
+  "reviewer": "/root/campaign_final_copy",
+  "reviewed_at": "2026-10-27T01:36:46.823677+00:00",
+  "result": "pass",
+  "scope": "Read-only final article copy, alt/caption, local link and ES/EN parity review. Only this audit JSON was written by this reviewer. No app, database, article, Git or publication mutations.",
+  "baseline_commit": "7eaa9c049c7f4dc939184b1d739a72f7ff9aa47a",
+  "worktree": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-campaign-whatsapp-correction-20261027",
+  "instructions_basis": "Inherited AGENTS.md, pinned hellotext-editorial skill, editorial guide/screenshots/messages/workflow/integration reads from this task; no repeated render or stylesheet tests.",
+  "articles": {
+    "es": {
+      "article": {
+        "path": "help-campaign-whatsapp-correction-20261027/_i18n/es/campaigns/creating-a-campaign.md",
+        "sha256": "d90c8aa0055195ff15644a9197e0bdff9465926dd3b82a70822db6346d88e755"
+      },
+      "review_method": "Incorporated independent full ES copy receipt and verified its final hash; own diff/parity checks",
+      "heading_count": 14,
+      "headings_unchanged_in_order": true,
+      "ordered_liquid_link_count": 14,
+      "link_targets_unchanged_in_order": true,
+      "missing_local_link_targets": [],
+      "figure_ids": [
+        "campaign-channels",
+        "campaign-audience",
+        "campaign-audience-limit",
+        "campaign-composer",
+        "campaign-tracked-link-tool",
+        "campaign-personalization-tool",
+        "campaign-coupon-picker",
+        "campaign-message-preview",
+        "campaign-test-destination",
+        "campaign-delivery-date",
+        "campaign-reply-settings",
+        "campaign-confirmation"
+      ],
+      "unique_png_reference_count": 21,
+      "missing_png_references": [],
+      "screenshot_markup_interactive_elements": [],
+      "retained_pngs_identical_to_baseline": [
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-audience-es-desktop.png",
+          "sha256": "9c74f1e1d6492944e9953f0f87f468906d09a20609dc8c0b2fdddfc99a314cc6"
+        },
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-audience-es-mobile.png",
+          "sha256": "5b98f2333421778ab1fc64e60fc785c8cca21aaff0da782c19d47e416e35ec8f"
+        },
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-audience-limit-es-desktop.png",
+          "sha256": "59504305ea4dcfd2a65be1325b7639e63d85d3b68466848bbfa88ae79b1043e7"
+        },
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-delivery-date-es-desktop.png",
+          "sha256": "8d796336f8bcb18bcffe0a3fec779b386bb02c008966f7f8ddc5ffa50a3d0d5d"
+        },
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-delivery-date-es-mobile.png",
+          "sha256": "9b8cca07b94d906083b9cd6e23735a454aca7d2972fa728fd6035be682771d83"
+        },
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-reply-settings-es-desktop.png",
+          "sha256": "2298b2948364551218a3bbc4f2da7ff696f35239f3622214ac074923ebfa89d6"
+        },
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-reply-settings-es-mobile.png",
+          "sha256": "c78965360a348e6f9c16c1c0d5d10f5940debf0aec1a3b2ef75959fa0d2ded70"
+        }
+      ],
+      "early_example": {
+        "include": {
+          "path": "help-campaign-whatsapp-correction-20261027/_includes/editorial/es/custom-e5e9a9e137eaff6e.html",
+          "sha256": "1b4afbfc5e2c5a750151e9fd049bd8bcaf14979cf209944f95cbe4f6490558e3"
+        },
+        "definition": {
+          "path": "help-campaign-whatsapp-correction-20261027/docs/editorial-work/captures/campaign-whatsapp-correction-20261027/recipient-example.es.json",
+          "sha256": "23f5b5e1d38ff8f96af99e1b9ddad11b59950ee2ad34430a9fc32eb9bc4403c4"
+        },
+        "before_first_heading": true,
+        "channel": "whatsapp",
+        "actions": [
+          "Detener"
+        ],
+        "caption": "Ejemplo ilustrativo de WhatsApp de Luma, alineado con la vista previa de una campaña con datos ficticios. El enlace de novedades y Detener son inertes. No acredita un envío, una aprobación de Meta ni una entrega.",
+        "static_include_anchor_or_button_elements": []
+      }
+    },
+    "en": {
+      "article": {
+        "path": "help-campaign-whatsapp-correction-20261027/_i18n/en/campaigns/creating-a-campaign.md",
+        "sha256": "0169daac79dc25b5364287d9f48835519617c050c4d638855a206e763e3cf49a"
+      },
+      "review_method": "Read complete final English article and full diff against baseline; reviewed captions, alt text, procedure labels and semantic parity",
+      "heading_count": 14,
+      "headings_unchanged_in_order": true,
+      "ordered_liquid_link_count": 14,
+      "link_targets_unchanged_in_order": true,
+      "missing_local_link_targets": [],
+      "figure_ids": [
+        "campaign-channels",
+        "campaign-audience",
+        "campaign-audience-limit",
+        "campaign-composer",
+        "campaign-tracked-link-tool",
+        "campaign-personalization-tool",
+        "campaign-coupon-picker",
+        "campaign-message-preview",
+        "campaign-test-destination",
+        "campaign-delivery-date",
+        "campaign-reply-settings",
+        "campaign-confirmation"
+      ],
+      "unique_png_reference_count": 21,
+      "missing_png_references": [],
+      "screenshot_markup_interactive_elements": [],
+      "retained_pngs_identical_to_baseline": [
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-audience-en-desktop.png",
+          "sha256": "6a8cf5c3a7bd74241fdcfd9a4da12fe8859d2f76b643167898c16d577ad788fc"
+        },
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-audience-en-mobile.png",
+          "sha256": "92feaa5a9a2deb9acb83f2eca68a22188cb07003d2503a3cada83be18c4afd84"
+        },
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-audience-limit-en-desktop.png",
+          "sha256": "b10da63ab8dc9137e5d9952ef1b97ff0a3d5f87e1f83fb378856f7d0f4ce7f30"
+        },
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-delivery-date-en-desktop.png",
+          "sha256": "02983b0a49505f9f8c3ab5e7f4e92ad1b44690527671be03db767c1050d9c8c3"
+        },
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-delivery-date-en-mobile.png",
+          "sha256": "d0c9572caecc0ff559293c0d3c7659494d2cfff74421401bb985fb97c6999a5f"
+        },
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-reply-settings-en-desktop.png",
+          "sha256": "b23f2ecb5390d4658f8afb7fa3870051e05acf22bf9dbcfb3e50178f1da79908"
+        },
+        {
+          "path": "/images/campaigns/creating-a-campaign/campaign-reply-settings-en-mobile.png",
+          "sha256": "f7561d7e01bb8e69b405d482035feb8b552bdf1d528a644abea033b0e55be2f6"
+        }
+      ],
+      "early_example": {
+        "include": {
+          "path": "help-campaign-whatsapp-correction-20261027/_includes/editorial/en/custom-8c762f8c1e7828a2.html",
+          "sha256": "90e151bf54316e658f59dc2129927f7a88acf0a9e1a435898056dfc68b822671"
+        },
+        "definition": {
+          "path": "help-campaign-whatsapp-correction-20261027/docs/editorial-work/captures/campaign-whatsapp-correction-20261027/recipient-example.en.json",
+          "sha256": "ff3ad7a4e1ed5c1467119cfade013e9185e56ff07d552fea860ae72441d22b1c"
+        },
+        "before_first_heading": true,
+        "channel": "whatsapp",
+        "actions": [
+          "Unsubscribe"
+        ],
+        "caption": "Illustrative WhatsApp example from Luma, aligned with a campaign preview using fictitious data. The new-arrivals link and Unsubscribe are inert. It does not establish a send, Meta approval or delivery.",
+        "static_include_anchor_or_button_elements": []
+      }
+    }
+  },
+  "stub": {
+    "path": "help-campaign-whatsapp-correction-20261027/_campaigns/creating-a-campaign.md",
+    "sha256": "b4b2ddfaf2d8989d88ef8ea3d09dfe5714be6b7d6be02d3776ce10266680bc19",
+    "identical_to_baseline": true
+  },
+  "incorporated_es_copy_review": {
+    "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/es-copy-review.json",
+    "sha256": "652151fb98496200f556aef744611c5415e32e86e20838dd94b96c7f49535170",
+    "reviewer": "/root/campaign_wa_pixels/retained_es_pixels",
+    "result": "pass_after_scoped_alt_correction",
+    "article_sha256": "d90c8aa0055195ff15644a9197e0bdff9465926dd3b82a70822db6346d88e755",
+    "resolved_finding": "Common composer alt no longer claims a sender is visible on mobile."
+  },
+  "english_native_pixel_receipts": [
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-15-channels-en-desktop.json",
+      "sha256": "92082a312a37201076f56a0d1a630afaa4b68a2e7dfe8192ab4ac467b4f9bae8",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-channels-en-desktop.png",
+      "source_sha256": "d6d96c64c4513152a41ee5383bda80906bfb6aefef86015e1189ae2f26b1b926",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "English heading and all four channel cards are complete.",
+        "WhatsApp only is visibly selected and enabled; no unavailable state remains on WhatsApp options.",
+        "No clipped labels/card border, pointer, debug overlay or unintended customer data observed."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-16-channels-en-mobile.json",
+      "sha256": "42e2d549040e651ab0f5bfeda52a4aa095263ee4bc24548770644f742e99ddc5",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-channels-en-mobile.png",
+      "source_sha256": "da4e4448ed520a0412fa45eb340e5b042fc7e9c5346ef0dcfadb7042788109cd",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "Native mobile English heading and four complete cards fit in the source.",
+        "WhatsApp only is visibly selected; body wrapping and check mark remain clear.",
+        "No clipped labels/card border, pointer, debug overlay or unintended customer data observed."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-17-composer-en-desktop.json",
+      "sha256": "d7820bfd9a4fe0189ef17e8e4acabc360f4317c702eb84cfb3633c0e27e9f29f",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-composer-en-desktop.png",
+      "source_sha256": "245847d60e2f737d245272fc4426c4b79134e6a0f44af3db28736d969d17b924",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "English header and complete native WhatsApp editor, footer placeholder, toolbar and fictional +12025550199 sender are visible.",
+        "Club message and name/tracked-link tokens match the English draft; no SMS part counter or incorrect shell.",
+        "No clipped panel/control, pointer or debug overlay."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-18-message-preview-en-desktop.json",
+      "sha256": "5250d53b7a64ed21733e2ac331190906fbf23988c64264d58fd6b8f81fab84ef",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-message-preview-en-desktop.png",
+      "source_sha256": "d59d7d1c87a42e66c398906e25243eedf22554e5aaa6bd39dd65dcc902317bc8",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "Complete native WhatsApp channel chip, phone shell, message bubble, Unsubscribe row and test trigger are visible.",
+        "Rendered Sofía/Club/link content matches the English editor; Unsubscribe is native and not an invented action.",
+        "No clipped phone/action, pointer or debug overlay. Native blank phone area retained."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-19-test-destination-en-desktop.json",
+      "sha256": "37e19a9a621b08c32f907763d3f01d8f2a6c5e32d743dfce85cfd0f188122f77",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-test-destination-en-desktop.png",
+      "source_sha256": "7597a8b35a2bde31a41af81f7446fbec90e12a46f6ea3a35b7a8906edb46f4bd",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "Complete English test dialog with country selector, empty phone placeholder, disabled Send Message, Cancel and original test trigger.",
+        "Native input caret is visible in empty field; no entered number or confirmation modal.",
+        "Green WhatsApp context retained; no clipped border/shadow or debug overlay. Actual Help enlargement remains pending."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-20-composer-en-mobile.json",
+      "sha256": "f8fd9a943fcfc4d84b1c524d777e1a9143d50dee7684d43dc3c76447572e6f3a",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-composer-en-mobile.png",
+      "source_sha256": "fface0c38b00dae21edbf1807c48a5a5d864b892fbc84b8ba0fe2941c90bd085",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "Complete English header, native WhatsApp editor, meaningful Club/name/link text, empty footer and toolbar visible.",
+        "Preview control fully visible below editor; native mobile layout has no sender label and no stray sender fragment.",
+        "No clipped panel/control, pointer or debug overlay."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-21-message-preview-en-mobile.json",
+      "sha256": "4ec297d27a82ceb8726767a1ff2dc697449bd3d91d46c65d7c580e7f7c4bf453",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-message-preview-en-mobile.png",
+      "source_sha256": "51889ee7679b4649c86abb197f15b2bbc50bc3c05a9f1f7d08e2186c1a106b19",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "Complete mobile close control, WhatsApp chip, phone, message bubble, Unsubscribe row and test trigger.",
+        "English content matches desktop and stored draft; native blank phone area retained.",
+        "No clipped phone/action, pointer or debug overlay."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-22-test-destination-en-mobile.json",
+      "sha256": "309c14be3d8a8eff24cba246bd6bd5df7e6a7b7d7659acb1b5fd2c7c55b0b1f8",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-test-destination-en-mobile.png",
+      "source_sha256": "0e2305d54e5673dbf37b9820d432e4c73e73baa8b5c2bcdb5bfe7984df5759a4",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "Native450CSS mobile viewport gives complete English test popup and full original test trigger with margins.",
+        "Input is empty with placeholder and native caret, Send Message disabled, no confirmation modal.",
+        "No clipped border/shadow or pointer/debug overlay; source is suitable for later six-view Help sizing review."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-23-confirmation-en-desktop.json",
+      "sha256": "6c75861c8e13221db86f57e19505adc59302fc8db30e2d5cb76ead9148b0f32c",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-confirmation-en-desktop.png",
+      "source_sha256": "12299e912bdc3d4a211f4e18fb53d14e3e66e325f3da02d260125304a5040378",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "Complete English heading/count2/Club included/QA excluded and three summary cards fit.",
+        "WhatsApp only, November2 at12:00 and No specific assignment agree with prepared draft; no invented Meta cost or approval claim.",
+        "No clipped border/control, pointer or debug overlay."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-24-confirmation-en-mobile.json",
+      "sha256": "70f5559ae5e232fd3e602598ed4cd3df69f1be39ca42af0bf7445aca23f5d5f1",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-confirmation-en-mobile.png",
+      "source_sha256": "a7dda045f2a310c6079f07a706367f50cc5c91e641cd18fc006f855308a3ca3c",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "Mobile count2, lists, WhatsApp-only, date/time and unassigned cards are complete with native wrapping.",
+        "No Meta cost figure shown; summary agrees with desktop and fictional draft.",
+        "No clipped border/control, pointer or debug overlay."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-25-tracked-link-tool-en-desktop.json",
+      "sha256": "e90a34775eab63a0a4f61511edf51129f44026a6c13a6216d7e603961692a3cc",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-tracked-link-tool-en-desktop.png",
+      "source_sha256": "959d0c9081d00693458570318ea735bdb9a920bf040ab4ea206add3e7438a990",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "Complete Create a shortlink panel with instructional text, URL input, Add short link and Cancel.",
+        "Highlighted link tool and full fictional sender in WhatsApp toolbar provide context.",
+        "No clipped popup/control, pointer or debug overlay; editor-body crop boundary is intentional tool focus."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-26-personalization-tool-en-desktop.json",
+      "sha256": "00d183e86a17812fd03f143b70ef59969b127c0ba13e05a5033aed6bc697977e",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-personalization-tool-en-desktop.png",
+      "source_sha256": "6fe683d0d50ae932759e5e9cc137b850827957ef0aa231a332963523c1c5e6b5",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "Complete English Tags panel with all property chips, WhatsApp toolbar and full fictional sender.",
+        "Nivel de fidelidad is the unchanged fictional custom-property name; native duplicate birthday chip retained. Neither is a fabricated translation.",
+        "No clipped popup/chip, pointer or debug overlay."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-27-coupon-picker-en-desktop.json",
+      "sha256": "cc6f94afd31071cf8ce827445cb34b07ddeb75b23566c6d4dc3aeabddee7b4df",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-coupon-picker-en-desktop.png",
+      "source_sha256": "33c370b643b7d7737e637b053a1c806d1e96ff7b3382cc206521844e0f5a79af",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "Native English Coupons picker is fully legible with GUIA-QR-10 and None selected; complete popup corners, focus border and shadows remain visible.",
+        "WhatsApp media/button/location/link/personalization/coupon toolbar and full fictional sender +12025550199 remain visible; no SMS-only counter or partial sender fragment.",
+        "Popup naturally overlaps the native background toolbar; no image edits or send actions are represented."
+      ]
+    },
+    {
+      "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-28-coupon-picker-en-mobile.json",
+      "sha256": "e653d08ed5217637edfba4067bc6422a6c0ce3e298bc5d6957279aa223b65478",
+      "source": "help-campaign-whatsapp-correction-capture-20261027/sources/campaign-coupon-picker-en-mobile.png",
+      "source_sha256": "3752e21dd5cd209bffa351b19a1759ad3136b2ef76d2a66a730dd9ad4408c6f5",
+      "copied_help_asset_sha256_matches": true,
+      "observations_used_for_copy_review": [
+        "Native English Coupons picker, GUIA-QR-10 and None selected are complete and legible; full menu and outer container edges/shadows remain visible.",
+        "430-CSS viewport uses the same native layout as corrected ES: sender control is hidden without a partial +1 fragment; visible WhatsApp toolbar is coherent with the composer.",
+        "Dropdown naturally overlaps background icons; no synthetic pixel or DOM changes are claimed."
+      ]
+    }
+  ],
+  "own_native_pixel_label_spot_checks": [
+    "campaign-channels-en-desktop.png: WhatsApp only is enabled and selected among four options.",
+    "campaign-message-preview-en-desktop.png: Sofía, Club new arrivals, tracked link and Unsubscribe match alt/caption.",
+    "campaign-test-destination-en-desktop.png: Send message to this number, empty phone field, disabled Send Message and Send me a test message match copy."
+  ],
+  "parity_observations": [
+    "Both articles preserve all 14 headings and 14 ordered Liquid links; all targets exist locally. The shared article stub is unchanged.",
+    "Both articles contain the same 12 screenshot figure identifiers in the same order and 21 existing PNG sources per locale (14 new, 7 retained byte-for-byte from baseline).",
+    "Selector, composer, tools, native preview, test destination and final confirmation consistently describe the WhatsApp example. General SMS/Email guidance remains valid channel-conditional guidance from baseline.",
+    "The shared composer alt describes name tag, tracked link and composition tools without claiming the desktop-only sender is visible on mobile.",
+    "The illustrative native example precedes the first heading and explicitly disclaims a real send. Its caption states that its reserved example.com link and Detener/Unsubscribe control are inert and prove neither Meta approval nor delivery.",
+    "ES BAJA para salir and Detener, and EN localized Club message and Unsubscribe follow their native previews. This is intentional locale-specific content, not a missing translation.",
+    "Preview captions distinguish native preview from evidence of sending or delivery. Test captions describe an empty phone field and disabled submit; reader instructions do not assert that this fixture sent a test.",
+    "Confirmation copy matches two targeted customers, Club included, QA excluded, WhatsApp only, November 2 at 12:00 and no specific reply assignment. It makes no numeric Meta-cost or approval claim.",
+    "Article markup limits the scoped width:100% and 666px frame exception to the test-destination figure; other screenshot images use width:auto. Runtime display-scale and readability verification remains with full-page QA."
+  ],
+  "findings": [],
+  "copy_review_blockers": [],
+  "outside_this_gate": [
+    "Full Help build and rendered desktop/narrow/mobile review in both languages.",
+    "Complete retained English source-currentness gate.",
+    "PR checks, merge, deploy and public URL/image verification."
+  ],
+  "validity": "This copy pass is bound to the recorded article/include/definition hashes. Re-review changed prose, caption/alt, figure source or native example bytes before relying on it."
+}

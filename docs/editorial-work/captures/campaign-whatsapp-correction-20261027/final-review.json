@@ -1,0 +1,587 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-27T02:19:27.170614+00:00",
+  "ready_for_local_verifying_commit": true,
+  "findings": [],
+  "articles": [
+    {
+      "locale": "es",
+      "source": "_i18n/es/campaigns/creating-a-campaign.md",
+      "source_sha256": "d90c8aa0055195ff15644a9197e0bdff9465926dd3b82a70822db6346d88e755",
+      "built_html": "_site/es/crear-una-campaña.html",
+      "built_html_sha256": "99c43869d3ea80422f294b2a6d660a50df6b8bb6fd289bbb7d2c0c3e791a7d17",
+      "route": "/es/crear-una-campaña.html",
+      "figure_sources": {
+        "campaign-channels": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-channels-es-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-channels-es-desktop.png"
+        },
+        "campaign-audience": {
+          "mobile": "/images/campaigns/creating-a-campaign/campaign-audience-es-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign/campaign-audience-es-desktop.png"
+        },
+        "campaign-audience-limit": {
+          "mobile": "/images/campaigns/creating-a-campaign/campaign-audience-limit-es-desktop.png",
+          "desktop": "/images/campaigns/creating-a-campaign/campaign-audience-limit-es-desktop.png"
+        },
+        "campaign-composer": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-composer-es-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-composer-es-desktop.png"
+        },
+        "campaign-tracked-link-tool": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-tracked-link-tool-es-desktop.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-tracked-link-tool-es-desktop.png"
+        },
+        "campaign-personalization-tool": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-personalization-tool-es-desktop.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-personalization-tool-es-desktop.png"
+        },
+        "campaign-coupon-picker": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-es-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-es-desktop.png"
+        },
+        "campaign-message-preview": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-es-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-es-desktop.png"
+        },
+        "campaign-test-destination": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-es-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-es-desktop.png"
+        },
+        "campaign-delivery-date": {
+          "mobile": "/images/campaigns/creating-a-campaign/campaign-delivery-date-es-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign/campaign-delivery-date-es-desktop.png"
+        },
+        "campaign-reply-settings": {
+          "mobile": "/images/campaigns/creating-a-campaign/campaign-reply-settings-es-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign/campaign-reply-settings-es-desktop.png"
+        },
+        "campaign-confirmation": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-es-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-es-desktop.png"
+        }
+      },
+      "ordered_links": [
+        "_audience/consent-and-subscriber-status.md",
+        "_audience/lists-and-segments.md",
+        "_numbers/message-editor-overview.md",
+        "_analytics-reporting-attribution/tracked-links.md",
+        "_audience/personalization-tags.md",
+        "_analytics-reporting-attribution/campaign-reporting.md",
+        "_campaigns/campaigns-overview.md",
+        "_campaigns/campaign-best-practices.md",
+        "_campaigns/email-image-sizes.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_numbers/messaging-overview.md",
+        "_numbers/message-editor-overview.md",
+        "_analytics-reporting-attribution/campaign-reporting.md",
+        "_getting-started/how-hellotext-works.md"
+      ],
+      "heading_count": 14
+    },
+    {
+      "locale": "en",
+      "source": "_i18n/en/campaigns/creating-a-campaign.md",
+      "source_sha256": "0169daac79dc25b5364287d9f48835519617c050c4d638855a206e763e3cf49a",
+      "built_html": "_site/creating-a-campaign.html",
+      "built_html_sha256": "04c2326a9efae59e1afb792a902ba3fddbf2222fbb681b50fd4059ba7f794293",
+      "route": "/creating-a-campaign.html",
+      "figure_sources": {
+        "campaign-channels": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-channels-en-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-channels-en-desktop.png"
+        },
+        "campaign-audience": {
+          "mobile": "/images/campaigns/creating-a-campaign/campaign-audience-en-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign/campaign-audience-en-desktop.png"
+        },
+        "campaign-audience-limit": {
+          "mobile": "/images/campaigns/creating-a-campaign/campaign-audience-limit-en-desktop.png",
+          "desktop": "/images/campaigns/creating-a-campaign/campaign-audience-limit-en-desktop.png"
+        },
+        "campaign-composer": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-composer-en-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-composer-en-desktop.png"
+        },
+        "campaign-tracked-link-tool": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-tracked-link-tool-en-desktop.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-tracked-link-tool-en-desktop.png"
+        },
+        "campaign-personalization-tool": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-personalization-tool-en-desktop.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-personalization-tool-en-desktop.png"
+        },
+        "campaign-coupon-picker": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-en-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-coupon-picker-en-desktop.png"
+        },
+        "campaign-message-preview": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-en-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-message-preview-en-desktop.png"
+        },
+        "campaign-test-destination": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-en-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-test-destination-en-desktop.png"
+        },
+        "campaign-delivery-date": {
+          "mobile": "/images/campaigns/creating-a-campaign/campaign-delivery-date-en-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign/campaign-delivery-date-en-desktop.png"
+        },
+        "campaign-reply-settings": {
+          "mobile": "/images/campaigns/creating-a-campaign/campaign-reply-settings-en-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign/campaign-reply-settings-en-desktop.png"
+        },
+        "campaign-confirmation": {
+          "mobile": "/images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-en-mobile.png",
+          "desktop": "/images/campaigns/creating-a-campaign-whatsapp/campaign-confirmation-en-desktop.png"
+        }
+      },
+      "ordered_links": [
+        "_audience/consent-and-subscriber-status.md",
+        "_audience/lists-and-segments.md",
+        "_numbers/message-editor-overview.md",
+        "_analytics-reporting-attribution/tracked-links.md",
+        "_audience/personalization-tags.md",
+        "_analytics-reporting-attribution/campaign-reporting.md",
+        "_campaigns/campaigns-overview.md",
+        "_campaigns/campaign-best-practices.md",
+        "_campaigns/email-image-sizes.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_numbers/messaging-overview.md",
+        "_numbers/message-editor-overview.md",
+        "_analytics-reporting-attribution/campaign-reporting.md",
+        "_getting-started/how-hellotext-works.md"
+      ],
+      "heading_count": 14
+    }
+  ],
+  "evidence": [
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/bilingual-source-review-gate.json",
+      "sha256": "6053a66efcdbce0c70949442ad65c705cad7da5a06d9cebf83074fd06cf77634"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/capture-closure.json",
+      "sha256": "fd7aa59e24f8023dd8692b0636c10a582b75361a398d9861abddd57d9224b711"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/capture-execution-history.json",
+      "sha256": "ef07957e76d2326d539dec4d86349d4d9a9259fe605eb2c4a51d9fc82dde9b23"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/capture-services-closed.json",
+      "sha256": "78fa9de59bd9cfd235e1e560936d93de357625b0d42e25ee750196cb0002d36d"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/capture-traffic-summary.json",
+      "sha256": "945b4ac5cdbaf2ba736e8ff1a5db64596a4f46fac4dd8f28c6e6904b5abaec98"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/copy-review.json",
+      "sha256": "ce6c316d8589b6565d7b9dd2cda89bb16ea50f324add663ee6aa030ba8894e7b"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/correction-plan.json",
+      "sha256": "ef5f3dfd2b2dc8108c8d567d2748d6a3ab3bbd5d36477040f39352fbc5f60ab7"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/editorial-insertion-plan.json",
+      "sha256": "5c3f1cd0ff7b6532e5115e64b7c0a7a979914fd2b56ea75c569b5bcee007233b"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/evidence-index.json",
+      "sha256": "3b7f158c3eb6303628315cc669fe95951303d45e8b251ba4ed044c11cabad54f"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/integration-record.json",
+      "sha256": "5657f97b14e50f2137cd8ae42ed47d3c832dba927482bdcbbe8f2141dd18d840"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/link-destination-alignment.json",
+      "sha256": "45e3eb3df91569f1c2aa0060abc24f2c1be9689dd70a8208cbc571d7cba76e09"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/native-example-import-v2.json",
+      "sha256": "4ec3fa6cb5bd7a4716d6a0fe04f8dcf230ea65899f49c39bb5131490d469b0ee"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/native-example-import.json",
+      "sha256": "8a062a2881ed0a60167db097a2269996fcfe1d9913e2fa145c9fdb0b8e60b0bd"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/native-export-result.json",
+      "sha256": "a568977930354c739e425e2e2bb29a92e3b6a82203a15ffdf5926df13b9367a7"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/native-unsubscribe-export-result.json",
+      "sha256": "eec3ef603da6145fad565416168bb38efe62e3b2215aea95ee6c3810a3ad841a"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/partial-source-integration.json",
+      "sha256": "0e938bc7c806fa0afa1e2014ce349051c4b1e7f96d65dd777d9239d9b44649d0"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/preservation.json",
+      "sha256": "ac74e0c91bf8f8849a7074df9d4ca17164b723c8386d600ed11e2e824e630788"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/preview-action-alignment.json",
+      "sha256": "256e776416fa0abfb80fad7a8cfb1b6092adfb394b46f9d599d477c88d96131b"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/recipient-example-contract.json",
+      "sha256": "57a2fc966efd87f033e0c1c352cffe7c51a97f3d6e1603f5f939223012b86ea2"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/recipient-example.en.json",
+      "sha256": "ff3ad7a4e1ed5c1467119cfade013e9185e56ff07d552fea860ae72441d22b1c"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/recipient-example.es.json",
+      "sha256": "23f5b5e1d38ff8f96af99e1b9ddad11b59950ee2ad34430a9fc32eb9bc4403c4"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retained-pixels.json",
+      "sha256": "b8d854cab1d400652a99fab831fe53963be09c0c1b090298f8a5898e7e9e6d3a"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retained-source-register.json",
+      "sha256": "4cc5d789066043c076b29406bac0e8e4b0014c97a458a80680d79649e427172d"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/audience-en-desktop-observed.json",
+      "sha256": "f938e34ff51f732b71143017674716f1e5d562c9085f44d5bd0e98fb36008d2d"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/audience-en-mobile-observed.json",
+      "sha256": "fff1dcaec28afb271a9242c020e92ddee310355491baa98730404ea715b4e7a3"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/audience-es-desktop-observed.json",
+      "sha256": "2613408bf6e6debc87ca9283be1271497d0c3b55e5ff93c6333511578404b907"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/audience-es-mobile-observed.json",
+      "sha256": "8391ea69484c372764a7d73450eb4246630439abf48b6f52ae5fa256fae6800c"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/audience-limit-en-desktop-observed.json",
+      "sha256": "3a49be1378d3ed1cd11ffb01b0ef496c7ef2d912451cea888dd76a7d92376e65"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/audience-limit-es-desktop-observed.json",
+      "sha256": "0c99caa2f9bb914d3258f366d30be403f572e9c3d039d29188a1f847085d5c33"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/delivery-date-en-desktop-observed.json",
+      "sha256": "637fcd3662ad02e379f3be94dad776b3ece7cd5c381b87f9330fce21e3906d68"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/delivery-date-en-mobile-observed.json",
+      "sha256": "9784a1b598a5e11380027448236d1cebe550f0a00244640e608ddb35a1dc82f8"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/delivery-date-es-desktop-observed.json",
+      "sha256": "1b5d47fd73f8708a3b578203131b789e8c7479d442cb13cc5db348652acb82f4"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/delivery-date-es-mobile-observed.json",
+      "sha256": "c29f6748a245064f27573b79c2972f4ebb023858587f72b48d4e6270c588a02f"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/en-applicability.json",
+      "sha256": "c0b26d3a618c76e8eb7aa346bf3e54559f1ce43cd8bcbfd90b446beaf85ceef9"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/es-applicability.json",
+      "sha256": "9bdc86584ee5a6d957432faf81cdbbc9e428366d0ecb6e11fa9794a6a95e2b8a"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/reply-settings-en-desktop-observed.json",
+      "sha256": "ee1ad3cd46078df83ef6c7054c5ba3ef937e843bc2e024bbba5c640e07a49b53"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/reply-settings-en-mobile-observed.json",
+      "sha256": "1d36ccc51520582bd8bc7893c02bf4205b0daf3df1a32097e844d51abe829203"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/reply-settings-es-desktop-observed.json",
+      "sha256": "09e50fe1e62249fb0edc2836221fffef403fb4023dfd1b84baeecc983acdb72a"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/reply-settings-es-mobile-observed.json",
+      "sha256": "d897a7b8f3462aa8e239e5341f075982f640b3792d6739e30272bf550124b0e6"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/retained-en-review.json",
+      "sha256": "2286b1ef22df92c8cecd3307c2649bf7e9313f7e3a2fe81b1a3dc10b3338d80d"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/retained-es-review.json",
+      "sha256": "d8eb02219978de8b178190ac279d2ac8f19dede9715dadc864de5c8edc81b1ec"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/selected-en-retained.json",
+      "sha256": "6b558a56b7071d539a952823a25273c80d0dfae7e7b8b5ff1d7b2c6fa4aa0b93"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retention/selected-es-retained.json",
+      "sha256": "84b7d9959404921a6b3717eebfb33ee4823f7e310adbb235fb1a20d003373681"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/root-test-dialog-review.json",
+      "sha256": "bd7e89b963a9c10cd2725afc18544a604151410eec9b51bcc2ff8c5d3f301641"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/runtime-closure.json",
+      "sha256": "487c410619ad5a63af573bef0214a4ba19d8cb4fd16b56a1972815e4aed202c9"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/source-admission.json",
+      "sha256": "aaba0d5d6f040c9b307ee27453e963e58bf72080252eae5a2d8e9c2a0b679893"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/source-manifest.json",
+      "sha256": "358eaf360c47f35208c3cdd99b23db2c5ee1ef5eb9f5cce3c835024c7e1931ed"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/source-pixels-en.json",
+      "sha256": "265b1aacc601d376287fefb75e29845c50926a489fef84f88effa4eff487b164"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/source-pixels-es.json",
+      "sha256": "72a2b7fe1db97b60a5a9f148b9615706b0d7984c4113feb043e55a00d504bbc0"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/source-register.json",
+      "sha256": "15f797468128646c006bd159288f837fc0cd7cf6ab266cd6b23519d83d06ff20"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/test-dialog-size-plan.json",
+      "sha256": "75c70ff555e2dc3f0d140c388fec0bd6d3055382112b3ce323620476741a65e5"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/build-execution.json",
+      "sha256": "41e2c021f783ebeb450cf8bc2bc3c3fce7c886dabc63b2fada9d915e0c774cc0"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/checkpoint.json",
+      "sha256": "e770d7793c427409cce801f0e64f822dbe7f809e57d89e8d57b5f356df3497f1"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/help-process-closure.json",
+      "sha256": "62ac8de8e5efde2fe51fa5d76d7588e0ce9c6b8fb01ae3861adb5b648749898e"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/help-processes-start.json",
+      "sha256": "98a5c464c550afd86ad3b1a12f5a6ae420b86684c87600ee6b66f9616d450869"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/help-processes.json",
+      "sha256": "35f2fb3e9a4b34c56db4989e662d873c38311bd1334e0e72274a76d42eaed291"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/http-checks.json",
+      "sha256": "f27a393852ceae74dfd10322400dc0dc8476a97eed380d452b0a9807fd5e50c1"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-en-1440-independent-review.json",
+      "sha256": "76a0e02c4812b598f21559db07bf6b76a3214d96ce4e5d663c3f86c3f2f25a17"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-en-390-independent-review.json",
+      "sha256": "dc3ffbedf2ac4e2dfebeb6be912e658a3aeecfba60bb39478171365fac6c285b"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-en-580-independent-review.json",
+      "sha256": "5afccc469aa0c0a18507528677d89cfa8fa3fc6a8e94dc353cec0ac9f50a10e3"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-es-1440-independent-review.json",
+      "sha256": "b6c8954fd55c5814be3efe48d824804175befe057264489d84cb6bb0c5e056fa"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-es-390-independent-review.json",
+      "sha256": "62e58d5db48fa0143894463311858224c0a56cb8806fad9cd1e21dec4fdf3970"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-es-580-independent-review.json",
+      "sha256": "52c9d5a9180ac4a3a44107a59b804170995060232fd1fb79f6bdca4280dc510e"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/capture-receipt.json",
+      "sha256": "e4e5038ebc039f4fa35d7b486f3273f0d6d1ac770ccd995dd7c6830844679355"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/en-1440.json",
+      "sha256": "7c5a740106ef895254eb3ee924e8f1db7efd99b73307d60de392f32c102d5bcb"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/en-390.json",
+      "sha256": "9ba47d784d791db32a92b620f6c34443136b5e5e8b31735c2f7c2f578cf75adb"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/en-580.json",
+      "sha256": "5601ebbb21a0732fccbf5effaf705d338b9523ebfa07813169f95d05f5c9dae2"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/es-1440.json",
+      "sha256": "007976c40d97af07bdcd0120feef61a9036a3b2774c80ef41fc29667d1ddf63d"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/es-390.json",
+      "sha256": "dc09fcbfa861a3b2070c2344373d4b7ee1d3e01beb88d45224d0d41fb1336575"
+    },
+    {
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/es-580.json",
+      "sha256": "90e52324cd84fc7cce63eb5c0e91459f3c23a9ba4c6987f6fb431f94c6d92a4e"
+    }
+  ],
+  "page_review": {
+    "checkpoint_sha256": "e770d7793c427409cce801f0e64f822dbe7f809e57d89e8d57b5f356df3497f1",
+    "capture_receipt_sha256": "e4e5038ebc039f4fa35d7b486f3273f0d6d1ac770ccd995dd7c6830844679355",
+    "segments": 97,
+    "details": 72,
+    "views": [
+      {
+        "locale": "es",
+        "width": 1440,
+        "status": "passed",
+        "document_height_css": 16454,
+        "segments": 15,
+        "details": 12,
+        "packet": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/es-1440.json",
+          "sha256": "007976c40d97af07bdcd0120feef61a9036a3b2774c80ef41fc29667d1ddf63d"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-es-1440-independent-review.json",
+          "sha256": "b6c8954fd55c5814be3efe48d824804175befe057264489d84cb6bb0c5e056fa"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-es-1440-independent-review.json",
+          "sha256": "b6c8954fd55c5814be3efe48d824804175befe057264489d84cb6bb0c5e056fa"
+        }
+      },
+      {
+        "locale": "es",
+        "width": 580,
+        "status": "passed",
+        "document_height_css": 18262,
+        "segments": 17,
+        "details": 12,
+        "packet": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/es-580.json",
+          "sha256": "90e52324cd84fc7cce63eb5c0e91459f3c23a9ba4c6987f6fb431f94c6d92a4e"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-es-580-independent-review.json",
+          "sha256": "52c9d5a9180ac4a3a44107a59b804170995060232fd1fb79f6bdca4280dc510e"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-es-580-independent-review.json",
+          "sha256": "52c9d5a9180ac4a3a44107a59b804170995060232fd1fb79f6bdca4280dc510e"
+        }
+      },
+      {
+        "locale": "es",
+        "width": 390,
+        "status": "passed",
+        "document_height_css": 18267,
+        "segments": 17,
+        "details": 12,
+        "packet": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/es-390.json",
+          "sha256": "dc09fcbfa861a3b2070c2344373d4b7ee1d3e01beb88d45224d0d41fb1336575"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-es-390-independent-review.json",
+          "sha256": "62e58d5db48fa0143894463311858224c0a56cb8806fad9cd1e21dec4fdf3970"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-es-390-independent-review.json",
+          "sha256": "62e58d5db48fa0143894463311858224c0a56cb8806fad9cd1e21dec4fdf3970"
+        }
+      },
+      {
+        "locale": "en",
+        "width": 1440,
+        "status": "passed",
+        "document_height_css": 16268,
+        "segments": 15,
+        "details": 12,
+        "packet": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/en-1440.json",
+          "sha256": "7c5a740106ef895254eb3ee924e8f1db7efd99b73307d60de392f32c102d5bcb"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-en-1440-independent-review.json",
+          "sha256": "76a0e02c4812b598f21559db07bf6b76a3214d96ce4e5d663c3f86c3f2f25a17"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-en-1440-independent-review.json",
+          "sha256": "76a0e02c4812b598f21559db07bf6b76a3214d96ce4e5d663c3f86c3f2f25a17"
+        }
+      },
+      {
+        "locale": "en",
+        "width": 580,
+        "status": "passed",
+        "document_height_css": 17756,
+        "segments": 17,
+        "details": 12,
+        "packet": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/en-580.json",
+          "sha256": "5601ebbb21a0732fccbf5effaf705d338b9523ebfa07813169f95d05f5c9dae2"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-en-580-independent-review.json",
+          "sha256": "5afccc469aa0c0a18507528677d89cfa8fa3fc6a8e94dc353cec0ac9f50a10e3"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-en-580-independent-review.json",
+          "sha256": "5afccc469aa0c0a18507528677d89cfa8fa3fc6a8e94dc353cec0ac9f50a10e3"
+        }
+      },
+      {
+        "locale": "en",
+        "width": 390,
+        "status": "passed",
+        "document_height_css": 17645,
+        "segments": 16,
+        "details": 12,
+        "packet": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/views/en-390.json",
+          "sha256": "9ba47d784d791db32a92b620f6c34443136b5e5e8b31735c2f7c2f578cf75adb"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-en-390-independent-review.json",
+          "sha256": "dc3ffbedf2ac4e2dfebeb6be912e658a3aeecfba60bb39478171365fac6c285b"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-en-390-independent-review.json",
+          "sha256": "dc3ffbedf2ac4e2dfebeb6be912e658a3aeecfba60bb39478171365fac6c285b"
+        }
+      }
+    ]
+  },
+  "http": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/http-checks.json",
+    "sha256": "f27a393852ceae74dfd10322400dc0dc8476a97eed380d452b0a9807fd5e50c1"
+  },
+  "owned_services": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/help-process-closure.json",
+    "sha256": "62ac8de8e5efde2fe51fa5d76d7588e0ce9c6b8fb01ae3861adb5b648749898e"
+  },
+  "source_counts": {
+    "source_pngs": 42,
+    "selected_pngs": 42,
+    "retained_pngs": 14,
+    "retained_selected_pngs": 14,
+    "new_pngs": 28,
+    "views": 6
+  },
+  "inventory_changed_by_this_qa": false,
+  "commits_created_by_this_qa": false,
+  "publication": false
+}

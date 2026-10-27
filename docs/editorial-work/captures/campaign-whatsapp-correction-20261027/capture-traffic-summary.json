@@ -1,0 +1,1541 @@
+{
+  "schema": "campaign-whatsapp-capture-traffic-summary-v1",
+  "at": "2026-10-27T01:43:38.686064+00:00",
+  "status": "closed_and_audited",
+  "audit_log": "private/proxy-native-log.ndjson",
+  "audit_log_sha256": "7352e9a3303710378827e847fd37b98e0d068aae3a34db32df793984ea5d4b01",
+  "log_records": 3422,
+  "request_records": 3418,
+  "counter_semantics": "Cumulative per origin/path/method/status; final maxima summed once; duplicate asset evidence excluded from request counts.",
+  "requests": [
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/assets/brand-favicon-c392cd164833598dba0f9ec21fd96306a084437c66e5c4761427e069aede9e46.png",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/assets/brand-hellotext-tiger-2x-14f0d94994c2b2d1d0054347e7f3e16ef989b720cd179922d9558bfa85a5224f.png",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/assets/signup/google-g-8a02a3a4e1cd828b42077013ebcb7ce2db553ca9de085004768ab4df128d3f0c.png",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/assets/signup/login-360ff43fab325ff93c10715b5647806b3c1fba223779a6a2299ab3239e4c7ece.png",
+      "method": "GET",
+      "status": 200,
+      "count": 13
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/authentication/login",
+      "method": "POST",
+      "status": 302,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/Z2L3xyB3/audience",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/Z2L3xyB3/audience/count",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/Z2L3xyB3/audiences/campaigns.turbo_stream",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/Z2L3xyB3/audiences/lists.turbo_stream",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/Z2L3xyB3/audiences/segments.turbo_stream",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/Z2L3xyB3/broadcasts/compose",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/Z2L3xyB3/confirm",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/Z2L3xyB3/delivery",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/Z2L3xyB3/delivery",
+      "method": "GET",
+      "status": 502,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/Z2L3xyB3/technologies",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/gQy9PLzD/audience",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/gQy9PLzD/audience/count",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/gQy9PLzD/audiences/campaigns.turbo_stream",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/gQy9PLzD/audiences/lists.turbo_stream",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/gQy9PLzD/audiences/segments.turbo_stream",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/gQy9PLzD/broadcasts/compose",
+      "method": "GET",
+      "status": 200,
+      "count": 6
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/gQy9PLzD/confirm",
+      "method": "GET",
+      "status": 200,
+      "count": 3
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/gQy9PLzD/delivery",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/gQy9PLzD/technologies",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/compose/coupons/new",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/mailing/library.json",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/login",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/login",
+      "method": "POST",
+      "status": 302,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/my/businesses",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/my/businesses.turbo_stream",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/service_worker.js",
+      "method": "GET",
+      "status": 403,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/translations/en/97a10127a325f93badf2777c7e239131afd62726.js",
+      "method": "GET",
+      "status": 200,
+      "count": 14
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/translations/es/74fe690906129ec6765140a05e3b0fb866c4287b.js",
+      "method": "GET",
+      "status": 200,
+      "count": 16
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/BagossExtended-Medium.hm2lvicg.woff2",
+      "method": "GET",
+      "status": 200,
+      "count": 27
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/BagossExtended-SemiBold.ew2bj11f.woff2",
+      "method": "GET",
+      "status": 200,
+      "count": 32
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/PPObjectSans-Bold.m1ndv549.otf",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/PPObjectSans-Medium.k9ctpwyw.woff2",
+      "method": "GET",
+      "status": 200,
+      "count": 32
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/PPObjectSans-Regular.nmzz4exg.woff2",
+      "method": "GET",
+      "status": 200,
+      "count": 32
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/alt.d03lb6w3.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/auth.mb0zgea9.js",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/accept_turbo_stream_controller.b8383wdb.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/actiontext.esm.iie4pl30.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/agreement_controller.kwsvyt0w.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/application_controller.msdx1x6l.js",
+      "method": "GET",
+      "status": 200,
+      "count": 32
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/assignment_controller.t2mikknl.js",
+      "method": "GET",
+      "status": 200,
+      "count": 7
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/attachment_manager.mhmqsiz3.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/audience_controller.iw6m8o1o.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/audience_controller.maerjq9d.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/audience_count_controller.1pw2wl97.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/audience_count_refresh_controller.eyav7h05.js",
+      "method": "GET",
+      "status": 200,
+      "count": 7
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/base_controller.cc0my3j8.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/base_controller.kmwwl2vl.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/bridge.jjyexkfu.js",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/browser_monitoring.kigkz3ju.js",
+      "method": "GET",
+      "status": 200,
+      "count": 32
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/browser_performance.hi1bzreo.js",
+      "method": "GET",
+      "status": 200,
+      "count": 32
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/browser_url_controller.h5310h8b.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/button_controller.i16kzk8b.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/button_manager_controller.nrs0m6t5.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/channel_preview_controller.irsjbogg.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/channel_selector_controller.gb66gdgi.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/closable_pane.d51p67zf.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/color_contrast.bstttocg.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/component_controller.hu8ytscf.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/compose_request_context.nj1zgt75.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/confirmation_controller.caejo919.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/consumer.jfqkccda.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/contracts.16t8vhsk.js",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/controller_load_errors.j46xkdac.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/cookie_consent.hyaae2fn.js",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/coupon_controller.d97el56s.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/current.e08sahyp.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/custom_dropdown_controller.l4cfjsa1.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/date_picker_controller.m60tog29.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/delivery_controller.jvd8vj9t.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/dist.j6uhmdyk.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/dist.pee6k24w.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/dropdown_controller.b10njsrh.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/dropdown_highlight_styles.k44fw3do.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/dynamic_action_controller.h97pq3nd.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/edit_controller.d8xwv5mk.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/email_color_field_controller.nm01chsy.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/email_custom_html.e0m8wn20.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/email_design_library.k9n54vma.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/email_dynamic_preview.d2l68etz.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/email_fonts.mpwzxa6p.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/email_image_url.hzzm2zxf.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/email_message_buttons.g2gcsks7.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/email_preview_blocks.jfv2xr43.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/email_preview_brand.i08ze901.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/email_table_cell_style.keyi3h8d.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/email_table_preview.js17exky.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/emoji_controller.l8flamu0.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/fingerprint_controller.ei8apo3j.js",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/flatpickr_controller.b7itdb1t.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/footer_controller.mase7wz5.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/form_controller.4vxx95kr.js",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/form_controller.j46yha80.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/form_controller.mb5iw965.js",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/google_authentication_controller.l2aw0zfr.js",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/google_map_controller.nzk1lqgv.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/google_maps.mabp0z2w.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/hidden_select_controller.jjzozfpb.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/image_carousel_controller.mwdb54vo.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/image_gallery_controller.b94rhlqn.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/inbox_performance.b83qsjug.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/input_controller.gfoaiziu.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/intlTelInputWithUtils.h5riy33q.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/item_controller.mko2kq9s.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/jsx-runtime.eqzmh2cm.js",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/list_controller.bj1kjfa4.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/location_controller.dhvceu55.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/media_container_controller.b895z9lm.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/media_controller.luwki9p6.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/member_search_controller.g4i2faro.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/mixpanel_controller.nizsq6h2.js",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/modal_controller.ifs392tb.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/models.ixyvji8f.js",
+      "method": "GET",
+      "status": 200,
+      "count": 18
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/module.e7ufp3fx.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/money_formatter.dgvsb3jy.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/mount_components.m62tz8kn.js",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/name_controller.jwukp46n.js",
+      "method": "GET",
+      "status": 200,
+      "count": 29
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/name_controller.kx9ox3e8.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/native.euhi7trq.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/number_formatter.lbdibhk1.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/number_input_controller.jbkp3t7f.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/online_controller.ngx338eg.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/package_controller.lavcpmth.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/packages_controller.kq4sxlw2.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/pane_controller.icyggizm.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/pane_frame_controller.n8gmi3id.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/password_visibility_controller.h1bn3klm.js",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/phone_controller.c2kmj96l.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/popover_controller.cxh1iokq.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/preview_controller.cwihqbnp.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/preview_controller.ir6t38pi.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/preview_layout_controller.fmiyu9vk.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/product_carousel_controller.dqby5zgn.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/product_selection.b70sxtwk.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/progress_controller.eef3nvao.js",
+      "method": "GET",
+      "status": 200,
+      "count": 29
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/purify.es.m4xbqh00.js",
+      "method": "GET",
+      "status": 200,
+      "count": 18
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/push_notification_permission_controller.o0le3hfy.js",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/push_notification_permission_controller.ocs4xd50.js",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/quality_modal_controller.lrt8tj3x.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/radio_controller.imibffpx.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/range_url.pbvp39w9.js",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/reply_settings_controller.mkyuebrf.js",
+      "method": "GET",
+      "status": 200,
+      "count": 7
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/reset_form_controller.bu92gr7j.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/rolldown-runtime.ggzdt3nk.js",
+      "method": "GET",
+      "status": 200,
+      "count": 32
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/safe_dom.cy9gm6nn.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/search_field_controller.ff9vlm0e.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/select_channels_controller.dm8gcsws.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/signup_carousel_controller.eqkg6c3t.js",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/sortable.esm.mertbtk0.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/stimulus.iwbym37z.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/stimulus_monitoring.kt2mmrlt.js",
+      "method": "GET",
+      "status": 200,
+      "count": 32
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/submit_inactive_controller.l21ga42a.js",
+      "method": "GET",
+      "status": 200,
+      "count": 11
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/tabs_controller.cdbw27nt.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/tag.not81s5u.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/tags_controller.g48rg6n8.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/tailwindcss-stimulus-components.module.k86qvk3j.js",
+      "method": "GET",
+      "status": 200,
+      "count": 29
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/technologies_controller.ity3vy7v.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/template_channel_icons.drzljpu5.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/template_controller.j348o6se.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/template_email_preview.huuw0y1l.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/template_message_preview.k5opcqv9.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/template_preview_controller.iexwim96.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/template_preview_observer.hibm5o50.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/templates_controller.go1xzhj8.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/test_controller.nezk1q6v.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/time_controller.nfa232m3.js",
+      "method": "GET",
+      "status": 200,
+      "count": 4
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/toast_controller.dfbx1o0o.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/toast_stack_controller.ignza6rs.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/toggle_controller.29pmqyxi.js",
+      "method": "GET",
+      "status": 200,
+      "count": 29
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/toolbar_controller.ugzpbpfo.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/toolbar_overflow_controller.nywxdrsl.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/tooltip_controller.hlwo7u6k.js",
+      "method": "GET",
+      "status": 200,
+      "count": 29
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/trix.esm.min.moyxremv.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/turbo_power.juuitfck.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/useAutoWidthInput.mkdemu8l.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/useEditableTitleOutside.nj5whclg.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/useMoveCursorToEndOfInput.bcfc9sbb.js",
+      "method": "GET",
+      "status": 200,
+      "count": 29
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/useNumberHelpers.el9ckx56.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/usePersistedSnapshot.op8s3j2y.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/useURLValidations.da0upioy.js",
+      "method": "GET",
+      "status": 200,
+      "count": 17
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/utils.djstcq2w.js",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/vendor-floating-ui.xiecv36p.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/vendor-hotwired.cghwbouq.js",
+      "method": "GET",
+      "status": 200,
+      "count": 32
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/vendor-storage.n64qonj5.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/verbs.jo1hmo15.js",
+      "method": "GET",
+      "status": 200,
+      "count": 32
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/voice_controller.j4fnrm4t.js",
+      "method": "GET",
+      "status": 200,
+      "count": 10
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/chunks/wizard_history_controller.h2icnbhd.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/entrypoints/alt.js.jvq0pp8u.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/entrypoints/application/conversation_stream_actions.js.hv9ai4sv.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/entrypoints/application/pane_viewport.js.ijylgpwe.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/entrypoints/application/push_notifications.js.eiuw1isb.js",
+      "method": "GET",
+      "status": 200,
+      "count": 30
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/entrypoints/auth.js.nnh8b43l.js",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/entrypoints/stylesheets/application.ofhxv0eu.css",
+      "method": "GET",
+      "status": 200,
+      "count": 64
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/entrypoints/view_transitions.natz32x4.css",
+      "method": "GET",
+      "status": 200,
+      "count": 2
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/vite/assets/react.d3fhcxlh.js",
+      "method": "GET",
+      "status": 200,
+      "count": 1
+    },
+    {
+      "origin": "invalid",
+      "path": "/",
+      "method": "CONNECT",
+      "status": 403,
+      "count": 601
+    },
+    {
+      "origin": "invalid",
+      "path": "/",
+      "method": "GET",
+      "status": 403,
+      "count": 1
+    }
+  ],
+  "successful_non_read_requests": [
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/authentication/login",
+      "method": "POST",
+      "status": 302,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/login",
+      "method": "POST",
+      "status": 302,
+      "count": 1
+    }
+  ],
+  "native_login_sequences": 1,
+  "browser_campaign_writes": 0,
+  "browser_audience_refresh_posts": 0,
+  "test_send_or_delivery_requests": 0,
+  "websocket_attempts": 0,
+  "websocket_upgrades_allowed": 0,
+  "no_external_successful_requests": true,
+  "native_sprockets_received_bytes": {
+    "/assets/brand-hellotext-tiger-2x-14f0d94994c2b2d1d0054347e7f3e16ef989b720cd179922d9558bfa85a5224f.png": {
+      "sha256": "15ac98399930771b2dd17222778e759dc6e448a22f929ff814ea03f0c0d61602",
+      "bytes": 6541,
+      "status": 200
+    },
+    "/assets/signup/google-g-8a02a3a4e1cd828b42077013ebcb7ce2db553ca9de085004768ab4df128d3f0c.png": {
+      "sha256": "d1ce9c2af0b10a7333abc99bc706f9a6a199e5b65bf3e3009624f076b8638e6a",
+      "bytes": 33661,
+      "status": 200
+    },
+    "/assets/brand-favicon-c392cd164833598dba0f9ec21fd96306a084437c66e5c4761427e069aede9e46.png": {
+      "sha256": "7880019750a973296c663a32da4f450a5b4b8361af174eae0a05b46f81b9fcc1",
+      "bytes": 2365,
+      "status": 200
+    }
+  },
+  "sessions": [
+    {
+      "ledger": "private/network-ledger-20261027T004828893Z-57015-007.json",
+      "sha256": "e958a95c5cd68d09378155030e9e90f58bb6067048e885c2ea87862eb1abdecb",
+      "session_id": "20261027T004828893Z-57015",
+      "requests": 376,
+      "blank_before_disconnect": {
+        "href": "about:blank",
+        "ready": "complete"
+      }
+    },
+    {
+      "ledger": "private/network-ledger-20261027T005235828Z-60002-017.json",
+      "sha256": "4e6eef07da6e57a457997797bbec7adec20ac4d086beb1376e6cc4ab9033c403",
+      "session_id": "20261027T005235828Z-60002",
+      "requests": 1038,
+      "blank_before_disconnect": {
+        "href": "about:blank",
+        "ready": "complete"
+      }
+    },
+    {
+      "ledger": "private/network-ledger-20261027T011453874Z-71969-002.json",
+      "sha256": "12da2f57fa477084f6268dbc7f8a4ed7ed85ef52104a063bb36d72fd9c38eb4d",
+      "session_id": "20261027T011453874Z-71969",
+      "requests": 133,
+      "blank_before_disconnect": {
+        "href": "about:blank",
+        "ready": "complete"
+      }
+    },
+    {
+      "ledger": "private/network-ledger-20261027T012053876Z-74681-016.json",
+      "sha256": "3d7e11dd02e698f423037b1600508d7699b5583311a03fc346d8f4c184db9406",
+      "session_id": "20261027T012053876Z-74681",
+      "requests": 1235,
+      "blank_before_disconnect": {
+        "href": "about:blank",
+        "ready": "complete"
+      }
+    }
+  ],
+  "cdp_blocked_requests": [
+    {
+      "method": "GET",
+      "origin": "https://cdn.jsdelivr.net",
+      "path": "/npm/@emoji-mart/data@latest/i18n/es.json",
+      "count": 6
+    },
+    {
+      "method": "GET",
+      "origin": "https://www.google.com",
+      "path": "/recaptcha/api.js",
+      "count": 1
+    }
+  ],
+  "known_read_failure": {
+    "request": {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/Z2L3xyB3/delivery",
+      "method": "GET",
+      "status": 502,
+      "count": 1
+    },
+    "single_exact_get_retry_succeeded": true,
+    "same_session_policy_timeout": true,
+    "authentication_repeated": false,
+    "cause": "Not demonstrated. Parent verified own Puma log/session without a corresponding server error; one exact GET retry was authorized and succeeded.",
+    "observation": {
+      "file": "retention/delivery-date-en-desktop-observed.json",
+      "sha256": "637fcd3662ad02e379f3be94dad776b3ece7cd5c381b87f9330fce21e3906d68"
+    }
+  },
+  "scope_notes": [
+    "These are browser/proxy network counts, not a claim of zero native authentication or GET cache database writes.",
+    "External reCAPTCHA/emoji locale and Chrome background CONNECT requests were blocked; their features are not exercised in selected images.",
+    "All four CDP controller sessions ended at about:blank; browser and proxy closed afterward."
+  ],
+  "services_close_receipt": {
+    "file": "capture-services-closed.json",
+    "sha256": "78fa9de59bd9cfd235e1e560936d93de357625b0d42e25ee750196cb0002d36d"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "schema": "campaign-whatsapp-bound-source-pixels-v1",
+  "status": "passed",
+  "reviewer": "/root/campaign_wa_pixels",
+  "bound_at": "2026-10-27T01:34:22.902366+00:00",
+  "scope": "14 newly captured native WhatsApp sources, individually viewed earlier; this receipt binds the unchanged admitted bytes to the exact integration manifest. Historical retentions and final Help page rendering are reviewed separately.",
+  "manifest": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/source-manifest.json",
+    "sha256": "358eaf360c47f35208c3cdd99b23db2c5ee1ef5eb9f5cce3c835024c7e1931ed"
+  },
+  "records": [
+    {
+      "id": "campaign-channels",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-channels-en-desktop.png",
+      "sha256": "d6d96c64c4513152a41ee5383bda80906bfb6aefef86015e1189ae2f26b1b926",
+      "pixelSize": [
+        2728,
+        3344
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 91,
+        "y": 128,
+        "width": 682,
+        "height": 836
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "English heading and all four channel cards are complete. WhatsApp only is visibly selected and enabled; no unavailable state remains on WhatsApp options. No clipped labels/card border, pointer, debug overlay or unintended customer data observed.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-15-channels-en-desktop.json",
+        "sha256": "92082a312a37201076f56a0d1a630afaa4b68a2e7dfe8192ab4ac467b4f9bae8",
+        "reviewed_at": "2026-10-27T01:24:09.374288+00:00"
+      }
+    },
+    {
+      "id": "campaign-channels",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "campaign-channels-en-mobile.png",
+      "sha256": "da4e4448ed520a0412fa45eb340e5b042fc7e9c5346ef0dcfadb7042788109cd",
+      "pixelSize": [
+        1592,
+        3416
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 32,
+        "width": 398,
+        "height": 854
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "Native mobile English heading and four complete cards fit in the source. WhatsApp only is visibly selected; body wrapping and check mark remain clear. No clipped labels/card border, pointer, debug overlay or unintended customer data observed.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-16-channels-en-mobile.json",
+        "sha256": "42e2d549040e651ab0f5bfeda52a4aa095263ee4bc24548770644f742e99ddc5",
+        "reviewed_at": "2026-10-27T01:24:09.473230+00:00"
+      }
+    },
+    {
+      "id": "campaign-composer",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-composer-en-desktop.png",
+      "sha256": "245847d60e2f737d245272fc4426c4b79134e6a0f44af3db28736d969d17b924",
+      "pixelSize": [
+        2728,
+        1604
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 91,
+        "y": 128,
+        "width": 682,
+        "height": 401
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "English header and complete native WhatsApp editor, footer placeholder, toolbar and fictional +12025550199 sender are visible. Club message and name/tracked-link tokens match the English draft; no SMS part counter or incorrect shell. No clipped panel/control, pointer or debug overlay.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-17-composer-en-desktop.json",
+        "sha256": "d7820bfd9a4fe0189ef17e8e4acabc360f4317c702eb84cfb3633c0e27e9f29f",
+        "reviewed_at": "2026-10-27T01:24:47.747383+00:00"
+      }
+    },
+    {
+      "id": "campaign-composer",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "campaign-composer-en-mobile.png",
+      "sha256": "fface0c38b00dae21edbf1807c48a5a5d864b892fbc84b8ba0fe2941c90bd085",
+      "pixelSize": [
+        1592,
+        1988
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 32,
+        "width": 398,
+        "height": 497
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "Complete English header, native WhatsApp editor, meaningful Club/name/link text, empty footer and toolbar visible. Preview control fully visible below editor; native mobile layout has no sender label and no stray sender fragment. No clipped panel/control, pointer or debug overlay.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-20-composer-en-mobile.json",
+        "sha256": "f8fd9a943fcfc4d84b1c524d777e1a9143d50dee7684d43dc3c76447572e6f3a",
+        "reviewed_at": "2026-10-27T01:26:06.467409+00:00"
+      }
+    },
+    {
+      "id": "campaign-confirmation",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-confirmation-en-desktop.png",
+      "sha256": "12299e912bdc3d4a211f4e18fb53d14e3e66e325f3da02d260125304a5040378",
+      "pixelSize": [
+        2728,
+        3648
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 91,
+        "y": 128,
+        "width": 682,
+        "height": 912
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "Complete English heading/count2/Club included/QA excluded and three summary cards fit. WhatsApp only, November2 at12:00 and No specific assignment agree with prepared draft; no invented Meta cost or approval claim. No clipped border/control, pointer or debug overlay.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-23-confirmation-en-desktop.json",
+        "sha256": "6c75861c8e13221db86f57e19505adc59302fc8db30e2d5cb76ead9148b0f32c",
+        "reviewed_at": "2026-10-27T01:27:54.177067+00:00"
+      }
+    },
+    {
+      "id": "campaign-confirmation",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "campaign-confirmation-en-mobile.png",
+      "sha256": "a7dda045f2a310c6079f07a706367f50cc5c91e641cd18fc006f855308a3ca3c",
+      "pixelSize": [
+        1592,
+        4000
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 32,
+        "width": 398,
+        "height": 1000
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "Mobile count2, lists, WhatsApp-only, date/time and unassigned cards are complete with native wrapping. No Meta cost figure shown; summary agrees with desktop and fictional draft. No clipped border/control, pointer or debug overlay.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-24-confirmation-en-mobile.json",
+        "sha256": "70f5559ae5e232fd3e602598ed4cd3df69f1be39ca42af0bf7445aca23f5d5f1",
+        "reviewed_at": "2026-10-27T01:27:54.281406+00:00"
+      }
+    },
+    {
+      "id": "campaign-coupon-picker",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-coupon-picker-en-desktop.png",
+      "sha256": "33c370b643b7d7737e637b053a1c806d1e96ff7b3382cc206521844e0f5a79af",
+      "pixelSize": [
+        2160,
+        1020
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 108,
+        "y": 450,
+        "width": 540,
+        "height": 255
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "Native English Coupons picker is fully legible with GUIA-QR-10 and None selected; complete popup corners, focus border and shadows remain visible. WhatsApp media/button/location/link/personalization/coupon toolbar and full fictional sender +12025550199 remain visible; no SMS-only counter or partial sender fragment. Popup naturally overlaps the native background toolbar; no image edits or send actions are represented.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-27-coupon-picker-en-desktop.json",
+        "sha256": "cc6f94afd31071cf8ce827445cb34b07ddeb75b23566c6d4dc3aeabddee7b4df",
+        "reviewed_at": "2026-10-27T01:31:09.068301+00:00"
+      }
+    },
+    {
+      "id": "campaign-coupon-picker",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "campaign-coupon-picker-en-mobile.png",
+      "sha256": "3752e21dd5cd209bffa351b19a1759ad3136b2ef76d2a66a730dd9ad4408c6f5",
+      "pixelSize": [
+        1656,
+        1004
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 388,
+        "width": 414,
+        "height": 251
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "Native English Coupons picker, GUIA-QR-10 and None selected are complete and legible; full menu and outer container edges/shadows remain visible. 430-CSS viewport uses the same native layout as corrected ES: sender control is hidden without a partial +1 fragment; visible WhatsApp toolbar is coherent with the composer. Dropdown naturally overlaps background icons; no synthetic pixel or DOM changes are claimed.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-28-coupon-picker-en-mobile.json",
+        "sha256": "e653d08ed5217637edfba4067bc6422a6c0ce3e298bc5d6957279aa223b65478",
+        "reviewed_at": "2026-10-27T01:31:09.204176+00:00"
+      }
+    },
+    {
+      "id": "campaign-message-preview",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-message-preview-en-desktop.png",
+      "sha256": "d59d7d1c87a42e66c398906e25243eedf22554e5aaa6bd39dd65dcc902317bc8",
+      "pixelSize": [
+        1536,
+        3632
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 960,
+        "y": 120,
+        "width": 384,
+        "height": 908
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "Complete native WhatsApp channel chip, phone shell, message bubble, Unsubscribe row and test trigger are visible. Rendered Sofía/Club/link content matches the English editor; Unsubscribe is native and not an invented action. No clipped phone/action, pointer or debug overlay. Native blank phone area retained.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-18-message-preview-en-desktop.json",
+        "sha256": "5250d53b7a64ed21733e2ac331190906fbf23988c64264d58fd6b8f81fab84ef",
+        "reviewed_at": "2026-10-27T01:24:47.851831+00:00"
+      }
+    },
+    {
+      "id": "campaign-message-preview",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "campaign-message-preview-en-mobile.png",
+      "sha256": "51889ee7679b4649c86abb197f15b2bbc50bc3c05a9f1f7d08e2186c1a106b19",
+      "pixelSize": [
+        1720,
+        3864
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 0,
+        "y": 16,
+        "width": 430,
+        "height": 966
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "Complete mobile close control, WhatsApp chip, phone, message bubble, Unsubscribe row and test trigger. English content matches desktop and stored draft; native blank phone area retained. No clipped phone/action, pointer or debug overlay.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-21-message-preview-en-mobile.json",
+        "sha256": "4ec297d27a82ceb8726767a1ff2dc697449bd3d91d46c65d7c580e7f7c4bf453",
+        "reviewed_at": "2026-10-27T01:26:06.590344+00:00"
+      }
+    },
+    {
+      "id": "campaign-personalization-tool",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-personalization-tool-en-desktop.png",
+      "sha256": "6fe683d0d50ae932759e5e9cc137b850827957ef0aa231a332963523c1c5e6b5",
+      "pixelSize": [
+        2192,
+        1364
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 108,
+        "y": 450,
+        "width": 548,
+        "height": 341
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "Complete English Tags panel with all property chips, WhatsApp toolbar and full fictional sender. Nivel de fidelidad is the unchanged fictional custom-property name; native duplicate birthday chip retained. Neither is a fabricated translation. No clipped popup/chip, pointer or debug overlay.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-26-personalization-tool-en-desktop.json",
+        "sha256": "00d183e86a17812fd03f143b70ef59969b127c0ba13e05a5033aed6bc697977e",
+        "reviewed_at": "2026-10-27T01:27:54.516929+00:00"
+      }
+    },
+    {
+      "id": "campaign-test-destination",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-test-destination-en-desktop.png",
+      "sha256": "7597a8b35a2bde31a41af81f7446fbec90e12a46f6ea3a35b7a8906edb46f4bd",
+      "pixelSize": [
+        1728,
+        1092
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 936,
+        "y": 755,
+        "width": 432,
+        "height": 273
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "Complete English test dialog with country selector, empty phone placeholder, disabled Send Message, Cancel and original test trigger. Native input caret is visible in empty field; no entered number or confirmation modal. Green WhatsApp context retained; no clipped border/shadow or debug overlay. Actual Help enlargement remains pending.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-19-test-destination-en-desktop.json",
+        "sha256": "37e19a9a621b08c32f907763d3f01d8f2a6c5e32d743dfce85cfd0f188122f77",
+        "reviewed_at": "2026-10-27T01:24:47.967957+00:00"
+      }
+    },
+    {
+      "id": "campaign-test-destination",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "campaign-test-destination-en-mobile.png",
+      "sha256": "0e2305d54e5673dbf37b9820d432e4c73e73baa8b5c2bcdb5bfe7984df5759a4",
+      "pixelSize": [
+        1728,
+        1092
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 8,
+        "y": 709,
+        "width": 432,
+        "height": 273
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "Native450CSS mobile viewport gives complete English test popup and full original test trigger with margins. Input is empty with placeholder and native caret, Send Message disabled, no confirmation modal. No clipped border/shadow or pointer/debug overlay; source is suitable for later six-view Help sizing review.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-22-test-destination-en-mobile.json",
+        "sha256": "309c14be3d8a8eff24cba246bd6bd5df7e6a7b7d7659acb1b5fd2c7c55b0b1f8",
+        "reviewed_at": "2026-10-27T01:26:06.710111+00:00"
+      }
+    },
+    {
+      "id": "campaign-tracked-link-tool",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "campaign-tracked-link-tool-en-desktop.png",
+      "sha256": "959d0c9081d00693458570318ea735bdb9a920bf040ab4ea206add3e7438a990",
+      "pixelSize": [
+        2048,
+        1276
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 104,
+        "y": 450,
+        "width": 512,
+        "height": 319
+      },
+      "new_capture": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": "Complete Create a shortlink panel with instructional text, URL input, Add short link and Cancel. Highlighted link tool and full fictional sender in WhatsApp toolbar provide context. No clipped popup/control, pointer or debug overlay; editor-body crop boundary is intentional tool focus.",
+      "review_receipt": {
+        "path": "audit/campaign-whatsapp-correction-20261027/pixel-review/source-pass-25-tracked-link-tool-en-desktop.json",
+        "sha256": "e90a34775eab63a0a4f61511edf51129f44026a6c13a6216d7e603961692a3cc",
+        "reviewed_at": "2026-10-27T01:27:54.387876+00:00"
+      }
+    }
+  ],
+  "runtime_mutations_by_reviewer": 0,
+  "publication_approval": false
+}

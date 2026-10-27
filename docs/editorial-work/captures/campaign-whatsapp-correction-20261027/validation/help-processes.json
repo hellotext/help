@@ -1,0 +1,39 @@
+{
+  "status": "stopped",
+  "recorded_at": "2026-10-27T02:18:17.032742+00:00",
+  "start_receipt": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/help-processes-start.json",
+    "sha256": "98a5c464c550afd86ad3b1a12f5a6ae420b86684c87600ee6b66f9616d450869"
+  },
+  "original_controller_absent": true,
+  "closure_method": "Integration owner verified original server/browser commands, profile, owned groups and listeners; sent SIGTERM only to those two orphaned groups after capture completed.",
+  "observed": {
+    "server": {
+      "pid": 89271,
+      "pgid": 89271,
+      "ppid": 1,
+      "command": "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -u -m http.server 3382 --bind 127.0.0.1 --directory /Users/pel/Documents/Codex/2026-10-06/task-8/help-campaign-whatsapp-correction-20261027/_site",
+      "listener": "p89271\ncPython\nf3\nn127.0.0.1:3382\n"
+    },
+    "browser": {
+      "pid": 89272,
+      "pgid": 89272,
+      "ppid": 1,
+      "command": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome --headless=new --remote-debugging-address=127.0.0.1 --remote-debugging-port=9561 --user-data-dir=/private/var/folders/2g/vbdf658d6yn_ssz9f354rdkm0000gn/T/hellotext-campaign-whatsapp-review-20261027-_5q42oko --force-color-profile=display-p3-d65 --force-device-scale-factor=2 --window-size=1440,1200 --no-first-run --no-default-browser-check --disable-background-networking --disable-component-update --disable-sync --disable-default-apps --metrics-recording-only --password-store=basic --use-mock-keychain --disable-features=Translate,MediaRouter,OptimizationHints --host-resolver-rules=MAP * ~NOTFOUND, EXCLUDE 127.0.0.1 about:blank",
+      "listener": "p89272\ncGoogle Chrome\nf60\nn127.0.0.1:9561\n"
+    }
+  },
+  "listeners": [
+    {
+      "port": 3382,
+      "listener_present": false
+    },
+    {
+      "port": 9561,
+      "listener_present": false
+    }
+  ],
+  "owned_processes_absent": true,
+  "only_owned_process_groups_terminated": true,
+  "profile_preserved": "/private/var/folders/2g/vbdf658d6yn_ssz9f354rdkm0000gn/T/hellotext-campaign-whatsapp-review-20261027-_5q42oko"
+}

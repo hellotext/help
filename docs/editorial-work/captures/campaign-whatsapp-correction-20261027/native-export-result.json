@@ -1,0 +1,34 @@
+{
+  "status": "native_whatsapp_exports_preserved_verified",
+  "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "database_readonly": true,
+  "source_task": "editorial:export_help",
+  "fixture_replayed": false,
+  "locale_mutated": false,
+  "exports": [
+    {
+      "locale": "es",
+      "files": 47,
+      "bundle": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/campaign-whatsapp-correction-20261027/runtime/private/exports-native-links/es",
+      "receipt": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/campaign-whatsapp-correction-20261027/runtime/private/exports-native-links/es-receipt.json",
+      "receipt_sha256": "1dbbb288418582a8eb4210bc7a4947fee3e2642d09d91d7cd10b38e4c4831918",
+      "payload_sha256": "8e769859dc570a58fdca9365535da34c1efd077803ae6410ef497da546c60b62",
+      "include": "_includes/editorial/es/custom-b61000d43e039cfc.html",
+      "include_sha256": "36044d08ff1247e09558c578ba08891ead3bb61b62898ca8eaab532c155f129f",
+      "entrypoint_sri": "sha256-zqkNwVRm5VAWrAC7VCC5ZgIicKlfkzgKdIWgmCu2oH0="
+    },
+    {
+      "locale": "en",
+      "files": 47,
+      "bundle": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/campaign-whatsapp-correction-20261027/runtime/private/exports-native-links/en",
+      "receipt": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/campaign-whatsapp-correction-20261027/runtime/private/exports-native-links/en-receipt.json",
+      "receipt_sha256": "d7fd12eb5b6db91ad1383e4f630f7f0b5655982567d3875816345be14662b2ce",
+      "payload_sha256": "848d2b44d4a0ff9ffc01e52c20a56c52e126cab3923a234789182584ecfdff9b",
+      "include": "_includes/editorial/en/custom-6dcfa92eeb7d42e4.html",
+      "include_sha256": "e20f49464e981a8620b9f07a9f3ed9a0e34fa99295a484affcf8be4b7ae6121b",
+      "entrypoint_sri": "sha256-zqkNwVRm5VAWrAC7VCC5ZgIicKlfkzgKdIWgmCu2oH0="
+    }
+  ],
+  "superseded_es_preserved": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/campaign-whatsapp-correction-20261027/runtime/private/exports/es",
+  "url_alignment": "Both native Link4/5 point to https://example.com/campaign-fixture; only definitions were aligned."
+}

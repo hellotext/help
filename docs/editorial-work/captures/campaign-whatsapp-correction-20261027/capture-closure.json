@@ -1,0 +1,264 @@
+{
+  "schema": "campaign-whatsapp-capture-closure-v1",
+  "status": "capture_complete_new_and_retained_source_review_passed_pending_help_render_QA",
+  "closed_at": "2026-10-27T01:46:29.105695+00:00",
+  "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "source_currency": {
+    "file": "../audit/campaign-whatsapp-correction-20261027/source-currency-refresh-2dfd9de6.json",
+    "sha256": "1aff93fa0af0781bd40957ef9945bc270597c62867ceae0e2b7ee1a40086f7fa",
+    "scope": "Captured Campaign/render/fixture dependencies; not full-app deployment parity."
+  },
+  "selected_sources": {
+    "total": 42,
+    "new": 28,
+    "retained_historical": 14,
+    "locales": {
+      "es": {
+        "new": 14,
+        "retained": 7
+      },
+      "en": {
+        "new": 14,
+        "retained": 7
+      }
+    },
+    "retained_are_not_new_captures": true
+  },
+  "source_manifest": {
+    "file": "source-manifest.json",
+    "sha256": "358eaf360c47f35208c3cdd99b23db2c5ee1ef5eb9f5cce3c835024c7e1931ed",
+    "records": 28,
+    "new_only": true
+  },
+  "normalization_receipt": {
+    "file": "manifest-normalization-receipt.json",
+    "sha256": "10e746c3002706301f4419ba26af5eeaaa70bc7cdbd1247cfba1f38a24d25e0e"
+  },
+  "source_validation": {
+    "png_crc": "pass28",
+    "sha256_matches_untouched_sidecars": "pass28",
+    "native_density4": "pass28",
+    "stable_before_after_DOM": "pass28",
+    "icc": {
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "bytes": 520
+    },
+    "pixel_transformations": 0,
+    "new_source_files_exactly_match_manifest": true
+  },
+  "publisher_new_selection": {
+    "file": "../audit/campaign-whatsapp-help-qa-20261027/new-source-selection.json",
+    "sha256": "1cfe8311d8bd370bb47eab1a823b12ee2e8d10cd3d8e8fd315625be8971b1f71",
+    "exact_filenames_and_hashes_match": true
+  },
+  "independent_source_reviews": {
+    "source-pixels-es.json": {
+      "file": "../audit/campaign-whatsapp-correction-20261027/pixel-review/source-pixels-es.json",
+      "sha256": "72a2b7fe1db97b60a5a9f148b9615706b0d7984c4113feb043e55a00d504bbc0"
+    },
+    "source-pixels-en.json": {
+      "file": "../audit/campaign-whatsapp-correction-20261027/pixel-review/source-pixels-en.json",
+      "sha256": "265b1aacc601d376287fefb75e29845c50926a489fef84f88effa4eff487b164"
+    },
+    "retained-pixels.json": {
+      "file": "../audit/campaign-whatsapp-correction-20261027/pixel-review/retained-pixels.json",
+      "sha256": "b8d854cab1d400652a99fab831fe53963be09c0c1b090298f8a5898e7e9e6d3a"
+    },
+    "bilingual-source-review-gate.json": {
+      "file": "../audit/campaign-whatsapp-correction-20261027/pixel-review/bilingual-source-review-gate.json",
+      "sha256": "6053a66efcdbce0c70949442ad65c705cad7da5a06d9cebf83074fd06cf77634"
+    }
+  },
+  "historical_retention_applicability": [
+    {
+      "file": "retention/es-applicability.json",
+      "sha256": "9bdc86584ee5a6d957432faf81cdbbc9e428366d0ecb6e11fa9794a6a95e2b8a",
+      "locale": "es",
+      "records": 7,
+      "root_review": "approved",
+      "not_a_new_capture": true
+    },
+    {
+      "file": "retention/en-applicability.json",
+      "sha256": "c0b26d3a618c76e8eb7aa346bf3e54559f1ce43cd8bcbfd90b446beaf85ceef9",
+      "locale": "en",
+      "records": 7,
+      "root_review": "approved",
+      "not_a_new_capture": true
+    }
+  ],
+  "retention_limitations": [
+    "Original capture dates and source/sidecar hashes preserved.",
+    "ES secondary demonstration list names differ in the current clone; included Club/excluded QA/count2 controls remain applicable without visible SMS content.",
+    "People list order/population differs; demonstrated reply controls, team labels and unassigned state remain applicable. Full people-list equality is not claimed.",
+    "Calendar current-day highlighting follows the real date; selected 2 Nov 2026 12:00 Montevideo schedule unchanged. No frozen clock or byte parity is claimed."
+  ],
+  "native_WhatsApp_state": {
+    "only_whatsapp_selected": true,
+    "fictitious_sender": true,
+    "audience_count": 2,
+    "test_destination_empty": true,
+    "test_send_disabled": true,
+    "test_confirmation_modal_closed": true,
+    "estimated_meta_cost": null,
+    "price_was_not_invented": true,
+    "native_unsubscribe_labels": [
+      "Detener",
+      "Unsubscribe"
+    ],
+    "no_provider_or_delivery_calls": true
+  },
+  "browser": {
+    "pid": 56902,
+    "cdp": 9564,
+    "last_state": "about:blank",
+    "native_login_sequences": 1,
+    "same_session_reused_for_EN": true,
+    "cookie_injection": false,
+    "impersonation": false,
+    "closed": true,
+    "profile_preserved": true
+  },
+  "proxy": {
+    "pid": 56771,
+    "port": 3379,
+    "origin": "http://127.0.0.1:33388",
+    "closed": true,
+    "exact_business_routes": 33,
+    "native_scenes": 12,
+    "post_paths": [
+      "/authentication/login",
+      "/login"
+    ],
+    "ES_policy_retained_for_EN": true,
+    "EN_route_set_unchanged": true
+  },
+  "traffic_summary": {
+    "file": "capture-traffic-summary.json",
+    "sha256": "945b4ac5cdbaf2ba736e8ff1a5db64596a4f46fac4dd8f28c6e6904b5abaec98"
+  },
+  "successful_non_read_requests": [
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/authentication/login",
+      "method": "POST",
+      "status": 302,
+      "count": 1
+    },
+    {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/login",
+      "method": "POST",
+      "status": 302,
+      "count": 1
+    }
+  ],
+  "browser_campaign_writes": 0,
+  "browser_test_send_or_delivery_requests": 0,
+  "websocket_upgrades_allowed": 0,
+  "network_limitations": [
+    "These are browser/proxy network counts, not a claim of zero native authentication or GET cache database writes.",
+    "External reCAPTCHA/emoji locale and Chrome background CONNECT requests were blocked; their features are not exercised in selected images.",
+    "All four CDP controller sessions ended at about:blank; browser and proxy closed afterward."
+  ],
+  "one_transient_read_failure": {
+    "request": {
+      "origin": "http://127.0.0.1:33388",
+      "path": "/hellotext/campaigns/Z2L3xyB3/delivery",
+      "method": "GET",
+      "status": 502,
+      "count": 1
+    },
+    "single_exact_get_retry_succeeded": true,
+    "same_session_policy_timeout": true,
+    "authentication_repeated": false,
+    "cause": "Not demonstrated. Parent verified own Puma log/session without a corresponding server error; one exact GET retry was authorized and succeeded.",
+    "observation": {
+      "file": "retention/delivery-date-en-desktop-observed.json",
+      "sha256": "637fcd3662ad02e379f3be94dad776b3ece7cd5c381b87f9330fce21e3906d68"
+    }
+  },
+  "services_close_receipt": {
+    "file": "capture-services-closed.json",
+    "sha256": "78fa9de59bd9cfd235e1e560936d93de357625b0d42e25ee750196cb0002d36d"
+  },
+  "capture_bindings": [
+    {
+      "file": "binding-receipt.json",
+      "sha256": "73402a77877e46eae1a3840cb2b6684a5c68f4e57200c56596333fc6d2d73a8a"
+    },
+    {
+      "file": "capture-contract.es-preserved.json",
+      "sha256": "ed7ed32561bfed5e52b0f91608d5777110afe9992d6dc82c2c57c4d5b7580b65"
+    },
+    {
+      "file": "runtime-review.es-preserved.json",
+      "sha256": "0ac73001f746287d8e71ba0c8a9fc021e1b8fed93e0a7acfb6c6b0a8e17f173c"
+    },
+    {
+      "file": "en-binding-receipt.json",
+      "sha256": "b9f181bc03b7086764e9a319bb8a76ad9284a321c0456177fa2c2397cdf21484"
+    },
+    {
+      "file": "capture-contract.json",
+      "sha256": "d66b9078b76f89604d704c72b9931a61b183dd78505016e7b8410f67d4487dd7"
+    },
+    {
+      "file": "runtime-review.json",
+      "sha256": "1eb1b52b966fbcab982073f65c39abe71b8aafc23c98952bb3c27df938986422"
+    }
+  ],
+  "reviewed_helper_deltas": [
+    {
+      "file": "binder-snapshot-limit-delta.json",
+      "sha256": "d3934f2523143e8c844b976e258dcd5663fc38a8579e3ee64c6c57c170ada566"
+    },
+    {
+      "file": "native-wa-lowercase-delta.json",
+      "sha256": "f9921ba3b8ec1d4520f54ba69606ce602d3d5c508410812830a79dfe88ce261a"
+    }
+  ],
+  "runtime_receipts": [
+    {
+      "file": "../audit/campaign-whatsapp-correction-20261027/runtime/private/runtime-ready.json",
+      "sha256": "53a2d3a90bb543feea5b239a06633b0372b2e364c5acdff08bba919b7052e00d"
+    },
+    {
+      "file": "../audit/campaign-whatsapp-correction-20261027/runtime/private/native-capture-routes-es.json",
+      "sha256": "a5f2042424879ed74e5c6fb90e4541b045599d044429be2c7c1b0ff722e04742"
+    },
+    {
+      "file": "../audit/campaign-whatsapp-correction-20261027/runtime/private/runtime-ready-en.json",
+      "sha256": "fe8250e44a97a8ecf4bde1812c4ee8f889230ccaf8be857ed00beca350641850"
+    },
+    {
+      "file": "../audit/campaign-whatsapp-correction-20261027/runtime/private/native-capture-routes-en.json",
+      "sha256": "fc1afdc3b42b0029bc4e43690fc2c1059a815577647fec3d46a8261f432717a7"
+    },
+    {
+      "file": "../audit/campaign-whatsapp-correction-20261027/runtime/private/locale-en-result.json",
+      "sha256": "55eca947711e8f59ac35e9c38775df72be984be10d988b0db3f365b4b38b17bc"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "file": "references/coupon-mobile450-partial-sender/campaign-coupon-picker-es-mobile.png",
+      "sha256": "dd05b8d79c83e6126ea1d0ef54d286e9bf08e70795d02fbdff66a4eeda47a62d",
+      "decision": "excluded_from_selected_manifest_and_Help",
+      "reason": "Native 450 viewport exposed partial sender prefix; replaced by complete 430 viewport source."
+    }
+  ],
+  "preserved_historical_source_root": "../help-campaign-current-capture-20261026",
+  "services_not_closed_by_this_capture_owner": [
+    "Puma33388: root owns final closure",
+    "Redis19628: fixture owner owns final closure",
+    "BIS33387/19627/3377/9563",
+    "Help QA"
+  ],
+  "remaining_validation": [
+    "Help six rendered views, static-figure readability and test-dialog size exception by publisher/reviewer.",
+    "Fixture owner final DB/queues readback and runtime closure, recorded separately."
+  ],
+  "external_publications_performed_by_capture_owner": 0
+}

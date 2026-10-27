@@ -409,3 +409,24 @@ custom-bcc29206ce14b1ed:
       time: '10:00'
   id: custom-bcc29206ce14b1ed
   type: messages
+custom-8c762f8c1e7828a2:
+  version: 1
+  title: A WhatsApp campaign introducing new arrivals
+  caption: Illustrative WhatsApp example from Luma, aligned with a campaign preview
+    using fictitious data. The new-arrivals link and Unsubscribe are inert. It does
+    not establish a send, Meta approval or delivery.
+  panels:
+  - label: Club new arrivals
+    context: One-time campaign for an audience that accepts WhatsApp; demonstration
+      content.
+    channel: whatsapp
+    business: Luma
+    messages:
+    - type: buttons
+      side: business
+      text: 'Hi Sofía, explore the Club’s new arrivals and choose your favorite: https://example.com/campaign-fixture.'
+      time: '10:00'
+      actions:
+      - Unsubscribe
+  id: custom-8c762f8c1e7828a2
+  type: messages
