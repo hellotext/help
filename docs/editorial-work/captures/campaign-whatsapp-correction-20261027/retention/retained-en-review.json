@@ -1,0 +1,336 @@
+{
+  "schema": "campaign-whatsapp-independent-retention-review-v1",
+  "reviewer": "/root/campaign_wa_pixels/retained_es_pixels",
+  "reviewed_at": "2026-10-27T01:43:52.823093+00:00",
+  "result": "pass_for_retention",
+  "scope": "Exactly 7 historical English sources; 0 new screenshots reviewed or produced by this child. No article copy review, final Help page QA or publication approval.",
+  "applicability_receipt": {
+    "path": "help-campaign-whatsapp-correction-capture-20261027/retention/en-applicability.json",
+    "sha256": "c0b26d3a618c76e8eb7aa346bf3e54559f1ce43cd8bcbfd90b446beaf85ceef9"
+  },
+  "help_retained_source_register": {
+    "path": "help-campaign-whatsapp-correction-20261027/docs/editorial-work/captures/campaign-whatsapp-correction-20261027/retained-source-register.json",
+    "sha256": "4cc5d789066043c076b29406bac0e8e4b0014c97a458a80680d79649e427172d",
+    "binding_scope": "Immutable register hash recorded; final full source-selection binding belongs to the parent reviewer."
+  },
+  "review_method": [
+    "Viewed all 7 original PNG files individually with view_image. Viewer reductions did not modify source bytes.",
+    "Verified exact source, original sidecar and current-observation SHA256, original capture dates/revision, PNG signatures and every chunk CRC, pixel dimensions at 4 times CSS crop, embedded ICC bytes/hash and sips profile.",
+    "Read all 7 current DOM observation artifacts. Independently matched every applicability check rectangle to both the original visibleProof and current observation, plus explicit labels after whitespace/case normalization.",
+    "Compared the historical pixels with the demonstrated current controls and receipt value bindings. No live browser, fixture, runtime, capture or provider accessed."
+  ],
+  "records": [
+    {
+      "id": "campaign-audience",
+      "locale": "en",
+      "layout": "desktop",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-audience-en-desktop.png",
+      "sha256": "6a8cf5c3a7bd74241fdcfd9a4da12fe8859d2f76b643167898c16d577ad788fc",
+      "captured_at": "2026-10-26T22:47:15.152Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-audience-en-desktop.json",
+      "sidecar_sha256": "d90f4ff9cae05dd896ac2f0a944d954fb60e9c4b9f0336cbb5f4740e151d0b13",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/audience-en-desktop-observed.json",
+      "current_observation_sha256": "f938e34ff51f732b71143017674716f1e5d562c9085f44d5bd0e98fb36008d2d",
+      "current_observed_at": "2026-10-27T01:28:55.295Z",
+      "pixel_size": [
+        3936,
+        2828
+      ],
+      "css_crop": [
+        24,
+        128,
+        984,
+        707
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "icc_profile_bytes": 520,
+      "format_and_crc": "pass",
+      "source_sidecar_observation_hashes": "pass",
+      "current_observation_geometry_and_required_labels": "pass",
+      "value_bindings_from_applicability_receipt": [],
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "Club inclusion, QA exclusion, open audience selector and 2 subscribers are visible and coherent with the current intended WhatsApp audience.",
+        "The open menu frame and instructional controls are complete. Seasonal offers is partly visible inside the native scroll viewport; this is internal overflow, not screenshot truncation.",
+        "English native labels are visible. The Spanish fictional list title Clientes de ejemplo · Importación is data also present in the current observation, not an untranslated interface label.",
+        "No SMS-specific text is visible. Retention does not claim identity of the whole offscreen menu population."
+      ]
+    },
+    {
+      "id": "campaign-audience",
+      "locale": "en",
+      "layout": "mobile",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-audience-en-mobile.png",
+      "sha256": "92feaa5a9a2deb9acb83f2eca68a22188cb07003d2503a3cada83be18c4afd84",
+      "captured_at": "2026-10-26T22:48:23.041Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-audience-en-mobile.json",
+      "sidecar_sha256": "1adadfba06a4327f3a63ef79b5e36c5160c0970ab6d0d3a526e5bf9cab0af443",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/audience-en-mobile-observed.json",
+      "current_observation_sha256": "fff1dcaec28afb271a9242c020e92ddee310355491baa98730404ea715b4e7a3",
+      "current_observed_at": "2026-10-27T01:29:21.473Z",
+      "pixel_size": [
+        1592,
+        4360
+      ],
+      "css_crop": [
+        16,
+        32,
+        398,
+        1090
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "icc_profile_bytes": 520,
+      "format_and_crc": "pass",
+      "source_sidecar_observation_hashes": "pass",
+      "current_observation_geometry_and_required_labels": "pass",
+      "value_bindings_from_applicability_receipt": [],
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "Club inclusion, QA exclusion, open audience selector and 2 subscribers are visible and coherent with the current intended WhatsApp audience.",
+        "The open menu frame and instructional controls are complete. Seasonal offers is partly visible inside the native scroll viewport; this is internal overflow, not screenshot truncation.",
+        "English native labels are visible. The Spanish fictional list title Clientes de ejemplo · Importación is data also present in the current observation, not an untranslated interface label.",
+        "No SMS-specific text is visible. Retention does not claim identity of the whole offscreen menu population."
+      ]
+    },
+    {
+      "id": "campaign-audience-limit",
+      "locale": "en",
+      "layout": "desktop",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-audience-limit-en-desktop.png",
+      "sha256": "b10da63ab8dc9137e5d9952ef1b97ff0a3d5f87e1f83fb378856f7d0f4ce7f30",
+      "captured_at": "2026-10-26T22:47:54.961Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-audience-limit-en-desktop.json",
+      "sidecar_sha256": "f4821276d1a4248d67986670bd7217dd847df49577135bc4a16b6b103676cf84",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/audience-limit-en-desktop-observed.json",
+      "current_observation_sha256": "3a49be1378d3ed1cd11ffb01b0ef496c7ef2d912451cea888dd76a7d92376e65",
+      "current_observed_at": "2026-10-27T01:29:07.904Z",
+      "pixel_size": [
+        2436,
+        1564
+      ],
+      "css_crop": [
+        251,
+        337,
+        609,
+        391
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "icc_profile_bytes": 520,
+      "format_and_crc": "pass",
+      "source_sidecar_observation_hashes": "pass",
+      "current_observation_geometry_and_required_labels": "pass",
+      "value_bindings_from_applicability_receipt": [
+        {
+          "selector": "#campaign-limit-draft-input",
+          "value": "2"
+        }
+      ],
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "The complete native Audience limit options dialog shows limit 2 selected, with Limit and Cancel controls fully visible.",
+        "No SMS label or channel-specific warning is visible. The current applicability receipt binds the prepared limit to 2.",
+        "Partial background audience input at the top-left is context and does not truncate the target dialog. This single desktop source is shared on mobile by the approved integration."
+      ]
+    },
+    {
+      "id": "campaign-delivery-date",
+      "locale": "en",
+      "layout": "desktop",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-delivery-date-en-desktop.png",
+      "sha256": "02983b0a49505f9f8c3ab5e7f4e92ad1b44690527671be03db767c1050d9c8c3",
+      "captured_at": "2026-10-26T22:52:19.647Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-delivery-date-en-desktop.json",
+      "sidecar_sha256": "b56123245f110710a53d962865a91a040607253fcfd9e9fb25da55a520a4a753",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/delivery-date-en-desktop-observed.json",
+      "current_observation_sha256": "637fcd3662ad02e379f3be94dad776b3ece7cd5c381b87f9330fce21e3906d68",
+      "current_observed_at": "2026-10-27T01:34:14.614Z",
+      "pixel_size": [
+        2820,
+        2520
+      ],
+      "css_crop": [
+        91,
+        128,
+        705,
+        630
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "icc_profile_bytes": 520,
+      "format_and_crc": "pass",
+      "source_sidecar_observation_hashes": "pass",
+      "current_observation_geometry_and_required_labels": "pass",
+      "value_bindings_from_applicability_receipt": [
+        {
+          "selector": "#campaign_hour",
+          "value": "12:00"
+        }
+      ],
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "The historical screenshot visibly shows Send later selected, 02 Nov 2026 and 12:00, consistent with the current applicability receipt.",
+        "Desktop: the full native November 2026 calendar and selected day 2 remain visible; the calendar intentionally overlaps background card copy.",
+        "Mobile: both delivery cards and the complete selected date/time controls are visible; no native calendar popup is claimed present.",
+        "No SMS-specific content is visible. The original capture date remains historical; calendar today state and current pixel parity are not claimed."
+      ]
+    },
+    {
+      "id": "campaign-delivery-date",
+      "locale": "en",
+      "layout": "mobile",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-delivery-date-en-mobile.png",
+      "sha256": "d0c9572caecc0ff559293c0d3c7659494d2cfff74421401bb985fb97c6999a5f",
+      "captured_at": "2026-10-26T22:52:51.234Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-delivery-date-en-mobile.json",
+      "sidecar_sha256": "742d9c627bbcc35b878e52556c13af50a8c3e8f38a06c22d6706f62da06480ff",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/delivery-date-en-mobile-observed.json",
+      "current_observation_sha256": "9784a1b598a5e11380027448236d1cebe550f0a00244640e608ddb35a1dc82f8",
+      "current_observed_at": "2026-10-27T01:34:49.377Z",
+      "pixel_size": [
+        1592,
+        2960
+      ],
+      "css_crop": [
+        16,
+        32,
+        398,
+        740
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "icc_profile_bytes": 520,
+      "format_and_crc": "pass",
+      "source_sidecar_observation_hashes": "pass",
+      "current_observation_geometry_and_required_labels": "pass",
+      "value_bindings_from_applicability_receipt": [
+        {
+          "selector": "#campaign_hour",
+          "value": "12:00"
+        },
+        {
+          "selector": "#campaign_scheduled_at + input",
+          "value": "02 Nov 2026"
+        }
+      ],
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "The historical screenshot visibly shows Send later selected, 02 Nov 2026 and 12:00, consistent with the current applicability receipt.",
+        "Desktop: the full native November 2026 calendar and selected day 2 remain visible; the calendar intentionally overlaps background card copy.",
+        "Mobile: both delivery cards and the complete selected date/time controls are visible; no native calendar popup is claimed present.",
+        "No SMS-specific content is visible. The original capture date remains historical; calendar today state and current pixel parity are not claimed."
+      ]
+    },
+    {
+      "id": "campaign-reply-settings",
+      "locale": "en",
+      "layout": "desktop",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-reply-settings-en-desktop.png",
+      "sha256": "b23f2ecb5390d4658f8afb7fa3870051e05acf22bf9dbcfb3e50178f1da79908",
+      "captured_at": "2026-10-26T22:54:12.467Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-reply-settings-en-desktop.json",
+      "sidecar_sha256": "6db6457c5a80e9ac6053b71686f1795a088481024e9aa1a69343bb47a3037792",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/reply-settings-en-desktop-observed.json",
+      "current_observation_sha256": "ee1ad3cd46078df83ef6c7054c5ba3ef937e843bc2e024bbba5c640e07a49b53",
+      "current_observed_at": "2026-10-27T01:35:03.273Z",
+      "pixel_size": [
+        3384,
+        2796
+      ],
+      "css_crop": [
+        91,
+        844,
+        846,
+        699
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "icc_profile_bytes": 520,
+      "format_and_crc": "pass",
+      "source_sidecar_observation_hashes": "pass",
+      "current_observation_geometry_and_required_labels": "pass",
+      "value_bindings_from_applicability_receipt": [],
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "No specific assignment, assignment search, open Teams menu and both Atención demo and Ventas demo choices are visible.",
+        "The desktop target menus are complete. On mobile, the native team submenu overlays the first person rows while preserving both team options and its full frame.",
+        "The required visible native labels and geometry match the current DOM observation. Full person-list population or order identity is not claimed.",
+        "The original full-page sidecar contains SMS outside the crop; direct pixel inspection confirms the retained crop excludes channel summary and preview and contains no contradictory SMS content."
+      ]
+    },
+    {
+      "id": "campaign-reply-settings",
+      "locale": "en",
+      "layout": "mobile",
+      "source": "help-campaign-current-capture-20261026/sources/campaign-reply-settings-en-mobile.png",
+      "sha256": "f7561d7e01bb8e69b405d482035feb8b552bdf1d528a644abea033b0e55be2f6",
+      "captured_at": "2026-10-26T22:54:52.544Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "sidecar": "help-campaign-current-capture-20261026/private/campaign-reply-settings-en-mobile.json",
+      "sidecar_sha256": "d748618c06dca0d528dc88ae28a53fb6a3c7983abbce0ed076054c15a781fee0",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/reply-settings-en-mobile-observed.json",
+      "current_observation_sha256": "1d36ccc51520582bd8bc7893c02bf4205b0daf3df1a32097e844d51abe829203",
+      "current_observed_at": "2026-10-27T01:35:18.923Z",
+      "pixel_size": [
+        1592,
+        3052
+      ],
+      "css_crop": [
+        16,
+        782,
+        398,
+        763
+      ],
+      "native_density": 4,
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_profile_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "icc_profile_bytes": 520,
+      "format_and_crc": "pass",
+      "source_sidecar_observation_hashes": "pass",
+      "current_observation_geometry_and_required_labels": "pass",
+      "value_bindings_from_applicability_receipt": [],
+      "pixel_review": "pass_for_historical_retention",
+      "not_a_new_capture": true,
+      "observations": [
+        "No specific assignment, assignment search, open Teams menu and both Atención demo and Ventas demo choices are visible.",
+        "The desktop target menus are complete. On mobile, the native team submenu overlays the first person rows while preserving both team options and its full frame.",
+        "The required visible native labels and geometry match the current DOM observation. Full person-list population or order identity is not claimed.",
+        "The original full-page sidecar contains SMS outside the crop; direct pixel inspection confirms the retained crop excludes channel summary and preview and contains no contradictory SMS content."
+      ]
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    "Historical retention confirms the demonstrated controls remain applicable. It is not a new capture, byte-identical current render, whole-app parity or claim that complete menu populations/order are identical.",
+    "DOM observation inspect entries for inputs record geometry and text rather than input values. Current limit/date/time value bindings are attributed to the immutable applicability receipt; historical displayed values were independently read from the PNGs.",
+    "Historical full-page sidecars can mention SMS outside the retained crop. The seven reviewed PNG crops contain no SMS contradiction; no claim is made about uncropped historical pages."
+  ],
+  "remaining": [
+    "Parent final source-selection manifest binding",
+    "Full Help desktop/mobile rendering and scoped test-dialog readability review",
+    "Build/integration and authorized publication checks"
+  ],
+  "mutations": [
+    "Only this local review receipt; no screenshots, article copy, application data, runtime, original artifacts or external state changed."
+  ]
+}

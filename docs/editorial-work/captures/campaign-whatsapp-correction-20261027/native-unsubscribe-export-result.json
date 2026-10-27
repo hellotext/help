@@ -1,0 +1,51 @@
+{
+  "status": "native_whatsapp_unsubscribe_exports_preserved_verified",
+  "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "database_readonly": true,
+  "source_task": "editorial:export_help",
+  "fixture_replayed": false,
+  "locale_mutated": false,
+  "puma_restarted": false,
+  "exports": [
+    {
+      "locale": "es",
+      "files": 47,
+      "bundle": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/campaign-whatsapp-correction-20261027/runtime/private/exports-native-unsubscribe/es",
+      "receipt": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/campaign-whatsapp-correction-20261027/runtime/private/exports-native-unsubscribe/es-receipt.json",
+      "receipt_sha256": "5deffab1cd2f249dd487bacbe1d6ba2aba1322839ad7d5227e3b59b85e766a0b",
+      "payload_sha256": "23f5b5e1d38ff8f96af99e1b9ddad11b59950ee2ad34430a9fc32eb9bc4403c4",
+      "include": "_includes/editorial/es/custom-e5e9a9e137eaff6e.html",
+      "include_sha256": "1b4afbfc5e2c5a750151e9fd049bd8bcaf14979cf209944f95cbe4f6490558e3",
+      "native_preview_action": "Detener",
+      "entrypoint_sri": "sha256-zqkNwVRm5VAWrAC7VCC5ZgIicKlfkzgKdIWgmCu2oH0="
+    },
+    {
+      "locale": "en",
+      "files": 47,
+      "bundle": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/campaign-whatsapp-correction-20261027/runtime/private/exports-native-unsubscribe/en",
+      "receipt": "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/campaign-whatsapp-correction-20261027/runtime/private/exports-native-unsubscribe/en-receipt.json",
+      "receipt_sha256": "eb014332fbe46df2f77c3c03bf00a19428d9e4406ad25de179f3a0975e831c2b",
+      "payload_sha256": "ff3ad7a4e1ed5c1467119cfade013e9185e56ff07d552fea860ae72441d22b1c",
+      "include": "_includes/editorial/en/custom-8c762f8c1e7828a2.html",
+      "include_sha256": "90e151bf54316e658f59dc2129927f7a88acf0a9e1a435898056dfc68b822671",
+      "native_preview_action": "Unsubscribe",
+      "entrypoint_sri": "sha256-zqkNwVRm5VAWrAC7VCC5ZgIicKlfkzgKdIWgmCu2oH0="
+    }
+  ],
+  "prior_exports_preserved": [
+    "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/campaign-whatsapp-correction-20261027/runtime/private/exports/es",
+    "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/campaign-whatsapp-correction-20261027/runtime/private/exports-native-links/es",
+    "/Users/pel/Documents/Codex/2026-10-06/task-8/audit/campaign-whatsapp-correction-20261027/runtime/private/exports-native-links/en"
+  ],
+  "preview_default_button_source": [
+    {
+      "path": "app/views/campaigns/wizard/_preview.html.erb",
+      "sha256": "7a235202bbbf65d77007c2f69996ef78a7a06d912af9c6396ede7e659e5bcea6"
+    },
+    {
+      "path": "app/helpers/settings/templates_helper.rb",
+      "sha256": "3bab6f433ec8ec58f4bb06b024c3e5a5369f8f6bba0cba7820906a93bdfa18ff"
+    }
+  ],
+  "note": "Native preview adds a nonpersisted default quick_reply button; only editorial definitions changed. Body, URL and display time remain identical to v1."
+}

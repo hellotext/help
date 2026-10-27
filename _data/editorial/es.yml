@@ -414,3 +414,25 @@ custom-e5d0ebc899b77888:
       time: '10:00'
   id: custom-e5d0ebc899b77888
   type: messages
+custom-e5e9a9e137eaff6e:
+  version: 1
+  title: Una campaña de WhatsApp para presentar novedades
+  caption: Ejemplo ilustrativo de WhatsApp de Luma, alineado con la vista previa de
+    una campaña con datos ficticios. El enlace de novedades y Detener son inertes.
+    No acredita un envío, una aprobación de Meta ni una entrega.
+  panels:
+  - label: Novedades del Club
+    context: Campaña puntual para una audiencia que acepta WhatsApp; contenido de
+      demostración.
+    channel: whatsapp
+    business: Luma
+    messages:
+    - type: buttons
+      side: business
+      text: 'Hola Sofía, mira las novedades del Club y elige tu favorito: https://example.com/campaign-fixture.
+        BAJA para salir'
+      time: '10:00'
+      actions:
+      - Detener
+  id: custom-e5e9a9e137eaff6e
+  type: messages

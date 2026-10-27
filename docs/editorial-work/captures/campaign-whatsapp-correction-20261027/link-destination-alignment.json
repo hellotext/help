@@ -1,0 +1,28 @@
+{
+  "status": "payloads_aligned_to_verified_destination; corrected_native_exports_pending",
+  "recorded_at": "2026-10-27T00:49:19.679601+00:00",
+  "reason": "Actual snapshot Link4 and Link5 both point to https://example.com/campaign-fixture. Root approved correcting only editable Help definitions/contract, preserving original DB and first ES export.",
+  "changes": [
+    {
+      "locale": "es",
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/recipient-example.es.json",
+      "before_sha256": "4e3784292a04787c4bfb7495bab75e6ea1b0e9a8af598092f55988c2b6d53153",
+      "after_sha256": "8e769859dc570a58fdca9365535da34c1efd077803ae6410ef497da546c60b62",
+      "text": "Hola Sofía, mira las novedades del Club y elige tu favorito: https://example.com/campaign-fixture. BAJA para salir"
+    },
+    {
+      "locale": "en",
+      "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/recipient-example.en.json",
+      "before_sha256": "58651fcbba7021a6ef8f1d23625e2efb1d62a4dd47c238ef2f2e4f42482eef90",
+      "after_sha256": "848d2b44d4a0ff9ffc01e52c20a56c52e126cab3923a234789182584ecfdff9b",
+      "text": "Hi Sofía, explore the Club’s new arrivals and choose your favorite: https://example.com/campaign-fixture."
+    }
+  ],
+  "contract_before_sha256": "e19c4cbaa2ad753ec9f736aa5c37c3b49a4d387219789e5e481c128726a868f9",
+  "contract_after_sha256": "776cf067c8cb38d3fa81e27af694bba2ce263f3425079e2b620b23fae803900a",
+  "DB_changes": 0,
+  "app_link_changes": 0,
+  "generated_output_edits": 0,
+  "initial_ES_export": "Preserved by runtime owner as superseded; not imported into Help.",
+  "EN_before_change": "Not exported."
+}

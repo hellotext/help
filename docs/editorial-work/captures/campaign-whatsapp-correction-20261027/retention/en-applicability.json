@@ -1,0 +1,514 @@
+{
+  "status": "en_retention_applicability_observed",
+  "current_contract_sha256": "d66b9078b76f89604d704c72b9931a61b183dd78505016e7b8410f67d4487dd7",
+  "current_native_routes_sha256": "fc1afdc3b42b0029bc4e43690fc2c1059a815577647fec3d46a8261f432717a7",
+  "current_source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "records": [
+    {
+      "id": "campaign-audience",
+      "locale": "en",
+      "layout": "desktop",
+      "decision": "retain_existing_genuine_source",
+      "file": "campaign-audience-en-desktop.png",
+      "sha256": "6a8cf5c3a7bd74241fdcfd9a4da12fe8859d2f76b643167898c16d577ad788fc",
+      "captured_at": "2026-10-26T22:47:15.152Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "source_sidecar_sha256": "d90f4ff9cae05dd896ac2f0a944d954fb60e9c4b9f0336cbb5f4740e151d0b13",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/audience-en-desktop-observed.json",
+      "observation_sha256": "f938e34ff51f732b71143017674716f1e5d562c9085f44d5bd0e98fb36008d2d",
+      "checks": [
+        {
+          "selector": "#wizard-header-title",
+          "old_rect": [
+            40.953125,
+            148,
+            398.6953125,
+            52
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "button",
+          "old_rect": [
+            130.921875,
+            381,
+            22.1953125,
+            20
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "button",
+          "old_rect": [
+            209.1171875,
+            381,
+            32.484375,
+            20
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "section[popover]:popover-open",
+          "old_rect": [
+            40.953125,
+            431,
+            532,
+            384
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "h1",
+          "old_rect": [
+            658.3984375,
+            364.5,
+            149.328125,
+            14
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        }
+      ],
+      "reason": "Same native UI, includedClub/excludedQA, count2 and English demonstration names. No channel-specific SMS content in the retained crop. Full offscreen menu population is not claimed identical.",
+      "not_a_new_capture": true
+    },
+    {
+      "id": "campaign-audience",
+      "locale": "en",
+      "layout": "mobile",
+      "decision": "retain_existing_genuine_source",
+      "file": "campaign-audience-en-mobile.png",
+      "sha256": "92feaa5a9a2deb9acb83f2eca68a22188cb07003d2503a3cada83be18c4afd84",
+      "captured_at": "2026-10-26T22:48:23.041Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "source_sidecar_sha256": "1adadfba06a4327f3a63ef79b5e36c5160c0970ab6d0d3a526e5bf9cab0af443",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/audience-en-mobile-observed.json",
+      "observation_sha256": "fff1dcaec28afb271a9242c020e92ddee310355491baa98730404ea715b4e7a3",
+      "checks": [
+        {
+          "selector": "#wizard-header-title",
+          "old_rect": [
+            32,
+            56,
+            254.8828125,
+            34
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "button",
+          "old_rect": [
+            121.96875,
+            291,
+            22.1953125,
+            20
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "button",
+          "old_rect": [
+            200.1640625,
+            291,
+            32.484375,
+            20
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "section[popover]:popover-open",
+          "old_rect": [
+            32,
+            387,
+            366,
+            384
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "h1",
+          "old_rect": [
+            32,
+            1025.5,
+            149.328125,
+            14
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        }
+      ],
+      "reason": "Same native UI, includedClub/excludedQA, count2 and English demonstration names. No channel-specific SMS content in the retained crop. Full offscreen menu population is not claimed identical.",
+      "not_a_new_capture": true
+    },
+    {
+      "id": "campaign-audience-limit",
+      "locale": "en",
+      "layout": "desktop",
+      "decision": "retain_existing_genuine_source",
+      "file": "campaign-audience-limit-en-desktop.png",
+      "sha256": "b10da63ab8dc9137e5d9952ef1b97ff0a3d5f87e1f83fb378856f7d0f4ce7f30",
+      "captured_at": "2026-10-26T22:47:54.961Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "source_sidecar_sha256": "f4821276d1a4248d67986670bd7217dd847df49577135bc4a16b6b103676cf84",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/audience-limit-en-desktop-observed.json",
+      "observation_sha256": "3a49be1378d3ed1cd11ffb01b0ef496c7ef2d912451cea888dd76a7d92376e65",
+      "checks": [
+        {
+          "selector": "section[popover]:popover-open h6",
+          "old_rect": [
+            300.7265625,
+            432,
+            510,
+            28
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "#campaign-limit-draft-input",
+          "old_rect": [
+            411.3046875,
+            536,
+            96,
+            42
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": "2"
+        },
+        {
+          "selector": "section[popover]:popover-open button",
+          "old_rect": [
+            300.7265625,
+            635,
+            86.9453125,
+            44
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "section[popover]:popover-open button",
+          "old_rect": [
+            403.671875,
+            635,
+            103.4296875,
+            44
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        }
+      ],
+      "reason": "Same native complete desktop dialog with limit2 from prepared readback; no additional WhatsApp warning for2 recipients below250. Desktop source remains shared onmobile.",
+      "not_a_new_capture": true
+    },
+    {
+      "id": "campaign-delivery-date",
+      "locale": "en",
+      "layout": "desktop",
+      "decision": "retain_existing_genuine_source",
+      "file": "campaign-delivery-date-en-desktop.png",
+      "sha256": "02983b0a49505f9f8c3ab5e7f4e92ad1b44690527671be03db767c1050d9c8c3",
+      "captured_at": "2026-10-26T22:52:19.647Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "source_sidecar_sha256": "b56123245f110710a53d962865a91a040607253fcfd9e9fb25da55a520a4a753",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/delivery-date-en-desktop-observed.json",
+      "observation_sha256": "637fcd3662ad02e379f3be94dad776b3ece7cd5c381b87f9330fce21e3906d68",
+      "checks": [
+        {
+          "selector": "#wizard-header-title",
+          "old_rect": [
+            107,
+            148,
+            429.3671875,
+            52
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "h2",
+          "old_rect": [
+            245,
+            342,
+            406,
+            28
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": ".flatpickr-calendar.open",
+          "old_rect": [
+            472,
+            373.5,
+            307.875,
+            336.5
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "#campaign_hour",
+          "old_rect": [
+            258,
+            669,
+            43.5234375,
+            24
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": "12:00"
+        }
+      ],
+      "reason": "Same native schedule2Nov2026 12:00Montevideo, English controls and geometry. Calendar today advances with actual date; original capture date retained, no frozen clock or pixel parity claim.",
+      "not_a_new_capture": true
+    },
+    {
+      "id": "campaign-delivery-date",
+      "locale": "en",
+      "layout": "mobile",
+      "decision": "retain_existing_genuine_source",
+      "file": "campaign-delivery-date-en-mobile.png",
+      "sha256": "d0c9572caecc0ff559293c0d3c7659494d2cfff74421401bb985fb97c6999a5f",
+      "captured_at": "2026-10-26T22:52:51.234Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "source_sidecar_sha256": "742d9c627bbcc35b878e52556c13af50a8c3e8f38a06c22d6706f62da06480ff",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/delivery-date-en-mobile-observed.json",
+      "observation_sha256": "9784a1b598a5e11380027448236d1cebe550f0a00244640e608ddb35a1dc82f8",
+      "checks": [
+        {
+          "selector": "#wizard-header-title",
+          "old_rect": [
+            32,
+            56,
+            274.3515625,
+            34
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "h2",
+          "old_rect": [
+            170,
+            248,
+            150,
+            28
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "h2",
+          "old_rect": [
+            170,
+            480,
+            114,
+            28
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "#campaign_hour",
+          "old_rect": [
+            183,
+            683,
+            43.5234375,
+            24
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": "12:00"
+        },
+        {
+          "selector": "#campaign_scheduled_at + input",
+          "old_rect": [
+            170,
+            620,
+            227,
+            42
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": "02 Nov 2026"
+        }
+      ],
+      "reason": "Same native schedule2Nov2026 12:00Montevideo, English controls and geometry. Calendar today advances with actual date; original capture date retained, no frozen clock or pixel parity claim.",
+      "not_a_new_capture": true
+    },
+    {
+      "id": "campaign-reply-settings",
+      "locale": "en",
+      "layout": "desktop",
+      "decision": "retain_existing_genuine_source",
+      "file": "campaign-reply-settings-en-desktop.png",
+      "sha256": "b23f2ecb5390d4658f8afb7fa3870051e05acf22bf9dbcfb3e50178f1da79908",
+      "captured_at": "2026-10-26T22:54:12.467Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "source_sidecar_sha256": "6db6457c5a80e9ac6053b71686f1795a088481024e9aa1a69343bb47a3037792",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/reply-settings-en-desktop-observed.json",
+      "observation_sha256": "ee1ad3cd46078df83ef6c7054c5ba3ef937e843bc2e024bbba5c640e07a49b53",
+      "checks": [
+        {
+          "selector": "h2",
+          "old_rect": [
+            107,
+            864,
+            157.3515625,
+            20
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "[data-campaign--assignment-target~=\"search\"]",
+          "old_rect": [
+            185,
+            1093,
+            526,
+            24
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "section[popover]:popover-open",
+          "old_rect": [
+            140,
+            1139,
+            584,
+            384
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "section[popover]:popover-open button span",
+          "old_rect": [
+            771,
+            1193,
+            120.53125,
+            24
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "section[popover]:popover-open button span",
+          "old_rect": [
+            771,
+            1245,
+            120.53125,
+            24
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "section[popover]:popover-open button span",
+          "old_rect": [
+            209,
+            1220,
+            486,
+            24
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        }
+      ],
+      "reason": "Same demonstrated native assignment controls, unassigned state, team labels and required person labels at matching geometry. Crop excludes channel summary/SMS. Full person-list population/order is not claimed identical; historical demonstration remains applicable.",
+      "not_a_new_capture": true
+    },
+    {
+      "id": "campaign-reply-settings",
+      "locale": "en",
+      "layout": "mobile",
+      "decision": "retain_existing_genuine_source",
+      "file": "campaign-reply-settings-en-mobile.png",
+      "sha256": "f7561d7e01bb8e69b405d482035feb8b552bdf1d528a644abea033b0e55be2f6",
+      "captured_at": "2026-10-26T22:54:52.544Z",
+      "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+      "source_sidecar_sha256": "d748618c06dca0d528dc88ae28a53fb6a3c7983abbce0ed076054c15a781fee0",
+      "current_observation": "help-campaign-whatsapp-correction-capture-20261027/retention/reply-settings-en-mobile-observed.json",
+      "observation_sha256": "1d36ccc51520582bd8bc7893c02bf4205b0daf3df1a32097e844d51abe829203",
+      "checks": [
+        {
+          "selector": "h2",
+          "old_rect": [
+            32,
+            802,
+            157.3515625,
+            20
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "[data-campaign--assignment-target~=\"search\"]",
+          "old_rect": [
+            98,
+            1095,
+            266,
+            24
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "section[popover]:popover-open",
+          "old_rect": [
+            53,
+            1141,
+            324,
+            384
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "section[popover]:popover-open button span",
+          "old_rect": [
+            181,
+            1224,
+            120.53125,
+            24
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "section[popover]:popover-open button span",
+          "old_rect": [
+            181,
+            1276,
+            120.53125,
+            24
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        },
+        {
+          "selector": "section[popover]:popover-open button span",
+          "old_rect": [
+            122,
+            1326,
+            226,
+            24
+          ],
+          "same_native_rect_and_label_now": true,
+          "value_binding": null
+        }
+      ],
+      "reason": "Same demonstrated native assignment controls, unassigned state, team labels and required person labels at matching geometry. Crop excludes channel summary/SMS. Full person-list population/order is not claimed identical; historical demonstration remains applicable.",
+      "not_a_new_capture": true
+    }
+  ],
+  "not_claimed": "No new capture date, byte-identical current render, whole-app parity or full menu population/order identity.",
+  "transport_note": "One allowed deliveryEN GET returned502 with process still listening; one root-approved identical GET retry succeeded without login, policy, timeout or process change. Cause not demonstrated."
+}

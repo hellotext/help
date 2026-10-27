@@ -1,0 +1,39 @@
+{
+  "schema": "campaign-owned-browser-proxy-close-v1",
+  "closed_at": "2026-10-27T01:42:33.980317+00:00",
+  "ownership_checks": [
+    {
+      "pid": 56902,
+      "port": 9564,
+      "command_sha256": "6ef097b9c21a264af1059633b69d64bf5554c294e06a9fc2772419353ff2b7d0",
+      "listener_identity_verified": true,
+      "capture_root_verified": true
+    },
+    {
+      "pid": 56771,
+      "port": 3379,
+      "command_sha256": "74612debb0fee3369f071955729f5127c5e2be3604cad795d3427fa8b8ab8996",
+      "listener_identity_verified": true,
+      "capture_root_verified": true
+    }
+  ],
+  "native_page_before_close": "about:blank",
+  "park_ledger": "private/network-ledger-20261027T012053876Z-74681-016.json",
+  "park_ledger_sha256": "3d7e11dd02e698f423037b1600508d7699b5583311a03fc346d8f4c184db9406",
+  "signal": "SIGTERM",
+  "closed_pids": [
+    56902,
+    56771
+  ],
+  "remaining_owned_pids": [],
+  "remaining_owned_listeners": [],
+  "success": true,
+  "untouched_services": [
+    "Rails33388 (root owns closure)",
+    "Redis19628 (fixture owner owns closure)",
+    "BIS33387/19627/3377/9563",
+    "Help QA"
+  ],
+  "profile_preserved": true,
+  "credentials_printed": false
+}

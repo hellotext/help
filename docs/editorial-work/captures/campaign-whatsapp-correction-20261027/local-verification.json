@@ -1,0 +1,32 @@
+{
+  "status": "passed_awaiting_actual_verifying_commit",
+  "recorded_at": "2026-10-27T02:22:43.715519+00:00",
+  "article_key": "campaigns/creating-a-campaign.md",
+  "final_review": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/final-review.json",
+    "sha256": "9093adb2f1b4b865857376d03b9be96dc8bb69fa999152c70a4ef2a7417330a5"
+  },
+  "checkpoint": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/checkpoint.json",
+    "sha256": "e770d7793c427409cce801f0e64f822dbe7f809e57d89e8d57b5f356df3497f1"
+  },
+  "capture_receipt": {
+    "path": "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/page-review/capture-receipt.json",
+    "sha256": "e4e5038ebc039f4fa35d7b486f3273f0d6d1ac770ccd995dd7c6830844679355"
+  },
+  "remaining_local_blockers": [],
+  "verifying_commit": null,
+  "inventory_unchanged": true,
+  "publication_verified": false,
+  "whitespace_check": {
+    "all_candidate_paths_exit_code": 2,
+    "reported_paths": [
+      "_includes/editorial/en/custom-8c762f8c1e7828a2.html",
+      "_includes/editorial/es/custom-e5e9a9e137eaff6e.html",
+      "docs/editorial-work/captures/campaign-whatsapp-correction-20261027/validation/build.log"
+    ],
+    "all_other_paths_exit_code": 0,
+    "explanation": "Native exported include blank-line whitespace and immutable Jekyll build-log whitespace are preserved byte-exact. All authored article, YAML, JSON and work-record paths pass.",
+    "report_sha256": "3166003bfa8960e3b09fbe919b5453afdbc16bc5c01cf55312d9bae18a3e8503"
+  }
+}

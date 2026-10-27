@@ -1,0 +1,98 @@
+{
+  "BAJA_and_message_rows_preserved": true,
+  "actor_locale_final": "en",
+  "actor_password_preserved": true,
+  "after_preparation_changes": {
+    "authentication_login_attempts": {
+      "deleted": [],
+      "inserted": [
+        20
+      ],
+      "updated": {}
+    },
+    "compliance_fingerprints": {
+      "deleted": [],
+      "inserted": [],
+      "updated": {
+        "5": [
+          "last_seen_at",
+          "metadata",
+          "updated_at"
+        ]
+      }
+    },
+    "compliance_user_fingerprints": {
+      "deleted": [],
+      "inserted": [
+        9
+      ],
+      "updated": {}
+    },
+    "users": {
+      "deleted": [],
+      "inserted": [],
+      "updated": {
+        "1": [
+          "locale"
+        ]
+      }
+    }
+  },
+  "app_source_unchanged": true,
+  "audience_count": 2,
+  "authentication_scope": "One native login attempt for fictional actor1; loopback fingerprint association and last_seen metadata only.",
+  "browser_proxy": {
+    "path": "help-campaign-whatsapp-correction-capture-20261027/capture-services-closed.json",
+    "sha256": "78fa9de59bd9cfd235e1e560936d93de357625b0d42e25ee750196cb0002d36d"
+  },
+  "contacts_lists_consent_preserved": true,
+  "credentials_or_cookies_exposed": false,
+  "cumulative_clone_rows_deleted": 4,
+  "cumulative_clone_rows_inserted": 17,
+  "cumulative_clone_rows_updated": 6,
+  "database_preserved": "hellotext_help_campaign_whatsapp_20261027",
+  "drafts_preserved": true,
+  "failed_jobs": 0,
+  "final_rdb_sha256": "b963bee3be6579a00a759d7c0b73576b17cfaf8a6428bdebc4130c5fdf9d37ca",
+  "final_rows_sha256": "f35de8403c1fdf7a7ea05492333976fca055221962022e64d2433513a2060be9",
+  "final_sequences_sha256": "66bf288cdad373b3115a1d89dd3c2160ced1169e6b610ac8c92fab5406f78735",
+  "fixture_rows_deleted": 4,
+  "fixture_rows_inserted": 15,
+  "fixture_rows_updated": 5,
+  "initial_rdb_preserved": true,
+  "native_cache_delta": {
+    "added": [
+      "help-campaign-whatsapp:mailing/library/v2/5/23e2004e-2d26-4f24-b28b-88e308f46b58/hellotext/es/en/http://127.0.0.1:33388/",
+      "help-campaign-whatsapp:translations/script/en/97a10127a325f93badf2777c7e239131afd62726"
+    ],
+    "payload_changed": [],
+    "removed_or_expired": [
+      "help-campaign-whatsapp:business-membership:v1:5:1"
+    ],
+    "ttl_only_changes": 8
+  },
+  "native_login_fingerprint_rows_updated": 1,
+  "native_login_rows_inserted": 2,
+  "native_missing_meta_price": null,
+  "new_jobs": 0,
+  "original_campaign_and_bis_untouched": true,
+  "performed_jobs": 0,
+  "private_state_audit_sha256": "aec8490989773630c9a5f067ad5ddf2fb5780a7005676d0da464be31442c5574",
+  "puma": {
+    "path": "audit/campaign-whatsapp-correction-20261027/runtime/puma-root-closure.json",
+    "sha256": "5a7b7bd89eac062af76e5839979bd6021acc80b6d10b54a6e80c0eeefd06171c"
+  },
+  "redis": {
+    "path": "audit/campaign-whatsapp-correction-20261027/runtime/whatsapp-redis-closure-result.json",
+    "sha256": "1a3b99ea3af316d9890a63e60ad50a5706fd1eb0838af7137078ee427a485775"
+  },
+  "retained_jobs": 2,
+  "schema_migrations": 2066,
+  "sequences": 602,
+  "since_en_capture_rows_changed": 0,
+  "since_en_capture_sequences_changed": 0,
+  "status": "whatsapp_runtime_closed_verified",
+  "tables": 610,
+  "test_destination_empty": true,
+  "workers": 0
+}
