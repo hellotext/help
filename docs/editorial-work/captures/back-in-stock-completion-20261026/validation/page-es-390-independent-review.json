@@ -1,0 +1,1113 @@
+{
+  "status": "passed",
+  "findings": [],
+  "reviewer": "/root",
+  "reviewed_at": "2026-10-27T03:31:49.499444+00:00",
+  "locale": "es",
+  "width": 390,
+  "packet": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/views/es-390.json",
+    "sha256": "59549894f1ce3b511a8f167c4112e13887c15f6f5481b814d30d5298e32fa6b2"
+  },
+  "checkpoint_sha256": "278a3a1a13af23ce896b53c546f432eae97d5aab5fdb3eca99eaf2b351d6e039",
+  "source": {
+    "path": "_i18n/es/journeys/back-in-stock-pounce.md",
+    "sha256": "faee50331d36f36b1d58acc7bff487ee9cda81bf33e2e9f0b67e82e28a869aca"
+  },
+  "built_html": {
+    "path": "_site/es/vuelta-a-stock.html",
+    "sha256": "f8e22cb4d55e2e9b8f1b7185ad657b0d6dc04512fb89e9c65a8324e47d9de9f8"
+  },
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 15,
+    "individually_viewed": true,
+    "coverage_css": [
+      0,
+      16198.5
+    ],
+    "document_height_css": 16199,
+    "observations": [
+      "All fifteen actual overlapping native viewport segments were inspected from header through footer.",
+      "Title, prose, headings, lists, comparison table and contextual/related links wrap within the 358 CSS article column without visible horizontal overflow or overlap.",
+      "Early fictional Luma WhatsApp example is complete and readable, with product photo, message, time and inert Ver producto action. Surrounding prose accurately labels it illustrative and unsent.",
+      "Seven lavender screenshot stages align consistently with the article. Menus, discounts, promotions, tone, WhatsApp preview and contact activity remain readable in context.",
+      "Feedback buttons, contact link, footer and language selector remain complete and aligned."
+    ]
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 7,
+    "individually_viewed": true,
+    "observations": [
+      {
+        "id": "bis-overview",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-overview-es-desktop.png",
+        "observation": "Four complete configuration cards, title and navigation labels are legible. Supporting card prose is compact at mobile width. The native All incoming channels badge under outgoing channels is preserved as app copy; the article does not present it as proof of a connected WhatsApp channel.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "bis-audience",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-audience-es-mobile.png",
+        "observation": "Complete audience selection, open dropdown and estimated target of 133 subscribers are readable. The partial last unselected row is the native internal scroll boundary, not a clipped screenshot edge.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "bis-discounts",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-discounts-es-mobile.png",
+        "observation": "Combined strategy, selected 10 percent cap and alternative 5/15/20 percent choices are complete and readable.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "bis-store-promotions",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-store-promotions-es-mobile.png",
+        "observation": "Complete title, close/search/filter controls, four promotion entries, schedules and toggles; fictional native data is preserved.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "bis-tone",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-tone-es-mobile.png",
+        "observation": "All six tone cards, labels and icons are complete and readable.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "bis-whatsapp-1",
+        "rendered_width_css": 315.9921875,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-whatsapp-1-es-mobile.png",
+        "observation": "Active WhatsApp selector, native phone, product image, message, Ver producto and four carousel dots are complete. Native placeholder header is part of the preview.",
+        "alt_and_caption_match_visible_state": true
+      },
+      {
+        "id": "bis-contact-activity",
+        "rendered_width_css": 315.984375,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-contact-activity-es-mobile.png",
+        "observation": "Activity and 2 Notes tabs and both native wishlist/restock rows are complete. No clipped floating control.",
+        "alt_and_caption_match_visible_state": true
+      }
+    ]
+  },
+  "records": [
+    {
+      "file": "bis-es-390-full-part1.png",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "7fe9507908a71398e2892cd560ff48efe56f6f99ed06a7efd927b8e1028c7c62",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 0,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part2.png",
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          1100
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "c0cc54d70704b6544248139d0b946cc7f3c0d11014f36c3c717859b248758c3a",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part3.png",
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          2200
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "b637bc003e45f98aee68b02f8d6bfb94e20a5bff25e79b969a02700cc4632a32",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part4.png",
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          3300
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "2eccb9911597bc8aadc74cb11b9d7b45a4c86ff08f0d7dbf8fb04e3ef31f45e6",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part5.png",
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          4400
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "ce8c9e730e7c6cd1ec578d8cf1ccb8a787fe78f49ead8572c99d0c03160ab65c",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part6.png",
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          5500
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "9db82a2de9983cc0e71c21a0b9c9eb3782518f89f6fe6e905087c548481ffb0e",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part7.png",
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          6600
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "c6f4de68cc3405c7461228aff4a721d6b3f9e26688a1b31f29963fd9bba0043c",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part8.png",
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          7700
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "4e14f501a89ba6d555884ccd0260ef867a527852c1e803b226dea67bf1be1031",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part9.png",
+      "clip": {
+        "x": 0,
+        "y": 8800,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          8800
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "f59c0a6e65a2f3ec011d9685d62231b9acd28ffeeb8a6f56e822db85627e41f0",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part10.png",
+      "clip": {
+        "x": 0,
+        "y": 9900,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          9900
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "f2c4f9616796d914c8986df6189c851791d9a3f5bc9c89f4b96f1f76672dbe61",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part11.png",
+      "clip": {
+        "x": 0,
+        "y": 11000,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          11000
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "48230272e9c77f9d31513a084b1640051e964263f26d01bd3c103377fd3ae7bd",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part12.png",
+      "clip": {
+        "x": 0,
+        "y": 12100,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          12100
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "f236f6772064a605e64b988f5610afd9778ccc16b9e1c844e11b56069fad234b",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part13.png",
+      "clip": {
+        "x": 0,
+        "y": 13200,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          13200
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "f117e194ed3aa414f0b65f8529e08453a98453c6887262104b5b510b7149fd43",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part14.png",
+      "clip": {
+        "x": 0,
+        "y": 14300,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          14300
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "516b294528bd4f12ca2247c8573a26fa6238f86ac682bfbe497d89147fce8c3d",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 100,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part15.png",
+      "clip": {
+        "x": 0,
+        "y": 14998.5,
+        "width": 390,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          14998.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "15b300eaade64b3ad2856efa1da470baf03edf1c1e448646325b55cb1def8293",
+      "complete_page_segment": true,
+      "documentHeight": 16199,
+      "overlap_css": 501.5,
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-overview.png",
+      "clip": {
+        "x": 4,
+        "y": 5520,
+        "width": 382,
+        "height": 384
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          5112
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        768
+      ],
+      "icc": "Display P3",
+      "sha256": "e9e1ae096ebe6cca2c09e72cdc6f7aa4289f7363880c33c4ae0a74cf2cfd82b0",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-audience.png",
+      "clip": {
+        "x": 4,
+        "y": 5999,
+        "width": 382,
+        "height": 799
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          5798.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        1598
+      ],
+      "icc": "Display P3",
+      "sha256": "c6bd020a7050d1d8501e7c13a3cf76a2f43de91d99e98e07200b16342262bf8d",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-discounts.png",
+      "clip": {
+        "x": 4,
+        "y": 7013,
+        "width": 382,
+        "height": 559
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          6692.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        1118
+      ],
+      "icc": "Display P3",
+      "sha256": "4ac2104a439b459ac6bb4b63c950abfc13ae7fcb100ee4de6d7be1729e8e7bb3",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-store-promotions.png",
+      "clip": {
+        "x": 4,
+        "y": 7763,
+        "width": 382,
+        "height": 859
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          7592
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        1718
+      ],
+      "icc": "Display P3",
+      "sha256": "015da55d443cfe254e6986441b84fa71fcff1bf0545bd27b148ac6eba4c8d809",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-tone.png",
+      "clip": {
+        "x": 4,
+        "y": 8717,
+        "width": 382,
+        "height": 604
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          8418.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        1208
+      ],
+      "icc": "Display P3",
+      "sha256": "6c75021ff69553d86bf61c4c5e56564eeda45e40e909328c665c85362694ea55",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-whatsapp-1.png",
+      "clip": {
+        "x": 4,
+        "y": 9488,
+        "width": 382,
+        "height": 739
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          9257.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        1478
+      ],
+      "icc": "Display P3",
+      "sha256": "b04126d6d1150070e79f7ff8eebf086198df236c97db7c49cbef77b7389885bf",
+      "individually_viewed": true,
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-contact-activity.png",
+      "clip": {
+        "x": 4,
+        "y": 12736,
+        "width": 382,
+        "height": 231
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/es/vuelta-a-stock.html",
+        "title": "Misión Vuelta a Stock | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          12251.5
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        462
+      ],
+      "icc": "Display P3",
+      "sha256": "8db869df40c3ca8fa9113751915a0d3727e9e777bf353bd374b099fa0b63a694",
+      "individually_viewed": true,
+      "status": "passed"
+    }
+  ],
+  "integrity_checks": [
+    {
+      "file": "bis-es-390-full-part1.png",
+      "sha256": "7fe9507908a71398e2892cd560ff48efe56f6f99ed06a7efd927b8e1028c7c62",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part2.png",
+      "sha256": "c0cc54d70704b6544248139d0b946cc7f3c0d11014f36c3c717859b248758c3a",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part3.png",
+      "sha256": "b637bc003e45f98aee68b02f8d6bfb94e20a5bff25e79b969a02700cc4632a32",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part4.png",
+      "sha256": "2eccb9911597bc8aadc74cb11b9d7b45a4c86ff08f0d7dbf8fb04e3ef31f45e6",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part5.png",
+      "sha256": "ce8c9e730e7c6cd1ec578d8cf1ccb8a787fe78f49ead8572c99d0c03160ab65c",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part6.png",
+      "sha256": "9db82a2de9983cc0e71c21a0b9c9eb3782518f89f6fe6e905087c548481ffb0e",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part7.png",
+      "sha256": "c6f4de68cc3405c7461228aff4a721d6b3f9e26688a1b31f29963fd9bba0043c",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part8.png",
+      "sha256": "4e14f501a89ba6d555884ccd0260ef867a527852c1e803b226dea67bf1be1031",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part9.png",
+      "sha256": "f59c0a6e65a2f3ec011d9685d62231b9acd28ffeeb8a6f56e822db85627e41f0",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part10.png",
+      "sha256": "f2c4f9616796d914c8986df6189c851791d9a3f5bc9c89f4b96f1f76672dbe61",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part11.png",
+      "sha256": "48230272e9c77f9d31513a084b1640051e964263f26d01bd3c103377fd3ae7bd",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part12.png",
+      "sha256": "f236f6772064a605e64b988f5610afd9778ccc16b9e1c844e11b56069fad234b",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part13.png",
+      "sha256": "f117e194ed3aa414f0b65f8529e08453a98453c6887262104b5b510b7149fd43",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part14.png",
+      "sha256": "516b294528bd4f12ca2247c8573a26fa6238f86ac682bfbe497d89147fce8c3d",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-full-part15.png",
+      "sha256": "15b300eaade64b3ad2856efa1da470baf03edf1c1e448646325b55cb1def8293",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-overview.png",
+      "sha256": "e9e1ae096ebe6cca2c09e72cdc6f7aa4289f7363880c33c4ae0a74cf2cfd82b0",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-audience.png",
+      "sha256": "c6bd020a7050d1d8501e7c13a3cf76a2f43de91d99e98e07200b16342262bf8d",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-discounts.png",
+      "sha256": "4ac2104a439b459ac6bb4b63c950abfc13ae7fcb100ee4de6d7be1729e8e7bb3",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-store-promotions.png",
+      "sha256": "015da55d443cfe254e6986441b84fa71fcff1bf0545bd27b148ac6eba4c8d809",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-tone.png",
+      "sha256": "6c75021ff69553d86bf61c4c5e56564eeda45e40e909328c665c85362694ea55",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-whatsapp-1.png",
+      "sha256": "b04126d6d1150070e79f7ff8eebf086198df236c97db7c49cbef77b7389885bf",
+      "status": "passed"
+    },
+    {
+      "file": "bis-es-390-bis-contact-activity.png",
+      "sha256": "8db869df40c3ca8fa9113751915a0d3727e9e777bf353bd374b099fa0b63a694",
+      "status": "passed"
+    }
+  ],
+  "runtime_or_browser_mutations_by_reviewer": 0,
+  "viewer_note": "All 22 actual PNGs individually inspected with view_image at original resolution, across continuous review checkpoints: fifteen complete-page segments and seven details. Artifacts were not resized or edited. Receipt covers only ES at 390 CSS px; no assertion about other views, sends or publication."
+}

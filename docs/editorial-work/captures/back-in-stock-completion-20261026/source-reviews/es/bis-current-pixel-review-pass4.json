@@ -1,0 +1,93 @@
+{
+  "status": "passed_source_pending_help_render",
+  "reviewer": "/root/resume_capture_audit_20261026",
+  "created_at": "2026-10-27T00:08:58.242782+00:00",
+  "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "records": [
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-contact-activity-es-desktop.png",
+      "sha256": "f380a13ad6d6d81b86f12311525e9c4d2cbe2d90c77642077afbc4bf3791cd38",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-contact-activity-es-desktop.json",
+        "sha256": "3c73f6c60495128d56b8bf90ea14d3dbd83c47dfae35223d1cf47277a2a85e01"
+      },
+      "id": "bis-contact-activity",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        1068,
+        774,
+        372,
+        200
+      ],
+      "pixelSize": [
+        1488,
+        800
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "crc_valid": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": [
+        "Original PNG individually opened at original detail. Actividad and 2 Notas tabs are complete. Both native event rows show the same fictitious Crocs Classic Clog Malva product, complete event text and relative ages 2 DÍAS and 3 DÍAS.",
+        "Restock row and preceding wishlist-add row are visible with connecting timeline and complete native markers. The pink wishlist marker has no visible inner icon; source appearance is preserved.",
+        "No partial floating control, pointer, browser chrome or unrelated customer identifiers appear. Text, timestamp baselines and genuine background margins are complete. The image represents recorded interest and restock signals, not a message sent or delivered.",
+        "Native logical width is 372 CSS pixels; final Help readability remains pending. Do not upscale beyond this logical width.",
+        "Source SHA256, all PNG chunk CRCs, native 4x dimensions, embedded Display P3 and macOS sips format/profile checks pass. Before/after state hashes match. This profile-activity scene has playbook:null; no direct playbook enabled-state assertion is made from this sidecar.",
+        "Revised compositor crop ends at document y=974 and excludes the unrelated native floating control identified by capturer at y=978; bottom event panel ends at y=970. Pixels show the event text and timestamps with clear native bottom whitespace. The earlier candidate is preserved under references/activity-floating-control, not selected."
+      ],
+      "metadata_tool": "sips -g format -g pixelWidth -g pixelHeight -g profile"
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-contact-activity-es-mobile.png",
+      "sha256": "43ae098ff1b8136182b19780660a6f4e7cc614d670f0d254c047726b7fd5003d",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-contact-activity-es-mobile.json",
+        "sha256": "67852fa845fe613f5931fa49a5cdf53207f756b4f3b1c4e0e3096347f5aa60a5"
+      },
+      "id": "bis-contact-activity",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        0,
+        765,
+        430,
+        212
+      ],
+      "pixelSize": [
+        1720,
+        848
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "crc_valid": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": [
+        "Original PNG individually opened at original detail. Actividad and 2 Notas tabs are complete. Both native event rows show the same fictitious Crocs Classic Clog Malva product, complete event text and relative ages 2 DÍAS and 3 DÍAS.",
+        "Restock row and preceding wishlist-add row are visible with connecting timeline and complete native markers. The pink wishlist marker has no visible inner icon; source appearance is preserved.",
+        "No partial floating control, pointer, browser chrome or unrelated customer identifiers appear. Text, timestamp baselines and genuine background margins are complete. The image represents recorded interest and restock signals, not a message sent or delivered.",
+        "Native logical width is 430 CSS pixels; final Help readability remains pending. Do not upscale beyond this logical width.",
+        "Source SHA256, all PNG chunk CRCs, native 4x dimensions, embedded Display P3 and macOS sips format/profile checks pass. Before/after state hashes match. This profile-activity scene has playbook:null; no direct playbook enabled-state assertion is made from this sidecar."
+      ],
+      "metadata_tool": "sips -g format -g pixelWidth -g pixelHeight -g profile"
+    }
+  ],
+  "unselected_references": [
+    {
+      "path": "help-bis-current-capture-20261026/references/activity-floating-control/bis-contact-activity-es-desktop.png",
+      "sha256": "6d9074aacd67774c91d6dd769d5c561da115a633e37c3fe17d793a503fdb1cfc",
+      "status": "unselected_reference",
+      "individually_viewed_in_this_review": false
+    },
+    {
+      "path": "help-bis-current-capture-20261026/references/activity-floating-control/private/bis-contact-activity-es-desktop.json",
+      "sha256": "da0f1e49848cbbf03ff491854107d354ea70ed7252d932ad592bf2d6dda5a2d8",
+      "status": "unselected_reference",
+      "individually_viewed_in_this_review": false
+    }
+  ],
+  "findings": [],
+  "scope": "Read-only individual visual source review. No browser navigation, UI action, DB mutation, image modification or external write."
+}

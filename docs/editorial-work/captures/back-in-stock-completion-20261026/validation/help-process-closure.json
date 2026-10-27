@@ -1,0 +1,67 @@
+{
+  "status": "closed_and_verified",
+  "recorded_at": "2026-10-27T03:33:01.564144+00:00",
+  "checkpoint_sha256": "278a3a1a13af23ce896b53c546f432eae97d5aab5fdb3eca99eaf2b351d6e039",
+  "scope_sha256": "bd700f21565ee21048eaddc3fcb69cc01177a154204eac2f58a2eaea6a2cc996",
+  "only_owned_process_groups_terminated": true,
+  "owned_processes_absent": true,
+  "owned_pids": [
+    38433,
+    38434
+  ],
+  "listeners": [
+    {
+      "port": 3380,
+      "listener_present": false
+    },
+    {
+      "port": 9559,
+      "listener_present": false
+    }
+  ],
+  "process_receipt": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/help-processes.json",
+    "sha256": "d4d577464feb7914e6e660da0a074ae79cabcdf6107d2235148745f7abbb9326"
+  },
+  "observations": [
+    {
+      "command": [
+        "ps",
+        "-p",
+        "38433,38434",
+        "-o",
+        "pid=,ppid=,pgid=,command="
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "lsof",
+        "-nP",
+        "-iTCP:3380",
+        "-sTCP:LISTEN"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "lsof",
+        "-nP",
+        "-iTCP:9559",
+        "-sTCP:LISTEN"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "capture_receipt": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/capture-receipt.json",
+    "sha256": "caf982d970368f8b94a8d6b5f77ac85545074dcaaf89b8366534950034e23ce9"
+  },
+  "capture_exit_code": 0
+}

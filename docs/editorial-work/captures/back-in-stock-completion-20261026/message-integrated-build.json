@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-26T22:22:08.649303+00:00",
+  "scope": "Current article bodies plus native early recipient messages; interface screenshots pending.",
+  "command": "yarn build",
+  "ruby": "3.3.6",
+  "exit_code": 0,
+  "security_headers_passed": true,
+  "duration_seconds": 10.15,
+  "checks": [
+    {
+      "locale": "es",
+      "route": "es/vuelta-a-stock.html",
+      "article_sha256": "5609b2407dd6753f271ccbe8b2c976f6f381171048feaa14b06cfeaedeaa4f51",
+      "native_figure_count": 1,
+      "image_count": 1,
+      "image_url": "https://help.hellotext.com/images/editorial/assets/homepage/proposals/crocs-classic-clog-malva-ecuador-cutout.png",
+      "outgoing_links_in_figure": 0,
+      "forms_in_figure": 0,
+      "action_is_inert_span": true,
+      "complete_payload_text_in_built_html": true,
+      "placed_before_first_heading": true,
+      "headings_preserved": 9,
+      "ordered_liquid_links_preserved": 29,
+      "browser_layout_verified": false
+    },
+    {
+      "locale": "en",
+      "route": "back-in-stock-pounce.html",
+      "article_sha256": "ac27e4c976a686453d46ef6951df9ad4e12f2c24fdbcc7eb86b5fdfb65f1b8c7",
+      "native_figure_count": 1,
+      "image_count": 1,
+      "image_url": "https://help.hellotext.com/images/editorial/assets/homepage/proposals/crocs-classic-clog-malva-ecuador-cutout.png",
+      "outgoing_links_in_figure": 0,
+      "forms_in_figure": 0,
+      "action_is_inert_span": true,
+      "complete_payload_text_in_built_html": true,
+      "placed_before_first_heading": true,
+      "headings_preserved": 9,
+      "ordered_liquid_links_preserved": 29,
+      "browser_layout_verified": false
+    }
+  ],
+  "built_JS_and_product_image_match_committed": true,
+  "stylesheet_note": "Help source stylesheet preserved; normal Jekyll build minifies CSS. Native byte equivalence asserted for JS and image, not minified CSS.",
+  "docs_and_agents_excluded": true,
+  "browser_QA_performed": false,
+  "log": "audit/help-resume-20261026/next-pairs/help-message-integrated-build.log"
+}

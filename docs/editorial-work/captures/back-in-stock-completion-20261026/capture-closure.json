@@ -1,0 +1,58 @@
+{
+  "status": "BIS_native_capture_complete_sources_passed_Help_QA_pending",
+  "at": "2026-10-27T03:16:13.871950+00:00",
+  "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "source_counts": {
+    "ES": 13,
+    "EN": 13,
+    "selected": 26,
+    "figures_per_locale": 7,
+    "rejected_EN_preserved": 1
+  },
+  "source_gates": {
+    "es": {
+      "path": "audit/help-resume-20261026/capture/bis-selected-es-source-review-gate.json",
+      "sha256": "fa4c9e90aae80a08da6ce50df83de25dcc79927d98b281e42bdde2b6fa82429b"
+    },
+    "en": {
+      "path": "audit/bis-en-resume-20261027/bis-selected-en-source-review-gate.json",
+      "sha256": "5c37aac45be13b4a2b680854e2b6cac6544c21d82a6741a36b1c7e699121cbe6"
+    }
+  },
+  "capture_helper": {
+    "path": "help-bis-current-capture-20261026/capture-session.mjs",
+    "sha256": "4b40228c0b8201d0a7754fdf9fbd5841b164d343f78a734b2f78b6880ac96094"
+  },
+  "contract_ES_preserved": {
+    "path": "audit/bis-en-resume-20261027/private/capture-contract.es.before-resume.json",
+    "sha256": "300a1486916e176d1176403506e394dcfd33636e68fd0eccac481aaf822c873a"
+  },
+  "contract_EN": {
+    "path": "help-bis-current-capture-20261026/capture-contract.json",
+    "sha256": "b8552cc1328c44175c419d944affa3a60f9360fcbbfdee2518deeac382113c37"
+  },
+  "EN_network_review": {
+    "path": "audit/bis-en-resume-20261027/en-network-review.json",
+    "sha256": "0b508bcab4fc3cf38a524a2bbb2bc0295d72b114b9686f866dfd053d8b7df43a"
+  },
+  "services_closed": {
+    "path": "audit/bis-en-resume-20261027/capture-services-closed.json",
+    "sha256": "221908911635e76240290318922a8b199356d94dcaad048fabba0386c4cacbfe"
+  },
+  "rejected_source": {
+    "path": "help-bis-current-capture-20261026/references/activity-floating-control-en/reason.json",
+    "sha256": "b569f831ec4a9aeb328bdf61d0dc5c2d7d107ce4a8100872b7eb7caa4d83755f"
+  },
+  "app_source_unchanged": true,
+  "pixel_transformations": 0,
+  "new_logins_during_EN": 0,
+  "fixture_replays_during_EN": 0,
+  "EN_business_writes": 0,
+  "provider_or_delivery_calls": 0,
+  "source_currency_refresh": {
+    "path": "audit/bis-en-resume-20261027/source-currency-ref-refresh.json",
+    "sha256": "15ab37387d10341aabe8af3474e5482d47e6e4fb2cbcc30a9c1bbe3fea4ab140"
+  },
+  "source_currency_scope": "Use root source comparison; no global deployed-parity claim.",
+  "private_material": "Raw sidecars, signed route information, DB snapshots and RDB remain private. Publishable evidence consists of hashes/references and fictional capture metadata only."
+}

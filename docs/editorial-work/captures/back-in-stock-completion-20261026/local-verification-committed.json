@@ -1,0 +1,65 @@
+{
+  "recorded_at": "2026-10-27T03:37:04.583460+00:00",
+  "status": "bilingual_article_local_verified",
+  "article_key": "journeys/back-in-stock-pounce.md",
+  "verifying_commit": "489fcfe239f59dc9f48d25c62bd272c78d4a5f8e",
+  "verifying_commit_parent": "c19beab1ff9cb8d132d672a6a14b857b2dc1e646",
+  "final_review": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/final-review.json",
+    "sha256": "f70a2a18fd692fa245f0eda4f378d5c610bd9537b87da920ab8edaa7f44118ae"
+  },
+  "local_verification_before_commit": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/local-verification.json",
+    "sha256": "c23a30e21cec7948f13519d87e052d9e3f6b7453e52f58d89cdfbbe82d96ef40"
+  },
+  "evidence_index_at_verifying_commit": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/evidence-index.json",
+    "sha256": "762aad0dcd32d75a4ece324b6a8ab2ac0f381318ea3dd87c283c75546b79c1da"
+  },
+  "remaining_blockers": [],
+  "inventory": {
+    "before_row": "journeys/back-in-stock-pounce.md,pending,,",
+    "after_row": "journeys/back-in-stock-pounce.md,local_verified,489fcfe239f59dc9f48d25c62bd272c78d4a5f8e,docs/editorial-work/back-in-stock-completion-20261026.md",
+    "rows": 154,
+    "unrelated_rows_preserved": 153,
+    "before_counts": {
+      "local_verified": 121,
+      "pending": 28,
+      "out_of_scope": 1,
+      "in_progress": 3,
+      "visual_pending": 1
+    },
+    "after_counts": {
+      "local_verified": 122,
+      "pending": 27,
+      "out_of_scope": 1,
+      "in_progress": 3,
+      "visual_pending": 1
+    },
+    "unresolved_before": 32,
+    "unresolved_after": 31,
+    "before_sha256": "1afecd9656ba221d8168e5b8b23e49eeb4035186cb36bbbfae6f91ae3754ea23",
+    "after_sha256": "08531682a0b008b9017e964e13b62da356aa0863cc11a5e53a42ca5e8b6b20e5"
+  },
+  "immutable_receipts_preserved": true,
+  "publication_verified": false,
+  "whitespace_check": {
+    "all_candidate_paths_exit_code": 2,
+    "reported_paths": [
+      "_includes/editorial/en/custom-f7a216b444d71195.html",
+      "_includes/editorial/es/custom-1d37399b8498476e.html",
+      "docs/editorial-work/captures/back-in-stock-completion-20261026/figure-instruction-copy.patch",
+      "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/build.log"
+    ],
+    "all_other_paths_exit_code": 0,
+    "explanation": "Preserved native export blank-line whitespace in both includes, exact unified-diff context lines and final context blank in the reviewed copy patch, and the original Jekyll Generating line in the immutable build log. All authored article, YAML, JSON and work-record paths pass.",
+    "report_sha256": "4b048d00dd822d23705aba71ac9a3f78fe69cba18bb000b3b7f1bb40b27b6291",
+    "scoped_candidate_paths": 231,
+    "unexpected_paths": []
+  },
+  "limits": [
+    "This receipt records the actual verifying commit and completed local controls; it is not a deployment or public verification claim.",
+    "Twenty-six selected native PNGs show current UI with fictitious isolated data. The playbook stayed disabled; no provider or delivery calls occurred.",
+    "The closure changes only this receipt and the Back-in-Stock inventory row. Articles, source PNGs, native includes and frozen QA evidence retain their verifying-commit bytes."
+  ]
+}

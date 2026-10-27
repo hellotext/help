@@ -1,0 +1,74 @@
+{
+  "status": "partial_source_review_passed_help_render_pending",
+  "reviewer": "/root/bis_resume_readonly/bis_en_pixels",
+  "created_at": "2026-10-27T03:05:15.803782+00:00",
+  "locale": "en",
+  "records": [
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-store-promotions-en-desktop.png",
+      "sha256": "e02b4f28cf6960605969a1723b1083f604d6a9e1ed0e94d9c7bece3991c1cc08",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-store-promotions-en-desktop.json",
+        "sha256": "9816d0e3c50b6d3544ec3e36c79e03e558e4a558e82c367b41b77a0fedd37b6c"
+      },
+      "id": "bis-store-promotions",
+      "layout": "desktop",
+      "pixel_dimensions": [
+        2288,
+        3684
+      ],
+      "logical_crop": [
+        16,
+        113,
+        572,
+        921
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "passed",
+      "observations": [
+        "Complete English Store promotions heading and explanation, close control, empty search and filter control are visible.",
+        "All four fictional promotions show complete names, store-state labels, schedules and native playbook toggles.",
+        "Spanish promotion names are retained fictional business data; interface labels are English.",
+        "Dates and each last schedule line remain inside the crop with native background margin; no clipped control, pointer, tooltip or debug overlay."
+      ],
+      "unresolved_findings": []
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-store-promotions-en-mobile.png",
+      "sha256": "ac4149ccb25a6d01a0990eeaf9b1e1879438048a3eeb6b204f53e8f3a2676a4a",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-store-promotions-en-mobile.json",
+        "sha256": "a08ac601d75efcd5efc9a178e6b632dbff35b8df6aa3746d77ebdf759a64c6ff"
+      },
+      "id": "bis-store-promotions",
+      "layout": "mobile",
+      "pixel_dimensions": [
+        1656,
+        4108
+      ],
+      "logical_crop": [
+        8,
+        125,
+        414,
+        1027
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "passed",
+      "observations": [
+        "Complete English Store promotions heading and explanation, close control, empty search and filter control are visible.",
+        "All four fictional promotions show complete names, store-state labels, schedules and native playbook toggles.",
+        "Spanish promotion names are retained fictional business data; interface labels are English.",
+        "Dates and each last schedule line remain inside the crop with native background margin; no clipped control, pointer, tooltip or debug overlay."
+      ],
+      "unresolved_findings": []
+    }
+  ],
+  "limits": [
+    "Only these original source PNGs were reviewed; full Help layout and final article text remain separate gates.",
+    "No promotion state or data was changed by this reviewer."
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "status": "current_capture_selection_in_progress",
+  "base": "7eaa9c049c7f4dc939184b1d739a72f7ff9aa47a",
+  "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "article_hashes": {
+    "es": "faee50331d36f36b1d58acc7bff487ee9cda81bf33e2e9f0b67e82e28a869aca",
+    "en": "c4a7feb508f98440e62df4c3cc5f0ca773fb7ec5defc829b84c6e05ae3196114"
+  },
+  "insertions": [
+    {
+      "id": "bis-overview",
+      "locale": "es",
+      "section": "configuration_overview",
+      "current_anchor": "- **Tono:** selecciona hasta tres tonos para orientar la voz del mensaje.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-overview",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-overview-es-desktop.png"
+      },
+      "native_caps": {
+        "desktop": 656.0
+      },
+      "alt": "Tarjetas de configuración de Vuelta a Stock",
+      "caption": "Interfaz real con datos ficticios. La configuración reúne Canales de salida, Audiencia, Descuentos y Tono. Abre la tarjeta que quieras revisar."
+    },
+    {
+      "id": "bis-audience",
+      "locale": "es",
+      "section": "audience_selection",
+      "current_anchor": "Para revisar los grupos disponibles, abre **Audiencia** y haz clic en **Agrega audiencias**.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-audience",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-audience-es-desktop.png",
+        "mobile": "images/journeys/back-in-stock-pounce/bis-audience-es-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 656.0,
+        "mobile": 422.0
+      },
+      "alt": "Selector de audiencias con la lista de grupos abierta",
+      "caption": "Interfaz real con datos ficticios. Abre Agrega audiencias para revisar los grupos disponibles. La selección actual y el alcance estimado aparecen en el mismo panel."
+    },
+    {
+      "id": "bis-discounts",
+      "locale": "es",
+      "section": "discount_strategy",
+      "current_anchor": "En **Descuentos**, la estrategia combinada permite usar ofertas de la tienda e incentivos de IA dentro del límite elegido. También puedes usar solo ofertas de la tienda, solo incentivos de IA o un cupón creado en Hellotext. **Sin estrategia de descuentos** evita que se ofrezcan incentivos.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-discounts",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-discounts-es-desktop.png",
+        "mobile": "images/journeys/back-in-stock-pounce/bis-discounts-es-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 656.0,
+        "mobile": 430.0
+      },
+      "alt": "Estrategia combinada de descuentos con un límite del diez por ciento",
+      "caption": "Interfaz real con datos ficticios. La estrategia combinada del ejemplo tiene seleccionado un límite del 10 %. El botón de ajustes abre las promociones de la tienda."
+    },
+    {
+      "id": "bis-store-promotions",
+      "locale": "es",
+      "section": "store_promotions",
+      "current_anchor": "En una estrategia que use ofertas de la tienda, abre el botón de ajustes **Configurar promociones de tienda** para revisar las promociones importadas. El panel muestra su estado y sus fechas; los horarios de la tienda siguen vigentes.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-store-promotions",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-store-promotions-es-desktop.png",
+        "mobile": "images/journeys/back-in-stock-pounce/bis-store-promotions-es-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 572.0,
+        "mobile": 414.0
+      },
+      "alt": "Panel de promociones de la tienda con estados y fechas",
+      "caption": "Interfaz real con datos ficticios. Revisa el estado, los días y las fechas de cada promoción. El interruptor de la misión y el estado de la promoción en la tienda son datos distintos."
+    },
+    {
+      "id": "bis-tone",
+      "locale": "es",
+      "section": "tone_options",
+      "current_anchor": "En **Tono**, puedes seleccionar hasta tres opciones para orientar la voz del mensaje.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-tone",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-tone-es-desktop.png",
+        "mobile": "images/journeys/back-in-stock-pounce/bis-tone-es-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 736.0,
+        "mobile": 430.0
+      },
+      "alt": "Opciones de tono del mensaje",
+      "caption": "Interfaz real con datos ficticios. Selecciona hasta tres tonos para orientar el mensaje. La vista móvil muestra el detalle de las seis opciones."
+    },
+    {
+      "id": "bis-whatsapp-1",
+      "locale": "es",
+      "section": "native_preview",
+      "current_anchor": "Revisa el resultado en **Playground**: comprueba el nombre y la imagen del producto, el mensaje y su acción hacia la página del producto. Una vista previa ayuda a revisar el contenido; no confirma un envío ni reserva unidades.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-whatsapp-1",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-whatsapp-1-es-desktop.png",
+        "mobile": "images/journeys/back-in-stock-pounce/bis-whatsapp-1-es-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 388.0,
+        "mobile": 388.0
+      },
+      "alt": "Vista previa nativa de WhatsApp en Playground",
+      "caption": "Interfaz real con datos ficticios. En Playground, revisa el producto, el texto y la acción Ver producto. Los puntos permiten recorrer las variantes; esta vista previa no confirma un envío."
+    },
+    {
+      "id": "bis-contact-activity",
+      "locale": "es",
+      "section": "recorded_signals",
+      "current_anchor": "Para comprobar las señales registradas, revisa la actividad del perfil y confirma el producto y la fecha. Los eventos de interés y reposición por sí solos no acreditan que se haya enviado un mensaje.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-contact-activity",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-contact-activity-es-desktop.png",
+        "mobile": "images/journeys/back-in-stock-pounce/bis-contact-activity-es-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 372.0,
+        "mobile": 430.0
+      },
+      "alt": "Actividad del perfil con interés y reposición del mismo producto",
+      "caption": "Interfaz real con datos ficticios. La actividad muestra el interés y la reposición del mismo producto, con sus fechas relativas. Estos eventos no prueban que se haya enviado un mensaje."
+    },
+    {
+      "id": "bis-overview",
+      "locale": "en",
+      "section": "configuration_overview",
+      "current_anchor": "- **Tone:** select up to three tones to guide the voice of the message.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-overview",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-overview-en-desktop.png"
+      },
+      "native_caps": {
+        "desktop": 656.0
+      },
+      "alt": "Back-in-Stock Pounce configuration cards",
+      "caption": "Real interface with fictional data. The configuration brings together Outgoing channels, Audience, Discounts, and Tone. Open the card you want to review."
+    },
+    {
+      "id": "bis-audience",
+      "locale": "en",
+      "section": "audience_selection",
+      "current_anchor": "To review the available groups, open **Audience** and click **Add audiences**.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-audience",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-audience-en-desktop.png",
+        "mobile": "images/journeys/back-in-stock-pounce/bis-audience-en-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 656.0,
+        "mobile": 422.0
+      },
+      "alt": "Audience selector with the group list open",
+      "caption": "Real interface with fictional data. Open Add audiences to review the available groups. The current selection and estimated reach appear in the same panel."
+    },
+    {
+      "id": "bis-discounts",
+      "locale": "en",
+      "section": "discount_strategy",
+      "current_anchor": "In **Discounts**, the combined strategy allows store offers and AI incentives within your selected limit. You can also use existing store offers only, AI incentives only, or a coupon created in Hellotext. **No discount strategy** prevents incentives from being offered.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-discounts",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-discounts-en-desktop.png",
+        "mobile": "images/journeys/back-in-stock-pounce/bis-discounts-en-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 656.0,
+        "mobile": 430.0
+      },
+      "alt": "Combined discount strategy with a ten percent limit",
+      "caption": "Real interface with fictional data. The example combined strategy has a 10% limit selected. The settings button opens store promotions."
+    },
+    {
+      "id": "bis-store-promotions",
+      "locale": "en",
+      "section": "store_promotions",
+      "current_anchor": "For a strategy that uses store offers, open the **Configure store promotions** settings button to review imported promotions. The panel shows their status and dates; store schedules still apply.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-store-promotions",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-store-promotions-en-desktop.png",
+        "mobile": "images/journeys/back-in-stock-pounce/bis-store-promotions-en-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 572.0,
+        "mobile": 414.0
+      },
+      "alt": "Store promotions panel with statuses and dates",
+      "caption": "Real interface with fictional data. Review each promotion’s status, days, and dates. The playbook toggle is separate from the promotion’s store status."
+    },
+    {
+      "id": "bis-tone",
+      "locale": "en",
+      "section": "tone_options",
+      "current_anchor": "In **Tone**, you can select up to three options to guide the voice of the message.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-tone",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-tone-en-desktop.png",
+        "mobile": "images/journeys/back-in-stock-pounce/bis-tone-en-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 736.0,
+        "mobile": 430.0
+      },
+      "alt": "Message tone options",
+      "caption": "Real interface with fictional data. Select up to three tones to guide the message. The mobile view shows all six options."
+    },
+    {
+      "id": "bis-whatsapp-1",
+      "locale": "en",
+      "section": "native_preview",
+      "current_anchor": "Review the result in **Playground**: check the product name and image, the message, and its action to the product page. A preview helps you review the content; it does not confirm a send or reserve inventory.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-whatsapp-1",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-whatsapp-1-en-desktop.png",
+        "mobile": "images/journeys/back-in-stock-pounce/bis-whatsapp-1-en-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 388.0,
+        "mobile": 388.0
+      },
+      "alt": "Native WhatsApp preview in Playground",
+      "caption": "Real interface with fictional data. In Playground, review the product, text, and View product action. The dots let you browse the variants; this preview does not confirm a send."
+    },
+    {
+      "id": "bis-contact-activity",
+      "locale": "en",
+      "section": "recorded_signals",
+      "current_anchor": "To check recorded signals, review the profile activity and confirm the product and date. Interest and restock events alone do not establish that a message was sent.",
+      "status": "native_sources_integrated; final_manifest_and_page_QA_pending",
+      "native_id": "bis-contact-activity",
+      "source_mapping": {
+        "desktop": "images/journeys/back-in-stock-pounce/bis-contact-activity-en-desktop.png",
+        "mobile": "images/journeys/back-in-stock-pounce/bis-contact-activity-en-mobile.png"
+      },
+      "native_caps": {
+        "desktop": 372.0,
+        "mobile": 430.0
+      },
+      "alt": "Recorded product activity in the profile",
+      "caption": "Real interface with fictional data. The activity shows interest and restock for the same product with relative dates. These events do not establish that a message was sent."
+    }
+  ],
+  "coverage_decisions": [
+    {
+      "id": "bis-channels",
+      "decision": "omit_closeup",
+      "reason": "Native choice descriptions refer to incoming replies under an outgoing heading. Overview already identifies the correct card. Preserve the source as diagnostic reference; do not infer effective outbound filtering or change the application."
+    },
+    {
+      "id": "bis-overview",
+      "decision": "desktop_shared_if_mobile_carousel_incomplete",
+      "reason": "All four cards must remain complete and identifiable; no two-card mobile crop presented as the full configuration."
+    },
+    {
+      "id": "bis-whatsapp-1",
+      "decision": "prefer_context_candidate",
+      "reason": "One current Playground view should identify tabs, the native phone and product action. The early editable WhatsApp example already supplies legible recipient content; four near-identical sample messages would repeat that explanation."
+    },
+    {
+      "id": "event_details",
+      "decision": "optional_after_activity_review",
+      "reason": "Add only if actual product, date or action detail explains information not already legible in the activity figure."
+    },
+    {
+      "id": "conceptual_sections_and_troubleshooting",
+      "decision": "prose_and_existing_links",
+      "reason": "These explain prerequisites and conditions, not an additional unique control. No dedicated BIS report exists and no other report is substituted."
+    }
+  ],
+  "source_png_count": null,
+  "figures_per_locale": null
+}

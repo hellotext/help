@@ -1,0 +1,74 @@
+{
+  "status": "partial_source_review_passed_help_render_pending",
+  "reviewer": "/root/bis_resume_readonly/bis_en_pixels",
+  "created_at": "2026-10-27T03:03:35.079293+00:00",
+  "locale": "en",
+  "records": [
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-discounts-en-desktop.png",
+      "sha256": "026a56df1003bc3fc5f6436c892ee4462975944642880140c55a41163069d3a8",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-discounts-en-desktop.json",
+        "sha256": "fbc8ebfddc61fae8e0e0144823af4c653548b8ea208645384870e7c234f3d996"
+      },
+      "id": "bis-discounts",
+      "layout": "desktop",
+      "pixel_dimensions": [
+        2624,
+        1992
+      ],
+      "logical_crop": [
+        48,
+        121,
+        656,
+        498
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "passed",
+      "observations": [
+        "Complete English heading, explanatory text and selected combined store-offer/AI strategy card are visible.",
+        "All four rate controls, selected Up to 10%, selected-card indicator and promotions gear remain complete with native margin.",
+        "The mobile capture includes the taller wrapped English card through its lower border; no truncation or text touching image edge.",
+        "No pointer, tooltip, debug overlay or private customer data."
+      ],
+      "unresolved_findings": []
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-discounts-en-mobile.png",
+      "sha256": "cd26ff614615d364e1dabb48b0137354b3dbf45b1be356d73e5212c3f10876a7",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-discounts-en-mobile.json",
+        "sha256": "4ec5a74d0bae9708ed9683146330f97c37f8a81f9ae01e1bc1e65c049c326a31"
+      },
+      "id": "bis-discounts",
+      "layout": "mobile",
+      "pixel_dimensions": [
+        1720,
+        2728
+      ],
+      "logical_crop": [
+        0,
+        117,
+        430,
+        682
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "passed",
+      "observations": [
+        "Complete English heading, explanatory text and selected combined store-offer/AI strategy card are visible.",
+        "All four rate controls, selected Up to 10%, selected-card indicator and promotions gear remain complete with native margin.",
+        "The mobile capture includes the taller wrapped English card through its lower border; no truncation or text touching image edge.",
+        "No pointer, tooltip, debug overlay or private customer data."
+      ],
+      "unresolved_findings": []
+    }
+  ],
+  "limits": [
+    "Only these original source PNGs were reviewed; full Help layout and final article text remain separate gates.",
+    "Logical capture sizes are 656×498 desktop and 430×682 mobile; retain native-size display caps."
+  ]
+}

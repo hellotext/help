@@ -1,0 +1,42 @@
+{
+  "status": "passed_source_pending_help_render",
+  "reviewer": "/root/resume_capture_audit_20261026",
+  "source_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "records": [
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-overview-es-desktop.png",
+      "sha256": "7aaec0f5d60daba9ec88e01cff9bf63e19ee34b7ad0c2be8429d5b85b9223dde",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-overview-es-desktop.json",
+        "sha256": "94df61d5d42049b10f81a8d77ce78ade7124248ae3f4c66d6f755cbb196d9ad6"
+      },
+      "id": "bis-overview",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        48,
+        16,
+        656,
+        641
+      ],
+      "pixelSize": [
+        2624,
+        2564
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "crc_valid": true,
+      "individually_viewed": true,
+      "status": "passed",
+      "observations": [
+        "Original image opened individually. Complete Vuelta a Stock heading and all four cards: Canales de salida, Audiencia, Descuentos, Tono.",
+        "Card badges and body copy fully visible; native card margins and icons preserved. No debug banner or browser chrome in the selected crop.",
+        "Channels badge literally says Todos los canales de entrada; this is current source/UI text and has not been corrected or represented as an outbound-channel restriction.",
+        "Sidecar before/after state hashes match and both enabled states are false; active technology is WhatsApp. This image is configuration evidence, not proof of execution or sending.",
+        "Expected desktop presentation cap is native656 CSS. Mobile and actual Help-render legibility remain pending."
+      ]
+    }
+  ],
+  "findings": [],
+  "scope": "Read-only visual source review. No browser navigation, UI action, DB mutation, image modification or external write."
+}

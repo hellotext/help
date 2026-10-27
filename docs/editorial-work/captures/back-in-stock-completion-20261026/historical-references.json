@@ -1,0 +1,66 @@
+{
+  "status": "Historical originals retained as references; not admitted as current ef8a UI",
+  "historical_png_count": 24,
+  "sources": [
+    {
+      "path": "help-back-in-stock-completion-20261011/docs/editorial-work/captures/back-in-stock-completion-20261011/historical-asset-byte-review.json",
+      "sha256": "055c8b6febfbc1a2ad5bf4af7f45d9c26254006a3e0aba60c410875265980206",
+      "access": "read_only",
+      "recaptured_or_reevaluated_pixels": false
+    },
+    {
+      "path": "help-back-in-stock-completion-20261011/docs/editorial-work/captures/back-in-stock-completion-20261011/historical-pixel-review.json",
+      "sha256": "89b30966c781ba6e99e7734b7498740d794ad524e1ffe33c77588038e325910a",
+      "access": "read_only",
+      "recaptured_or_reevaluated_pixels": false
+    },
+    {
+      "path": "help-back-in-stock-completion-20261011/docs/editorial-work/captures/back-in-stock-completion-20261011/historical-asset-recovery.json",
+      "sha256": "36fe58bdca34217a3dc6bfe5f309b82daf568e90eb16b247c8134a1fde165b24",
+      "access": "read_only",
+      "recaptured_or_reevaluated_pixels": false
+    },
+    {
+      "path": "help-back-in-stock-completion-20261011/docs/editorial-work/captures/back-in-stock-completion-20261011/protected-source-provenance.json",
+      "sha256": "1ce5bce3f02c7636bd301f2ecf78c7e004e77d2c3bd1e3ed49026e8c5d01dff4",
+      "access": "read_only",
+      "recaptured_or_reevaluated_pixels": false
+    },
+    {
+      "path": "help-back-in-stock-completion-20261011/docs/editorial-work/captures/back-in-stock-completion-20261011/figure-plan.json",
+      "sha256": "6acac351b4ef316b60f943cc6fcd5df4693b535968533ef3e0744b7436404649",
+      "access": "read_only",
+      "recaptured_or_reevaluated_pixels": false
+    },
+    {
+      "path": "help-back-in-stock-completion-20261011/docs/editorial-work/captures/back-in-stock-completion-20261011/section-coverage.json",
+      "sha256": "42e42bc996b25abfbcaf517078a52ca1494cbbf2b84d3cf77180459fab80f53b",
+      "access": "read_only",
+      "recaptured_or_reevaluated_pixels": false
+    },
+    {
+      "path": "help-back-in-stock-completion-20261011/docs/editorial-work/captures/back-in-stock-completion-20261011/editable-preview-case.json",
+      "sha256": "bf127f17e87cc7052f7e7a6a95695f0b799d9a20895dc70b1d72f5ba3b5102bb",
+      "access": "read_only",
+      "recaptured_or_reevaluated_pixels": false
+    }
+  ],
+  "current_render_required": true,
+  "mandatory_changed_ui_recapture": [
+    "discount-store ES desktop",
+    "discount-store ES mobile",
+    "discount-store EN desktop",
+    "discount-store EN mobile"
+  ],
+  "new_own_evidence_required": [
+    "outgoing channel panel",
+    "complete native product/message preview",
+    "same-product wishlist/restock activity"
+  ],
+  "historical_specific_limits": [
+    "Mobile header is generic shared chrome, not Back-in-Stock identity.",
+    "Mobile overview shows only Channel and Audience.",
+    "Automatic channel badge does not establish connectivity or eligibility."
+  ],
+  "no_source_copy_or_modification": true
+}

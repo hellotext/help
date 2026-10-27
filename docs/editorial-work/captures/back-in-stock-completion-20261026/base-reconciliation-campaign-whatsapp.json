@@ -1,0 +1,53 @@
+{
+  "status": "current_main_incorporated_preparation_preserved",
+  "recorded_at": "2026-10-27T02:55:43.026702+00:00",
+  "previous_base": "7eaa9c049c7f4dc939184b1d739a72f7ff9aa47a",
+  "current_main_base": "c19beab1ff9cb8d132d672a6a14b857b2dc1e646",
+  "current_main_tree": "93deff184852932375652eeb568bd581d0979010",
+  "preserved_stash": "c7a9db958d4398a1220e777105d1ea0bd80ff33e",
+  "backup": "audit/bis-help-resume-20261027/backup-before-main-c19beab1",
+  "preserved_files": 47,
+  "byte_identical_preserved_files": 44,
+  "known_overlaps": [
+    "_data/editorial/en.yml",
+    "_data/editorial/es.yml",
+    "docs/editorial-work/progress.csv"
+  ],
+  "catalog_resolutions": [
+    {
+      "path": "_data/editorial/es.yml",
+      "native_BIS_key": "custom-1d37399b8498476e",
+      "native_BIS_block_sha256": "050bcbc34000859629ebe4bb3281d8eed2d026eec8c5168eb2bea2f483548d1f",
+      "native_BIS_block_bytes": 985,
+      "new_main_sha256": "f91433be7677eab0d30bf84c2e978b6e2b2d34f6a346a59a3387219deb0ebd89",
+      "expected_resolved_sha256": "bf0a914f494631faad7198c924009c7239c972ff5297dd1baf0ce51b5dc8fe64",
+      "operation": "Append exact original BIS block to complete new-main bytes."
+    },
+    {
+      "path": "_data/editorial/en.yml",
+      "native_BIS_key": "custom-f7a216b444d71195",
+      "native_BIS_block_sha256": "d820073dd83ef25ff9ef3b12443c680451207812f6816cabbf3f9da165fe9e4d",
+      "native_BIS_block_bytes": 957,
+      "new_main_sha256": "d53ad50f31588901901742f7eb440dcc8502307bf40d25e592694ff044daab7d",
+      "expected_resolved_sha256": "31ef4fbed338e707a655cf97f8b88787c28c33f488b7be53cb506e8fbeba5fd9",
+      "operation": "Append exact original BIS block to complete new-main bytes."
+    }
+  ],
+  "inventory": {
+    "path": "docs/editorial-work/progress.csv",
+    "BIS_line": "journeys/back-in-stock-pounce.md,in_progress,,docs/editorial-work/back-in-stock-completion-20261026.md",
+    "main_sha256": "1afecd9656ba221d8168e5b8b23e49eeb4035186cb36bbbfae6f91ae3754ea23",
+    "expected_resolved_sha256": "f11ea6f20b0944b60a875bc65c010eeb607aa38b8507e94fa4223b68e3d76ef8",
+    "other_rows_preserved": true,
+    "Campaign_verifying_commit": "0c5a46c61ca3eff5eb2ea61b855a779cccbc3b9c"
+  },
+  "main_inventory_snapshot": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/originals-after-campaign-whatsapp-update/progress.csv",
+    "sha256": "1afecd9656ba221d8168e5b8b23e49eeb4035186cb36bbbfae6f91ae3754ea23"
+  },
+  "original_snapshots_unchanged": true,
+  "ES_capture_sources_unchanged": 13,
+  "EN_capture_sources": 0,
+  "new_build_or_pixel_review": false,
+  "note": "The preparation row remains in_progress. Before final consolidation/verifying commit A, restore only that row to exact current-main pending bytes; B closes inventory after A exists."
+}

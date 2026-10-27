@@ -1,0 +1,74 @@
+{
+  "status": "partial_source_review_passed_help_render_pending",
+  "reviewer": "/root/bis_resume_readonly/bis_en_pixels",
+  "created_at": "2026-10-27T03:02:43.409657+00:00",
+  "locale": "en",
+  "records": [
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-audience-en-desktop.png",
+      "sha256": "b115392a4497916cd101560dd6b08d05c6591868c83aec3645b595de0fe778b6",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-audience-en-desktop.json",
+        "sha256": "b00db035130f108527dbf9363209525ca498661c6ab6ca4c82add790bc65dfb7"
+      },
+      "id": "bis-audience",
+      "layout": "desktop",
+      "pixel_dimensions": [
+        2624,
+        3652
+      ],
+      "logical_crop": [
+        48,
+        121,
+        656,
+        913
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "passed",
+      "observations": [
+        "Complete English heading, explanation, All audience chip, Add audiences control, open dropdown outer boundary and 133 subscribers estimate are visible.",
+        "The retained Spanish list name is fictional user data, not untranslated interface chrome.",
+        "The next unselected item is partially visible at the native scrollable dropdown boundary; the crop contains the whole dropdown. This is native overflow, not a cut crop or omitted required control.",
+        "No pointer, tooltip, debug overlay or private customer data; surrounding native background remains balanced."
+      ],
+      "unresolved_findings": []
+    },
+    {
+      "file": "help-bis-current-capture-20261026/sources/bis-audience-en-mobile.png",
+      "sha256": "af9b250728512b893b7e08ecf959038407b211f4e515df4a164bb1cc1fd8890a",
+      "sidecar": {
+        "path": "help-bis-current-capture-20261026/private/bis-audience-en-mobile.json",
+        "sha256": "043565b4300d678cb93a51fd07e681ef4d202a8cb5926683bc9b15c64c318d58"
+      },
+      "id": "bis-audience",
+      "layout": "mobile",
+      "pixel_dimensions": [
+        1688,
+        3868
+      ],
+      "logical_crop": [
+        8,
+        117,
+        422,
+        967
+      ],
+      "native_density": 4,
+      "actual_profile": "Display P3 Gamut with sRGB Transfer",
+      "pixel_inspected": true,
+      "status": "passed",
+      "observations": [
+        "Complete English heading, explanation, All audience chip, Add audiences control, open dropdown outer boundary and 133 subscribers estimate are visible.",
+        "The retained Spanish list name is fictional user data, not untranslated interface chrome.",
+        "The next unselected item is partially visible at the native scrollable dropdown boundary; the crop contains the whole dropdown. This is native overflow, not a cut crop or omitted required control.",
+        "No pointer, tooltip, debug overlay or private customer data; surrounding native background remains balanced."
+      ],
+      "unresolved_findings": []
+    }
+  ],
+  "limits": [
+    "Only these original source PNGs were reviewed; full Help layout and final article text remain separate gates.",
+    "Natural scrollable-menu overflow is retained without pixel or DOM editing."
+  ]
+}

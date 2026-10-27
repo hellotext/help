@@ -1,0 +1,50 @@
+--- _i18n/es/journeys/back-in-stock-pounce.md (prepared)
++++ _i18n/es/journeys/back-in-stock-pounce.md (figure instructions)
+@@ -71,7 +71,13 @@
+ - **Descuentos:** define si la misión puede usar ofertas de la tienda, incentivos de IA, un cupón configurado o ninguna estrategia de descuentos.
+ - **Tono:** selecciona hasta tres tonos para orientar la voz del mensaje.
+ 
++Para revisar los grupos disponibles, abre **Audiencia** y haz clic en **Agrega audiencias**.
++
+ En **Descuentos**, la estrategia combinada permite usar ofertas de la tienda e incentivos de IA dentro del límite elegido. También puedes usar solo ofertas de la tienda, solo incentivos de IA o un cupón creado en Hellotext. **Sin estrategia de descuentos** evita que se ofrezcan incentivos.
++
++En una estrategia que use ofertas de la tienda, abre el botón de ajustes **Configurar promociones de tienda** para revisar las promociones importadas. El panel muestra su estado y sus fechas; los horarios de la tienda siguen vigentes.
++
++En **Tono**, puedes seleccionar hasta tres opciones para orientar la voz del mensaje.
+ 
+ Revisa el resultado en **Playground**: comprueba el nombre y la imagen del producto, el mensaje y su acción hacia la página del producto. Una vista previa ayuda a revisar el contenido; no confirma un envío ni reserva unidades.
+ 
+@@ -107,6 +113,8 @@
+ - Confirma que la misión no envíe si el cliente de prueba ya compró el producto.
+ - Envía una respuesta y confirma que llegue al Inbox si tu equipo debería manejar respuestas.
+ - Revisa ejemplos enviados, omitidos, fallidos, clickeados y convertidos después del lanzamiento.
++
++Para comprobar las señales registradas, revisa la actividad del perfil y confirma el producto y la fecha. Los eventos de interés y reposición por sí solos no acreditan que se haya enviado un mensaje.
+ 
+ Si el tracking es personalizado, confirma que identificadores de producto, identificadores de variante, estado de stock, timestamps e identificadores del cliente coincidan con lo que Hellotext espera.
+ 
+--- _i18n/en/journeys/back-in-stock-pounce.md (prepared)
++++ _i18n/en/journeys/back-in-stock-pounce.md (figure instructions)
+@@ -71,7 +71,13 @@
+ - **Discounts:** choose whether the playbook can use store offers, AI incentives, a configured coupon, or no discount strategy.
+ - **Tone:** select up to three tones to guide the voice of the message.
+ 
++To review the available groups, open **Audience** and click **Add audiences**.
++
+ In **Discounts**, the combined strategy allows store offers and AI incentives within your selected limit. You can also use existing store offers only, AI incentives only, or a coupon created in Hellotext. **No discount strategy** prevents incentives from being offered.
++
++For a strategy that uses store offers, open the **Configure store promotions** settings button to review imported promotions. The panel shows their status and dates; store schedules still apply.
++
++In **Tone**, you can select up to three options to guide the voice of the message.
+ 
+ Review the result in **Playground**: check the product name and image, the message, and its action to the product page. A preview helps you review the content; it does not confirm a send or reserve inventory.
+ 
+@@ -107,6 +113,8 @@
+ - Confirm the playbook does not send if the test customer already bought the product.
+ - Send a reply and confirm it reaches the Inbox if your team should handle replies.
+ - Review sent, skipped, failed, clicked, and converted examples after launch.
++
++To check recorded signals, review the profile activity and confirm the product and date. Interest and restock events alone do not establish that a message was sent.
+ 
+ If tracking is custom, confirm that product identifiers, variant identifiers, stock status, timestamps, and customer identifiers match what Hellotext expects.
+ 

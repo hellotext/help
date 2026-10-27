@@ -1,0 +1,972 @@
+{
+  "status": "passed",
+  "findings": [],
+  "reviewer": "/root/bis_resume_readonly/bis_en_pixels",
+  "reviewed_at": "2026-10-27T03:29:30.485544+00:00",
+  "locale": "en",
+  "width": 1440,
+  "packet": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/views/en-1440.json",
+    "sha256": "96d6b06d8b96dd9858d1cebd22eca75f77284532588b8f2fd5740295a6ff0125"
+  },
+  "checkpoint_sha256": "278a3a1a13af23ce896b53c546f432eae97d5aab5fdb3eca99eaf2b351d6e039",
+  "source": {
+    "path": "_i18n/en/journeys/back-in-stock-pounce.md",
+    "sha256": "c4a7feb508f98440e62df4c3cc5f0ca773fb7ec5defc829b84c6e05ae3196114"
+  },
+  "built_html": {
+    "path": "_site/back-in-stock-pounce.html",
+    "sha256": "357dbbee9d66792b3cf6c79cd8dc641bc4333b9aeadf38b71b6148c5decf3b14"
+  },
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 13,
+    "individually_viewed": true,
+    "coverage_css": [
+      0,
+      13328.5
+    ],
+    "document_height_css": 13328,
+    "observations": [
+      "Individually inspected all 13 saved English viewport segments, with overlap covering the header through the footer.",
+      "English prose, lists, comparison table, navigation and related links remain readable without horizontal overflow or overlapping content.",
+      "The early illustrative Luma WhatsApp example appears before setup and includes its loaded product image, complete English message and useful action.",
+      "All seven full-width lavender stages retain their borders, outer inset and separate white image inset; their UI content matches the adjacent instructions."
+    ]
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 7,
+    "individually_viewed": true,
+    "observations": [
+      {
+        "id": "bis-overview",
+        "rendered_width_css": 656,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-overview-en-desktop.png",
+        "observation": "All four English configuration cards, complete native borders and playbook title are readable at 656 CSS px. All incoming channels is retained native UI copy, not proof of outgoing filtering."
+      },
+      {
+        "id": "bis-audience",
+        "rendered_width_css": 656,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-audience-en-desktop.png",
+        "observation": "All audience selection, Add audiences, native open list menu and estimated target 133 are complete. Fictional list names may remain Spanish; English interface labels are readable. The partially visible next item belongs to the native scroll boundary."
+      },
+      {
+        "id": "bis-discounts",
+        "rendered_width_css": 656,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-discounts-en-desktop.png",
+        "observation": "Entire selected combined store-offer and AI strategy, English explanation, four rate options with Up to 10 percent selected and settings control are readable."
+      },
+      {
+        "id": "bis-store-promotions",
+        "rendered_width_css": 572,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-store-promotions-en-desktop.png",
+        "observation": "Complete panel shows English heading, empty search, filter, four offer groups, states, schedules and switches. Existing fictional offer names remain Spanish; no image-edge clipping."
+      },
+      {
+        "id": "bis-tone",
+        "rendered_width_css": 698.40625,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-tone-en-desktop.png",
+        "observation": "English Tone heading, up-to-three guidance, reset control and all six option cards are complete and readable with the shared inset frame."
+      },
+      {
+        "id": "bis-whatsapp-1",
+        "rendered_width_css": 388,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-whatsapp-1-en-desktop.png",
+        "observation": "Whole native phone, WhatsApp selected, loaded mauve product image, complete English restock message, View product action and four carousel dots are visible and readable."
+      },
+      {
+        "id": "bis-contact-activity",
+        "rendered_width_css": 372,
+        "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-contact-activity-en-desktop.png",
+        "observation": "Both English activity events, the fictional product name and 2 DAYS/3 DAYS are readable and complete. Corrected desktop rendering has no partial floating control."
+      }
+    ]
+  },
+  "records": [
+    {
+      "file": "bis-en-1440-full-part1.png",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "bd3abf2a55c64abee4f0f7aa1fdc826e485db19f6232a8f75e6bc0a558c0ea20",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 0,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part1.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Header, breadcrumb, title wrapping, side navigation and English introductory paragraphs are readable; fictional Luma context introduces the early WhatsApp example."
+    },
+    {
+      "file": "bis-en-1440-full-part2.png",
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          1100
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "cfd4e34ea7d6e662a4066426cf54ad6e0c44b8199817de2fb162789b5883c76b",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 100,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part2.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "The entire early WhatsApp phone, loaded product image, complete English alert and View product action precede the first section heading; no clipping or broken asset."
+    },
+    {
+      "file": "bis-en-1440-full-part3.png",
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          2200
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "b38362d5ee075bee655dc76c4955e92cf8272a2a69dcf75a0403a3efca6e5eb0",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 100,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part3.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Purpose, use cases, links and prerequisites remain within the article column, with readable lists and no navigation overlap."
+    },
+    {
+      "file": "bis-en-1440-full-part4.png",
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          3300
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "59ccc13082d9058e5e1f475c82845e620ea1849e24729aa50cbccb61d615a96d",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 100,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part4.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Prerequisites and dedicated-report limitation lead into the four configuration controls and overview screenshot; first two cards are clear."
+    },
+    {
+      "file": "bis-en-1440-full-part5.png",
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          4400
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "c47a72b28f21299255756f54221768dbda24780710246ccf138b18c4dfcc4670",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 100,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part5.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Overview bottom cards and border remain intact across overlap; audience instructions precede the complete English selector and open menu."
+    },
+    {
+      "file": "bis-en-1440-full-part6.png",
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          5500
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "255c495814019a00546b3c8b795858bc844fff1c370af00568342a5bab6349b7",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 100,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part6.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Estimated target of 133 subscribers, discount explanation, entire selected combined strategy and promotions instructions are readable."
+    },
+    {
+      "file": "bis-en-1440-full-part7.png",
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          6600
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "4142639c1a4a64e7b4e091b525f849f9cfd97466b429816a488083903cf31280",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 100,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part7.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Complete store-promotions panel shows search, filter, four fictional offer names, English states and schedules; tone instructions follow below."
+    },
+    {
+      "file": "bis-en-1440-full-part8.png",
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          7700
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "9c00d412c5c9ae29fda2df519eb70a51a41c679afd64fdabf940cb69cac65c65",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 100,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part8.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "All six English tone choices, reset control and Playground instructions remain clear; top of the native WhatsApp preview is loaded."
+    },
+    {
+      "file": "bis-en-1440-full-part9.png",
+      "clip": {
+        "x": 0,
+        "y": 8800,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          8800
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "00e9b11f63f2af0a4210c98e803069f8299c14210a46c1dc47d0a744c8fdc195",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 100,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part9.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Complete English WhatsApp message, View product, phone bottom and carousel dots precede the nearby-playbook comparison table."
+    },
+    {
+      "file": "bis-en-1440-full-part10.png",
+      "clip": {
+        "x": 0,
+        "y": 9900,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          9900
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "0d970fdb131f9b52a48e75f043ce615399ada8d711702cf1dcf12f31533a5f2a",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 100,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part10.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Test checklist and caution that interest/restock events do not prove delivery precede a complete two-event activity figure, without a floating control."
+    },
+    {
+      "file": "bis-en-1440-full-part11.png",
+      "clip": {
+        "x": 0,
+        "y": 11000,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          11000
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "86d012c61982d77aa52162dd544a9e9d87feb966625ad9ef5743da96b724f4e5",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 100,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part11.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Why-it-may-not-send and post-launch checks are readable, with intact lists and troubleshooting link."
+    },
+    {
+      "file": "bis-en-1440-full-part12.png",
+      "clip": {
+        "x": 0,
+        "y": 12100,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          12100
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "7c3a46f57cd068fe86c0fa2145f577657e050c9f8cfc8bbbbd2130e24d0b9cc5",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 100,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part12.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Related guides, feedback and contact controls plus footer fit the final article area."
+    },
+    {
+      "file": "bis-en-1440-full-part13.png",
+      "clip": {
+        "x": 0,
+        "y": 12128.5,
+        "width": 1440,
+        "height": 1200
+      },
+      "viewport_capture": true,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          12128.5
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        2880,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "6dee00a35beda99b47f6d0fdba632ea2ef2b2de599c620c5efd98a929abf8061",
+      "complete_page_segment": true,
+      "documentHeight": 13328,
+      "overlap_css": 1171.5,
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-full-part13.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Overlapping final segment confirms all related links, feedback/contact panel, language selector and footer, without missing bottom content."
+    },
+    {
+      "file": "bis-en-1440-bis-overview.png",
+      "clip": {
+        "x": 363,
+        "y": 3931,
+        "width": 800,
+        "height": 742
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          3702
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1600,
+        1484
+      ],
+      "icc": "Display P3",
+      "sha256": "90362065e2f56547429d5a53adcf5b448a76004b57388ae6eca64ebae85bed3f",
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-bis-overview.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "All four English configuration cards, complete native borders and playbook title are readable at 656 CSS px. All incoming channels is retained native UI copy, not proof of outgoing filtering."
+    },
+    {
+      "file": "bis-en-1440-bis-audience.png",
+      "clip": {
+        "x": 363,
+        "y": 4744,
+        "width": 800,
+        "height": 1014
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          4651
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1600,
+        2028
+      ],
+      "icc": "Display P3",
+      "sha256": "663864ff48c599f480e08807bf7eab397ace5db96d24af0a0990a466ceec20ec",
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-bis-audience.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "All audience selection, Add audiences, native open list menu and estimated target 133 are complete. Fictional list names may remain Spanish; English interface labels are readable. The partially visible next item belongs to the native scroll boundary."
+    },
+    {
+      "file": "bis-en-1440-bis-discounts.png",
+      "clip": {
+        "x": 363,
+        "y": 5877,
+        "width": 800,
+        "height": 599
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          5576.5
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1600,
+        1198
+      ],
+      "icc": "Display P3",
+      "sha256": "f6bbeb90259c27e5467143ece31b1c4b226b5871a6909f4761d436bb2a89ff89",
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-bis-discounts.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Entire selected combined store-offer and AI strategy, English explanation, four rate options with Up to 10 percent selected and settings control are readable."
+    },
+    {
+      "file": "bis-en-1440-bis-store-promotions.png",
+      "clip": {
+        "x": 363,
+        "y": 6571,
+        "width": 800,
+        "height": 1022
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          6482
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1600,
+        2044
+      ],
+      "icc": "Display P3",
+      "sha256": "bc9a1fa86b69b7bb107fd10b56c983c21822e8a59c24ab037194e486591957dc",
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-bis-store-promotions.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Complete panel shows English heading, empty search, filter, four offer groups, states, schedules and switches. Existing fictional offer names remain Spanish; no image-edge clipping."
+    },
+    {
+      "file": "bis-en-1440-bis-tone.png",
+      "clip": {
+        "x": 363,
+        "y": 7664,
+        "width": 800,
+        "height": 612
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          7370
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1600,
+        1224
+      ],
+      "icc": "Display P3",
+      "sha256": "573da8b4acc58b238db4f6692dbeb4dc592d2c398ecfbb39eadc8b4bb6cad3ad",
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-bis-tone.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "English Tone heading, up-to-three guidance, reset control and all six option cards are complete and readable with the shared inset frame."
+    },
+    {
+      "file": "bis-en-1440-bis-whatsapp-1.png",
+      "clip": {
+        "x": 363,
+        "y": 8371,
+        "width": 800,
+        "height": 917
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          8229.5
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1600,
+        1834
+      ],
+      "icc": "Display P3",
+      "sha256": "a101bc0fe9badca428ef48cdd913731502f1e611871720b6bb5a9ef82cad58d9",
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-bis-whatsapp-1.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Whole native phone, WhatsApp selected, loaded mauve product image, complete English restock message, View product action and four carousel dots are visible and readable."
+    },
+    {
+      "file": "bis-en-1440-bis-contact-activity.png",
+      "clip": {
+        "x": 363,
+        "y": 10645,
+        "width": 800,
+        "height": 301
+      },
+      "viewport_capture": false,
+      "capture_beyond_viewport": false,
+      "page_state": {
+        "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+        "title": "Back-in-Stock Pounce playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          10195.5
+        ]
+      },
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        1600,
+        602
+      ],
+      "icc": "Display P3",
+      "sha256": "9c76cfd63f5a2ebf6a6fd94e3971f51516e6467879de100e6fbad6abc7a4e619",
+      "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/bis-en-1440-bis-contact-activity.png",
+      "status": "passed",
+      "inspected_with": "view_image",
+      "findings": [],
+      "observation": "Both English activity events, the fictional product name and 2 DAYS/3 DAYS are readable and complete. Corrected desktop rendering has no partial floating control."
+    }
+  ],
+  "limits": [
+    "This receipt covers saved EN Help rendering at 1440 CSS px only; it does not certify another viewport, locale or public deployment.",
+    "Source-pixel admission and runtime safeguards remain their separate existing evidence; no source captures, article or browser state were changed by this review.",
+    "Non-linking and inert-action behavior are recorded in the bound capture packet; this independent review inspected saved pixels and verified file hashes, not new live interactions."
+  ]
+}

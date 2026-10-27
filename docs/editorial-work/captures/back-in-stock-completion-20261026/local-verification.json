@@ -1,0 +1,63 @@
+{
+  "status": "passed_awaiting_actual_verifying_commit",
+  "recorded_at": "2026-10-27T03:36:12.919943+00:00",
+  "article_key": "journeys/back-in-stock-pounce.md",
+  "help_base": "c19beab1ff9cb8d132d672a6a14b857b2dc1e646",
+  "final_review": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/final-review.json",
+    "sha256": "f70a2a18fd692fa245f0eda4f378d5c610bd9537b87da920ab8edaa7f44118ae"
+  },
+  "checkpoint": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/checkpoint.json",
+    "sha256": "278a3a1a13af23ce896b53c546f432eae97d5aab5fdb3eca99eaf2b351d6e039"
+  },
+  "capture_receipt": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/page-review/capture-receipt.json",
+    "sha256": "caf982d970368f8b94a8d6b5f77ac85545074dcaaf89b8366534950034e23ce9"
+  },
+  "source_admission": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/source-admission.json",
+    "sha256": "a6525a6c5c2ad59394768333ae6083e3d24786ad1b0d7fde867dc91efb9350b0"
+  },
+  "final_copy_review": {
+    "path": "docs/editorial-work/captures/back-in-stock-completion-20261026/copy-final-review.json",
+    "sha256": "0be3f235257962f3fbfbd153cc09f2e876717f0a6cb9319f98a1c506ce4937e1"
+  },
+  "checks": {
+    "native_source_PNGs": 26,
+    "sources_per_locale": 13,
+    "figures_per_locale": 7,
+    "production_build_exit_code": 0,
+    "security_headers": "passed",
+    "local_HTTP_resources": 62,
+    "article_links": 58,
+    "browser_views": 6,
+    "full_page_segments": 83,
+    "figure_details": 42,
+    "independent_visual_findings": 0,
+    "runtime_errors": 0,
+    "source_and_build_hashes_preserved": true,
+    "native_example_and_verified_product_photo": "passed",
+    "owned_help_services": "closed_and_verified",
+    "capture_runtime": "closed_and_verified",
+    "delivery_calls": 0
+  },
+  "remaining_local_blockers": [],
+  "verifying_commit": null,
+  "inventory_unchanged": true,
+  "publication_verified": false,
+  "whitespace_check": {
+    "all_candidate_paths_exit_code": 2,
+    "reported_paths": [
+      "_includes/editorial/en/custom-f7a216b444d71195.html",
+      "_includes/editorial/es/custom-1d37399b8498476e.html",
+      "docs/editorial-work/captures/back-in-stock-completion-20261026/figure-instruction-copy.patch",
+      "docs/editorial-work/captures/back-in-stock-completion-20261026/validation/build.log"
+    ],
+    "all_other_paths_exit_code": 0,
+    "explanation": "Preserved native export blank-line whitespace in both includes, exact unified-diff context lines and final context blank in the reviewed copy patch, and the original Jekyll Generating line in the immutable build log. All authored article, YAML, JSON and work-record paths pass.",
+    "report_sha256": "4b048d00dd822d23705aba71ac9a3f78fe69cba18bb000b3b7f1bb40b27b6291",
+    "scoped_candidate_paths": 231,
+    "unexpected_paths": []
+  }
+}

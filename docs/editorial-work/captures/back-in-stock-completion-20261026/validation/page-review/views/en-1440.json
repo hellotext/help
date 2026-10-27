@@ -1,0 +1,1751 @@
+{
+  "checkpoint_sha256": "278a3a1a13af23ce896b53c546f432eae97d5aab5fdb3eca99eaf2b351d6e039",
+  "view": {
+    "source": "_i18n/en/journeys/back-in-stock-pounce.md",
+    "source_sha256": "c4a7feb508f98440e62df4c3cc5f0ca773fb7ec5defc829b84c6e05ae3196114",
+    "built_html": "_site/back-in-stock-pounce.html",
+    "built_html_sha256": "357dbbee9d66792b3cf6c79cd8dc641bc4333b9aeadf38b71b6148c5decf3b14",
+    "geometry": {
+      "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+      "title": "Back-in-Stock Pounce playbook | Hellotext",
+      "locale": "en",
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "documentWidth": 1440,
+      "documentHeight": 13328,
+      "article": {
+        "x": 375.9921875,
+        "y": 665.7421875,
+        "width": 774.4140625,
+        "height": 12225.5234375,
+        "right": 1150.40625,
+        "bottom": 12891.265625
+      },
+      "headings": [
+        "What Back-in-Stock Pounce doesLink copied",
+        "When to use itLink copied",
+        "What it needs before launchLink copied",
+        "How to configure itLink copied",
+        "How it works with nearby playbooksLink copied",
+        "How to test itLink copied",
+        "Why it may not sendLink copied",
+        "What to review after launchLink copied",
+        "Related guidesLink copied"
+      ],
+      "message_examples": [
+        {
+          "id": "custom-f7a216b444d71195",
+          "title": "A back-in-stock alert",
+          "figure": {
+            "x": 375.9921875,
+            "y": 1101.7421875,
+            "width": 774.4140625,
+            "height": 714,
+            "right": 1150.40625,
+            "bottom": 1815.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 1101.7421875,
+            "width": 774.4140625,
+            "height": 714,
+            "right": 1150.40625,
+            "bottom": 1815.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.7882 1 0.7843)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "caption": "Illustrative WhatsApp example from the fictional store Luma: a restocked product and an inert action to review its details. It does not represent a message generated, sent, or received by a real customer.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "panelChannels": [
+            "whatsapp"
+          ],
+          "businessMessages": [
+            "The mauve Crocs Classic Clog is available again. Check the product details and current stock before you buy."
+          ],
+          "messageTimes": [
+            "10:00"
+          ],
+          "businessName": "Luma",
+          "otherMessages": 0,
+          "actions": 0,
+          "messageImages": [
+            {
+              "src": "https://help.hellotext.com/images/editorial/assets/homepage/proposals/crocs-classic-clog-malva-ecuador-cutout.png",
+              "currentSrc": "https://help.hellotext.com/images/editorial/assets/homepage/proposals/crocs-classic-clog-malva-ecuador-cutout.png",
+              "alt": "Mauve Crocs Classic Clog",
+              "loaded": true,
+              "naturalSize": [
+                1248,
+                508
+              ],
+              "image": {
+                "x": 632.1953125,
+                "y": 1241.734375,
+                "width": 240,
+                "height": 97.6875,
+                "right": 872.1953125,
+                "bottom": 1339.421875
+              }
+            }
+          ],
+          "actionLabels": [
+            {
+              "tag": "SPAN",
+              "text": "View product",
+              "tabIndex": -1,
+              "role": null,
+              "href": null
+            }
+          ],
+          "beforeFirstHeading": true,
+          "scrollOverflow": false,
+          "inert_action_and_keyboard_container": {
+            "before": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+            "after": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+            "focused": true,
+            "tabIndex": 0
+          }
+        }
+      ],
+      "figures": [
+        {
+          "id": "bis-overview",
+          "figure": {
+            "x": 375.9921875,
+            "y": 3943.7421875,
+            "width": 774.4140625,
+            "height": 717,
+            "right": 1150.40625,
+            "bottom": 4660.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 3943.7421875,
+            "width": 774.4140625,
+            "height": 717,
+            "right": 1150.40625,
+            "bottom": 4660.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 426.1953125,
+            "y": 3972.7421875,
+            "width": 674,
+            "height": 659,
+            "right": 1100.1953125,
+            "bottom": 4631.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 435.1953125,
+            "y": 3981.7421875,
+            "width": 656,
+            "height": 641,
+            "right": 1091.1953125,
+            "bottom": 4622.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-overview-en-desktop.png",
+          "naturalSize": [
+            656,
+            641
+          ],
+          "loaded": true,
+          "alt": "Back-in-Stock Pounce configuration cards",
+          "caption": "Real interface with fictional data. The configuration brings together Outgoing channels, Audience, Discounts, and Tone. Open the card you want to review.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "bis-audience",
+          "figure": {
+            "x": 375.9921875,
+            "y": 4756.7421875,
+            "width": 774.4140625,
+            "height": 989,
+            "right": 1150.40625,
+            "bottom": 5745.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 4756.7421875,
+            "width": 774.4140625,
+            "height": 989,
+            "right": 1150.40625,
+            "bottom": 5745.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 426.1953125,
+            "y": 4785.7421875,
+            "width": 674,
+            "height": 931,
+            "right": 1100.1953125,
+            "bottom": 5716.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 435.1953125,
+            "y": 4794.7421875,
+            "width": 656,
+            "height": 913,
+            "right": 1091.1953125,
+            "bottom": 5707.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-audience-en-desktop.png",
+          "naturalSize": [
+            656,
+            913
+          ],
+          "loaded": true,
+          "alt": "Audience selector with the group list open",
+          "caption": "Real interface with fictional data. Open Add audiences to review the available groups. The current selection and estimated reach appear in the same panel.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "bis-discounts",
+          "figure": {
+            "x": 375.9921875,
+            "y": 5889.7421875,
+            "width": 774.4140625,
+            "height": 574,
+            "right": 1150.40625,
+            "bottom": 6463.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 5889.7421875,
+            "width": 774.4140625,
+            "height": 574,
+            "right": 1150.40625,
+            "bottom": 6463.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 426.1953125,
+            "y": 5918.7421875,
+            "width": 674,
+            "height": 516,
+            "right": 1100.1953125,
+            "bottom": 6434.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 435.1953125,
+            "y": 5927.7421875,
+            "width": 656,
+            "height": 498,
+            "right": 1091.1953125,
+            "bottom": 6425.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-discounts-en-desktop.png",
+          "naturalSize": [
+            656,
+            498
+          ],
+          "loaded": true,
+          "alt": "Combined discount strategy with a ten percent limit",
+          "caption": "Real interface with fictional data. The example combined strategy has a 10% limit selected. The settings button opens store promotions.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "bis-store-promotions",
+          "figure": {
+            "x": 375.9921875,
+            "y": 6583.7421875,
+            "width": 774.4140625,
+            "height": 997,
+            "right": 1150.40625,
+            "bottom": 7580.7421875
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 6583.7421875,
+            "width": 774.4140625,
+            "height": 997,
+            "right": 1150.40625,
+            "bottom": 7580.7421875
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 468.1953125,
+            "y": 6612.7421875,
+            "width": 590,
+            "height": 939,
+            "right": 1058.1953125,
+            "bottom": 7551.7421875
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 477.1953125,
+            "y": 6621.7421875,
+            "width": 572,
+            "height": 921,
+            "right": 1049.1953125,
+            "bottom": 7542.7421875
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-store-promotions-en-desktop.png",
+          "naturalSize": [
+            572,
+            921
+          ],
+          "loaded": true,
+          "alt": "Store promotions panel with statuses and dates",
+          "caption": "Real interface with fictional data. Review each promotion’s status, days, and dates. The playbook toggle is separate from the promotion’s store status.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "bis-tone",
+          "figure": {
+            "x": 375.9921875,
+            "y": 7676.7421875,
+            "width": 774.4140625,
+            "height": 586.5234375,
+            "right": 1150.40625,
+            "bottom": 8263.265625
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 7676.7421875,
+            "width": 774.4140625,
+            "height": 586.5234375,
+            "right": 1150.40625,
+            "bottom": 8263.265625
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 404.9921875,
+            "y": 7705.7421875,
+            "width": 716.4140625,
+            "height": 528.5234375,
+            "right": 1121.40625,
+            "bottom": 8234.265625
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 413.9921875,
+            "y": 7714.7421875,
+            "width": 698.40625,
+            "height": 510.5234375,
+            "right": 1112.3984375,
+            "bottom": 8225.265625
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-tone-en-desktop.png",
+          "naturalSize": [
+            736,
+            538
+          ],
+          "loaded": true,
+          "alt": "Message tone options",
+          "caption": "Real interface with fictional data. Select up to three tones to guide the message. The mobile view shows all six options.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "bis-whatsapp-1",
+          "figure": {
+            "x": 375.9921875,
+            "y": 8383.265625,
+            "width": 774.4140625,
+            "height": 892,
+            "right": 1150.40625,
+            "bottom": 9275.265625
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 8383.265625,
+            "width": 774.4140625,
+            "height": 892,
+            "right": 1150.40625,
+            "bottom": 9275.265625
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 560.1953125,
+            "y": 8412.265625,
+            "width": 406,
+            "height": 834,
+            "right": 966.1953125,
+            "bottom": 9246.265625
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 569.1953125,
+            "y": 8421.265625,
+            "width": 388,
+            "height": 816,
+            "right": 957.1953125,
+            "bottom": 9237.265625
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-whatsapp-1-en-desktop.png",
+          "naturalSize": [
+            388,
+            816
+          ],
+          "loaded": true,
+          "alt": "Native WhatsApp preview in Playground",
+          "caption": "Real interface with fictional data. In Playground, review the product, text, and View product action. The dots let you browse the variants; this preview does not confirm a send.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "bis-contact-activity",
+          "figure": {
+            "x": 375.9921875,
+            "y": 10657.265625,
+            "width": 774.4140625,
+            "height": 276,
+            "right": 1150.40625,
+            "bottom": 10933.265625
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 10657.265625,
+            "width": 774.4140625,
+            "height": 276,
+            "right": 1150.40625,
+            "bottom": 10933.265625
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 568.1953125,
+            "y": 10686.265625,
+            "width": 390,
+            "height": 218,
+            "right": 958.1953125,
+            "bottom": 10904.265625
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 577.1953125,
+            "y": 10695.265625,
+            "width": 372,
+            "height": 200,
+            "right": 949.1953125,
+            "bottom": 10895.265625
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3380/images/journeys/back-in-stock-pounce/bis-contact-activity-en-desktop.png",
+          "naturalSize": [
+            372,
+            200
+          ],
+          "loaded": true,
+          "alt": "Recorded product activity in the profile",
+          "caption": "Real interface with fictional data. The activity shows interest and restock for the same product with relative dates. These events do not establish that a message was sent.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        }
+      ]
+    },
+    "captures": [
+      {
+        "file": "bis-en-1440-full-part1.png",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "bd3abf2a55c64abee4f0f7aa1fdc826e485db19f6232a8f75e6bc0a558c0ea20",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 0
+      },
+      {
+        "file": "bis-en-1440-full-part2.png",
+        "clip": {
+          "x": 0,
+          "y": 1100,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            1100
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "cfd4e34ea7d6e662a4066426cf54ad6e0c44b8199817de2fb162789b5883c76b",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 100
+      },
+      {
+        "file": "bis-en-1440-full-part3.png",
+        "clip": {
+          "x": 0,
+          "y": 2200,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            2200
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "b38362d5ee075bee655dc76c4955e92cf8272a2a69dcf75a0403a3efca6e5eb0",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 100
+      },
+      {
+        "file": "bis-en-1440-full-part4.png",
+        "clip": {
+          "x": 0,
+          "y": 3300,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            3300
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "59ccc13082d9058e5e1f475c82845e620ea1849e24729aa50cbccb61d615a96d",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 100
+      },
+      {
+        "file": "bis-en-1440-full-part5.png",
+        "clip": {
+          "x": 0,
+          "y": 4400,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4400
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "c47a72b28f21299255756f54221768dbda24780710246ccf138b18c4dfcc4670",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 100
+      },
+      {
+        "file": "bis-en-1440-full-part6.png",
+        "clip": {
+          "x": 0,
+          "y": 5500,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5500
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "255c495814019a00546b3c8b795858bc844fff1c370af00568342a5bab6349b7",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 100
+      },
+      {
+        "file": "bis-en-1440-full-part7.png",
+        "clip": {
+          "x": 0,
+          "y": 6600,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6600
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "4142639c1a4a64e7b4e091b525f849f9cfd97466b429816a488083903cf31280",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 100
+      },
+      {
+        "file": "bis-en-1440-full-part8.png",
+        "clip": {
+          "x": 0,
+          "y": 7700,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7700
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "9c00d412c5c9ae29fda2df519eb70a51a41c679afd64fdabf940cb69cac65c65",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 100
+      },
+      {
+        "file": "bis-en-1440-full-part9.png",
+        "clip": {
+          "x": 0,
+          "y": 8800,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8800
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "00e9b11f63f2af0a4210c98e803069f8299c14210a46c1dc47d0a744c8fdc195",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 100
+      },
+      {
+        "file": "bis-en-1440-full-part10.png",
+        "clip": {
+          "x": 0,
+          "y": 9900,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9900
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "0d970fdb131f9b52a48e75f043ce615399ada8d711702cf1dcf12f31533a5f2a",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 100
+      },
+      {
+        "file": "bis-en-1440-full-part11.png",
+        "clip": {
+          "x": 0,
+          "y": 11000,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            11000
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "86d012c61982d77aa52162dd544a9e9d87feb966625ad9ef5743da96b724f4e5",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 100
+      },
+      {
+        "file": "bis-en-1440-full-part12.png",
+        "clip": {
+          "x": 0,
+          "y": 12100,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            12100
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "7c3a46f57cd068fe86c0fa2145f577657e050c9f8cfc8bbbbd2130e24d0b9cc5",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 100
+      },
+      {
+        "file": "bis-en-1440-full-part13.png",
+        "clip": {
+          "x": 0,
+          "y": 12128.5,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            12128.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "6dee00a35beda99b47f6d0fdba632ea2ef2b2de599c620c5efd98a929abf8061",
+        "complete_page_segment": true,
+        "documentHeight": 13328,
+        "overlap_css": 1171.5
+      },
+      {
+        "file": "bis-en-1440-bis-overview.png",
+        "clip": {
+          "x": 363,
+          "y": 3931,
+          "width": 800,
+          "height": 742
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            3702
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1484
+        ],
+        "icc": "Display P3",
+        "sha256": "90362065e2f56547429d5a53adcf5b448a76004b57388ae6eca64ebae85bed3f"
+      },
+      {
+        "file": "bis-en-1440-bis-audience.png",
+        "clip": {
+          "x": 363,
+          "y": 4744,
+          "width": 800,
+          "height": 1014
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4651
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          2028
+        ],
+        "icc": "Display P3",
+        "sha256": "663864ff48c599f480e08807bf7eab397ace5db96d24af0a0990a466ceec20ec"
+      },
+      {
+        "file": "bis-en-1440-bis-discounts.png",
+        "clip": {
+          "x": 363,
+          "y": 5877,
+          "width": 800,
+          "height": 599
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5576.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1198
+        ],
+        "icc": "Display P3",
+        "sha256": "f6bbeb90259c27e5467143ece31b1c4b226b5871a6909f4761d436bb2a89ff89"
+      },
+      {
+        "file": "bis-en-1440-bis-store-promotions.png",
+        "clip": {
+          "x": 363,
+          "y": 6571,
+          "width": 800,
+          "height": 1022
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6482
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          2044
+        ],
+        "icc": "Display P3",
+        "sha256": "bc9a1fa86b69b7bb107fd10b56c983c21822e8a59c24ab037194e486591957dc"
+      },
+      {
+        "file": "bis-en-1440-bis-tone.png",
+        "clip": {
+          "x": 363,
+          "y": 7664,
+          "width": 800,
+          "height": 612
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7370
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1224
+        ],
+        "icc": "Display P3",
+        "sha256": "573da8b4acc58b238db4f6692dbeb4dc592d2c398ecfbb39eadc8b4bb6cad3ad"
+      },
+      {
+        "file": "bis-en-1440-bis-whatsapp-1.png",
+        "clip": {
+          "x": 363,
+          "y": 8371,
+          "width": 800,
+          "height": 917
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8229.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1834
+        ],
+        "icc": "Display P3",
+        "sha256": "a101bc0fe9badca428ef48cdd913731502f1e611871720b6bb5a9ef82cad58d9"
+      },
+      {
+        "file": "bis-en-1440-bis-contact-activity.png",
+        "clip": {
+          "x": 363,
+          "y": 10645,
+          "width": 800,
+          "height": 301
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3380/back-in-stock-pounce.html",
+          "title": "Back-in-Stock Pounce playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            10195.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          602
+        ],
+        "icc": "Display P3",
+        "sha256": "9c76cfd63f5a2ebf6a6fd94e3971f51516e6467879de100e6fbad6abc7a4e619"
+      }
+    ]
+  }
+}

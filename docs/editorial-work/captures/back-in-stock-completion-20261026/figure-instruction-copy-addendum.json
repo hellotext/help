@@ -1,0 +1,58 @@
+{
+  "status": "prepared_scoped_figure_instruction_delta_pending_review",
+  "recorded_at": "2026-10-27T00:01:45.479762+00:00",
+  "app_revision": "ef8a200330bc7be2ac07ea1d1541ae870e4bbdc7",
+  "articles": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/journeys/back-in-stock-pounce.md",
+      "before_sha256": "5609b2407dd6753f271ccbe8b2c976f6f381171048feaa14b06cfeaedeaa4f51",
+      "after_sha256": "74f3dde3bd7aeaad8f1dbe97319e9642e2baf2b0df7d0200d878e475e6f8a7e7",
+      "new_paragraphs": {
+        "audience": "Para revisar los grupos disponibles, abre **Audiencia** y haz clic en **Agrega audiencias**.",
+        "promotions": "En una estrategia que use ofertas de la tienda, abre el botón de ajustes **Configurar promociones de tienda** para revisar las promociones importadas. El panel muestra su estado y sus fechas; los horarios de la tienda siguen vigentes.",
+        "new_tone": "En **Tono**, puedes seleccionar hasta tres opciones para orientar la voz del mensaje.",
+        "activity": "Para comprobar las señales registradas, revisa la actividad del perfil y confirma el producto y la fecha. Los eventos de interés y reposición por sí solos no acreditan que se haya enviado un mensaje."
+      }
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/journeys/back-in-stock-pounce.md",
+      "before_sha256": "ac27e4c976a686453d46ef6951df9ad4e12f2c24fdbcc7eb86b5fdfb65f1b8c7",
+      "after_sha256": "63ee8280e2a611432078a394c0887f9847a99369d80ea0d77588b4dd97c352a5",
+      "new_paragraphs": {
+        "audience": "To review the available groups, open **Audience** and click **Add audiences**.",
+        "promotions": "For a strategy that uses store offers, open the **Configure store promotions** settings button to review imported promotions. The panel shows their status and dates; store schedules still apply.",
+        "new_tone": "In **Tone**, you can select up to three options to guide the voice of the message.",
+        "activity": "To check recorded signals, review the profile activity and confirm the product and date. Interest and restock events alone do not establish that a message was sent."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "config/locales/views/playbooks/es.yml",
+      "sha256": "395302af54a97ffe1ac09160e46c8c4251ea1f63c172800888479b334bc32a9c"
+    },
+    {
+      "path": "config/locales/views/playbooks/en.yml",
+      "sha256": "7bdda9c358f557d868d15dcda9ffd62edb77245c75bbf32354db02603ffccc6c"
+    },
+    {
+      "path": "config/locales/views/playbook/component/discounts/promotions/es.yml",
+      "sha256": "d591c4971a341c07657c33daf1373588f0118a378a83318c67bace34fc743699"
+    },
+    {
+      "path": "config/locales/views/playbook/component/discounts/promotions/en.yml",
+      "sha256": "f834840de7b7232cf499ac357697a64f0a2a88d1eb15572b073446c48535096d"
+    },
+    {
+      "path": "app/views/playbook/component/discounts/_promotions_button.html.erb",
+      "sha256": "18bc4850bd60b01f39c48cec1073cc59c06df72b7405f926d557122dba40e9ce"
+    },
+    {
+      "path": "app/models/artifact/product/restock_fanout.rb",
+      "sha256": "7392b8b31182ad4c56d46f5330107998b320691a26e5c2568e826e147b844a1a"
+    }
+  ],
+  "scope": "Four short paragraphs per locale introduce adjacent current UI figures and distinguish recorded signals from an actual send. No previous copy, heading, link, generated include or route changed."
+}
