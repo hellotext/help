@@ -201,14 +201,12 @@ Hellotext usa un modelo basado en performance: pagas **2–5 %** de los ingres
 Esto significa que los mensajes con IA por WhatsApp/Instagram/Webchat suelen estar incluidos; la tarifa variable solo aplica en meses donde piso, performance y SMS sean **menores** que ese monto. 
 
 <div class="note">
-  <strong>Importante</strong>: los costos de conversaciones de WhatsApp son cobrados por separado por Meta y no forman parte de tu factura de Hellotext. <strong><a href="https://business.whatsapp.com/products/platform-pricing#rates" target="_blank">Ver tarifas de Meta</a></strong>.
+  <strong>Importante</strong>: Meta cobra por separado los mensajes de WhatsApp que factura, y esos cargos no forman parte de tu factura de Hellotext. <strong><a href="https://business.whatsapp.com/products/platform-pricing#rates" target="_blank">Ver tarifas de Meta</a></strong>.
 </div>
 
 #### ¿El cargo es por mensaje o por conversación?
 
-Ni Hellotext ni Meta cobran por cada mensaje individual.
-
-En Meta, cada mensaje de plantilla abre una conversación de 72 horas, dentro de la cual todos los mensajes posteriores (ya sean del negocio o del cliente) no tienen costo.
+Meta cobra por mensaje entregado, según la categoría del mensaje y el mercado del destinatario. Desde el 1 de octubre de 2026 también cobra los mensajes de servicio, con un nivel gratuito de 1.000 mensajes de servicio entregados por mes para cada número de teléfono. Los detalles están en [Tarifas de Meta para WhatsApp]({% link _billing/whatsapp-fees.md %}).
 
 En Hellotext, la tarifa variable de US $ 2 por cada 1.000 se aplica por volumen de mensajes solo cuando ninguno de los otros conceptos (piso, performance o SMS) es mayor.
 
@@ -216,7 +214,7 @@ En Hellotext, la tarifa variable de US $ 2 por cada 1.000 se aplica por volumen 
 
 Meta monitorea la calidad de los mensajes que envías a tus clientes. 
 
-Meta típicamente comienza permitiendo 250 conversaciones iniciadas por la empresa durante un período de 24 horas y aumenta a 1,000 una vez que verificas tu empresa. 
+Meta limita cuántos clientes distintos puedes contactar fuera de la ventana de atención en un período móvil de 24 horas. Un portfolio comercial nuevo empieza con un límite de 250 y pasa a 2.000 cuando verificas tu empresa o entregas 2.000 mensajes con plantillas de calidad alta en 30 días.
 
 Recomendamos revisar tu calificación de calidad a menudo y asegurarte de que tu calificación sea alta. 
 
@@ -224,7 +222,7 @@ Para ver la calidad de los números de tu cuenta de WhatsApp Business, visita la
 
 <img src="images/integrations/whatsapp/en/quality-rating.jpeg" alt="" width="768" />
 
-Si mantienes tu calificación de calidad alta, Meta aumentará el número de mensajes que puedes enviar cada 24 horas a 10,000, 100,000 o ilimitado. 
+Si mantienes una calidad alta y usaste al menos la mitad de tu límite en los últimos 7 días, Meta lo aumenta a 10.000, 100.000 o ilimitado.
 
 Puedes obtener más información sobre los límites actuales de mensajería de cada uno de tus números de teléfono haciendo clic en el icono de *Settings*.
 

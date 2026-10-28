@@ -75,7 +75,7 @@ In **Settings > Templates**, the **Message** editor lets you prepare the body an
 
 Keep reading: [Message editor basics]({% link _numbers/message-editor-basics.md %}).
 
-For current pricing and category details, review Meta's [WhatsApp Business Platform pricing](https://business.whatsapp.com/products/platform-pricing#rates). Meta charges for delivered messages by category and market; its service replies inside the window have no Meta charge. This does not make Hellotext usage or billing free. Do not assume a fixed rate or equate acceptance with delivery.
+For current pricing and category details, review Meta's [WhatsApp Business Platform pricing](https://business.whatsapp.com/products/platform-pricing#rates). Meta charges for delivered messages by category and market. Since October 1, 2026, it also charges service replies inside the window, with 1,000 free service messages per month for each phone number. This does not make Hellotext usage or billing free. Do not assume a fixed rate or equate acceptance with delivery.
 
 ## How Hellotext uses WhatsApp
 
