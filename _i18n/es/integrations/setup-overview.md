@@ -36,6 +36,7 @@ Elige la guía que corresponde a tu tienda:
 - [Conecta Wix]({% link _integrations/connect-wix.md %})
 - [Conecta WooCommerce]({% link _integrations/connect-woo.md %})
 - [Conecta VTEX]({% link _integrations/connect-vtex.md %})
+- [Conecta Magento]({% link _integrations/connect-magento.md %})
 - [Conecta Mercado Libre]({% link _integrations/connect-mercado-libre.md %})
 
 Después de conectar, elige un registro conocido de la fuente y comprueba sus datos en Hellotext antes de crear misiones, rutas o campañas basadas en ellos. Revisa por separado el perfil, el objeto y el evento real: un pedido guardado no confirma que se haya registrado una compra ni que se atribuya una venta. El alcance y el procesamiento inicial varían según la plataforma.
