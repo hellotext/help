@@ -75,7 +75,7 @@ En **Configuración > Plantillas**, el editor **Mensaje** permite preparar el cu
 
 Sigue leyendo: [Conceptos básicos del editor de mensajes]({% link _numbers/message-editor-basics.md %}).
 
-Para precios y detalles actuales de categorías, revisa las [tarifas de WhatsApp Business Platform de Meta](https://business.whatsapp.com/products/platform-pricing#rates). Meta cobra por mensajes entregados según categoría y mercado; sus respuestas de servicio dentro de la ventana no tienen cargo de Meta. Eso no implica que el uso o la factura de Hellotext sean gratuitos. No presupongas una tarifa fija ni confundas aceptación con entrega.
+Para precios y detalles actuales de categorías, revisa las [tarifas de WhatsApp Business Platform de Meta](https://business.whatsapp.com/products/platform-pricing#rates). Meta cobra por mensajes entregados según categoría y mercado. Desde el 1 de octubre de 2026 también cobra las respuestas de servicio dentro de la ventana, con 1.000 mensajes de servicio gratis por mes para cada número. Eso no implica que el uso o la factura de Hellotext sean gratuitos. No presupongas una tarifa fija ni confundas aceptación con entrega.
 
 ## Cómo Hellotext usa WhatsApp
 

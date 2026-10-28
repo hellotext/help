@@ -9,9 +9,11 @@ Las tarifas de Meta se pagan directamente a Meta mediante la configuración de f
 
 ## Qué controla Meta
 
-Meta aplica sus reglas de precios a los mensajes **entregados**, no simplemente enviados. Cuando un mensaje es facturable, la tarifa depende del mercado del destinatario y de su categoría: marketing, utilidad o autenticación. Meta calcula estos cargos y cobra el pago directamente mediante el acuerdo de facturación configurado para tu cuenta de la Plataforma de WhatsApp Business.
+Meta aplica sus reglas de precios a los mensajes **entregados**, no simplemente enviados. Cuando un mensaje es facturable, la tarifa depende del mercado del destinatario y de su categoría: marketing, utilidad, autenticación o servicio. Meta calcula estos cargos y cobra el pago directamente mediante el acuerdo de facturación configurado para tu cuenta de la Plataforma de WhatsApp Business.
 
-Según las reglas actuales de Meta, los mensajes de servicio y los de utilidad enviados en respuesta al usuario dentro de la ventana de atención de 24 horas que abre o renueva su último mensaje no tienen cargo. En entradas elegibles desde un anuncio que abre WhatsApp o un botón de llamada a la acción de una página de Facebook, responder al mensaje del cliente dentro de 24 horas abre una ventana de 72 horas sin cargos por mensajes, contadas desde la respuesta de tu negocio. Las categorías de utilidad y autenticación pueden tener descuentos por volumen. Consulta las condiciones exactas para tu caso: que un mensaje use WhatsApp no significa que siempre genere un cargo de Meta.
+Desde el 1 de octubre de 2026, Meta también cobra por mensaje los mensajes de servicio: las respuestas que no son plantillas, enviadas dentro de la ventana de atención de 24 horas que abre o renueva el último mensaje del usuario. Cada número de teléfono del negocio tiene un nivel gratuito de 1.000 mensajes de servicio entregados por mes, que solo aplica a los mensajes de servicio; los que no se usan no pasan al mes siguiente. Desde la misma fecha, las plantillas de utilidad enviadas en respuesta al usuario dentro de esa ventana también se cobran. Si la cuenta no tiene un método de pago en Meta, Meta entrega mensajes de servicio dentro del nivel gratuito y deja de entregarlos cuando se agota.
+
+Cuando una persona escribe desde un anuncio que abre WhatsApp, con la app de WhatsApp para Android o iOS, y tu negocio responde dentro de la ventana de atención, esa respuesta no tiene cargo y abre una ventana de punto de entrada gratuito de hasta 7 días, contados desde la respuesta. Mientras está abierta, Meta no cobra mensajes de marketing, utilidad, autenticación ni servicio. Las categorías de utilidad y autenticación pueden tener descuentos por volumen. Consulta las condiciones exactas para tu caso: que un mensaje use WhatsApp no significa que siempre genere un cargo de Meta.
 
 Como Meta puede cambiar sus categorías y tarifas, consulta la página oficial de [precios de la Plataforma de WhatsApp Business](https://business.whatsapp.com/products/platform-pricing) para ver los valores actuales.
 
@@ -27,7 +29,7 @@ Revisa ambas partes:
 
 - Usa **Configuración → Facturación** para consultar tu plan, consumos y facturas de Hellotext.
 - Usa el método de pago y los datos de facturación configurados en Meta, junto con su tabla de tarifas vigente, para revisar los costos de WhatsApp pagados directamente a Meta.
-- Confirma el país de facturación de tu negocio para Hellotext. Para Meta, estima cuántos mensajes se entregarán en cada mercado de destino y categoría, y considera las excepciones gratuitas y los descuentos por volumen que correspondan.
+- Confirma el país de facturación de tu negocio para Hellotext. Para Meta, estima cuántos mensajes se entregarán en cada mercado de destino y categoría, y considera el nivel gratuito de mensajes de servicio, las excepciones gratuitas y los descuentos por volumen que correspondan.
 
 Si tu plan usa la comparación mensual estándar, no sumes los cuatro componentes de precios de Hellotext: identifica el mayor. Si tienes una cuenta prepaga o un acuerdo fijo, usa sus condiciones de facturación. Después considera los impuestos aplicables y revisa los cargos de Meta por separado en el entorno de facturación de Meta: esos cargos se pagan a Meta, no a Hellotext.
 

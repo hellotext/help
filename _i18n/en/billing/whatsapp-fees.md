@@ -9,9 +9,11 @@ Meta fees are paid directly to Meta through the billing setup for your WhatsApp 
 
 ## What Meta controls
 
-Meta applies its current pricing rules to **delivered** messages, not merely sent messages. When a message is billable, its rate depends on the recipient market and its category: marketing, utility, or authentication. Meta calculates these charges and collects payment directly using the billing arrangement configured for your WhatsApp Business Platform account.
+Meta applies its current pricing rules to **delivered** messages, not merely sent messages. When a message is billable, its rate depends on the recipient market and its category: marketing, utility, authentication, or service. Meta calculates these charges and collects payment directly using the billing arrangement configured for your WhatsApp Business Platform account.
 
-Under Meta's current rules, service messages and utility messages sent in response to users within the 24-hour customer service window opened or reset by their latest message have no charge. For eligible entry points from an ad that opens WhatsApp or a Facebook Page call-to-action, replying to the customer's message within 24 hours opens a 72-hour window with no message charges, counted from your business's reply. Utility and authentication messages may qualify for volume discounts. Check the exact terms for your case: using WhatsApp does not mean every message incurs a Meta fee.
+Since October 1, 2026, Meta also charges service messages per message: non-template replies sent within the 24-hour customer service window opened or reset by the user's latest message. Each business phone number has a free tier of 1,000 delivered service messages per month, which applies only to service messages; unused messages don't roll over to the next month. From the same date, utility templates sent in response to users within that window are also charged. If the account has no payment method with Meta, Meta delivers service messages within the free tier and stops delivering them once it is used up.
+
+When someone messages you from an ad that opens WhatsApp, using the WhatsApp app for Android or iOS, and your business replies within the customer service window, that reply is not charged and opens a free entry point window of up to 7 days, counted from the reply. While it is open, Meta does not charge for marketing, utility, authentication, or service messages. Utility and authentication messages may qualify for volume discounts. Check the exact terms for your case: using WhatsApp does not mean every message incurs a Meta fee.
 
 Because Meta can change its categories and rates, use the official [WhatsApp Business Platform pricing page](https://business.whatsapp.com/products/platform-pricing) for current values.
 
@@ -27,7 +29,7 @@ Review both parts:
 
 - Use **Settings → Billing** for your Hellotext plan, usage, and invoices.
 - Use the payment and billing information configured with Meta, together with Meta's current rate table, to review WhatsApp fees paid directly to Meta.
-- Confirm your business billing country for Hellotext. For Meta, estimate delivered messages by recipient market and category, and account for applicable free cases and volume discounts.
+- Confirm your business billing country for Hellotext. For Meta, estimate delivered messages by recipient market and category, and account for the service-message free tier, applicable free cases, and volume discounts.
 
 If your plan uses the standard monthly comparison, do not add the four Hellotext pricing components together: identify the highest. If you have a prepaid account or fixed agreement, use its billing terms. Then account for applicable taxes and review Meta charges separately in Meta's billing environment; those charges are paid to Meta, not Hellotext.
 
