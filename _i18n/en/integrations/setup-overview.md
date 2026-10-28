@@ -36,6 +36,7 @@ Choose the guide that matches your store:
 - [Connect Wix]({% link _integrations/connect-wix.md %})
 - [Connect WooCommerce]({% link _integrations/connect-woo.md %})
 - [Connect VTEX]({% link _integrations/connect-vtex.md %})
+- [Connect Magento]({% link _integrations/connect-magento.md %})
 - [Connect Mercado Libre]({% link _integrations/connect-mercado-libre.md %})
 
 After connecting, choose a known source record and check its data in Hellotext before building playbooks, routes, or campaigns from it. Check the profile, object, and actual event separately: a saved order does not confirm a recorded purchase or attributed sale. Initial scope and processing vary by platform.
