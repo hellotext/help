@@ -242,6 +242,8 @@ Review the sender's name and address in **Settings > Integrations**. If you have
 
 Confirm the exact recipient address and review whether the message has delivery information or a failure. Ask the customer to check their spam or junk folder as well as their usual inbox.
 
+If your emails often land in spam, check that your sending domain has a DMARC record. See [Add the DMARC record]({% link _integrations/set-up-email-sending.md %}#add-the-dmarc-record).
+
 If the email is still sending, give processing time to complete. If it failed, review the available reason, correct the destination or content when appropriate, and reduce images or simplify the design if its size prevents sending.
 
 ### The customer's reply does not appear

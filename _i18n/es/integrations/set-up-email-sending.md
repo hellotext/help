@@ -1,6 +1,6 @@
 Configura un remitente de correo para enviar mensajes desde Hellotext con una dirección del dominio de tu negocio, como `support@acme.com`.
 
-Elegirás el nombre y la dirección del remitente, agregarás tres registros en la configuración DNS de tu dominio y esperarás a que se complete la verificación. Una vez verificado el dominio, Hellotext activa el canal de correo electrónico del remitente.
+Elegirás el nombre y la dirección del remitente, agregarás tres registros DKIM y un registro DMARC en la configuración DNS de tu dominio y esperarás a que se complete la verificación. Una vez verificado el dominio, Hellotext activa el canal de correo electrónico del remitente.
 
 Esta guía explica la configuración en Hellotext y los cambios que debe realizar quien administra tu dominio. También muestra cómo volver a consultar las instrucciones DNS, agregar otro remitente y resolver problemas habituales de configuración.
 
@@ -21,7 +21,7 @@ Ten preparado lo siguiente:
 
 Tu proveedor de DNS es el servicio que administra los registros DNS de tu dominio. Puede ser la empresa donde registraste el dominio, un servicio como Cloudflare o un proveedor que utiliza quien administra tu sitio web. Haber comprado el dominio a una empresa no significa necesariamente que esa empresa siga administrando su DNS.
 
-Si otra persona administra el dominio, puedes completar el formulario del remitente y compartir los tres registros DNS con ella. Podrá publicarlos sin iniciar sesión en Hellotext.
+Si otra persona administra el dominio, puedes completar el formulario del remitente y compartir los registros DNS con ella. Podrá publicarlos sin iniciar sesión en Hellotext.
 
 ### ¿Qué pasa con tu casilla de correo actual?
 
@@ -79,11 +79,11 @@ El dominio aparece en las instrucciones de esa página. Confirma que coincida co
 
 Si aparece un error en el formulario, sigue el mensaje que se muestra. Debes corregir una dirección inválida o completar el nombre del remitente antes de continuar. Los conflictos de dominio y los errores de registro se explican en la sección de solución de problemas más abajo.
 
-## 3. Agrega los tres registros DNS
+## 3. Agrega los registros DNS
 
-La página **Verifica tu dominio de envío** muestra tres registros DNS. Cada registro tiene un **Tipo**, un **Nombre** y un **Valor**.
+La página **Verifica tu dominio de envío** muestra tres registros DKIM y, debajo de ellos, un registro **DMARC**. Cada registro tiene un **Tipo**, un **Nombre** y un **Valor**.
 
-Son registros DKIM. DKIM ayuda a los servicios de correo que reciben los mensajes a verificar que los envíos realizados con tu dominio estén autorizados. Publicar estos registros también permite al servicio de envío comprobar que controlas el dominio.
+DKIM ayuda a los servicios de correo que reciben los mensajes a verificar que los envíos realizados con tu dominio estén autorizados. Publicar los registros DKIM también permite al servicio de envío comprobar que controlas el dominio.
 
 ### Relaciona los campos de Hellotext con los de tu proveedor de DNS
 
@@ -91,13 +91,13 @@ Los proveedores de DNS usan distintos nombres para los mismos campos. Usa esta t
 
 | En Hellotext | Nombre habitual en tu proveedor de DNS | Qué ingresar |
 | --- | --- | --- |
-| **Tipo** | Tipo o Tipo de registro | Elige **CNAME**. |
+| **Tipo** | Tipo o Tipo de registro | Elige **CNAME** para los registros DKIM y **TXT** para el registro DMARC. |
 | **Nombre** | Nombre, Host o Nombre de host | Usa el nombre del registro que muestra Hellotext, teniendo en cuenta si tu proveedor agrega el dominio automáticamente. |
 | **Valor** | Valor, Destino o Apunta a | Copia el valor completo que aparece para ese mismo registro. |
 
 Crea cada registro por separado. Mantén juntos el nombre y el valor de cada registro; no combines los tres valores en una sola entrada.
 
-### Publica los registros
+### Publica los registros DKIM
 
 1. Abre tu proveedor de DNS en otra pestaña del navegador e inicia sesión.
 2. Selecciona el dominio cuyos registros DNS necesitas administrar.
@@ -124,9 +124,31 @@ El token de este ejemplo es ilustrativo. Usa siempre el nombre real del registro
 
 Configura estos registros CNAME como **Solo DNS (DNS only)**. El proxy de Cloudflare está destinado al tráfico web y no debe estar habilitado para los registros de verificación de correo. Consulta las [limitaciones del proxy de Cloudflare](https://developers.cloudflare.com/dns/proxy-status/limitations/) y sus [instrucciones para administrar registros DNS](https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/).
 
+### Agrega el registro DMARC
+
+Debajo de los registros DKIM, la página muestra un registro **DMARC**:
+
+| Tipo | Nombre | Valor |
+| --- | --- | --- |
+| **TXT** | `_dmarc.` seguido de tu dominio de envío, como `_dmarc.acme.com` | `v=DMARC1; p=reject;` |
+
+Gmail y Yahoo exigen un registro DMARC a los dominios que hacen envíos masivos, como las campañas. Sin él, tus campañas pueden llegar a spam o ser rechazadas. DMARC también indica a los servicios de correo que rechacen los mensajes que se hacen pasar por tu dominio.
+
+Hellotext no necesita el registro DMARC para verificar el remitente, pero publícalo antes de enviar campañas.
+
+1. En tu proveedor de DNS, agrega un registro nuevo y elige **TXT**.
+2. Ingresa el **Nombre** que muestra Hellotext. Si tu proveedor agrega el dominio automáticamente y estás editando la zona DNS de `acme.com`, ingresa `_dmarc` para un remitente de `acme.com`, o `_dmarc.mail` para un remitente de `mail.acme.com`.
+3. Ingresa el **Valor** tal como aparece, sin comillas, salvo que tu proveedor las exija.
+4. Guarda el registro.
+
+Antes de publicarlo, revisa lo siguiente:
+
+- **El dominio ya tiene un registro DMARC.** Busca un registro TXT llamado `_dmarc` en el dominio de envío cuyo valor comience con `v=DMARC1`. Si existe, mantenlo y no agregues el de Hellotext: un dominio con dos registros DMARC se trata como si no tuviera ninguno.
+- **Otros servicios envían correos desde el mismo dominio.** `p=reject` pide a los servicios de correo que rechacen cualquier correo de este dominio que no supere la autenticación. Si tu proveedor de correo, tu sistema de facturación u otra herramienta también envían desde este dominio, confirma con quien administra tu dominio que esos servicios estén autenticados antes de publicarlo. Usar un subdominio exclusivo para Hellotext, como `mail.acme.com`, evita afectarlos.
+
 ### Conserva tus otros registros DNS
 
-Agrega los tres registros junto a tu configuración DNS existente. El asistente no te pide reemplazar los registros de tu sitio web, cambiar los servidores de nombres ni eliminar registros que utiliza tu proveedor de correo actual.
+Agrega los registros de Hellotext junto a tu configuración DNS existente. El asistente no te pide reemplazar los registros de tu sitio web, cambiar los servidores de nombres ni eliminar registros que utiliza tu proveedor de correo actual.
 
 Si tu proveedor indica que ya existe un registro con el mismo nombre, compara su tipo y destino con las instrucciones de Hellotext. Es posible que ya exista un registro que coincida exactamente. Si el destino es distinto o no sabes para qué se usa el registro existente, consulta a quien administra tu dominio antes de reemplazarlo.
 
@@ -220,7 +242,7 @@ Abre **Editar** en el remitente guardado, confirma la dirección de correo y haz
 Revisa lo siguiente con quien administra tu DNS:
 
 - Editaste el proveedor de DNS activo para el dominio que muestra Hellotext.
-- Las tres entradas se guardaron como registros CNAME.
+- Las tres entradas DKIM se guardaron como registros CNAME.
 - Cada nombre está asociado al valor del mismo registro de Hellotext.
 - Los nombres guardados coinciden con los nombres completos de Hellotext, incluida la parte `_domainkey`.
 - El proveedor no agregó el dominio dos veces.
