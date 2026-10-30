@@ -1,6 +1,6 @@
 Set up an email sender to send messages from Hellotext using an address on your business domain, such as `support@acme.com`.
 
-You will choose the sender name and address, add three records to your domain's DNS settings, and allow time for verification. Once the domain is verified, Hellotext activates the sender's Email channel.
+You will choose the sender name and address, add three DKIM records and a DMARC record to your domain's DNS settings, and allow time for verification. Once the domain is verified, Hellotext activates the sender's Email channel.
 
 This guide walks through the setup in Hellotext and the changes your domain administrator needs to make. It also explains how to reopen the DNS instructions, add another sender, and handle common setup problems.
 
@@ -21,7 +21,7 @@ Have the following ready:
 
 Your DNS provider is the service that manages your domain's DNS records. It may be your domain registrar, a service such as Cloudflare, or a provider used by your website administrator. Buying a domain from one company does not necessarily mean that company still manages its DNS.
 
-If someone else manages the domain, you can complete the sender form yourself and share the three DNS records with them. They can publish the records without signing in to Hellotext.
+If someone else manages the domain, you can complete the sender form yourself and share the DNS records with them. They can publish the records without signing in to Hellotext.
 
 ### What happens to your existing mailbox?
 
@@ -79,11 +79,11 @@ The domain appears in the instructions on that page. Confirm that it matches the
 
 If an error appears on the form, follow the message shown. An invalid address or missing sender name needs to be corrected before you can continue. Domain conflicts and registration errors are covered in the troubleshooting section below.
 
-## 3. Add the three DNS records
+## 3. Add the DNS records
 
-The **Verify your sending domain** page displays three DNS records. Each record has a **Type**, **Name**, and **Value**.
+The **Verify your sending domain** page displays three DKIM records and, below them, a **DMARC** record. Each record has a **Type**, **Name**, and **Value**.
 
-These are DKIM records. DKIM helps receiving mail services verify that messages sent using your domain are authorized. Publishing the records is also how the sending service checks your control of the domain.
+DKIM helps receiving mail services verify that messages sent using your domain are authorized. Publishing the DKIM records is also how the sending service checks your control of the domain.
 
 ### Match the fields in Hellotext to your DNS provider
 
@@ -91,13 +91,13 @@ DNS providers use different labels for the same fields. Use this mapping when cr
 
 | In Hellotext | Common label at your DNS provider | What to enter |
 | --- | --- | --- |
-| **Type** | Type or Record type | Choose **CNAME**. |
+| **Type** | Type or Record type | Choose **CNAME** for the DKIM records and **TXT** for the DMARC record. |
 | **Name** | Name, Host, or Hostname | Use the record name shown in Hellotext, accounting for whether your provider adds the domain automatically. |
 | **Value** | Value, Target, Destination, or Points to | Copy the complete value shown for that same record. |
 
 Create each record separately. Keep the name and value from the same record together; do not combine the three values into one entry.
 
-### Publish the records
+### Publish the DKIM records
 
 1. Open your DNS provider in another browser tab and sign in.
 2. Select the domain whose DNS records you need to manage.
@@ -124,9 +124,31 @@ The token in this example is illustrative. Always use your actual record name fr
 
 Set these CNAME records to **DNS only**. Cloudflare's proxy is for web traffic and should not be enabled for email verification records. See [Cloudflare's proxy limitations](https://developers.cloudflare.com/dns/proxy-status/limitations/) and its [instructions for managing DNS records](https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-dns-records/).
 
+### Add the DMARC record
+
+Below the DKIM records, the page shows a **DMARC** record:
+
+| Type | Name | Value |
+| --- | --- | --- |
+| **TXT** | `_dmarc.` followed by your sending domain, such as `_dmarc.acme.com` | `v=DMARC1; p=reject;` |
+
+Gmail and Yahoo require a DMARC record from domains that send bulk email, such as campaigns. Without one, your campaigns can land in spam or be rejected. DMARC also tells receiving mail services to reject messages that pretend to come from your domain.
+
+Hellotext does not need the DMARC record to verify the sender, but publish it before you send campaigns.
+
+1. In your DNS provider, add a new record and choose **TXT**.
+2. Enter the **Name** shown in Hellotext. If your provider adds the domain automatically and you are editing the zone for `acme.com`, enter `_dmarc` for a sender on `acme.com`, or `_dmarc.mail` for a sender on `mail.acme.com`.
+3. Enter the **Value** exactly as shown, without quotation marks unless your provider requires them.
+4. Save the record.
+
+Before you publish it, check the following:
+
+- **The domain already has a DMARC record.** Look for an existing TXT record named `_dmarc` on the sending domain whose value starts with `v=DMARC1`. If one exists, keep it and do not add the Hellotext record: a domain with two DMARC records is treated as having none.
+- **Other services send email from the same domain.** `p=reject` asks receiving mail services to reject any email from this domain that fails authentication. If your mailbox provider, invoicing system, or another tool also sends from this domain, confirm with your domain administrator that those services are authenticated before publishing. Using a subdomain dedicated to Hellotext, such as `mail.acme.com`, avoids affecting them.
+
 ### Preserve your other DNS records
 
-Add the three records alongside your existing DNS configuration. The wizard does not ask you to replace your website records, change nameservers, or remove records used by your current email provider.
+Add the Hellotext records alongside your existing DNS configuration. The wizard does not ask you to replace your website records, change nameservers, or remove records used by your current email provider.
 
 If your provider reports that a record with the same name already exists, compare its type and target with the Hellotext instructions. An exact match may already be in place. If the target differs or you do not know what the existing record is for, ask your domain administrator before replacing it.
 
@@ -220,7 +242,7 @@ Open **Edit** for the saved sender, confirm the email address, and click **Next*
 Check the following with the person who manages your DNS:
 
 - You edited the active DNS provider for the domain shown in Hellotext.
-- All three entries were saved as CNAME records.
+- The three DKIM entries were saved as CNAME records.
 - Each name is paired with the value from the same Hellotext record.
 - The saved names match Hellotext's full names, including `_domainkey`.
 - The provider did not append your domain twice.

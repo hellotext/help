@@ -242,6 +242,8 @@ Revisa el nombre y la dirección del remitente en **Ajustes > Integraciones**. S
 
 Confirma la dirección exacta del destinatario y revisa si el mensaje tiene información de entrega o un fallo. Pide al cliente que revise la carpeta de spam o correo no deseado, además de su bandeja de entrada habitual.
 
+Si tus correos suelen llegar a spam, comprueba que tu dominio de envío tenga un registro DMARC. Consulta [Agrega el registro DMARC]({% link _integrations/set-up-email-sending.md %}#agrega-el-registro-dmarc).
+
 Si el correo todavía se está enviando, espera a que termine el procesamiento. Si falló, revisa el motivo disponible, corrige el destino o el contenido cuando corresponda y reduce las imágenes o simplifica el diseño si el tamaño impide el envío.
 
 ### La respuesta del cliente no aparece
