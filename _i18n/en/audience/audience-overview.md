@@ -24,6 +24,12 @@ Profile data and permission to send are different. Before sending a campaign or 
 
 Keep reading: [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %}).
 
+## Review delivery errors
+
+Open **Delivery errors** in Audience to review failed email addresses and phone numbers from campaigns and playbooks in one place. Inspect the reason and the profile before deciding whether to remove a contact detail.
+
+Keep reading: [Review delivery errors]({% link _audience/delivery-errors.md %}).
+
 ## Import customer profiles
 
 Use imports when you need to bring existing customer data from a spreadsheet, CRM export, or another source into Hellotext.
