@@ -205,6 +205,7 @@ Do not include API tokens, passwords, or complete payment details.
 
 ## Related guides
 
+- [Review delivery errors in Audience]({% link _audience/delivery-errors.md %})
 - [Troubleshooting checklist]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %})
 - [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
