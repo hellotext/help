@@ -42,6 +42,6 @@ gem 'concurrent-ruby', '>= 1.3.7'
 
 gem 'json', '>= 2.19.7'
 
-gem 'addressable', '>= 2.9.0'
+gem 'addressable', '>= 2.9.1'
 
 gem 'rexml', '>= 3.4.2'
