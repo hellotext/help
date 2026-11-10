@@ -92,7 +92,7 @@ Not every conversation is sent to a specific team. The ones that are not go to t
 
 **A store with Sales and Support.** Ana sells and Luis leads Support, with two more people on his team. With the Team inbox, Ana sees her own conversations and the ones waiting for Sales. Luis, as supervisor of Support, sees every Support conversation and can pass one from a teammate who is overloaded to another. Carla, the Manager, still sees both teams.
 
-**Each seller looks after their own customers.** In some businesses a conversation belongs to one seller, and the others should not read it. Turn on the Team inbox and take the sellers out of the General queue. Each seller then sees only the conversations assigned to them, while Administrators and Managers see everything and hand out the new ones.
+**Each seller looks after their own customers.** In some businesses a conversation belongs to one seller, and the others should not read it. Turn on the Team inbox, take the sellers out of the General queue, and leave them out of every other team. A seller who belongs to no team sees only the conversations assigned to them, while Administrators and Managers see everything and hand out the new ones. If you do put sellers in a team, they also see the conversations waiting for that team, and a supervisor of that team sees all of its conversations.
 
 ## Good to know about the Team inbox
 

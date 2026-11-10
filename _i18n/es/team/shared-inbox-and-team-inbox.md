@@ -92,7 +92,7 @@ No todas las conversaciones se envían a un equipo específico. Las que no, van 
 
 **Una tienda con Ventas y Soporte.** Ana vende y Luis lidera Soporte, con dos personas más en su equipo. Con la Bandeja por equipo, Ana ve sus propias conversaciones y las que esperan a Ventas. Luis, como supervisor de Soporte, ve todas las conversaciones de Soporte y puede pasar una de un compañero sobrecargado a otro. Carla, la Manager, sigue viendo los dos equipos.
 
-**Cada vendedor atiende a sus propios clientes.** En algunos negocios una conversación pertenece a un vendedor y los demás no deberían leerla. Activa la Bandeja por equipo y saca a los vendedores de la Cola general. Así cada vendedor ve solo las conversaciones que tiene asignadas, mientras los Administradores y Managers ven todo y reparten las nuevas.
+**Cada vendedor atiende a sus propios clientes.** En algunos negocios una conversación pertenece a un vendedor y los demás no deberían leerla. Activa la Bandeja por equipo, saca a los vendedores de la Cola general y déjalos fuera de cualquier otro equipo. Un vendedor que no pertenece a ningún equipo ve solo las conversaciones que tiene asignadas, mientras los Administradores y Managers ven todo y reparten las nuevas. Si agregas vendedores a un equipo, también ven las conversaciones que esperan a ese equipo, y un supervisor de ese equipo ve todas sus conversaciones.
 
 ## Lo que conviene saber sobre la Bandeja por equipo
 
