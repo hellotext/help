@@ -205,6 +205,7 @@ No incluyas tokens de API, contraseñas ni datos completos de pago.
 
 ## Guías relacionadas
 
+- [Revisa los errores de envío en Audiencia]({% link _audience/delivery-errors.md %})
 - [Checklist de solución de problemas]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %})
 - [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})

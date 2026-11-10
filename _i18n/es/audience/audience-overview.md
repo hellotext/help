@@ -24,6 +24,12 @@ Los datos del perfil y el permiso para enviar son cosas diferentes. Antes de env
 
 Sigue leyendo: [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}).
 
+## Revisar errores de envío
+
+Abre **Errores de envío** en Audiencia para ver en un solo lugar los perfiles cuyo correo o teléfono no puede recibir mensajes de campañas, rutas y misiones. Revisa el motivo y el perfil antes de decidir si quitas un dato de contacto.
+
+Sigue leyendo: [Revisa los errores de envío]({% link _audience/delivery-errors.md %}).
+
 ## Importar perfiles de clientes
 
 Usa importaciones cuando necesitas llevar datos existentes de clientes desde una planilla, exportación de CRM u otra fuente a Hellotext.
