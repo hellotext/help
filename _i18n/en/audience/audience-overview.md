@@ -26,7 +26,7 @@ Keep reading: [Who can I message? Consent and subscriber status]({% link _audien
 
 ## Review delivery errors
 
-Open **Delivery errors** in Audience to review failed email addresses and phone numbers from campaigns and playbooks in one place. Inspect the reason and the profile before deciding whether to remove a contact detail.
+Open **Delivery errors** in Audience to see, in one place, the profiles whose email address or phone number can't receive messages from campaigns, journeys, and playbooks. Inspect the reason and the profile before deciding whether to remove a contact detail.
 
 Keep reading: [Review delivery errors]({% link _audience/delivery-errors.md %}).
 

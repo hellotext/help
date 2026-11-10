@@ -24,11 +24,11 @@ Los datos del perfil y el permiso para enviar son cosas diferentes. Antes de env
 
 Sigue leyendo: [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}).
 
-## Revisar errores de entrega
+## Revisar errores de envío
 
-Abre **Errores de entrega** en Audiencia para revisar en un solo lugar los correos y teléfonos con fallos de campañas y misiones. Revisa el motivo y el perfil antes de decidir si eliminas un dato de contacto.
+Abre **Errores de envío** en Audiencia para ver en un solo lugar los perfiles cuyo correo o teléfono no puede recibir mensajes de campañas, rutas y misiones. Revisa el motivo y el perfil antes de decidir si quitas un dato de contacto.
 
-Sigue leyendo: [Revisa los errores de entrega]({% link _audience/delivery-errors.md %}).
+Sigue leyendo: [Revisa los errores de envío]({% link _audience/delivery-errors.md %}).
 
 ## Importar perfiles de clientes
 
