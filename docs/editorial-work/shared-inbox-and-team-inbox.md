@@ -24,6 +24,9 @@ The guide follows the implementation in the Hellotext Rails repository:
   labels quoted in the guide come from this PR and can still change in review.
   Its Learn more link points to this guide's two routes, so the routes must
   not change without changing that PR.
+- [#7042](https://github.com/hellotext/hellotext/pull/7042) (open): the Team
+  inbox starts at Grow instead of Pro. The guide's plan wording follows it and
+  must not be published before it is deployed.
 
 ## Article inventory
 

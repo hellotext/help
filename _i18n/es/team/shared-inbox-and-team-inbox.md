@@ -20,7 +20,7 @@ Imagina una empresa con escritorios separados para Ventas, Soporte y Devolucione
 - Un supervisor de equipo ve todas las conversaciones de los equipos que tiene a su cargo.
 - Los Managers, los Administradores y el Dueño siguen viendo todo.
 - Es ideal para negocios con áreas, sucursales o turnos separados, con conversaciones sensibles, o donde las personas se pisan el trabajo entre sí.
-- Está disponible en los planes Pro y Enterprise.
+- Está disponible en los planes Grow, Pro y Enterprise.
 
 Cambiar de una a otra no mueve, reasigna ni elimina ninguna conversación. Solo cambia quién puede ver qué.
 
@@ -132,7 +132,7 @@ El cambio se aplica a todos de inmediato. El Inbox que tus agentes tienen abiert
 
 Para volver, selecciona **Bandeja compartida** en el mismo lugar. Se aplica al instante y no pide confirmación.
 
-Si tu plan no incluye la Bandeja por equipo, la opción muestra **Mejorar a Pro para habilitar esta función**.
+Si tu plan no incluye la Bandeja por equipo, la opción muestra **Mejorar a Grow para habilitar esta función**.
 
 ## Elige a tus supervisores
 

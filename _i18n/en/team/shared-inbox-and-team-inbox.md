@@ -20,7 +20,7 @@ Picture a company with separate desks for Sales, Support and Returns. Each perso
 - A team supervisor sees every conversation of the teams they look after.
 - Managers, Administrators and the Owner still see everything.
 - It suits businesses with separate areas, branches or shifts, with sensitive conversations, or where people keep stepping on each other's work.
-- It is available on the Pro and Enterprise plans.
+- It is available on the Grow, Pro and Enterprise plans.
 
 Switching between the two does not move, reassign or delete any conversation. It only changes who can see what.
 
@@ -132,7 +132,7 @@ The change applies to everyone right away. The Inbox your agents have open reloa
 
 To go back, select **Shared Inbox** in the same place. It applies at once and asks for no confirmation.
 
-If your plan does not include the Team inbox, the option shows **Upgrade to Pro to enable this feature** instead.
+If your plan does not include the Team inbox, the option shows **Upgrade to Grow to enable this feature** instead.
 
 ## Choose your supervisors
 
