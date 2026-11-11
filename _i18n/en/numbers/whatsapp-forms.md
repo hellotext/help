@@ -80,7 +80,7 @@ Filling in a form does not subscribe the contact or change their consent. See [C
 - **One form per message.** Its button is always the last button.
 - **Button text.** You choose what the button says, up to 25 characters. If you leave it empty, it reads **Fill the form**. Emojis are removed.
 - **Questions are required.** The customer has to answer every question to send the form, except the birthday and the checkboxes.
-- **Up to five checkboxes.** WhatsApp allows five Checkbox properties on a form.
+- **Up to five checkboxes.** WhatsApp allows five Checkbox properties on a form. Once you have picked five, the tool stops offering Checkbox properties until you remove one.
 - **Keep property names short.** The property's name is the label of its question, and WhatsApp limits a text field's label to 20 characters. Longer names are cut.
 - **Campaigns and journeys.** The form tool is available in campaigns and in the **Send a text message** step of a journey. **Ask a question** steps, playbooks and Inbox replies do not have it.
 

@@ -80,7 +80,7 @@ Completar un formulario no suscribe al contacto ni cambia su consentimiento. Con
 - **Un formulario por mensaje.** Su botón siempre es el último.
 - **Texto del botón.** Tú eliges lo que dice el botón, hasta 25 caracteres. Si lo dejas vacío, dice **Completar formulario**. Los emojis se quitan.
 - **Las preguntas son obligatorias.** El cliente tiene que responder todas las preguntas para enviar el formulario, salvo el cumpleaños y las casillas.
-- **Hasta cinco casillas.** WhatsApp permite cinco propiedades de Checkbox en un formulario.
+- **Hasta cinco casillas.** WhatsApp permite cinco propiedades de Checkbox en un formulario. Cuando ya elegiste cinco, la herramienta deja de ofrecer propiedades de Checkbox hasta que quites una.
 - **Usa nombres de propiedad cortos.** El nombre de la propiedad es la etiqueta de su pregunta, y WhatsApp limita la etiqueta de un campo de texto a 20 caracteres. Los nombres más largos se cortan.
 - **Campañas y rutas.** La herramienta de formulario está disponible en campañas y en el paso **Enviar un mensaje** de una ruta. Los pasos **Hacer una pregunta**, los playbooks y las respuestas del Inbox no la tienen.
 

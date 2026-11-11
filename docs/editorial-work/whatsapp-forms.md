@@ -60,7 +60,7 @@ about **Ask a question** steps or playbooks, where the tool is not available.
 | The question step has no form tool | `app/views/steps/panes/_question.html.erb` |
 | Which properties can be asked, and the field each one becomes | `WhatsApp::Flow::Builder::INPUTS` |
 | Every question is required except the birthday and checkboxes | `WhatsApp::Flow::Builder::ALWAYS_OPTIONAL` |
-| At most five Checkbox properties | `WhatsApp::Flow::Builder::CHECKBOX_LIMIT` |
+| At most five Checkbox properties, and the tool stops offering them after five | `WhatsApp::Flow::Builder::CHECKBOX_LIMIT`, `compose/toolbar/flow_controller.js` |
 | A text field's label is cut at 20 characters | `WhatsApp::Flow::Builder::LABEL_LIMITS` |
 | The form's title and send button use the business's language | `WhatsApp::Flow::Builder#run` |
 | The form button is always the last button | `Template::Button.with_flow_last` |
@@ -72,10 +72,9 @@ about **Ask a question** steps or playbooks, where the tool is not available.
 Meta's requirement of a verified business with good messaging quality comes
 from Meta's WhatsApp Flows documentation, not from Hellotext code.
 
-Two behaviors are not yet settled in the product and are deliberately left out
-of the guide: what the merchant sees when Meta refuses a form, and what happens
-when more than five Checkbox properties are picked. Add them once the tool
-reports those cases.
+One behavior is not yet settled in the product and is deliberately left out of
+the guide: what the merchant sees when Meta refuses a form. Add it once the tool
+reports that case.
 
 ## Visual decisions
 
