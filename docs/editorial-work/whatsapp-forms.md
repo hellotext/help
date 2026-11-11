@@ -16,9 +16,10 @@ The guide follows the implementation in the Hellotext Rails repository:
   button on a WhatsApp template, the submitted form as an Inbox message and the
   answers saved to the contact.
 - Branch `whatsapp-flow-composer` (not yet a pull request): the form tool in
-  the campaign editor, the form button shown last under the message and in the
-  preview, and the **Form submitted** card in the Inbox. Every interface label
-  quoted in the guide comes from this branch and can still change in review.
+  the campaign editor and in the journey **Send a text message** step, the form
+  button shown last under the message and in the preview, and the **Form
+  submitted** card in the Inbox. Every interface label quoted in the guide comes
+  from this branch and can still change in review.
 
 ## Article inventory
 
@@ -39,27 +40,30 @@ from `app/assets/images/icons/note-alt.svg` in the Rails repository.
 ## Reader task and scope
 
 Understand what a WhatsApp form is and why it is worth using, add one to a
-campaign, and know where the answers end up.
+campaign or to a journey message, and know where the answers end up.
 
-The copy is written for the person who writes campaigns. It opens with the
+The copy is written for the person who writes campaigns and journeys. It opens with the
 problem a form solves, shows what the customer sees before any control is
 named, and then walks through the tool. It calls the feature a WhatsApp form;
 Meta's name for it, WhatsApp Flows, appears only in the tool's own title.
 
 It leaves out how Meta reviews a form, the form's wire format and anything
-about journeys or playbooks, where the tool is not available.
+about **Ask a question** steps or playbooks, where the tool is not available.
 
 ## Behavior the guide states, and its source
 
 | Statement | Source in the Rails repository |
 | --- | --- |
 | The tool shows only when the campaign targets WhatsApp, alone or with SMS | `app/views/campaign/broadcasts/_broadcast.html.erb` |
+| A journey message step always shows the tool and disables it without WhatsApp among its channels | `app/views/steps/messages/_email_preview_pane.html.erb`, `input_controller.js#templatesTechnologyChanged` |
+| Taking WhatsApp off a step removes the form button, and selecting it again brings the picked form back | `compose/toolbar/flow_controller.js` |
+| The question step has no form tool | `app/views/steps/panes/_question.html.erb` |
 | Which properties can be asked, and the field each one becomes | `WhatsApp::Flow::Builder::INPUTS` |
 | Every question is required except the birthday and checkboxes | `WhatsApp::Flow::Builder::ALWAYS_OPTIONAL` |
 | At most five Checkbox properties | `WhatsApp::Flow::Builder::CHECKBOX_LIMIT` |
 | A text field's label is cut at 20 characters | `WhatsApp::Flow::Builder::LABEL_LIMITS` |
 | The form's title and send button use the business's language | `WhatsApp::Flow::Builder#run` |
-| The form button is always the last button | `Campaign::Composer#ordered_buttons` |
+| The form button is always the last button | `Template::Button.with_flow_last` |
 | Answers replace the contact's values, including the name | `WhatsApp::Flow::Submitted#run` |
 | The Inbox lists the answers in the form's order | `Message::FlowReplyComponent` |
 
@@ -82,6 +86,9 @@ captured from the real application under the shared screenshot standard:
 - The message editor with the **Fill the form** button last under the message
   and in the phone preview, after step 5.
 - The **Form submitted** message in a conversation, in "Where the answers go".
+
+A fourth is pending for "Add a form to a journey": the **Send a text message**
+step with the form tool and its **Sending channels**.
 
 The table of what a form can ask for and the "Good to know" list stay in prose:
 they explain rules, not screens.

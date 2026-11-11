@@ -1,8 +1,8 @@
 Pedirle sus datos a un cliente por chat lleva una cadena de mensajes: una pregunta, una respuesta y mucha espera entre una y otra. Muchos clientes dejan de responder a mitad de camino.
 
-Un **formulario de WhatsApp** pide todo de una vez. Tu mensaje de campaña lleva un botón. El cliente lo toca, se abre un formulario corto dentro de WhatsApp, lo completa y lo envía. Nunca sale del chat, y sus respuestas quedan guardadas en su perfil en Hellotext.
+Un **formulario de WhatsApp** pide todo de una vez. Tu mensaje lleva un botón. El cliente lo toca, se abre un formulario corto dentro de WhatsApp, lo completa y lo envía. Nunca sale del chat, y sus respuestas quedan guardadas en su perfil en Hellotext.
 
-Esta guía explica cómo ayuda el formulario, cómo agregar uno a una campaña y a dónde van las respuestas.
+Esta guía explica cómo ayuda el formulario, cómo agregar uno a una campaña o a una ruta y a dónde van las respuestas.
 
 ## Cómo ayuda a tu negocio
 
@@ -13,7 +13,7 @@ Esta guía explica cómo ayuda el formulario, cómo agregar uno a una campaña y
 
 ## Qué ve tu cliente
 
-Tu cliente recibe el mensaje de la campaña como siempre. Debajo del texto, después de los demás botones, hay un botón que dice **Completar formulario**.
+Tu cliente recibe tu mensaje como siempre. Debajo del texto, después de los demás botones, hay un botón que dice **Completar formulario**.
 
 Al tocarlo se abre un formulario dentro de WhatsApp, con un campo por cada dato que pediste, en el orden que elegiste. El cliente lo completa y lo envía, y el chat muestra que el formulario fue enviado.
 
@@ -22,9 +22,9 @@ Los textos propios del formulario, como su título y su botón de envío, se esc
 ## Antes de empezar
 
 - **WhatsApp está conectado.** El formulario es una función de WhatsApp. Consulta [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}).
-- **La campaña se envía por WhatsApp.** Puede ser una campaña de WhatsApp, o una que se envía por SMS y WhatsApp. La herramienta no aparece en campañas que solo se envían por SMS o Email. En una campaña con los dos canales, los clientes que reciben el SMS reciben el texto sin el formulario.
+- **El mensaje puede salir por WhatsApp.** En una campaña, la herramienta aparece cuando la campaña se envía por WhatsApp, solo o junto con SMS. En una ruta, la herramienta está siempre en la barra de un paso **Enviar un mensaje**, y queda deshabilitada mientras WhatsApp no sea uno de los canales del paso. Los clientes que reciben el mensaje por otro canal reciben el texto sin el formulario.
 - **Las propiedades que quieres completar existen.** Un formulario puede pedir el nombre del contacto y propiedades de tu negocio, como el cumpleaños o una propiedad personalizada que hayas creado. Consulta [Propiedades y eventos personalizados]({% link _audience/custom-properties-and-events.md %}).
-- **Meta acepta tu negocio para formularios.** Meta solo publica formularios de negocios que ha verificado y que mantienen una buena calidad de mensajería. El mensaje de la campaña también pasa por la aprobación de Meta, como cualquier campaña de WhatsApp.
+- **Meta acepta tu negocio para formularios.** Meta solo publica formularios de negocios que ha verificado y que mantienen una buena calidad de mensajería. El mensaje también pasa por la aprobación de Meta, como cualquier plantilla de WhatsApp.
 
 ## Agrega un formulario a una campaña
 
@@ -36,6 +36,19 @@ Los textos propios del formulario, como su título y su botón de envío, se esc
 6. Termina la campaña y envíala como siempre.
 
 Para quitar el formulario de la campaña, quita todas sus etiquetas.
+
+## Agrega un formulario a una ruta
+
+Un formulario funciona igual en un mensaje que envía una ruta. Consulta [Ruta personalizada]({% link _journeys/custom-journey.md %}).
+
+1. Abre la ruta y agrega o abre un paso **Enviar un mensaje**.
+2. En **Canales de envío**, asegúrate de que WhatsApp sea uno de los canales que el paso puede usar. Con **Cualquier canal disponible**, WhatsApp cuenta cuando tu negocio lo tiene conectado.
+3. Haz clic en el icono del formulario <img style='display: inline;'  src="{{site.url}}/images/icons/editor/note-alt.svg">, elige las propiedades y ordénalas, igual que en una campaña.
+4. Guarda el paso.
+
+La herramienta de formulario siempre está visible en este paso, pero queda deshabilitada mientras WhatsApp no esté entre los canales del paso. Si quitas WhatsApp de un paso que tiene un formulario, el botón **Completar formulario** sale del mensaje. Vuelve a seleccionar WhatsApp antes de guardar y el formulario que elegiste regresa.
+
+Los pasos **Hacer una pregunta** no tienen la herramienta de formulario.
 
 ## Qué puede pedir un formulario
 
@@ -67,12 +80,13 @@ Completar un formulario no suscribe al contacto ni cambia su consentimiento. Con
 - **Las preguntas son obligatorias.** El cliente tiene que responder todas las preguntas para enviar el formulario, salvo el cumpleaños y las casillas.
 - **Hasta cinco casillas.** WhatsApp permite cinco propiedades de Checkbox en un formulario.
 - **Usa nombres de propiedad cortos.** El nombre de la propiedad es la etiqueta de su pregunta, y WhatsApp limita la etiqueta de un campo de texto a 20 caracteres. Los nombres más largos se cortan.
-- **Solo en campañas.** La herramienta de formulario está disponible en campañas. Los Journeys, los playbooks y las respuestas del Inbox no la tienen.
+- **Campañas y rutas.** La herramienta de formulario está disponible en campañas y en el paso **Enviar un mensaje** de una ruta. Los pasos **Hacer una pregunta**, los playbooks y las respuestas del Inbox no la tienen.
 
 ## Guías relacionadas
 
 - [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})
 - [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
+- [Ruta personalizada]({% link _journeys/custom-journey.md %})
 - [Propiedades y eventos personalizados]({% link _audience/custom-properties-and-events.md %})
 - [Consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
 - [Comparte una ubicación]({% link _numbers/share-a-location.md %})

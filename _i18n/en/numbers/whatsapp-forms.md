@@ -1,8 +1,8 @@
 Asking a customer for their details over chat takes a string of messages: one question, one answer, and a lot of waiting in between. Many customers stop replying halfway.
 
-A **WhatsApp form** asks for everything at once. Your campaign message carries a button. The customer taps it, a short form opens inside WhatsApp, they fill it in and send it. They never leave the chat, and their answers are saved on their profile in Hellotext.
+A **WhatsApp form** asks for everything at once. Your message carries a button. The customer taps it, a short form opens inside WhatsApp, they fill it in and send it. They never leave the chat, and their answers are saved on their profile in Hellotext.
 
-This guide explains how the form helps, how to add one to a campaign, and where the answers go.
+This guide explains how the form helps, how to add one to a campaign or to a journey, and where the answers go.
 
 ## How it helps your business
 
@@ -13,7 +13,7 @@ This guide explains how the form helps, how to add one to a campaign, and where 
 
 ## What your customer sees
 
-Your customer receives the campaign message as usual. Below the text, after any other buttons, there is a button that reads **Fill the form**.
+Your customer receives your message as usual. Below the text, after any other buttons, there is a button that reads **Fill the form**.
 
 Tapping it opens a form inside WhatsApp, with one field for each detail you asked for, in the order you chose. The customer fills it in and sends it, and the chat shows that the form was submitted.
 
@@ -22,9 +22,9 @@ The form's own texts, such as its title and its send button, are written in your
 ## Before you start
 
 - **WhatsApp is connected.** The form is a WhatsApp feature. See [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %}).
-- **The campaign targets WhatsApp.** It can be a WhatsApp campaign, or one that sends by SMS and WhatsApp. The tool does not appear in campaigns that only send SMS or Email. In a campaign with both channels, customers who get the SMS receive the text without the form.
+- **The message can go out by WhatsApp.** In a campaign, the tool appears when the campaign targets WhatsApp, alone or together with SMS. In a journey, the tool is always in the toolbar of a **Send a text message** step, and it is disabled while WhatsApp is not one of the step's channels. Customers who get the message by another channel receive the text without the form.
 - **The properties you want to fill exist.** A form can ask for the contact's name and for properties of your business, such as birthday or a custom property you created. See [Custom properties and events]({% link _audience/custom-properties-and-events.md %}).
-- **Meta accepts your business for forms.** Meta only publishes forms for businesses it has verified and that keep a good messaging quality. The campaign's message also goes through Meta's approval, like any WhatsApp campaign.
+- **Meta accepts your business for forms.** Meta only publishes forms for businesses it has verified and that keep a good messaging quality. The message also goes through Meta's approval, like any WhatsApp template.
 
 ## Add a form to a campaign
 
@@ -36,6 +36,19 @@ The form's own texts, such as its title and its send button, are written in your
 6. Finish the campaign and send it as usual.
 
 To take the form off the campaign, remove all of its tags.
+
+## Add a form to a journey
+
+A form works the same way in a message a journey sends. See [Custom journey]({% link _journeys/custom-journey.md %}).
+
+1. Open the journey and add or open a **Send a text message** step.
+2. Under **Sending channels**, make sure WhatsApp is one of the channels the step can use. With **Any available channel**, WhatsApp counts when your business has it connected.
+3. Click the form icon <img style='display: inline;'  src="{{site.url}}/images/icons/editor/note-alt.svg">, pick the properties and put them in order, as in a campaign.
+4. Save the step.
+
+The form tool is always visible in this step, but it is disabled while WhatsApp is not among the step's channels. If you take WhatsApp off a step that has a form, the **Fill the form** button leaves the message. Select WhatsApp again before you save and the form you picked comes back.
+
+**Ask a question** steps do not have the form tool.
 
 ## What a form can ask for
 
@@ -67,12 +80,13 @@ Filling in a form does not subscribe the contact or change their consent. See [C
 - **Questions are required.** The customer has to answer every question to send the form, except the birthday and the checkboxes.
 - **Up to five checkboxes.** WhatsApp allows five Checkbox properties on a form.
 - **Keep property names short.** The property's name is the label of its question, and WhatsApp limits a text field's label to 20 characters. Longer names are cut.
-- **Campaigns only.** The form tool is available in campaigns. Journeys, playbooks and Inbox replies do not have it.
+- **Campaigns and journeys.** The form tool is available in campaigns and in the **Send a text message** step of a journey. **Ask a question** steps, playbooks and Inbox replies do not have it.
 
 ## Related guides
 
 - [Message editor overview]({% link _numbers/message-editor-overview.md %})
 - [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
+- [Custom journey]({% link _journeys/custom-journey.md %})
 - [Custom properties and events]({% link _audience/custom-properties-and-events.md %})
 - [Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
 - [Share a location]({% link _numbers/share-a-location.md %})
