@@ -138,7 +138,7 @@ If your plan does not include the Team inbox, the option shows **Upgrade to Grow
 
 Supervisors only make a difference while the Team inbox is on, so that is when Hellotext lets you name them. You can do it in two places.
 
-**When you invite someone.** After the Inbox capacity step, Hellotext asks **What should this member manage in their teams?** Choose **Regular teammate** or **Team supervisor**. The question appears when the person is an Agent and you added them to at least one team besides the General queue. A supervisor chosen here supervises the teams you selected for them.
+**When you invite someone.** After the Inbox capacity step, Hellotext asks **What should this member manage in their teams?** Choose **Regular teammate** or **Team supervisor**. The question appears when the person is an Agent and you added them to at least one team besides the General queue. A supervisor chosen here supervises the teams you selected for them. On the Grow plan the invitation does not add people to teams, so this question does not appear. There you name supervisors from the team itself.
 
 **For someone already on a team.** Open the team in the **Teams** tab and add the person under **Supervisors**. Only members of that team can supervise it.
 
