@@ -40,7 +40,7 @@ Si tu tienda muestra el banner de cookies de BigCommerce, cada parte de Hellotex
 | Categoría | Qué carga |
 | --- | --- |
 | Funcional | Webchat y widget de WhatsApp |
-| Targeting | Popups y notificaciones push |
+| Targeting | Popups |
 | Analítica | Actividad de visitas y carrito, que también activa mensajes como el recordatorio de carrito |
 
 Mostrar el banner y cumplir las normas de privacidad que apliquen a tu tienda es tu responsabilidad. Sin banner, todo carga.
@@ -50,6 +50,7 @@ Mostrar el banner y cumplir las normas de privacidad que apliquen a tu tienda es
 - **Órdenes entregadas:** BigCommerce no tiene estado de entregada. Hellotext considera entregadas las órdenes **Completed**, así que los mensajes de entrega dependen de que tu equipo use ese estado.
 - **Recordatorio a invitados:** BigCommerce avisa de un carrito abandonado después de al menos una hora sin cambios.
 - **Productos que exigen una elección:** los productos con una opción obligatoria, como un grabado, no pueden ir en un link de recuperación de carrito.
+- **Notificaciones push:** todavía no están disponibles para tiendas BigCommerce.
 - **Cambio de email de la cuenta:** si cambia el email de tu cuenta de BigCommerce, abre otra vez la app de Hellotext para autorizarla.
 
 ## Revisa la conexión

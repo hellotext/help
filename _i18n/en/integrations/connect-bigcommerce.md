@@ -40,7 +40,7 @@ If your store shows the BigCommerce cookie banner, each part of Hellotext loads 
 | Category | What loads |
 | --- | --- |
 | Functional | Webchat and the WhatsApp widget |
-| Targeting | Popups and Push notifications |
+| Targeting | Popups |
 | Analytics | Visit and cart activity, which also starts messages such as the cart reminder |
 
 Showing the banner, and complying with the privacy rules that apply to your store, is your responsibility. Without a banner, everything loads.
@@ -50,6 +50,7 @@ Showing the banner, and complying with the privacy rules that apply to your stor
 - **Delivered orders:** BigCommerce has no delivered status. Hellotext treats **Completed** orders as delivered, so delivery messages depend on your team using that status.
 - **Cart reminders for guests:** BigCommerce reports an abandoned cart after at least one hour without changes.
 - **Products that require a choice:** products with a required option, such as an engraving, cannot go in a cart recovery link.
+- **Push notifications:** not available for BigCommerce stores yet.
 - **Changing your account email:** if the email of your BigCommerce account changes, open the Hellotext app again to authorize it.
 
 ## Check the connection
