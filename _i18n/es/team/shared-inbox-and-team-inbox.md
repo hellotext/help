@@ -20,7 +20,7 @@ Imagina una empresa con escritorios separados para Ventas, Soporte y Devolucione
 - Un supervisor de equipo ve todas las conversaciones de los equipos que tiene a su cargo.
 - Los Managers, los Administradores y el Dueño siguen viendo todo.
 - Es ideal para negocios con áreas, sucursales o turnos separados, con conversaciones sensibles, o donde las personas se pisan el trabajo entre sí.
-- Está disponible en los planes Pro y Enterprise.
+- Está disponible en los planes Grow, Pro y Enterprise.
 
 Cambiar de una a otra no mueve, reasigna ni elimina ninguna conversación. Solo cambia quién puede ver qué.
 
@@ -132,13 +132,13 @@ El cambio se aplica a todos de inmediato. El Inbox que tus agentes tienen abiert
 
 Para volver, selecciona **Bandeja compartida** en el mismo lugar. Se aplica al instante y no pide confirmación.
 
-Si tu plan no incluye la Bandeja por equipo, la opción muestra **Mejorar a Pro para habilitar esta función**.
+Si tu plan no incluye la Bandeja por equipo, la opción muestra **Mejorar a Grow para habilitar esta función**.
 
 ## Elige a tus supervisores
 
 Los supervisores solo hacen diferencia mientras la Bandeja por equipo está activa, y es entonces cuando Hellotext te permite nombrarlos. Puedes hacerlo en dos lugares.
 
-**Cuando invitas a alguien.** Después del paso de capacidad del Inbox, Hellotext pregunta **¿Qué debe gestionar este miembro en sus equipos?** Elige **Miembro regular** o **Supervisor de equipo**. La pregunta aparece cuando la persona es Agente y la agregaste a por lo menos un equipo además de la Cola general. Quien queda como supervisor aquí supervisa los equipos que seleccionaste para esa persona.
+**Cuando invitas a alguien.** Después del paso de capacidad del Inbox, Hellotext pregunta **¿Qué debe gestionar este miembro en sus equipos?** Elige **Miembro regular** o **Supervisor de equipo**. La pregunta aparece cuando la persona es Agente y la agregaste a por lo menos un equipo además de la Cola general. Quien queda como supervisor aquí supervisa los equipos que seleccionaste para esa persona. En el plan Grow la invitación no agrega personas a equipos, así que esta pregunta no aparece. Allí nombras a los supervisores desde el propio equipo.
 
 **Para alguien que ya está en un equipo.** Abre el equipo en la pestaña **Equipo** y agrega a la persona en **Supervisores**. Solo los miembros de ese equipo pueden supervisarlo.
 

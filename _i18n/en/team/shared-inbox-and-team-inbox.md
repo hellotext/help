@@ -20,7 +20,7 @@ Picture a company with separate desks for Sales, Support and Returns. Each perso
 - A team supervisor sees every conversation of the teams they look after.
 - Managers, Administrators and the Owner still see everything.
 - It suits businesses with separate areas, branches or shifts, with sensitive conversations, or where people keep stepping on each other's work.
-- It is available on the Pro and Enterprise plans.
+- It is available on the Grow, Pro and Enterprise plans.
 
 Switching between the two does not move, reassign or delete any conversation. It only changes who can see what.
 
@@ -132,13 +132,13 @@ The change applies to everyone right away. The Inbox your agents have open reloa
 
 To go back, select **Shared Inbox** in the same place. It applies at once and asks for no confirmation.
 
-If your plan does not include the Team inbox, the option shows **Upgrade to Pro to enable this feature** instead.
+If your plan does not include the Team inbox, the option shows **Upgrade to Grow to enable this feature** instead.
 
 ## Choose your supervisors
 
 Supervisors only make a difference while the Team inbox is on, so that is when Hellotext lets you name them. You can do it in two places.
 
-**When you invite someone.** After the Inbox capacity step, Hellotext asks **What should this member manage in their teams?** Choose **Regular teammate** or **Team supervisor**. The question appears when the person is an Agent and you added them to at least one team besides the General queue. A supervisor chosen here supervises the teams you selected for them.
+**When you invite someone.** After the Inbox capacity step, Hellotext asks **What should this member manage in their teams?** Choose **Regular teammate** or **Team supervisor**. The question appears when the person is an Agent and you added them to at least one team besides the General queue. A supervisor chosen here supervises the teams you selected for them. On the Grow plan the invitation does not add people to teams, so this question does not appear. There you name supervisors from the team itself.
 
 **For someone already on a team.** Open the team in the **Teams** tab and add the person under **Supervisors**. Only members of that team can supervise it.
 
