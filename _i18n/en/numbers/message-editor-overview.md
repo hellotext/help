@@ -77,3 +77,4 @@ Writing content is one part of setup. Before launching, review permission for th
 - [Tracked links]({% link _analytics-reporting-attribution/tracked-links.md %})
 - [Personalization tags]({% link _audience/personalization-tags.md %})
 - [Share a location]({% link _numbers/share-a-location.md %})
+- [Collect customer details with a WhatsApp form]({% link _numbers/whatsapp-forms.md %})

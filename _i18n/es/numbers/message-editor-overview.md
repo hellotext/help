@@ -77,3 +77,4 @@ Redactar el contenido es una parte de la configuración. Antes de lanzar, revisa
 - [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %})
 - [Etiquetas de personalización]({% link _audience/personalization-tags.md %})
 - [Comparte una ubicación]({% link _numbers/share-a-location.md %})
+- [Recopila datos de tus clientes con un formulario de WhatsApp]({% link _numbers/whatsapp-forms.md %})
