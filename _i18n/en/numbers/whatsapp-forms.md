@@ -13,7 +13,7 @@ This guide explains how the form helps, how to add one to a campaign or to a jou
 
 ## What your customer sees
 
-Your customer receives your message as usual. Below the text, after any other buttons, there is a button that reads **Fill the form**.
+Your customer receives your message as usual. Below the text, after any other buttons, there is a button that reads **Fill the form**, or the text you chose for it.
 
 Tapping it opens a form inside WhatsApp, with one field for each detail you asked for, in the order you chose. The customer fills it in and sends it, and the chat shows that the form was submitted.
 
@@ -32,8 +32,9 @@ The form's own texts, such as its title and its send button, are written in your
 2. In the editor's toolbar, click the form icon <img style='display: inline;'  src="{{site.url}}/images/icons/editor/note-alt.svg">. Its tooltip reads **Add WhatsApp form**.
 3. Click **Add properties to collect** and pick what you want to ask for. Each property you pick appears as a tag.
 4. Drag the tags to put them in order. The form asks its questions in that order. To remove one, move the pointer over its tag and click the ✕.
-5. Close the tool. A **Fill the form** button now appears as the last button under your message, and as the last button in the phone preview. Click it to open the tool again.
-6. Finish the campaign and send it as usual.
+5. To change what the button says, edit **Button text**. It starts as **Fill the form** and can be up to 25 characters long.
+6. Close the tool. The form's button now appears as the last button under your message, and as the last button in the phone preview. Click it to open the tool again.
+7. Finish the campaign and send it as usual.
 
 To take the form off the campaign, remove all of its tags.
 
@@ -43,10 +44,10 @@ A form works the same way in a message a journey sends. See [Custom journey]({% 
 
 1. Open the journey and add or open a **Send a text message** step.
 2. Under **Sending channels**, make sure WhatsApp is one of the channels the step can use. With **Any available channel**, WhatsApp counts when your business has it connected.
-3. Click the form icon <img style='display: inline;'  src="{{site.url}}/images/icons/editor/note-alt.svg">, pick the properties and put them in order, as in a campaign.
+3. Click the form icon <img style='display: inline;'  src="{{site.url}}/images/icons/editor/note-alt.svg">, pick the properties, put them in order and set the button text, as in a campaign.
 4. Save the step.
 
-The form tool is always visible in this step, but it is disabled while WhatsApp is not among the step's channels. If you take WhatsApp off a step that has a form, the **Fill the form** button leaves the message. Select WhatsApp again before you save and the form you picked comes back.
+The form tool is always visible in this step, but it is disabled while WhatsApp is not among the step's channels. If you take WhatsApp off a step that has a form, the form's button leaves the message. Select WhatsApp again before you save and the form you picked comes back.
 
 **Ask a question** steps do not have the form tool.
 
@@ -76,7 +77,8 @@ Filling in a form does not subscribe the contact or change their consent. See [C
 
 ## Good to know
 
-- **One form per message.** Its button is always the last button, and it always reads **Fill the form**.
+- **One form per message.** Its button is always the last button.
+- **Button text.** You choose what the button says, up to 25 characters. If you leave it empty, it reads **Fill the form**. Emojis are removed.
 - **Questions are required.** The customer has to answer every question to send the form, except the birthday and the checkboxes.
 - **Up to five checkboxes.** WhatsApp allows five Checkbox properties on a form.
 - **Keep property names short.** The property's name is the label of its question, and WhatsApp limits a text field's label to 20 characters. Longer names are cut.

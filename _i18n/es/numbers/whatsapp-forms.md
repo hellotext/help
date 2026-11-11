@@ -13,7 +13,7 @@ Esta guía explica cómo ayuda el formulario, cómo agregar uno a una campaña o
 
 ## Qué ve tu cliente
 
-Tu cliente recibe tu mensaje como siempre. Debajo del texto, después de los demás botones, hay un botón que dice **Completar formulario**.
+Tu cliente recibe tu mensaje como siempre. Debajo del texto, después de los demás botones, hay un botón que dice **Completar formulario**, o el texto que hayas elegido.
 
 Al tocarlo se abre un formulario dentro de WhatsApp, con un campo por cada dato que pediste, en el orden que elegiste. El cliente lo completa y lo envía, y el chat muestra que el formulario fue enviado.
 
@@ -32,8 +32,9 @@ Los textos propios del formulario, como su título y su botón de envío, se esc
 2. En la barra de herramientas del editor, haz clic en el icono del formulario <img style='display: inline;'  src="{{site.url}}/images/icons/editor/note-alt.svg">. Al pasar el cursor sobre él se lee **Agregar formulario de WhatsApp**.
 3. Haz clic en **Agregar propiedades a recopilar** y elige lo que quieres pedir. Cada propiedad que eliges aparece como una etiqueta.
 4. Arrastra las etiquetas para ordenarlas. El formulario hace sus preguntas en ese orden. Para quitar una, pasa el cursor sobre su etiqueta y haz clic en la ✕.
-5. Cierra la herramienta. Ahora aparece un botón **Completar formulario** como último botón debajo de tu mensaje, y como último botón en la vista previa del teléfono. Haz clic en él para volver a abrir la herramienta.
-6. Termina la campaña y envíala como siempre.
+5. Para cambiar lo que dice el botón, edita **Texto del botón**. Empieza como **Completar formulario** y puede tener hasta 25 caracteres.
+6. Cierra la herramienta. Ahora el botón del formulario aparece como último botón debajo de tu mensaje, y como último botón en la vista previa del teléfono. Haz clic en él para volver a abrir la herramienta.
+7. Termina la campaña y envíala como siempre.
 
 Para quitar el formulario de la campaña, quita todas sus etiquetas.
 
@@ -43,10 +44,10 @@ Un formulario funciona igual en un mensaje que envía una ruta. Consulta [Ruta p
 
 1. Abre la ruta y agrega o abre un paso **Enviar un mensaje**.
 2. En **Canales de envío**, asegúrate de que WhatsApp sea uno de los canales que el paso puede usar. Con **Cualquier canal disponible**, WhatsApp cuenta cuando tu negocio lo tiene conectado.
-3. Haz clic en el icono del formulario <img style='display: inline;'  src="{{site.url}}/images/icons/editor/note-alt.svg">, elige las propiedades y ordénalas, igual que en una campaña.
+3. Haz clic en el icono del formulario <img style='display: inline;'  src="{{site.url}}/images/icons/editor/note-alt.svg">, elige las propiedades, ordénalas y define el texto del botón, igual que en una campaña.
 4. Guarda el paso.
 
-La herramienta de formulario siempre está visible en este paso, pero queda deshabilitada mientras WhatsApp no esté entre los canales del paso. Si quitas WhatsApp de un paso que tiene un formulario, el botón **Completar formulario** sale del mensaje. Vuelve a seleccionar WhatsApp antes de guardar y el formulario que elegiste regresa.
+La herramienta de formulario siempre está visible en este paso, pero queda deshabilitada mientras WhatsApp no esté entre los canales del paso. Si quitas WhatsApp de un paso que tiene un formulario, el botón del formulario sale del mensaje. Vuelve a seleccionar WhatsApp antes de guardar y el formulario que elegiste regresa.
 
 Los pasos **Hacer una pregunta** no tienen la herramienta de formulario.
 
@@ -76,7 +77,8 @@ Completar un formulario no suscribe al contacto ni cambia su consentimiento. Con
 
 ## Para tener en cuenta
 
-- **Un formulario por mensaje.** Su botón siempre es el último, y siempre dice **Completar formulario**.
+- **Un formulario por mensaje.** Su botón siempre es el último.
+- **Texto del botón.** Tú eliges lo que dice el botón, hasta 25 caracteres. Si lo dejas vacío, dice **Completar formulario**. Los emojis se quitan.
 - **Las preguntas son obligatorias.** El cliente tiene que responder todas las preguntas para enviar el formulario, salvo el cumpleaños y las casillas.
 - **Hasta cinco casillas.** WhatsApp permite cinco propiedades de Checkbox en un formulario.
 - **Usa nombres de propiedad cortos.** El nombre de la propiedad es la etiqueta de su pregunta, y WhatsApp limita la etiqueta de un campo de texto a 20 caracteres. Los nombres más largos se cortan.

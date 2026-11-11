@@ -15,11 +15,11 @@ The guide follows the implementation in the Hellotext Rails repository:
 - [#7039](https://github.com/hellotext/hellotext/pull/7039) (merged): the form
   button on a WhatsApp template, the submitted form as an Inbox message and the
   answers saved to the contact.
-- Branch `whatsapp-flow-composer` (not yet a pull request): the form tool in
+- [#7040](https://github.com/hellotext/hellotext/pull/7040) (open): the form tool in
   the campaign editor and in the journey **Send a text message** step, the form
   button shown last under the message and in the preview, and the **Form
   submitted** card in the Inbox. Every interface label quoted in the guide comes
-  from this branch and can still change in review.
+  from this PR and can still change in review.
 
 ## Article inventory
 
@@ -64,6 +64,8 @@ about **Ask a question** steps or playbooks, where the tool is not available.
 | A text field's label is cut at 20 characters | `WhatsApp::Flow::Builder::LABEL_LIMITS` |
 | The form's title and send button use the business's language | `WhatsApp::Flow::Builder#run` |
 | The form button is always the last button | `Template::Button.with_flow_last` |
+| The button's text is the merchant's, up to 25 characters, and the default when left empty | `Compose::Toolbar::FlowComponent`, `compose/toolbar/flow_controller.js`, `WhatsApp::Template::Component::Button::TEXT_MAX_LENGTH` |
+| Emojis are removed from the button's text | `Template::Button` title handling |
 | Answers replace the contact's values, including the name | `WhatsApp::Flow::Submitted#run` |
 | The Inbox lists the answers in the form's order | `Message::FlowReplyComponent` |
 
