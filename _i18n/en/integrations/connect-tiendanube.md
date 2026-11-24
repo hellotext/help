@@ -1,6 +1,6 @@
 Connect your Tiendanube store to bring its catalog, customers and orders into Hellotext, record what shoppers do in the store and at checkout, and see which carts were abandoned.
 
-You connect by installing the Hellotext app on Tiendanube, from Hellotext or from the Tiendanube App Store. You don't need to edit your theme or paste code: the app installs its own scripts in the store and at checkout.
+Start in **Settings > Integrations** in Hellotext. The app adds tracking to your store and checkout without theme changes or code to paste.
 
 ## What the integration syncs
 
@@ -12,6 +12,8 @@ You connect by installing the Hellotext app on Tiendanube, from Hellotext or fro
 - **Abandoned carts:** when a shopper starts checkout and doesn't buy, Hellotext records the abandoned cart with its products and the link to resume the purchase.
 
 Importing a customer or receiving their email does not grant permission to message them. Check consent for each channel before including them in campaigns.
+
+This integration tracks shopper activity. It does not install Hellotext popups, webchat or the WhatsApp widget.
 
 ## Before you connect
 
@@ -28,9 +30,11 @@ Make sure that:
 3. If asked, sign in to your store's admin. Tiendanube shows the permissions Hellotext requests: accept them to install the app.
 4. Tiendanube sends you back to Hellotext with the store connected and the question about importing your customers.
 
-## Connect from the Tiendanube App Store
+After connecting, check that visits and orders reach Hellotext using the test below.
 
-1. In the Tiendanube App Store, find **Hellotext** and install it. Accept the permissions it requests.
+## Connect with an installation link
+
+1. If the Hellotext team gave you an installation link, open it while signed in to the Tiendanube store you want to connect. Review and accept the requested permissions.
 2. Tiendanube takes you to Hellotext:
    - If you're already signed in to Hellotext, in **Where to install your shop?** choose the business and then **Install**, or choose **Install on a new business**.
    - If you don't have an account, create your account and your business. The store is connected to that business.
@@ -45,9 +49,9 @@ Each import creates a **Tienda Nube import #1** list (the number goes up with ea
 
 ## Check that everything works
 
-- **In Settings:** the store appears in **Settings > Integrations** with its name.
-- **In the store:** open a product, add it to the cart, start checkout and type a test email.
-- **In Hellotext:** open **Audience**, find that email and check its **Activity**: the added product, the viewed cart and the started checkout appear there. If you complete the purchase, the order appears as **Placed order** with its Tiendanube number a few minutes later.
+1. In **Settings > Integrations**, confirm that your store appears by name.
+2. In your store, open a product, add it to the cart, start checkout and enter a test email. If you can safely place a test order, complete it and note its Tiendanube order number.
+3. In Hellotext, go to **Audience**, search for that email and open the profile's **Activity**. Look for the product view, cart activity and checkout start. If you placed an order, open **Placed order** and check that it has the same number as in Tiendanube.
 
 Abandoned carts don't appear right away: Hellotext waits until the shopper stops using the cart or checkout before recording it.
 
@@ -63,7 +67,7 @@ To remove the app from the store, uninstall it from the Tiendanube admin, in **M
 - **"This business already has a Tienda Nube store connected".** The business already has another store connected. Remove that connection or connect the new store to another business.
 - **"This Tienda Nube store is already connected to another Hellotext account".** The store is connected to another Hellotext business. Remove the connection from that business before connecting it here.
 - **"Could not authorize the Tienda Nube store".** Tiendanube didn't complete the authorization. Choose **Tiendanube** in **Browse integrations** again and accept the permissions.
-- **Store activity doesn't appear.** Check that the app is still installed in Tiendanube's **My apps** and test in a private window without ad blockers. Views and cart activity land on the shopper's profile once they type their email at checkout.
+- **Store activity doesn't appear.** If the order appears but the browsing activity is missing, check that Hellotext is still installed under **My apps** in Tiendanube. Repeat the test in a private window without ad blockers. If it still fails, send support the store URL or ID, the page you tested, the approximate time and the order number if available.
 - **An order takes a while to appear.** A new order can take a few minutes to arrive. If it hasn't appeared after 30 minutes, share the order number and the time with support.
 
 When asking Hellotext support for help, share the store name, the order number or the shopper's email, the time of the problem and the exact message. Don't share passwords or tokens.
